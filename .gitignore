@@ -33,9 +33,14 @@ build/
 out/
 coverage/
 
-# Data (large corpora live outside the repo; pipelines populate locally)
+# Data
+# Bulk corpus files (raw/normalized MusicXML) live locally; only the
+# manifest, rejection log, candidate list, and report are committed so the
+# corpus is reproducible from those + the pipeline.
 /data/
-/corpus/
+/corpus/raw/
+/corpus/normalized/
+/corpus/cache/
 *.musicxml
 *.mxl
 *.pdf

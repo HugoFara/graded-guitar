@@ -1,0 +1,173 @@
+"""M1.2 — Fetch IMSLP MusicXML candidate files.
+
+Reads corpus/candidates.json, downloads each file, content-addresses the
+bytes by sha256 under corpus/raw/. Skips files already cached.
+
+Maintains corpus/cache/fetch_log.json mapping IMSLP file_id → sha256 +
+fetch metadata, so re-runs are idempotent without re-hitting IMSLP.
+
+Usage:
+    python scripts/m1_fetch.py
+    python scripts/m1_fetch.py --limit 50          # only fetch first 50 missing
+    python scripts/m1_fetch.py --force             # ignore cache, re-download
+    python scripts/m1_fetch.py --min-interval 2.0  # extra-polite
+
+See decisions/0005-ingest-pipeline.md for the architecture.
+"""
+from __future__ import annotations
+
+import argparse
+import sys
+from pathlib import Path
+from typing import Any
+
+from m1_common import (
+    CACHE_DIR,
+    RAW_DIR,
+    RateLimitedSession,
+    ensure_corpus_dirs,
+    load_candidates,
+    read_json,
+    sha256_bytes,
+    write_json_atomic,
+)
+
+FETCH_LOG_PATH = CACHE_DIR / "fetch_log.json"
+
+# IMSLP shows a disclaimer interstitial unless this cookie is set. The name
+# has historically been `imslpDisclaimerAccepted`; we set a few likely
+# variants to maximise the chance of bypassing the interstitial.
+DISCLAIMER_COOKIES = {
+    "imslpDisclaimerAccepted": "yes",
+    "imslp_wikiLanguageSelectorLanguage": "en",
+}
+
+MUSICXML_MAGIC = (
+    b"<?xml",
+    b"<score-partwise",
+    b"<score-timewise",
+    b"<!DOCTYPE score-partwise",
+)
+MXL_MAGIC = b"PK\x03\x04"   # zip signature
+
+
+def detect_format(blob: bytes) -> str | None:
+    """Return 'musicxml', 'mxl', or None if neither."""
+    head = blob[:64]
+    if blob.startswith(MXL_MAGIC):
+        return "mxl"
+    if any(head.lstrip().startswith(magic) for magic in MUSICXML_MAGIC):
+        return "musicxml"
+    # Some files start with a BOM
+    if blob.startswith(b"\xef\xbb\xbf") and b"<?xml" in blob[:128]:
+        return "musicxml"
+    return None
+
+
+def fetch_one(
+    session: RateLimitedSession, url: str
+) -> tuple[bytes, str] | tuple[None, str]:
+    """Returns (blob, format) or (None, reason)."""
+    try:
+        for cookie_name, cookie_value in DISCLAIMER_COOKIES.items():
+            session.session.cookies.set(cookie_name, cookie_value, domain="imslp.org")
+        resp = session.get(url, allow_redirects=True)
+    except Exception as exc:
+        return None, f"network_error: {exc}"
+    if resp.status_code != 200:
+        return None, f"http_{resp.status_code}"
+    blob = resp.content
+    if not blob:
+        return None, "empty_body"
+    fmt = detect_format(blob)
+    if fmt is None:
+        return None, "format_undetected"
+    return blob, fmt
+
+
+def save_blob(blob: bytes, fmt: str) -> tuple[str, Path]:
+    digest = sha256_bytes(blob)
+    ext = "mxl" if fmt == "mxl" else "musicxml"
+    path = RAW_DIR / f"{digest}.{ext}"
+    if not path.exists():
+        tmp = path.with_suffix(path.suffix + ".tmp")
+        tmp.write_bytes(blob)
+        tmp.replace(path)
+    return digest, path
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--limit", type=int, default=None)
+    parser.add_argument("--force", action="store_true",
+                        help="Ignore fetch_log and re-download everything.")
+    parser.add_argument("--min-interval", type=float, default=1.0)
+    args = parser.parse_args()
+
+    ensure_corpus_dirs()
+    candidates = load_candidates()
+    if not candidates:
+        print("No candidates.*.json found. Run a discovery script first "
+              "(e.g. scripts/m1_discover_github.py).",
+              file=sys.stderr)
+        return 1
+
+    fetch_log: dict[str, Any] = read_json(
+        FETCH_LOG_PATH, default={"version": 1, "entries": {}}
+    )
+    entries: dict[str, Any] = fetch_log.get("entries", {})
+
+    session = RateLimitedSession(min_interval_s=args.min_interval)
+
+    stats = {"fetched": 0, "cached": 0, "failed": 0}
+    failures: list[dict[str, Any]] = []
+
+    for i, c in enumerate(candidates, 1):
+        cid = c["candidate_id"]
+        if not args.force and cid in entries:
+            stats["cached"] += 1
+            continue
+        if args.limit is not None and stats["fetched"] >= args.limit:
+            break
+        url = c["file_url"]
+        print(f"  [{i}/{len(candidates)}] {cid} -> {url}")
+        result, info = fetch_one(session, url)
+        if result is None:
+            stats["failed"] += 1
+            failures.append({"candidate_id": cid, "url": url, "reason": info})
+            entries[cid] = {
+                "status": "failed",
+                "reason": info,
+                "url": url,
+            }
+            print(f"    FAILED: {info}")
+            continue
+        digest, path = save_blob(result, info)
+        stats["fetched"] += 1
+        entries[cid] = {
+            "status": "ok",
+            "sha256": digest,
+            "format": info,
+            "size_bytes": len(result),
+            "path": str(path.relative_to(RAW_DIR.parent.parent)),
+            "url": url,
+        }
+        print(f"    OK: {info}, {len(result)} bytes, sha256={digest[:12]}…")
+
+        # Flush log every 10 fetches so a crash doesn't lose progress.
+        if (stats["fetched"] + stats["failed"]) % 10 == 0:
+            write_json_atomic(FETCH_LOG_PATH, {"version": 1, "entries": entries})
+
+    write_json_atomic(FETCH_LOG_PATH, {"version": 1, "entries": entries})
+
+    print(
+        f"==> Fetched {stats['fetched']}, cached {stats['cached']}, "
+        f"failed {stats['failed']}"
+    )
+    if failures:
+        print(f"    First failures: {failures[:3]}")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

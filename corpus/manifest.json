@@ -1,0 +1,1026 @@
+{
+  "pieces": [
+    {
+      "candidate_id": "gh:KediMengistu/Tab2XML-Converter-Player@master:src/main/resources/musicXmlFiles/demo1.musicxml",
+      "file_url": "https://raw.githubusercontent.com/KediMengistu/Tab2XML-Converter-Player/master/src/main/resources/musicXmlFiles/demo1.musicxml",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "Guitar"
+      ],
+      "license": "Creative Commons Attribution Share Alike 4.0 International",
+      "license_spdx": "CC-BY-SA-4.0",
+      "metadata": {
+        "composer": "greaty",
+        "key_fifths": "0",
+        "opus": "",
+        "title": "demo1"
+      },
+      "normalized_path": "corpus/normalized/gh_KediMengistu_Tab2XML-Converter-Player_master_src_main_resources_musicXmlFiles_demo1.musicxml.musicxml",
+      "normalized_sha256": "b1374c1e6743b2492471f71a29f025197ec09e07414224d3811c943ccd37b972",
+      "page_url": "https://github.com/KediMengistu/Tab2XML-Converter-Player/blob/master/src/main/resources/musicXmlFiles/demo1.musicxml",
+      "parts": 1,
+      "raw_sha256": "010c6526f08fc3e54c746fc98dd3e7977c8a91de43b4217ff5611f6eb6af8014",
+      "source": "github"
+    },
+    {
+      "candidate_id": "gh:LYD01/music-teacher@main:public/pieces/adelita.musicxml",
+      "file_url": "https://raw.githubusercontent.com/LYD01/music-teacher/main/public/pieces/adelita.musicxml",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "Classical Guitar",
+        "Classical Guitar"
+      ],
+      "license": "unknown",
+      "license_spdx": "unknown",
+      "metadata": {
+        "composer": "Francisco Tárrega",
+        "key_fifths": "1",
+        "opus": "",
+        "title": "Adelita"
+      },
+      "normalized_path": "corpus/normalized/gh_LYD01_music-teacher_main_public_pieces_adelita.musicxml.musicxml",
+      "normalized_sha256": "32849af48fd449b740820e5ebe2340971bb42963adc1c1289015af71aa60c53c",
+      "page_url": "https://github.com/LYD01/music-teacher/blob/main/public/pieces/adelita.musicxml",
+      "parts": 1,
+      "raw_sha256": "2116b9107a89e69bff9b758aa2de665d92d216c1a83ae340258b76a907690d2a",
+      "source": "github"
+    },
+    {
+      "candidate_id": "gh:LYD01/music-teacher@main:public/pieces/am-dm-e-progression.musicxml",
+      "file_url": "https://raw.githubusercontent.com/LYD01/music-teacher/main/public/pieces/am-dm-e-progression.musicxml",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "Classical Guitar",
+        "Classical Guitar"
+      ],
+      "license": "unknown",
+      "license_spdx": "unknown",
+      "metadata": {
+        "composer": "Exercise",
+        "key_fifths": "0",
+        "opus": "",
+        "title": "Am - Dm - E Progression"
+      },
+      "normalized_path": "corpus/normalized/gh_LYD01_music-teacher_main_public_pieces_am-dm-e-progression.musicxml.musicxml",
+      "normalized_sha256": "539ee13c046b1f54f23fd775ab37aa2c88be25405dbe337f6677802a82cdd0bf",
+      "page_url": "https://github.com/LYD01/music-teacher/blob/main/public/pieces/am-dm-e-progression.musicxml",
+      "parts": 1,
+      "raw_sha256": "86a6a26006dc983616d6e3799ee3d9d8150dee9ef54e48c30459371bf388453e",
+      "source": "github"
+    },
+    {
+      "candidate_id": "gh:LYD01/music-teacher@main:public/pieces/asturias-theme.musicxml",
+      "file_url": "https://raw.githubusercontent.com/LYD01/music-teacher/main/public/pieces/asturias-theme.musicxml",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "Classical Guitar",
+        "Classical Guitar"
+      ],
+      "license": "unknown",
+      "license_spdx": "unknown",
+      "metadata": {
+        "composer": "Isaac Albéniz",
+        "key_fifths": "0",
+        "opus": "",
+        "title": "Asturias (Leyenda) - Theme"
+      },
+      "normalized_path": "corpus/normalized/gh_LYD01_music-teacher_main_public_pieces_asturias-theme.musicxml.musicxml",
+      "normalized_sha256": "3986c30a1c49affc4b39c8ecbe312972743948ca06ff83b2d33d89ef75c4d292",
+      "page_url": "https://github.com/LYD01/music-teacher/blob/main/public/pieces/asturias-theme.musicxml",
+      "parts": 1,
+      "raw_sha256": "3f4e412cbc10e484a0659d4009e6d986ea0ccf475bc08b74e90ac99f01672e8b",
+      "source": "github"
+    },
+    {
+      "candidate_id": "gh:LYD01/music-teacher@main:public/pieces/basic-open-chords.musicxml",
+      "file_url": "https://raw.githubusercontent.com/LYD01/music-teacher/main/public/pieces/basic-open-chords.musicxml",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "Classical Guitar",
+        "Classical Guitar"
+      ],
+      "license": "unknown",
+      "license_spdx": "unknown",
+      "metadata": {
+        "composer": "Exercise",
+        "key_fifths": "0",
+        "opus": "",
+        "title": "Basic Open Chords"
+      },
+      "normalized_path": "corpus/normalized/gh_LYD01_music-teacher_main_public_pieces_basic-open-chords.musicxml.musicxml",
+      "normalized_sha256": "6fb43b1a9308fdbfde86b214db96d3dcd0d27aa91560a8f84cb25fa6d9150507",
+      "page_url": "https://github.com/LYD01/music-teacher/blob/main/public/pieces/basic-open-chords.musicxml",
+      "parts": 1,
+      "raw_sha256": "c3ba719162d58cda35413ddfbfa0fb16ac37b07f66a68a06d23342c1814282aa",
+      "source": "github"
+    },
+    {
+      "candidate_id": "gh:LYD01/music-teacher@main:public/pieces/capricho-arabe.musicxml",
+      "file_url": "https://raw.githubusercontent.com/LYD01/music-teacher/main/public/pieces/capricho-arabe.musicxml",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "Classical Guitar",
+        "Classical Guitar"
+      ],
+      "license": "unknown",
+      "license_spdx": "unknown",
+      "metadata": {
+        "composer": "Francisco Tárrega",
+        "key_fifths": "-1",
+        "opus": "",
+        "title": "Capricho Árabe (Theme)"
+      },
+      "normalized_path": "corpus/normalized/gh_LYD01_music-teacher_main_public_pieces_capricho-arabe.musicxml.musicxml",
+      "normalized_sha256": "76a606c246358a4028a964a073d7aca8c034692ecc6b7fd257e276875aa8fd76",
+      "page_url": "https://github.com/LYD01/music-teacher/blob/main/public/pieces/capricho-arabe.musicxml",
+      "parts": 1,
+      "raw_sha256": "8107b3c835e633d21c7eaa5344b700c07d43feee4a70e6e2fb558c3eb00f6d47",
+      "source": "github"
+    },
+    {
+      "candidate_id": "gh:LYD01/music-teacher@main:public/pieces/estudio-am.musicxml",
+      "file_url": "https://raw.githubusercontent.com/LYD01/music-teacher/main/public/pieces/estudio-am.musicxml",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "Classical Guitar",
+        "Classical Guitar"
+      ],
+      "license": "unknown",
+      "license_spdx": "unknown",
+      "metadata": {
+        "composer": "Francisco Tárrega",
+        "key_fifths": "0",
+        "opus": "",
+        "title": "Estudio in A minor"
+      },
+      "normalized_path": "corpus/normalized/gh_LYD01_music-teacher_main_public_pieces_estudio-am.musicxml.musicxml",
+      "normalized_sha256": "94cead7ad607a2943dc94ae4ae8fd1207da61312048ae4632021b811bdccba2e",
+      "page_url": "https://github.com/LYD01/music-teacher/blob/main/public/pieces/estudio-am.musicxml",
+      "parts": 1,
+      "raw_sha256": "13e23522585fedf2b1821a6f18a2d0eba7f37f980cacc6b52c5deba67bd8ff87",
+      "source": "github"
+    },
+    {
+      "candidate_id": "gh:LYD01/music-teacher@main:public/pieces/farruca.musicxml",
+      "file_url": "https://raw.githubusercontent.com/LYD01/music-teacher/main/public/pieces/farruca.musicxml",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "Classical Guitar",
+        "Classical Guitar"
+      ],
+      "license": "unknown",
+      "license_spdx": "unknown",
+      "metadata": {
+        "composer": "Traditional Flamenco",
+        "key_fifths": "0",
+        "opus": "",
+        "title": "Farruca"
+      },
+      "normalized_path": "corpus/normalized/gh_LYD01_music-teacher_main_public_pieces_farruca.musicxml.musicxml",
+      "normalized_sha256": "d4ef88837f4079e177f9f969aa7656c05fda1cbad57c1b64330a7d9275cc2cfc",
+      "page_url": "https://github.com/LYD01/music-teacher/blob/main/public/pieces/farruca.musicxml",
+      "parts": 1,
+      "raw_sha256": "9ca2c51e2bb8ca05060ad7a5ffde952a7a9c9e6ed09e26e6404a198b12988763",
+      "source": "github"
+    },
+    {
+      "candidate_id": "gh:LYD01/music-teacher@main:public/pieces/first-string-notes.musicxml",
+      "file_url": "https://raw.githubusercontent.com/LYD01/music-teacher/main/public/pieces/first-string-notes.musicxml",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "Classical Guitar",
+        "Classical Guitar"
+      ],
+      "license": "unknown",
+      "license_spdx": "unknown",
+      "metadata": {
+        "composer": "Exercise",
+        "key_fifths": "0",
+        "opus": "",
+        "title": "Notes on the High E String"
+      },
+      "normalized_path": "corpus/normalized/gh_LYD01_music-teacher_main_public_pieces_first-string-notes.musicxml.musicxml",
+      "normalized_sha256": "ba782ae6ba8da17490d08fdd039012b4fec46f033308a75df0adb389ba1a5bbe",
+      "page_url": "https://github.com/LYD01/music-teacher/blob/main/public/pieces/first-string-notes.musicxml",
+      "parts": 1,
+      "raw_sha256": "6b88f1037aa225a28341dbfeb231aa1eda5159f55f90341ca5b33deddbb69f31",
+      "source": "github"
+    },
+    {
+      "candidate_id": "gh:LYD01/music-teacher@main:public/pieces/greensleeves.musicxml",
+      "file_url": "https://raw.githubusercontent.com/LYD01/music-teacher/main/public/pieces/greensleeves.musicxml",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "Classical Guitar",
+        "Classical Guitar"
+      ],
+      "license": "unknown",
+      "license_spdx": "unknown",
+      "metadata": {
+        "composer": "Traditional English",
+        "key_fifths": "0",
+        "opus": "",
+        "title": "Greensleeves"
+      },
+      "normalized_path": "corpus/normalized/gh_LYD01_music-teacher_main_public_pieces_greensleeves.musicxml.musicxml",
+      "normalized_sha256": "a7b814b4a4f72358f494f4a0f164f594c15e32043392dc9ad0482bb9be7db391",
+      "page_url": "https://github.com/LYD01/music-teacher/blob/main/public/pieces/greensleeves.musicxml",
+      "parts": 1,
+      "raw_sha256": "113f991ea0eeb9583bbc73762a0eb56de5a2138d3ffc0a9c0ebe668a39bb3437",
+      "source": "github"
+    },
+    {
+      "candidate_id": "gh:LYD01/music-teacher@main:public/pieces/lagrima.musicxml",
+      "file_url": "https://raw.githubusercontent.com/LYD01/music-teacher/main/public/pieces/lagrima.musicxml",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "Classical Guitar",
+        "Classical Guitar"
+      ],
+      "license": "unknown",
+      "license_spdx": "unknown",
+      "metadata": {
+        "composer": "Francisco Tárrega",
+        "key_fifths": "4",
+        "opus": "",
+        "title": "Lágrima"
+      },
+      "normalized_path": "corpus/normalized/gh_LYD01_music-teacher_main_public_pieces_lagrima.musicxml.musicxml",
+      "normalized_sha256": "38bb5606690af3a6ab24d80b991933bd7407bf71b600cb3b453019b7500425db",
+      "page_url": "https://github.com/LYD01/music-teacher/blob/main/public/pieces/lagrima.musicxml",
+      "parts": 1,
+      "raw_sha256": "565e2d8704e3e91f6e0c059e5abf7b1fc9adb40f79d8736650711c36ef1d13fd",
+      "source": "github"
+    },
+    {
+      "candidate_id": "gh:LYD01/music-teacher@main:public/pieces/malaguena.musicxml",
+      "file_url": "https://raw.githubusercontent.com/LYD01/music-teacher/main/public/pieces/malaguena.musicxml",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "Classical Guitar",
+        "Classical Guitar"
+      ],
+      "license": "unknown",
+      "license_spdx": "unknown",
+      "metadata": {
+        "composer": "Traditional Spanish",
+        "key_fifths": "0",
+        "opus": "",
+        "title": "Malagueña"
+      },
+      "normalized_path": "corpus/normalized/gh_LYD01_music-teacher_main_public_pieces_malaguena.musicxml.musicxml",
+      "normalized_sha256": "42d05fcf99cb0a0a207fb74c4043b5d29c983ea31e960498f58cc775fadccf66",
+      "page_url": "https://github.com/LYD01/music-teacher/blob/main/public/pieces/malaguena.musicxml",
+      "parts": 1,
+      "raw_sha256": "8ec648490af6bbd411a5e6608d7678d869329678ca76a0bfc57b47ef5cccce89",
+      "source": "github"
+    },
+    {
+      "candidate_id": "gh:LYD01/music-teacher@main:public/pieces/ode-to-joy.musicxml",
+      "file_url": "https://raw.githubusercontent.com/LYD01/music-teacher/main/public/pieces/ode-to-joy.musicxml",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "Classical Guitar",
+        "Classical Guitar"
+      ],
+      "license": "unknown",
+      "license_spdx": "unknown",
+      "metadata": {
+        "composer": "Ludwig van Beethoven",
+        "key_fifths": "0",
+        "opus": "",
+        "title": "Ode to Joy"
+      },
+      "normalized_path": "corpus/normalized/gh_LYD01_music-teacher_main_public_pieces_ode-to-joy.musicxml.musicxml",
+      "normalized_sha256": "6add5aa56e57f74f4aac78e33e680311034ad1108292f5048cf26ce110a14d66",
+      "page_url": "https://github.com/LYD01/music-teacher/blob/main/public/pieces/ode-to-joy.musicxml",
+      "parts": 1,
+      "raw_sha256": "b059e982c01d0e72dbd1bf64c0c1c30d49e4abf18ffddbc0b1dc8160640b8c05",
+      "source": "github"
+    },
+    {
+      "candidate_id": "gh:LYD01/music-teacher@main:public/pieces/open-string-notes.musicxml",
+      "file_url": "https://raw.githubusercontent.com/LYD01/music-teacher/main/public/pieces/open-string-notes.musicxml",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "Classical Guitar",
+        "Classical Guitar"
+      ],
+      "license": "unknown",
+      "license_spdx": "unknown",
+      "metadata": {
+        "composer": "Exercise",
+        "key_fifths": "0",
+        "opus": "",
+        "title": "Open String Notes"
+      },
+      "normalized_path": "corpus/normalized/gh_LYD01_music-teacher_main_public_pieces_open-string-notes.musicxml.musicxml",
+      "normalized_sha256": "6fca1b532c21652293e929b62f7c9f1aa524e2ca7f1dd028099b15c7e6107108",
+      "page_url": "https://github.com/LYD01/music-teacher/blob/main/public/pieces/open-string-notes.musicxml",
+      "parts": 1,
+      "raw_sha256": "20583e4ffbd98616a41f82936ff462e9fd0a704dbcd5ba4687289f320a874e0e",
+      "source": "github"
+    },
+    {
+      "candidate_id": "gh:LYD01/music-teacher@main:public/pieces/prelude-emin-villalobos.musicxml",
+      "file_url": "https://raw.githubusercontent.com/LYD01/music-teacher/main/public/pieces/prelude-emin-villalobos.musicxml",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "Classical Guitar",
+        "Classical Guitar"
+      ],
+      "license": "unknown",
+      "license_spdx": "unknown",
+      "metadata": {
+        "composer": "Heitor Villa-Lobos",
+        "key_fifths": "1",
+        "opus": "",
+        "title": "Prelude No. 1 in E minor (Theme)"
+      },
+      "normalized_path": "corpus/normalized/gh_LYD01_music-teacher_main_public_pieces_prelude-emin-villalobos.musicxml.musicxml",
+      "normalized_sha256": "77d1989a6751af172482f67caee272aeeefeb2a3eb0d103fb64c3ef57879050c",
+      "page_url": "https://github.com/LYD01/music-teacher/blob/main/public/pieces/prelude-emin-villalobos.musicxml",
+      "parts": 1,
+      "raw_sha256": "e94ff15b08be55391ecb3f3145a981b768e6f1e6875ae1113a1db6a2aa844e66",
+      "source": "github"
+    },
+    {
+      "candidate_id": "gh:LYD01/music-teacher@main:public/pieces/recuerdos-theme.musicxml",
+      "file_url": "https://raw.githubusercontent.com/LYD01/music-teacher/main/public/pieces/recuerdos-theme.musicxml",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "Classical Guitar",
+        "Classical Guitar"
+      ],
+      "license": "unknown",
+      "license_spdx": "unknown",
+      "metadata": {
+        "composer": "Francisco Tárrega",
+        "key_fifths": "0",
+        "opus": "",
+        "title": "Recuerdos de la Alhambra (Theme)"
+      },
+      "normalized_path": "corpus/normalized/gh_LYD01_music-teacher_main_public_pieces_recuerdos-theme.musicxml.musicxml",
+      "normalized_sha256": "80f6def9c8c9be034d2e581ec9753a08c4123a75f0f76dd88e40da03767cda57",
+      "page_url": "https://github.com/LYD01/music-teacher/blob/main/public/pieces/recuerdos-theme.musicxml",
+      "parts": 1,
+      "raw_sha256": "1bd788bb5e35b0ab0f46c332bc3e27c31201de112921cefca2dc2c90dcb19bf0",
+      "source": "github"
+    },
+    {
+      "candidate_id": "gh:LYD01/music-teacher@main:public/pieces/romanza.musicxml",
+      "file_url": "https://raw.githubusercontent.com/LYD01/music-teacher/main/public/pieces/romanza.musicxml",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "Classical Guitar",
+        "Classical Guitar"
+      ],
+      "license": "unknown",
+      "license_spdx": "unknown",
+      "metadata": {
+        "composer": "Anonymous",
+        "key_fifths": "1",
+        "opus": "",
+        "title": "Romanza (Spanish Romance)"
+      },
+      "normalized_path": "corpus/normalized/gh_LYD01_music-teacher_main_public_pieces_romanza.musicxml.musicxml",
+      "normalized_sha256": "e066404fcc918bd52a4a612873289add13ccc9385f82271e582b4997867b46f3",
+      "page_url": "https://github.com/LYD01/music-teacher/blob/main/public/pieces/romanza.musicxml",
+      "parts": 1,
+      "raw_sha256": "9e80b3d3ca75488c992c898c12d421a254471640e99e1fc64f72e22a79971a22",
+      "source": "github"
+    },
+    {
+      "candidate_id": "gh:LYD01/music-teacher@main:public/pieces/second-string-notes.musicxml",
+      "file_url": "https://raw.githubusercontent.com/LYD01/music-teacher/main/public/pieces/second-string-notes.musicxml",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "Classical Guitar",
+        "Classical Guitar"
+      ],
+      "license": "unknown",
+      "license_spdx": "unknown",
+      "metadata": {
+        "composer": "Exercise",
+        "key_fifths": "0",
+        "opus": "",
+        "title": "Notes on the B String"
+      },
+      "normalized_path": "corpus/normalized/gh_LYD01_music-teacher_main_public_pieces_second-string-notes.musicxml.musicxml",
+      "normalized_sha256": "fbd0904d8b7be827148361a8998fa3833d2e22460c89eda3eb84db28086b203d",
+      "page_url": "https://github.com/LYD01/music-teacher/blob/main/public/pieces/second-string-notes.musicxml",
+      "parts": 1,
+      "raw_sha256": "43b5894634c34bafef99cf30f867545c337573b60353ae07698223d482b9f449",
+      "source": "github"
+    },
+    {
+      "candidate_id": "gh:LYD01/music-teacher@main:public/pieces/spanish-study-am.musicxml",
+      "file_url": "https://raw.githubusercontent.com/LYD01/music-teacher/main/public/pieces/spanish-study-am.musicxml",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "Classical Guitar",
+        "Classical Guitar"
+      ],
+      "license": "unknown",
+      "license_spdx": "unknown",
+      "metadata": {
+        "composer": "Traditional Spanish",
+        "key_fifths": "0",
+        "opus": "",
+        "title": "Spanish Study in A minor"
+      },
+      "normalized_path": "corpus/normalized/gh_LYD01_music-teacher_main_public_pieces_spanish-study-am.musicxml.musicxml",
+      "normalized_sha256": "8d1a8a90612967b913e102c6b1548e7c9218bdd5aa245a7c88391e2c5a9d24b4",
+      "page_url": "https://github.com/LYD01/music-teacher/blob/main/public/pieces/spanish-study-am.musicxml",
+      "parts": 1,
+      "raw_sha256": "5f831f07bf8fdbee0c5fb6739a3ccff7168740718512e8f1ca31789a98a0822a",
+      "source": "github"
+    },
+    {
+      "candidate_id": "gh:Plisken78/plisken78.github.io@main:notlasning/songs/Ave Maria.musicxml",
+      "file_url": "https://raw.githubusercontent.com/Plisken78/plisken78.github.io/main/notlasning/songs/Ave%20Maria.musicxml",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "Guitar",
+        "Classical Guitar",
+        "pluck.guitar.nylon-string",
+        "midi-program-25"
+      ],
+      "license": "unknown",
+      "license_spdx": "unknown",
+      "metadata": {
+        "composer": "F.  Schubert",
+        "key_fifths": "-1",
+        "opus": "",
+        "title": "Ave Maria"
+      },
+      "normalized_path": "corpus/normalized/gh_Plisken78_plisken78.github.io_main_notlasning_songs_Ave Maria.musicxml.musicxml",
+      "normalized_sha256": "1390590d702669764b6f76612539e0eff1f072a6c41c00919079c489864ace28",
+      "page_url": "https://github.com/Plisken78/plisken78.github.io/blob/main/notlasning/songs/Ave%20Maria.musicxml",
+      "parts": 1,
+      "raw_sha256": "79e7699269fae9e31d931907a31dfc49ec8ec25b68577facc77c14f228e98414",
+      "source": "github"
+    },
+    {
+      "candidate_id": "gh:ThePython10110/MuseScore@master:Converted/MusicXML/Silksong/Choral Chambers on guitar (Silksong).musicxml",
+      "file_url": "https://raw.githubusercontent.com/ThePython10110/MuseScore/master/Converted/MusicXML/Silksong/Choral%20Chambers%20on%20guitar%20%28Silksong%29.musicxml",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "Classical Guitar",
+        "Classical Guitar",
+        "pluck.guitar.nylon-string",
+        "midi-program-25"
+      ],
+      "license": "unknown",
+      "license_spdx": "unknown",
+      "metadata": {
+        "composer": "Christopher Larkin, Arranged by Beyond the Guitar",
+        "key_fifths": "0",
+        "opus": "",
+        "title": "Choral Chambers (Silksong)"
+      },
+      "normalized_path": "corpus/normalized/gh_ThePython10110_MuseScore_master_Converted_MusicXML_Silksong_Choral Chambers on guitar (Silksong).musicxml.musicxml",
+      "normalized_sha256": "baccb0e2f53ba5d260a33b1886d16fbc5e6768d8d451e20e1bcac2ca94ab9798",
+      "page_url": "https://github.com/ThePython10110/MuseScore/blob/master/Converted/MusicXML/Silksong/Choral%20Chambers%20on%20guitar%20%28Silksong%29.musicxml",
+      "parts": 1,
+      "raw_sha256": "4e3b4503bcabd76023603402ba99d15d4a1962c4c9837271d374c02d1890968f",
+      "source": "github"
+    },
+    {
+      "candidate_id": "gh:arhanv/ug-dataset@main:dataset-converted-xml/Open D/Metal/Criminal - New Disorder.musicxml",
+      "file_url": "https://raw.githubusercontent.com/arhanv/ug-dataset/main/dataset-converted-xml/Open%20D/Metal/Criminal%20-%20New%20Disorder.musicxml",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "Pista 1",
+        "Distortion Electric Guitar 1"
+      ],
+      "license": "unknown",
+      "license_spdx": "unknown",
+      "metadata": {
+        "composer": "riffman hansgtr@hotmail.com",
+        "key_fifths": "0",
+        "opus": "",
+        "title": "new disorder"
+      },
+      "normalized_path": "corpus/normalized/gh_arhanv_ug-dataset_main_dataset-converted-xml_Open D_Metal_Criminal - New Disorder.musicxml.musicxml",
+      "normalized_sha256": "f970d6ee3fa38833e28c1a33d23265591e3a3c230fd364b91baeb1320f8e679f",
+      "page_url": "https://github.com/arhanv/ug-dataset/blob/main/dataset-converted-xml/Open%20D/Metal/Criminal%20-%20New%20Disorder.musicxml",
+      "parts": 1,
+      "raw_sha256": "3848ff199825dab020d466341d5c0956033250fbd91e0b9e21530c9943f5de2f",
+      "source": "github"
+    },
+    {
+      "candidate_id": "gh:moisur/courstrompette@master:public/Wikifonia.rendered/lee konitz - subconscious lee.musicxml",
+      "file_url": "https://raw.githubusercontent.com/moisur/courstrompette/master/public/Wikifonia.rendered/lee%20konitz%20-%20subconscious%20lee.musicxml",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "Guitar",
+        "Guitar",
+        "midi-program-26"
+      ],
+      "license": "unknown",
+      "license_spdx": "unknown",
+      "metadata": {
+        "composer": "lee konitz",
+        "key_fifths": "0",
+        "opus": "",
+        "title": "subconscious lee"
+      },
+      "normalized_path": "corpus/normalized/gh_moisur_courstrompette_master_public_Wikifonia.rendered_lee konitz - subconscious lee.musicxml.musicxml",
+      "normalized_sha256": "bfbfd4cfaa28895318a8bc7bb42db83b1418f627973b1b143afbc5d9038bb5d9",
+      "page_url": "https://github.com/moisur/courstrompette/blob/master/public/Wikifonia.rendered/lee%20konitz%20-%20subconscious%20lee.musicxml",
+      "parts": 1,
+      "raw_sha256": "1cb091adca384f4978699be72e381f9ba1e7cd4367b9b25f8bfa86cddcaae56c",
+      "source": "github"
+    },
+    {
+      "candidate_id": "gh:nolanholden/dogma-maxima@master:score.mxl",
+      "file_url": "https://raw.githubusercontent.com/nolanholden/dogma-maxima/master/score.mxl",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "Guitar",
+        "Guitar",
+        "pluck.guitar.acoustic",
+        "midi-program-25"
+      ],
+      "license": "unknown",
+      "license_spdx": "unknown",
+      "metadata": {
+        "composer": "Nolan Holden",
+        "key_fifths": "-3",
+        "opus": "",
+        "title": "Dogma Maxima"
+      },
+      "normalized_path": "corpus/normalized/gh_nolanholden_dogma-maxima_master_score.mxl.musicxml",
+      "normalized_sha256": "6dfccfdc66332c119df98e237c340d5cfa3b26252a334a45f4dd6882ac4b5df3",
+      "page_url": "https://github.com/nolanholden/dogma-maxima/blob/master/score.mxl",
+      "parts": 1,
+      "raw_sha256": "b18b5aca2d8e0050433f039c190286fee936a1e3dc87726313017c5422bd0b41",
+      "source": "github"
+    },
+    {
+      "candidate_id": "gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:anonymous/andante/andante.musicxml",
+      "file_url": "https://raw.githubusercontent.com/rodrigoborgesdeoliveira/sheet-music-and-chords/main/anonymous/andante/andante.musicxml",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "Classical Guitar",
+        "Classical Guitar",
+        "midi-program-25"
+      ],
+      "license": "unknown",
+      "license_spdx": "unknown",
+      "metadata": {
+        "composer": "Anonymous",
+        "key_fifths": "0",
+        "opus": "",
+        "title": "Andante"
+      },
+      "normalized_path": "corpus/normalized/gh_rodrigoborgesdeoliveira_sheet-music-and-chords_main_anonymous_andante_andante.musicxml.musicxml",
+      "normalized_sha256": "beb1d94a52b3bcb855e39ee793949f12b7f000bbb625a207e115277029631d2b",
+      "page_url": "https://github.com/rodrigoborgesdeoliveira/sheet-music-and-chords/blob/main/anonymous/andante/andante.musicxml",
+      "parts": 1,
+      "raw_sha256": "d9aa746796763396bfd84e242913cac40a78aa6e09a85c94244ffce5405c739f",
+      "source": "github"
+    },
+    {
+      "candidate_id": "gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:antonio-rovira/romance-de-amor/romance-de-amor.musicxml",
+      "file_url": "https://raw.githubusercontent.com/rodrigoborgesdeoliveira/sheet-music-and-chords/main/antonio-rovira/romance-de-amor/romance-de-amor.musicxml",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "Classical Guitar",
+        "Classical Guitar",
+        "midi-program-25"
+      ],
+      "license": "unknown",
+      "license_spdx": "unknown",
+      "metadata": {
+        "composer": "Antonio Rovira",
+        "key_fifths": "1",
+        "opus": "",
+        "title": "Romance de Amor"
+      },
+      "normalized_path": "corpus/normalized/gh_rodrigoborgesdeoliveira_sheet-music-and-chords_main_antonio-rovira_romance-de-amor_romance-de-amor.musicxml.musicxml",
+      "normalized_sha256": "fd8f0a398d6817e5824fa4b1c3037e3af5a813e7f09421a486b790032f712105",
+      "page_url": "https://github.com/rodrigoborgesdeoliveira/sheet-music-and-chords/blob/main/antonio-rovira/romance-de-amor/romance-de-amor.musicxml",
+      "parts": 1,
+      "raw_sha256": "f5c3d0235e9b86e3dad11f6f3f896d85c6be4fd2ce135d8ceac4d5e78ae4b013",
+      "source": "github"
+    },
+    {
+      "candidate_id": "gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:dilermando-reis/se-ela-perguntar/se-ela-perguntar.musicxml",
+      "file_url": "https://raw.githubusercontent.com/rodrigoborgesdeoliveira/sheet-music-and-chords/main/dilermando-reis/se-ela-perguntar/se-ela-perguntar.musicxml",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "Classical Guitar",
+        "Classical Guitar",
+        "pluck.guitar.nylon-string",
+        "midi-program-25"
+      ],
+      "license": "unknown",
+      "license_spdx": "unknown",
+      "metadata": {
+        "composer": "Dilermando Reis",
+        "key_fifths": "1",
+        "opus": "",
+        "title": "Se Ela Perguntar"
+      },
+      "normalized_path": "corpus/normalized/gh_rodrigoborgesdeoliveira_sheet-music-and-chords_main_dilermando-reis_se-ela-perguntar_se-ela-perguntar.musicxml.musicxml",
+      "normalized_sha256": "79513f5926d92874e0537d2271b28749a29b3ef0d33e204e3869e9b8a0b6c39f",
+      "page_url": "https://github.com/rodrigoborgesdeoliveira/sheet-music-and-chords/blob/main/dilermando-reis/se-ela-perguntar/se-ela-perguntar.musicxml",
+      "parts": 1,
+      "raw_sha256": "8f7935fc47305b3f3e1ae8d56a97fe49c567de21d574be454690810a1c94cbf2",
+      "source": "github"
+    },
+    {
+      "candidate_id": "gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:dorival-caymmi/modinha-para-gabriela/modinha-para-gabriela.musicxml",
+      "file_url": "https://raw.githubusercontent.com/rodrigoborgesdeoliveira/sheet-music-and-chords/main/dorival-caymmi/modinha-para-gabriela/modinha-para-gabriela.musicxml",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "Classical Guitar",
+        "Classical Guitar",
+        "pluck.guitar.nylon-string",
+        "midi-program-25"
+      ],
+      "license": "unknown",
+      "license_spdx": "unknown",
+      "metadata": {
+        "composer": "Dorival Caymmi",
+        "key_fifths": "-1",
+        "opus": "",
+        "title": "Modinha para Gabriela"
+      },
+      "normalized_path": "corpus/normalized/gh_rodrigoborgesdeoliveira_sheet-music-and-chords_main_dorival-caymmi_modinha-para-gabriela_modinha-para-gabriela.musicxml.musicxml",
+      "normalized_sha256": "127d7fecc64f095f7b08021e91ef517aa5326ddf35c5acea909d11b21564f13c",
+      "page_url": "https://github.com/rodrigoborgesdeoliveira/sheet-music-and-chords/blob/main/dorival-caymmi/modinha-para-gabriela/modinha-para-gabriela.musicxml",
+      "parts": 1,
+      "raw_sha256": "82fe629e2bcc790b36a05c13d081b4a49c50346ff761bda05880ffda2f4adc86",
+      "source": "github"
+    },
+    {
+      "candidate_id": "gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:ernesto-nazareth/odeon/odeon.musicxml",
+      "file_url": "https://raw.githubusercontent.com/rodrigoborgesdeoliveira/sheet-music-and-chords/main/ernesto-nazareth/odeon/odeon.musicxml",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "Classical Guitar",
+        "Classical Guitar",
+        "midi-program-25"
+      ],
+      "license": "unknown",
+      "license_spdx": "unknown",
+      "metadata": {
+        "composer": "Ernesto Nazareth",
+        "key_fifths": "-1",
+        "opus": "",
+        "title": "Odeon"
+      },
+      "normalized_path": "corpus/normalized/gh_rodrigoborgesdeoliveira_sheet-music-and-chords_main_ernesto-nazareth_odeon_odeon.musicxml.musicxml",
+      "normalized_sha256": "0d82687ab648e58a91f834b0dc44110a60ffe9ec4641b3211a8e1d5202f72dea",
+      "page_url": "https://github.com/rodrigoborgesdeoliveira/sheet-music-and-chords/blob/main/ernesto-nazareth/odeon/odeon.musicxml",
+      "parts": 1,
+      "raw_sha256": "0217003d5bbe7afbb85806f951056c020a8c9e1293568f07dd48799788e2bf91",
+      "source": "github"
+    },
+    {
+      "candidate_id": "gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:j-s-bach/air-on-the-g-string/air-on-the-g-string.musicxml",
+      "file_url": "https://raw.githubusercontent.com/rodrigoborgesdeoliveira/sheet-music-and-chords/main/j-s-bach/air-on-the-g-string/air-on-the-g-string.musicxml",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "Acoustic Guitar",
+        "Acoustic Guitar",
+        "pluck.guitar.acoustic",
+        "midi-program-26"
+      ],
+      "license": "unknown",
+      "license_spdx": "unknown",
+      "metadata": {
+        "composer": "Johann Sebastian Bach",
+        "key_fifths": "0",
+        "opus": "",
+        "title": "Air on the G String"
+      },
+      "normalized_path": "corpus/normalized/gh_rodrigoborgesdeoliveira_sheet-music-and-chords_main_j-s-bach_air-on-the-g-string_air-on-the-g-string.musicxml.musicxml",
+      "normalized_sha256": "4dce518c92975b00ff1beb84d3f35d46f682a80515535fd987101d9ee17760f9",
+      "page_url": "https://github.com/rodrigoborgesdeoliveira/sheet-music-and-chords/blob/main/j-s-bach/air-on-the-g-string/air-on-the-g-string.musicxml",
+      "parts": 1,
+      "raw_sha256": "29cf621280289369e91d952549bb5002977bb299c87fbc64a9a3d1ffc9b96d6d",
+      "source": "github"
+    },
+    {
+      "candidate_id": "gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:j-s-bach/bourree/bourree.musicxml",
+      "file_url": "https://raw.githubusercontent.com/rodrigoborgesdeoliveira/sheet-music-and-chords/main/j-s-bach/bourree/bourree.musicxml",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "Classical Guitar",
+        "Classical Guitar",
+        "midi-program-25"
+      ],
+      "license": "unknown",
+      "license_spdx": "unknown",
+      "metadata": {
+        "composer": "J.  S.  Bach",
+        "key_fifths": "1",
+        "opus": "",
+        "title": "Bourreé"
+      },
+      "normalized_path": "corpus/normalized/gh_rodrigoborgesdeoliveira_sheet-music-and-chords_main_j-s-bach_bourree_bourree.musicxml.musicxml",
+      "normalized_sha256": "ce7add702c5963e0f1530b21dc63a5c26d447c7cd5b3e4870611dcd1c403f935",
+      "page_url": "https://github.com/rodrigoborgesdeoliveira/sheet-music-and-chords/blob/main/j-s-bach/bourree/bourree.musicxml",
+      "parts": 1,
+      "raw_sha256": "e6f699ebd6e9ef88eb701b2428e0b8c1a71e3b614df878dc22dfec26452766c8",
+      "source": "github"
+    },
+    {
+      "candidate_id": "gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:j-s-bach/jesu-joy-of-mans-desiring/jesu-joy-of-mans-desiring.musicxml",
+      "file_url": "https://raw.githubusercontent.com/rodrigoborgesdeoliveira/sheet-music-and-chords/main/j-s-bach/jesu-joy-of-mans-desiring/jesu-joy-of-mans-desiring.musicxml",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "Classical Guitar",
+        "Classical Guitar",
+        "midi-program-25"
+      ],
+      "license": "unknown",
+      "license_spdx": "unknown",
+      "metadata": {
+        "composer": "J.  S.  Bach",
+        "key_fifths": "0",
+        "opus": "",
+        "title": "Jesu,  Joy of Man's Desiring"
+      },
+      "normalized_path": "corpus/normalized/gh_rodrigoborgesdeoliveira_sheet-music-and-chords_main_j-s-bach_jesu-joy-of-mans-desiring_jesu-joy-of-mans-desiring.musicxml.musicxml",
+      "normalized_sha256": "38e79f927b4689cf49790cc73217b23468f99c4dd2f93bf11ed6c6cdb3c8950b",
+      "page_url": "https://github.com/rodrigoborgesdeoliveira/sheet-music-and-chords/blob/main/j-s-bach/jesu-joy-of-mans-desiring/jesu-joy-of-mans-desiring.musicxml",
+      "parts": 1,
+      "raw_sha256": "4a9ec2c38295c3edcabb417967e6ec3cb595f81c2a39a946ef9879e7197acd33",
+      "source": "github"
+    },
+    {
+      "candidate_id": "gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:j-s-bach/minueto-I/minueto-I.musicxml",
+      "file_url": "https://raw.githubusercontent.com/rodrigoborgesdeoliveira/sheet-music-and-chords/main/j-s-bach/minueto-I/minueto-I.musicxml",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "Classical Guitar",
+        "Classical Guitar",
+        "midi-program-25"
+      ],
+      "license": "unknown",
+      "license_spdx": "unknown",
+      "metadata": {
+        "composer": "J.  S.  Bach",
+        "key_fifths": "0",
+        "opus": "",
+        "title": "Minueto I"
+      },
+      "normalized_path": "corpus/normalized/gh_rodrigoborgesdeoliveira_sheet-music-and-chords_main_j-s-bach_minueto-I_minueto-I.musicxml.musicxml",
+      "normalized_sha256": "adf112aa2a8acdabf554d00552f1dfece0ac1b7cc8d8e73856e7eb70039acb7b",
+      "page_url": "https://github.com/rodrigoborgesdeoliveira/sheet-music-and-chords/blob/main/j-s-bach/minueto-I/minueto-I.musicxml",
+      "parts": 1,
+      "raw_sha256": "ff7850c33980a4aa428cae0b75e20d60a84d8b5887a6f90319e33c8becb27228",
+      "source": "github"
+    },
+    {
+      "candidate_id": "gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:j-s-bach/minueto-II/minueto-II.musicxml",
+      "file_url": "https://raw.githubusercontent.com/rodrigoborgesdeoliveira/sheet-music-and-chords/main/j-s-bach/minueto-II/minueto-II.musicxml",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "Classical Guitar",
+        "Classical Guitar",
+        "midi-program-25"
+      ],
+      "license": "unknown",
+      "license_spdx": "unknown",
+      "metadata": {
+        "composer": "J.  S.  Bach",
+        "key_fifths": "1",
+        "opus": "",
+        "title": "Minueto II"
+      },
+      "normalized_path": "corpus/normalized/gh_rodrigoborgesdeoliveira_sheet-music-and-chords_main_j-s-bach_minueto-II_minueto-II.musicxml.musicxml",
+      "normalized_sha256": "23b87c1147a054652c126dbcb3a2befe70d2a9ec985c46d057bb4741d9a888a7",
+      "page_url": "https://github.com/rodrigoborgesdeoliveira/sheet-music-and-chords/blob/main/j-s-bach/minueto-II/minueto-II.musicxml",
+      "parts": 1,
+      "raw_sha256": "0eeba789abefd605dae785fcdc3510a05d7f9f4c05215f8666b3d00b0cd99c6a",
+      "source": "github"
+    },
+    {
+      "candidate_id": "gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:j-s-bach/prelude-for-lute/prelude-for-lute.musicxml",
+      "file_url": "https://raw.githubusercontent.com/rodrigoborgesdeoliveira/sheet-music-and-chords/main/j-s-bach/prelude-for-lute/prelude-for-lute.musicxml",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "Classical Guitar",
+        "Classical Guitar",
+        "midi-program-25"
+      ],
+      "license": "unknown",
+      "license_spdx": "unknown",
+      "metadata": {
+        "composer": "J. S. Bach",
+        "key_fifths": "-1",
+        "opus": "",
+        "title": "Prelude"
+      },
+      "normalized_path": "corpus/normalized/gh_rodrigoborgesdeoliveira_sheet-music-and-chords_main_j-s-bach_prelude-for-lute_prelude-for-lute.musicxml.musicxml",
+      "normalized_sha256": "2c605bbf7112b6aa314959f50d0c69ba83ee035396cab581f1e6988434a46de9",
+      "page_url": "https://github.com/rodrigoborgesdeoliveira/sheet-music-and-chords/blob/main/j-s-bach/prelude-for-lute/prelude-for-lute.musicxml",
+      "parts": 1,
+      "raw_sha256": "ff1192df090bf57f72e1aac628874cb211957ecbb2739e7cf001099728e4878b",
+      "source": "github"
+    },
+    {
+      "candidate_id": "gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:joao-pernambuco/sons-de-carrilhoes/sons-de-carrilhoes.musicxml",
+      "file_url": "https://raw.githubusercontent.com/rodrigoborgesdeoliveira/sheet-music-and-chords/main/joao-pernambuco/sons-de-carrilhoes/sons-de-carrilhoes.musicxml",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "Classical Guitar",
+        "Classical Guitar",
+        "midi-program-25"
+      ],
+      "license": "unknown",
+      "license_spdx": "unknown",
+      "metadata": {
+        "composer": "João Pernambuco",
+        "key_fifths": "2",
+        "opus": "",
+        "title": "Sons de Carrilhões"
+      },
+      "normalized_path": "corpus/normalized/gh_rodrigoborgesdeoliveira_sheet-music-and-chords_main_joao-pernambuco_sons-de-carrilhoes_sons-de-carrilhoes.musicxml.musicxml",
+      "normalized_sha256": "70ccfcafce27b96125827968165cc6628794bc39bdd61ae98a2f37ce3c89f73f",
+      "page_url": "https://github.com/rodrigoborgesdeoliveira/sheet-music-and-chords/blob/main/joao-pernambuco/sons-de-carrilhoes/sons-de-carrilhoes.musicxml",
+      "parts": 1,
+      "raw_sha256": "84274ed7d19c607405053ed1690c93f9e5f6fe843ecf183d5b3f5789954e867b",
+      "source": "github"
+    },
+    {
+      "candidate_id": "gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:matteo-carcassi/study-3/study-3.musicxml",
+      "file_url": "https://raw.githubusercontent.com/rodrigoborgesdeoliveira/sheet-music-and-chords/main/matteo-carcassi/study-3/study-3.musicxml",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "Classical Guitar",
+        "Classical Guitar",
+        "midi-program-25"
+      ],
+      "license": "unknown",
+      "license_spdx": "unknown",
+      "metadata": {
+        "composer": "Matteo Carcassi",
+        "key_fifths": "3",
+        "opus": "",
+        "title": "Study 3"
+      },
+      "normalized_path": "corpus/normalized/gh_rodrigoborgesdeoliveira_sheet-music-and-chords_main_matteo-carcassi_study-3_study-3.musicxml.musicxml",
+      "normalized_sha256": "bd15cda80e66c92007a9a42d6442708247a4bf6cd2b9e3a748ee1a7548888770",
+      "page_url": "https://github.com/rodrigoborgesdeoliveira/sheet-music-and-chords/blob/main/matteo-carcassi/study-3/study-3.musicxml",
+      "parts": 1,
+      "raw_sha256": "3a02791da6c0aa809c7d33e88df191eaee74ce231b8ab03663e65a5af4e99c7c",
+      "source": "github"
+    },
+    {
+      "candidate_id": "gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:maurice-ravel/bolero/bolero.musicxml",
+      "file_url": "https://raw.githubusercontent.com/rodrigoborgesdeoliveira/sheet-music-and-chords/main/maurice-ravel/bolero/bolero.musicxml",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "Acoustic Guitar",
+        "Acoustic Guitar",
+        "pluck.guitar.acoustic",
+        "midi-program-26"
+      ],
+      "license": "unknown",
+      "license_spdx": "unknown",
+      "metadata": {
+        "composer": "Maurice Ravel",
+        "key_fifths": "0",
+        "opus": "",
+        "title": "Bolero"
+      },
+      "normalized_path": "corpus/normalized/gh_rodrigoborgesdeoliveira_sheet-music-and-chords_main_maurice-ravel_bolero_bolero.musicxml.musicxml",
+      "normalized_sha256": "99bf3dd8aa584bddf9d1063a2da579f137d1309b23e55e8d61779755ae7b88ed",
+      "page_url": "https://github.com/rodrigoborgesdeoliveira/sheet-music-and-chords/blob/main/maurice-ravel/bolero/bolero.musicxml",
+      "parts": 1,
+      "raw_sha256": "241589efa21c463462fcfcc80db5961b0ba64476645a4d7a7ae76a286c1ed590",
+      "source": "github"
+    },
+    {
+      "candidate_id": "gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:paulinho-nogueira/bachianinha-1/bachianinha-1.musicxml",
+      "file_url": "https://raw.githubusercontent.com/rodrigoborgesdeoliveira/sheet-music-and-chords/main/paulinho-nogueira/bachianinha-1/bachianinha-1.musicxml",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "Classical Guitar",
+        "Classical Guitar",
+        "midi-program-25"
+      ],
+      "license": "unknown",
+      "license_spdx": "unknown",
+      "metadata": {
+        "composer": "Paulinho Nogueira",
+        "key_fifths": "0",
+        "opus": "",
+        "title": "Bachianinha Nº 1"
+      },
+      "normalized_path": "corpus/normalized/gh_rodrigoborgesdeoliveira_sheet-music-and-chords_main_paulinho-nogueira_bachianinha-1_bachianinha-1.musicxml.musicxml",
+      "normalized_sha256": "2e17b7c628a60c8d20f8414b3236af66bf1eca9e4dac4eb717dbe9c54d572638",
+      "page_url": "https://github.com/rodrigoborgesdeoliveira/sheet-music-and-chords/blob/main/paulinho-nogueira/bachianinha-1/bachianinha-1.musicxml",
+      "parts": 1,
+      "raw_sha256": "b2760a4614d5e63497604ca080c4016c9294788be5a8593be2d3554996d77ec5",
+      "source": "github"
+    },
+    {
+      "candidate_id": "gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:pixinguinha/carinhoso/carinhoso.musicxml",
+      "file_url": "https://raw.githubusercontent.com/rodrigoborgesdeoliveira/sheet-music-and-chords/main/pixinguinha/carinhoso/carinhoso.musicxml",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "Classical Guitar",
+        "Classical Guitar",
+        "pluck.guitar.nylon-string",
+        "midi-program-25"
+      ],
+      "license": "unknown",
+      "license_spdx": "unknown",
+      "metadata": {
+        "composer": "Pixinguinha",
+        "key_fifths": "1",
+        "opus": "",
+        "title": "Carinhoso"
+      },
+      "normalized_path": "corpus/normalized/gh_rodrigoborgesdeoliveira_sheet-music-and-chords_main_pixinguinha_carinhoso_carinhoso.musicxml.musicxml",
+      "normalized_sha256": "4e82d71228f176006e613fe15cdaa74982e90a7fb5b08018785fc440af53b1c3",
+      "page_url": "https://github.com/rodrigoborgesdeoliveira/sheet-music-and-chords/blob/main/pixinguinha/carinhoso/carinhoso.musicxml",
+      "parts": 1,
+      "raw_sha256": "19902cd6816bd664f89842379a46803c08f65a0491661cce1c3163144ffc5653",
+      "source": "github"
+    },
+    {
+      "candidate_id": "gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:waldyr-azevedo/pedacinhos-do-ceu/pedacinhos-do-ceu.musicxml",
+      "file_url": "https://raw.githubusercontent.com/rodrigoborgesdeoliveira/sheet-music-and-chords/main/waldyr-azevedo/pedacinhos-do-ceu/pedacinhos-do-ceu.musicxml",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "Classical Guitar",
+        "Classical Guitar",
+        "pluck.guitar.nylon-string",
+        "midi-program-25"
+      ],
+      "license": "unknown",
+      "license_spdx": "unknown",
+      "metadata": {
+        "composer": "Waldyr Azevedo",
+        "key_fifths": "1",
+        "opus": "",
+        "title": "Pedacinhos do céu"
+      },
+      "normalized_path": "corpus/normalized/gh_rodrigoborgesdeoliveira_sheet-music-and-chords_main_waldyr-azevedo_pedacinhos-do-ceu_pedacinhos-do-ceu.musicxml.musicxml",
+      "normalized_sha256": "117f7cd3358e9ea3b1d2b290af2b02f8ad2b5ff2b8fc072d450414f26a89b03b",
+      "page_url": "https://github.com/rodrigoborgesdeoliveira/sheet-music-and-chords/blob/main/waldyr-azevedo/pedacinhos-do-ceu/pedacinhos-do-ceu.musicxml",
+      "parts": 1,
+      "raw_sha256": "140570ac3290e939c1809b3e32f6774d7a56bb30e5776ae905f23976fc293a81",
+      "source": "github"
+    },
+    {
+      "candidate_id": "gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:zacar/soleado/soleado.musicxml",
+      "file_url": "https://raw.githubusercontent.com/rodrigoborgesdeoliveira/sheet-music-and-chords/main/zacar/soleado/soleado.musicxml",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "Acoustic Guitar",
+        "Acoustic Guitar",
+        "midi-program-26"
+      ],
+      "license": "unknown",
+      "license_spdx": "unknown",
+      "metadata": {
+        "composer": "Zacar",
+        "key_fifths": "1",
+        "opus": "",
+        "title": "Soleado"
+      },
+      "normalized_path": "corpus/normalized/gh_rodrigoborgesdeoliveira_sheet-music-and-chords_main_zacar_soleado_soleado.musicxml.musicxml",
+      "normalized_sha256": "90f5b2ba73eda8827a71740d8c840335599b32168b87b48e7167810e056b9552",
+      "page_url": "https://github.com/rodrigoborgesdeoliveira/sheet-music-and-chords/blob/main/zacar/soleado/soleado.musicxml",
+      "parts": 1,
+      "raw_sha256": "a97fbfe8efb2c01854d3cb6e6a7efa38172d53a409d2dae4dd516283781da503",
+      "source": "github"
+    },
+    {
+      "candidate_id": "gh:ujfjhz/ChineseMusicScore@main:MusicScore/民间音乐/汉族/河北/河北民歌-小白菜/河北民歌-小白菜.musicxml",
+      "file_url": "https://raw.githubusercontent.com/ujfjhz/ChineseMusicScore/main/MusicScore/%E6%B0%91%E9%97%B4%E9%9F%B3%E4%B9%90/%E6%B1%89%E6%97%8F/%E6%B2%B3%E5%8C%97/%E6%B2%B3%E5%8C%97%E6%B0%91%E6%AD%8C-%E5%B0%8F%E7%99%BD%E8%8F%9C/%E6%B2%B3%E5%8C%97%E6%B0%91%E6%AD%8C-%E5%B0%8F%E7%99%BD%E8%8F%9C.musicxml",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "Classical Guitar",
+        "Classical Guitar",
+        "pluck.guitar.nylon-string",
+        "midi-program-25"
+      ],
+      "license": "Other",
+      "license_spdx": "NOASSERTION",
+      "metadata": {
+        "composer": "河北民歌",
+        "key_fifths": "2",
+        "opus": "",
+        "title": "河北民歌-小白菜"
+      },
+      "normalized_path": "corpus/normalized/gh_ujfjhz_ChineseMusicScore_main_MusicScore_民间音乐_汉族_河北_河北民歌-小白菜_河北民歌-小白菜.musicxml.musicxml",
+      "normalized_sha256": "06baa92e6a5b77b9868908e0a61ca532d8d8decd95abafad8c28691589a1bf85",
+      "page_url": "https://github.com/ujfjhz/ChineseMusicScore/blob/main/MusicScore/%E6%B0%91%E9%97%B4%E9%9F%B3%E4%B9%90/%E6%B1%89%E6%97%8F/%E6%B2%B3%E5%8C%97/%E6%B2%B3%E5%8C%97%E6%B0%91%E6%AD%8C-%E5%B0%8F%E7%99%BD%E8%8F%9C/%E6%B2%B3%E5%8C%97%E6%B0%91%E6%AD%8C-%E5%B0%8F%E7%99%BD%E8%8F%9C.musicxml",
+      "parts": 1,
+      "raw_sha256": "40bbd544bc67e47574e7e0078e46161a50a47b440f2492d87c7926b1120fcd79",
+      "source": "github"
+    }
+  ],
+  "version": 1
+}

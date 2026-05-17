@@ -36,6 +36,8 @@ require_file decisions/0001-license-mit.md
 require_file decisions/0002-syllabi-sources.md
 require_file decisions/0003-stack-deferred.md
 require_file decisions/0004-deferrals.md
+require_file decisions/0005-ingest-pipeline.md
+require_file decisions/0006-github-as-source.md
 
 echo "==> Syllabi"
 require_file syllabi/README.md
@@ -46,6 +48,15 @@ require_file syllabi/abrsm.json
 
 echo "==> Advisor agreement template"
 require_file docs/ADVISOR.md
+
+echo "==> M1 ingest pipeline scripts"
+require_file requirements.txt
+require_file scripts/m1_common.py
+require_file scripts/m1_discover_imslp.py
+require_file scripts/m1_discover_github.py
+require_file scripts/m1_fetch.py
+require_file scripts/m1_validate.py
+require_file corpus/README.md
 
 echo "==> Syllabi JSON schema validation"
 if command -v python3 >/dev/null 2>&1; then

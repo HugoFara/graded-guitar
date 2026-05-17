@@ -113,20 +113,23 @@ Each milestone has a goal, deliverables, and validation checks. Do not advance t
 
 ### Milestone 1 — Data ingest pipeline
 
-**Goal:** a reproducible pipeline that turns IMSLP classical guitar scores into clean, normalized MusicXML the platform can use.
+**Goal:** a reproducible pipeline that turns publicly available classical-guitar scores into clean, normalized MusicXML the platform can use.
+
+**Note on sources.** The original spec assumed IMSLP would provide ≥500 classical-guitar MusicXML files. The M1.1 discovery run (2026-05-17) walked IMSLP's `Category:For guitar` and found **zero** MusicXML files — IMSLP is overwhelmingly PDF scans. OpenScore has no guitar corpus; Mutopia is LilyPond-only and the only viable LilyPond→MusicXML converter (`python-ly`) silently truncates multi-`\score` files. GitHub code search is the current primary source. See ADRs [0005](./decisions/0005-ingest-pipeline.md) (pipeline architecture) and [0006](./decisions/0006-github-as-source.md) (GitHub source rationale).
 
 **Deliverables:**
-- Pipeline that identifies IMSLP classical guitar scores already in MusicXML format.
+- Pipeline that identifies classical-guitar scores in MusicXML format from public sources (initially GitHub; pluggable per source).
 - Normalization step: standardize metadata (composer, title, opus, key), validate the XML, reject malformed files.
-- Storage layout for the normalized corpus, with provenance preserved (link back to IMSLP source).
+- Storage layout for the normalized corpus, with provenance preserved (source repo / page link, sha256 of raw bytes).
 - Ingest report: how many pieces processed, how many accepted, how many rejected and why.
 
 **Validation checks:**
-- [ ] At least 500 distinct classical guitar pieces ingested and normalized.
+- [ ] At least 40 distinct classical guitar pieces ingested and normalized, with a documented plan to grow (community submissions, additional curated repos, license outreach). Original target was 500; lowered to reflect empirical scarcity of free-licensed classical-guitar MusicXML — spec §6 "ship narrow then widen" applies.
 - [ ] Each piece has accurate composer, title, and key metadata.
 - [ ] Every ingested piece can be opened by a standard MusicXML reader without errors.
 - [ ] Pipeline is idempotent: running it twice produces the same corpus.
 - [ ] Rejected pieces have a recorded reason; the rejection list is reviewable.
+- [ ] Each piece's license is captured in the manifest (filtering for redistribution is an M3/M7 concern).
 - [ ] Advisor spot-checks 20 random pieces and confirms metadata is correct.
 
 ### Milestone 2 — Grading model (v1)
