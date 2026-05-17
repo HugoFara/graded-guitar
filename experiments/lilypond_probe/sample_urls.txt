@@ -1,0 +1,10 @@
+https://www.mutopiaproject.org/ftp/AguadoD/O3/aguado-op03n01/aguado-op03n01.ly
+https://www.mutopiaproject.org/ftp/AguadoD/O4/AguadoOp4No1/AguadoOp4No1.ly
+https://www.mutopiaproject.org/ftp/AguadoD/O4/AguadoOp4No2/AguadoOp4No2.ly
+https://www.mutopiaproject.org/ftp/AguadoD/O4/AguadoOp4No3/AguadoOp4No3.ly
+https://www.mutopiaproject.org/ftp/AguadoD/O11/aguado-op11n01/aguado-op11n01.ly
+https://www.mutopiaproject.org/ftp/BachJS/BWV1006a/bwv-1006a_5g/bwv-1006a_5g.ly
+https://www.mutopiaproject.org/ftp/BachJS/BWV1006a/bwv-1006a_6g/bwv-1006a_6g.ly
+https://www.mutopiaproject.org/ftp/BachJS/BWV1031/bach_siciliano_bmv_1031/bach_siciliano_bmv_1031.ly
+https://www.mutopiaproject.org/ftp/BachJS/BWV1068/bach_air_bmv_1068/bach_air_bmv_1068.ly
+https://www.mutopiaproject.org/ftp/BachJS/BWVAnh114/anna-magdalena-04-guitar-tab/anna-magdalena-04-guitar-tab.ly
