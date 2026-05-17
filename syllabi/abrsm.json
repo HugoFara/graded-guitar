@@ -1,0 +1,11 @@
+{
+  "syllabus": "abrsm",
+  "edition": "TBD",
+  "source": {
+    "url": "https://www.abrsm.org/en/our-exams/classical-guitar-exams",
+    "notes": "Locate the current Classical Guitar Syllabus PDF; record its edition label in the `edition` field above and the URL of the PDF itself in `source.url`."
+  },
+  "extracted_on": "1970-01-01",
+  "grades": ["Initial", "1", "2", "3", "4", "5", "6", "7", "8"],
+  "pieces": []
+}

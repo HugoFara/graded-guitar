@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/repertoire/repertoire/syllabi/schema.json",
+  "title": "Syllabus",
+  "description": "A graded list of classical guitar pieces from a recognized examining board, used as labelled training data for the difficulty grading model (spec Milestone 2).",
+  "type": "object",
+  "required": ["syllabus", "edition", "source", "extracted_on", "grades", "pieces"],
+  "additionalProperties": false,
+  "properties": {
+    "syllabus": {
+      "type": "string",
+      "description": "Short identifier for the examining board.",
+      "enum": ["rcm", "trinity", "abrsm"]
+    },
+    "edition": {
+      "type": "string",
+      "description": "Edition label as published by the board (e.g. '2018', '2020-2023')."
+    },
+    "source": {
+      "type": "object",
+      "required": ["url"],
+      "additionalProperties": false,
+      "properties": {
+        "url": { "type": "string", "format": "uri" },
+        "notes": { "type": "string" }
+      }
+    },
+    "extracted_on": {
+      "type": "string",
+      "format": "date",
+      "description": "ISO date the piece list was extracted from source."
+    },
+    "grades": {
+      "type": "array",
+      "description": "Ordered list of grade labels used by this syllabus (e.g. ['Initial','1','2',...,'8']).",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "pieces": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/piece" }
+    }
+  },
+  "$defs": {
+    "piece": {
+      "type": "object",
+      "required": ["title", "composer", "grade"],
+      "additionalProperties": false,
+      "properties": {
+        "title": { "type": "string" },
+        "composer": { "type": "string" },
+        "grade": {
+          "type": "string",
+          "description": "Must match one of the labels in the parent `grades` array."
+        },
+        "opus": { "type": "string" },
+        "list": {
+          "type": "string",
+          "description": "Some syllabi split each grade into multiple lists (A/B/C). Optional."
+        },
+        "imslp_url": {
+          "type": "string",
+          "format": "uri",
+          "description": "Optional link to the IMSLP page if known at extraction time."
+        },
+        "notes": { "type": "string" }
+      }
+    }
+  }
+}

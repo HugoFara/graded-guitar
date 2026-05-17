@@ -1,0 +1,28 @@
+# Decision Log
+
+This folder holds Architecture Decision Records (ADRs). One file per meaningful choice. Numbered sequentially. Once accepted, an ADR is immutable — supersede it with a new file rather than editing.
+
+## Format
+
+Each ADR is a short markdown file:
+
+```
+NNNN-kebab-case-title.md
+```
+
+Use [`template.md`](./template.md) as the starting point. Sections:
+
+- **Status** — Proposed / Accepted / Superseded by #NNNN.
+- **Context** — what forced the decision.
+- **Decision** — what we chose.
+- **Consequences** — what this commits us to, and what it costs.
+
+## When to write one
+
+Open an ADR when introducing a new dependency, a new file format, a new service, a new architectural pattern, or any choice future-you would Google to remember the reasoning for. If you'd want to argue about it later, write it down now.
+
+## Index
+
+- [0001 — License: MIT](./0001-license-mit.md)
+- [0002 — Syllabi: RCM, Trinity, ABRSM](./0002-syllabi-sources.md)
+- [0003 — Stack: deferred to Milestone 1](./0003-stack-deferred.md)
