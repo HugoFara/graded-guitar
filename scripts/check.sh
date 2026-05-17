@@ -38,6 +38,7 @@ require_file decisions/0003-stack-deferred.md
 require_file decisions/0004-deferrals.md
 require_file decisions/0005-ingest-pipeline.md
 require_file decisions/0006-github-as-source.md
+require_file decisions/0007-mutopia-source.md
 
 echo "==> Syllabi"
 require_file syllabi/README.md
@@ -54,6 +55,8 @@ require_file requirements.txt
 require_file scripts/m1_common.py
 require_file scripts/m1_discover_imslp.py
 require_file scripts/m1_discover_github.py
+require_file scripts/m1_discover_mutopia.py
+require_file scripts/m1_lilypond.py
 require_file scripts/m1_fetch.py
 require_file scripts/m1_validate.py
 require_file corpus/README.md

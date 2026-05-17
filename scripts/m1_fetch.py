@@ -1,10 +1,17 @@
-"""M1.2 — Fetch IMSLP MusicXML candidate files.
+"""M1.2 — Fetch candidate files from every discovery source.
 
-Reads corpus/candidates.json, downloads each file, content-addresses the
-bytes by sha256 under corpus/raw/. Skips files already cached.
+Reads every corpus/candidates.*.json, downloads each candidate, and
+content-addresses the bytes by sha256 under corpus/raw/. Skips files
+already cached. Source-specific paths:
 
-Maintains corpus/cache/fetch_log.json mapping IMSLP file_id → sha256 +
-fetch metadata, so re-runs are idempotent without re-hitting IMSLP.
+- IMSLP / GitHub: HTTP fetch of a MusicXML or MXL file.
+- Mutopia: HTTP fetch of a .ly file, then LilyPond → MusicXML
+  conversion via scripts/m1_lilypond.py. Each `\\score` block in the
+  source becomes its own raw file, keyed by `<candidate_id>#movementNN`.
+
+Maintains corpus/cache/fetch_log.json mapping candidate_id (including
+synthetic #movement suffixes) → sha256 + fetch metadata, so re-runs are
+idempotent.
 
 Usage:
     python scripts/m1_fetch.py
@@ -12,7 +19,7 @@ Usage:
     python scripts/m1_fetch.py --force             # ignore cache, re-download
     python scripts/m1_fetch.py --min-interval 2.0  # extra-polite
 
-See decisions/0005-ingest-pipeline.md for the architecture.
+See decisions/0005-ingest-pipeline.md and 0007-mutopia-source.md.
 """
 from __future__ import annotations
 
@@ -96,6 +103,96 @@ def save_blob(blob: bytes, fmt: str) -> tuple[str, Path]:
     return digest, path
 
 
+def fetch_mutopia(
+    session: RateLimitedSession, candidate: dict[str, Any],
+    entries: dict[str, Any], stats: dict[str, int],
+) -> None:
+    """Download a Mutopia .ly file and convert it via the LilyPond
+    wrapper. Each `\\score` block becomes its own entry in `entries`
+    keyed `<parent_cid>#movementNN`. The parent cid gets a "container"
+    entry so we don't re-fetch on subsequent runs."""
+    # Lazy import — only needed when Mutopia candidates are present.
+    from m1_lilypond import convert_lilypond
+
+    parent_cid = candidate["candidate_id"]
+    url = candidate["file_url"]
+    try:
+        resp = session.get(url, allow_redirects=True)
+    except Exception as exc:
+        entries[parent_cid] = {
+            "status": "failed", "reason": f"network_error: {exc}",
+            "url": url, "container": True,
+        }
+        stats["failed"] += 1
+        print(f"    FAILED (network): {exc}")
+        return
+    if resp.status_code != 200 or not resp.content:
+        entries[parent_cid] = {
+            "status": "failed", "reason": f"http_{resp.status_code}",
+            "url": url, "container": True,
+        }
+        stats["failed"] += 1
+        print(f"    FAILED: http_{resp.status_code}")
+        return
+
+    ly_text = resp.content.decode("utf-8", errors="replace")
+    result = convert_lilypond(ly_text)
+
+    if not result.movements:
+        entries[parent_cid] = {
+            "status": "failed", "reason": "no_movements_produced",
+            "url": url, "container": True,
+        }
+        stats["failed"] += 1
+        print(f"    FAILED: wrapper produced no movements")
+        return
+
+    movement_entries = []
+    for mv in result.movements:
+        movement_cid = f"{parent_cid}#movement{mv.movement_index:02d}"
+        if not mv.success:
+            entries[movement_cid] = {
+                "status": "failed",
+                "reason": mv.failure_reason or "LY_CONVERSION_FAILED",
+                "detail": mv.failure_detail or "",
+                "fallbacks": mv.fallbacks_applied,
+                "parent": parent_cid,
+            }
+            stats["failed"] += 1
+            movement_entries.append((movement_cid, False))
+            continue
+        digest, path = save_blob(mv.musicxml_bytes, "musicxml")
+        entries[movement_cid] = {
+            "status": "ok",
+            "sha256": digest,
+            "format": "musicxml",
+            "size_bytes": len(mv.musicxml_bytes),
+            "path": str(path.relative_to(RAW_DIR.parent.parent)),
+            "url": url,
+            "parent": parent_cid,
+            "fallbacks": mv.fallbacks_applied,
+            "ly_metrics": {"parts": mv.parts, "measures": mv.measures,
+                           "notes": mv.notes},
+        }
+        stats["fetched"] += 1
+        movement_entries.append((movement_cid, True))
+
+    # Container entry — records what was produced so re-runs skip.
+    entries[parent_cid] = {
+        "status": "container",
+        "url": url,
+        "container": True,
+        "source_score_count": result.source_score_count,
+        "header_metadata": result.metadata,
+        "movements": [
+            {"candidate_id": cid, "ok": ok} for cid, ok in movement_entries
+        ],
+    }
+    ok_count = sum(1 for _, ok in movement_entries if ok)
+    print(f"    OK: {ok_count}/{len(movement_entries)} movements clean "
+          f"(score_count={result.source_score_count})")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--limit", type=int, default=None)
@@ -130,31 +227,37 @@ def main() -> int:
         if args.limit is not None and stats["fetched"] >= args.limit:
             break
         url = c["file_url"]
+        source = c.get("source", "")
         print(f"  [{i}/{len(candidates)}] {cid} -> {url}")
-        result, info = fetch_one(session, url)
-        if result is None:
-            stats["failed"] += 1
-            failures.append({"candidate_id": cid, "url": url, "reason": info})
-            entries[cid] = {
-                "status": "failed",
-                "reason": info,
-                "url": url,
-            }
-            print(f"    FAILED: {info}")
-            continue
-        digest, path = save_blob(result, info)
-        stats["fetched"] += 1
-        entries[cid] = {
-            "status": "ok",
-            "sha256": digest,
-            "format": info,
-            "size_bytes": len(result),
-            "path": str(path.relative_to(RAW_DIR.parent.parent)),
-            "url": url,
-        }
-        print(f"    OK: {info}, {len(result)} bytes, sha256={digest[:12]}…")
 
-        # Flush log every 10 fetches so a crash doesn't lose progress.
+        if source == "mutopia":
+            fetch_mutopia(session, c, entries, stats)
+        else:
+            result, info = fetch_one(session, url)
+            if result is None:
+                stats["failed"] += 1
+                failures.append({"candidate_id": cid, "url": url, "reason": info})
+                entries[cid] = {
+                    "status": "failed",
+                    "reason": info,
+                    "url": url,
+                }
+                print(f"    FAILED: {info}")
+            else:
+                digest, path = save_blob(result, info)
+                stats["fetched"] += 1
+                entries[cid] = {
+                    "status": "ok",
+                    "sha256": digest,
+                    "format": info,
+                    "size_bytes": len(result),
+                    "path": str(path.relative_to(RAW_DIR.parent.parent)),
+                    "url": url,
+                }
+                print(f"    OK: {info}, {len(result)} bytes, "
+                      f"sha256={digest[:12]}…")
+
+        # Flush log every 10 candidates so a crash doesn't lose progress.
         if (stats["fetched"] + stats["failed"]) % 10 == 0:
             write_json_atomic(FETCH_LOG_PATH, {"version": 1, "entries": entries})
 

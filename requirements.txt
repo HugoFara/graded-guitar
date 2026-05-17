@@ -1,4 +1,8 @@
 # M1 pipeline dependencies. Pinned for reproducibility.
-# See decisions/0005-ingest-pipeline.md for the justification.
+# See decisions/0005-ingest-pipeline.md and 0007-mutopia-source.md.
 requests==2.32.3
 lxml==5.3.0
+# Mutopia → MusicXML conversion only. Imported lazily by m1_fetch.py
+# when a Mutopia candidate is encountered. Monkey-patched at import
+# time in scripts/m1_lilypond.py — be careful when bumping this pin.
+python-ly==0.9.10

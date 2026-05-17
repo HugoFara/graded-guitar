@@ -1,0 +1,3647 @@
+{
+  "items": [
+    {
+      "candidate_id": "mutopia:ftp/AguadoD/O3/aguado-op03n01/aguado-op03n01",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/AguadoD/O3/aguado-op03n01/aguado-op03n01.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/AguadoD/O3/aguado-op03n01/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/AguadoD/O3/aguado-op03n02/aguado-op03n02",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/AguadoD/O3/aguado-op03n02/aguado-op03n02.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/AguadoD/O3/aguado-op03n02/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/AguadoD/O3/aguado-op03n03/aguado-op03n03",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/AguadoD/O3/aguado-op03n03/aguado-op03n03.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/AguadoD/O3/aguado-op03n03/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/AguadoD/O3/aguado-op03n04/aguado-op03n04",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/AguadoD/O3/aguado-op03n04/aguado-op03n04.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/AguadoD/O3/aguado-op03n04/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/AguadoD/O3/aguado-op03n05/aguado-op03n05",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/AguadoD/O3/aguado-op03n05/aguado-op03n05.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/AguadoD/O3/aguado-op03n05/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/AguadoD/O3/aguado-op03n06/aguado-op03n06",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/AguadoD/O3/aguado-op03n06/aguado-op03n06.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/AguadoD/O3/aguado-op03n06/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/AguadoD/O3/aguado-op03n07/aguado-op03n07",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/AguadoD/O3/aguado-op03n07/aguado-op03n07.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/AguadoD/O3/aguado-op03n07/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/AguadoD/O3/aguado-op03n08/aguado-op03n08",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/AguadoD/O3/aguado-op03n08/aguado-op03n08.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/AguadoD/O3/aguado-op03n08/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/AguadoD/O4/AguadoOp4No1/AguadoOp4No1",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/AguadoD/O4/AguadoOp4No1/AguadoOp4No1.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/AguadoD/O4/AguadoOp4No1/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/AguadoD/O4/AguadoOp4No2/AguadoOp4No2",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/AguadoD/O4/AguadoOp4No2/AguadoOp4No2.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/AguadoD/O4/AguadoOp4No2/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/AguadoD/O4/AguadoOp4No3/AguadoOp4No3",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/AguadoD/O4/AguadoOp4No3/AguadoOp4No3.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/AguadoD/O4/AguadoOp4No3/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/AguadoD/O4/AguadoOp4No4/AguadoOp4No4",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/AguadoD/O4/AguadoOp4No4/AguadoOp4No4.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/AguadoD/O4/AguadoOp4No4/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/AguadoD/O4/AguadoOp4No5/AguadoOp4No5",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/AguadoD/O4/AguadoOp4No5/AguadoOp4No5.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/AguadoD/O4/AguadoOp4No5/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/AguadoD/O4/AguadoOp4No6/AguadoOp4No6",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/AguadoD/O4/AguadoOp4No6/AguadoOp4No6.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/AguadoD/O4/AguadoOp4No6/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/AguadoD/O11/aguado-op11n01/aguado-op11n01",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/AguadoD/O11/aguado-op11n01/aguado-op11n01.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/AguadoD/O11/aguado-op11n01/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/AguadoD/O11/aguado-op11n02/aguado-op11n02",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/AguadoD/O11/aguado-op11n02/aguado-op11n02.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/AguadoD/O11/aguado-op11n02/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/AguadoD/O11/aguado-op11n03/aguado-op11n03",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/AguadoD/O11/aguado-op11n03/aguado-op11n03.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/AguadoD/O11/aguado-op11n03/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/AguadoD/O11/aguado-op11n04/aguado-op11n04",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/AguadoD/O11/aguado-op11n04/aguado-op11n04.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/AguadoD/O11/aguado-op11n04/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/AguadoD/O11/aguado-op11n05/aguado-op11n05",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/AguadoD/O11/aguado-op11n05/aguado-op11n05.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/AguadoD/O11/aguado-op11n05/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/AguadoD/O11/aguado-op11n06/aguado-op11n06",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/AguadoD/O11/aguado-op11n06/aguado-op11n06.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/AguadoD/O11/aguado-op11n06/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/AguadoD/O11/aguado-op11n07/aguado-op11n07",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/AguadoD/O11/aguado-op11n07/aguado-op11n07.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/AguadoD/O11/aguado-op11n07/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/AguadoD/O11/aguado-op11n08/aguado-op11n08",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/AguadoD/O11/aguado-op11n08/aguado-op11n08.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/AguadoD/O11/aguado-op11n08/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/AguadoD/O11/aguado-op11n09/aguado-op11n09",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/AguadoD/O11/aguado-op11n09/aguado-op11n09.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/AguadoD/O11/aguado-op11n09/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/AguadoD/O11/aguado-op11n10/aguado-op11n10",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/AguadoD/O11/aguado-op11n10/aguado-op11n10.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/AguadoD/O11/aguado-op11n10/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/AguadoD/aminor-study/aminor-study",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/AguadoD/aminor-study/aminor-study.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/AguadoD/aminor-study/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/AguadoD/g-major-allegro/g-major-allegro",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/AguadoD/g-major-allegro/g-major-allegro.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/AguadoD/g-major-allegro/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/Anonymous/spanish-romance/spanish-romance",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/Anonymous/spanish-romance/spanish-romance.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/Anonymous/spanish-romance/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BachJS/BWV846/wtk1-prelude1-guitar-duo/wtk1-prelude1-guitar-duo",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV846/wtk1-prelude1-guitar-duo/wtk1-prelude1-guitar-duo.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV846/wtk1-prelude1-guitar-duo/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BachJS/BWV997/Bach_Preludio_BWV997/Bach_Preludio_BWV997",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV997/Bach_Preludio_BWV997/Bach_Preludio_BWV997.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV997/Bach_Preludio_BWV997/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BachJS/BWV997/bwv997-01prelude/bwv997-01prelude",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV997/bwv997-01prelude/bwv997-01prelude.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV997/bwv997-01prelude/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BachJS/BWV997/bwv997-02fuga/bwv997-02fuga",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV997/bwv997-02fuga/bwv997-02fuga.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV997/bwv997-02fuga/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BachJS/BWV997/bwv997-03sarabande/bwv997-03sarabande",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV997/bwv997-03sarabande/bwv997-03sarabande.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV997/bwv997-03sarabande/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BachJS/BWV997/bwv997-04gigue/bwv997-04gigue",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV997/bwv997-04gigue/bwv997-04gigue.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV997/bwv997-04gigue/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BachJS/BWV997/bwv997-05double/bwv997-05double",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV997/bwv997-05double/bwv997-05double.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV997/bwv997-05double/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BachJS/BWV999/Bach_Prelude_BWV999/Bach_Prelude_BWV999",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV999/Bach_Prelude_BWV999/Bach_Prelude_BWV999.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV999/Bach_Prelude_BWV999/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BachJS/BWV1006a/bwv-1006a_1g/bwv-1006a_1g",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1006a/bwv-1006a_1g/bwv-1006a_1g.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1006a/bwv-1006a_1g/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BachJS/BWV1006a/bwv-1006a_2g/bwv-1006a_2g",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1006a/bwv-1006a_2g/bwv-1006a_2g.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1006a/bwv-1006a_2g/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BachJS/BWV1006a/bwv-1006a_3g/bwv-1006a_3g",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1006a/bwv-1006a_3g/bwv-1006a_3g.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1006a/bwv-1006a_3g/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BachJS/BWV1006a/bwv-1006a_4g/bwv-1006a_4g",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1006a/bwv-1006a_4g/bwv-1006a_4g.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1006a/bwv-1006a_4g/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BachJS/BWV1006a/bwv-1006a_5g/bwv-1006a_5g",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1006a/bwv-1006a_5g/bwv-1006a_5g.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1006a/bwv-1006a_5g/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BachJS/BWV1006a/bwv-1006a_6g/bwv-1006a_6g",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1006a/bwv-1006a_6g/bwv-1006a_6g.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1006a/bwv-1006a_6g/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BachJS/BWV1006a/bwv-1006a_7g/bwv-1006a_7g",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1006a/bwv-1006a_7g/bwv-1006a_7g.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1006a/bwv-1006a_7g/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BachJS/BWV1031/bach_siciliano_bmv_1031/bach_siciliano_bmv_1031",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1031/bach_siciliano_bmv_1031/bach_siciliano_bmv_1031.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1031/bach_siciliano_bmv_1031/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BachJS/BWV1068/bach_air_bmv_1068/bach_air_bmv_1068",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1068/bach_air_bmv_1068/bach_air_bmv_1068.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1068/bach_air_bmv_1068/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BachJS/BWV1087/bwv-1087-01-g/bwv-1087-01-g",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1087/bwv-1087-01-g/bwv-1087-01-g.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1087/bwv-1087-01-g/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BachJS/BWV1087/bwv-1087-02-g/bwv-1087-02-g",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1087/bwv-1087-02-g/bwv-1087-02-g.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1087/bwv-1087-02-g/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BachJS/BWV1087/bwv-1087-03-g/bwv-1087-03-g",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1087/bwv-1087-03-g/bwv-1087-03-g.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1087/bwv-1087-03-g/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BachJS/BWV1087/bwv-1087-04-g/bwv-1087-04-g",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1087/bwv-1087-04-g/bwv-1087-04-g.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1087/bwv-1087-04-g/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BachJS/BWVAnh114/anna-magdalena-04-guitar-tab/anna-magdalena-04-guitar-tab",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/BachJS/BWVAnh114/anna-magdalena-04-guitar-tab/anna-magdalena-04-guitar-tab.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/BachJS/BWVAnh114/anna-magdalena-04-guitar-tab/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BachJS/BWVAnh114/anna-magdalena-04-guitar/anna-magdalena-04-guitar",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/BachJS/BWVAnh114/anna-magdalena-04-guitar/anna-magdalena-04-guitar.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/BachJS/BWVAnh114/anna-magdalena-04-guitar/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BeethovenLv/O13/pathetique-2-guitar-duo/pathetique-2-guitar-duo",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/BeethovenLv/O13/pathetique-2-guitar-duo/pathetique-2-guitar-duo.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/BeethovenLv/O13/pathetique-2-guitar-duo/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BeethovenLv/O27/moonlight-guitar-duo/moonlight-guitar-duo",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/BeethovenLv/O27/moonlight-guitar-duo/moonlight-guitar-duo.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/BeethovenLv/O27/moonlight-guitar-duo/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BeethovenLv/O67/sym5-1-guitar-duo/sym5-1-guitar-duo",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/BeethovenLv/O67/sym5-1-guitar-duo/sym5-1-guitar-duo.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/BeethovenLv/O67/sym5-1-guitar-duo/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BeethovenLv/WoO59/fur-elise-guitar-duo/fur-elise-guitar-duo",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/BeethovenLv/WoO59/fur-elise-guitar-duo/fur-elise-guitar-duo.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/BeethovenLv/WoO59/fur-elise-guitar-duo/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BrahmsJ/LullabyBrahms-C/LullabyBrahms-C",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/BrahmsJ/LullabyBrahms-C/LullabyBrahms-C.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/BrahmsJ/LullabyBrahms-C/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BrahmsJ/O39/brahms-vals3/brahms-vals3",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/BrahmsJ/O39/brahms-vals3/brahms-vals3.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/BrahmsJ/O39/brahms-vals3/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BrahmsJ/O39/brahms-vals9/brahms-vals9",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/BrahmsJ/O39/brahms-vals9/brahms-vals9.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/BrahmsJ/O39/brahms-vals9/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BrownCJ/lullaby/lullaby",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/BrownCJ/lullaby/lullaby.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/BrownCJ/lullaby/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BurnsD/two-duo/two-duo",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/BurnsD/two-duo/two-duo.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/BurnsD/two-duo/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O1/carcassi-op1n01/carcassi-op1n01",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O1/carcassi-op1n01/carcassi-op1n01.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O1/carcassi-op1n01/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O1/carcassi-op1n02/carcassi-op1n02",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O1/carcassi-op1n02/carcassi-op1n02.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O1/carcassi-op1n02/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O1/carcassi-op1n03/carcassi-op1n03",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O1/carcassi-op1n03/carcassi-op1n03.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O1/carcassi-op1n03/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O26/carcassi-op26-01/carcassi-op26-01",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O26/carcassi-op26-01/carcassi-op26-01.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O26/carcassi-op26-01/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O26/carcassi-op26-02/carcassi-op26-02",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O26/carcassi-op26-02/carcassi-op26-02.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O26/carcassi-op26-02/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O26/carcassi-op26-03/carcassi-op26-03",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O26/carcassi-op26-03/carcassi-op26-03.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O26/carcassi-op26-03/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O26/carcassi-op26-04/carcassi-op26-04",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O26/carcassi-op26-04/carcassi-op26-04.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O26/carcassi-op26-04/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O26/carcassi-op26-05/carcassi-op26-05",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O26/carcassi-op26-05/carcassi-op26-05.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O26/carcassi-op26-05/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O26/carcassi-op26-06/carcassi-op26-06",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O26/carcassi-op26-06/carcassi-op26-06.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O26/carcassi-op26-06/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O59/CarcassiMethodPreludes/CarcassiMethodPreludes",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O59/CarcassiMethodPreludes/CarcassiMethodPreludes.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O59/CarcassiMethodPreludes/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O59/TwoMinorPreludes/TwoMinorPreludes",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O59/TwoMinorPreludes/TwoMinorPreludes.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O59/TwoMinorPreludes/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O60/carcassi-op60-01/carcassi-op60-01",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-01/carcassi-op60-01.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-01/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O60/carcassi-op60-02/carcassi-op60-02",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-02/carcassi-op60-02.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-02/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O60/carcassi-op60-03/carcassi-op60-03",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-03/carcassi-op60-03.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-03/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O60/carcassi-op60-04/carcassi-op60-04",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-04/carcassi-op60-04.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-04/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O60/carcassi-op60-05/carcassi-op60-05",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-05/carcassi-op60-05.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-05/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O60/carcassi-op60-06/carcassi-op60-06",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-06/carcassi-op60-06.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-06/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O60/carcassi-op60-07/carcassi-op60-07",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-07/carcassi-op60-07.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-07/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O60/carcassi-op60-08/carcassi-op60-08",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-08/carcassi-op60-08.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-08/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O60/carcassi-op60-09/carcassi-op60-09",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-09/carcassi-op60-09.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-09/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O60/carcassi-op60-10/carcassi-op60-10",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-10/carcassi-op60-10.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-10/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O60/carcassi-op60-11/carcassi-op60-11",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-11/carcassi-op60-11.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-11/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O60/carcassi-op60-12/carcassi-op60-12",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-12/carcassi-op60-12.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-12/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O60/carcassi-op60-13/carcassi-op60-13",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-13/carcassi-op60-13.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-13/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O60/carcassi-op60-14/carcassi-op60-14",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-14/carcassi-op60-14.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-14/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O60/carcassi-op60-15/carcassi-op60-15",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-15/carcassi-op60-15.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-15/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O60/carcassi-op60-16/carcassi-op60-16",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-16/carcassi-op60-16.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-16/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O60/carcassi-op60-17/carcassi-op60-17",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-17/carcassi-op60-17.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-17/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O60/carcassi-op60-18/carcassi-op60-18",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-18/carcassi-op60-18.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-18/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O60/carcassi-op60-19/carcassi-op60-19",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-19/carcassi-op60-19.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-19/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O60/carcassi-op60-20/carcassi-op60-20",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-20/carcassi-op60-20.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-20/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O60/carcassi-op60-21/carcassi-op60-21",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-21/carcassi-op60-21.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-21/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O60/carcassi-op60-22/carcassi-op60-22",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-22/carcassi-op60-22.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-22/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O60/carcassi-op60-23/carcassi-op60-23",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-23/carcassi-op60-23.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-23/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O60/carcassi-op60-24/carcassi-op60-24",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-24/carcassi-op60-24.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-24/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O60/carcassi-op60-25/carcassi-op60-25",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-25/carcassi-op60-25.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-25/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarulliF/carulli-duet-in-g/carulli-duet-in-g",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/CarulliF/carulli-duet-in-g/carulli-duet-in-g.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/CarulliF/carulli-duet-in-g/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarulliF/carulli-fughetta/carulli-fughetta",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/CarulliF/carulli-fughetta/carulli-fughetta.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/CarulliF/carulli-fughetta/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/FaureG/O56/faure_dolly_berceuse/faure_dolly_berceuse",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/FaureG/O56/faure_dolly_berceuse/faure_dolly_berceuse.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/FaureG/O56/faure_dolly_berceuse/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/FaureG/O78/faure-sicilienne-guitare-doigtee/faure-sicilienne-guitare-doigtee",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/FaureG/O78/faure-sicilienne-guitare-doigtee/faure-sicilienne-guitare-doigtee.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/FaureG/O78/faure-sicilienne-guitare-doigtee/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GalileiV/saltarello/saltarello",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GalileiV/saltarello/saltarello.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GalileiV/saltarello/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O1/giuliani-op1n10/giuliani-op1n10",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O1/giuliani-op1n10/giuliani-op1n10.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O1/giuliani-op1n10/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n01/giuliani-op50n01",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n01/giuliani-op50n01.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n01/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n02/giuliani-op50n02",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n02/giuliani-op50n02.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n02/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n03/giuliani-op50n03",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n03/giuliani-op50n03.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n03/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n04/giuliani-op50n04",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n04/giuliani-op50n04.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n04/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n05/giuliani-op50n05",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n05/giuliani-op50n05.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n05/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n06/giuliani-op50n06",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n06/giuliani-op50n06.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n06/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n07/giuliani-op50n07",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n07/giuliani-op50n07.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n07/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n08/giuliani-op50n08",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n08/giuliani-op50n08.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n08/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n09/giuliani-op50n09",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n09/giuliani-op50n09.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n09/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n10/giuliani-op50n10",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n10/giuliani-op50n10.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n10/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n11/giuliani-op50n11",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n11/giuliani-op50n11.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n11/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n12/giuliani-op50n12",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n12/giuliani-op50n12.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n12/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n13/giuliani-op50n13",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n13/giuliani-op50n13.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n13/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n14/giuliani-op50n14",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n14/giuliani-op50n14.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n14/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n15/giuliani-op50n15",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n15/giuliani-op50n15.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n15/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n16/giuliani-op50n16",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n16/giuliani-op50n16.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n16/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n17/giuliani-op50n17",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n17/giuliani-op50n17.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n17/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n18/giuliani-op50n18",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n18/giuliani-op50n18.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n18/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n19/giuliani-op50n19",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n19/giuliani-op50n19.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n19/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n20/giuliani-op50n20",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n20/giuliani-op50n20.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n20/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n21/giuliani-op50n21",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n21/giuliani-op50n21.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n21/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n22/giuliani-op50n22",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n22/giuliani-op50n22.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n22/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n23/giuliani-op50n23",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n23/giuliani-op50n23.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n23/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n24/giuliani-op50n24",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n24/giuliani-op50n24.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n24/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n25/giuliani-op50n25",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n25/giuliani-op50n25.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n25/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n26/giuliani-op50n26",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n26/giuliani-op50n26.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n26/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n27/giuliani-op50n27",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n27/giuliani-op50n27.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n27/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n28/giuliani-op50n28",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n28/giuliani-op50n28.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n28/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n29/giuliani-op50n29",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n29/giuliani-op50n29.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n29/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n30/giuliani-op50n30",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n30/giuliani-op50n30.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n30/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n31/giuliani-op50n31",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n31/giuliani-op50n31.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n31/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n32/giuliani-op50n32",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n32/giuliani-op50n32.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O50/giuliani-op50n32/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O51/giuliani-o51-01/giuliani-o51-01",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O51/giuliani-o51-01/giuliani-o51-01.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O51/giuliani-o51-01/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O51/giuliani-o51-02/giuliani-o51-02",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O51/giuliani-o51-02/giuliani-o51-02.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O51/giuliani-o51-02/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O51/giuliani-o51-03/giuliani-o51-03",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O51/giuliani-o51-03/giuliani-o51-03.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O51/giuliani-o51-03/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O51/giuliani-o51-04/giuliani-o51-04",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O51/giuliani-o51-04/giuliani-o51-04.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O51/giuliani-o51-04/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O51/giuliani-o51-05/giuliani-o51-05",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O51/giuliani-o51-05/giuliani-o51-05.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O51/giuliani-o51-05/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O51/giuliani-o51-06/giuliani-o51-06",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O51/giuliani-o51-06/giuliani-o51-06.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O51/giuliani-o51-06/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O51/giuliani-o51-07/giuliani-o51-07",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O51/giuliani-o51-07/giuliani-o51-07.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O51/giuliani-o51-07/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O51/giuliani-o51-08/giuliani-o51-08",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O51/giuliani-o51-08/giuliani-o51-08.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O51/giuliani-o51-08/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O51/giuliani-o51-09/giuliani-o51-09",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O51/giuliani-o51-09/giuliani-o51-09.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O51/giuliani-o51-09/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O51/giuliani-o51-10/giuliani-o51-10",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O51/giuliani-o51-10/giuliani-o51-10.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O51/giuliani-o51-10/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O59/giuliani-op59n01/giuliani-op59n01",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O59/giuliani-op59n01/giuliani-op59n01.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O59/giuliani-op59n01/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O59/giuliani-op59n02/giuliani-op59n02",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O59/giuliani-op59n02/giuliani-op59n02.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O59/giuliani-op59n02/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O59/giuliani-op59n03/giuliani-op59n03",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O59/giuliani-op59n03/giuliani-op59n03.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O59/giuliani-op59n03/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O59/giuliani-op59n04/giuliani-op59n04",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O59/giuliani-op59n04/giuliani-op59n04.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O59/giuliani-op59n04/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O59/giuliani-op59n05/giuliani-op59n05",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O59/giuliani-op59n05/giuliani-op59n05.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O59/giuliani-op59n05/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O59/giuliani-op59n06/giuliani-op59n06",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O59/giuliani-op59n06/giuliani-op59n06.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O59/giuliani-op59n06/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O59/giuliani-op59n07/giuliani-op59n07",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O59/giuliani-op59n07/giuliani-op59n07.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O59/giuliani-op59n07/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O59/giuliani-op59n08/giuliani-op59n08",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O59/giuliani-op59n08/giuliani-op59n08.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O59/giuliani-op59n08/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O59/giuliani-op59n09/giuliani-op59n09",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O59/giuliani-op59n09/giuliani-op59n09.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O59/giuliani-op59n09/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O59/giuliani-op59n10/giuliani-op59n10",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O59/giuliani-op59n10/giuliani-op59n10.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O59/giuliani-op59n10/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O59/giuliani-op59n11/giuliani-op59n11",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O59/giuliani-op59n11/giuliani-op59n11.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O59/giuliani-op59n11/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O59/giuliani-op59n12/giuliani-op59n12",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O59/giuliani-op59n12/giuliani-op59n12.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O59/giuliani-op59n12/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O59/giuliani-op59n13/giuliani-op59n13",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O59/giuliani-op59n13/giuliani-op59n13.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O59/giuliani-op59n13/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O59/giuliani-op59n14/giuliani-op59n14",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O59/giuliani-op59n14/giuliani-op59n14.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O59/giuliani-op59n14/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O59/giuliani-op59n15/giuliani-op59n15",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O59/giuliani-op59n15/giuliani-op59n15.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O59/giuliani-op59n15/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O59/giuliani-op59n16/giuliani-op59n16",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O59/giuliani-op59n16/giuliani-op59n16.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O59/giuliani-op59n16/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O78/giuliani-op78n01/giuliani-op78n01",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O78/giuliani-op78n01/giuliani-op78n01.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O78/giuliani-op78n01/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O78/giuliani-op78n02/giuliani-op78n02",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O78/giuliani-op78n02/giuliani-op78n02.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O78/giuliani-op78n02/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O78/giuliani-op78n03/giuliani-op78n03",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O78/giuliani-op78n03/giuliani-op78n03.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O78/giuliani-op78n03/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O78/giuliani-op78n04/giuliani-op78n04",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O78/giuliani-op78n04/giuliani-op78n04.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O78/giuliani-op78n04/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O78/giuliani-op78n05/giuliani-op78n05",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O78/giuliani-op78n05/giuliani-op78n05.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O78/giuliani-op78n05/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O100/GiulianiOp100No1/GiulianiOp100No1",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No1/GiulianiOp100No1.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No1/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O100/GiulianiOp100No2/GiulianiOp100No2",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No2/GiulianiOp100No2.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No2/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O100/GiulianiOp100No3/GiulianiOp100No3",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No3/GiulianiOp100No3.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No3/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O100/GiulianiOp100No4/GiulianiOp100No4",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No4/GiulianiOp100No4.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No4/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O100/GiulianiOp100No5/GiulianiOp100No5",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No5/GiulianiOp100No5.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No5/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O100/GiulianiOp100No6/GiulianiOp100No6",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No6/GiulianiOp100No6.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No6/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O100/GiulianiOp100No7/GiulianiOp100No7",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No7/GiulianiOp100No7.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No7/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O100/GiulianiOp100No8/GiulianiOp100No8",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No8/GiulianiOp100No8.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No8/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O100/GiulianiOp100No9/GiulianiOp100No9",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No9/GiulianiOp100No9.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No9/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O100/GiulianiOp100No10/GiulianiOp100No10",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No10/GiulianiOp100No10.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No10/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O100/GiulianiOp100No11/GiulianiOp100No11",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No11/GiulianiOp100No11.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No11/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O100/GiulianiOp100No12/GiulianiOp100No12",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No12/GiulianiOp100No12.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No12/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O100/GiulianiOp100No13/GiulianiOp100No13",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No13/GiulianiOp100No13.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No13/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O100/GiulianiOp100No14/GiulianiOp100No14",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No14/GiulianiOp100No14.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No14/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O100/GiulianiOp100No15/GiulianiOp100No15",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No15/GiulianiOp100No15.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No15/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O100/GiulianiOp100No16/GiulianiOp100No16",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No16/GiulianiOp100No16.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No16/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O100/GiulianiOp100No17/GiulianiOp100No17",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No17/GiulianiOp100No17.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No17/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O100/GiulianiOp100No18/GiulianiOp100No18",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No18/GiulianiOp100No18.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No18/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O100/GiulianiOp100No19/GiulianiOp100No19",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No19/GiulianiOp100No19.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No19/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O100/GiulianiOp100No20/GiulianiOp100No20",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No20/GiulianiOp100No20.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No20/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O100/GiulianiOp100No21/GiulianiOp100No21",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No21/GiulianiOp100No21.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No21/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O100/GiulianiOp100No22/GiulianiOp100No22",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No22/GiulianiOp100No22.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No22/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O100/GiulianiOp100No23/GiulianiOp100No23",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No23/GiulianiOp100No23.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No23/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O100/GiulianiOp100No24/GiulianiOp100No24",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No24/GiulianiOp100No24.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O100/GiulianiOp100No24/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GranadosE/O37/oriental-duo/oriental-duo",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GranadosE/O37/oriental-duo/oriental-duo.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GranadosE/O37/oriental-duo/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GruberFX/stille-nacht/stille-nacht",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GruberFX/stille-nacht/stille-nacht.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GruberFX/stille-nacht/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GruberFX/stille-orig/stille-orig",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/GruberFX/stille-orig/stille-orig.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/GruberFX/stille-orig/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky1/horetzky1",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky1/horetzky1.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky1/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky2/horetzky2",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky2/horetzky2.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky2/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky3/horetzky3",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky3/horetzky3.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky3/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky4/horetzky4",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky4/horetzky4.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky4/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky5/horetzky5",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky5/horetzky5.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky5/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky6/horetzky6",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky6/horetzky6.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky6/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky7/horetzky7",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky7/horetzky7.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky7/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky8/horetzky8",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky8/horetzky8.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky8/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky9/horetzky9",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky9/horetzky9.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky9/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky10/horetzky10",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky10/horetzky10.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky10/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky11/horetzky11",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky11/horetzky11.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky11/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky12/horetzky12",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky12/horetzky12.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky12/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky13/horetzky13",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky13/horetzky13.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky13/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky14/horetzky14",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky14/horetzky14.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky14/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky15/horetzky15",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky15/horetzky15.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky15/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky16/horetzky16",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky16/horetzky16.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky16/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky17/horetzky17",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky17/horetzky17.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky17/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky18/horetzky18",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky18/horetzky18.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky18/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky19/horetzky19",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky19/horetzky19.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky19/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky20/horetzky20",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky20/horetzky20.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky20/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky21/horetzky21",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky21/horetzky21.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky21/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky22/horetzky22",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky22/horetzky22.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky22/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky23/horetzky23",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky23/horetzky23.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky23/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky24/horetzky24",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky24/horetzky24.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky24/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky25/horetzky25",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky25/horetzky25.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky25/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky26/horetzky26",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky26/horetzky26.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky26/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky27/horetzky27",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky27/horetzky27.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky27/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky28/horetzky28",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky28/horetzky28.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky28/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky29/horetzky29",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky29/horetzky29.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky29/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky30/horetzky30",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky30/horetzky30.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky30/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky31/horetzky31",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky31/horetzky31.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky31/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky32/horetzky32",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky32/horetzky32.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky32/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky33/horetzky33",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky33/horetzky33.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky33/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky34/horetzky34",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky34/horetzky34.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky34/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky35/horetzky35",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky35/horetzky35.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky35/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky36/horetzky36",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky36/horetzky36.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky36/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky37/horetzky37",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky37/horetzky37.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky37/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky38/horetzky38",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky38/horetzky38.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky38/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky39/horetzky39",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky39/horetzky39.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky39/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky40/horetzky40",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky40/horetzky40.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky40/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky41/horetzky41",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky41/horetzky41.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky41/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky42/horetzky42",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky42/horetzky42.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky42/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky43/horetzky43",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky43/horetzky43.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky43/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky44/horetzky44",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky44/horetzky44.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky44/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky45/horetzky45",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky45/horetzky45.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky45/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky46/horetzky46",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky46/horetzky46.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky46/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky47/horetzky47",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky47/horetzky47.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky47/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky48/horetzky48",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky48/horetzky48.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky48/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky49/horetzky49",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky49/horetzky49.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky49/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky50/horetzky50",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky50/horetzky50.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky50/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky51/horetzky51",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky51/horetzky51.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky51/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky52/horetzky52",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky52/horetzky52.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky52/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky53/horetzky53",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky53/horetzky53.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky53/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky54/horetzky54",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky54/horetzky54.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky54/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky55/horetzky55",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky55/horetzky55.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky55/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky56/horetzky56",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky56/horetzky56.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky56/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky57/horetzky57",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky57/horetzky57.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky57/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky58/horetzky58",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky58/horetzky58.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky58/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky59/horetzky59",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky59/horetzky59.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky59/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky60/horetzky60",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky60/horetzky60.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky60/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/JolyD/JolyD_Tyrolienne/JolyD_Tyrolienne",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/JolyD/JolyD_Tyrolienne/JolyD_Tyrolienne.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/JolyD/JolyD_Tyrolienne/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/KnjzeF/SixStudiesA/SixStudiesA",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/KnjzeF/SixStudiesA/SixStudiesA.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/KnjzeF/SixStudiesA/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/KnjzeF/SixStudiesB/SixStudiesB",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/KnjzeF/SixStudiesB/SixStudiesB.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/KnjzeF/SixStudiesB/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/KnjzeF/SixStudiesC/SixStudiesC",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/KnjzeF/SixStudiesC/SixStudiesC.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/KnjzeF/SixStudiesC/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/KnjzeF/SixStudiesD/SixStudiesD",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/KnjzeF/SixStudiesD/SixStudiesD.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/KnjzeF/SixStudiesD/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/KnjzeF/SixStudiesE/SixStudiesE",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/KnjzeF/SixStudiesE/SixStudiesE.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/KnjzeF/SixStudiesE/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/KnjzeF/SixStudiesF/SixStudiesF",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/KnjzeF/SixStudiesF/SixStudiesF.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/KnjzeF/SixStudiesF/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/KnjzeF/knjze12monferA/knjze12monferA",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/KnjzeF/knjze12monferA/knjze12monferA.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/KnjzeF/knjze12monferA/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/KnjzeF/knjze12monferB/knjze12monferB",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/KnjzeF/knjze12monferB/knjze12monferB.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/KnjzeF/knjze12monferB/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/KnjzeF/knjze12monferC/knjze12monferC",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/KnjzeF/knjze12monferC/knjze12monferC.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/KnjzeF/knjze12monferC/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/KnjzeF/knjze12monferD/knjze12monferD",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/KnjzeF/knjze12monferD/knjze12monferD.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/KnjzeF/knjze12monferD/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/KnjzeF/knjze12monferE/knjze12monferE",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/KnjzeF/knjze12monferE/knjze12monferE.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/KnjzeF/knjze12monferE/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/KnjzeF/knjze12monferF/knjze12monferF",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/KnjzeF/knjze12monferF/knjze12monferF.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/KnjzeF/knjze12monferF/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/KnjzeF/knjze12monferG/knjze12monferG",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/KnjzeF/knjze12monferG/knjze12monferG.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/KnjzeF/knjze12monferG/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/KnjzeF/knjze12monferH/knjze12monferH",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/KnjzeF/knjze12monferH/knjze12monferH.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/KnjzeF/knjze12monferH/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/KnjzeF/knjze12monferI/knjze12monferI",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/KnjzeF/knjze12monferI/knjze12monferI.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/KnjzeF/knjze12monferI/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/KnjzeF/knjze12monferJ/knjze12monferJ",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/KnjzeF/knjze12monferJ/knjze12monferJ.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/KnjzeF/knjze12monferJ/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/KnjzeF/knjze12monferK/knjze12monferK",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/KnjzeF/knjze12monferK/knjze12monferK.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/KnjzeF/knjze12monferK/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/KnjzeF/knjze12monferL/knjze12monferL",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/KnjzeF/knjze12monferL/knjze12monferL.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/KnjzeF/knjze12monferL/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/KuffnerJ/air-varie/air-varie",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/KuffnerJ/air-varie/air-varie.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/KuffnerJ/air-varie/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/MatiegkaWT/Matiegka2/Matiegka2",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/MatiegkaWT/Matiegka2/Matiegka2.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/MatiegkaWT/Matiegka2/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/MatiegkaWT/Matiegka3/Matiegka3",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/MatiegkaWT/Matiegka3/Matiegka3.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/MatiegkaWT/Matiegka3/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/MatiegkaWT/Matiegka4/Matiegka4",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/MatiegkaWT/Matiegka4/Matiegka4.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/MatiegkaWT/Matiegka4/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/MatiegkaWT/Matiegka5/Matiegka5",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/MatiegkaWT/Matiegka5/Matiegka5.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/MatiegkaWT/Matiegka5/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/MertzJK/mertz_etude/mertz_etude",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/MertzJK/mertz_etude/mertz_etude.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/MertzJK/mertz_etude/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/MilanL/milan-pavan2/milan-pavan2",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/MilanL/milan-pavan2/milan-pavan2.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/MilanL/milan-pavan2/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/MozartWA/KV265/guitar-duo-varV/guitar-duo-varV",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/MozartWA/KV265/guitar-duo-varV/guitar-duo-varV.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/MozartWA/KV265/guitar-duo-varV/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/OlsonJJ/recuerdos-luna/recuerdos-luna",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/OlsonJJ/recuerdos-luna/recuerdos-luna.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/OlsonJJ/recuerdos-luna/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/PapezikR/forsting/forsting",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/PapezikR/forsting/forsting.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/PapezikR/forsting/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/PapezikR/twelvetone/twelvetone",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/PapezikR/twelvetone/twelvetone.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/PapezikR/twelvetone/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SanzG/sanz-1/sanz-1",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SanzG/sanz-1/sanz-1.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SanzG/sanz-1/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O1/sor_op1_1/sor_op1_1",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O1/sor_op1_1/sor_op1_1.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O1/sor_op1_1/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O1/sor_op1_2/sor_op1_2",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O1/sor_op1_2/sor_op1_2.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O1/sor_op1_2/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O1/sor_op1_3/sor_op1_3",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O1/sor_op1_3/sor_op1_3.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O1/sor_op1_3/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O1/sor_op_1_4/sor_op_1_4",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O1/sor_op_1_4/sor_op_1_4.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O1/sor_op_1_4/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O1/sor_op_1_5_1/sor_op_1_5_1",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O1/sor_op_1_5_1/sor_op_1_5_1.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O1/sor_op_1_5_1/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O1/sor_op_1_5_2/sor_op_1_5_2",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O1/sor_op_1_5_2/sor_op_1_5_2.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O1/sor_op_1_5_2/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O1/sor_op_1_5_3/sor_op_1_5_3",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O1/sor_op_1_5_3/sor_op_1_5_3.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O1/sor_op_1_5_3/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O1/sor_op_1_6/sor_op_1_6",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O1/sor_op_1_6/sor_op_1_6.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O1/sor_op_1_6/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O2/sor_op2_1/sor_op2_1",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O2/sor_op2_1/sor_op2_1.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O2/sor_op2_1/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O2/sor_op2_2/sor_op2_2",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O2/sor_op2_2/sor_op2_2.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O2/sor_op2_2/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O2/sor_op2_3/sor_op2_3",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O2/sor_op2_3/sor_op2_3.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O2/sor_op2_3/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O2/sor_op2_nr4/sor_op2_nr4",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O2/sor_op2_nr4/sor_op2_nr4.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O2/sor_op2_nr4/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O2/sor_op2_nr5/sor_op2_nr5",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O2/sor_op2_nr5/sor_op2_nr5.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O2/sor_op2_nr5/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O2/sor_op2_nr6/sor_op2_nr6",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O2/sor_op2_nr6/sor_op2_nr6.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O2/sor_op2_nr6/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O5/sor-op5-5/sor-op5-5",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O5/sor-op5-5/sor-op5-5.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O5/sor-op5-5/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O6/sorf-op6n01/sorf-op6n01",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O6/sorf-op6n01/sorf-op6n01.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O6/sorf-op6n01/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O6/sorf-op6n02/sorf-op6n02",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O6/sorf-op6n02/sorf-op6n02.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O6/sorf-op6n02/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O6/sorf-op6n03/sorf-op6n03",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O6/sorf-op6n03/sorf-op6n03.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O6/sorf-op6n03/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O6/sorf-op6n04/sorf-op6n04",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O6/sorf-op6n04/sorf-op6n04.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O6/sorf-op6n04/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O6/sorf-op6n05/sorf-op6n05",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O6/sorf-op6n05/sorf-op6n05.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O6/sorf-op6n05/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O6/sorf-op6n06/sorf-op6n06",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O6/sorf-op6n06/sorf-op6n06.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O6/sorf-op6n06/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O6/sorf-op6n07/sorf-op6n07",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O6/sorf-op6n07/sorf-op6n07.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O6/sorf-op6n07/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O6/sorf-op6n08/sorf-op6n08",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O6/sorf-op6n08/sorf-op6n08.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O6/sorf-op6n08/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O6/sorf-op6n09/sorf-op6n09",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O6/sorf-op6n09/sorf-op6n09.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O6/sorf-op6n09/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O6/sorf-op6n10/sorf-op6n10",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O6/sorf-op6n10/sorf-op6n10.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O6/sorf-op6n10/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O6/sorf-op6n11/sorf-op6n11",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O6/sorf-op6n11/sorf-op6n11.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O6/sorf-op6n11/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O6/sorf-op6n12/sorf-op6n12",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O6/sorf-op6n12/sorf-op6n12.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O6/sorf-op6n12/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O29/o29-13/o29-13",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O29/o29-13/o29-13.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O29/o29-13/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O35/Sor_Etude_Opus35_14/Sor_Etude_Opus35_14",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O35/Sor_Etude_Opus35_14/Sor_Etude_Opus35_14.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O35/Sor_Etude_Opus35_14/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O35/sorf_op35_no1/sorf_op35_no1",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no1/sorf_op35_no1.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no1/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O35/sorf_op35_no2/sorf_op35_no2",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no2/sorf_op35_no2.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no2/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O35/sorf_op35_no3/sorf_op35_no3",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no3/sorf_op35_no3.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no3/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O35/sorf_op35_no4/sorf_op35_no4",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no4/sorf_op35_no4.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no4/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O35/sorf_op35_no5/sorf_op35_no5",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no5/sorf_op35_no5.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no5/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O35/sorf_op35_no6/sorf_op35_no6",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no6/sorf_op35_no6.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no6/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O35/sorf_op35_no7/sorf_op35_no7",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no7/sorf_op35_no7.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no7/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O35/sorf_op35_no8/sorf_op35_no8",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no8/sorf_op35_no8.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no8/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O35/sorf_op35_no9/sorf_op35_no9",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no9/sorf_op35_no9.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no9/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O35/sorf_op35_no10/sorf_op35_no10",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no10/sorf_op35_no10.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no10/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O35/sorf_op35_no11/sorf_op35_no11",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no11/sorf_op35_no11.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no11/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O35/sorf_op35_no12/sorf_op35_no12",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no12/sorf_op35_no12.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no12/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O35/sorf_op35_no13/sorf_op35_no13",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no13/sorf_op35_no13.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no13/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O35/sorf_op35_no15/sorf_op35_no15",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no15/sorf_op35_no15.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no15/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O35/sorf_op35_no16/sorf_op35_no16",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no16/sorf_op35_no16.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no16/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O35/sorf_op35_no17/sorf_op35_no17",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no17/sorf_op35_no17.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no17/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O35/sorf_op35_no18/sorf_op35_no18",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no18/sorf_op35_no18.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no18/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O35/sorf_op35_no19/sorf_op35_no19",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no19/sorf_op35_no19.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no19/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O35/sorf_op35_no20/sorf_op35_no20",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no20/sorf_op35_no20.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no20/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O35/sorf_op35_no21/sorf_op35_no21",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no21/sorf_op35_no21.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no21/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O35/sorf_op35_no22/sorf_op35_no22",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no22/sorf_op35_no22.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no22/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O35/sorf_op35_no23/sorf_op35_no23",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no23/sorf_op35_no23.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no23/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O35/sorf_op35_no24/sorf_op35_no24",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no24/sorf_op35_no24.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no24/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O45/sorf-op45n01/sorf-op45n01",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O45/sorf-op45n01/sorf-op45n01.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O45/sorf-op45n01/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O45/sorf-op45n02/sorf-op45n02",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O45/sorf-op45n02/sorf-op45n02.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O45/sorf-op45n02/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O45/sorf-op45n03/sorf-op45n03",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O45/sorf-op45n03/sorf-op45n03.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O45/sorf-op45n03/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O45/sorf-op45n04/sorf-op45n04",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O45/sorf-op45n04/sorf-op45n04.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O45/sorf-op45n04/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O45/sorf-op45n05/sorf-op45n05",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O45/sorf-op45n05/sorf-op45n05.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O45/sorf-op45n05/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O60/sor_op60-01/sor_op60-01",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O60/sor_op60-01/sor_op60-01.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O60/sor_op60-01/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O60/sor_op60-02/sor_op60-02",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O60/sor_op60-02/sor_op60-02.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O60/sor_op60-02/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O60/sor_op60-03/sor_op60-03",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O60/sor_op60-03/sor_op60-03.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O60/sor_op60-03/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O60/sor_op60-04/sor_op60-04",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O60/sor_op60-04/sor_op60-04.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O60/sor_op60-04/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O60/sor_op60-05/sor_op60-05",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O60/sor_op60-05/sor_op60-05.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O60/sor_op60-05/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O60/sor_op60-06/sor_op60-06",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O60/sor_op60-06/sor_op60-06.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O60/sor_op60-06/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O60/sor_op60-07/sor_op60-07",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O60/sor_op60-07/sor_op60-07.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O60/sor_op60-07/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O60/sor_op60-08/sor_op60-08",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O60/sor_op60-08/sor_op60-08.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O60/sor_op60-08/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O60/sor_op60-09/sor_op60-09",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O60/sor_op60-09/sor_op60-09.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O60/sor_op60-09/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O60/sor_op60-10/sor_op60-10",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O60/sor_op60-10/sor_op60-10.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O60/sor_op60-10/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O60/sor_op60-11/sor_op60-11",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O60/sor_op60-11/sor_op60-11.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O60/sor_op60-11/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O60/sor_op60-12/sor_op60-12",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O60/sor_op60-12/sor_op60-12.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O60/sor_op60-12/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O60/sor_op60-13/sor_op60-13",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O60/sor_op60-13/sor_op60-13.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O60/sor_op60-13/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/SorF_Andantino/SorF_Andantino",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/SorF_Andantino/SorF_Andantino.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/SorF_Andantino/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/TarregaF/adelita-duo/adelita-duo",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/TarregaF/adelita-duo/adelita-duo.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/TarregaF/adelita-duo/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/TarregaF/adelita/adelita",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/TarregaF/adelita/adelita.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/TarregaF/adelita/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/TarregaF/capricho-arabe/capricho-arabe",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/TarregaF/capricho-arabe/capricho-arabe.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/TarregaF/capricho-arabe/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/TarregaF/claro-de-luna/claro-de-luna",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/TarregaF/claro-de-luna/claro-de-luna.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/TarregaF/claro-de-luna/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/TarregaF/lagrima-duo/lagrima-duo",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/TarregaF/lagrima-duo/lagrima-duo.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/TarregaF/lagrima-duo/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/Traditional/Greensleaves/Greensleaves",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/Traditional/Greensleaves/Greensleaves.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/Traditional/Greensleaves/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/Traditional/RedAppleRag/RedAppleRag",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/Traditional/RedAppleRag/RedAppleRag.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/Traditional/RedAppleRag/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/Traditional/greensleeves_guitar/greensleeves_guitar",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/Traditional/greensleeves_guitar/greensleeves_guitar.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/Traditional/greensleeves_guitar/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/Traditional/soldiers-joy/soldiers-joy",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/Traditional/soldiers-joy/soldiers-joy.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/Traditional/soldiers-joy/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/VidalPA/boije_835_Vidal_Paul_Air_Des_Folies_DEspagnes/boije_835_Vidal_Paul_Air_Des_Folies_DEspagnes",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/VidalPA/boije_835_Vidal_Paul_Air_Des_Folies_DEspagnes/boije_835_Vidal_Paul_Air_Des_Folies_DEspagnes.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/VidalPA/boije_835_Vidal_Paul_Air_Des_Folies_DEspagnes/",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/WorrallH/SpanishFandango1882/SpanishFandango1882",
+      "composer": "",
+      "file_url": "https://www.mutopiaproject.org/ftp/WorrallH/SpanishFandango1882/SpanishFandango1882.ly",
+      "format_label": "lilypond",
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "page_url": "https://www.mutopiaproject.org/ftp/WorrallH/SpanishFandango1882/",
+      "source": "mutopia"
+    }
+  ],
+  "source": "mutopia",
+  "source_host": "mutopiaproject.org",
+  "version": 2
+}

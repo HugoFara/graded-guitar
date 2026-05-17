@@ -101,6 +101,7 @@ REJECT_CODES = {
     "DUPLICATE",
     "FETCH_FAILED",
     "MXL_EXTRACTION_FAILED",
+    "LY_CONVERSION_FAILED",
     "SUPERSEDED",
 }
 
@@ -362,8 +363,18 @@ def main() -> int:
     for cid, entry in fetch_entries.items():
         if args.limit is not None and processed >= args.limit:
             break
+        # Container entries (Mutopia parent rows) have no file of their
+        # own — every movement underneath them is enumerated as its own
+        # entry. Skip the container.
+        if entry.get("container") or entry.get("status") == "container":
+            continue
         processed += 1
         candidate = candidates.get(cid, {})
+        # Synthetic per-movement candidate ids (`...#movementNN`) fall
+        # back to the parent for license / page_url metadata.
+        if not candidate and "#" in cid:
+            parent_cid = cid.split("#", 1)[0]
+            candidate = candidates.get(parent_cid, {})
 
         candidate_path = candidate.get("path") or cid
         noise_token = path_noise_match(candidate_path)
@@ -377,12 +388,16 @@ def main() -> int:
             continue
 
         if entry.get("status") != "ok":
+            # Preserve more specific reason codes from the fetch step
+            # (e.g. Mutopia LilyPond conversion failures).
+            reason = entry.get("reason") or "unknown"
+            code = reason if reason in REJECT_CODES else "FETCH_FAILED"
             rejections.append({
                 "candidate_id": cid,
-                "code": "FETCH_FAILED",
-                "detail": entry.get("reason", "unknown"),
+                "code": code,
+                "detail": (entry.get("detail") or reason)[:240],
             })
-            stats["FETCH_FAILED"] += 1
+            stats[code] += 1
             continue
 
         raw_path = RAW_DIR / Path(entry["path"]).name

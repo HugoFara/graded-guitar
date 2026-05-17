@@ -1,6 +1,11 @@
 {
   "rejections": [
     {
+      "candidate_id": "mutopia:ftp/FaureG/O78/faure-sicilienne-guitare-doigtee/faure-sicilienne-guitare-doigtee#movement02",
+      "code": "DUPLICATE",
+      "detail": "same bytes as mutopia:ftp/FaureG/O78/faure-sicilienne-guitare-doigtee/faure-sicilienne-guitare-doigtee#movement01"
+    },
+    {
       "candidate_id": "gh:bolprocessor/bp3-ctests@main:-da.musicXML",
       "code": "FETCH_FAILED",
       "detail": "format_undetected"
@@ -9,6 +14,451 @@
       "candidate_id": "gh:bolprocessor/bp3-ctests@main:-se.musicXML",
       "code": "FETCH_FAILED",
       "detail": "format_undetected"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BachJS/BWV1006a/bwv-1006a_2g/bwv-1006a_2g#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "IndexError: pop from empty list"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BachJS/BWV1087/bwv-1087-01-g/bwv-1087-01-g#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_PARTS: {}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BachJS/BWV1087/bwv-1087-02-g/bwv-1087-02-g#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_PARTS: {}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BachJS/BWV1087/bwv-1087-03-g/bwv-1087-03-g#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_PARTS: {}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BachJS/BWV1087/bwv-1087-04-g/bwv-1087-04-g#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_PARTS: {}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BachJS/BWV846/wtk1-prelude1-guitar-duo/wtk1-prelude1-guitar-duo#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_PARTS: {}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BachJS/BWV846/wtk1-prelude1-guitar-duo/wtk1-prelude1-guitar-duo#movement02",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_PARTS: {}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BachJS/BWV846/wtk1-prelude1-guitar-duo/wtk1-prelude1-guitar-duo#movement03",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_PARTS: {}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BachJS/BWV846/wtk1-prelude1-guitar-duo/wtk1-prelude1-guitar-duo#movement04",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_PARTS: {}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BachJS/BWVAnh114/anna-magdalena-04-guitar-tab/anna-magdalena-04-guitar-tab#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_PARTS: {}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BeethovenLv/O13/pathetique-2-guitar-duo/pathetique-2-guitar-duo#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "ZeroDivisionError: Fraction(0, 0)"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BeethovenLv/O27/moonlight-guitar-duo/moonlight-guitar-duo#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_PARTS: {}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BeethovenLv/O67/sym5-1-guitar-duo/sym5-1-guitar-duo#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "ValueError: invalid literal for int() with base 10: <scheme.Word 'right' at 3538>"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BrownCJ/lullaby/lullaby#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_PARTS: {}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BrownCJ/lullaby/lullaby#movement02",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_PARTS: {}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BrownCJ/lullaby/lullaby#movement03",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_PARTS: {}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BrownCJ/lullaby/lullaby#movement04",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_PARTS: {}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BurnsD/two-duo/two-duo#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_PARTS: {}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O1/carcassi-op1n01/carcassi-op1n01#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_NOTES: {'measures': 1}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O1/carcassi-op1n01/carcassi-op1n01#movement02",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_NOTES: {'measures': 1}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O1/carcassi-op1n01/carcassi-op1n01#movement03",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_NOTES: {'measures': 1}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O1/carcassi-op1n02/carcassi-op1n02#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_NOTES: {'measures': 1}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O1/carcassi-op1n02/carcassi-op1n02#movement02",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_NOTES: {'measures': 1}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O1/carcassi-op1n02/carcassi-op1n02#movement03",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_NOTES: {'measures': 1}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O1/carcassi-op1n03/carcassi-op1n03#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_NOTES: {'measures': 1}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O1/carcassi-op1n03/carcassi-op1n03#movement02",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_NOTES: {'measures': 1}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O1/carcassi-op1n03/carcassi-op1n03#movement03",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_NOTES: {'measures': 1}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O59/CarcassiMethodPreludes/CarcassiMethodPreludes#movement08",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_NOTES: {'measures': 1}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O59/CarcassiMethodPreludes/CarcassiMethodPreludes#movement10",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_NOTES: {'measures': 1}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O59/CarcassiMethodPreludes/CarcassiMethodPreludes#movement13",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_NOTES: {'measures': 1}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O59/CarcassiMethodPreludes/CarcassiMethodPreludes#movement15",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_NOTES: {'measures': 1}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O59/CarcassiMethodPreludes/CarcassiMethodPreludes#movement17",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_NOTES: {'measures': 1}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O60/carcassi-op60-05/carcassi-op60-05#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "ValueError: invalid literal for int() with base 10: <scheme.Word 'text' at 150>"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O60/carcassi-op60-09/carcassi-op60-09#movement02",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_PARTS: {}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O60/carcassi-op60-15/carcassi-op60-15#movement02",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_PARTS: {}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarulliF/carulli-duet-in-g/carulli-duet-in-g#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_PARTS: {}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O1/giuliani-op1n10/giuliani-op1n10#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_NOTES: {'measures': 1}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n21/giuliani-op50n21#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_NOTES: {'measures': 1}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O51/giuliani-o51-01/giuliani-o51-01#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_NOTES: {'measures': 1}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O51/giuliani-o51-02/giuliani-o51-02#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_NOTES: {'measures': 1}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O51/giuliani-o51-09/giuliani-o51-09#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_NOTES: {'measures': 1}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O51/giuliani-o51-10/giuliani-o51-10#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_NOTES: {'measures': 1}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O78/giuliani-op78n01/giuliani-op78n01#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_NOTES: {'measures': 1}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O78/giuliani-op78n02/giuliani-op78n02#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_NOTES: {'measures': 1}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O78/giuliani-op78n03/giuliani-op78n03#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_NOTES: {'measures': 1}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O78/giuliani-op78n04/giuliani-op78n04#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_NOTES: {'measures': 1}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O78/giuliani-op78n05/giuliani-op78n05#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_NOTES: {'measures': 1}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GranadosE/O37/oriental-duo/oriental-duo#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "ValueError: invalid literal for int() with base 10: <scheme.Function 'define-music-function' at 5880>"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GruberFX/stille-orig/stille-orig#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "ValueError: invalid literal for int() with base 10: <scheme.Bool '#f' at 200>"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky1/horetzky1#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "ValueError: invalid literal for int() with base 10: <scheme.Float '0.7' at 2006>"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky1/horetzky1#movement02",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "ValueError: invalid literal for int() with base 10: <scheme.Float '0.7' at 2006>"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky56/horetzky56#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "ValueError: invalid literal for int() with base 10: <scheme.Word 'left' at 3815>"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky56/horetzky56#movement02",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "ValueError: invalid literal for int() with base 10: <scheme.Word 'left' at 3815>"
+    },
+    {
+      "candidate_id": "mutopia:ftp/JolyD/JolyD_Tyrolienne/JolyD_Tyrolienne#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "ValueError: invalid literal for int() with base 10: <scheme.Word 'left' at 746>"
+    },
+    {
+      "candidate_id": "mutopia:ftp/JolyD/JolyD_Tyrolienne/JolyD_Tyrolienne#movement02",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "ValueError: invalid literal for int() with base 10: <scheme.Word 'left' at 746>"
+    },
+    {
+      "candidate_id": "mutopia:ftp/KnjzeF/SixStudiesF/SixStudiesF#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_PARTS: {}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/KnjzeF/SixStudiesF/SixStudiesF#movement02",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_PARTS: {}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/KnjzeF/SixStudiesF/SixStudiesF#movement03",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_PARTS: {}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/MozartWA/KV265/guitar-duo-varV/guitar-duo-varV#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_PARTS: {}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/MozartWA/KV265/guitar-duo-varV/guitar-duo-varV#movement02",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_PARTS: {}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SanzG/sanz-1/sanz-1#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_NOTES: {'measures': 1}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O1/sor_op_1_5_2/sor_op_1_5_2#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "IndexError: list index out of range"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O2/sor_op2_nr6/sor_op2_nr6#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "ValueError: invalid literal for int() with base 10: <scheme.Function 'set-accidental-style' at 6380>"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O35/sorf_op35_no12/sorf_op35_no12#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_PARTS: {}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O35/sorf_op35_no12/sorf_op35_no12#movement02",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_PARTS: {}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O6/sorf-op6n01/sorf-op6n01#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_NOTES: {'measures': 1}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O6/sorf-op6n02/sorf-op6n02#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_NOTES: {'measures': 1}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O6/sorf-op6n03/sorf-op6n03#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_NOTES: {'measures': 1}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O6/sorf-op6n04/sorf-op6n04#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_NOTES: {'measures': 1}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O6/sorf-op6n05/sorf-op6n05#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_NOTES: {'measures': 1}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O6/sorf-op6n06/sorf-op6n06#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_NOTES: {'measures': 1}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O6/sorf-op6n07/sorf-op6n07#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_NOTES: {'measures': 1}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O6/sorf-op6n08/sorf-op6n08#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_NOTES: {'measures': 1}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O6/sorf-op6n09/sorf-op6n09#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_NOTES: {'measures': 1}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O6/sorf-op6n10/sorf-op6n10#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_NOTES: {'measures': 1}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O6/sorf-op6n11/sorf-op6n11#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_NOTES: {'measures': 1}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O6/sorf-op6n12/sorf-op6n12#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_NOTES: {'measures': 1}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O60/sor_op60-01/sor_op60-01#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_NOTES: {'measures': 2}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O60/sor_op60-03/sor_op60-03#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_NOTES: {'measures': 2}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O60/sor_op60-04/sor_op60-04#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_NOTES: {'measures': 2}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O60/sor_op60-05/sor_op60-05#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "ValueError: invalid literal for int() with base 10: <scheme.Keyword 'down' at 76>"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O60/sor_op60-06/sor_op60-06#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "ValueError: invalid literal for int() with base 10: <scheme.Keyword 'down' at 1358>"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O60/sor_op60-07/sor_op60-07#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "ValueError: invalid literal for int() with base 10: <scheme.Keyword 'down' at 1751>"
+    },
+    {
+      "candidate_id": "mutopia:ftp/TarregaF/adelita-duo/adelita-duo#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "ValueError: invalid literal for int() with base 10: <scheme.Function 'define-music-function' at 4756>"
+    },
+    {
+      "candidate_id": "mutopia:ftp/TarregaF/adelita/adelita#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_PARTS: {}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/TarregaF/adelita/adelita#movement02",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "NO_PARTS: {}"
+    },
+    {
+      "candidate_id": "mutopia:ftp/TarregaF/lagrima-duo/lagrima-duo#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "ValueError: invalid literal for int() with base 10: <scheme.Word 'left' at 2732>"
+    },
+    {
+      "candidate_id": "mutopia:ftp/Traditional/greensleeves_guitar/greensleeves_guitar#movement01",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "AttributeError: 'list' object has no attribute 'inject_voice'"
+    },
+    {
+      "candidate_id": "mutopia:ftp/Traditional/greensleeves_guitar/greensleeves_guitar#movement02",
+      "code": "LY_CONVERSION_FAILED",
+      "detail": "AttributeError: 'list' object has no attribute 'pickup'"
     },
     {
       "candidate_id": "gh:fheyen/musicvis-lib@main:test/_test_assets/[Test] Dotted Notes Guitar.musicxml",
@@ -32,6 +482,16 @@
     },
     {
       "candidate_id": "gh:xzippyzachx/MXLify@master:TAB2MXL/ExampleOutputs/LondonBridge.musicxml",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "mutopia:ftp/GruberFX/stille-nacht/stille-nacht#movement01",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "mutopia:ftp/OlsonJJ/recuerdos-luna/recuerdos-luna#movement02",
       "code": "MISSING_COMPOSER",
       "detail": ""
     },
@@ -237,6 +697,11 @@
     },
     {
       "candidate_id": "gh:standardebooks/edward-lear_nonsense-books@master:images/sheet-music-the-courtship-of-the-yonghy-bonghy-bo.musicxml",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarulliF/carulli-fughetta/carulli-fughetta#movement01",
       "code": "MULTIPLE_PARTS",
       "detail": "2 parts; solo guitar expected"
     },
@@ -624,6 +1089,451 @@
       "candidate_id": "gh:ytplayalong/ytpa@main:next/public/mxl/Hot_Stuff.musicxml",
       "code": "NON_GUITAR_INSTRUMENT",
       "detail": "tokens=['Piano', 'Piano', 'keyboard.piano']"
+    },
+    {
+      "candidate_id": "mutopia:ftp/AguadoD/O4/AguadoOp4No3/AguadoOp4No3#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=['MINUET.']"
+    },
+    {
+      "candidate_id": "mutopia:ftp/AguadoD/O4/AguadoOp4No3/AguadoOp4No3#movement02",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=['VALSE.']"
+    },
+    {
+      "candidate_id": "mutopia:ftp/AguadoD/O4/AguadoOp4No4/AguadoOp4No4#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=['MINUET.']"
+    },
+    {
+      "candidate_id": "mutopia:ftp/AguadoD/O4/AguadoOp4No4/AguadoOp4No4#movement02",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=['ALLEGRO.']"
+    },
+    {
+      "candidate_id": "mutopia:ftp/AguadoD/O4/AguadoOp4No5/AguadoOp4No5#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=['MINUET.']"
+    },
+    {
+      "candidate_id": "mutopia:ftp/AguadoD/O4/AguadoOp4No5/AguadoOp4No5#movement02",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=['VALSE.']"
+    },
+    {
+      "candidate_id": "mutopia:ftp/AguadoD/O4/AguadoOp4No6/AguadoOp4No6#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=['MINUETTO.']"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BachJS/BWV1031/bach_siciliano_bmv_1031/bach_siciliano_bmv_1031#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=['Flute', 'flute', 'wind.flutes.flute']"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BachJS/BWV1068/bach_air_bmv_1068/bach_air_bmv_1068#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=['Flute', 'flute', 'wind.flutes.flute']"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BachJS/BWVAnh114/anna-magdalena-04-guitar/anna-magdalena-04-guitar#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BrahmsJ/LullabyBrahms-C/LullabyBrahms-C#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O59/CarcassiMethodPreludes/CarcassiMethodPreludes#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O59/CarcassiMethodPreludes/CarcassiMethodPreludes#movement02",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O59/CarcassiMethodPreludes/CarcassiMethodPreludes#movement03",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O59/CarcassiMethodPreludes/CarcassiMethodPreludes#movement04",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O59/CarcassiMethodPreludes/CarcassiMethodPreludes#movement05",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O59/CarcassiMethodPreludes/CarcassiMethodPreludes#movement06",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O59/CarcassiMethodPreludes/CarcassiMethodPreludes#movement07",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O59/CarcassiMethodPreludes/CarcassiMethodPreludes#movement09",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O59/CarcassiMethodPreludes/CarcassiMethodPreludes#movement11",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O59/CarcassiMethodPreludes/CarcassiMethodPreludes#movement12",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O59/CarcassiMethodPreludes/CarcassiMethodPreludes#movement14",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O59/CarcassiMethodPreludes/CarcassiMethodPreludes#movement16",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O59/TwoMinorPreludes/TwoMinorPreludes#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O59/TwoMinorPreludes/TwoMinorPreludes#movement02",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O60/carcassi-op60-01/carcassi-op60-01#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O60/carcassi-op60-03/carcassi-op60-03#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O60/carcassi-op60-09/carcassi-op60-09#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O60/carcassi-op60-15/carcassi-op60-15#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/FaureG/O56/faure_dolly_berceuse/faure_dolly_berceuse#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=['Flute', 'flute', 'wind.flutes.flute']"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n01/giuliani-op50n01#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n02/giuliani-op50n02#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n03/giuliani-op50n03#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n04/giuliani-op50n04#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n05/giuliani-op50n05#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n06/giuliani-op50n06#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n07/giuliani-op50n07#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n08/giuliani-op50n08#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n09/giuliani-op50n09#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n10/giuliani-op50n10#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n11/giuliani-op50n11#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n12/giuliani-op50n12#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n13/giuliani-op50n13#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n14/giuliani-op50n14#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n15/giuliani-op50n15#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n16/giuliani-op50n16#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n17/giuliani-op50n17#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n18/giuliani-op50n18#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n19/giuliani-op50n19#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n20/giuliani-op50n20#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n22/giuliani-op50n22#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n23/giuliani-op50n23#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n24/giuliani-op50n24#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n25/giuliani-op50n25#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n26/giuliani-op50n26#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n27/giuliani-op50n27#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n28/giuliani-op50n28#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n29/giuliani-op50n29#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n30/giuliani-op50n30#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n31/giuliani-op50n31#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n32/giuliani-op50n32#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O51/giuliani-o51-03/giuliani-o51-03#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O51/giuliani-o51-04/giuliani-o51-04#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O51/giuliani-o51-05/giuliani-o51-05#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O51/giuliani-o51-06/giuliani-o51-06#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O51/giuliani-o51-07/giuliani-o51-07#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O51/giuliani-o51-08/giuliani-o51-08#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/MilanL/milan-pavan2/milan-pavan2#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/OlsonJJ/recuerdos-luna/recuerdos-luna#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/PapezikR/twelvetone/twelvetone#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=['clarinet', 'wind.reed.clarinet']"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O1/sor_op1_2/sor_op1_2#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O1/sor_op1_3/sor_op1_3#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O1/sor_op_1_4/sor_op_1_4#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O1/sor_op_1_5_1/sor_op_1_5_1#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O1/sor_op_1_5_3/sor_op_1_5_3#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O1/sor_op_1_6/sor_op_1_6#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O2/sor_op2_3/sor_op2_3#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O2/sor_op2_nr4/sor_op2_nr4#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O2/sor_op2_nr5/sor_op2_nr5#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O35/sorf_op35_no22/sorf_op35_no22#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/TarregaF/capricho-arabe/capricho-arabe#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/TarregaF/claro-de-luna/claro-de-luna#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/Traditional/Greensleaves/Greensleaves#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/Traditional/RedAppleRag/RedAppleRag#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/Traditional/RedAppleRag/RedAppleRag#movement02",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=['violin', 'strings.violin']"
+    },
+    {
+      "candidate_id": "mutopia:ftp/Traditional/soldiers-joy/soldiers-joy#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/VidalPA/boije_835_Vidal_Paul_Air_Des_Folies_DEspagnes/boije_835_Vidal_Paul_Air_Des_Folies_DEspagnes#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/VidalPA/boije_835_Vidal_Paul_Air_Des_Folies_DEspagnes/boije_835_Vidal_Paul_Air_Des_Folies_DEspagnes#movement02",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/WorrallH/SpanishFandango1882/SpanishFandango1882#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
     },
     {
       "candidate_id": "gh:MaxDevv/Music-Thingy@main:ear-training-sources/1. Loud.gpx_103-104.musicxml",
