@@ -6,4 +6,4 @@ In short: be respectful, assume good faith, and keep disagreements technical rat
 
 ## Reporting
 
-To report a concern, contact the project maintainers privately. Contact details will be added here once the maintainer team is established. Reports will be handled confidentially.
+To report a concern, contact Hugo Farajallah privately at **github@hugofara.net**. Reports will be handled confidentially.

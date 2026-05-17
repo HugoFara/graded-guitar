@@ -1,6 +1,6 @@
-# Repertoire — Project Specification
+# graded-guitar — Project Specification
 
-> **Working name:** Repertoire (placeholder — rename freely)
+> **Working name:** graded-guitar (simple-and-boring; may rename when the project produces something useful)
 > **Audience for this document:** the coding agent scaffolding the project, and the human team using it as the master checklist.
 > **Status:** authoritative reference. Update this file when scope changes; do not silently diverge from it.
 

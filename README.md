@@ -1,6 +1,8 @@
-# Repertoire
+# graded-guitar
 
 A free, open-source web platform where classical guitarists discover sheet music matched to their playing level. Every score in the library is automatically graded by difficulty, so a player declares (or is placed at) a level and receives a feed of pieces they can actually play.
+
+> The repo is currently **private**; see [`decisions/0004-deferrals.md`](./decisions/0004-deferrals.md) for why and when it goes public.
 
 > **Status:** Milestone 0 — Foundation. Pre-alpha. No usable application yet.
 
@@ -13,8 +15,8 @@ See [`project-spec.md`](./project-spec.md) for the full, authoritative specifica
 This is currently a documentation-and-data repository. There is no application to run yet.
 
 ```bash
-git clone <this-repo-url> repertoire
-cd repertoire
+git clone git@github.com:HugoFara/graded-guitar.git
+cd graded-guitar
 ./scripts/check.sh   # runs the same checks CI runs
 ```
 

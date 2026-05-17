@@ -1,4 +1,4 @@
-# Contributing to Repertoire
+# Contributing to graded-guitar
 
 Thanks for thinking about contributing. A few things to know before you start.
 

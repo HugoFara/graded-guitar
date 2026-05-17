@@ -26,3 +26,4 @@ Open an ADR when introducing a new dependency, a new file format, a new service,
 - [0001 — License: MIT](./0001-license-mit.md)
 - [0002 — Syllabi: RCM, Trinity, ABRSM](./0002-syllabi-sources.md)
 - [0003 — Stack: deferred to Milestone 1](./0003-stack-deferred.md)
+- [0004 — Deliberate deferrals: repo visibility, advisor, syllabi data](./0004-deferrals.md)

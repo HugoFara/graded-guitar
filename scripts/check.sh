@@ -35,6 +35,7 @@ require_file decisions/template.md
 require_file decisions/0001-license-mit.md
 require_file decisions/0002-syllabi-sources.md
 require_file decisions/0003-stack-deferred.md
+require_file decisions/0004-deferrals.md
 
 echo "==> Syllabi"
 require_file syllabi/README.md

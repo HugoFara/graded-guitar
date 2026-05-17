@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/repertoire/repertoire/syllabi/schema.json",
+  "$id": "https://github.com/HugoFara/graded-guitar/syllabi/schema.json",
   "title": "Syllabus",
   "description": "A graded list of classical guitar pieces from a recognized examining board, used as labelled training data for the difficulty grading model (spec Milestone 2).",
   "type": "object",
