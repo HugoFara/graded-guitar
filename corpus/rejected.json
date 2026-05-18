@@ -1976,6 +1976,46 @@
       "detail": "tokens=[]"
     },
     {
+      "candidate_id": "mutopia:ftp/AguadoD/O3/aguado-op03n06/aguado-op03n06#movement01",
+      "code": "OUT_OF_GUITAR_RANGE_LOW",
+      "detail": "min MIDI=33 (< 38)"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BachJS/BWV997/Bach_Preludio_BWV997/Bach_Preludio_BWV997#movement01",
+      "code": "OUT_OF_GUITAR_RANGE_LOW",
+      "detail": "min MIDI=36 (< 38)"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O26/carcassi-op26-02/carcassi-op26-02#movement01",
+      "code": "OUT_OF_GUITAR_RANGE_LOW",
+      "detail": "min MIDI=28 (< 38)"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GalileiV/saltarello/saltarello#movement01",
+      "code": "OUT_OF_GUITAR_RANGE_LOW",
+      "detail": "min MIDI=14 (< 38)"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O59/giuliani-op59n12/giuliani-op59n12#movement01",
+      "code": "OUT_OF_GUITAR_RANGE_LOW",
+      "detail": "min MIDI=36 (< 38)"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GiulianiM/O59/giuliani-op59n14/giuliani-op59n14#movement01",
+      "code": "OUT_OF_GUITAR_RANGE_LOW",
+      "detail": "min MIDI=21 (< 38)"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O35/Sor_Etude_Opus35_14/Sor_Etude_Opus35_14#movement01",
+      "code": "OUT_OF_GUITAR_RANGE_LOW",
+      "detail": "min MIDI=36 (< 38)"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O45/sorf-op45n03/sorf-op45n03#movement01",
+      "code": "OUT_OF_GUITAR_RANGE_LOW",
+      "detail": "min MIDI=24 (< 38)"
+    },
+    {
       "candidate_id": "gh:MaxDevv/Music-Thingy@main:ear-training-sources/1. Loud.gpx_103-104.musicxml",
       "code": "PATH_NOISE",
       "detail": "matched 'ear-training'"

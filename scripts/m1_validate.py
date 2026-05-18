@@ -100,6 +100,7 @@ REJECT_CODES = {
     "NON_GUITAR_INSTRUMENT",
     "TAB_ONLY",
     "FRAGMENT",
+    "OUT_OF_GUITAR_RANGE_LOW",
     "MISSING_TITLE",
     "MISSING_COMPOSER",
     "PLACEHOLDER_METADATA",
@@ -117,6 +118,15 @@ REJECT_CODES = {
 # from Tab2XML-Converter-Player had 14. Threshold chosen to clear demo1
 # without sweeping out the shortest legitimate preludes.
 MIN_PITCHED_NOTES = 16
+
+# Lowest playable pitch on a 6-string guitar in drop-D = MIDI 38. Mirrors
+# the gate in scripts/m1_lilypond.py; kept in both files so this module
+# can catch already-converted artifacts without depending on the LilyPond
+# wrapper. Any accepted-after-conversion file with a pitch below this is
+# almost certainly a python-ly relative-octave miscount on a Mutopia file.
+MIDI_LOW_GATE = 38
+
+STEP_TO_SEMI = {"C": 0, "D": 2, "E": 4, "F": 5, "G": 7, "A": 9, "B": 11}
 
 
 def extract_score_xml(blob: bytes, fmt: str) -> bytes | tuple[None, str]:
@@ -305,6 +315,34 @@ def count_pitched_notes(root: etree._Element) -> int:
     )
 
 
+def lowest_midi(root: etree._Element) -> int | None:
+    """Return the lowest MIDI pitch in the score, or None if no pitched notes."""
+    lo: int | None = None
+    for pitch in root.xpath("//*[local-name()='note']/*[local-name()='pitch']"):
+        step = pitch.findtext("{*}step")
+        octave = pitch.findtext("{*}octave")
+        if step is None or octave is None:
+            continue
+        semi = STEP_TO_SEMI.get(step.upper())
+        if semi is None:
+            continue
+        try:
+            oct_i = int(octave)
+        except ValueError:
+            continue
+        alter_text = pitch.findtext("{*}alter")
+        alter = 0
+        if alter_text:
+            try:
+                alter = int(float(alter_text))
+            except ValueError:
+                alter = 0
+        midi = (oct_i + 1) * 12 + semi + alter
+        if lo is None or midi < lo:
+            lo = midi
+    return lo
+
+
 def validate_one(blob: bytes, fmt: str) -> dict[str, Any]:
     """Validate one file. Returns either {ok: True, metadata: …} or
     {ok: False, code: …, detail: …}."""
@@ -355,6 +393,14 @@ def validate_one(blob: bytes, fmt: str) -> dict[str, Any]:
     if pitched_notes < MIN_PITCHED_NOTES:
         return {"ok": False, "code": "FRAGMENT",
                 "detail": f"{pitched_notes} pitched notes (< {MIN_PITCHED_NOTES})"}
+
+    # Notes below drop-D mean either a real instrument that isn't a
+    # 6-string guitar, or a Mutopia/python-ly relative-octave miscount.
+    # Either way, the score isn't usable for sight-reading at face value.
+    lo_midi = lowest_midi(root)
+    if lo_midi is not None and lo_midi < MIDI_LOW_GATE:
+        return {"ok": False, "code": "OUT_OF_GUITAR_RANGE_LOW",
+                "detail": f"min MIDI={lo_midi} (< {MIDI_LOW_GATE})"}
 
     meta = extract_metadata(root)
     if not meta["title"]:

@@ -308,6 +308,41 @@ def _strip_tabstaff_block(src: str) -> str:
 
 # ---------- structural validation of converted MusicXML --------------
 
+# Drop-D low D = MIDI 38. Anything below means python-ly mistracked the
+# relative-octave reference (typical with bare `\relative c { ... }`
+# bass voices) or it failed to interpret `\harmonicByFret` and emitted
+# the fingered position as if it were the sounding pitch. Either way,
+# the output is wrong for a sight-reading corpus.
+_MIDI_LOW_GATE = 38
+
+_STEP_TO_SEMI = {"C": 0, "D": 2, "E": 4, "F": 5, "G": 7, "A": 9, "B": 11}
+
+
+def _note_midi(note: etree._Element) -> int | None:
+    pitch = note.find("{*}pitch")
+    if pitch is None:
+        return None
+    step = pitch.findtext("{*}step")
+    octave = pitch.findtext("{*}octave")
+    if step is None or octave is None:
+        return None
+    try:
+        oct_i = int(octave)
+    except ValueError:
+        return None
+    semi = _STEP_TO_SEMI.get(step.upper())
+    if semi is None:
+        return None
+    alter_text = pitch.findtext("{*}alter")
+    alter = 0
+    if alter_text:
+        try:
+            alter = int(float(alter_text))
+        except ValueError:
+            alter = 0
+    return (oct_i + 1) * 12 + semi + alter
+
+
 def _structural_check(xml_bytes: bytes) -> tuple[bool, str | None, dict]:
     try:
         root = etree.fromstring(xml_bytes)
@@ -322,6 +357,16 @@ def _structural_check(xml_bytes: bytes) -> tuple[bool, str | None, dict]:
     measures = root.xpath("//*[local-name()='measure']")
     if not notes:
         return False, "NO_NOTES", {"measures": len(measures)}
+    midis = [m for m in (_note_midi(n) for n in notes) if m is not None]
+    if midis:
+        low = min(midis)
+        if low < _MIDI_LOW_GATE:
+            below = sum(1 for m in midis if m < _MIDI_LOW_GATE)
+            return False, "OUT_OF_GUITAR_RANGE_LOW", {
+                "min_midi": low,
+                "below_gate": below,
+                "pitched_notes": len(midis),
+            }
     return True, None, {
         "parts": len(parts), "measures": len(measures), "notes": len(notes),
     }
@@ -398,6 +443,7 @@ def _convert_block_with_fallbacks(
         )
 
     last_err = ""
+    last_structural_code: str | None = None
     for label, variant in attempts:
         if label != "none":
             fallbacks.append(label)
@@ -419,11 +465,16 @@ def _convert_block_with_fallbacks(
                 fallbacks_applied=fallbacks,
             )
         last_err = f"{fail_code}: {details}"
+        last_structural_code = fail_code
 
+    # Prefer the specific structural reason (e.g. OUT_OF_GUITAR_RANGE_LOW)
+    # over the generic conversion-failed bucket. If every attempt died
+    # inside python-ly before producing parseable output, we have nothing
+    # more specific to report.
     return MovementResult(
         movement_index=0,
         success=False,
-        failure_reason="LY_CONVERSION_FAILED",
+        failure_reason=last_structural_code or "LY_CONVERSION_FAILED",
         failure_detail=last_err[:240] or "all fallbacks failed",
         fallbacks_applied=fallbacks,
     )

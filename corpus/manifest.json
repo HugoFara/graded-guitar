@@ -13051,30 +13051,6 @@
       "source": "mutopia"
     },
     {
-      "candidate_id": "mutopia:ftp/AguadoD/O3/aguado-op03n06/aguado-op03n06#movement01",
-      "file_url": "https://www.mutopiaproject.org/ftp/AguadoD/O3/aguado-op03n06/aguado-op03n06.ly",
-      "format": "musicxml",
-      "instrument_tokens": [
-        "acoustic guitar (nylon)",
-        "pluck.guitar.nylon-string"
-      ],
-      "license": "Mutopia: per-file CC or PD",
-      "license_spdx": "TBD",
-      "metadata": {
-        "composer": "D. Aguado",
-        "composer_normalized": "D. Aguado",
-        "key_fifths": "-1",
-        "opus": "",
-        "title": "8 Petites Pièces"
-      },
-      "normalized_path": "corpus/normalized/mutopia_ftp_AguadoD_O3_aguado-op03n06_aguado-op03n06#movement01.musicxml",
-      "normalized_sha256": "af239bab404f48d41f2ff66e1f1b410ce537741eb56483e4f222d93df61b87e0",
-      "page_url": "https://www.mutopiaproject.org/ftp/AguadoD/O3/aguado-op03n06/",
-      "parts": 1,
-      "raw_sha256": "c590b0e2610b69815149075ef63973f736c1cf5d816b175a4881a80f5e7e6e3e",
-      "source": "mutopia"
-    },
-    {
       "candidate_id": "mutopia:ftp/AguadoD/O3/aguado-op03n07/aguado-op03n07#movement01",
       "file_url": "https://www.mutopiaproject.org/ftp/AguadoD/O3/aguado-op03n07/aguado-op03n07.ly",
       "format": "musicxml",
@@ -13612,30 +13588,6 @@
       "source": "mutopia"
     },
     {
-      "candidate_id": "mutopia:ftp/BachJS/BWV997/Bach_Preludio_BWV997/Bach_Preludio_BWV997#movement01",
-      "file_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV997/Bach_Preludio_BWV997/Bach_Preludio_BWV997.ly",
-      "format": "musicxml",
-      "instrument_tokens": [
-        "acoustic guitar (nylon)",
-        "pluck.guitar.nylon-string"
-      ],
-      "license": "Mutopia: per-file CC or PD",
-      "license_spdx": "TBD",
-      "metadata": {
-        "composer": "Johann Sebastian Bach (1685-1750)",
-        "composer_normalized": "Johann Sebastian Bach",
-        "key_fifths": "0",
-        "opus": "",
-        "title": "Preludio"
-      },
-      "normalized_path": "corpus/normalized/mutopia_ftp_BachJS_BWV997_Bach_Preludio_BWV997_Bach_Preludio_BWV997#movement01.musicxml",
-      "normalized_sha256": "68758f38f27fe94b0a5d8e7d5f16bcb54b682a37a4d15734b1dc7809c21478f5",
-      "page_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV997/Bach_Preludio_BWV997/",
-      "parts": 1,
-      "raw_sha256": "93c17008425bfed2fc7710785a6180b8755c13b0d467e1e69a52ed797fd1a5dd",
-      "source": "mutopia"
-    },
-    {
       "candidate_id": "mutopia:ftp/BachJS/BWV997/bwv997-01prelude/bwv997-01prelude#movement01",
       "file_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV997/bwv997-01prelude/bwv997-01prelude.ly",
       "format": "musicxml",
@@ -13901,31 +13853,6 @@
       "page_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O26/carcassi-op26-01/",
       "parts": 1,
       "raw_sha256": "3d373fc29cf3cbee64dd44d86ab42ee65e91f92a6ffcd03a5ffacf9b85ed5036",
-      "source": "mutopia"
-    },
-    {
-      "candidate_id": "mutopia:ftp/CarcassiM/O26/carcassi-op26-02/carcassi-op26-02#movement01",
-      "file_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O26/carcassi-op26-02/carcassi-op26-02.ly",
-      "format": "musicxml",
-      "instrument_tokens": [
-        "Nº 2",
-        "acoustic guitar (nylon)",
-        "pluck.guitar.nylon-string"
-      ],
-      "license": "Mutopia: per-file CC or PD",
-      "license_spdx": "TBD",
-      "metadata": {
-        "composer": "Mateo Carcassi",
-        "composer_normalized": "Mateo Carcassi",
-        "key_fifths": "1",
-        "opus": "",
-        "title": "Six Caprices"
-      },
-      "normalized_path": "corpus/normalized/mutopia_ftp_CarcassiM_O26_carcassi-op26-02_carcassi-op26-02#movement01.musicxml",
-      "normalized_sha256": "802fc656ca93d698467977c69d6b7ce00e81b2e26e3f481f0616019f62e2df8a",
-      "page_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O26/carcassi-op26-02/",
-      "parts": 1,
-      "raw_sha256": "43938499801740c923b780dff6c1a818939381b703d952ccbc706a6699021194",
       "source": "mutopia"
     },
     {
@@ -14579,30 +14506,6 @@
       "page_url": "https://www.mutopiaproject.org/ftp/FaureG/O78/faure-sicilienne-guitare-doigtee/",
       "parts": 1,
       "raw_sha256": "d795d2d6635413ef021fa9865462e5751902364f0ea519f893bef9b43bfb9d5c",
-      "source": "mutopia"
-    },
-    {
-      "candidate_id": "mutopia:ftp/GalileiV/saltarello/saltarello#movement01",
-      "file_url": "https://www.mutopiaproject.org/ftp/GalileiV/saltarello/saltarello.ly",
-      "format": "musicxml",
-      "instrument_tokens": [
-        "acoustic guitar (nylon)",
-        "pluck.guitar.nylon-string"
-      ],
-      "license": "Mutopia: per-file CC or PD",
-      "license_spdx": "TBD",
-      "metadata": {
-        "composer": "Vincenzo Galilei (1520-1591)",
-        "composer_normalized": "Vincenzo Galilei",
-        "key_fifths": "2",
-        "opus": "",
-        "title": "Saltarello"
-      },
-      "normalized_path": "corpus/normalized/mutopia_ftp_GalileiV_saltarello_saltarello#movement01.musicxml",
-      "normalized_sha256": "9bbcfb79ff364cb951f0135fc31c3c1b38f91bb85be6b8b871f6c1cb2e772a91",
-      "page_url": "https://www.mutopiaproject.org/ftp/GalileiV/saltarello/",
-      "parts": 1,
-      "raw_sha256": "a53510e50078589d0b894fc18d41b8874a9f99274fdff214ddcfca686d415469",
       "source": "mutopia"
     },
     {
@@ -15468,30 +15371,6 @@
       "source": "mutopia"
     },
     {
-      "candidate_id": "mutopia:ftp/GiulianiM/O59/giuliani-op59n12/giuliani-op59n12#movement01",
-      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O59/giuliani-op59n12/giuliani-op59n12.ly",
-      "format": "musicxml",
-      "instrument_tokens": [
-        "acoustic guitar (nylon)",
-        "pluck.guitar.nylon-string"
-      ],
-      "license": "Mutopia: per-file CC or PD",
-      "license_spdx": "TBD",
-      "metadata": {
-        "composer": "Mauro Giuliani",
-        "composer_normalized": "Mauro Giuliani",
-        "key_fifths": "0",
-        "opus": "",
-        "title": "16 Studies for the Guitar"
-      },
-      "normalized_path": "corpus/normalized/mutopia_ftp_GiulianiM_O59_giuliani-op59n12_giuliani-op59n12#movement01.musicxml",
-      "normalized_sha256": "6346dc93f8c65a354e1869e5660aa76d76075d9ecd0ef9557cfa3ef8e24fec69",
-      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O59/giuliani-op59n12/",
-      "parts": 1,
-      "raw_sha256": "da037e26be5050990dd9e02ee3e71beef8cee93b8686e9b565c6d5805554c1b1",
-      "source": "mutopia"
-    },
-    {
       "candidate_id": "mutopia:ftp/GiulianiM/O59/giuliani-op59n13/giuliani-op59n13#movement01",
       "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O59/giuliani-op59n13/giuliani-op59n13.ly",
       "format": "musicxml",
@@ -15513,30 +15392,6 @@
       "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O59/giuliani-op59n13/",
       "parts": 1,
       "raw_sha256": "bcabc1d11d1cb6845b9a73bc3e539b2736e8579f497ee97bfd7ab2b5cf193126",
-      "source": "mutopia"
-    },
-    {
-      "candidate_id": "mutopia:ftp/GiulianiM/O59/giuliani-op59n14/giuliani-op59n14#movement01",
-      "file_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O59/giuliani-op59n14/giuliani-op59n14.ly",
-      "format": "musicxml",
-      "instrument_tokens": [
-        "acoustic guitar (nylon)",
-        "pluck.guitar.nylon-string"
-      ],
-      "license": "Mutopia: per-file CC or PD",
-      "license_spdx": "TBD",
-      "metadata": {
-        "composer": "Mauro Giuliani",
-        "composer_normalized": "Mauro Giuliani",
-        "key_fifths": "3",
-        "opus": "",
-        "title": "16 Studies for the Guitar"
-      },
-      "normalized_path": "corpus/normalized/mutopia_ftp_GiulianiM_O59_giuliani-op59n14_giuliani-op59n14#movement01.musicxml",
-      "normalized_sha256": "ecd5ae35ea600ae44dfe28678268846f9dfc5a3ee2fe9d695d88280345e0fe84",
-      "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O59/giuliani-op59n14/",
-      "parts": 1,
-      "raw_sha256": "29549cdfedf55d91f8c8681a9d8b8d8c49a50102032fa213a99e04aeae510440",
       "source": "mutopia"
     },
     {
@@ -19647,30 +19502,6 @@
       "source": "mutopia"
     },
     {
-      "candidate_id": "mutopia:ftp/SorF/O35/Sor_Etude_Opus35_14/Sor_Etude_Opus35_14#movement01",
-      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O35/Sor_Etude_Opus35_14/Sor_Etude_Opus35_14.ly",
-      "format": "musicxml",
-      "instrument_tokens": [
-        "acoustic guitar (nylon)",
-        "pluck.guitar.nylon-string"
-      ],
-      "license": "Mutopia: per-file CC or PD",
-      "license_spdx": "TBD",
-      "metadata": {
-        "composer": "Fernando Sor",
-        "composer_normalized": "Fernando Sor",
-        "key_fifths": "0",
-        "opus": "",
-        "title": "Etude"
-      },
-      "normalized_path": "corpus/normalized/mutopia_ftp_SorF_O35_Sor_Etude_Opus35_14_Sor_Etude_Opus35_14#movement01.musicxml",
-      "normalized_sha256": "61144551d36e8f2b9566a0b1397a61c4f1840abbaa6737b28ace480f17d80169",
-      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O35/Sor_Etude_Opus35_14/",
-      "parts": 1,
-      "raw_sha256": "4d3abd58ac8105c8838c6dd4f31c40a55536db813ad5d1a4e858c462dc460ddd",
-      "source": "mutopia"
-    },
-    {
       "candidate_id": "mutopia:ftp/SorF/O35/sorf_op35_no1/sorf_op35_no1#movement01",
       "file_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no1/sorf_op35_no1.ly",
       "format": "musicxml",
@@ -20246,31 +20077,6 @@
       "page_url": "https://www.mutopiaproject.org/ftp/SorF/O45/sorf-op45n02/",
       "parts": 1,
       "raw_sha256": "d18fe6216e8d42b5752473a64132d1f4c85c2d6319d97c5b6e690c33c96a897b",
-      "source": "mutopia"
-    },
-    {
-      "candidate_id": "mutopia:ftp/SorF/O45/sorf-op45n03/sorf-op45n03#movement01",
-      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O45/sorf-op45n03/sorf-op45n03.ly",
-      "format": "musicxml",
-      "instrument_tokens": [
-        "Nº 3 Theme",
-        "acoustic guitar (nylon)",
-        "pluck.guitar.nylon-string"
-      ],
-      "license": "Mutopia: per-file CC or PD",
-      "license_spdx": "TBD",
-      "metadata": {
-        "composer": "F. Sor",
-        "composer_normalized": "F. Sor",
-        "key_fifths": "0",
-        "opus": "",
-        "title": "Six Petites Pièces"
-      },
-      "normalized_path": "corpus/normalized/mutopia_ftp_SorF_O45_sorf-op45n03_sorf-op45n03#movement01.musicxml",
-      "normalized_sha256": "e11c8e9f33e769cb9ef7b5a92fe443d28a33c82a6b2dddf9606aa065646c0087",
-      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O45/sorf-op45n03/",
-      "parts": 1,
-      "raw_sha256": "f7d4f4ddb8877ef29b8f9318d4ade5925cad6016c19732274107708451965cc6",
       "source": "mutopia"
     },
     {
