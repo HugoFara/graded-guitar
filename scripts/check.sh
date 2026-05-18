@@ -41,6 +41,8 @@ require_file decisions/0006-github-as-source.md
 require_file decisions/0007-mutopia-source.md
 require_file decisions/0008-guitarloot-source.md
 require_file decisions/0009-m2-grading-inputs.md
+require_file decisions/0010-m2-close-with-dummy-labels.md
+require_file decisions/0011-m3-stack.md
 
 echo "==> Syllabi"
 require_file syllabi/README.md
@@ -68,6 +70,10 @@ require_file scripts/m2_features.py
 require_file scripts/m2_feature_audit.py
 require_file scripts/m2_label_bias.py
 require_file scripts/m2_baseline_grader.py
+require_file scripts/m2_dummy_advisor.py
+require_file scripts/m2_train.py
+require_file scripts/m2_eval.py
+require_file scripts/m2_apply_to_manifest.py
 require_file scripts/tests/test_m1_validation.py
 require_file scripts/tests/test_m2.py
 require_file corpus/README.md

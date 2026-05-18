@@ -6,3 +6,9 @@ lxml==5.3.0
 # when a Mutopia candidate is encountered. Monkey-patched at import
 # time in scripts/m1_lilypond.py — be careful when bumping this pin.
 python-ly==0.9.10
+# M2 dummy-v0 grader and eval. Added under ADR 0010 (close M2 with
+# placeholder labels). Drops the ADR 0009 "no ML libs" rule because
+# we explicitly want sklearn's LogisticRegression for the dummy
+# pipeline; the advisor still owns the final model choice.
+scikit-learn==1.5.2
+numpy>=2.0,<3

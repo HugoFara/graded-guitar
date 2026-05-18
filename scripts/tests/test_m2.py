@@ -18,6 +18,9 @@ sys.path.insert(0, str(ROOT / "scripts"))
 from lxml import etree  # noqa: E402
 
 from m2_features import (  # noqa: E402
+    _accidentals_outside_key,
+    _expected_alter_for_key,
+    _notes_per_measure,
     _pitch_fingering_stats,
     _pitch_min_fret,
 )
@@ -29,6 +32,14 @@ from m2_baseline_grader import (  # noqa: E402
     grade_corpus,
 )
 from m2_label_bias import _era_of  # noqa: E402
+from m2_dummy_advisor import TARGETS, pick_sample  # noqa: E402
+from m2_train import (  # noqa: E402
+    GRADE_REMAP,
+    NUMERIC_FEATURES,
+    _project_grade,
+    featurize,
+)
+from m2_apply_to_manifest import apply_predictions  # noqa: E402
 
 
 _PASS = "\033[32mok  "
@@ -268,6 +279,207 @@ def test_era_of_prefix_match_for_date_suffixed_names() -> None:
 def test_era_of_unknown_for_truly_unrecognised_names() -> None:
     assert _era_of("Zzzz Madeup") == "Unknown"
     assert _era_of("") == "Unknown"
+
+
+# ---------- _expected_alter_for_key / _accidentals_outside_key -------------
+
+def test_expected_alter_no_sharps_no_flats() -> None:
+    m = _expected_alter_for_key(0)
+    assert set(m.values()) == {0}
+    assert m["F"] == 0 and m["B"] == 0
+
+
+def test_expected_alter_three_sharps_marks_fcg() -> None:
+    m = _expected_alter_for_key(3)
+    assert m["F"] == 1 and m["C"] == 1 and m["G"] == 1
+    assert m["D"] == 0 and m["A"] == 0
+
+
+def test_expected_alter_two_flats_marks_be() -> None:
+    m = _expected_alter_for_key(-2)
+    assert m["B"] == -1 and m["E"] == -1
+    assert m["A"] == 0
+
+
+def test_accidentals_outside_key_counts_explicit_disagreement() -> None:
+    # Key of G (1 sharp → F#). F natural is an accidental, F# is not.
+    xml = (
+        "<?xml version='1.0'?><score-partwise><part id='P1'>"
+        "<measure number='1'>"
+        "<attributes><key><fifths>1</fifths></key></attributes>"
+        # F natural — explicit alter=0, disagrees with key
+        "<note><pitch><step>F</step><alter>0</alter><octave>4</octave></pitch>"
+        "<duration>1</duration></note>"
+        # F# — explicit alter=1, agrees with key
+        "<note><pitch><step>F</step><alter>1</alter><octave>4</octave></pitch>"
+        "<duration>1</duration></note>"
+        "</measure></part></score-partwise>"
+    )
+    root = etree.fromstring(xml.encode("utf-8"))
+    assert _accidentals_outside_key(root) == 1
+
+
+def test_accidentals_outside_key_implicit_natural_against_sharp_key() -> None:
+    # Key of G; F without an explicit alter is implicit natural → accidental.
+    xml = (
+        "<?xml version='1.0'?><score-partwise><part id='P1'>"
+        "<measure number='1'>"
+        "<attributes><key><fifths>1</fifths></key></attributes>"
+        "<note><pitch><step>F</step><octave>4</octave></pitch>"
+        "<duration>1</duration></note>"
+        "</measure></part></score-partwise>"
+    )
+    root = etree.fromstring(xml.encode("utf-8"))
+    assert _accidentals_outside_key(root) == 1
+
+
+# ---------- _notes_per_measure ---------------------------------------------
+
+def test_notes_per_measure_basic() -> None:
+    # Two measures, 3 + 1 notes → 2.0 avg.
+    root = _note_xml([
+        ("E", 4, False), ("F", 4, False), ("G", 4, False),
+    ])
+    # That helper only creates a single measure. Build a 2-measure score
+    # by hand here.
+    xml = (
+        "<?xml version='1.0'?><score-partwise><part id='P1'>"
+        "<measure number='1'>"
+        "<note><pitch><step>E</step><octave>4</octave></pitch>"
+        "<duration>1</duration></note>"
+        "<note><pitch><step>F</step><octave>4</octave></pitch>"
+        "<duration>1</duration></note>"
+        "<note><pitch><step>G</step><octave>4</octave></pitch>"
+        "<duration>1</duration></note>"
+        "</measure>"
+        "<measure number='2'>"
+        "<note><pitch><step>A</step><octave>4</octave></pitch>"
+        "<duration>1</duration></note>"
+        "</measure>"
+        "</part></score-partwise>"
+    )
+    root = etree.fromstring(xml.encode("utf-8"))
+    assert _notes_per_measure(root) == 2.0
+
+
+def test_notes_per_measure_ignores_rests() -> None:
+    # 1 rest + 1 note in a single measure → 1.0 (rest skipped).
+    xml = (
+        "<?xml version='1.0'?><score-partwise><part id='P1'>"
+        "<measure number='1'>"
+        "<note><rest/><duration>1</duration></note>"
+        "<note><pitch><step>E</step><octave>4</octave></pitch>"
+        "<duration>1</duration></note>"
+        "</measure></part></score-partwise>"
+    )
+    root = etree.fromstring(xml.encode("utf-8"))
+    assert _notes_per_measure(root) == 1.0
+
+
+def test_notes_per_measure_empty() -> None:
+    xml = "<?xml version='1.0'?><score-partwise><part id='P1'/></score-partwise>"
+    root = etree.fromstring(xml.encode("utf-8"))
+    assert _notes_per_measure(root) is None
+
+
+# ---------- m2_dummy_advisor.pick_sample -----------------------------------
+
+def _feature_row(cid: str, composer: str, grade: str = "",
+                **extras: float | int) -> dict[str, str]:
+    base = {
+        "candidate_id": cid,
+        "source": "test:source",
+        "title": cid,
+        "composer_normalized": composer,
+        "grade": grade,
+        "grade_source": "delcamp" if grade else "",
+    }
+    for f in RULE_FEATURES:
+        base[f] = str(extras.get(f, 1))
+    return base
+
+
+def test_pick_sample_skips_graded_pieces() -> None:
+    rows = [
+        _feature_row("a", "John Dowland", grade="7"),
+        _feature_row("b", "Fernando Sor", grade="", measure_count=10),
+        _feature_row("c", "Fernando Sor", grade="", measure_count=30),
+    ]
+    picked = pick_sample(rows)
+    cids = {p["candidate_id"] for p in picked}
+    assert "a" not in cids
+    assert cids.issubset({"b", "c"})
+
+
+def test_pick_sample_assigns_dummy_grade_source_tag() -> None:
+    rows = [_feature_row(f"p{i}", "Fernando Sor", grade="",
+                         measure_count=i, midi_max=60 + i)
+            for i in range(10)]
+    picked = pick_sample(rows)
+    assert picked, "expected at least one pick"
+    for p in picked:
+        assert p["dummy_grade_source"] == "dummy-advisor-v0"
+        assert p["era"] in TARGETS
+        assert p["dummy_grade"] in {label for _, _, label in GRADE_BANDS}
+
+
+# ---------- m2_train -------------------------------------------------------
+
+def test_project_grade_collapses_sparse_classes() -> None:
+    assert _project_grade("4") == "5"
+    assert _project_grade("10") == "9"
+    assert _project_grade("6") == "6"  # unchanged
+
+
+def test_grade_remap_is_lossless_for_common_grades() -> None:
+    for g in ["3", "5", "6", "7", "8", "9"]:
+        assert _project_grade(g) == g
+    # Anything in GRADE_REMAP maps onto a valid class.
+    for src, dst in GRADE_REMAP.items():
+        assert dst in {"3", "5", "6", "7", "8", "9"}
+
+
+def test_featurize_handles_missing_values_with_median() -> None:
+    rows = [
+        {f: str(i + 1) for f in NUMERIC_FEATURES} | {"candidate_id": f"c{i}"}
+        for i in range(3)
+    ]
+    rows[1][NUMERIC_FEATURES[0]] = ""  # blank → impute
+    X, _ = featurize(rows)
+    assert X.shape == (3, len(NUMERIC_FEATURES))
+    # Imputed value should be the median of remaining values (1 and 3) = 2.
+    assert X[1, 0] == 2.0
+
+
+# ---------- m2_apply_to_manifest -------------------------------------------
+
+def test_apply_predictions_writes_model_grade_and_source() -> None:
+    manifest = {"pieces": [
+        {"candidate_id": "a", "grade": "7", "grade_source": "delcamp"},
+        {"candidate_id": "b"},
+    ]}
+    preds = {
+        "a": {"predicted_grade": "8", "model_version": "dummy-v0"},
+        "b": {"predicted_grade": "5", "model_version": "dummy-v0"},
+    }
+    updated, skipped = apply_predictions(manifest, preds)
+    assert updated == 2 and skipped == 0
+    a, b = manifest["pieces"]
+    # Curator fields untouched.
+    assert a["grade"] == "7" and a["grade_source"] == "delcamp"
+    assert a["model_grade"] == "8" and a["model_grade_source"] == "dummy-v0"
+    assert b["model_grade"] == "5" and b["model_grade_source"] == "dummy-v0"
+
+
+def test_apply_predictions_skips_pieces_without_prediction() -> None:
+    manifest = {"pieces": [
+        {"candidate_id": "a"},
+        {"candidate_id": "ghost"},
+    ]}
+    preds = {"a": {"predicted_grade": "6", "model_version": "dummy-v0"}}
+    updated, skipped = apply_predictions(manifest, preds)
+    assert updated == 1 and skipped == 1
+    assert "model_grade" not in manifest["pieces"][1]
 
 
 # ---------- runner ---------------------------------------------------------

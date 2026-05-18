@@ -14,6 +14,11 @@ Output of the M1 ingest pipeline.
 - `label_bias.md` — composer/era confound diagnostics on the Delcamp-graded subset. Output of `scripts/m2_label_bias.py`. Quantifies the per-composer grading pattern in the Guitar Loot corpus; flags features whose variance is dominated by composer identity.
 - `baseline_grades.csv` — predicted grade for every piece from a fixed, hand-readable rule (percentile-composite over a small feature subset). Output of `scripts/m2_baseline_grader.py`. **Not a model.** Intended to give the advisor a concrete prediction to react to.
 - `baseline_grader.md` — confusion matrix and agreement rate of the baseline rule against Delcamp labels. Companion to `baseline_grades.csv`.
+- `dummy_advisor_grades.csv` — **PLACEHOLDER LABELS** for ~50 ungraded pieces, seeded from the baseline grader and stratified across eras. Output of `scripts/m2_dummy_advisor.py`. Every row carries `grade_source = dummy-advisor-v0`. Replace the `dummy_grade` column when the real advisor engages.
+- `dummy_advisor_grades.md` — per-era + per-grade distribution of the dummy sample, plus advisor swap-in instructions.
+- `model_dummy_v0.json` — trained dummy-v0 logistic-regression weights, scaler, and feature order. Output of `scripts/m2_train.py`. **Not advisor-blessed.** Reload-friendly without sklearn.
+- `model_grades.csv` — per-piece prediction + probabilities from `dummy-v0`. Carries the `model_version` tag in every row.
+- `model_eval.md` — 5-fold CV, per-era breakdown, composer-out probe. Output of `scripts/m2_eval.py`. Numbers describe how well the pipeline reproduces dummy labels, not how well it grades difficulty.
 
 ## What's gitignored
 
@@ -40,6 +45,11 @@ python scripts/m2_features.py
 python scripts/m2_feature_audit.py
 python scripts/m2_label_bias.py
 python scripts/m2_baseline_grader.py
+# Dummy-v0 training pipeline (placeholder labels; see ADR 0010):
+python scripts/m2_dummy_advisor.py
+python scripts/m2_train.py
+python scripts/m2_eval.py
+python scripts/m2_apply_to_manifest.py
 ```
 
 `scripts/m1_discover_github.py` uses the `gh` CLI for auth and rate-limit handling — log in with `gh auth login` first.

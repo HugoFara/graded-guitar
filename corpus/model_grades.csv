@@ -1,0 +1,805 @@
+candidate_id,source,composer_normalized,title,actual_grade,actual_grade_source,predicted_grade,model_version,p_G3,p_G5,p_G6,p_G7,p_G8,p_G9
+gh:LYD01/music-teacher@main:public/pieces/adelita.musicxml,github,Francisco Tárrega,Adelita,3,dummy-advisor-v0,3,dummy-v0,0.982,0.018,0.000,0.000,0.000,0.000
+gh:LYD01/music-teacher@main:public/pieces/am-dm-e-progression.musicxml,github,Exercise,Am - Dm - E Progression,5,dummy-advisor-v0,5,dummy-v0,0.292,0.707,0.001,0.000,0.000,0.000
+gh:LYD01/music-teacher@main:public/pieces/asturias-theme.musicxml,github,Isaac Albéniz,Asturias (Leyenda) - Theme,3,dummy-advisor-v0,3,dummy-v0,0.826,0.173,0.000,0.000,0.000,0.000
+gh:LYD01/music-teacher@main:public/pieces/basic-open-chords.musicxml,github,Exercise,Basic Open Chords,5,dummy-advisor-v0,5,dummy-v0,0.044,0.912,0.035,0.003,0.007,0.000
+gh:LYD01/music-teacher@main:public/pieces/capricho-arabe.musicxml,github,Francisco Tárrega,Capricho Árabe (Theme),3,dummy-advisor-v0,3,dummy-v0,0.972,0.028,0.001,0.000,0.000,0.000
+gh:LYD01/music-teacher@main:public/pieces/estudio-am.musicxml,github,Francisco Tárrega,Estudio in A minor,3,dummy-advisor-v0,3,dummy-v0,0.990,0.009,0.000,0.000,0.000,0.000
+gh:LYD01/music-teacher@main:public/pieces/farruca.musicxml,github,Traditional Flamenco,Farruca,3,dummy-advisor-v0,3,dummy-v0,0.956,0.043,0.000,0.000,0.000,0.000
+gh:LYD01/music-teacher@main:public/pieces/first-string-notes.musicxml,github,Exercise,Notes on the High E String,3,dummy-advisor-v0,3,dummy-v0,0.997,0.003,0.000,0.000,0.000,0.000
+gh:LYD01/music-teacher@main:public/pieces/greensleeves.musicxml,github,Traditional English,Greensleeves,3,dummy-advisor-v0,3,dummy-v0,0.972,0.027,0.000,0.000,0.000,0.000
+gh:LYD01/music-teacher@main:public/pieces/lagrima.musicxml,github,Francisco Tárrega,Lágrima,3,dummy-advisor-v0,3,dummy-v0,0.977,0.022,0.001,0.000,0.000,0.000
+gh:LYD01/music-teacher@main:public/pieces/malaguena.musicxml,github,Traditional Spanish,Malagueña,,,3,dummy-v0,0.988,0.012,0.000,0.000,0.000,0.000
+gh:LYD01/music-teacher@main:public/pieces/ode-to-joy.musicxml,github,Ludwig van Beethoven,Ode to Joy,,,3,dummy-v0,0.996,0.004,0.000,0.000,0.000,0.000
+gh:LYD01/music-teacher@main:public/pieces/open-string-notes.musicxml,github,Exercise,Open String Notes,,,3,dummy-v0,0.957,0.043,0.000,0.000,0.000,0.000
+gh:LYD01/music-teacher@main:public/pieces/prelude-emin-villalobos.musicxml,github,Heitor Villa-Lobos,Prelude No. 1 in E minor (Theme),5,dummy-advisor-v0,3,dummy-v0,0.667,0.331,0.002,0.000,0.000,0.000
+gh:LYD01/music-teacher@main:public/pieces/recuerdos-theme.musicxml,github,Francisco Tárrega,Recuerdos de la Alhambra (Theme),3,dummy-advisor-v0,3,dummy-v0,0.982,0.017,0.000,0.000,0.000,0.000
+gh:LYD01/music-teacher@main:public/pieces/romanza.musicxml,github,Anonymous,Romanza (Spanish Romance),3,dummy-advisor-v0,3,dummy-v0,0.988,0.012,0.000,0.000,0.000,0.000
+gh:LYD01/music-teacher@main:public/pieces/second-string-notes.musicxml,github,Exercise,Notes on the B String,,,3,dummy-v0,0.984,0.016,0.000,0.000,0.000,0.000
+gh:LYD01/music-teacher@main:public/pieces/spanish-study-am.musicxml,github,Traditional Spanish,Spanish Study in A minor,,,3,dummy-v0,0.799,0.200,0.000,0.000,0.000,0.000
+gh:Plisken78/plisken78.github.io@main:notlasning/songs/Ave Maria.musicxml,github,F. Schubert,Ave Maria,,,3,dummy-v0,0.943,0.055,0.001,0.000,0.000,0.000
+gh:ThePython10110/MuseScore@master:Converted/MusicXML/Silksong/Choral Chambers on guitar (Silksong).musicxml,github,"Christopher Larkin, Arranged by Beyond the Guitar",Choral Chambers (Silksong),7,dummy-advisor-v0,7,dummy-v0,0.000,0.280,0.214,0.468,0.038,0.000
+gh:arhanv/ug-dataset@main:dataset-converted-xml/Open D/Metal/Criminal - New Disorder.musicxml,github,riffman hansgtr@hotmail.com,new disorder,5,dummy-advisor-v0,5,dummy-v0,0.400,0.586,0.011,0.002,0.000,0.000
+gh:moisur/courstrompette@master:public/Wikifonia.rendered/lee konitz - subconscious lee.musicxml,github,lee konitz,subconscious lee,5,dummy-advisor-v0,3,dummy-v0,0.523,0.432,0.040,0.003,0.002,0.000
+gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:anonymous/andante/andante.musicxml,github,Anonymous,Andante,5,dummy-advisor-v0,3,dummy-v0,0.479,0.104,0.168,0.074,0.176,0.000
+gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:antonio-rovira/romance-de-amor/romance-de-amor.musicxml,github,Antonio Rovira,Romance de Amor,7,dummy-advisor-v0,7,dummy-v0,0.000,0.087,0.221,0.596,0.096,0.000
+gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:dilermando-reis/se-ela-perguntar/se-ela-perguntar.musicxml,github,Dilermando Reis,Se Ela Perguntar,7,dummy-advisor-v0,7,dummy-v0,0.002,0.266,0.222,0.379,0.131,0.000
+gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:dorival-caymmi/modinha-para-gabriela/modinha-para-gabriela.musicxml,github,Dorival Caymmi,Modinha para Gabriela,,,5,dummy-v0,0.000,0.623,0.093,0.248,0.036,0.000
+gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:ernesto-nazareth/odeon/odeon.musicxml,github,Ernesto Nazareth,Odeon,6,dummy-advisor-v0,5,dummy-v0,0.029,0.398,0.274,0.257,0.042,0.000
+gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:j-s-bach/air-on-the-g-string/air-on-the-g-string.musicxml,github,Johann Sebastian Bach,Air on the G String,6,dummy-advisor-v0,5,dummy-v0,0.061,0.419,0.197,0.241,0.084,0.000
+gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:j-s-bach/bourree/bourree.musicxml,github,J. S. Bach,Bourreé,6,dummy-advisor-v0,6,dummy-v0,0.014,0.124,0.483,0.304,0.075,0.000
+gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:j-s-bach/jesu-joy-of-mans-desiring/jesu-joy-of-mans-desiring.musicxml,github,J. S. Bach,"Jesu,  Joy of Man's Desiring",6,dummy-advisor-v0,6,dummy-v0,0.000,0.342,0.349,0.202,0.108,0.000
+gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:j-s-bach/minueto-I/minueto-I.musicxml,github,J. S. Bach,Minueto I,6,dummy-advisor-v0,5,dummy-v0,0.083,0.583,0.168,0.106,0.061,0.000
+gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:j-s-bach/minueto-II/minueto-II.musicxml,github,J. S. Bach,Minueto II,,,5,dummy-v0,0.085,0.611,0.193,0.087,0.025,0.000
+gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:j-s-bach/prelude-for-lute/prelude-for-lute.musicxml,github,J. S. Bach,Prelude,,,6,dummy-v0,0.142,0.168,0.429,0.164,0.098,0.000
+gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:joao-pernambuco/sons-de-carrilhoes/sons-de-carrilhoes.musicxml,github,João Pernambuco,Sons de Carrilhões,,,5,dummy-v0,0.000,0.370,0.103,0.339,0.188,0.000
+gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:matteo-carcassi/study-3/study-3.musicxml,github,Matteo Carcassi,Study 3,5,dummy-advisor-v0,5,dummy-v0,0.215,0.469,0.161,0.093,0.062,0.000
+gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:maurice-ravel/bolero/bolero.musicxml,github,Maurice Ravel,Bolero,,,5,dummy-v0,0.123,0.873,0.002,0.002,0.000,0.000
+gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:paulinho-nogueira/bachianinha-1/bachianinha-1.musicxml,github,Paulinho Nogueira,Bachianinha Nº 1,7,dummy-advisor-v0,7,dummy-v0,0.000,0.200,0.256,0.507,0.036,0.000
+gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:pixinguinha/carinhoso/carinhoso.musicxml,github,Pixinguinha,Carinhoso,,,5,dummy-v0,0.003,0.624,0.230,0.111,0.033,0.000
+gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:waldyr-azevedo/pedacinhos-do-ceu/pedacinhos-do-ceu.musicxml,github,Waldyr Azevedo,Pedacinhos do céu,,,5,dummy-v0,0.001,0.498,0.042,0.186,0.272,0.000
+gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:zacar/soleado/soleado.musicxml,github,Zacar,Soleado,,,5,dummy-v0,0.134,0.596,0.129,0.112,0.029,0.000
+gh:ujfjhz/ChineseMusicScore@main:MusicScore/民间音乐/汉族/河北/河北民歌-小白菜/河北民歌-小白菜.musicxml,github,河北民歌,河北民歌-小白菜,,,3,dummy-v0,0.965,0.034,0.001,0.000,0.000,0.000
+guitarloot:Scores/EnglishMusic/Allison/AllisonQuadroGtr,guitarloot,Richard Allison,Quadro Pavan,3,delcamp:guitarloot,3,dummy-v0,0.729,0.014,0.049,0.058,0.103,0.049
+guitarloot:Scores/EnglishMusic/Allison/AlmainAllisonAS,guitarloot,Richard Allison,Almain,3,delcamp:guitarloot,3,dummy-v0,0.459,0.090,0.291,0.040,0.120,0.000
+guitarloot:Scores/EnglishMusic/Allison/DeLaTrombaPavanGtr,guitarloot,Richard Allison,De La Tromba Pavan,3,delcamp:guitarloot,8,dummy-v0,0.151,0.055,0.267,0.150,0.376,0.001
+guitarloot:Scores/EnglishMusic/Allison/SharpPavan2cGtrAS,guitarloot,Richard Allison,Sharp Pavan (2c),3,delcamp:guitarloot,9,dummy-v0,0.045,0.116,0.182,0.198,0.229,0.230
+guitarloot:Scores/EnglishMusic/Anon/012MilanDumpGtr,guitarloot,Anon,The Duke of Milan's Dump,6,delcamp:guitarloot,3,dummy-v0,0.471,0.309,0.082,0.079,0.060,0.000
+guitarloot:Scores/EnglishMusic/Anon/CareyDompeAS,guitarloot,Anon,My Lady Carey's Dompe,5,delcamp:guitarloot,7,dummy-v0,0.002,0.202,0.294,0.350,0.150,0.002
+guitarloot:Scores/EnglishMusic/Anon/DargessonGtr,guitarloot,Anon Dd.2.11 f.8,Dargesson,6,delcamp:guitarloot,3,dummy-v0,0.359,0.037,0.249,0.050,0.304,0.001
+guitarloot:Scores/EnglishMusic/Anon/DowneGGtr,guitarloot,Anon 16th century,A Downe,6,delcamp:guitarloot,6,dummy-v0,0.296,0.174,0.332,0.118,0.080,0.000
+guitarloot:Scores/EnglishMusic/Anon/GallUntitledGtr,guitarloot,Anon,Untitled (Galliard),6,delcamp:guitarloot,6,dummy-v0,0.005,0.320,0.349,0.154,0.172,0.000
+guitarloot:Scores/EnglishMusic/Anon/JourDesireGAS,guitarloot,Anon,Jour Desiré,6,delcamp:guitarloot,6,dummy-v0,0.059,0.304,0.416,0.097,0.091,0.032
+guitarloot:Scores/EnglishMusic/Anon/LothDepartAnonAS,guitarloot,Anon Dd. 2.11 f.9,Loth to Depart,6,delcamp:guitarloot,6,dummy-v0,0.023,0.113,0.521,0.145,0.193,0.004
+guitarloot:Scores/EnglishMusic/Anon/MilitisDumpAArr,guitarloot,Anon: CUL MS Dd.9.33,Militis Dump,7,delcamp:guitarloot,5,dummy-v0,0.109,0.380,0.240,0.102,0.086,0.082
+guitarloot:Scores/EnglishMusic/Anon/MilitisDumpAlt,guitarloot,Anon: CUL MS Dd.9.33,Militis Dump,7,delcamp:guitarloot,6,dummy-v0,0.085,0.259,0.337,0.231,0.087,0.002
+guitarloot:Scores/EnglishMusic/Anon/Pastyme,guitarloot,Anon,Pastyme,5,delcamp:guitarloot,5,dummy-v0,0.092,0.417,0.272,0.098,0.121,0.000
+guitarloot:Scores/EnglishMusic/Anon/PastymeAlt,guitarloot,Anon (Combined sources,Pastyme,5,delcamp:guitarloot,3,dummy-v0,0.430,0.161,0.232,0.058,0.120,0.000
+guitarloot:Scores/EnglishMusic/Anon/SickSVS,guitarloot,Anon,"Sick, Sick and Very Sick",6,delcamp:guitarloot,3,dummy-v0,0.563,0.105,0.162,0.039,0.125,0.005
+guitarloot:Scores/EnglishMusic/Anon/SouthwellGallAS,guitarloot,Anon. CUL Dd.2.11f.68r,Southwell's Galliard,6,delcamp:guitarloot,6,dummy-v0,0.057,0.102,0.347,0.185,0.309,0.000
+guitarloot:Scores/EnglishMusic/Anon/somersettgtr,guitarloot,"Anon, 16th Century",The Duke of Somerset's Reverie (A Dompe),5,delcamp:guitarloot,7,dummy-v0,0.131,0.165,0.244,0.383,0.077,0.001
+guitarloot:Scores/EnglishMusic/Anon/somersettgtrE,guitarloot,"Anon, 16th Century",The Duke of Somerset's Reverie (A dompe),5,delcamp:guitarloot,7,dummy-v0,0.079,0.184,0.225,0.391,0.113,0.010
+guitarloot:Scores/EnglishMusic/Bacheler/Cour(Volt)E,guitarloot,Daniel Bacheler,Courante (or Volt),7,delcamp:guitarloot,6,dummy-v0,0.040,0.204,0.392,0.242,0.121,0.002
+guitarloot:Scores/EnglishMusic/Bacheler/Cour(Volt)G,guitarloot,Daniel Bacheler,Courante (or Volt),7,delcamp:guitarloot,7,dummy-v0,0.015,0.290,0.288,0.294,0.111,0.003
+guitarloot:Scores/EnglishMusic/Bacheler/EnMeRevenant.iPad,guitarloot,Daniel Bacheler,En Me Revenant (When I Return),7,delcamp:guitarloot,7,dummy-v0,0.085,0.137,0.210,0.498,0.071,0.000
+guitarloot:Scores/EnglishMusic/Bacheler/FantasyBacheler06Gtr,guitarloot,Daniel Bacheler,Fantasy,7,delcamp:guitarloot,9,dummy-v0,0.001,0.102,0.044,0.176,0.281,0.397
+guitarloot:Scores/EnglishMusic/Bacheler/FantasyBacheler10Gtr,guitarloot,Daniel Bacheler,Fantasy,7,delcamp:guitarloot,7,dummy-v0,0.000,0.113,0.045,0.394,0.314,0.134
+guitarloot:Scores/EnglishMusic/Bacheler/Galliard.Gtr.2A,guitarloot,Daniel Bacheler,Galliard 2,7,delcamp:guitarloot,6,dummy-v0,0.018,0.234,0.350,0.171,0.216,0.010
+guitarloot:Scores/EnglishMusic/Bacheler/Galliard.Gtr.3A,guitarloot,Daniel Bacheler,Galliard 3,7,delcamp:guitarloot,8,dummy-v0,0.003,0.052,0.115,0.240,0.556,0.034
+guitarloot:Scores/EnglishMusic/Bacheler/Galliard1gtr,guitarloot,Daniel Bacheler,Galliard 1,7,delcamp:guitarloot,7,dummy-v0,0.015,0.168,0.159,0.509,0.148,0.000
+guitarloot:Scores/EnglishMusic/Bacheler/MPavGtrArrA,guitarloot,Daniel Bacheler,Pavan,7,delcamp:guitarloot,9,dummy-v0,0.000,0.021,0.004,0.030,0.107,0.837
+guitarloot:Scores/EnglishMusic/Bacheler/Prelude10str,guitarloot,Daniel Bacheler,Unmeasured Prelude,7,delcamp:guitarloot,6,dummy-v0,0.320,0.029,0.517,0.086,0.048,0.000
+guitarloot:Scores/EnglishMusic/Bacheler/PreludegtrEArr,guitarloot,Daniel Bacheler,Lute Prelude,7,delcamp:guitarloot,7,dummy-v0,0.022,0.013,0.393,0.530,0.041,0.000
+guitarloot:Scores/EnglishMusic/Bacheler/jeunefillettegtrEf,guitarloot,Daniel Bacheler,La Jeune Fillette,7,delcamp:guitarloot,7,dummy-v0,0.104,0.004,0.169,0.464,0.128,0.131
+guitarloot:Scores/EnglishMusic/Cutting/01AnneMarkhamPavan.GtrA,guitarloot,Francis Cutting Cozens Lute Book,Mrs. Ann Markham's Pavan B01,7,delcamp:guitarloot,7,dummy-v0,0.085,0.095,0.103,0.470,0.230,0.017
+guitarloot:Scores/EnglishMusic/Cutting/02GalliardGtr,guitarloot,Francis Cutting,Galliard B02,7,delcamp:guitarloot,7,dummy-v0,0.057,0.132,0.233,0.479,0.099,0.000
+guitarloot:Scores/EnglishMusic/Cutting/03PavanGtrA,guitarloot,Francis Cutting,Pavan B03,7,delcamp:guitarloot,8,dummy-v0,0.139,0.035,0.177,0.262,0.367,0.021
+guitarloot:Scores/EnglishMusic/Cutting/08GalliardGtr,guitarloot,Francis Cutting,Galliard B08,7,delcamp:guitarloot,6,dummy-v0,0.023,0.279,0.339,0.152,0.186,0.021
+guitarloot:Scores/EnglishMusic/Cutting/09PavanGtr,guitarloot,Francis Cutting,Pavan B09,7,delcamp:guitarloot,8,dummy-v0,0.149,0.020,0.195,0.279,0.354,0.002
+guitarloot:Scores/EnglishMusic/Cutting/13SansPerGtrArriPad,guitarloot,Francis Cutting,Pavan Sans Per B13,7,delcamp:guitarloot,7,dummy-v0,0.012,0.037,0.143,0.527,0.276,0.004
+guitarloot:Scores/EnglishMusic/Cutting/18GroningeGtr.iPad,guitarloot,Francis Cutting,Groninge Pavan B18,7,delcamp:guitarloot,3,dummy-v0,0.800,0.012,0.052,0.071,0.065,0.000
+guitarloot:Scores/EnglishMusic/Cutting/22Galliard.Gtr,guitarloot,Francis Cutting,Galliard B22,7,delcamp:guitarloot,6,dummy-v0,0.002,0.165,0.388,0.256,0.188,0.000
+guitarloot:Scores/EnglishMusic/Cutting/23GalliardGtr.iPad,guitarloot,Francis Cutting,Galliard B23,7,delcamp:guitarloot,7,dummy-v0,0.073,0.149,0.277,0.403,0.098,0.000
+guitarloot:Scores/EnglishMusic/Cutting/27GalliardGtr.iPad,guitarloot,Francis Cutting,Galliard B27,7,delcamp:guitarloot,8,dummy-v0,0.016,0.205,0.198,0.286,0.295,0.000
+guitarloot:Scores/EnglishMusic/Cutting/32GalliardGtrA,guitarloot,Francis Cutting,Galliard 32,7,delcamp:guitarloot,8,dummy-v0,0.014,0.206,0.142,0.240,0.394,0.004
+guitarloot:Scores/EnglishMusic/Cutting/33GallGtrAS,guitarloot,Francis Cutting,Galliard B33,7,delcamp:guitarloot,8,dummy-v0,0.003,0.129,0.210,0.302,0.352,0.003
+guitarloot:Scores/EnglishMusic/Cutting/34GallGtrA,guitarloot,Francis Cutting,Galliard B34,7,delcamp:guitarloot,6,dummy-v0,0.101,0.110,0.402,0.208,0.179,0.001
+guitarloot:Scores/EnglishMusic/Cutting/35GallGtr,guitarloot,Francis Cutting or Richard Allison,Sir Walter Raleigh's Galliard B35,7,delcamp:guitarloot,6,dummy-v0,0.035,0.106,0.478,0.166,0.214,0.000
+guitarloot:Scores/EnglishMusic/Cutting/36GallGtrA,guitarloot,Francis Cutting or John Dowland,Galliard B36,7,delcamp:guitarloot,6,dummy-v0,0.013,0.077,0.364,0.262,0.276,0.008
+guitarloot:Scores/EnglishMusic/Cutting/39AlmaineGtrA,guitarloot,Francis Cutting,Almaine B39,7,delcamp:guitarloot,3,dummy-v0,0.703,0.026,0.143,0.050,0.078,0.000
+guitarloot:Scores/EnglishMusic/Cutting/46WilloughbyGtr.iPad,guitarloot,Francis Cutting,My Lord Willoughby's Welcome Home B46,7,delcamp:guitarloot,6,dummy-v0,0.025,0.181,0.340,0.203,0.246,0.005
+guitarloot:Scores/EnglishMusic/Cutting/51LachrimaeGtr.iPad,guitarloot,Francis Cutting,Lachrimae Pavan B51,7,delcamp:guitarloot,6,dummy-v0,0.001,0.132,0.462,0.250,0.155,0.001
+guitarloot:Scores/EnglishMusic/Cutting/52Quadro.GtrA,guitarloot,? Francis Cutting,Quadro Pavan B52,7,delcamp:guitarloot,6,dummy-v0,0.088,0.073,0.363,0.306,0.165,0.004
+guitarloot:Scores/EnglishMusic/Cutting/55WoodsSoWildGtrArr,guitarloot,Francis Cutting/William Byrd,The Woods so Wild B55,7,delcamp:guitarloot,3,dummy-v0,0.556,0.025,0.285,0.085,0.049,0.001
+guitarloot:Scores/EnglishMusic/Cutting/56GalliardGtrA,guitarloot,Francis Cutting,Galliard 56,7,delcamp:guitarloot,6,dummy-v0,0.006,0.240,0.437,0.174,0.142,0.000
+guitarloot:Scores/EnglishMusic/Danyel/AnnGreneGtr,guitarloot,John Danyel,Mistress Ann Grene - Her Leaves be Green,9,delcamp:guitarloot,9,dummy-v0,0.000,0.004,0.001,0.009,0.040,0.946
+guitarloot:Scores/EnglishMusic/Danyel/AnnGrenefGtr,guitarloot,John Danyel,Mistress Ann Grene - Her Leaves be Green,9,delcamp:guitarloot,9,dummy-v0,0.000,0.004,0.001,0.009,0.040,0.947
+guitarloot:Scores/EnglishMusic/Danyel/MonsieurDanGtr.iPad,guitarloot,John Danyel,Mounsier's Almaine,9,delcamp:guitarloot,9,dummy-v0,0.000,0.001,0.000,0.001,0.001,0.997
+guitarloot:Scores/EnglishMusic/Danyel/PavanDanGtr.iPad,guitarloot,John Danyel 1564 –,Pavan,9,delcamp:guitarloot,9,dummy-v0,0.051,0.070,0.078,0.124,0.172,0.505
+guitarloot:Scores/EnglishMusic/Danyel/RosaMix,guitarloot,John Danyel,Rosa(mund),9,delcamp:guitarloot,9,dummy-v0,0.001,0.006,0.014,0.014,0.029,0.935
+guitarloot:Scores/EnglishMusic/Danyel/Rosagtr,guitarloot,John Danyel,Rosa,9,delcamp:guitarloot,9,dummy-v0,0.001,0.007,0.016,0.017,0.033,0.927
+guitarloot:Scores/EnglishMusic/Danyel/RosamundGtr,guitarloot,John Danyel,Rosamund,9,delcamp:guitarloot,9,dummy-v0,0.001,0.004,0.004,0.009,0.018,0.965
+guitarloot:Scores/EnglishMusic/Danyel/fRosagtr,guitarloot,John Danyel,Rosa,9,delcamp:guitarloot,9,dummy-v0,0.001,0.007,0.016,0.017,0.033,0.927
+guitarloot:Scores/EnglishMusic/Dowland/32VauxGalliardGtr,guitarloot,John Dowland,Mrs. Vaux Galliard,8,delcamp:guitarloot,5,dummy-v0,0.013,0.490,0.148,0.217,0.132,0.000
+guitarloot:Scores/EnglishMusic/Dowland/57VauxGigue,guitarloot,John Dowland,Mrs. Vaux Gigue,8,delcamp:guitarloot,5,dummy-v0,0.095,0.361,0.239,0.196,0.109,0.000
+guitarloot:Scores/EnglishMusic/Dowland/Almain49Gtr,guitarloot,John Dowland,An Almain,8,delcamp:guitarloot,8,dummy-v0,0.020,0.271,0.262,0.153,0.293,0.001
+guitarloot:Scores/EnglishMusic/Dowland/AlmandGtrA,guitarloot,John Dowland,Almand,8,delcamp:guitarloot,8,dummy-v0,0.006,0.058,0.114,0.182,0.603,0.037
+guitarloot:Scores/EnglishMusic/Dowland/AloeGtr.iPad,guitarloot,John Dowland,Aloe,8,delcamp:guitarloot,6,dummy-v0,0.026,0.118,0.395,0.260,0.172,0.029
+guitarloot:Scores/EnglishMusic/Dowland/BarbaraDowlandGtr,guitarloot,John Dowland,La Mia Barbara,8,delcamp:guitarloot,7,dummy-v0,0.001,0.021,0.038,0.388,0.336,0.216
+guitarloot:Scores/EnglishMusic/Dowland/CanSheExcuseGtriPad,guitarloot,John Dowland,"Can She Excuse My Wrongs (P42)
+(Poulton 42)",8,delcamp:guitarloot,7,dummy-v0,0.007,0.095,0.282,0.353,0.264,0.000
+guitarloot:Scores/EnglishMusic/Dowland/CaseP.iPad,guitarloot,John Dowland,Dr Case's Pavane,8,delcamp:guitarloot,8,dummy-v0,0.030,0.128,0.139,0.288,0.409,0.006
+guitarloot:Scores/EnglishMusic/Dowland/ChamberlainGalliardGtrSoloAS,guitarloot,John Dowland,My Lord Chamberlain's Galliard,8,delcamp:guitarloot,6,dummy-v0,0.173,0.146,0.280,0.164,0.237,0.000
+guitarloot:Scores/EnglishMusic/Dowland/CliftonGtr,guitarloot,John Dowland,"The Right Honourable, the Lady Clifton's Spirit",8,delcamp:guitarloot,6,dummy-v0,0.001,0.082,0.322,0.282,0.313,0.001
+guitarloot:Scores/EnglishMusic/Dowland/ComeAwayGtr,guitarloot,John Dowland,Come Away,8,delcamp:guitarloot,8,dummy-v0,0.015,0.228,0.132,0.206,0.417,0.001
+guitarloot:Scores/EnglishMusic/Dowland/DMidnightGtr.iPad,guitarloot,John Dowland,Mr. Dowlands Midnight,8,delcamp:guitarloot,8,dummy-v0,0.044,0.242,0.196,0.082,0.435,0.001
+guitarloot:Scores/EnglishMusic/Dowland/DarbyGallEGtr.iPad,guitarloot,John Dowland,"The Right Honourable Ferdinando Earle of Darby 
+his Galliard (Poulton 44a)",8,delcamp:guitarloot,8,dummy-v0,0.000,0.076,0.096,0.380,0.444,0.003
+guitarloot:Scores/EnglishMusic/Dowland/DigoryGallGtrAS,guitarloot,John Dowland,Captain Digorie Piper's Galliard,8,delcamp:guitarloot,8,dummy-v0,0.006,0.235,0.136,0.246,0.365,0.012
+guitarloot:Scores/EnglishMusic/Dowland/Dowlands1stGallP22AS,guitarloot,John Dowland,Dowland's First Galliard,8,delcamp:guitarloot,6,dummy-v0,0.028,0.225,0.443,0.139,0.156,0.009
+guitarloot:Scores/EnglishMusic/Dowland/DowlandsBellsECA,guitarloot,John Dowland,Dowland's Bells (Lady Rich's Galliard),8,delcamp:guitarloot,8,dummy-v0,0.053,0.140,0.212,0.166,0.424,0.006
+guitarloot:Scores/EnglishMusic/Dowland/DreamGtrA,guitarloot,John Dowland,A Dream,8,delcamp:guitarloot,6,dummy-v0,0.026,0.081,0.312,0.287,0.294,0.000
+guitarloot:Scores/EnglishMusic/Dowland/FancyP6Gtr,guitarloot,John Dowland,A Fancy (Poulton No. 6),8,delcamp:guitarloot,8,dummy-v0,0.126,0.112,0.238,0.235,0.284,0.005
+guitarloot:Scores/EnglishMusic/Dowland/Fantasia73.Gtr.iPad,guitarloot,John Dowland,Fancy,8,delcamp:guitarloot,8,dummy-v0,0.041,0.057,0.031,0.134,0.619,0.119
+guitarloot:Scores/EnglishMusic/Dowland/Fantasia73.Srev.Gtr.iPad,guitarloot,John Dowland,Fancy; Revised version,8,delcamp:guitarloot,7,dummy-v0,0.001,0.054,0.051,0.531,0.364,0.000
+guitarloot:Scores/EnglishMusic/Dowland/Fantasia74.Gtr.iPad,guitarloot,John Dowland,Fancy,8,delcamp:guitarloot,8,dummy-v0,0.005,0.251,0.289,0.113,0.326,0.016
+guitarloot:Scores/EnglishMusic/Dowland/FantasyP5GtrAS,guitarloot,John Dowland,Fantasy,8,delcamp:guitarloot,8,dummy-v0,0.004,0.119,0.200,0.249,0.428,0.000
+guitarloot:Scores/EnglishMusic/Dowland/FortuneGtrA,guitarloot,John Dowland,Fortune,8,delcamp:guitarloot,8,dummy-v0,0.018,0.091,0.170,0.217,0.492,0.011
+guitarloot:Scores/EnglishMusic/Dowland/FrogTGtrA,guitarloot,after John Dowland,The Frog Galliard,8,delcamp:guitarloot,8,dummy-v0,0.001,0.097,0.143,0.274,0.443,0.043
+guitarloot:Scores/EnglishMusic/Dowland/GagliardaGtr,guitarloot,Attr. John Dowland,Gagliarda,8,delcamp:guitarloot,6,dummy-v0,0.003,0.277,0.291,0.202,0.220,0.008
+guitarloot:Scores/EnglishMusic/Dowland/Gall30GtrA,guitarloot,John Dowland,Galliard,8,delcamp:guitarloot,6,dummy-v0,0.015,0.077,0.326,0.269,0.313,0.000
+guitarloot:Scores/EnglishMusic/Dowland/Gall35GtrRev,guitarloot,John Dowland,Galliard,8,delcamp:guitarloot,6,dummy-v0,0.008,0.134,0.309,0.261,0.287,0.001
+guitarloot:Scores/EnglishMusic/Dowland/Galliard24GtrAS,guitarloot,John Dowland,Galliard (Poulton 24),8,delcamp:guitarloot,6,dummy-v0,0.002,0.208,0.339,0.221,0.228,0.002
+guitarloot:Scores/EnglishMusic/Dowland/GalliardP27Gtr.iPad,guitarloot,John Dowland,Galliard,8,delcamp:guitarloot,6,dummy-v0,0.001,0.221,0.318,0.218,0.242,0.001
+guitarloot:Scores/EnglishMusic/Dowland/GalliardP28Gtr,guitarloot,John Dowland,Galliard (Poulton 28),8,delcamp:guitarloot,8,dummy-v0,0.002,0.097,0.105,0.312,0.483,0.001
+guitarloot:Scores/EnglishMusic/Dowland/GalliardP82Gtr,guitarloot,John Dowland/Francis Cutting,Galliard,8,delcamp:guitarloot,8,dummy-v0,0.049,0.102,0.267,0.214,0.368,0.001
+guitarloot:Scores/EnglishMusic/Dowland/GoWindowGtr.iPad,guitarloot,John Dowland,Go From My Window,8,delcamp:guitarloot,7,dummy-v0,0.006,0.147,0.160,0.495,0.191,0.000
+guitarloot:Scores/EnglishMusic/Dowland/HobieGallGtrAS,guitarloot,John Dowland,Giles Hobie's Galliard,8,delcamp:guitarloot,8,dummy-v0,0.002,0.099,0.120,0.276,0.486,0.016
+guitarloot:Scores/EnglishMusic/Dowland/JSmithAlmaineGtrAS,guitarloot,John Dowland,Sir John Smith his Almaine (Poulton 47),8,delcamp:guitarloot,7,dummy-v0,0.000,0.115,0.194,0.354,0.337,0.001
+guitarloot:Scores/EnglishMusic/Dowland/LachrimaeGalliardGtrf.iPad,guitarloot,John Dowland,Galliard to Lachrimae,8,delcamp:guitarloot,8,dummy-v0,0.000,0.034,0.078,0.191,0.697,0.000
+guitarloot:Scores/EnglishMusic/Dowland/LangtonGallGtrA,guitarloot,John Dowland,Mr Langton's Galliard,8,delcamp:guitarloot,7,dummy-v0,0.001,0.082,0.167,0.356,0.316,0.077
+guitarloot:Scores/EnglishMusic/Dowland/LisleGtr,guitarloot,John Dowland,"The Lord Viscount Lisle, His Galliard",8,delcamp:guitarloot,8,dummy-v0,0.033,0.128,0.230,0.208,0.397,0.005
+guitarloot:Scores/EnglishMusic/Dowland/LothDepartGtr,guitarloot,John Dowland,Loth to Depart (Poulton 69),8,delcamp:guitarloot,7,dummy-v0,0.009,0.102,0.174,0.512,0.176,0.027
+guitarloot:Scores/EnglishMusic/Dowland/MelancholyGalliardGtrDiPad,guitarloot,John Dowland,Melancholy Galliard (Poulton 25),8,delcamp:guitarloot,8,dummy-v0,0.004,0.085,0.188,0.316,0.407,0.000
+guitarloot:Scores/EnglishMusic/Dowland/MignardaEGtr,guitarloot,John Dowland,Mignarda (M. Henry Noel's Galliard),8,delcamp:guitarloot,8,dummy-v0,0.004,0.085,0.130,0.281,0.480,0.020
+guitarloot:Scores/EnglishMusic/Dowland/NoTitleP51.iPad,guitarloot,John Dowland,A Piece Without Title (Poulton 51),8,delcamp:guitarloot,7,dummy-v0,0.021,0.119,0.248,0.313,0.292,0.006
+guitarloot:Scores/EnglishMusic/Dowland/P58ShoemakersWife,guitarloot,John Dowland,The Shoemaker's Wife,8,delcamp:guitarloot,8,dummy-v0,0.059,0.146,0.210,0.185,0.399,0.002
+guitarloot:Scores/EnglishMusic/Dowland/PavanP94Gtr,guitarloot,Attr. John Dowland,Pavan,8,delcamp:guitarloot,9,dummy-v0,0.001,0.019,0.015,0.158,0.375,0.433
+guitarloot:Scores/EnglishMusic/Dowland/PraeGtr,guitarloot,Attr. John Dowland,Praeambulum,8,delcamp:guitarloot,7,dummy-v0,0.004,0.246,0.252,0.346,0.152,0.000
+guitarloot:Scores/EnglishMusic/Dowland/Preludium98EGtr,guitarloot,John Dowland,Preludium,8,delcamp:guitarloot,8,dummy-v0,0.056,0.189,0.238,0.188,0.327,0.001
+guitarloot:Scores/EnglishMusic/Dowland/RobinGtr,guitarloot,John Dowland,Robin,8,delcamp:guitarloot,6,dummy-v0,0.015,0.196,0.291,0.240,0.253,0.006
+guitarloot:Scores/EnglishMusic/Dowland/SolusCumSolaGtriPad,guitarloot,John Dowland,Solus cum Sola,8,delcamp:guitarloot,7,dummy-v0,0.075,0.028,0.072,0.354,0.269,0.201
+guitarloot:Scores/EnglishMusic/Dowland/SolusSineSolaGtrA,guitarloot,John Dowland,Brigide Fleetwood's Pavan (Solus Sine Sola),8,delcamp:guitarloot,8,dummy-v0,0.022,0.031,0.027,0.347,0.464,0.108
+guitarloot:Scores/EnglishMusic/Dowland/TarletonJigGtr,guitarloot,John Dowland,Tarleton's Jig,8,delcamp:guitarloot,6,dummy-v0,0.017,0.321,0.358,0.135,0.168,0.001
+guitarloot:Scores/EnglishMusic/Dowland/WhatDay79.Gtr.iPad,guitarloot,John Dowland,What If A Day,8,delcamp:guitarloot,6,dummy-v0,0.054,0.143,0.341,0.181,0.263,0.018
+guitarloot:Scores/EnglishMusic/ELB//Sellinger,guitarloot,Anon,Sellinger's Round,5,delcamp:guitarloot,6,dummy-v0,0.002,0.175,0.545,0.134,0.133,0.011
+guitarloot:Scores/EnglishMusic/ELB/06v.BlundevillesPavane.GtrV5,guitarloot,William Hollis,John Blundevilles Last Farewell (Pavan),8,delcamp:guitarloot,8,dummy-v0,0.008,0.047,0.039,0.115,0.667,0.124
+guitarloot:Scores/EnglishMusic/ELB/07.GalliardAnonHirschGtr,guitarloot,Anon. Hisch Lute book f.4,Galliard 7,4,delcamp:guitarloot,6,dummy-v0,0.014,0.190,0.392,0.383,0.021,0.000
+guitarloot:Scores/EnglishMusic/ELB/10v.Prelude.GtrD,guitarloot,Anon (Cosens Lute Book,Prelude,5,delcamp:guitarloot,5,dummy-v0,0.004,0.386,0.239,0.197,0.173,0.000
+guitarloot:Scores/EnglishMusic/ELB/11.Galliard.HirschAnon.Gtr,guitarloot,Anon,Galliard 11,4,delcamp:guitarloot,6,dummy-v0,0.049,0.231,0.288,0.181,0.247,0.005
+guitarloot:Scores/EnglishMusic/ELB/133Grimstock.Gtr,guitarloot,Anon,Grimstock,6,delcamp:guitarloot,6,dummy-v0,0.056,0.319,0.401,0.113,0.112,0.000
+guitarloot:Scores/EnglishMusic/ELB/26vMallSimsPickeringGtr,guitarloot,Anon. ? Hans Leo Hassler,Mall Sims,7,delcamp:guitarloot,7,dummy-v0,0.001,0.010,0.070,0.400,0.220,0.300
+guitarloot:Scores/EnglishMusic/ELB/29bAllemandeEGtr,guitarloot,"Anon, Pickering Lute Book",Allemande,7,delcamp:guitarloot,8,dummy-v0,0.004,0.207,0.185,0.166,0.424,0.014
+guitarloot:Scores/EnglishMusic/ELB/33.GalliardGtrRev,guitarloot,Anon. (Cosens Lute Book,Galliard,5,delcamp:guitarloot,8,dummy-v0,0.001,0.195,0.148,0.279,0.372,0.005
+guitarloot:Scores/EnglishMusic/ELB/34v.SmythPavaneGtr,guitarloot,Thomas Smyth,Pavane,8,delcamp:guitarloot,5,dummy-v0,0.004,0.329,0.203,0.171,0.273,0.020
+guitarloot:Scores/EnglishMusic/ELB/35b.SmythGalliard.Gtr,guitarloot,Thomas Smyth,Galliard,8,delcamp:guitarloot,8,dummy-v0,0.001,0.160,0.161,0.267,0.406,0.006
+guitarloot:Scores/EnglishMusic/ELB/36v.LachrimaeGtrCK,guitarloot,"Anon ""CK"" (Cosens Lute Book",Lachrimae Pavan CK,5,delcamp:guitarloot,7,dummy-v0,0.010,0.047,0.281,0.400,0.222,0.039
+guitarloot:Scores/EnglishMusic/ELB/39.CKFantasy.Gtr,guitarloot,"Anon ""CK"" (Cosens Lute Book",Fantasy,5,delcamp:guitarloot,7,dummy-v0,0.003,0.139,0.118,0.461,0.237,0.042
+guitarloot:Scores/EnglishMusic/ELB/39AnonCourante,guitarloot,"Anon, Pickering Lute Book",Courante (39),7,delcamp:guitarloot,5,dummy-v0,0.001,0.418,0.099,0.156,0.310,0.016
+guitarloot:Scores/EnglishMusic/ELB/40AnonAllemandeGtrV2,guitarloot,"Anon, Pickering Lute Book",Allemande (40r),7,delcamp:guitarloot,8,dummy-v0,0.000,0.147,0.027,0.114,0.441,0.270
+guitarloot:Scores/EnglishMusic/ELB/42.CavendishGalliard.Gtr,guitarloot,Michael Cavendish,Cavendish Galliard,8,delcamp:guitarloot,5,dummy-v0,0.002,0.431,0.169,0.164,0.231,0.002
+guitarloot:Scores/EnglishMusic/ELB/44CouranteGaultier,guitarloot,?Gaultier,Courante,7,delcamp:guitarloot,5,dummy-v0,0.017,0.411,0.119,0.084,0.369,0.000
+guitarloot:Scores/EnglishMusic/ELB/45vAnonAllemandeGtr,guitarloot,"Anon, Pickering Lute Book",Allemande (45v),7,delcamp:guitarloot,8,dummy-v0,0.002,0.191,0.191,0.186,0.427,0.004
+guitarloot:Scores/EnglishMusic/ELB/46AnonAllemandeGtr,guitarloot,"Anon, Pickering Lute Book",Allemande (46),7,delcamp:guitarloot,8,dummy-v0,0.021,0.118,0.169,0.209,0.482,0.000
+guitarloot:Scores/EnglishMusic/ELB/46bAnonSarabande,guitarloot,"Anon, Pickering Lute Book",Sarabande,7,delcamp:guitarloot,8,dummy-v0,0.003,0.307,0.190,0.152,0.346,0.002
+guitarloot:Scores/EnglishMusic/ELB/46v.LadyNorthsGalliardE.Gtr,guitarloot,Anon,Lady North's Galliard,5,delcamp:guitarloot,8,dummy-v0,0.023,0.235,0.154,0.235,0.344,0.009
+guitarloot:Scores/EnglishMusic/ELB/46vSarabande,guitarloot,"Germain Pinel, Pickering Lute Book",Le Sarabande,7,delcamp:guitarloot,5,dummy-v0,0.009,0.339,0.248,0.202,0.202,0.000
+guitarloot:Scores/EnglishMusic/ELB/47SmythGalliard.Gtr,guitarloot,Thomas Smyth,Galliard,8,delcamp:guitarloot,8,dummy-v0,0.002,0.160,0.247,0.274,0.311,0.007
+guitarloot:Scores/EnglishMusic/ELB/47v.VautorAllemandeGtr,guitarloot,Thomas Vautor (Cosens Lute Book,Allemande,8,delcamp:guitarloot,8,dummy-v0,0.005,0.219,0.271,0.152,0.353,0.000
+guitarloot:Scores/EnglishMusic/ELB/48GaultierNightingaleGtr,guitarloot,Gaultier,Nightingale,7,delcamp:guitarloot,7,dummy-v0,0.000,0.106,0.089,0.575,0.229,0.000
+guitarloot:Scores/EnglishMusic/ELB/50.gtGalliard.Gtr,guitarloot,Anon. ?Thomas Smyth,Galliard,8,delcamp:guitarloot,8,dummy-v0,0.002,0.196,0.192,0.139,0.449,0.022
+guitarloot:Scores/EnglishMusic/ELB/50vJigGtr,guitarloot,"Anon, Pickering Lute Book",Jig,7,delcamp:guitarloot,5,dummy-v0,0.008,0.404,0.147,0.078,0.350,0.012
+guitarloot:Scores/EnglishMusic/ELB/51HornpipeGtr,guitarloot,"Anon, Pickering Lute Book",Hornpipe,7,delcamp:guitarloot,5,dummy-v0,0.018,0.293,0.248,0.171,0.269,0.000
+guitarloot:Scores/EnglishMusic/ELB/Alman13Gtr,guitarloot,Anon; Willoughby Lute Book ff.17v-18r,13. Alman,7,delcamp:guitarloot,6,dummy-v0,0.071,0.157,0.315,0.233,0.224,0.001
+guitarloot:Scores/EnglishMusic/ELB/Anthony3v2,guitarloot,?Anthony de Countie,Anthony Pavan,7,delcamp:guitarloot,7,dummy-v0,0.007,0.191,0.160,0.549,0.093,0.000
+guitarloot:Scores/EnglishMusic/ELB/Anthony4v2,guitarloot,?Anthony de Countie,Anthony Pavan,7,delcamp:guitarloot,7,dummy-v0,0.001,0.091,0.263,0.539,0.106,0.000
+guitarloot:Scores/EnglishMusic/ELB/BellAlmayneEGtr,guitarloot,Margaret Board Lute Book f.31,Bell Almayne,5,delcamp:guitarloot,5,dummy-v0,0.001,0.346,0.086,0.194,0.328,0.046
+guitarloot:Scores/EnglishMusic/ELB/BrewsterPavan.iPad,guitarloot,Anon,Brewster's Pavan,7,delcamp:guitarloot,3,dummy-v0,0.519,0.058,0.186,0.094,0.142,0.001
+guitarloot:Scores/EnglishMusic/ELB/ChacogneGtrRev,guitarloot,Anon,Chacogne,5,delcamp:guitarloot,5,dummy-v0,0.000,0.538,0.070,0.284,0.107,0.000
+guitarloot:Scores/EnglishMusic/ELB/ChaconeRobartsGtrWeb,guitarloot,Anon,Chacone,4,delcamp:guitarloot,5,dummy-v0,0.000,0.475,0.005,0.452,0.064,0.004
+guitarloot:Scores/EnglishMusic/ELB/CorantoBGtr,guitarloot,Anon,Coranto,5,delcamp:guitarloot,5,dummy-v0,0.003,0.403,0.225,0.230,0.139,0.001
+guitarloot:Scores/EnglishMusic/ELB/DelacourtGtrAS,guitarloot,Anon,The Delacourt Pavan,5,delcamp:guitarloot,6,dummy-v0,0.009,0.266,0.422,0.143,0.154,0.006
+guitarloot:Scores/EnglishMusic/ELB/Doompe,guitarloot,Anon,A Doomp,6,delcamp:guitarloot,6,dummy-v0,0.026,0.282,0.404,0.121,0.166,0.000
+guitarloot:Scores/EnglishMusic/ELB/Eglantine,guitarloot,Anon,The Eglantine Branche,5,delcamp:guitarloot,6,dummy-v0,0.010,0.186,0.336,0.229,0.239,0.000
+guitarloot:Scores/EnglishMusic/ELB/Fantasia29Gtr,guitarloot,Anon: Hirsch Lute Book,Fantasy 29,4,delcamp:guitarloot,6,dummy-v0,0.044,0.262,0.430,0.154,0.109,0.001
+guitarloot:Scores/EnglishMusic/ELB/FantasieGtrRev.iPad,guitarloot,Anon,Fansie (Fantasia),7,delcamp:guitarloot,7,dummy-v0,0.003,0.189,0.356,0.381,0.063,0.009
+guitarloot:Scores/EnglishMusic/ELB/Fantasy51AnonGtrA,guitarloot,Anon: Hirsch Lute Book,51. Fantasy,4,delcamp:guitarloot,7,dummy-v0,0.034,0.184,0.181,0.269,0.232,0.100
+guitarloot:Scores/EnglishMusic/ELB/FlatPavan.Gtr,guitarloot,Anon,The Flat Pavan,6,delcamp:guitarloot,3,dummy-v0,0.752,0.017,0.116,0.035,0.081,0.000
+guitarloot:Scores/EnglishMusic/ELB/FrenchTuneEGtr,guitarloot,? P Guedron,The French Tune,6,delcamp:guitarloot,5,dummy-v0,0.020,0.342,0.319,0.122,0.197,0.000
+guitarloot:Scores/EnglishMusic/ELB/GallFlat.Gtr,guitarloot,Anon,Galliard to the Flat Pavan,6,delcamp:guitarloot,6,dummy-v0,0.091,0.094,0.386,0.228,0.201,0.000
+guitarloot:Scores/EnglishMusic/ELB/Galliard15Gtr,guitarloot,Anon,Galliard,7,delcamp:guitarloot,6,dummy-v0,0.081,0.198,0.390,0.169,0.162,0.001
+guitarloot:Scores/EnglishMusic/ELB/Gillyflower,guitarloot,Anon,Gillyflower,5,delcamp:guitarloot,5,dummy-v0,0.092,0.462,0.210,0.065,0.169,0.002
+guitarloot:Scores/EnglishMusic/ELB/Ground19Gtr,guitarloot,Anon: Hirsch Lute Book,19.Ground,4,delcamp:guitarloot,8,dummy-v0,0.003,0.234,0.200,0.172,0.390,0.000
+guitarloot:Scores/EnglishMusic/ELB/Halls%20Galliard,guitarloot,?Richard Green,Hall's Galliard,7,delcamp:guitarloot,5,dummy-v0,0.017,0.315,0.306,0.162,0.199,0.001
+guitarloot:Scores/EnglishMusic/ELB/JoaneMaypole,guitarloot,Anon,Joane to the Maypole,5,delcamp:guitarloot,5,dummy-v0,0.005,0.365,0.299,0.176,0.154,0.000
+guitarloot:Scores/EnglishMusic/ELB/JohnKissNowGtr,guitarloot,Anon,John Come Kiss Me Now,6,delcamp:guitarloot,9,dummy-v0,0.053,0.161,0.177,0.240,0.091,0.278
+guitarloot:Scores/EnglishMusic/ELB/MadTom,guitarloot,Anon,Mad Tom of Bedlam,6,delcamp:guitarloot,7,dummy-v0,0.000,0.115,0.354,0.385,0.146,0.000
+guitarloot:Scores/EnglishMusic/ELB/MarshSellGtr,guitarloot,Anon,Sellenger's Round,6,delcamp:guitarloot,8,dummy-v0,0.149,0.128,0.260,0.132,0.331,0.001
+guitarloot:Scores/EnglishMusic/ELB/New%20Almaine,guitarloot,Anon,A New Almaine,7,delcamp:guitarloot,3,dummy-v0,0.392,0.049,0.223,0.189,0.133,0.014
+guitarloot:Scores/EnglishMusic/ELB/Pavan.Dd.5.78.Gtr,guitarloot,Anon 16th Century,Pavan (Dd.5.78.3;1v-2r),6,delcamp:guitarloot,3,dummy-v0,0.679,0.052,0.106,0.063,0.082,0.019
+guitarloot:Scores/EnglishMusic/ELB/QuandoClaroGtr.iPad,guitarloot,Anon,"Quando Claro, Quando Claro?",7,delcamp:guitarloot,7,dummy-v0,0.002,0.166,0.169,0.406,0.235,0.021
+guitarloot:Scores/EnglishMusic/ELB/SoucheGtr,guitarloot,Anon,Lord Souches Maske,6,delcamp:guitarloot,6,dummy-v0,0.144,0.302,0.303,0.106,0.131,0.013
+guitarloot:Scores/EnglishMusic/ELB/StrangeGallGtr,guitarloot,Anon,Lord Strang's Galliard,6,delcamp:guitarloot,8,dummy-v0,0.024,0.117,0.229,0.249,0.379,0.003
+guitarloot:Scores/EnglishMusic/ELB/Teares8Gtr.iPad,guitarloot,Anon 16th Century,Mrs EB Teares,6,delcamp:guitarloot,8,dummy-v0,0.027,0.100,0.124,0.180,0.450,0.120
+guitarloot:Scores/EnglishMusic/ELB/Teares9Gtr.iPad,guitarloot,Anon. 16th century,Teares (A Lament),6,delcamp:guitarloot,8,dummy-v0,0.045,0.084,0.048,0.212,0.378,0.233
+guitarloot:Scores/EnglishMusic/ELB/TomBedlamGtr,guitarloot,Anon,Poor Tom of Bedlam,6,delcamp:guitarloot,6,dummy-v0,0.006,0.211,0.351,0.260,0.172,0.000
+guitarloot:Scores/EnglishMusic/ELB/Woodbynde,guitarloot,Anon,The Wood Bynde,5,delcamp:guitarloot,6,dummy-v0,0.026,0.193,0.371,0.213,0.197,0.001
+guitarloot:Scores/EnglishMusic/Ferrabosco/BandFant1Gtr.iPad,guitarloot,Alfonso Ferrabosco 1,Bandora Fantasia No.1,7,delcamp:guitarloot,9,dummy-v0,0.014,0.061,0.094,0.162,0.136,0.533
+guitarloot:Scores/EnglishMusic/Ferrabosco/BandFant2.iPad,guitarloot,Alfonso Ferrabosco 1,Bandora Fantasia No.2,7,delcamp:guitarloot,7,dummy-v0,0.037,0.045,0.298,0.351,0.267,0.002
+guitarloot:Scores/EnglishMusic/Ferrabosco/BandFant4Gtr.iPad,guitarloot,Alfonso Ferrabosco I,BANDORA FANTASIA No.4,7,delcamp:guitarloot,7,dummy-v0,0.002,0.121,0.175,0.365,0.331,0.005
+guitarloot:Scores/EnglishMusic/Ferrabosco/BandPavGtr,guitarloot,Alfonso Ferrabosco 1,Bandora Pavan,7,delcamp:guitarloot,7,dummy-v0,0.026,0.040,0.292,0.465,0.176,0.001
+guitarloot:Scores/EnglishMusic/Ferrabosco/Pavan(Varietie)Gtr.iPad,guitarloot,Alfonso Ferrabosco,Lute Pavan No.1,7,delcamp:guitarloot,7,dummy-v0,0.007,0.066,0.188,0.378,0.361,0.000
+guitarloot:Scores/EnglishMusic/Holborne/44%20AlmaineGtr,guitarloot,Anthony Holborne,Lute Almaine (The Choyce),6,delcamp:guitarloot,6,dummy-v0,0.038,0.212,0.381,0.162,0.207,0.000
+guitarloot:Scores/EnglishMusic/Holborne/47HollyGtr,guitarloot,Anthony Holborne,As it fell on a Holiday*,6,delcamp:guitarloot,6,dummy-v0,0.041,0.287,0.352,0.168,0.152,0.000
+guitarloot:Scores/EnglishMusic/Holborne/BandFant1.Gtr.iPad,guitarloot,Anthony Holborne,Bandora Fantasia 1,6,delcamp:guitarloot,8,dummy-v0,0.035,0.225,0.156,0.244,0.330,0.010
+guitarloot:Scores/EnglishMusic/Holborne/BandFant2.Gtr.Arr,guitarloot,Anthony Holborne,Bandora Fantasia 2,6,delcamp:guitarloot,7,dummy-v0,0.000,0.027,0.109,0.778,0.085,0.000
+guitarloot:Scores/EnglishMusic/Holborne/BandFant3.iPad,guitarloot,Anthony Holborne,Bandora Fantasia 3,6,delcamp:guitarloot,6,dummy-v0,0.042,0.147,0.301,0.290,0.216,0.003
+guitarloot:Scores/EnglishMusic/Holborne/BandFant4.iPad,guitarloot,Anthony Holborne,Bandora Fantasia 4,6,delcamp:guitarloot,7,dummy-v0,0.007,0.202,0.220,0.370,0.199,0.003
+guitarloot:Scores/EnglishMusic/Holborne/BandGall1Gtr,guitarloot,Anthony Holborne,Bandora Galliard 1 - Lullaby,6,delcamp:guitarloot,8,dummy-v0,0.002,0.235,0.247,0.169,0.344,0.002
+guitarloot:Scores/EnglishMusic/Holborne/BandGall2Gtr,guitarloot,Anthony Holborne,Bandora Galliard 2,6,delcamp:guitarloot,6,dummy-v0,0.024,0.188,0.480,0.115,0.193,0.000
+guitarloot:Scores/EnglishMusic/Holborne/BandPav2Gtr,guitarloot,Anthony Holborne,Bandora Pavan 2,6,delcamp:guitarloot,6,dummy-v0,0.053,0.183,0.477,0.095,0.161,0.031
+guitarloot:Scores/EnglishMusic/Holborne/BandPav3Gtr,guitarloot,Anthony Holborne,Bandora Pavan 3,6,delcamp:guitarloot,6,dummy-v0,0.075,0.131,0.506,0.121,0.164,0.002
+guitarloot:Scores/EnglishMusic/Holborne/BandPav4Gtr,guitarloot,Anthony Holborne,Bandora Pavan 4,6,delcamp:guitarloot,8,dummy-v0,0.008,0.105,0.258,0.273,0.356,0.000
+guitarloot:Scores/EnglishMusic/Holborne/BandPav5Gtr.iPad,guitarloot,Anthony Holborne,Bandora Pavan 5,6,delcamp:guitarloot,7,dummy-v0,0.011,0.108,0.215,0.338,0.307,0.020
+guitarloot:Scores/EnglishMusic/Holborne/BandPav6Gtr,guitarloot,Anthony Holborne,Bandora Pavan 6,6,delcamp:guitarloot,6,dummy-v0,0.079,0.152,0.371,0.145,0.252,0.001
+guitarloot:Scores/EnglishMusic/Holborne/BondGallGtr,guitarloot,Anthony Holborne,Mr. Bond's Galliard (Nec Invideo),6,delcamp:guitarloot,6,dummy-v0,0.005,0.313,0.352,0.130,0.197,0.002
+guitarloot:Scores/EnglishMusic/Holborne/ChosesGtrArev2.iPad,guitarloot,Anthony Holborne,Tres Choses,6,delcamp:guitarloot,8,dummy-v0,0.001,0.024,0.067,0.263,0.580,0.065
+guitarloot:Scores/EnglishMusic/Holborne/ClarkesGalliard.Gtr,guitarloot,Anthony Holborne,Clarke's Galliard,6,delcamp:guitarloot,6,dummy-v0,0.027,0.158,0.399,0.267,0.149,0.000
+guitarloot:Scores/EnglishMusic/Holborne/CradleConceitsGtrAS,guitarloot,Anthony Holborne,Pavan - The Cradle of Conceits,6,delcamp:guitarloot,3,dummy-v0,0.561,0.028,0.082,0.091,0.144,0.095
+guitarloot:Scores/EnglishMusic/Holborne/FairyRound.Gtr,guitarloot,Anthony Holborne,The Fairy Round,6,delcamp:guitarloot,6,dummy-v0,0.069,0.234,0.330,0.154,0.205,0.008
+guitarloot:Scores/EnglishMusic/Holborne/FantasyHolb01GtrAlt,guitarloot,Anthoy Holborne,Lute Fantasia 1,6,delcamp:guitarloot,8,dummy-v0,0.055,0.058,0.211,0.322,0.332,0.022
+guitarloot:Scores/EnglishMusic/Holborne/Farewell.Gtr.Arr,guitarloot,Anthony Holborne,Galliard - Farewell,6,delcamp:guitarloot,6,dummy-v0,0.020,0.255,0.431,0.146,0.144,0.003
+guitarloot:Scores/EnglishMusic/Holborne/Galliard.PassionGtr,guitarloot,Anthony Holborne,Passion (Galliard),6,delcamp:guitarloot,6,dummy-v0,0.011,0.276,0.394,0.128,0.190,0.001
+guitarloot:Scores/EnglishMusic/Holborne/Galliard16Gtr,guitarloot,Anthony Holborne,Galliard 16,6,delcamp:guitarloot,8,dummy-v0,0.005,0.219,0.240,0.185,0.350,0.000
+guitarloot:Scores/EnglishMusic/Holborne/Galliard17gtr,guitarloot,Anthony Holborne,Galliard 17,6,delcamp:guitarloot,6,dummy-v0,0.036,0.288,0.335,0.146,0.195,0.000
+guitarloot:Scores/EnglishMusic/Holborne/GroundGtr,guitarloot,Anthony Holborne,A Ground,6,delcamp:guitarloot,6,dummy-v0,0.100,0.067,0.352,0.193,0.288,0.000
+guitarloot:Scores/EnglishMusic/Holborne/HeartseaseGtr,guitarloot,Anthony Holborne,Heart's Ease (Almain),6,delcamp:guitarloot,6,dummy-v0,0.010,0.228,0.363,0.243,0.155,0.000
+guitarloot:Scores/EnglishMusic/Holborne/HeresPaternusGtr,guitarloot,Anthony Holborne,Pavan - Heres Paternus,6,delcamp:guitarloot,7,dummy-v0,0.000,0.035,0.141,0.663,0.161,0.000
+guitarloot:Scores/EnglishMusic/Holborne/NightWatch.iPad,guitarloot,Anthony Holborne,The Night Watch,6,delcamp:guitarloot,8,dummy-v0,0.002,0.220,0.216,0.231,0.325,0.005
+guitarloot:Scores/EnglishMusic/Holborne/PavanBonaSperenzaGtr,guitarloot,Anthony Holborne,Pavan - Bona Sperenza,6,delcamp:guitarloot,6,dummy-v0,0.014,0.117,0.428,0.253,0.188,0.000
+guitarloot:Scores/EnglishMusic/Holborne/PembPavRev.iPad,guitarloot,Anthony Holborne,Pavan - The Countess of Pembroke's Paradise,6,delcamp:guitarloot,8,dummy-v0,0.183,0.126,0.239,0.160,0.292,0.001
+guitarloot:Scores/EnglishMusic/Holborne/ReadeAlmaine.Gtr,guitarloot,Anthony Holborne,Lute Almaine 4 (Reade's Almaine),6,delcamp:guitarloot,8,dummy-v0,0.002,0.113,0.318,0.231,0.335,0.000
+guitarloot:Scores/EnglishMusic/Holborne/ResponseGalliardGtr,guitarloot,Anthony Holborne,Response Galliard,6,delcamp:guitarloot,8,dummy-v0,0.018,0.271,0.166,0.222,0.283,0.039
+guitarloot:Scores/EnglishMusic/Holborne/TearsMusesGtrArr,guitarloot,Anthony Holborne,Tears of the Muses (Galliard),6,delcamp:guitarloot,7,dummy-v0,0.004,0.112,0.240,0.334,0.311,0.000
+guitarloot:Scores/EnglishMusic/Holborne/VarGordianGtrAS,guitarloot,Anthony Holborne,The Gordian Knot,6,delcamp:guitarloot,8,dummy-v0,0.031,0.032,0.229,0.326,0.381,0.000
+guitarloot:Scores/EnglishMusic/Holborne/Will2EGtr,guitarloot,Anthony Holborne,Pavan - Last Will and Testament,6,delcamp:guitarloot,7,dummy-v0,0.004,0.196,0.287,0.356,0.156,0.000
+guitarloot:Scores/EnglishMusic/Johnson/01.FantasiaJGtr.iPad,guitarloot,Robert Johnson,Fantasia,7,delcamp:guitarloot,8,dummy-v0,0.008,0.177,0.249,0.180,0.363,0.023
+guitarloot:Scores/EnglishMusic/Johnson/02.PavanGtrArr,guitarloot,Robert Johnson,Pavan 02,7,delcamp:guitarloot,9,dummy-v0,0.000,0.007,0.023,0.218,0.308,0.444
+guitarloot:Scores/EnglishMusic/Johnson/05.MildmayGtr.Folger,guitarloot,Robert Johnson,Galliard - My Lady Mildemay’s Delight,7,delcamp:guitarloot,7,dummy-v0,0.001,0.052,0.246,0.397,0.304,0.000
+guitarloot:Scores/EnglishMusic/Johnson/NobleMensMasqueEGtr,guitarloot,?Robert Johnson,The Noble Man,7,delcamp:guitarloot,8,dummy-v0,0.000,0.055,0.270,0.285,0.386,0.004
+guitarloot:Scores/EnglishMusic/Other/10.PavanLupo.Gtr,guitarloot,?Ambrose Lupo,Pavan 10,8,delcamp:guitarloot,6,dummy-v0,0.053,0.032,0.418,0.242,0.252,0.002
+guitarloot:Scores/EnglishMusic/Other/32bEnglishHuntsUpp.Gtr,guitarloot,John Whitfield,The English Hunt's Up,8,delcamp:guitarloot,6,dummy-v0,0.049,0.228,0.396,0.132,0.194,0.000
+guitarloot:Scores/EnglishMusic/Other/35vDaphneCorridonD,guitarloot,John Whitfield,"Daphne & Corridon (or Tell Me, Daphne)",8,delcamp:guitarloot,8,dummy-v0,0.017,0.058,0.218,0.201,0.478,0.028
+guitarloot:Scores/EnglishMusic/Other/Alman90Gtr,guitarloot,Martin Peerson,Alman,7,delcamp:guitarloot,7,dummy-v0,0.024,0.120,0.225,0.326,0.297,0.008
+guitarloot:Scores/EnglishMusic/Other/BulmanPavGtr.iPad,guitarloot,Baruch Bulman,Pavan,8,delcamp:guitarloot,8,dummy-v0,0.097,0.062,0.158,0.118,0.290,0.275
+guitarloot:Scores/EnglishMusic/Other/Fansyegtr.iPad,guitarloot,Newman,Fansye (Fantasy),8,delcamp:guitarloot,6,dummy-v0,0.004,0.220,0.432,0.243,0.100,0.000
+guitarloot:Scores/EnglishMusic/Other/Fantasia4GtrArrF.iPad,guitarloot,Cuthbert Hely,Lute Fantasia 4,8,delcamp:guitarloot,7,dummy-v0,0.000,0.093,0.066,0.491,0.342,0.008
+guitarloot:Scores/EnglishMusic/Other/Fantasy03RGtr,guitarloot,Cuthbert Hely,Fantasia 3,8,delcamp:guitarloot,7,dummy-v0,0.027,0.215,0.194,0.338,0.227,0.000
+guitarloot:Scores/EnglishMusic/Other/FlatTuneGtr.iPad,guitarloot,William Lawes,Mr. Lawes flat tune,7,delcamp:guitarloot,6,dummy-v0,0.011,0.193,0.343,0.252,0.201,0.001
+guitarloot:Scores/EnglishMusic/Other/Galliard23Gtr,guitarloot,Edward Pierce,Galliard 23,8,delcamp:guitarloot,6,dummy-v0,0.016,0.277,0.342,0.159,0.205,0.000
+guitarloot:Scores/EnglishMusic/Other/InNomineGalliard,guitarloot,Nicholas Strogers,In Nomine Galliard,8,delcamp:guitarloot,8,dummy-v0,0.027,0.188,0.259,0.194,0.330,0.002
+guitarloot:Scores/EnglishMusic/Other/InNominePavan,guitarloot,Nicholas Strogers,In Nomine Pavan,8,delcamp:guitarloot,8,dummy-v0,0.003,0.050,0.142,0.338,0.353,0.113
+guitarloot:Scores/EnglishMusic/Other/Pavane1BassanoGtr,guitarloot,Augustine Bassano,La Vecchia Pavane 1,8,delcamp:guitarloot,8,dummy-v0,0.030,0.039,0.063,0.078,0.434,0.356
+guitarloot:Scores/EnglishMusic/Other/Pavane2BassanoGtr,guitarloot,Augustine Bassano,La Vecchia Pavane 2,8,delcamp:guitarloot,8,dummy-v0,0.063,0.079,0.109,0.171,0.539,0.040
+guitarloot:Scores/EnglishMusic/Other/PipersPavanPGtr,guitarloot,MARTIN PEERSON,Pipers Paven.,7,delcamp:guitarloot,8,dummy-v0,0.010,0.007,0.125,0.392,0.403,0.063
+guitarloot:Scores/EnglishMusic/Other/Prelude6Arr,guitarloot,Cuthbert Hely,Prelude 6,8,delcamp:guitarloot,6,dummy-v0,0.004,0.272,0.305,0.132,0.282,0.005
+guitarloot:Scores/EnglishMusic/Other/Prelude8Gtr,guitarloot,Cuthbert Hely,Prelude 8,8,delcamp:guitarloot,5,dummy-v0,0.000,0.369,0.171,0.240,0.220,0.000
+guitarloot:Scores/EnglishMusic/Other/PrimroseGtrArr,guitarloot,Martin Peerson,The Primrose,7,delcamp:guitarloot,7,dummy-v0,0.021,0.167,0.274,0.350,0.183,0.005
+guitarloot:Scores/EnglishMusic/Other/SarabandGtrL.iPad,guitarloot,William Lawes,Sarabande,7,delcamp:guitarloot,6,dummy-v0,0.012,0.273,0.350,0.156,0.209,0.000
+guitarloot:Scores/EnglishMusic/Other/StrangsGregoryGtr,guitarloot,?John Whitfield,"""Mr Strangs Gregory hitts""",8,delcamp:guitarloot,8,dummy-v0,0.003,0.095,0.156,0.157,0.588,0.001
+guitarloot:Scores/EnglishMusic/Other/leafeGtr.iPad,guitarloot,Martin Peerson,The Fall of the Leaf,7,delcamp:guitarloot,7,dummy-v0,0.019,0.173,0.320,0.333,0.153,0.001
+guitarloot:Scores/EnglishMusic/Pilkington/6Galliard6GtriPad,guitarloot,Francis Pilkington,Galliard (6),6,delcamp:guitarloot,8,dummy-v0,0.003,0.080,0.239,0.135,0.502,0.040
+guitarloot:Scores/EnglishMusic/Pilkington/9OldfieldGtrAS,guitarloot,Francis Pilkington,Mrs. Mary Oldfield's Galliard (9),6,delcamp:guitarloot,6,dummy-v0,0.115,0.161,0.313,0.186,0.223,0.002
+guitarloot:Scores/EnglishMusic/Pilkington/FuneralGtriPad,guitarloot,Francis Pilkington,Pavane (1): George Pilkington's Funeral,6,delcamp:guitarloot,8,dummy-v0,0.011,0.085,0.302,0.243,0.355,0.004
+guitarloot:Scores/EnglishMusic/Pilkington/GoWindowGtr.iPad,guitarloot,Francis Pilkington,Go From My Window (15),6,delcamp:guitarloot,7,dummy-v0,0.006,0.072,0.319,0.405,0.198,0.000
+guitarloot:Scores/EnglishMusic/Pilkington/MurcottGallGtriPad,guitarloot,Francis Pilkington,Mrs. Elizabeth Murcott's Galliard (10),6,delcamp:guitarloot,8,dummy-v0,0.010,0.171,0.162,0.259,0.396,0.003
+guitarloot:Scores/EnglishMusic/Pilkington/WagstaffGtriPad,guitarloot,Francis Pilkington,Galliard (11): Mr. T Wagstaff's Content of Desire,6,delcamp:guitarloot,6,dummy-v0,0.019,0.267,0.323,0.188,0.197,0.005
+guitarloot:Scores/EnglishMusic/Robinson/20vSpanishPavane.Gtr,guitarloot,Thomas Robinson,The Spanish Pavane,5,delcamp:guitarloot,7,dummy-v0,0.002,0.082,0.306,0.325,0.285,0.000
+guitarloot:Scores/EnglishMusic/Robinson/Almayne23,guitarloot,Thomas Robinson,Almayne (23),5,delcamp:guitarloot,6,dummy-v0,0.016,0.269,0.293,0.178,0.243,0.001
+guitarloot:Scores/EnglishMusic/Robinson/Bellvedere32Gtr.iPad,guitarloot,Thomas Robinson,Bellvedere,5,delcamp:guitarloot,8,dummy-v0,0.000,0.278,0.134,0.250,0.334,0.004
+guitarloot:Scores/EnglishMusic/Robinson/Fant3Gtr,guitarloot,Thomas Robinson,Fantasia 3,5,delcamp:guitarloot,5,dummy-v0,0.012,0.330,0.251,0.227,0.180,0.000
+guitarloot:Scores/EnglishMusic/Robinson/Galliard17Gtr,guitarloot,Thomas Robinson,Galliard (17),5,delcamp:guitarloot,5,dummy-v0,0.005,0.372,0.300,0.147,0.177,0.000
+guitarloot:Scores/EnglishMusic/Robinson/Galliard6Gtr.iPad,guitarloot,Thomas Robinson,Galliard (6),5,delcamp:guitarloot,5,dummy-v0,0.003,0.390,0.240,0.162,0.205,0.000
+guitarloot:Scores/EnglishMusic/Robinson/Galliard7Gtr,guitarloot,Thomas Robinson,Galliard (7),5,delcamp:guitarloot,8,dummy-v0,0.000,0.209,0.040,0.220,0.528,0.002
+guitarloot:Scores/EnglishMusic/Robinson/Gigue22GtrAS,guitarloot,Thomas Robinson,Gigue (22),5,delcamp:guitarloot,8,dummy-v0,0.013,0.226,0.201,0.225,0.335,0.000
+guitarloot:Scores/EnglishMusic/Robinson/GoWindow20Gtr,guitarloot,Thomas Robinson,Go from My Window,5,delcamp:guitarloot,8,dummy-v0,0.030,0.160,0.173,0.256,0.380,0.001
+guitarloot:Scores/EnglishMusic/Robinson/MerryMelancholyGtr.iPad,guitarloot,Thomas Robinson,Merry Melancholy,5,delcamp:guitarloot,6,dummy-v0,0.003,0.278,0.478,0.174,0.068,0.000
+guitarloot:Scores/EnglishMusic/Robinson/QueensGigue,guitarloot,Thomas Robinson,The Queen's Gigue,5,delcamp:guitarloot,5,dummy-v0,0.007,0.563,0.288,0.076,0.067,0.000
+guitarloot:Scores/EnglishMusic/Varietie/GuilfordeGtr,guitarloot,Anon,"Sir Henry Guilforde, his Almaine",7,delcamp:guitarloot,8,dummy-v0,0.053,0.153,0.202,0.264,0.311,0.018
+guitarloot:Scores/EnglishMusic/Varietie/QMaske1gtriPad,guitarloot,Anon,The first of the Queen's Maskes,7,delcamp:guitarloot,8,dummy-v0,0.008,0.150,0.129,0.246,0.446,0.021
+guitarloot:Scores/EnglishMusic/Varietie/QMaske2GtriPad,guitarloot,Anon,The Second of the Queen's Maskes,7,delcamp:guitarloot,6,dummy-v0,0.043,0.218,0.317,0.154,0.268,0.001
+guitarloot:Scores/EnglishMusic/Varietie/QMaske3GtriPad,guitarloot,Anon,The Third of the Queen's Maskes,7,delcamp:guitarloot,8,dummy-v0,0.034,0.091,0.113,0.161,0.595,0.006
+guitarloot:Scores/EnglishMusic/Varietie/SamanCoranto.iPad,guitarloot,René Saman,"Mounsier Saman, his Coranto",7,delcamp:guitarloot,8,dummy-v0,0.004,0.204,0.144,0.161,0.343,0.145
+guitarloot:Scores/EnglishMusic/Varietie/Volte1GtrAS,guitarloot,Anon,Volte 1,7,delcamp:guitarloot,7,dummy-v0,0.000,0.042,0.123,0.516,0.319,0.000
+guitarloot:Scores/EnglishMusic/Varietie/Volte2GtrAS,guitarloot,Anon,Volte 2,7,delcamp:guitarloot,7,dummy-v0,0.000,0.091,0.120,0.538,0.251,0.000
+guitarloot:Scores/EnglishMusic/Varietie/Volte3GtrAS,guitarloot,Anon,Volte 3,7,delcamp:guitarloot,7,dummy-v0,0.000,0.049,0.039,0.529,0.383,0.000
+guitarloot:Scores/EnglishMusic/Varietie/Volte4GtrAS,guitarloot,Anon,Volte 4,7,delcamp:guitarloot,7,dummy-v0,0.000,0.180,0.152,0.483,0.185,0.000
+guitarloot:Scores/EnglishMusic/Varietie/Volte5GtrAS,guitarloot,Anon,Volte 5,7,delcamp:guitarloot,7,dummy-v0,0.000,0.100,0.114,0.469,0.316,0.000
+guitarloot:Scores/EnglishMusic/Varietie/Volte6GtrAS,guitarloot,Anon,Volte 6,7,delcamp:guitarloot,7,dummy-v0,0.000,0.118,0.185,0.529,0.167,0.000
+guitarloot:Scores/EnglishMusic/Varietie/Volte7GtrAS,guitarloot,Anon,Volte 7,7,delcamp:guitarloot,7,dummy-v0,0.000,0.078,0.100,0.646,0.175,0.000
+guitarloot:Scores/EnglishMusic/Wilder/AsDumpGtrRev.iPad,guitarloot,Attr. Philip van Wilder,Arthur's Dump,8,delcamp:guitarloot,9,dummy-v0,0.002,0.060,0.051,0.208,0.140,0.539
+guitarloot:Scores/EnglishMusic/Wilder/FantasieGtrNiPad,guitarloot,Philip van Wilder,Fantasie,8,delcamp:guitarloot,6,dummy-v0,0.013,0.122,0.351,0.332,0.118,0.065
+guitarloot:Scores/FrenchMusic/Angelique03Gtr.iPad,guitarloot,Robert Ballard,Angelique Troisieme,7,delcamp:guitarloot,8,dummy-v0,0.000,0.336,0.025,0.164,0.459,0.016
+guitarloot:Scores/FrenchMusic/Ballet5GtrAS,guitarloot,Robert Ballard,Ballet 5,7,delcamp:guitarloot,8,dummy-v0,0.006,0.226,0.145,0.223,0.387,0.012
+guitarloot:Scores/FrenchMusic/BergamascoDGtr,guitarloot,Jean-Baptiste Besard,Bergamasco,7,delcamp:guitarloot,5,dummy-v0,0.002,0.507,0.261,0.160,0.067,0.004
+guitarloot:Scores/FrenchMusic/ChacSaizAlt2Arr,guitarloot,Robert de Visée,Chaconne,7,delcamp:guitarloot,7,dummy-v0,0.000,0.070,0.004,0.764,0.160,0.001
+guitarloot:Scores/FrenchMusic/ChacSaizBrevAlt.iPad,guitarloot,Robert de Visee,Chaconne,7,delcamp:guitarloot,7,dummy-v0,0.000,0.078,0.001,0.676,0.244,0.001
+guitarloot:Scores/FrenchMusic/ChacSaizGtr,guitarloot,Robert de Visee,Chaconne,7,delcamp:guitarloot,7,dummy-v0,0.000,0.134,0.013,0.747,0.106,0.000
+guitarloot:Scores/FrenchMusic/ChaconeGtrArr.iPad,guitarloot,Enemond Gaultier,Chacone du vieux Gaultier,7,delcamp:guitarloot,8,dummy-v0,0.000,0.156,0.010,0.155,0.667,0.012
+guitarloot:Scores/FrenchMusic/ChaconneHmGtrG.iPad,guitarloot,"[Manuscrit d'Haslemere, Dolmetsch library II D 2, folio 119]",Chaconne,7,delcamp:guitarloot,8,dummy-v0,0.000,0.198,0.017,0.311,0.463,0.011
+guitarloot:Scores/FrenchMusic/ChaconneM.iPad,guitarloot,Charles Mouton,Chaconne,7,delcamp:guitarloot,5,dummy-v0,0.000,0.512,0.020,0.404,0.064,0.000
+guitarloot:Scores/FrenchMusic/GalliardeBesGtr,guitarloot,Anon 1603,Galliarde,7,delcamp:guitarloot,6,dummy-v0,0.148,0.053,0.372,0.105,0.322,0.000
+guitarloot:Scores/FrenchMusic/L'AmantGallotGtr,guitarloot,Jacques Gallot,L'Amant Malheureux,7,delcamp:guitarloot,7,dummy-v0,0.001,0.223,0.097,0.519,0.160,0.000
+guitarloot:Scores/FrenchMusic/LaCometeGtr,guitarloot,Jacques Gallot,La Comète,7,delcamp:guitarloot,6,dummy-v0,0.012,0.166,0.287,0.238,0.280,0.018
+guitarloot:Scores/FrenchMusic/MalSimmesRevGtr,guitarloot,Nicolaes Vallet,Mal Simmes,7,delcamp:guitarloot,7,dummy-v0,0.002,0.216,0.273,0.278,0.226,0.005
+guitarloot:Scores/FrenchMusic/PantalonsAv,guitarloot,Nicolaes Vallet,Les Pantalons,7,delcamp:guitarloot,6,dummy-v0,0.010,0.263,0.399,0.255,0.057,0.016
+guitarloot:Scores/FrenchMusic/Valletprel.iPad,guitarloot,Nicolaes Vallet,Prelude,7,delcamp:guitarloot,5,dummy-v0,0.007,0.339,0.321,0.133,0.200,0.000
+guitarloot:Scores/GermanMusic/1PreludeGtr.iPad,guitarloot,Sylvius Leopold Weiss,Prelude,8,delcamp:guitarloot,5,dummy-v0,0.015,0.402,0.187,0.096,0.288,0.011
+guitarloot:Scores/GermanMusic/2PassBibGtrArrAS,guitarloot,H. I. F. von Biber,Passacaglia,7,delcamp:guitarloot,8,dummy-v0,0.000,0.046,0.056,0.287,0.606,0.006
+guitarloot:Scores/GermanMusic/Chaconne.iPad,guitarloot,Anon,Chaconne,7,delcamp:guitarloot,7,dummy-v0,0.000,0.335,0.053,0.510,0.099,0.001
+guitarloot:Scores/GermanMusic/CiaconaAv,guitarloot,Esaias Reusner,Ciacona,7,delcamp:guitarloot,8,dummy-v0,0.000,0.106,0.100,0.336,0.433,0.025
+guitarloot:Scores/GermanMusic/FantBelissGtrF,guitarloot,Anon,Fantasia Belissima,7,delcamp:guitarloot,7,dummy-v0,0.021,0.112,0.290,0.383,0.191,0.003
+guitarloot:Scores/GermanMusic/Fantasia1Gtr,guitarloot,Anon,Fantasia,7,delcamp:guitarloot,6,dummy-v0,0.018,0.174,0.436,0.267,0.100,0.005
+guitarloot:Scores/GermanMusic/Fantasia4Gtr,guitarloot,Anon,Fantasia 4,7,delcamp:guitarloot,8,dummy-v0,0.000,0.286,0.117,0.251,0.344,0.003
+guitarloot:Scores/GermanMusic/FantasieE,guitarloot,Silvius Leopold WEISS,Fantasie,8,delcamp:guitarloot,9,dummy-v0,0.008,0.042,0.119,0.143,0.292,0.396
+guitarloot:Scores/GermanMusic/FrogAltGtr.iPad,guitarloot,Anon,Two variations on the Frog Galliard,7,delcamp:guitarloot,8,dummy-v0,0.002,0.208,0.087,0.175,0.414,0.114
+guitarloot:Scores/GermanMusic/Fuga.iPad,guitarloot,Sylvius Leopold Weiss,Fuga,8,delcamp:guitarloot,9,dummy-v0,0.002,0.062,0.293,0.171,0.026,0.445
+guitarloot:Scores/GermanMusic/L'AmantFin.iPadRev,guitarloot,Sylvius Leopold Weiss,L'Amant malheureux,8,delcamp:guitarloot,8,dummy-v0,0.000,0.063,0.000,0.445,0.484,0.008
+guitarloot:Scores/GermanMusic/MmeTiroloiseGtr.iPad,guitarloot,Sylvius Leopold Weiss,Mademoiselle Tiroloise,8,delcamp:guitarloot,5,dummy-v0,0.008,0.446,0.231,0.180,0.136,0.000
+guitarloot:Scores/GermanMusic/Padouana(Schein)gtr.AS,guitarloot,Johann Hermann Schein 1586 - 1613),Padouana (à 4 Krumhorn),7,delcamp:guitarloot,6,dummy-v0,0.006,0.146,0.363,0.287,0.198,0.000
+guitarloot:Scores/GermanMusic/PasagalliaRGtr,guitarloot,Phillip Franz Le Sage de Richée,"Pasagallia à Discretion 
+*(to be played slowly and with rhythmic freedom)",7,delcamp:guitarloot,7,dummy-v0,0.000,0.053,0.083,0.814,0.049,0.001
+guitarloot:Scores/GermanMusic/PassacagliaGtriPad,guitarloot,Esaias Reusner,Passacaglia,7,delcamp:guitarloot,7,dummy-v0,0.000,0.336,0.124,0.386,0.153,0.002
+guitarloot:Scores/GermanMusic/PlaintefGtr.iPad,guitarloot,Sylvius Leopold Weiss,Plainte,8,delcamp:guitarloot,8,dummy-v0,0.000,0.204,0.085,0.354,0.357,0.000
+guitarloot:Scores/GermanMusic/ReusnerPreludeAv,guitarloot,Esaias Reusner,Prelude,7,delcamp:guitarloot,7,dummy-v0,0.000,0.101,0.023,0.618,0.258,0.000
+guitarloot:Scores/GermanMusic/ReusnerPreludeE.iPad,guitarloot,Esaias Reusner,Prelude,7,delcamp:guitarloot,7,dummy-v0,0.000,0.087,0.020,0.567,0.327,0.000
+guitarloot:Scores/GermanMusic/SarabMosGtrAS,guitarloot,Silvius Leopold Weiss,Sarabande,8,delcamp:guitarloot,6,dummy-v0,0.095,0.223,0.332,0.122,0.227,0.001
+guitarloot:Scores/GermanMusic/WD6GavotteGtr.iPad,guitarloot,Sylvius Leopold Weiss,Gavotte,8,delcamp:guitarloot,8,dummy-v0,0.009,0.266,0.150,0.140,0.433,0.001
+guitarloot:Scores/GermanMusic/corantgtr.iPad,guitarloot,Anon,Corant,7,delcamp:guitarloot,5,dummy-v0,0.002,0.477,0.221,0.167,0.133,0.000
+guitarloot:Scores/ItalianMusic/12SaravandaGtr.iPad,guitarloot,Alessandro Piccinini,Saravanda alla Francese,6,delcamp:guitarloot,8,dummy-v0,0.000,0.028,0.081,0.443,0.448,0.000
+guitarloot:Scores/ItalianMusic/25Corrente9Arr.iPad,guitarloot,Alessandro Piccinini,Corrente IX,6,delcamp:guitarloot,6,dummy-v0,0.008,0.189,0.519,0.194,0.090,0.000
+guitarloot:Scores/ItalianMusic/Allemanda.iPad,guitarloot,Domenico Pellegrini,Allemanda,5,delcamp:guitarloot,5,dummy-v0,0.006,0.418,0.279,0.149,0.147,0.000
+guitarloot:Scores/ItalianMusic/AriaSVPAv,guitarloot,Alessandro Piccinini,Aria di Saravanda in Varie Partite,6,delcamp:guitarloot,6,dummy-v0,0.003,0.090,0.355,0.267,0.200,0.085
+guitarloot:Scores/ItalianMusic/BallettoEGtr.iPad,guitarloot,Domenico Pellegrini,Balletto,5,delcamp:guitarloot,5,dummy-v0,0.016,0.557,0.169,0.213,0.019,0.026
+guitarloot:Scores/ItalianMusic/BergAbondGtrV2,guitarloot,Giulio Abondante,Bergamasca,7,delcamp:guitarloot,7,dummy-v0,0.033,0.222,0.213,0.226,0.214,0.093
+guitarloot:Scores/ItalianMusic/CaponaGtrErevAlt,guitarloot,Johann Hieronymous Kapsberger,Capona,8,delcamp:guitarloot,8,dummy-v0,0.002,0.233,0.195,0.235,0.335,0.001
+guitarloot:Scores/ItalianMusic/ChiacconaVariateFinal,guitarloot,Alessandro Piccinini,Chiaccona in Partite Variate,6,delcamp:guitarloot,5,dummy-v0,0.010,0.356,0.309,0.186,0.139,0.000
+guitarloot:Scores/ItalianMusic/CiacconaArr4Gtr.iPad,guitarloot,Johann Hieronymous Kapsberger,Title,8,delcamp:guitarloot,5,dummy-v0,0.008,0.384,0.292,0.156,0.159,0.000
+guitarloot:Scores/ItalianMusic/ConcertoRV93.iPad,guitarloot,Antonio Vivaldi,3. Allegro,7,delcamp:guitarloot,9,dummy-v0,0.166,0.017,0.139,0.068,0.085,0.526
+guitarloot:Scores/ItalianMusic/Corrente.iPad,guitarloot,Domenico Pellegrini,Corrente,5,delcamp:guitarloot,5,dummy-v0,0.002,0.359,0.206,0.158,0.270,0.005
+guitarloot:Scores/ItalianMusic/CorrentePrimaGtriPad,guitarloot,Alessandro Piccinini,Corrente Prima,6,delcamp:guitarloot,5,dummy-v0,0.007,0.338,0.282,0.218,0.153,0.002
+guitarloot:Scores/ItalianMusic/CorrenteXVIgtr,guitarloot,Michelangelo Galilei,Corrente XVI,7,delcamp:guitarloot,7,dummy-v0,0.000,0.213,0.288,0.328,0.170,0.000
+guitarloot:Scores/ItalianMusic/Foscarini/AlemandaGtr,guitarloot,Giovanni Paolo Foscarini,Alemanda,6,delcamp:guitarloot,5,dummy-v0,0.007,0.319,0.285,0.165,0.224,0.001
+guitarloot:Scores/ItalianMusic/Foscarini/CapriccioGtr,guitarloot,Giovanni Paolo Foscarini,Capriccio (Passacaglia),6,delcamp:guitarloot,6,dummy-v0,0.022,0.214,0.495,0.105,0.163,0.000
+guitarloot:Scores/ItalianMusic/Foscarini/CorrenteFrancaiseGtrRev,guitarloot,Giovanni Paolo Foscarini,Corrente Francaise,6,delcamp:guitarloot,6,dummy-v0,0.000,0.053,0.558,0.369,0.020,0.000
+guitarloot:Scores/ItalianMusic/Foscarini/CorrenteRev,guitarloot,Giovanni Paolo Foscarini,Corrente,6,delcamp:guitarloot,6,dummy-v0,0.001,0.060,0.747,0.160,0.033,0.000
+guitarloot:Scores/ItalianMusic/Foscarini/CorrenteVRevGtr,guitarloot,Giovanni Paolo Foscarini,Corrente con la sua Variatione,6,delcamp:guitarloot,6,dummy-v0,0.000,0.000,0.978,0.022,0.000,0.000
+guitarloot:Scores/ItalianMusic/Foscarini/FantasiaRev,guitarloot,Giovanni Paolo Foscarini,Fantasia,6,delcamp:guitarloot,5,dummy-v0,0.006,0.464,0.253,0.119,0.153,0.006
+guitarloot:Scores/ItalianMusic/Foscarini/PassacaglioGtr,guitarloot,Giovanni Paolo Foscarini,Passacaglio,6,delcamp:guitarloot,6,dummy-v0,0.001,0.307,0.371,0.247,0.067,0.006
+guitarloot:Scores/ItalianMusic/Foscarini/PavanigliaGtr,guitarloot,Giovanni Paolo Foscarini,Pavaniglia con parti variate,6,delcamp:guitarloot,6,dummy-v0,0.017,0.114,0.464,0.193,0.213,0.000
+guitarloot:Scores/ItalianMusic/Foscarini/TasteggiataGtrRev,guitarloot,Giovanni Paolo Foscarini,Tastegiata detta la Feretti,6,delcamp:guitarloot,5,dummy-v0,0.003,0.362,0.277,0.131,0.225,0.002
+guitarloot:Scores/ItalianMusic/Foscarini/TasteggiataSoaveGtr,guitarloot,Giovanni Paolo Foscarini,Tasteggiata Soave,6,delcamp:guitarloot,5,dummy-v0,0.006,0.505,0.294,0.128,0.067,0.000
+guitarloot:Scores/ItalianMusic/Foscarini/ToccataGtr,guitarloot,Giovanni Paolo Foscarini,Toccata,6,delcamp:guitarloot,6,dummy-v0,0.002,0.042,0.692,0.182,0.083,0.000
+guitarloot:Scores/ItalianMusic/Foscarini/ToccataMGtrRev,guitarloot,Giovanni Paolo Foscarini,Toccata Musicale,6,delcamp:guitarloot,5,dummy-v0,0.008,0.352,0.271,0.189,0.180,0.001
+guitarloot:Scores/ItalianMusic/GagliardaGtr,guitarloot,Michelangelo Galilei,Gagliarda 2,7,delcamp:guitarloot,6,dummy-v0,0.015,0.210,0.383,0.186,0.207,0.000
+guitarloot:Scores/ItalianMusic/KapsbergerGtr,guitarloot,Johann Hieronymus Kapsberger,Kapsberger,8,delcamp:guitarloot,5,dummy-v0,0.003,0.275,0.226,0.226,0.261,0.008
+guitarloot:Scores/ItalianMusic/Passacaglia21Gtr.Rev,guitarloot,Johann Hieronymous Kapsberger,Passacaglia 21,8,delcamp:guitarloot,5,dummy-v0,0.000,0.559,0.056,0.109,0.275,0.001
+guitarloot:Scores/ItalianMusic/PavanaFerrarese.iPad,guitarloot,Joanambrosio Dalza,Pavana alla Ferrarese,7,delcamp:guitarloot,7,dummy-v0,0.035,0.372,0.147,0.389,0.057,0.000
+guitarloot:Scores/ItalianMusic/PavanaVenetianaGtriPad,guitarloot,Joan Ambrosio Dalza,Pavana alla Venetiana,7,delcamp:guitarloot,7,dummy-v0,0.007,0.302,0.135,0.430,0.126,0.000
+guitarloot:Scores/ItalianMusic/Ricercar33.iPad,guitarloot,Marco dall'Aquila,Ricercar 33,7,delcamp:guitarloot,8,dummy-v0,0.004,0.193,0.063,0.166,0.574,0.000
+guitarloot:Scores/ItalianMusic/SaltarelloIgtr,guitarloot,Michelangelo Galilei,Saltarello I,7,delcamp:guitarloot,6,dummy-v0,0.008,0.207,0.477,0.142,0.166,0.000
+guitarloot:Scores/ItalianMusic/Sarabanda.iPad,guitarloot,Domenico Pellegrini,Sarabande,5,delcamp:guitarloot,5,dummy-v0,0.005,0.436,0.293,0.119,0.145,0.002
+guitarloot:Scores/ItalianMusic/VoltaVgtr,guitarloot,Michelangelo Galilei,Volta V,7,delcamp:guitarloot,5,dummy-v0,0.001,0.375,0.296,0.248,0.081,0.000
+guitarloot:Scores/LyraViol/1.13.AlmaineGtrAS,guitarloot,William Corkine,Almaine 1.13,8,delcamp:guitarloot,8,dummy-v0,0.000,0.058,0.092,0.334,0.516,0.000
+guitarloot:Scores/LyraViol/1.14.Pavin.Gtr.iPad,guitarloot,William Corkine,Pavin 1.14,8,delcamp:guitarloot,8,dummy-v0,0.033,0.192,0.225,0.178,0.368,0.004
+guitarloot:Scores/LyraViol/1.15.Coranto.GtrAS,guitarloot,William Corkine,Coranto 1.15,8,delcamp:guitarloot,8,dummy-v0,0.007,0.312,0.141,0.185,0.353,0.002
+guitarloot:Scores/LyraViol/1.16.Almaine.Gtr.iPad,guitarloot,William Corkine,Almaine 1.16,8,delcamp:guitarloot,8,dummy-v0,0.018,0.172,0.177,0.128,0.476,0.027
+guitarloot:Scores/LyraViol/1.17.CorantoGtr,guitarloot,William Corkine,Coranto 1.17,8,delcamp:guitarloot,8,dummy-v0,0.016,0.157,0.190,0.230,0.407,0.000
+guitarloot:Scores/LyraViol/1.18.Pavin.Gtr.iPad,guitarloot,William Corkine,Pavin 1.18,8,delcamp:guitarloot,8,dummy-v0,0.001,0.111,0.265,0.274,0.349,0.000
+guitarloot:Scores/LyraViol/1.19.CorantoGtrArr,guitarloot,William Corkine,Coranto 1.19,8,delcamp:guitarloot,8,dummy-v0,0.003,0.137,0.219,0.280,0.361,0.000
+guitarloot:Scores/LyraViol/1.20.GalliardGtr,guitarloot,William Corkine,Galliard 1.20,8,delcamp:guitarloot,5,dummy-v0,0.001,0.353,0.155,0.200,0.289,0.001
+guitarloot:Scores/LyraViol/1.21.GalliardGtrArr,guitarloot,William Corkine,Galliard 1.21,8,delcamp:guitarloot,8,dummy-v0,0.000,0.105,0.121,0.259,0.515,0.000
+guitarloot:Scores/LyraViol/1.22.WhoopeGtrf.iPad,guitarloot,William Corkine,Whoope doe me no harme goodman 1.22,8,delcamp:guitarloot,7,dummy-v0,0.000,0.147,0.113,0.506,0.233,0.001
+guitarloot:Scores/LyraViol/1.23.GalliardGtrAS,guitarloot,William Corkine,Galliard 1.23,8,delcamp:guitarloot,8,dummy-v0,0.000,0.101,0.156,0.340,0.402,0.001
+guitarloot:Scores/LyraViol/1.24.FortuneGtr.iPad,guitarloot,William Corkine,Fortune 1.24,8,delcamp:guitarloot,8,dummy-v0,0.000,0.179,0.058,0.172,0.426,0.165
+guitarloot:Scores/LyraViol/2.20.ComplaintsGtrAS,guitarloot,William Corkine,If My Complaints 2.20,8,delcamp:guitarloot,8,dummy-v0,0.008,0.153,0.198,0.208,0.431,0.003
+guitarloot:Scores/LyraViol/2.21.PreludeGtrAS,guitarloot,William Corkine,Perlude (Prelude) 2.21,8,delcamp:guitarloot,8,dummy-v0,0.037,0.177,0.226,0.209,0.350,0.001
+guitarloot:Scores/LyraViol/2.22.ComeLiveGtrArr,guitarloot,William Corkine,Come Live with Me 2.22,8,delcamp:guitarloot,8,dummy-v0,0.113,0.017,0.109,0.123,0.381,0.257
+guitarloot:Scores/LyraViol/2.23.PreludeGtr,guitarloot,William Corkine,Perlude (Prelude) 2.23,8,delcamp:guitarloot,8,dummy-v0,0.078,0.173,0.285,0.150,0.313,0.001
+guitarloot:Scores/LyraViol/2.25.CorantoGtrAS,guitarloot,William Corkine,Coranto 2.25,8,delcamp:guitarloot,8,dummy-v0,0.002,0.213,0.192,0.219,0.374,0.000
+guitarloot:Scores/LyraViol/2.26.MounsierGtrAS,guitarloot,William Corkine,Mounsiers Almaine 2.26,8,delcamp:guitarloot,8,dummy-v0,0.008,0.145,0.131,0.252,0.450,0.014
+guitarloot:Scores/LyraViol/2.27.Coranto.Gtr,guitarloot,William Corkine,Coranto 2.27,8,delcamp:guitarloot,8,dummy-v0,0.019,0.306,0.184,0.110,0.380,0.000
+guitarloot:Scores/LyraViol/2.28.PunckeGtrArr,guitarloot,William Corkine,The Puncke's Delight 2.28,8,delcamp:guitarloot,6,dummy-v0,0.003,0.121,0.561,0.216,0.098,0.000
+guitarloot:Scores/LyraViol/2.29.PavinGtr.iPad,guitarloot,William Corkine,Pavin 2.29,8,delcamp:guitarloot,6,dummy-v0,0.010,0.310,0.316,0.210,0.154,0.000
+guitarloot:Scores/LyraViol/2.30.AlmaineGtr.iPad,guitarloot,William Corkine,Almaine 2.30,8,delcamp:guitarloot,5,dummy-v0,0.015,0.307,0.164,0.243,0.271,0.000
+guitarloot:Scores/LyraViol/25.26.Question&AnswerGtr,guitarloot,Tobias Hume,25/26 A Question and an Answer,7,delcamp:guitarloot,7,dummy-v0,0.001,0.215,0.322,0.322,0.140,0.000
+guitarloot:Scores/LyraViol/42PavinGtriPad,guitarloot,Tobias Hume,42 A Pavin,7,delcamp:guitarloot,7,dummy-v0,0.009,0.279,0.300,0.302,0.110,0.000
+guitarloot:Scores/LyraViol/46CHPavanGtr.iPad,guitarloot,Tobias Hume,46 Captain Hume's Pavan,7,delcamp:guitarloot,7,dummy-v0,0.001,0.286,0.183,0.302,0.226,0.001
+guitarloot:Scores/LyraViol/AlmaineGtr.Sherl.iPad,guitarloot,Joseph Sherlie,Almaine,7,delcamp:guitarloot,8,dummy-v0,0.005,0.125,0.111,0.209,0.537,0.014
+guitarloot:Scores/LyraViol/AnonVar,guitarloot,Anon,Variations,7,delcamp:guitarloot,8,dummy-v0,0.000,0.088,0.030,0.177,0.539,0.166
+guitarloot:Scores/LyraViol/DovehouseAGtr,guitarloot,Alfonso Ferrabosco the younger,The Dovehouse Pavan,7,delcamp:guitarloot,6,dummy-v0,0.003,0.080,0.365,0.333,0.219,0.000
+guitarloot:Scores/LyraViol/DovehouseGtr,guitarloot,Alfonso Ferrabosco the younger,The Dovehouse Pavan,7,delcamp:guitarloot,8,dummy-v0,0.001,0.055,0.204,0.312,0.428,0.000
+guitarloot:Scores/LyraViol/GalliardGtr.Sherl.iPad,guitarloot,Joseph Sherlie,Galliard,7,delcamp:guitarloot,8,dummy-v0,0.002,0.126,0.122,0.197,0.534,0.019
+guitarloot:Scores/LyraViol/GoodAgaineGtr,guitarloot,Tobias Hume,Good Againe,7,delcamp:guitarloot,7,dummy-v0,0.000,0.088,0.225,0.642,0.045,0.000
+guitarloot:Scores/LyraViol/GoodAgaineGtrDArr.iPad,guitarloot,Tobias Hume,Good Againe,7,delcamp:guitarloot,7,dummy-v0,0.000,0.084,0.112,0.640,0.163,0.000
+guitarloot:Scores/LyraViol/HolstoneGtr.iPad,guitarloot,Tobias Hume,The Duke of Holstone's Almayne,7,delcamp:guitarloot,5,dummy-v0,0.002,0.456,0.293,0.120,0.128,0.002
+guitarloot:Scores/LyraViol/HumorousPavinGtr.iPad,guitarloot,Tobias Hume,A Humorous Pavin,7,delcamp:guitarloot,5,dummy-v0,0.001,0.348,0.202,0.173,0.179,0.095
+guitarloot:Scores/LyraViol/LachLyraGGtrAS,guitarloot,Anonymous setting of Dowland's Lachrimae,Lachrimae Pavan,7,delcamp:guitarloot,8,dummy-v0,0.000,0.045,0.049,0.283,0.545,0.078
+guitarloot:Scores/LyraViol/MyHopeGtr.iPad,guitarloot,Tobias Hume,My Hope is Decayed,7,delcamp:guitarloot,7,dummy-v0,0.002,0.153,0.235,0.454,0.157,0.000
+guitarloot:Scores/LyraViol/OldHumorGtrAS,guitarloot,Tobias Hume,The Old Humor,7,delcamp:guitarloot,7,dummy-v0,0.000,0.286,0.093,0.440,0.179,0.002
+guitarloot:Scores/LyraViol/PavFarrantGtr,guitarloot,Daniel Farrant,Pavin,7,delcamp:guitarloot,8,dummy-v0,0.005,0.167,0.171,0.225,0.431,0.000
+guitarloot:Scores/LyraViol/PavinGtr.Sherl.iPad,guitarloot,Joseph Sherlie,Pavin,7,delcamp:guitarloot,8,dummy-v0,0.003,0.267,0.206,0.203,0.320,0.001
+guitarloot:Scores/LyraViol/PostNagGtr,guitarloot,Simon Ives,Post Nag,7,delcamp:guitarloot,5,dummy-v0,0.002,0.322,0.239,0.273,0.164,0.000
+guitarloot:Scores/LyraViol/PrelAireGtrF,guitarloot,Anon. - from a Lyra Viol MS in,Prelude and Aire,7,delcamp:guitarloot,5,dummy-v0,0.014,0.379,0.203,0.191,0.211,0.003
+guitarloot:Scores/LyraViol/Prelude32Gtr,guitarloot,Simon Ives,Prelude 32,7,delcamp:guitarloot,8,dummy-v0,0.121,0.223,0.208,0.211,0.236,0.001
+guitarloot:Scores/LyraViol/TouchGtr.iPad,guitarloot,Tobias Hume,Touch Me Lightly,7,delcamp:guitarloot,5,dummy-v0,0.055,0.444,0.239,0.102,0.156,0.004
+guitarloot:Scores/LyraViol/ViolPieceRevGtr,guitarloot,Carl Friedrich Abel,Untitled Piece,7,delcamp:guitarloot,7,dummy-v0,0.000,0.192,0.197,0.275,0.156,0.180
+guitarloot:Scores/LyraViol/WalsinghamLV.iPad,guitarloot,Anon,Walsingham,7,delcamp:guitarloot,6,dummy-v0,0.002,0.153,0.347,0.318,0.180,0.000
+guitarloot:Scores/Mercure/AlmaineGtrMercure,guitarloot,Jean Mercure,Almaine,5,delcamp:guitarloot,7,dummy-v0,0.003,0.261,0.148,0.296,0.251,0.042
+guitarloot:Scores/Mercure/GigGtrArr,guitarloot,Dietrich Steffkins,'Gig',5,delcamp:guitarloot,5,dummy-v0,0.003,0.414,0.192,0.153,0.238,0.000
+guitarloot:Scores/Mercure/SarabandMercure,guitarloot,after Jean Mercure,Saraband (Mercure),5,delcamp:guitarloot,5,dummy-v0,0.000,0.495,0.221,0.249,0.035,0.000
+guitarloot:Scores/Mercure/SarabandMercureDRev,guitarloot,Jean Mercure,Sarabande,5,delcamp:guitarloot,5,dummy-v0,0.000,0.661,0.113,0.226,0.000,0.000
+guitarloot:Scores/Mercure/SarabandMercureERev,guitarloot,Jean Mercure,Sarabande,5,delcamp:guitarloot,5,dummy-v0,0.000,0.648,0.102,0.249,0.000,0.000
+guitarloot:Scores/Miscellaneous/Branle2Gtr.AS,guitarloot,Attr. Jakub Polak,Branle 2,6,delcamp:guitarloot,7,dummy-v0,0.001,0.257,0.276,0.373,0.091,0.001
+guitarloot:Scores/Miscellaneous/BranleSN.Gtr.AS,guitarloot,Jakup Polak,"Branle I, de St. Nicolas",6,delcamp:guitarloot,7,dummy-v0,0.003,0.267,0.308,0.316,0.103,0.002
+guitarloot:Scores/Miscellaneous/Courante2c.Gtr.AS,guitarloot,Jakub Polak,Courante 2c,6,delcamp:guitarloot,8,dummy-v0,0.001,0.115,0.242,0.183,0.450,0.010
+guitarloot:Scores/Miscellaneous/Fantasia04,guitarloot,Jakub Polak,Fantasia 04,6,delcamp:guitarloot,6,dummy-v0,0.018,0.142,0.381,0.229,0.230,0.000
+guitarloot:Scores/Miscellaneous/Fantasia14Gtr,guitarloot,Jakub Polak,Fantasia 14,6,delcamp:guitarloot,8,dummy-v0,0.002,0.266,0.170,0.225,0.333,0.004
+guitarloot:Scores/Miscellaneous/FantasiaAdGtrAS,guitarloot,Emmanuel Adriaenssen,Fantasia No. 1,7,delcamp:guitarloot,6,dummy-v0,0.079,0.102,0.385,0.325,0.091,0.017
+guitarloot:Scores/Miscellaneous/Fillette1PAGtr,guitarloot,Jakub Polak,Une Jeune Fillette,6,delcamp:guitarloot,7,dummy-v0,0.001,0.008,0.307,0.663,0.020,0.000
+guitarloot:Scores/Miscellaneous/Fillette2PAGtr,guitarloot,Jakub Polak,Une Jeune Fillette,6,delcamp:guitarloot,7,dummy-v0,0.007,0.058,0.387,0.409,0.138,0.000
+guitarloot:Scores/Miscellaneous/Galliard1ArrAS,guitarloot,Jakub Polak,Galliard 1,6,delcamp:guitarloot,8,dummy-v0,0.009,0.087,0.346,0.181,0.351,0.025
+guitarloot:Scores/Miscellaneous/Galliard2Gtr,guitarloot,Jakub Polak,Galliard 2,6,delcamp:guitarloot,5,dummy-v0,0.010,0.365,0.268,0.164,0.193,0.001
+guitarloot:Scores/Miscellaneous/Galliard3AGtr.iPad,guitarloot,Jacob Polak,Galliard 3,6,delcamp:guitarloot,7,dummy-v0,0.002,0.249,0.204,0.397,0.144,0.004
+guitarloot:Scores/Miscellaneous/GrayGtr,guitarloot,John Coprario,Gray's Inn the First,8,delcamp:guitarloot,5,dummy-v0,0.013,0.436,0.310,0.110,0.119,0.012
+guitarloot:Scores/Miscellaneous/Preludium1,guitarloot,Jakub Polak,Preludium 1,6,delcamp:guitarloot,7,dummy-v0,0.000,0.303,0.240,0.384,0.073,0.000
+guitarloot:Scores/Miscellaneous/Preludium3Gtr,guitarloot,Jakub Polak,Preludium 3,6,delcamp:guitarloot,8,dummy-v0,0.035,0.160,0.284,0.150,0.370,0.002
+guitarloot:Scores/Miscellaneous/SarabandegtrfAS,guitarloot,Jakub Polak,Sarabande,6,delcamp:guitarloot,7,dummy-v0,0.000,0.150,0.226,0.432,0.192,0.001
+guitarloot:Scores/Miscellaneous/SarabandegtriPad,guitarloot,Jakub Polak,Sarabande,6,delcamp:guitarloot,7,dummy-v0,0.000,0.147,0.223,0.441,0.189,0.000
+guitarloot:Scores/Miscellaneous/Volte2.Gtr.AS,guitarloot,Jakub Polak,Volte 2,6,delcamp:guitarloot,8,dummy-v0,0.004,0.223,0.256,0.225,0.292,0.001
+guitarloot:Scores/Miscellaneous/Volte6Gtr,guitarloot,Jakub Polak,Volte 6,6,delcamp:guitarloot,5,dummy-v0,0.002,0.451,0.247,0.160,0.140,0.001
+guitarloot:Scores/OtherMusic/10AirGtr,guitarloot,Henry Purcell,Air,7,delcamp:guitarloot,5,dummy-v0,0.001,0.523,0.117,0.359,0.000,0.000
+guitarloot:Scores/OtherMusic/174IrishDumpGtr,guitarloot,Anon,The Irish Dumpe,7,delcamp:guitarloot,8,dummy-v0,0.002,0.162,0.278,0.256,0.301,0.000
+guitarloot:Scores/OtherMusic/41.CorantGtr,guitarloot,Henry Purcell,Corant,7,delcamp:guitarloot,5,dummy-v0,0.000,0.666,0.069,0.265,0.000,0.000
+guitarloot:Scores/OtherMusic/42.AlmandGtr,guitarloot,Henry Purcell,Almand,7,delcamp:guitarloot,5,dummy-v0,0.008,0.537,0.222,0.214,0.020,0.000
+guitarloot:Scores/OtherMusic/AireDminGtr,guitarloot,Henry Purcell,Aire in D minor,7,delcamp:guitarloot,7,dummy-v0,0.004,0.392,0.143,0.461,0.000,0.000
+guitarloot:Scores/OtherMusic/ChaconneBDGtrAS,guitarloot,Joseph Bodin de Boismortier,Chaconne,7,delcamp:guitarloot,7,dummy-v0,0.000,0.038,0.223,0.557,0.161,0.020
+guitarloot:Scores/OtherMusic/Dido2GtrD,guitarloot,Henry Purcell,Dido's Lament,7,delcamp:guitarloot,6,dummy-v0,0.000,0.034,0.610,0.296,0.055,0.004
+guitarloot:Scores/OtherMusic/GroundGamutGtrAS,guitarloot,Henry Purcell,A Ground in Gamut,7,delcamp:guitarloot,5,dummy-v0,0.001,0.494,0.216,0.288,0.001,0.000
+guitarloot:Scores/OtherMusic/HornpipeGtr,guitarloot,Daniel Purcell,Hornpipe,7,delcamp:guitarloot,6,dummy-v0,0.031,0.259,0.350,0.174,0.186,0.000
+guitarloot:Scores/OtherMusic/MinuetGtr,guitarloot,Daniel Purcell,Minuet,7,delcamp:guitarloot,8,dummy-v0,0.008,0.248,0.268,0.172,0.305,0.000
+guitarloot:Scores/OtherMusic/Sarabande%20D'AmourGtrArr,guitarloot,Dieterich Buxtehude,Sarabande d'Amour,7,delcamp:guitarloot,8,dummy-v0,0.004,0.262,0.235,0.176,0.322,0.000
+guitarloot:Scores/OtherMusic/SarabandeiPad,guitarloot,Daniel Purcell,Sarabande,7,delcamp:guitarloot,5,dummy-v0,0.033,0.445,0.248,0.085,0.189,0.001
+guitarloot:Scores/OtherMusic/SefauchiGtrArr,guitarloot,Henry Purcell,Sefauchi's Farewell,7,delcamp:guitarloot,8,dummy-v0,0.032,0.189,0.254,0.182,0.342,0.000
+guitarloot:Scores/ScotsMusic/BeckGreenSleevesGtr.iPad,guitarloot,"Balcarres Lute Book, ""Mr. Beck""",Greensleeves,6,delcamp:guitarloot,7,dummy-v0,0.000,0.217,0.257,0.264,0.262,0.000
+guitarloot:Scores/ScotsMusic/BeckTarphickenGtr,guitarloot,"Balcarres Lute Book, ""Mr. Beck""",Tarphicken,6,delcamp:guitarloot,5,dummy-v0,0.005,0.511,0.223,0.169,0.088,0.004
+guitarloot:Scores/ScotsMusic/BobBeckGtr.iPad,guitarloot,"Balcarres Lute Book, ""Mr. Beck""","When she came in, she bobbed",6,delcamp:guitarloot,5,dummy-v0,0.002,0.673,0.134,0.191,0.000,0.001
+guitarloot:Scores/ScotsMusic/BuckSarabCombGtr,guitarloot,Balcarres Lute Book,Buckingham's Saraband,6,delcamp:guitarloot,9,dummy-v0,0.019,0.060,0.275,0.141,0.168,0.338
+guitarloot:Scores/ScotsMusic/CanarioBalcarresAS,guitarloot,John McLauchland,"The Canaries, the old way",6,delcamp:guitarloot,8,dummy-v0,0.073,0.227,0.222,0.070,0.401,0.008
+guitarloot:Scores/ScotsMusic/HelenD.iPad,guitarloot,David Grieve,I wish I were where Helen Lies,6,delcamp:guitarloot,5,dummy-v0,0.027,0.475,0.285,0.089,0.123,0.001
+guitarloot:Scores/ScotsMusic/JeanMoreBalcarresAS,guitarloot,Balcarres Lute Book,"Minuet Jean More, Mr Beck's Way",6,delcamp:guitarloot,8,dummy-v0,0.001,0.267,0.203,0.186,0.342,0.000
+guitarloot:Scores/ScotsMusic/TweedsydeGtrD,guitarloot,'Mr Beck' - Balcarrers Lute Book,Tweedsyde,6,delcamp:guitarloot,6,dummy-v0,0.000,0.000,0.954,0.046,0.000,0.000
+guitarloot:Scores/SpanishMusic/Payssanos2.iPad,guitarloot,Santiago de Murcia,Payssanos,7,delcamp:guitarloot,8,dummy-v0,0.003,0.257,0.160,0.125,0.393,0.063
+guitarloot:Scores/Trios/SuiteV.Eminor.Marais.Gtrs,guitarloot,Marin Marais,Suite in E minor,,,7,dummy-v0,0.328,0.060,0.277,0.334,0.000,0.000
+mutopia:ftp/AguadoD/O11/aguado-op11n01/aguado-op11n01#movement01,mutopia,D. Aguado,Les Favorites,,,7,dummy-v0,0.000,0.134,0.155,0.603,0.108,0.000
+mutopia:ftp/AguadoD/O11/aguado-op11n02/aguado-op11n02#movement01,mutopia,D. Aguado,Les Favorites,,,7,dummy-v0,0.000,0.207,0.266,0.459,0.068,0.000
+mutopia:ftp/AguadoD/O11/aguado-op11n03/aguado-op11n03#movement01,mutopia,D. Aguado,Les Favorites,,,7,dummy-v0,0.000,0.185,0.174,0.582,0.059,0.000
+mutopia:ftp/AguadoD/O11/aguado-op11n04/aguado-op11n04#movement01,mutopia,D. Aguado,Les Favorites,,,7,dummy-v0,0.000,0.190,0.205,0.550,0.055,0.000
+mutopia:ftp/AguadoD/O11/aguado-op11n05/aguado-op11n05#movement01,mutopia,D. Aguado,Les Favorites,,,7,dummy-v0,0.000,0.148,0.191,0.575,0.086,0.000
+mutopia:ftp/AguadoD/O11/aguado-op11n06/aguado-op11n06#movement01,mutopia,D. Aguado,Les Favorites,,,7,dummy-v0,0.001,0.313,0.264,0.352,0.071,0.000
+mutopia:ftp/AguadoD/O11/aguado-op11n07/aguado-op11n07#movement01,mutopia,D. Aguado,Les Favorites,,,7,dummy-v0,0.000,0.118,0.272,0.571,0.040,0.000
+mutopia:ftp/AguadoD/O11/aguado-op11n08/aguado-op11n08#movement01,mutopia,D. Aguado,Les Favorites,,,7,dummy-v0,0.000,0.138,0.148,0.588,0.126,0.000
+mutopia:ftp/AguadoD/O11/aguado-op11n09/aguado-op11n09#movement01,mutopia,D. Aguado,Les Favorites,,,7,dummy-v0,0.000,0.139,0.228,0.582,0.051,0.000
+mutopia:ftp/AguadoD/O11/aguado-op11n10/aguado-op11n10#movement01,mutopia,D. Aguado,Les Favorites,,,5,dummy-v0,0.002,0.576,0.191,0.213,0.017,0.000
+mutopia:ftp/AguadoD/O3/aguado-op03n01/aguado-op03n01#movement01,mutopia,D. Aguado,8 Petites Pièces,,,7,dummy-v0,0.000,0.106,0.161,0.651,0.082,0.000
+mutopia:ftp/AguadoD/O3/aguado-op03n02/aguado-op03n02#movement01,mutopia,D. Aguado,8 Petites Pièces,,,7,dummy-v0,0.000,0.119,0.154,0.634,0.093,0.000
+mutopia:ftp/AguadoD/O3/aguado-op03n03/aguado-op03n03#movement01,mutopia,D. Aguado,8 Petites Pièces,,,7,dummy-v0,0.005,0.382,0.102,0.398,0.113,0.000
+mutopia:ftp/AguadoD/O3/aguado-op03n04/aguado-op03n04#movement01,mutopia,D. Aguado,8 Petites Pièces,,,5,dummy-v0,0.013,0.428,0.179,0.350,0.029,0.000
+mutopia:ftp/AguadoD/O3/aguado-op03n05/aguado-op03n05#movement01,mutopia,D. Aguado,8 Petites Pièces,,,7,dummy-v0,0.000,0.052,0.123,0.766,0.059,0.000
+mutopia:ftp/AguadoD/O3/aguado-op03n07/aguado-op03n07#movement01,mutopia,D. Aguado,8 Petites Pièces,,,7,dummy-v0,0.003,0.332,0.225,0.368,0.072,0.000
+mutopia:ftp/AguadoD/O3/aguado-op03n08/aguado-op03n08#movement01,mutopia,D. Aguado,8 Petites Pièces,,,7,dummy-v0,0.000,0.127,0.132,0.527,0.214,0.000
+mutopia:ftp/AguadoD/O4/AguadoOp4No1/AguadoOp4No1#movement01,mutopia,Dionisio Aguado,"Six Petites Pièces, No. 1",5,dummy-advisor-v0,3,dummy-v0,0.625,0.285,0.021,0.044,0.025,0.000
+mutopia:ftp/AguadoD/O4/AguadoOp4No1/AguadoOp4No1#movement02,mutopia,Dionisio Aguado,"Six Petites Pièces, No. 1",6,dummy-advisor-v0,5,dummy-v0,0.165,0.558,0.150,0.096,0.030,0.000
+mutopia:ftp/AguadoD/O4/AguadoOp4No2/AguadoOp4No2#movement01,mutopia,Dionisio Aguado,"Six Petites Pièces, No. 2",5,dummy-advisor-v0,7,dummy-v0,0.099,0.255,0.152,0.290,0.203,0.000
+mutopia:ftp/AguadoD/O4/AguadoOp4No2/AguadoOp4No2#movement02,mutopia,Dionisio Aguado,"Six Petites Pièces, No. 2",6,dummy-advisor-v0,7,dummy-v0,0.000,0.113,0.115,0.577,0.196,0.000
+mutopia:ftp/AguadoD/O4/AguadoOp4No3/AguadoOp4No3#movement03,mutopia,Dionisio Aguado,Six Petites Pièces,6,dummy-advisor-v0,5,dummy-v0,0.020,0.562,0.174,0.160,0.084,0.000
+mutopia:ftp/AguadoD/O4/AguadoOp4No3/AguadoOp4No3#movement04,mutopia,Dionisio Aguado,Six Petites Pièces,5,dummy-advisor-v0,5,dummy-v0,0.009,0.597,0.160,0.192,0.042,0.000
+mutopia:ftp/AguadoD/O4/AguadoOp4No4/AguadoOp4No4#movement03,mutopia,Dionisio Aguado,"Six Petites Pièces, No. 4",5,dummy-advisor-v0,5,dummy-v0,0.085,0.649,0.137,0.098,0.030,0.000
+mutopia:ftp/AguadoD/O4/AguadoOp4No4/AguadoOp4No4#movement04,mutopia,Dionisio Aguado,"Six Petites Pièces, No. 4",6,dummy-advisor-v0,5,dummy-v0,0.011,0.586,0.155,0.179,0.069,0.000
+mutopia:ftp/AguadoD/O4/AguadoOp4No5/AguadoOp4No5#movement03,mutopia,Dionisio Aguado,Six Petites Pièces,3,dummy-advisor-v0,3,dummy-v0,0.740,0.254,0.005,0.001,0.000,0.000
+mutopia:ftp/AguadoD/O4/AguadoOp4No5/AguadoOp4No5#movement04,mutopia,Dionisio Aguado,Six Petites Pièces,,,7,dummy-v0,0.000,0.185,0.174,0.596,0.046,0.000
+mutopia:ftp/AguadoD/O4/AguadoOp4No6/AguadoOp4No6#movement02,mutopia,Dionisio Aguado,"Six Petites Pièces, No. 6",,,7,dummy-v0,0.000,0.248,0.244,0.498,0.010,0.000
+mutopia:ftp/AguadoD/aminor-study/aminor-study#movement01,mutopia,Dionisio Aguado,Study in A Minor,3,dummy-advisor-v0,3,dummy-v0,0.994,0.001,0.002,0.001,0.001,0.000
+mutopia:ftp/AguadoD/g-major-allegro/g-major-allegro#movement01,mutopia,D. Aguado,Allegro,,,7,dummy-v0,0.000,0.105,0.148,0.692,0.055,0.000
+mutopia:ftp/Anonymous/spanish-romance/spanish-romance#movement01,mutopia,Anonymous,Spanish Romance,5,dummy-advisor-v0,5,dummy-v0,0.000,0.857,0.066,0.058,0.019,0.000
+mutopia:ftp/BachJS/BWV1006a/bwv-1006a_1g/bwv-1006a_1g#movement01,mutopia,Johann Sebastian Bach,Suite E-Dur - BWV 1006a,6,dummy-advisor-v0,6,dummy-v0,0.384,0.076,0.488,0.048,0.003,0.001
+mutopia:ftp/BachJS/BWV1006a/bwv-1006a_2g/bwv-1006a_2g#movement01,mutopia,Johann Sebastian Bach,Suite E-Dur - BWV 1006a,6,dummy-advisor-v0,6,dummy-v0,0.000,0.000,0.999,0.001,0.000,0.000
+mutopia:ftp/BachJS/BWV1006a/bwv-1006a_3g/bwv-1006a_3g#movement01,mutopia,Johann Sebastian Bach,Suite E-Dur - BWV 1006a,7,dummy-advisor-v0,6,dummy-v0,0.005,0.031,0.833,0.116,0.015,0.001
+mutopia:ftp/BachJS/BWV1006a/bwv-1006a_4g/bwv-1006a_4g#movement01,mutopia,Johann Sebastian Bach,Suite E-Dur - BWV 1006a,,,6,dummy-v0,0.005,0.090,0.729,0.122,0.048,0.006
+mutopia:ftp/BachJS/BWV1006a/bwv-1006a_5g/bwv-1006a_5g#movement01,mutopia,Johann Sebastian Bach,Suite E-Dur - Suite BWV 1006a,,,5,dummy-v0,0.018,0.369,0.296,0.169,0.145,0.003
+mutopia:ftp/BachJS/BWV1006a/bwv-1006a_6g/bwv-1006a_6g#movement01,mutopia,Johann Sebastian Bach,Suite E-Dur - Suite BWV 1006a,,,6,dummy-v0,0.244,0.212,0.278,0.087,0.178,0.002
+mutopia:ftp/BachJS/BWV1006a/bwv-1006a_7g/bwv-1006a_7g#movement01,mutopia,Johann Sebastian Bach,Suite E-Dur - Suite BWV 1006a,,,3,dummy-v0,0.345,0.246,0.229,0.065,0.105,0.010
+mutopia:ftp/BachJS/BWV997/bwv997-01prelude/bwv997-01prelude#movement01,mutopia,Johann Sebastian Bach,Suite in C Minor for Lute (trans. to A minor),,,6,dummy-v0,0.000,0.000,0.988,0.011,0.000,0.000
+mutopia:ftp/BachJS/BWV997/bwv997-02fuga/bwv997-02fuga#movement01,mutopia,Johann Sebastian Bach,Suite in C Minor for Lute (trans. to A minor),,,3,dummy-v0,0.751,0.159,0.071,0.019,0.000,0.000
+mutopia:ftp/BachJS/BWV997/bwv997-03sarabande/bwv997-03sarabande#movement01,mutopia,Johann Sebastian Bach,Suite in C Minor for Lute (trans. to A minor),,,6,dummy-v0,0.132,0.264,0.298,0.216,0.079,0.010
+mutopia:ftp/BachJS/BWV997/bwv997-04gigue/bwv997-04gigue#movement01,mutopia,Johann Sebastian Bach,Suite in C Minor for Lute (trans. to A minor),,,6,dummy-v0,0.000,0.000,0.938,0.061,0.000,0.000
+mutopia:ftp/BachJS/BWV997/bwv997-05double/bwv997-05double#movement01,mutopia,Johann Sebastian Bach,Suite in C Minor for Lute (trans. to A minor),,,3,dummy-v0,0.832,0.140,0.019,0.009,0.001,0.000
+mutopia:ftp/BachJS/BWV999/Bach_Prelude_BWV999/Bach_Prelude_BWV999#movement01,mutopia,J.S. Bach,Prelude,5,dummy-advisor-v0,5,dummy-v0,0.406,0.411,0.118,0.052,0.013,0.000
+mutopia:ftp/BrahmsJ/O39/brahms-vals3/brahms-vals3#movement01,mutopia,J. Brahms,Vals no. 3,,,3,dummy-v0,0.582,0.335,0.053,0.014,0.016,0.000
+mutopia:ftp/BrahmsJ/O39/brahms-vals3/brahms-vals3#movement02,mutopia,J. Brahms,Vals no. 3,,,3,dummy-v0,0.496,0.474,0.022,0.004,0.003,0.000
+mutopia:ftp/BrahmsJ/O39/brahms-vals9/brahms-vals9#movement01,mutopia,J. Brahms,Vals no. 9,,,5,dummy-v0,0.003,0.714,0.151,0.075,0.056,0.000
+mutopia:ftp/BrahmsJ/O39/brahms-vals9/brahms-vals9#movement02,mutopia,J. Brahms,Vals no. 9,,,5,dummy-v0,0.004,0.862,0.094,0.026,0.014,0.000
+mutopia:ftp/CarcassiM/O26/carcassi-op26-01/carcassi-op26-01#movement01,mutopia,Mateo Carcassi,Six Caprices,,,5,dummy-v0,0.137,0.336,0.303,0.202,0.022,0.000
+mutopia:ftp/CarcassiM/O26/carcassi-op26-03/carcassi-op26-03#movement01,mutopia,Mateo Carcassi,Six Caprices,,,3,dummy-v0,0.321,0.222,0.292,0.141,0.024,0.000
+mutopia:ftp/CarcassiM/O26/carcassi-op26-04/carcassi-op26-04#movement01,mutopia,Mateo Carcassi,Six Caprices,,,6,dummy-v0,0.263,0.126,0.440,0.148,0.023,0.000
+mutopia:ftp/CarcassiM/O26/carcassi-op26-05/carcassi-op26-05#movement01,mutopia,Mateo Carcassi,Six Caprices,,,3,dummy-v0,0.930,0.014,0.032,0.017,0.008,0.000
+mutopia:ftp/CarcassiM/O26/carcassi-op26-06/carcassi-op26-06#movement01,mutopia,Mateo Carcassi,Caprice No. 6,,,3,dummy-v0,0.971,0.011,0.011,0.005,0.001,0.000
+mutopia:ftp/CarcassiM/O60/carcassi-op60-01/carcassi-op60-01#movement02,mutopia,Matteo Carcassi,Etude 1,,,3,dummy-v0,0.715,0.269,0.015,0.001,0.000,0.000
+mutopia:ftp/CarcassiM/O60/carcassi-op60-02/carcassi-op60-02#movement01,mutopia,Mateo Carcassi,Etude 2,,,3,dummy-v0,0.997,0.001,0.001,0.000,0.001,0.000
+mutopia:ftp/CarcassiM/O60/carcassi-op60-03/carcassi-op60-03#movement02,mutopia,Matteo Carcassi,Etude 3,,,3,dummy-v0,0.831,0.156,0.009,0.003,0.001,0.001
+mutopia:ftp/CarcassiM/O60/carcassi-op60-04/carcassi-op60-04#movement01,mutopia,Mateo Carcassi,Etude 4,,,5,dummy-v0,0.157,0.443,0.136,0.176,0.088,0.000
+mutopia:ftp/CarcassiM/O60/carcassi-op60-05/carcassi-op60-05#movement01,mutopia,Mateo Carcassi,Etude 5,,,5,dummy-v0,0.039,0.622,0.216,0.085,0.037,0.000
+mutopia:ftp/CarcassiM/O60/carcassi-op60-06/carcassi-op60-06#movement01,mutopia,Mateo Carcassi,Etude 6,,,3,dummy-v0,0.893,0.084,0.017,0.004,0.001,0.000
+mutopia:ftp/CarcassiM/O60/carcassi-op60-07/carcassi-op60-07#movement01,mutopia,Matteo Carcassi,Etude 7,,,3,dummy-v0,0.999,0.001,0.000,0.000,0.000,0.000
+mutopia:ftp/CarcassiM/O60/carcassi-op60-08/carcassi-op60-08#movement01,mutopia,Matteo Carcassi,Etude 8,,,3,dummy-v0,0.938,0.060,0.002,0.000,0.000,0.000
+mutopia:ftp/CarcassiM/O60/carcassi-op60-10/carcassi-op60-10#movement01,mutopia,Mateo Carcassi,Etude 10,,,7,dummy-v0,0.000,0.203,0.214,0.349,0.235,0.000
+mutopia:ftp/CarcassiM/O60/carcassi-op60-11/carcassi-op60-11#movement01,mutopia,Mateo Carcassi,Etude 11,,,3,dummy-v0,0.728,0.128,0.081,0.052,0.011,0.000
+mutopia:ftp/CarcassiM/O60/carcassi-op60-12/carcassi-op60-12#movement01,mutopia,Mateo Carcassi,Etude 12,,,3,dummy-v0,0.981,0.002,0.011,0.003,0.002,0.000
+mutopia:ftp/CarcassiM/O60/carcassi-op60-13/carcassi-op60-13#movement01,mutopia,Mateo Carcassi,Etude 13,,,7,dummy-v0,0.000,0.395,0.185,0.397,0.022,0.000
+mutopia:ftp/CarcassiM/O60/carcassi-op60-14/carcassi-op60-14#movement01,mutopia,Mateo Carcassi,Etude 14,,,5,dummy-v0,0.073,0.422,0.221,0.169,0.115,0.000
+mutopia:ftp/CarcassiM/O60/carcassi-op60-16/carcassi-op60-16#movement01,mutopia,Mateo Carcassi,Etude 16,,,3,dummy-v0,0.327,0.226,0.286,0.096,0.065,0.000
+mutopia:ftp/CarcassiM/O60/carcassi-op60-17/carcassi-op60-17#movement01,mutopia,Mateo Carcassi,Etude 17,,,3,dummy-v0,0.788,0.145,0.049,0.013,0.005,0.000
+mutopia:ftp/CarcassiM/O60/carcassi-op60-18/carcassi-op60-18#movement01,mutopia,Mateo Carcassi,Etude 18,,,5,dummy-v0,0.015,0.568,0.221,0.121,0.075,0.000
+mutopia:ftp/CarcassiM/O60/carcassi-op60-19/carcassi-op60-19#movement01,mutopia,Mateo Carcassi,Etude 19,,,3,dummy-v0,0.402,0.115,0.252,0.158,0.074,0.000
+mutopia:ftp/CarcassiM/O60/carcassi-op60-20/carcassi-op60-20#movement01,mutopia,Mateo Carcassi,Etude 20,,,5,dummy-v0,0.250,0.388,0.212,0.104,0.046,0.000
+mutopia:ftp/CarcassiM/O60/carcassi-op60-21/carcassi-op60-21#movement01,mutopia,Mateo Carcassi,Etude 21,,,7,dummy-v0,0.000,0.121,0.019,0.858,0.002,0.000
+mutopia:ftp/CarcassiM/O60/carcassi-op60-22/carcassi-op60-22#movement01,mutopia,Mateo Carcassi,Etude 22,,,3,dummy-v0,0.985,0.014,0.001,0.000,0.000,0.000
+mutopia:ftp/CarcassiM/O60/carcassi-op60-23/carcassi-op60-23#movement01,mutopia,Mateo Carcassi,Etude 23,,,8,dummy-v0,0.054,0.059,0.210,0.310,0.368,0.000
+mutopia:ftp/CarcassiM/O60/carcassi-op60-24/carcassi-op60-24#movement01,mutopia,Mateo Carcassi,Etude 24,,,7,dummy-v0,0.008,0.320,0.178,0.401,0.093,0.000
+mutopia:ftp/CarcassiM/O60/carcassi-op60-25/carcassi-op60-25#movement01,mutopia,Mateo Carcassi,Etude 25,,,6,dummy-v0,0.106,0.200,0.373,0.202,0.120,0.000
+mutopia:ftp/FaureG/O78/faure-sicilienne-guitare-doigtee/faure-sicilienne-guitare-doigtee#movement01,mutopia,Gabriel Fauré,Sicilienne (Op 78),,,5,dummy-v0,0.047,0.576,0.179,0.121,0.078,0.000
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No1/GiulianiOp100No1#movement01,mutopia,Mauro Giuliani,24 Studies for the Guitar,,,3,dummy-v0,0.993,0.006,0.001,0.000,0.000,0.000
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No10/GiulianiOp100No10#movement01,mutopia,Mauro Giuliani,24 Studies for the Guitar,,,5,dummy-v0,0.303,0.486,0.129,0.073,0.010,0.000
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No11/GiulianiOp100No11#movement01,mutopia,Mauro Giuliani,24 Studies for the Guitar,,,3,dummy-v0,0.819,0.063,0.076,0.030,0.013,0.000
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No12/GiulianiOp100No12#movement01,mutopia,Mauro Giuliani,24 Studies for the Guitar,,,3,dummy-v0,0.589,0.153,0.167,0.063,0.028,0.000
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No13/GiulianiOp100No13#movement01,mutopia,Mauro Giuliani,24 Studies for the Guitar,,,6,dummy-v0,0.011,0.322,0.435,0.187,0.045,0.000
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No14/GiulianiOp100No14#movement01,mutopia,Mauro Giuliani,24 Studies for the Guitar,,,3,dummy-v0,0.364,0.283,0.214,0.106,0.033,0.000
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No15/GiulianiOp100No15#movement01,mutopia,Mauro Giuliani,24 Studies for the Guitar,,,7,dummy-v0,0.003,0.223,0.368,0.383,0.022,0.000
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No16/GiulianiOp100No16#movement01,mutopia,Mauro Giuliani,24 Studies for the Guitar,,,5,dummy-v0,0.069,0.410,0.315,0.193,0.013,0.000
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No17/GiulianiOp100No17#movement01,mutopia,Mauro Giuliani,24 Studies for the Guitar,,,6,dummy-v0,0.000,0.000,0.982,0.018,0.000,0.000
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No18/GiulianiOp100No18#movement01,mutopia,Mauro Giuliani,24 Studies for the Guitar,,,5,dummy-v0,0.452,0.530,0.014,0.004,0.001,0.000
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No19/GiulianiOp100No19#movement01,mutopia,Mauro Giuliani,24 Studies for the Guitar,,,3,dummy-v0,0.391,0.240,0.201,0.076,0.092,0.000
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No2/GiulianiOp100No2#movement01,mutopia,Mauro Giuliani,24 Studies for the Guitar,,,5,dummy-v0,0.211,0.485,0.183,0.077,0.044,0.000
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No20/GiulianiOp100No20#movement01,mutopia,Mauro Giuliani,24 Studies for the Guitar,,,5,dummy-v0,0.189,0.698,0.051,0.029,0.031,0.000
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No21/GiulianiOp100No21#movement01,mutopia,Mauro Giuliani,24 Studies for the Guitar,,,5,dummy-v0,0.021,0.521,0.294,0.096,0.068,0.000
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No22/GiulianiOp100No22#movement01,mutopia,Mauro Giuliani,24 Studies for the Guitar,,,3,dummy-v0,0.812,0.106,0.052,0.018,0.012,0.000
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No23/GiulianiOp100No23#movement01,mutopia,Mauro Giuliani,24 Studies for the Guitar,,,3,dummy-v0,0.452,0.217,0.165,0.112,0.054,0.000
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No24/GiulianiOp100No24#movement01,mutopia,Mauro Giuliani,24 Studies for the Guitar,,,5,dummy-v0,0.064,0.651,0.188,0.071,0.027,0.000
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No3/GiulianiOp100No3#movement01,mutopia,Mauro Giuliani,24 Studies for the Guitar,,,3,dummy-v0,0.791,0.091,0.072,0.025,0.020,0.000
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No4/GiulianiOp100No4#movement01,mutopia,Mauro Giuliani,24 Studies for the Guitar,,,3,dummy-v0,0.716,0.123,0.080,0.056,0.025,0.000
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No5/GiulianiOp100No5#movement01,mutopia,Mauro Giuliani,24 Studies for the Guitar,,,3,dummy-v0,0.506,0.217,0.153,0.067,0.057,0.000
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No6/GiulianiOp100No6#movement01,mutopia,Mauro Giuliani,24 Studies for the Guitar,,,3,dummy-v0,0.451,0.307,0.149,0.064,0.029,0.000
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No7/GiulianiOp100No7#movement01,mutopia,Mauro Giuliani,24 Studies for the Guitar,,,5,dummy-v0,0.311,0.359,0.215,0.093,0.021,0.000
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No8/GiulianiOp100No8#movement01,mutopia,Mauro Giuliani,24 Studies for the Guitar,3,dummy-advisor-v0,3,dummy-v0,0.544,0.185,0.170,0.076,0.025,0.000
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No9/GiulianiOp100No9#movement01,mutopia,Mauro Giuliani,24 Studies for the Guitar,,,5,dummy-v0,0.270,0.397,0.171,0.106,0.056,0.000
+mutopia:ftp/GiulianiM/O59/giuliani-op59n01/giuliani-op59n01#movement01,mutopia,Mauro Giuliani,16 Studies for the Guitar,,,5,dummy-v0,0.103,0.762,0.097,0.034,0.003,0.000
+mutopia:ftp/GiulianiM/O59/giuliani-op59n02/giuliani-op59n02#movement01,mutopia,Mauro Giuliani,16 Studies for the Guitar,,,5,dummy-v0,0.412,0.427,0.097,0.052,0.012,0.000
+mutopia:ftp/GiulianiM/O59/giuliani-op59n03/giuliani-op59n03#movement01,mutopia,Mauro Giuliani,16 Studies for the Guitar,,,5,dummy-v0,0.165,0.516,0.177,0.106,0.035,0.000
+mutopia:ftp/GiulianiM/O59/giuliani-op59n04/giuliani-op59n04#movement01,mutopia,Mauro Giuliani,16 Studies for the Guitar,,,3,dummy-v0,0.577,0.290,0.087,0.035,0.011,0.000
+mutopia:ftp/GiulianiM/O59/giuliani-op59n05/giuliani-op59n05#movement01,mutopia,Mauro Giuliani,16 Studies for the Guitar,,,3,dummy-v0,0.873,0.117,0.007,0.003,0.001,0.000
+mutopia:ftp/GiulianiM/O59/giuliani-op59n06/giuliani-op59n06#movement01,mutopia,Mauro Giuliani,16 Studies for the Guitar,,,3,dummy-v0,0.421,0.340,0.141,0.064,0.034,0.000
+mutopia:ftp/GiulianiM/O59/giuliani-op59n07/giuliani-op59n07#movement01,mutopia,Mauro Giuliani,16 Studies for the Guitar,,,5,dummy-v0,0.334,0.420,0.159,0.068,0.020,0.000
+mutopia:ftp/GiulianiM/O59/giuliani-op59n08/giuliani-op59n08#movement01,mutopia,Mauro Giuliani,16 Studies for the Guitar,,,5,dummy-v0,0.332,0.436,0.131,0.072,0.029,0.000
+mutopia:ftp/GiulianiM/O59/giuliani-op59n09/giuliani-op59n09#movement01,mutopia,Mauro Giuliani,16 Studies for the Guitar,,,5,dummy-v0,0.176,0.466,0.178,0.124,0.056,0.000
+mutopia:ftp/GiulianiM/O59/giuliani-op59n10/giuliani-op59n10#movement01,mutopia,Mauro Giuliani,16 Studies for the Guitar,,,5,dummy-v0,0.147,0.637,0.139,0.059,0.018,0.000
+mutopia:ftp/GiulianiM/O59/giuliani-op59n11/giuliani-op59n11#movement01,mutopia,Mauro Giuliani,16 Studies for the Guitar,,,5,dummy-v0,0.338,0.455,0.158,0.043,0.007,0.000
+mutopia:ftp/GiulianiM/O59/giuliani-op59n13/giuliani-op59n13#movement01,mutopia,Mauro Giuliani,16 Studies for the Guitar,,,5,dummy-v0,0.097,0.519,0.203,0.094,0.086,0.000
+mutopia:ftp/GiulianiM/O59/giuliani-op59n15/giuliani-op59n15#movement01,mutopia,Mauro Giuliani,16 Studies for the Guitar,,,5,dummy-v0,0.141,0.459,0.265,0.122,0.013,0.000
+mutopia:ftp/GiulianiM/O59/giuliani-op59n16/giuliani-op59n16#movement01,mutopia,Mauro Giuliani,16 Studies for the Guitar,,,5,dummy-v0,0.086,0.635,0.184,0.078,0.017,0.000
+mutopia:ftp/HoretzkyF/horetzky1/horetzky1#movement01,mutopia,Felix Horetzky,Nº. 1. March by Rossini.,,,8,dummy-v0,0.016,0.180,0.207,0.260,0.336,0.001
+mutopia:ftp/HoretzkyF/horetzky1/horetzky1#movement02,mutopia,Felix Horetzky,Nº. 1. March by Rossini.,,,8,dummy-v0,0.016,0.180,0.207,0.260,0.336,0.001
+mutopia:ftp/HoretzkyF/horetzky10/horetzky10#movement01,mutopia,Felix Horetzky,Nº. 10. Untitled.,,,6,dummy-v0,0.023,0.207,0.415,0.179,0.175,0.000
+mutopia:ftp/HoretzkyF/horetzky10/horetzky10#movement02,mutopia,Felix Horetzky,Nº. 10. Untitled.,,,5,dummy-v0,0.051,0.440,0.396,0.070,0.042,0.000
+mutopia:ftp/HoretzkyF/horetzky11/horetzky11#movement01,mutopia,Felix Horetzky,Nº. 11. German Air.,,,8,dummy-v0,0.007,0.219,0.239,0.205,0.327,0.003
+mutopia:ftp/HoretzkyF/horetzky11/horetzky11#movement02,mutopia,Felix Horetzky,Nº. 11. German Air.,,,8,dummy-v0,0.007,0.219,0.239,0.205,0.327,0.003
+mutopia:ftp/HoretzkyF/horetzky12/horetzky12#movement01,mutopia,Felix Horetzky,Nº. 12. Russian Hymn.,,,6,dummy-v0,0.012,0.377,0.394,0.124,0.093,0.000
+mutopia:ftp/HoretzkyF/horetzky12/horetzky12#movement02,mutopia,Felix Horetzky,Nº. 12. Russian Hymn.,,,6,dummy-v0,0.012,0.377,0.394,0.124,0.093,0.000
+mutopia:ftp/HoretzkyF/horetzky13/horetzky13#movement01,mutopia,Felix Horetzky,"Nº. 13. John Anderson, My Jo.",,,5,dummy-v0,0.006,0.384,0.244,0.169,0.191,0.006
+mutopia:ftp/HoretzkyF/horetzky13/horetzky13#movement02,mutopia,Felix Horetzky,"Nº. 13. John Anderson, My Jo.",,,5,dummy-v0,0.006,0.384,0.244,0.169,0.191,0.006
+mutopia:ftp/HoretzkyF/horetzky14/horetzky14#movement01,mutopia,Felix Horetzky,Nº. 14. Tyrolian Air.,,,5,dummy-v0,0.001,0.483,0.319,0.104,0.093,0.000
+mutopia:ftp/HoretzkyF/horetzky14/horetzky14#movement02,mutopia,Felix Horetzky,Nº. 14. Tyrolian Air.,,,5,dummy-v0,0.001,0.483,0.319,0.104,0.093,0.000
+mutopia:ftp/HoretzkyF/horetzky15/horetzky15#movement01,mutopia,Felix Horetzky,Nº. 15. Danish Air.,,,3,dummy-v0,0.362,0.273,0.217,0.066,0.082,0.000
+mutopia:ftp/HoretzkyF/horetzky15/horetzky15#movement02,mutopia,Felix Horetzky,Nº. 15. Danish Air.,,,3,dummy-v0,0.362,0.273,0.217,0.066,0.082,0.000
+mutopia:ftp/HoretzkyF/horetzky16/horetzky16#movement01,mutopia,Felix Horetzky,Nº. 16. Cherubini's Air.,,,5,dummy-v0,0.035,0.329,0.327,0.145,0.164,0.001
+mutopia:ftp/HoretzkyF/horetzky16/horetzky16#movement02,mutopia,Felix Horetzky,Nº. 16. Cherubini's Air.,,,5,dummy-v0,0.035,0.329,0.327,0.145,0.164,0.001
+mutopia:ftp/HoretzkyF/horetzky17/horetzky17#movement01,mutopia,Felix Horetzky,Nº. 17. Polish Hymn.,,,5,dummy-v0,0.178,0.390,0.288,0.064,0.079,0.000
+mutopia:ftp/HoretzkyF/horetzky17/horetzky17#movement02,mutopia,Felix Horetzky,Nº. 17. Polish Hymn.,,,5,dummy-v0,0.178,0.390,0.288,0.064,0.079,0.000
+mutopia:ftp/HoretzkyF/horetzky18/horetzky18#movement01,mutopia,Felix Horetzky,Nº. 18. Kelvin Grove.,,,6,dummy-v0,0.126,0.151,0.593,0.080,0.050,0.000
+mutopia:ftp/HoretzkyF/horetzky18/horetzky18#movement02,mutopia,Felix Horetzky,Nº. 18. Kelvin Grove.,,,6,dummy-v0,0.126,0.151,0.593,0.080,0.050,0.000
+mutopia:ftp/HoretzkyF/horetzky19/horetzky19#movement01,mutopia,Felix Horetzky,Nº. 19. Podolian Air.,,,5,dummy-v0,0.027,0.320,0.287,0.204,0.162,0.000
+mutopia:ftp/HoretzkyF/horetzky19/horetzky19#movement02,mutopia,Felix Horetzky,Nº. 19. Podolian Air.,,,5,dummy-v0,0.027,0.320,0.287,0.204,0.162,0.000
+mutopia:ftp/HoretzkyF/horetzky2/horetzky2#movement01,mutopia,Felix Horetzky,Nº. 2. Russian Air.,,,5,dummy-v0,0.007,0.426,0.342,0.152,0.073,0.000
+mutopia:ftp/HoretzkyF/horetzky2/horetzky2#movement02,mutopia,Felix Horetzky,Nº. 2. Russian Air.,,,5,dummy-v0,0.004,0.488,0.312,0.142,0.053,0.000
+mutopia:ftp/HoretzkyF/horetzky20/horetzky20#movement01,mutopia,Felix Horetzky,Nº. 20. Fra Tante Angoscie.,,,6,dummy-v0,0.009,0.245,0.560,0.150,0.035,0.000
+mutopia:ftp/HoretzkyF/horetzky20/horetzky20#movement02,mutopia,Felix Horetzky,Nº. 20. Fra Tante Angoscie.,,,6,dummy-v0,0.009,0.245,0.560,0.150,0.035,0.000
+mutopia:ftp/HoretzkyF/horetzky21/horetzky21#movement01,mutopia,Felix Horetzky,Nº. 21. Au Clair De la Lune.,,,5,dummy-v0,0.255,0.308,0.300,0.064,0.073,0.000
+mutopia:ftp/HoretzkyF/horetzky21/horetzky21#movement02,mutopia,Felix Horetzky,Nº. 21. Au Clair De la Lune.,,,5,dummy-v0,0.255,0.308,0.300,0.064,0.073,0.000
+mutopia:ftp/HoretzkyF/horetzky22/horetzky22#movement01,mutopia,Felix Horetzky,Nº. 22. Dutch Air.,,,5,dummy-v0,0.184,0.395,0.287,0.065,0.069,0.000
+mutopia:ftp/HoretzkyF/horetzky22/horetzky22#movement02,mutopia,Felix Horetzky,Nº. 22. Dutch Air.,,,5,dummy-v0,0.184,0.395,0.287,0.065,0.069,0.000
+mutopia:ftp/HoretzkyF/horetzky23/horetzky23#movement01,mutopia,Felix Horetzky,Nº. 23. Portuguese Hymn.,,,5,dummy-v0,0.102,0.458,0.315,0.061,0.065,0.000
+mutopia:ftp/HoretzkyF/horetzky23/horetzky23#movement02,mutopia,Felix Horetzky,Nº. 23. Portuguese Hymn.,,,5,dummy-v0,0.102,0.458,0.315,0.061,0.065,0.000
+mutopia:ftp/HoretzkyF/horetzky24/horetzky24#movement01,mutopia,Felix Horetzky,Nº. 24. Air by Gelinek.,,,5,dummy-v0,0.004,0.423,0.227,0.216,0.130,0.000
+mutopia:ftp/HoretzkyF/horetzky24/horetzky24#movement02,mutopia,Felix Horetzky,Nº. 24. Air by Gelinek.,,,5,dummy-v0,0.004,0.423,0.227,0.216,0.130,0.000
+mutopia:ftp/HoretzkyF/horetzky25/horetzky25#movement01,mutopia,Felix Horetzky,Nº. 25. Pyrenese Melody.,,,5,dummy-v0,0.003,0.340,0.318,0.200,0.139,0.000
+mutopia:ftp/HoretzkyF/horetzky25/horetzky25#movement02,mutopia,Felix Horetzky,Nº. 25. Pyrenese Melody.,,,5,dummy-v0,0.003,0.340,0.318,0.200,0.139,0.000
+mutopia:ftp/HoretzkyF/horetzky26/horetzky26#movement01,mutopia,Felix Horetzky,Nº. 26. Polish Air.,,,8,dummy-v0,0.174,0.224,0.209,0.102,0.290,0.001
+mutopia:ftp/HoretzkyF/horetzky26/horetzky26#movement02,mutopia,Felix Horetzky,Nº. 26. Polish Air.,,,8,dummy-v0,0.174,0.224,0.209,0.102,0.290,0.001
+mutopia:ftp/HoretzkyF/horetzky27/horetzky27#movement01,mutopia,Felix Horetzky,Nº. 27. Scotch Air.,,,5,dummy-v0,0.093,0.358,0.245,0.122,0.161,0.022
+mutopia:ftp/HoretzkyF/horetzky27/horetzky27#movement02,mutopia,Felix Horetzky,Nº. 27. Scotch Air.,,,5,dummy-v0,0.093,0.358,0.245,0.122,0.161,0.022
+mutopia:ftp/HoretzkyF/horetzky28/horetzky28#movement01,mutopia,Felix Horetzky,Nº. 28. Pleyel's Hymn.,,,5,dummy-v0,0.054,0.412,0.317,0.070,0.147,0.000
+mutopia:ftp/HoretzkyF/horetzky28/horetzky28#movement02,mutopia,Felix Horetzky,Nº. 28. Pleyel's Hymn.,,,5,dummy-v0,0.054,0.412,0.317,0.070,0.147,0.000
+mutopia:ftp/HoretzkyF/horetzky29/horetzky29#movement01,mutopia,Felix Horetzky,Nº. 29. Scotch Air. “Donald.”,,,7,dummy-v0,0.005,0.252,0.268,0.292,0.160,0.024
+mutopia:ftp/HoretzkyF/horetzky29/horetzky29#movement02,mutopia,Felix Horetzky,Nº. 29. Scotch Air. “Donald.”,,,7,dummy-v0,0.005,0.252,0.268,0.292,0.160,0.024
+mutopia:ftp/HoretzkyF/horetzky3/horetzky3#movement01,mutopia,Felix Horetzky,Nº. 3. Andante by Beethoven.,,,7,dummy-v0,0.004,0.218,0.227,0.279,0.267,0.003
+mutopia:ftp/HoretzkyF/horetzky3/horetzky3#movement02,mutopia,Felix Horetzky,Nº. 3. Andante by Beethoven.,,,7,dummy-v0,0.004,0.218,0.227,0.279,0.267,0.003
+mutopia:ftp/HoretzkyF/horetzky30/horetzky30#movement01,mutopia,Felix Horetzky,Nº. 30. Sicilian Mariner's Hymn,,,5,dummy-v0,0.054,0.438,0.247,0.093,0.168,0.001
+mutopia:ftp/HoretzkyF/horetzky30/horetzky30#movement02,mutopia,Felix Horetzky,Nº. 30. Sicilian Mariner's Hymn,,,5,dummy-v0,0.054,0.438,0.247,0.093,0.168,0.001
+mutopia:ftp/HoretzkyF/horetzky31/horetzky31#movement01,mutopia,Felix Horetzky,Nº. 31. Auld Lang Syne.,,,6,dummy-v0,0.020,0.322,0.363,0.088,0.204,0.005
+mutopia:ftp/HoretzkyF/horetzky31/horetzky31#movement02,mutopia,Felix Horetzky,Nº. 31. Auld Lang Syne.,,,6,dummy-v0,0.020,0.322,0.363,0.088,0.204,0.005
+mutopia:ftp/HoretzkyF/horetzky32/horetzky32#movement01,mutopia,Felix Horetzky,Nº. 32. German Air.,,,8,dummy-v0,0.108,0.141,0.250,0.175,0.327,0.000
+mutopia:ftp/HoretzkyF/horetzky32/horetzky32#movement02,mutopia,Felix Horetzky,Nº. 32. German Air.,,,8,dummy-v0,0.108,0.141,0.250,0.175,0.327,0.000
+mutopia:ftp/HoretzkyF/horetzky33/horetzky33#movement01,mutopia,Felix Horetzky,Nº. 33. Scots Wha Hae Wi' Wallace Bled.,,,5,dummy-v0,0.085,0.425,0.381,0.059,0.050,0.001
+mutopia:ftp/HoretzkyF/horetzky33/horetzky33#movement02,mutopia,Felix Horetzky,Nº. 33. Scots Wha Hae Wi' Wallace Bled.,,,5,dummy-v0,0.085,0.425,0.381,0.059,0.050,0.001
+mutopia:ftp/HoretzkyF/horetzky34/horetzky34#movement01,mutopia,Felix Horetzky,Nº. 34. Vive Henri Quatre.,,,5,dummy-v0,0.058,0.424,0.369,0.064,0.084,0.001
+mutopia:ftp/HoretzkyF/horetzky34/horetzky34#movement02,mutopia,Felix Horetzky,Nº. 34. Vive Henri Quatre.,,,5,dummy-v0,0.058,0.424,0.369,0.064,0.084,0.001
+mutopia:ftp/HoretzkyF/horetzky35/horetzky35#movement01,mutopia,Felix Horetzky,Nº. 35. Air from the Ballet of Nina.,,,8,dummy-v0,0.016,0.162,0.221,0.164,0.401,0.034
+mutopia:ftp/HoretzkyF/horetzky35/horetzky35#movement02,mutopia,Felix Horetzky,Nº. 35. Air from the Ballet of Nina.,,,8,dummy-v0,0.016,0.162,0.221,0.164,0.401,0.034
+mutopia:ftp/HoretzkyF/horetzky36/horetzky36#movement01,mutopia,Felix Horetzky,Nº. 36. Danish Air.,,,6,dummy-v0,0.019,0.143,0.360,0.195,0.283,0.000
+mutopia:ftp/HoretzkyF/horetzky36/horetzky36#movement02,mutopia,Felix Horetzky,Nº. 36. Danish Air.,,,6,dummy-v0,0.019,0.143,0.360,0.195,0.283,0.000
+mutopia:ftp/HoretzkyF/horetzky37/horetzky37#movement01,mutopia,Felix Horetzky,Nº. 37. Post Horn Waltz.,,,5,dummy-v0,0.006,0.603,0.289,0.058,0.043,0.001
+mutopia:ftp/HoretzkyF/horetzky37/horetzky37#movement02,mutopia,Felix Horetzky,Nº. 37. Post Horn Waltz.,,,5,dummy-v0,0.006,0.603,0.289,0.058,0.043,0.001
+mutopia:ftp/HoretzkyF/horetzky38/horetzky38#movement01,mutopia,Felix Horetzky,Nº. 38. Old German Air.,,,5,dummy-v0,0.071,0.313,0.293,0.115,0.208,0.000
+mutopia:ftp/HoretzkyF/horetzky38/horetzky38#movement02,mutopia,Felix Horetzky,Nº. 38. Old German Air.,,,5,dummy-v0,0.071,0.313,0.293,0.115,0.208,0.000
+mutopia:ftp/HoretzkyF/horetzky39/horetzky39#movement01,mutopia,Felix Horetzky,Nº. 39. Air.,,,5,dummy-v0,0.086,0.275,0.240,0.122,0.260,0.017
+mutopia:ftp/HoretzkyF/horetzky39/horetzky39#movement02,mutopia,Felix Horetzky,Nº. 39. Air.,,,5,dummy-v0,0.086,0.275,0.240,0.122,0.260,0.017
+mutopia:ftp/HoretzkyF/horetzky4/horetzky4#movement01,mutopia,Felix Horetzky,Nº. 4. The Last Rose of Summer.,,,5,dummy-v0,0.016,0.501,0.217,0.184,0.081,0.000
+mutopia:ftp/HoretzkyF/horetzky4/horetzky4#movement02,mutopia,Felix Horetzky,Nº. 4. The Last Rose of Summer.,,,5,dummy-v0,0.016,0.501,0.217,0.184,0.081,0.000
+mutopia:ftp/HoretzkyF/horetzky40/horetzky40#movement01,mutopia,Felix Horetzky,Nº. 40. Polish Air . Krakoviak.,,,7,dummy-v0,0.022,0.262,0.229,0.292,0.194,0.000
+mutopia:ftp/HoretzkyF/horetzky40/horetzky40#movement02,mutopia,Felix Horetzky,Nº. 40. Polish Air . Krakoviak.,,,7,dummy-v0,0.022,0.262,0.229,0.292,0.194,0.000
+mutopia:ftp/HoretzkyF/horetzky41/horetzky41#movement01,mutopia,Felix Horetzky,Nº. 41. Scotch Air.,,,6,dummy-v0,0.034,0.215,0.315,0.220,0.210,0.006
+mutopia:ftp/HoretzkyF/horetzky41/horetzky41#movement02,mutopia,Felix Horetzky,Nº. 41. Scotch Air.,,,6,dummy-v0,0.034,0.215,0.315,0.220,0.210,0.006
+mutopia:ftp/HoretzkyF/horetzky42/horetzky42#movement01,mutopia,Felix Horetzky,Nº. 42. Swedish Air.,,,5,dummy-v0,0.034,0.394,0.366,0.081,0.125,0.001
+mutopia:ftp/HoretzkyF/horetzky42/horetzky42#movement02,mutopia,Felix Horetzky,Nº. 42. Swedish Air.,,,5,dummy-v0,0.034,0.394,0.366,0.081,0.125,0.001
+mutopia:ftp/HoretzkyF/horetzky43/horetzky43#movement01,mutopia,Felix Horetzky,Nº. 43. Danish Air.,,,6,dummy-v0,0.019,0.209,0.424,0.168,0.178,0.002
+mutopia:ftp/HoretzkyF/horetzky43/horetzky43#movement02,mutopia,Felix Horetzky,Nº. 43. Danish Air.,,,6,dummy-v0,0.019,0.209,0.424,0.168,0.178,0.002
+mutopia:ftp/HoretzkyF/horetzky44/horetzky44#movement01,mutopia,Felix Horetzky,"Nº. 44. Il Pleut, Il Pleut, Bergère.",,,6,dummy-v0,0.172,0.198,0.282,0.088,0.254,0.005
+mutopia:ftp/HoretzkyF/horetzky44/horetzky44#movement02,mutopia,Felix Horetzky,"Nº. 44. Il Pleut, Il Pleut, Bergère.",,,6,dummy-v0,0.172,0.198,0.282,0.088,0.254,0.005
+mutopia:ftp/HoretzkyF/horetzky45/horetzky45#movement01,mutopia,Felix Horetzky,Nº. 45. Rule Britannia.,,,6,dummy-v0,0.068,0.231,0.502,0.104,0.093,0.002
+mutopia:ftp/HoretzkyF/horetzky45/horetzky45#movement02,mutopia,Felix Horetzky,Nº. 45. Rule Britannia.,,,6,dummy-v0,0.068,0.231,0.502,0.104,0.093,0.002
+mutopia:ftp/HoretzkyF/horetzky46/horetzky46#movement01,mutopia,Felix Horetzky,Nº. 46. “C'est L'Amour” a French Air.,,,3,dummy-v0,0.378,0.220,0.309,0.052,0.041,0.000
+mutopia:ftp/HoretzkyF/horetzky46/horetzky46#movement02,mutopia,Felix Horetzky,Nº. 46. “C'est L'Amour” a French Air.,,,3,dummy-v0,0.378,0.220,0.309,0.052,0.041,0.000
+mutopia:ftp/HoretzkyF/horetzky47/horetzky47#movement01,mutopia,Felix Horetzky,Nº. 47. Scotch Air.,,,5,dummy-v0,0.212,0.393,0.198,0.098,0.098,0.001
+mutopia:ftp/HoretzkyF/horetzky47/horetzky47#movement02,mutopia,Felix Horetzky,Nº. 47. Scotch Air.,,,5,dummy-v0,0.212,0.393,0.198,0.098,0.098,0.001
+mutopia:ftp/HoretzkyF/horetzky48/horetzky48#movement01,mutopia,Felix Horetzky,Nº. 48. An Alexis.,,,6,dummy-v0,0.166,0.219,0.251,0.115,0.249,0.000
+mutopia:ftp/HoretzkyF/horetzky48/horetzky48#movement02,mutopia,Felix Horetzky,Nº. 48. An Alexis.,,,6,dummy-v0,0.166,0.219,0.251,0.115,0.249,0.000
+mutopia:ftp/HoretzkyF/horetzky49/horetzky49#movement01,mutopia,Felix Horetzky,Nº. 49. March by Rossini.,,,6,dummy-v0,0.000,0.031,0.783,0.130,0.053,0.003
+mutopia:ftp/HoretzkyF/horetzky49/horetzky49#movement02,mutopia,Felix Horetzky,Nº. 49. March by Rossini.,,,6,dummy-v0,0.000,0.031,0.783,0.130,0.053,0.003
+mutopia:ftp/HoretzkyF/horetzky5/horetzky5#movement01,mutopia,Felix Horetzky,Nº. 5. French Air.,,,5,dummy-v0,0.039,0.453,0.281,0.099,0.127,0.001
+mutopia:ftp/HoretzkyF/horetzky5/horetzky5#movement02,mutopia,Felix Horetzky,Nº. 5. French Air.,,,5,dummy-v0,0.039,0.453,0.281,0.099,0.127,0.001
+mutopia:ftp/HoretzkyF/horetzky50/horetzky50#movement01,mutopia,Felix Horetzky,Nº. 50. Je Suis Lindor.,,,6,dummy-v0,0.027,0.251,0.318,0.206,0.198,0.000
+mutopia:ftp/HoretzkyF/horetzky50/horetzky50#movement02,mutopia,Felix Horetzky,Nº. 50. Je Suis Lindor.,,,6,dummy-v0,0.027,0.251,0.318,0.206,0.198,0.000
+mutopia:ftp/HoretzkyF/horetzky51/horetzky51#movement01,mutopia,Felix Horetzky,Nº. 51. Scotch Air. Kelso.,,,3,dummy-v0,0.379,0.264,0.170,0.059,0.128,0.000
+mutopia:ftp/HoretzkyF/horetzky51/horetzky51#movement02,mutopia,Felix Horetzky,Nº. 51. Scotch Air. Kelso.,,,3,dummy-v0,0.379,0.264,0.170,0.059,0.128,0.000
+mutopia:ftp/HoretzkyF/horetzky52/horetzky52#movement01,mutopia,Felix Horetzky,Nº. 52. Polish Air. Krakoviak.,,,5,dummy-v0,0.070,0.388,0.304,0.106,0.133,0.000
+mutopia:ftp/HoretzkyF/horetzky52/horetzky52#movement02,mutopia,Felix Horetzky,Nº. 52. Polish Air. Krakoviak.,,,5,dummy-v0,0.070,0.388,0.304,0.106,0.133,0.000
+mutopia:ftp/HoretzkyF/horetzky53/horetzky53#movement01,mutopia,Felix Horetzky,Nº. 53. German Air.,,,6,dummy-v0,0.003,0.204,0.287,0.273,0.232,0.001
+mutopia:ftp/HoretzkyF/horetzky53/horetzky53#movement02,mutopia,Felix Horetzky,Nº. 53. German Air.,,,6,dummy-v0,0.003,0.204,0.287,0.273,0.232,0.001
+mutopia:ftp/HoretzkyF/horetzky54/horetzky54#movement01,mutopia,Felix Horetzky,Nº. 54. March by Gallenberg.,,,5,dummy-v0,0.040,0.442,0.353,0.074,0.089,0.001
+mutopia:ftp/HoretzkyF/horetzky54/horetzky54#movement02,mutopia,Felix Horetzky,Nº. 54. March by Gallenberg.,,,5,dummy-v0,0.040,0.442,0.353,0.074,0.089,0.001
+mutopia:ftp/HoretzkyF/horetzky55/horetzky55#movement01,mutopia,Felix Horetzky,Nº. 55. Rousseau's Dream.,,,6,dummy-v0,0.038,0.136,0.378,0.165,0.277,0.006
+mutopia:ftp/HoretzkyF/horetzky55/horetzky55#movement02,mutopia,Felix Horetzky,Nº. 55. Rousseau's Dream.,,,6,dummy-v0,0.038,0.136,0.378,0.165,0.277,0.006
+mutopia:ftp/HoretzkyF/horetzky56/horetzky56#movement01,mutopia,Felix Horetzky,Nº. 56. Chanson Des Marseillois.,,,6,dummy-v0,0.118,0.181,0.471,0.128,0.102,0.000
+mutopia:ftp/HoretzkyF/horetzky56/horetzky56#movement02,mutopia,Felix Horetzky,Nº. 56. Chanson Des Marseillois.,,,6,dummy-v0,0.118,0.181,0.471,0.128,0.102,0.000
+mutopia:ftp/HoretzkyF/horetzky57/horetzky57#movement01,mutopia,Felix Horetzky,Nº. 57. Old Saxon Air.,,,8,dummy-v0,0.206,0.227,0.150,0.128,0.286,0.003
+mutopia:ftp/HoretzkyF/horetzky57/horetzky57#movement02,mutopia,Felix Horetzky,Nº. 57. Old Saxon Air.,,,8,dummy-v0,0.206,0.227,0.150,0.128,0.286,0.003
+mutopia:ftp/HoretzkyF/horetzky58/horetzky58#movement01,mutopia,Felix Horetzky,Nº. 58. Sul Margine D'un Rio.,,,3,dummy-v0,0.434,0.241,0.197,0.071,0.057,0.000
+mutopia:ftp/HoretzkyF/horetzky58/horetzky58#movement02,mutopia,Felix Horetzky,Nº. 58. Sul Margine D'un Rio.,,,3,dummy-v0,0.434,0.241,0.197,0.071,0.057,0.000
+mutopia:ftp/HoretzkyF/horetzky59/horetzky59#movement01,mutopia,Felix Horetzky,Nº. 59. Venetian Air. “La Biondina”.,,,8,dummy-v0,0.297,0.114,0.176,0.084,0.327,0.002
+mutopia:ftp/HoretzkyF/horetzky59/horetzky59#movement02,mutopia,Felix Horetzky,Nº. 59. Venetian Air. “La Biondina”.,,,8,dummy-v0,0.297,0.114,0.176,0.084,0.327,0.002
+mutopia:ftp/HoretzkyF/horetzky6/horetzky6#movement01,mutopia,Felix Horetzky,Nº. 6. Un Noel.,,,6,dummy-v0,0.220,0.270,0.304,0.081,0.125,0.000
+mutopia:ftp/HoretzkyF/horetzky6/horetzky6#movement02,mutopia,Felix Horetzky,Nº. 6. Un Noel.,,,6,dummy-v0,0.220,0.270,0.304,0.081,0.125,0.000
+mutopia:ftp/HoretzkyF/horetzky60/horetzky60#movement01,mutopia,Felix Horetzky,Nº. 60. Care Pupille By Blangini.,,,6,dummy-v0,0.011,0.119,0.470,0.239,0.160,0.000
+mutopia:ftp/HoretzkyF/horetzky60/horetzky60#movement02,mutopia,Felix Horetzky,Nº. 60. Care Pupille By Blangini.,,,6,dummy-v0,0.011,0.119,0.470,0.239,0.160,0.000
+mutopia:ftp/HoretzkyF/horetzky7/horetzky7#movement01,mutopia,Felix Horetzky,Nº. 7. Le Petit Tambour.,,,6,dummy-v0,0.049,0.261,0.299,0.224,0.165,0.000
+mutopia:ftp/HoretzkyF/horetzky7/horetzky7#movement02,mutopia,Felix Horetzky,Nº. 7. Le Petit Tambour.,,,6,dummy-v0,0.049,0.261,0.299,0.224,0.165,0.000
+mutopia:ftp/HoretzkyF/horetzky8/horetzky8#movement01,mutopia,Felix Horetzky,Nº. 8. Russian Air.,,,6,dummy-v0,0.167,0.267,0.343,0.092,0.131,0.000
+mutopia:ftp/HoretzkyF/horetzky8/horetzky8#movement02,mutopia,Felix Horetzky,Nº. 8. Russian Air.,,,6,dummy-v0,0.167,0.267,0.343,0.092,0.131,0.000
+mutopia:ftp/HoretzkyF/horetzky9/horetzky9#movement01,mutopia,Felix Horetzky,Nº. 9. Polish National Air.,,,6,dummy-v0,0.052,0.190,0.346,0.182,0.230,0.000
+mutopia:ftp/HoretzkyF/horetzky9/horetzky9#movement02,mutopia,Felix Horetzky,Nº. 9. Polish National Air.,,,6,dummy-v0,0.052,0.190,0.346,0.182,0.230,0.000
+mutopia:ftp/JolyD/JolyD_Tyrolienne/JolyD_Tyrolienne#movement02,mutopia,D. Joly,Tyrolienne,,,5,dummy-v0,0.049,0.460,0.141,0.153,0.197,0.000
+mutopia:ftp/KnjzeF/SixStudiesA/SixStudiesA#movement01,mutopia,Frantisek Max Knjze,Six Progressive Studies,,,6,dummy-v0,0.000,0.340,0.505,0.123,0.032,0.000
+mutopia:ftp/KnjzeF/SixStudiesA/SixStudiesA#movement02,mutopia,Frantisek Max Knjze,Six Progressive Studies,,,6,dummy-v0,0.000,0.340,0.505,0.123,0.032,0.000
+mutopia:ftp/KnjzeF/SixStudiesB/SixStudiesB#movement01,mutopia,Frantisek Max Knjze,Six Progressive Studies,,,6,dummy-v0,0.002,0.216,0.444,0.214,0.125,0.000
+mutopia:ftp/KnjzeF/SixStudiesB/SixStudiesB#movement02,mutopia,Frantisek Max Knjze,Six Progressive Studies,,,6,dummy-v0,0.002,0.216,0.444,0.214,0.125,0.000
+mutopia:ftp/KnjzeF/SixStudiesC/SixStudiesC#movement01,mutopia,Frantisek Max Knjze,Six Progressive Studies,,,3,dummy-v0,0.694,0.080,0.142,0.048,0.036,0.000
+mutopia:ftp/KnjzeF/SixStudiesC/SixStudiesC#movement02,mutopia,Frantisek Max Knjze,Six Progressive Studies,,,3,dummy-v0,0.694,0.080,0.142,0.048,0.036,0.000
+mutopia:ftp/KnjzeF/SixStudiesD/SixStudiesD#movement01,mutopia,Frantisek Max Knjze,Six Progressive Studies,,,6,dummy-v0,0.011,0.340,0.441,0.132,0.076,0.000
+mutopia:ftp/KnjzeF/SixStudiesD/SixStudiesD#movement02,mutopia,Frantisek Max Knjze,Six Progressive Studies,,,6,dummy-v0,0.011,0.340,0.441,0.132,0.076,0.000
+mutopia:ftp/KnjzeF/SixStudiesE/SixStudiesE#movement01,mutopia,Frantisek Max Knjze,Six Progressive Studies,,,6,dummy-v0,0.000,0.341,0.416,0.170,0.074,0.000
+mutopia:ftp/KnjzeF/SixStudiesE/SixStudiesE#movement02,mutopia,Frantisek Max Knjze,Six Progressive Studies,,,6,dummy-v0,0.000,0.341,0.416,0.170,0.074,0.000
+mutopia:ftp/KnjzeF/knjze12monferA/knjze12monferA#movement01,mutopia,Frantisek Max Knjze,Twelve Monferrine,,,5,dummy-v0,0.020,0.401,0.257,0.124,0.196,0.002
+mutopia:ftp/KnjzeF/knjze12monferA/knjze12monferA#movement02,mutopia,Frantisek Max Knjze,Twelve Monferrine,,,5,dummy-v0,0.020,0.401,0.257,0.124,0.196,0.002
+mutopia:ftp/KnjzeF/knjze12monferB/knjze12monferB#movement01,mutopia,Frantisek Max Knjze,Twelve Monferrine,,,6,dummy-v0,0.069,0.305,0.323,0.109,0.193,0.000
+mutopia:ftp/KnjzeF/knjze12monferB/knjze12monferB#movement02,mutopia,Frantisek Max Knjze,Twelve Monferrine,,,6,dummy-v0,0.069,0.305,0.323,0.109,0.193,0.000
+mutopia:ftp/KnjzeF/knjze12monferC/knjze12monferC#movement01,mutopia,Frantisek Max Knjze,Twelve Monferrine,,,5,dummy-v0,0.064,0.349,0.348,0.103,0.135,0.000
+mutopia:ftp/KnjzeF/knjze12monferC/knjze12monferC#movement02,mutopia,Frantisek Max Knjze,Twelve Monferrine,,,5,dummy-v0,0.064,0.349,0.348,0.103,0.135,0.000
+mutopia:ftp/KnjzeF/knjze12monferD/knjze12monferD#movement01,mutopia,Frantisek Max Knjze,Twelve Monferrine,,,5,dummy-v0,0.079,0.420,0.317,0.072,0.111,0.001
+mutopia:ftp/KnjzeF/knjze12monferD/knjze12monferD#movement02,mutopia,Frantisek Max Knjze,Twelve Monferrine,,,5,dummy-v0,0.079,0.420,0.317,0.072,0.111,0.001
+mutopia:ftp/KnjzeF/knjze12monferE/knjze12monferE#movement01,mutopia,Frantisek Max Knjze,Twelve Monferrine,,,6,dummy-v0,0.033,0.369,0.375,0.103,0.119,0.001
+mutopia:ftp/KnjzeF/knjze12monferE/knjze12monferE#movement02,mutopia,Frantisek Max Knjze,Twelve Monferrine,,,6,dummy-v0,0.033,0.369,0.375,0.103,0.119,0.001
+mutopia:ftp/KnjzeF/knjze12monferF/knjze12monferF#movement01,mutopia,Frantisek Max Knjze,Twelve Monferrine,,,6,dummy-v0,0.258,0.240,0.259,0.061,0.181,0.001
+mutopia:ftp/KnjzeF/knjze12monferF/knjze12monferF#movement02,mutopia,Frantisek Max Knjze,Twelve Monferrine,,,6,dummy-v0,0.258,0.240,0.259,0.061,0.181,0.001
+mutopia:ftp/KnjzeF/knjze12monferG/knjze12monferG#movement01,mutopia,Frantisek Max Knjze,Twelve Monferrine,,,5,dummy-v0,0.086,0.344,0.290,0.105,0.175,0.001
+mutopia:ftp/KnjzeF/knjze12monferG/knjze12monferG#movement02,mutopia,Frantisek Max Knjze,Twelve Monferrine,,,5,dummy-v0,0.086,0.344,0.290,0.105,0.175,0.001
+mutopia:ftp/KnjzeF/knjze12monferH/knjze12monferH#movement01,mutopia,Frantisek Max Knjze,Twelve Monferrine,,,5,dummy-v0,0.118,0.374,0.259,0.078,0.164,0.007
+mutopia:ftp/KnjzeF/knjze12monferH/knjze12monferH#movement02,mutopia,Frantisek Max Knjze,Twelve Monferrine,,,5,dummy-v0,0.118,0.374,0.259,0.078,0.164,0.007
+mutopia:ftp/KnjzeF/knjze12monferI/knjze12monferI#movement01,mutopia,Frantisek Max Knjze,Twelve Monferrine,,,5,dummy-v0,0.099,0.288,0.258,0.112,0.239,0.003
+mutopia:ftp/KnjzeF/knjze12monferI/knjze12monferI#movement02,mutopia,Frantisek Max Knjze,Twelve Monferrine,,,5,dummy-v0,0.099,0.288,0.258,0.112,0.239,0.003
+mutopia:ftp/KnjzeF/knjze12monferJ/knjze12monferJ#movement01,mutopia,Frantisek Max Knjze,Twelve Monferrine,,,5,dummy-v0,0.084,0.335,0.295,0.105,0.180,0.001
+mutopia:ftp/KnjzeF/knjze12monferJ/knjze12monferJ#movement02,mutopia,Frantisek Max Knjze,Twelve Monferrine,,,5,dummy-v0,0.084,0.335,0.295,0.105,0.180,0.001
+mutopia:ftp/KnjzeF/knjze12monferK/knjze12monferK#movement01,mutopia,Frantisek Max Knjze,Twelve Monferrine,,,5,dummy-v0,0.031,0.358,0.318,0.116,0.175,0.001
+mutopia:ftp/KnjzeF/knjze12monferK/knjze12monferK#movement02,mutopia,Frantisek Max Knjze,Twelve Monferrine,,,5,dummy-v0,0.031,0.358,0.318,0.116,0.175,0.001
+mutopia:ftp/KnjzeF/knjze12monferL/knjze12monferL#movement01,mutopia,Frantisek Max Knjze,Twelve Monferrine,,,5,dummy-v0,0.012,0.432,0.283,0.105,0.161,0.007
+mutopia:ftp/KnjzeF/knjze12monferL/knjze12monferL#movement02,mutopia,Frantisek Max Knjze,Twelve Monferrine,,,5,dummy-v0,0.012,0.432,0.283,0.105,0.161,0.007
+mutopia:ftp/KuffnerJ/air-varie/air-varie#movement01,mutopia,Joseph Küffner,Air varié,,,5,dummy-v0,0.267,0.638,0.062,0.026,0.007,0.000
+mutopia:ftp/KuffnerJ/air-varie/air-varie#movement02,mutopia,Joseph Küffner,Air varié,,,3,dummy-v0,0.742,0.138,0.065,0.043,0.012,0.000
+mutopia:ftp/KuffnerJ/air-varie/air-varie#movement03,mutopia,Joseph Küffner,Air varié,,,3,dummy-v0,0.652,0.218,0.062,0.050,0.017,0.000
+mutopia:ftp/MatiegkaWT/Matiegka2/Matiegka2#movement01,mutopia,Wenzel Thomas Matiegka,Nº. 2. Rondo,,,7,dummy-v0,0.000,0.282,0.334,0.370,0.015,0.000
+mutopia:ftp/MatiegkaWT/Matiegka2/Matiegka2#movement02,mutopia,Wenzel Thomas Matiegka,Nº. 2. Rondo,,,7,dummy-v0,0.000,0.282,0.334,0.370,0.015,0.000
+mutopia:ftp/MatiegkaWT/Matiegka3/Matiegka3#movement01,mutopia,Wenzel Thomas Matiegka,Nº. 3. Andante,,,6,dummy-v0,0.000,0.377,0.465,0.134,0.024,0.000
+mutopia:ftp/MatiegkaWT/Matiegka3/Matiegka3#movement02,mutopia,Wenzel Thomas Matiegka,Nº. 3. Andante,,,6,dummy-v0,0.000,0.377,0.465,0.134,0.024,0.000
+mutopia:ftp/MatiegkaWT/Matiegka4/Matiegka4#movement01,mutopia,Wenzel Thomas Matiegka,Nº. 4. Menuetto.,,,6,dummy-v0,0.001,0.232,0.470,0.291,0.007,0.000
+mutopia:ftp/MatiegkaWT/Matiegka4/Matiegka4#movement02,mutopia,Wenzel Thomas Matiegka,Nº. 4. Menuetto.,,,6,dummy-v0,0.001,0.232,0.470,0.291,0.007,0.000
+mutopia:ftp/MatiegkaWT/Matiegka5/Matiegka5#movement01,mutopia,Wenzel Thomas Matiegka,Nº. 5. Siciliano.,,,7,dummy-v0,0.000,0.016,0.221,0.751,0.012,0.000
+mutopia:ftp/MatiegkaWT/Matiegka5/Matiegka5#movement02,mutopia,Wenzel Thomas Matiegka,Nº. 5. Siciliano.,,,7,dummy-v0,0.000,0.016,0.221,0.751,0.012,0.000
+mutopia:ftp/MertzJK/mertz_etude/mertz_etude#movement01,mutopia,Johann Kaspar Mertz,Etude in A minor,5,dummy-advisor-v0,6,dummy-v0,0.201,0.275,0.300,0.118,0.106,0.000
+mutopia:ftp/MilanL/milan-pavan2/milan-pavan2#movement02,mutopia,Luis Milan,Pavan 2,,,6,dummy-v0,0.027,0.250,0.623,0.060,0.040,0.000
+mutopia:ftp/PapezikR/forsting/forsting#movement01,mutopia,Radan Papežík,Recuerdos,,,6,dummy-v0,0.055,0.252,0.519,0.129,0.045,0.000
+mutopia:ftp/SorF/O1/sor_op1_1/sor_op1_1#movement01,mutopia,Fernando Sor,Six divertissements pour la guitare,,,5,dummy-v0,0.015,0.485,0.304,0.150,0.047,0.000
+mutopia:ftp/SorF/O2/sor_op2_1/sor_op2_1#movement01,mutopia,Fernando Sor,Six divertissements pour la guitare,,,6,dummy-v0,0.023,0.240,0.431,0.138,0.168,0.000
+mutopia:ftp/SorF/O2/sor_op2_2/sor_op2_2#movement01,mutopia,Fernando Sor,Six divertissements pour la guitare,,,7,dummy-v0,0.001,0.243,0.180,0.444,0.132,0.000
+mutopia:ftp/SorF/O2/sor_op2_3/sor_op2_3#movement02,mutopia,Fernando Sor,Six divertissements pour la guitare,7,dummy-advisor-v0,7,dummy-v0,0.000,0.081,0.187,0.383,0.346,0.002
+mutopia:ftp/SorF/O29/o29-13/o29-13#movement01,mutopia,Fernando Sor,Opus 29 no. 13,,,7,dummy-v0,0.000,0.207,0.317,0.454,0.022,0.000
+mutopia:ftp/SorF/O35/sorf_op35_no1/sorf_op35_no1#movement01,mutopia,Fernando Sor,24 Studies for the Guitar,,,3,dummy-v0,0.909,0.077,0.011,0.002,0.001,0.000
+mutopia:ftp/SorF/O35/sorf_op35_no10/sorf_op35_no10#movement01,mutopia,Fernando Sor,24 Studies for the Guitar,,,3,dummy-v0,0.306,0.261,0.162,0.239,0.033,0.000
+mutopia:ftp/SorF/O35/sorf_op35_no11/sorf_op35_no11#movement01,mutopia,Fernando Sor,24 Studies for the Guitar,,,5,dummy-v0,0.032,0.527,0.206,0.131,0.104,0.000
+mutopia:ftp/SorF/O35/sorf_op35_no13/sorf_op35_no13#movement01,mutopia,Fernando Sor,24 Studies for the Guitar,,,3,dummy-v0,0.771,0.083,0.067,0.071,0.007,0.000
+mutopia:ftp/SorF/O35/sorf_op35_no15/sorf_op35_no15#movement01,mutopia,Fernando Sor,24 Studies for the Guitar,,,3,dummy-v0,0.320,0.277,0.155,0.134,0.113,0.000
+mutopia:ftp/SorF/O35/sorf_op35_no16/sorf_op35_no16#movement01,mutopia,Fernando Sor,24 Studies for the Guitar,7,dummy-advisor-v0,7,dummy-v0,0.009,0.248,0.313,0.358,0.072,0.000
+mutopia:ftp/SorF/O35/sorf_op35_no17/sorf_op35_no17#movement01,mutopia,Fernando Sor,24 Studies for the Guitar,,,5,dummy-v0,0.149,0.392,0.234,0.170,0.056,0.000
+mutopia:ftp/SorF/O35/sorf_op35_no18/sorf_op35_no18#movement01,mutopia,Fernando Sor,24 Studies for the Guitar,,,5,dummy-v0,0.243,0.300,0.201,0.197,0.059,0.000
+mutopia:ftp/SorF/O35/sorf_op35_no19/sorf_op35_no19#movement01,mutopia,Fernando Sor,24 Studies for the Guitar,,,5,dummy-v0,0.000,0.431,0.276,0.210,0.083,0.000
+mutopia:ftp/SorF/O35/sorf_op35_no2/sorf_op35_no2#movement01,mutopia,Fernando Sor,24 Studies for the Guitar,,,3,dummy-v0,0.759,0.196,0.032,0.011,0.002,0.000
+mutopia:ftp/SorF/O35/sorf_op35_no20/sorf_op35_no20#movement01,mutopia,Fernando Sor,24 Studies for the Guitar,,,7,dummy-v0,0.000,0.097,0.213,0.667,0.024,0.000
+mutopia:ftp/SorF/O35/sorf_op35_no21/sorf_op35_no21#movement01,mutopia,Fernando Sor,24 Studies for the Guitar,7,dummy-advisor-v0,7,dummy-v0,0.010,0.322,0.233,0.371,0.063,0.000
+mutopia:ftp/SorF/O35/sorf_op35_no22/sorf_op35_no22#movement02,mutopia,Fernando Sor,24 Studies for the Guitar,,,6,dummy-v0,0.088,0.226,0.321,0.244,0.121,0.000
+mutopia:ftp/SorF/O35/sorf_op35_no23/sorf_op35_no23#movement01,mutopia,Fernando Sor,24 Studies for the Guitar,,,5,dummy-v0,0.001,0.635,0.143,0.165,0.056,0.000
+mutopia:ftp/SorF/O35/sorf_op35_no24/sorf_op35_no24#movement01,mutopia,Fernando Sor,24 Studies for the Guitar,,,3,dummy-v0,0.973,0.004,0.013,0.009,0.002,0.000
+mutopia:ftp/SorF/O35/sorf_op35_no3/sorf_op35_no3#movement01,mutopia,Fernando Sor,24 Studies for the Guitar,,,3,dummy-v0,0.876,0.072,0.025,0.017,0.010,0.000
+mutopia:ftp/SorF/O35/sorf_op35_no4/sorf_op35_no4#movement01,mutopia,Fernando Sor,24 Studies for the Guitar,,,5,dummy-v0,0.073,0.569,0.129,0.195,0.035,0.000
+mutopia:ftp/SorF/O35/sorf_op35_no5/sorf_op35_no5#movement01,mutopia,Fernando Sor,24 Studies for the Guitar,3,dummy-advisor-v0,3,dummy-v0,0.907,0.066,0.017,0.009,0.002,0.000
+mutopia:ftp/SorF/O35/sorf_op35_no6/sorf_op35_no6#movement01,mutopia,Fernando Sor,24 Studies for the Guitar,,,5,dummy-v0,0.119,0.324,0.166,0.132,0.259,0.000
+mutopia:ftp/SorF/O35/sorf_op35_no7/sorf_op35_no7#movement01,mutopia,Fernando Sor,24 Studies for the Guitar,,,3,dummy-v0,0.889,0.011,0.042,0.030,0.028,0.000
+mutopia:ftp/SorF/O35/sorf_op35_no8/sorf_op35_no8#movement01,mutopia,Fernando Sor,24 Studies for the Guitar,,,5,dummy-v0,0.073,0.502,0.188,0.191,0.047,0.000
+mutopia:ftp/SorF/O35/sorf_op35_no9/sorf_op35_no9#movement01,mutopia,Fernando Sor,24 Studies for the Guitar,,,3,dummy-v0,0.846,0.052,0.058,0.037,0.007,0.000
+mutopia:ftp/SorF/O45/sorf-op45n01/sorf-op45n01#movement01,mutopia,F. Sor,Six Petites Pièces,,,5,dummy-v0,0.057,0.596,0.231,0.104,0.013,0.000
+mutopia:ftp/SorF/O45/sorf-op45n02/sorf-op45n02#movement01,mutopia,F. Sor,Six Petites Pièces,,,5,dummy-v0,0.021,0.448,0.160,0.326,0.046,0.000
+mutopia:ftp/SorF/O45/sorf-op45n03/sorf-op45n03#movement02,mutopia,F. Sor,Six Petites Pièces,,,3,dummy-v0,0.730,0.096,0.100,0.060,0.013,0.000
+mutopia:ftp/SorF/O45/sorf-op45n03/sorf-op45n03#movement03,mutopia,F. Sor,Six Petites Pièces,,,5,dummy-v0,0.190,0.364,0.250,0.160,0.035,0.000
+mutopia:ftp/SorF/O45/sorf-op45n03/sorf-op45n03#movement04,mutopia,F. Sor,Six Petites Pièces,,,7,dummy-v0,0.003,0.262,0.287,0.325,0.123,0.000
+mutopia:ftp/SorF/O45/sorf-op45n04/sorf-op45n04#movement01,mutopia,F. Sor,Six Petites Pièces,,,7,dummy-v0,0.001,0.199,0.260,0.499,0.041,0.000
+mutopia:ftp/SorF/O45/sorf-op45n05/sorf-op45n05#movement01,mutopia,F. Sor,Six Petites Pièces,,,7,dummy-v0,0.000,0.069,0.124,0.777,0.030,0.000
+mutopia:ftp/SorF/O5/sor-op5-5/sor-op5-5#movement01,mutopia,Fernando Sor,Andante Largo,7,dummy-advisor-v0,7,dummy-v0,0.000,0.062,0.343,0.559,0.036,0.000
+mutopia:ftp/SorF/O60/sor_op60-02/sor_op60-02#movement01,mutopia,Fernando Sor,25 Progressive Lessons,,,3,dummy-v0,0.875,0.116,0.007,0.001,0.001,0.000
+mutopia:ftp/SorF/O60/sor_op60-05/sor_op60-05#movement01,mutopia,Fernando Sor,25 Progressive Lessons,,,6,dummy-v0,0.004,0.078,0.370,0.231,0.318,0.000
+mutopia:ftp/SorF/O60/sor_op60-06/sor_op60-06#movement01,mutopia,Fernando Sor,25 Progressive Studies,3,dummy-advisor-v0,3,dummy-v0,0.774,0.217,0.004,0.003,0.001,0.000
+mutopia:ftp/SorF/O60/sor_op60-07/sor_op60-07#movement01,mutopia,Fernando Sor,25 Progressive Studies,,,3,dummy-v0,0.878,0.120,0.001,0.000,0.000,0.000
+mutopia:ftp/SorF/O60/sor_op60-08/sor_op60-08#movement01,mutopia,Fernando Sor,25 Progressive Studies,,,3,dummy-v0,0.572,0.355,0.054,0.011,0.008,0.000
+mutopia:ftp/SorF/O60/sor_op60-09/sor_op60-09#movement01,mutopia,Fernando Sor,25 Progressive Studies,,,3,dummy-v0,0.945,0.052,0.001,0.001,0.000,0.000
+mutopia:ftp/SorF/O60/sor_op60-10/sor_op60-10#movement01,mutopia,Fernando Sor,25 Progressive Studies,,,3,dummy-v0,0.943,0.056,0.001,0.000,0.000,0.000
+mutopia:ftp/SorF/O60/sor_op60-11/sor_op60-11#movement01,mutopia,Fernando Sor,25 Progressive Studies,,,5,dummy-v0,0.153,0.661,0.172,0.010,0.004,0.000
+mutopia:ftp/SorF/O60/sor_op60-12/sor_op60-12#movement01,mutopia,Fernando Sor,25 Progressive Studies,,,3,dummy-v0,0.798,0.199,0.002,0.001,0.000,0.000
+mutopia:ftp/SorF/O60/sor_op60-13/sor_op60-13#movement01,mutopia,Fernando Sor,25 Progressive Studies,,,3,dummy-v0,0.398,0.392,0.164,0.038,0.009,0.000
+mutopia:ftp/SorF/SorF_Andantino/SorF_Andantino#movement01,mutopia,Fernando Sor,Andantino,,,5,dummy-v0,0.008,0.597,0.256,0.135,0.005,0.000
+mutopia:ftp/TarregaF/capricho-arabe/capricho-arabe#movement02,mutopia,Francisco Tárrega,Capricho Árabe,7,dummy-advisor-v0,7,dummy-v0,0.000,0.007,0.003,0.989,0.001,0.000
+mutopia:ftp/TarregaF/claro-de-luna/claro-de-luna#movement02,mutopia,Arr: de F. Tárrega,CLARO DE LUNA,,,7,dummy-v0,0.000,0.002,0.088,0.910,0.000,0.000

@@ -1,0 +1,212 @@
+"""M2 — dummy advisor calibration sample (PLACEHOLDER LABELS).
+
+Produces `corpus/dummy_advisor_grades.csv`: a fixed ~50-piece set of
+non-Delcamp pieces with **synthetic** grade labels, stratified by era
+(via `m2_label_bias._era_of`) so the training pipeline has cross-era
+coverage instead of the Renaissance/Baroque-only Delcamp subset.
+
+These labels are NOT advisor judgements. They are seeded from the
+deterministic rule-based grader (`m2_baseline_grader.grade_corpus`).
+The point is to let M2 Phase 2 (training + eval) and M3 (web player)
+proceed end-to-end with all the plumbing in place, while leaving a
+single CSV that the real advisor can overwrite when they engage.
+
+Every output row carries `grade_source = "dummy-advisor-v0"` so
+downstream filters can distinguish placeholder labels from any real
+ones that land later. See decisions/0010-m2-close-with-dummy-labels.md.
+
+Usage:
+    python scripts/m2_dummy_advisor.py
+"""
+from __future__ import annotations
+
+import argparse
+import csv
+import sys
+from collections import defaultdict
+from pathlib import Path
+
+from m1_common import REPO_ROOT
+from m2_baseline_grader import grade_corpus
+from m2_label_bias import _era_of
+
+
+DEFAULT_IN_PATH = REPO_ROOT / "corpus" / "features.csv"
+DEFAULT_OUT_CSV = REPO_ROOT / "corpus" / "dummy_advisor_grades.csv"
+DEFAULT_OUT_MD = REPO_ROOT / "corpus" / "dummy_advisor_grades.md"
+
+# Target per-era count. Total ≈ sum(TARGETS). The label-bias finding
+# is that Delcamp is Renaissance/Baroque-heavy, so the dummy sample
+# leans deliberately into Classical/Romantic/Modern.
+TARGETS: dict[str, int] = {
+    "Classical": 18,
+    "Romantic": 7,
+    "Modern": 1,
+    "Baroque": 5,
+    "Renaissance": 3,
+    "Unknown": 16,  # Many Mutopia composers don't normalize cleanly;
+                   # ~250 ungraded sit in this bucket, so it carries
+                   # most of the modern/contemporary coverage by accident.
+}
+
+GRADE_SOURCE = "dummy-advisor-v0"
+
+
+def pick_sample(rows: list[dict[str, str]]) -> list[dict[str, str]]:
+    """Pick deterministic per-era stratified ungraded pieces.
+
+    Selection rule: rows without a Delcamp grade, sorted by candidate_id
+    (deterministic), taking the first N per era. Within each era,
+    spread predictions across the rule's grade bands so the model sees
+    label variance rather than one band per era.
+    """
+    enriched = grade_corpus(rows)
+    by_cid: dict[str, dict[str, str]] = {r["candidate_id"]: r for r in enriched}
+
+    ungraded: list[dict[str, str]] = [
+        r for r in rows
+        if not r.get("grade") and r["candidate_id"] in by_cid
+    ]
+
+    buckets: dict[str, list[dict[str, str]]] = defaultdict(list)
+    for r in ungraded:
+        era = _era_of(r.get("composer_normalized", "") or "")
+        buckets[era].append(r)
+
+    picked: list[dict[str, str]] = []
+    for era, target in TARGETS.items():
+        candidates = sorted(buckets.get(era, []), key=lambda r: r["candidate_id"])
+        if not candidates:
+            continue
+        # Stratify within era by baseline-grader band so the dummy
+        # sample carries label variance, not one band per era.
+        by_band: dict[str, list[dict[str, str]]] = defaultdict(list)
+        for r in candidates:
+            band = by_cid[r["candidate_id"]]["predicted_grade"] or "?"
+            by_band[band].append(r)
+        bands_sorted = sorted(by_band.keys())
+        era_picked = 0
+        while era_picked < target:
+            progressed = False
+            for band in bands_sorted:
+                if era_picked >= target:
+                    break
+                if by_band[band]:
+                    picked.append(by_band[band].pop(0))
+                    era_picked += 1
+                    progressed = True
+            if not progressed:
+                break
+
+    out: list[dict[str, str]] = []
+    for r in picked:
+        cid = r["candidate_id"]
+        baseline = by_cid[cid]
+        out.append({
+            "candidate_id": cid,
+            "source": r["source"],
+            "title": r["title"],
+            "composer_normalized": r["composer_normalized"],
+            "era": _era_of(r.get("composer_normalized", "") or ""),
+            "dummy_grade": baseline["predicted_grade"],
+            "dummy_grade_source": GRADE_SOURCE,
+            "rationale": (
+                "Seeded from baseline grader percentile-composite "
+                "(scripts/m2_baseline_grader.py); awaiting advisor overwrite."
+            ),
+        })
+    return out
+
+
+def render_report(rows: list[dict[str, str]]) -> str:
+    by_era: dict[str, list[dict[str, str]]] = defaultdict(list)
+    for r in rows:
+        by_era[r["era"]].append(r)
+    by_grade: dict[str, int] = defaultdict(int)
+    for r in rows:
+        by_grade[r["dummy_grade"]] += 1
+
+    lines: list[str] = []
+    lines.append("# Dummy advisor calibration sample (PLACEHOLDER)")
+    lines.append("")
+    lines.append(
+        "**These labels are not real.** Generated by "
+        "`scripts/m2_dummy_advisor.py` from the rule-based baseline "
+        "grader, to let M2 Phase 2 and M3 proceed end-to-end while the "
+        "actual advisor is being engaged. Replace by editing "
+        "`corpus/dummy_advisor_grades.csv` directly when real grades "
+        "arrive."
+    )
+    lines.append("")
+    lines.append(f"- Total rows: **{len(rows)}**")
+    lines.append(f"- Grade source flag: `{GRADE_SOURCE}` "
+                 f"(re-grep with `scripts/m2_apply_to_manifest.py`)")
+    lines.append("")
+    lines.append("## Per-era counts")
+    lines.append("")
+    lines.append("| era | n |")
+    lines.append("| --- | --- |")
+    for era in sorted(by_era):
+        lines.append(f"| {era} | {len(by_era[era])} |")
+    lines.append("")
+    lines.append("## Dummy grade distribution")
+    lines.append("")
+    lines.append("| dummy_grade | n |")
+    lines.append("| --- | --- |")
+    for g in sorted(by_grade):
+        lines.append(f"| G{g} | {by_grade[g]} |")
+    lines.append("")
+    lines.append("## Swap-in instructions for the advisor")
+    lines.append("")
+    lines.append("1. Open `corpus/dummy_advisor_grades.csv`.")
+    lines.append("2. Overwrite the `dummy_grade` column with your own 1–10 grades.")
+    lines.append("3. Change `dummy_grade_source` to `advisor-v1` (or similar).")
+    lines.append("4. Re-run `scripts/m2_train.py` then "
+                 "`scripts/m2_apply_to_manifest.py`.")
+    lines.append("")
+    lines.append("Nothing else in the pipeline reads the rationale column or "
+                 "the source-of-label string — both exist for traceability.")
+    lines.append("")
+    return "\n".join(lines) + "\n"
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--in-path", type=Path, default=DEFAULT_IN_PATH,
+                        dest="in_path")
+    parser.add_argument("--out-csv", type=Path, default=DEFAULT_OUT_CSV)
+    parser.add_argument("--out-md", type=Path, default=DEFAULT_OUT_MD)
+    args = parser.parse_args()
+
+    if not args.in_path.exists():
+        print(f"Missing {args.in_path}. Run scripts/m2_features.py first.",
+              file=sys.stderr)
+        return 1
+
+    with args.in_path.open(encoding="utf-8") as fh:
+        rows = list(csv.DictReader(fh))
+
+    picked = pick_sample(rows)
+    if not picked:
+        print("No ungraded pieces matched the era targets.", file=sys.stderr)
+        return 1
+
+    fieldnames = [
+        "candidate_id", "source", "title", "composer_normalized",
+        "era", "dummy_grade", "dummy_grade_source", "rationale",
+    ]
+    args.out_csv.parent.mkdir(parents=True, exist_ok=True)
+    with args.out_csv.open("w", encoding="utf-8", newline="") as fh:
+        w = csv.DictWriter(fh, fieldnames=fieldnames)
+        w.writeheader()
+        for r in picked:
+            w.writerow({k: r.get(k, "") for k in fieldnames})
+
+    args.out_md.write_text(render_report(picked), encoding="utf-8")
+    print(f"==> Wrote {len(picked)} dummy advisor rows to {args.out_csv}")
+    print(f"==> Wrote {args.out_md}")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

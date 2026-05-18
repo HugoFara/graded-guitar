@@ -62,6 +62,8 @@ COLUMNS = [
     "dotted_count",
     "tied_count",
     "tuplet_count",
+    "notes_per_measure",
+    "accidentals_outside_key",
     # polyphony (★★★)
     "max_chord_stack",
     "polyphonic_measure_ratio",
@@ -342,6 +344,89 @@ def _pitch_fingering_stats(root: etree._Element) -> dict[str, int | None]:
     }
 
 
+# Pitch-class steps that the key signature implicitly sharps/flats, keyed by
+# the MusicXML <fifths> value. Anything with an explicit <alter> on a note
+# that doesn't match the active key counts as an accidental.
+_KEY_SHARPS_ORDER = ["F", "C", "G", "D", "A", "E", "B"]
+_KEY_FLATS_ORDER = ["B", "E", "A", "D", "G", "C", "F"]
+
+
+def _expected_alter_for_key(fifths: int) -> dict[str, int]:
+    """Map pitch step → expected alter (+1/-1/0) given a key fifths value."""
+    out = {s: 0 for s in "CDEFGAB"}
+    if fifths > 0:
+        for s in _KEY_SHARPS_ORDER[: min(fifths, 7)]:
+            out[s] = 1
+    elif fifths < 0:
+        for s in _KEY_FLATS_ORDER[: min(-fifths, 7)]:
+            out[s] = -1
+    return out
+
+
+def _accidentals_outside_key(root: etree._Element) -> int:
+    """Count notes whose <alter> disagrees with the active key signature.
+
+    Tracks the current key per part as <key>/<fifths> elements appear.
+    A note with an explicit <alter> different from the key-implied alter
+    for its step counts; naturals against a sharped/flatted step also
+    count. Chromaticism load proxy — high values flag heavy modulation
+    or chromatic passagework.
+    """
+    count = 0
+    for part in root.xpath("//*[local-name()='part']"):
+        current_fifths = 0
+        expected = _expected_alter_for_key(0)
+        for el in part.iter():
+            if not isinstance(el.tag, str):
+                continue  # skip comments / processing instructions
+            tag = etree.QName(el.tag).localname
+            if tag == "fifths" and el.text:
+                try:
+                    current_fifths = int(el.text.strip())
+                except ValueError:
+                    continue
+                expected = _expected_alter_for_key(current_fifths)
+            elif tag == "note":
+                p = el.find("{*}pitch")
+                if p is None:
+                    continue
+                step_el = p.find("{*}step")
+                if step_el is None or not step_el.text:
+                    continue
+                step = step_el.text.strip().upper()
+                alter_el = p.find("{*}alter")
+                if alter_el is None or not (alter_el.text or "").strip():
+                    # Implicit natural — counts if the key would alter this step.
+                    if expected.get(step, 0) != 0:
+                        count += 1
+                    continue
+                try:
+                    alter = int(float(alter_el.text.strip()))
+                except ValueError:
+                    continue
+                if alter != expected.get(step, 0):
+                    count += 1
+    return count
+
+
+def _notes_per_measure(root: etree._Element) -> float | None:
+    """Average notes per measure across the score, rounded to one decimal.
+
+    Coarse rhythmic-density proxy: a piece with 8 notes/measure is
+    typically denser than one with 2. Doesn't normalise for time
+    signature; combined with `time_sig` in the model, the model can
+    learn the ratio if useful.
+    """
+    measures = root.xpath("//*[local-name()='measure']")
+    if not measures:
+        return None
+    note_count = sum(
+        len(m.xpath("./*[local-name()='note'][not(*[local-name()='rest'])]"))
+        for m in measures
+    )
+    return round(note_count / len(measures), 1)
+
+
 def _rhythm_misc(root: etree._Element) -> dict[str, int]:
     return {
         "dotted": len(root.xpath("//*[local-name()='note']/*[local-name()='dot']")),
@@ -401,6 +486,8 @@ def extract_features(root: etree._Element) -> dict[str, Any]:
 
     max_stack, poly_ratio, voice_max = _polyphony_stats(root)
     rhythm = _rhythm_misc(root)
+    notes_per_measure = _notes_per_measure(root)
+    accidentals_oo_key = _accidentals_outside_key(root)
     ornaments = _ornament_counts(root)
     grace = _grace_count(root)
     harmonics = _harmonic_count(root)
@@ -423,6 +510,8 @@ def extract_features(root: etree._Element) -> dict[str, Any]:
         "dotted_count": rhythm["dotted"],
         "tied_count": rhythm["tied"],
         "tuplet_count": rhythm["tuplet"],
+        "notes_per_measure": notes_per_measure,
+        "accidentals_outside_key": accidentals_oo_key,
         "max_chord_stack": max_stack,
         "polyphonic_measure_ratio": poly_ratio,
         "voice_count_max": voice_max,
