@@ -25,6 +25,9 @@ export function mountPlayer(
   // not the asset bundle dir, so alphaTab's auto-detected paths (relative to
   // its worker's import.meta.url under /assets/) miss them. Override.
   settings.core.fontDirectory = `${base}/font/`;
+  // alphaTab dims secondary voices to 40% by default; for classical guitar
+  // music voice 2 is the bass line, not a hint — render at full opacity.
+  settings.display.resources.secondaryGlyphColor = new alphaTab.model.Color(0, 0, 0, 255);
   settings.player.enablePlayer = true;
   settings.player.enableCursor = true;
   settings.player.enableUserInteraction = true;
@@ -33,6 +36,17 @@ export function mountPlayer(
   settings.notation.elements.set(alphaTab.NotationElement.GuitarTuning, false);
 
   const api = new alphaTab.AlphaTabApi(element, settings);
+
+  // Guitarloot MusicXML declares "Acoustic Guitar (nylon)" via
+  // <instrument-sound> but never sets <midi-program>, so alphaTab's
+  // MusicXML reader falls back to program 0 (piano). Force the nylon
+  // guitar patch on every track at load time.
+  const NYLON_GUITAR_PROGRAM = 24;
+  api.scoreLoaded.on((score) => {
+    for (const track of score.tracks) {
+      track.playbackInfo.program = NYLON_GUITAR_PROGRAM;
+    }
+  });
 
   if (cb.onScoreLoaded) api.scoreLoaded.on(cb.onScoreLoaded);
   if (cb.onPositionChanged) {

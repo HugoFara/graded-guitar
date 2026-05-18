@@ -28,6 +28,12 @@
   let loopEnd = $state<number | null>(null);
   let totalBars = $state<number>(0);
 
+  let positionTick = $state(0);
+  let endTick = $state(0);
+  let currentTimeMs = $state(0);
+  let endTimeMs = $state(0);
+  let seeking = $state(false);
+
   onMount(async () => {
     if (!params?.cid) {
       error = "missing piece id";
@@ -58,6 +64,14 @@
       },
       onPlayerStateChanged: (state) => {
         isPlaying = state === 1;
+      },
+      onPositionChanged: (curTick, totTick, curMs, totMs) => {
+        if (!seeking) {
+          positionTick = curTick;
+          currentTimeMs = curMs;
+        }
+        endTick = totTick;
+        endTimeMs = totMs;
       },
       onError: (e) => {
         error = e instanceof Error ? e.message : String(e);
@@ -118,6 +132,25 @@
     handles.api.tickPosition = loopStart;
     handles.api.isLooping = true;
   }
+
+  function onSeekInput(v: number) {
+    seeking = true;
+    positionTick = v;
+  }
+
+  function onSeekCommit(v: number) {
+    if (!handles) return;
+    handles.api.tickPosition = v;
+    positionTick = v;
+    seeking = false;
+  }
+
+  function formatTime(ms: number): string {
+    if (!Number.isFinite(ms) || ms < 0) return "0:00";
+    const s = Math.floor(ms / 1000);
+    const m = Math.floor(s / 60);
+    return `${m}:${String(s % 60).padStart(2, "0")}`;
+  }
 </script>
 
 <section>
@@ -165,6 +198,22 @@
           <span class="loop-range">A→B set</span>
         {/if}
       </span>
+    </div>
+
+    <div class="progress">
+      <span class="time">{formatTime(currentTimeMs)}</span>
+      <input
+        type="range"
+        class="progress-bar"
+        min="0"
+        max={Math.max(endTick, 1)}
+        step="1"
+        value={positionTick}
+        disabled={endTick === 0}
+        oninput={(e) => onSeekInput(parseInt((e.target as HTMLInputElement).value, 10))}
+        onchange={(e) => onSeekCommit(parseInt((e.target as HTMLInputElement).value, 10))}
+      />
+      <span class="time">{formatTime(endTimeMs)}</span>
     </div>
 
     <div
@@ -216,6 +265,27 @@
   .loop-range {
     color: var(--accent);
     font-weight: 500;
+  }
+  .progress {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin: 0 0 1rem;
+    padding: 0.4rem 0.6rem;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+  }
+  .progress-bar {
+    flex: 1;
+    margin: 0;
+  }
+  .time {
+    font-size: 0.85em;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    min-width: 3.2em;
+    text-align: center;
   }
   .alphatab {
     background: var(--card-bg);
