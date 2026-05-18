@@ -1,29 +1,6 @@
 {
   "pieces": [
     {
-      "candidate_id": "gh:KediMengistu/Tab2XML-Converter-Player@master:src/main/resources/musicXmlFiles/demo1.musicxml",
-      "file_url": "https://raw.githubusercontent.com/KediMengistu/Tab2XML-Converter-Player/master/src/main/resources/musicXmlFiles/demo1.musicxml",
-      "format": "musicxml",
-      "instrument_tokens": [
-        "Guitar"
-      ],
-      "license": "Creative Commons Attribution Share Alike 4.0 International",
-      "license_spdx": "CC-BY-SA-4.0",
-      "metadata": {
-        "composer": "greaty",
-        "composer_normalized": "greaty",
-        "key_fifths": "0",
-        "opus": "",
-        "title": "demo1"
-      },
-      "normalized_path": "corpus/normalized/gh_KediMengistu_Tab2XML-Converter-Player_master_src_main_resources_musicXmlFiles_demo1.musicxml.musicxml",
-      "normalized_sha256": "b1374c1e6743b2492471f71a29f025197ec09e07414224d3811c943ccd37b972",
-      "page_url": "https://github.com/KediMengistu/Tab2XML-Converter-Player/blob/master/src/main/resources/musicXmlFiles/demo1.musicxml",
-      "parts": 1,
-      "raw_sha256": "010c6526f08fc3e54c746fc98dd3e7977c8a91de43b4217ff5611f6eb6af8014",
-      "source": "github"
-    },
-    {
       "candidate_id": "gh:LYD01/music-teacher@main:public/pieces/adelita.musicxml",
       "file_url": "https://raw.githubusercontent.com/LYD01/music-teacher/main/public/pieces/adelita.musicxml",
       "format": "musicxml",
@@ -554,32 +531,6 @@
       "page_url": "https://github.com/moisur/courstrompette/blob/master/public/Wikifonia.rendered/lee%20konitz%20-%20subconscious%20lee.musicxml",
       "parts": 1,
       "raw_sha256": "1cb091adca384f4978699be72e381f9ba1e7cd4367b9b25f8bfa86cddcaae56c",
-      "source": "github"
-    },
-    {
-      "candidate_id": "gh:nolanholden/dogma-maxima@master:score.mxl",
-      "file_url": "https://raw.githubusercontent.com/nolanholden/dogma-maxima/master/score.mxl",
-      "format": "musicxml",
-      "instrument_tokens": [
-        "Guitar",
-        "Guitar",
-        "pluck.guitar.acoustic",
-        "midi-program-25"
-      ],
-      "license": "unknown",
-      "license_spdx": "unknown",
-      "metadata": {
-        "composer": "Nolan Holden",
-        "composer_normalized": "Nolan Holden",
-        "key_fifths": "-3",
-        "opus": "",
-        "title": "Dogma Maxima"
-      },
-      "normalized_path": "corpus/normalized/gh_nolanholden_dogma-maxima_master_score.mxl.musicxml",
-      "normalized_sha256": "6dfccfdc66332c119df98e237c340d5cfa3b26252a334a45f4dd6882ac4b5df3",
-      "page_url": "https://github.com/nolanholden/dogma-maxima/blob/master/score.mxl",
-      "parts": 1,
-      "raw_sha256": "b18b5aca2d8e0050433f039c190286fee936a1e3dc87726313017c5422bd0b41",
       "source": "github"
     },
     {
@@ -6224,35 +6175,6 @@
       "source": "guitarloot"
     },
     {
-      "candidate_id": "guitarloot:Scores/EnglishMusic/Holborne/BandPreludeGtr",
-      "file_url": "https://guitarloot.org.uk/Scores/EnglishMusic/Holborne/BandPreludeGtr.mxl",
-      "format": "mxl",
-      "grade": "6",
-      "grade_source": "delcamp-eric-crouch",
-      "instrument_tokens": [
-        "6th to D",
-        "6th to D",
-        "Guitar (2)",
-        "(5)",
-        "pluck.guitar.nylon-string"
-      ],
-      "license": "You may freely use or adapt this arrangement provided you acknowledge me as its source.",
-      "license_spdx": "unknown",
-      "metadata": {
-        "composer": "Anthony Holborne 1545 - 1602\nBarley, A New Booke of Tabliture/Dd.2.11, f.31r",
-        "composer_normalized": "Anthony Holborne",
-        "key_fifths": "-1",
-        "opus": "",
-        "title": "Bandora Prelude"
-      },
-      "normalized_path": "corpus/normalized/guitarloot_Scores_EnglishMusic_Holborne_BandPreludeGtr.musicxml",
-      "normalized_sha256": "bb066d5aa23ff17e62561e59048b396af9f6165b3e9c89abbe48415b4f1c26bc",
-      "page_url": "https://www.guitarloot.org.uk/page-6/page-16/",
-      "parts": 1,
-      "raw_sha256": "8d54873dbc7e4aa4cbd2c1ce7db8b0cdc9a5449a24adefc38311763522631d28",
-      "source": "guitarloot"
-    },
-    {
       "candidate_id": "guitarloot:Scores/EnglishMusic/Holborne/BondGallGtr",
       "file_url": "https://guitarloot.org.uk/Scores/EnglishMusic/Holborne/BondGallGtr.mxl",
       "format": "mxl",
@@ -6602,34 +6524,6 @@
       "page_url": "https://www.guitarloot.org.uk/page-6/page-16/",
       "parts": 1,
       "raw_sha256": "5b22c7812dbd07a41b94f43bff8e270179f6c46714e602f5f874da31630e1209",
-      "source": "guitarloot"
-    },
-    {
-      "candidate_id": "guitarloot:Scores/EnglishMusic/Holborne/NewYearsGiftGtr",
-      "file_url": "https://guitarloot.org.uk/Scores/EnglishMusic/Holborne/NewYearsGiftGtr.mxl",
-      "format": "mxl",
-      "grade": "6",
-      "grade_source": "delcamp-eric-crouch",
-      "instrument_tokens": [
-        "P1",
-        "Guitar (2)",
-        "(5)",
-        "pluck.guitar.nylon-string"
-      ],
-      "license": "You may freely use or adapt this arrangement provided you acknowledge me as its source.",
-      "license_spdx": "unknown",
-      "metadata": {
-        "composer": "Anthony Holborne (c.1545 - 1602)\nDd. 2.11, f.62r; Dd. 2.11, f.54v; Marsh p.118",
-        "composer_normalized": "Anthony Holborne",
-        "key_fifths": "1",
-        "opus": "",
-        "title": "The New Year’s Gift - Galliard"
-      },
-      "normalized_path": "corpus/normalized/guitarloot_Scores_EnglishMusic_Holborne_NewYearsGiftGtr.musicxml",
-      "normalized_sha256": "c50beff971f80f26ab0dfe5c8be693b9a778b2926ac4b8f46cc8be876b889c56",
-      "page_url": "https://www.guitarloot.org.uk/page-6/page-16/",
-      "parts": 1,
-      "raw_sha256": "c2db40a13178ef5dbdd42926908693de23626ddbfb84df4fd982b79d77a322ae",
       "source": "guitarloot"
     },
     {
@@ -9525,34 +9419,6 @@
       "page_url": "https://www.guitarloot.org.uk/page-6/page-31/",
       "parts": 1,
       "raw_sha256": "9a2b6616cdf2e562c089aa2b3235e2caca63d2c112103bd676e11ccef71ead40",
-      "source": "guitarloot"
-    },
-    {
-      "candidate_id": "guitarloot:Scores/ItalianMusic/BergamascaGtr.iPad",
-      "file_url": "https://guitarloot.org.uk/Scores/ItalianMusic/BergamascaGtr.iPad.mxl",
-      "format": "mxl",
-      "grade": "8",
-      "grade_source": "delcamp-eric-crouch",
-      "instrument_tokens": [
-        "P1",
-        "(5)",
-        "Guitar (2) (2)",
-        "pluck.guitar.nylon-string"
-      ],
-      "license": "You may freely use or adapt this arrangement provided you acknowledge me as its source.",
-      "license_spdx": "unknown",
-      "metadata": {
-        "composer": "Johann Hieronymous Kapsberger",
-        "composer_normalized": "Johann Hieronymous Kapsberger",
-        "key_fifths": "0",
-        "opus": "",
-        "title": "Bergamasca"
-      },
-      "normalized_path": "corpus/normalized/guitarloot_Scores_ItalianMusic_BergamascaGtr.iPad.musicxml",
-      "normalized_sha256": "100677f759ad9b1f57ea5a8578de40f5b48afa88a35b15068375ebd1b53b6389",
-      "page_url": "https://www.guitarloot.org.uk/page-6/page-18/",
-      "parts": 1,
-      "raw_sha256": "d215cefeba7d3e12ebee5bf00ed40d8aed28d930a970d19564238f022de54f9d",
       "source": "guitarloot"
     },
     {
@@ -13911,31 +13777,6 @@
       "page_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV999/Bach_Prelude_BWV999/",
       "parts": 1,
       "raw_sha256": "203ee7fe71aaa55605de5c09988ffdfaf2ef4920ac44ec915df82d528e07f861",
-      "source": "mutopia"
-    },
-    {
-      "candidate_id": "mutopia:ftp/BeethovenLv/WoO59/fur-elise-guitar-duo/fur-elise-guitar-duo#movement01",
-      "file_url": "https://www.mutopiaproject.org/ftp/BeethovenLv/WoO59/fur-elise-guitar-duo/fur-elise-guitar-duo.ly",
-      "format": "musicxml",
-      "instrument_tokens": [
-        "Guitar II",
-        "acoustic grand",
-        "keyboard.piano.grand"
-      ],
-      "license": "Mutopia: per-file CC or PD",
-      "license_spdx": "TBD",
-      "metadata": {
-        "composer": "Ludwig van Beethoven",
-        "composer_normalized": "Ludwig van Beethoven",
-        "key_fifths": "0",
-        "opus": "",
-        "title": "Für Elise"
-      },
-      "normalized_path": "corpus/normalized/mutopia_ftp_BeethovenLv_WoO59_fur-elise-guitar-duo_fur-elise-guitar-duo#movement01.musicxml",
-      "normalized_sha256": "a706e051c022041ad009c32484bc2e8332183a3d48f79d2f85dbb1de7afe1a45",
-      "page_url": "https://www.mutopiaproject.org/ftp/BeethovenLv/WoO59/fur-elise-guitar-duo/",
-      "parts": 1,
-      "raw_sha256": "378114d0d81a1a6dd0684825b65352a102809d4eedc5a69f0f14670d0422483f",
       "source": "mutopia"
     },
     {

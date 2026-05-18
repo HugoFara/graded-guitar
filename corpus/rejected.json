@@ -31,6 +31,26 @@
       "detail": "http_404"
     },
     {
+      "candidate_id": "gh:Huonpine511/les-ombres-final@main:Les_Ombres_VoiceLed_4bars.musicxml",
+      "code": "FRAGMENT",
+      "detail": "15 pitched notes (< 16)"
+    },
+    {
+      "candidate_id": "gh:Lavabaellchen/xml@main:Bre_1.musicxml",
+      "code": "FRAGMENT",
+      "detail": "11 pitched notes (< 16)"
+    },
+    {
+      "candidate_id": "gh:Lavabaellchen/xml@main:strchrds_4.musicxml",
+      "code": "FRAGMENT",
+      "detail": "12 pitched notes (< 16)"
+    },
+    {
+      "candidate_id": "gh:este36/musicxml-irealpro-test-files@master:musicxml/chords.musicxml",
+      "code": "FRAGMENT",
+      "detail": "0 pitched notes (< 16)"
+    },
+    {
       "candidate_id": "mutopia:ftp/BachJS/BWV1006a/bwv-1006a_2g/bwv-1006a_2g#movement01",
       "code": "LY_CONVERSION_FAILED",
       "detail": "IndexError: pop from empty list"
@@ -56,44 +76,9 @@
       "detail": "NO_PARTS: {}"
     },
     {
-      "candidate_id": "mutopia:ftp/BachJS/BWV846/wtk1-prelude1-guitar-duo/wtk1-prelude1-guitar-duo#movement01",
-      "code": "LY_CONVERSION_FAILED",
-      "detail": "NO_PARTS: {}"
-    },
-    {
-      "candidate_id": "mutopia:ftp/BachJS/BWV846/wtk1-prelude1-guitar-duo/wtk1-prelude1-guitar-duo#movement02",
-      "code": "LY_CONVERSION_FAILED",
-      "detail": "NO_PARTS: {}"
-    },
-    {
-      "candidate_id": "mutopia:ftp/BachJS/BWV846/wtk1-prelude1-guitar-duo/wtk1-prelude1-guitar-duo#movement03",
-      "code": "LY_CONVERSION_FAILED",
-      "detail": "NO_PARTS: {}"
-    },
-    {
-      "candidate_id": "mutopia:ftp/BachJS/BWV846/wtk1-prelude1-guitar-duo/wtk1-prelude1-guitar-duo#movement04",
-      "code": "LY_CONVERSION_FAILED",
-      "detail": "NO_PARTS: {}"
-    },
-    {
       "candidate_id": "mutopia:ftp/BachJS/BWVAnh114/anna-magdalena-04-guitar-tab/anna-magdalena-04-guitar-tab#movement01",
       "code": "LY_CONVERSION_FAILED",
       "detail": "NO_PARTS: {}"
-    },
-    {
-      "candidate_id": "mutopia:ftp/BeethovenLv/O13/pathetique-2-guitar-duo/pathetique-2-guitar-duo#movement01",
-      "code": "LY_CONVERSION_FAILED",
-      "detail": "ZeroDivisionError: Fraction(0, 0)"
-    },
-    {
-      "candidate_id": "mutopia:ftp/BeethovenLv/O27/moonlight-guitar-duo/moonlight-guitar-duo#movement01",
-      "code": "LY_CONVERSION_FAILED",
-      "detail": "NO_PARTS: {}"
-    },
-    {
-      "candidate_id": "mutopia:ftp/BeethovenLv/O67/sym5-1-guitar-duo/sym5-1-guitar-duo#movement01",
-      "code": "LY_CONVERSION_FAILED",
-      "detail": "ValueError: invalid literal for int() with base 10: <scheme.Word 'right' at 3538>"
     },
     {
       "candidate_id": "mutopia:ftp/BrownCJ/lullaby/lullaby#movement01",
@@ -321,16 +306,6 @@
       "detail": "NO_PARTS: {}"
     },
     {
-      "candidate_id": "mutopia:ftp/MozartWA/KV265/guitar-duo-varV/guitar-duo-varV#movement01",
-      "code": "LY_CONVERSION_FAILED",
-      "detail": "NO_PARTS: {}"
-    },
-    {
-      "candidate_id": "mutopia:ftp/MozartWA/KV265/guitar-duo-varV/guitar-duo-varV#movement02",
-      "code": "LY_CONVERSION_FAILED",
-      "detail": "NO_PARTS: {}"
-    },
-    {
       "candidate_id": "mutopia:ftp/SanzG/sanz-1/sanz-1#movement01",
       "code": "LY_CONVERSION_FAILED",
       "detail": "NO_NOTES: {'measures': 1}"
@@ -476,17 +451,7 @@
       "detail": "AttributeError: 'list' object has no attribute 'pickup'"
     },
     {
-      "candidate_id": "gh:fheyen/musicvis-lib@main:test/_test_assets/[Test] Dotted Notes Guitar.musicxml",
-      "code": "MISSING_COMPOSER",
-      "detail": ""
-    },
-    {
       "candidate_id": "gh:lisyce/TalkingGuitarTabs@main:example_scores/Andante.musicxml",
-      "code": "MISSING_COMPOSER",
-      "detail": ""
-    },
-    {
-      "candidate_id": "gh:lisyce/TalkingGuitarTabs@main:example_scores/BellaCiao.musicxml",
       "code": "MISSING_COMPOSER",
       "detail": ""
     },
@@ -516,22 +481,7 @@
       "detail": ""
     },
     {
-      "candidate_id": "gh:Huonpine511/les-ombres-final@main:Les_Ombres_VoiceLed_4bars.musicxml",
-      "code": "MISSING_TITLE",
-      "detail": ""
-    },
-    {
       "candidate_id": "gh:rodrigoAMF/mo412-final-project@main:music/4. gunsNroses/Guns_n_Roses_-_Sweet_Child_O_Mine.mxl",
-      "code": "MISSING_TITLE",
-      "detail": ""
-    },
-    {
-      "candidate_id": "gh:xzippyzachx/MXLify@master:TAB2MXL/ExampleOutputs/Example.musicxml",
-      "code": "MISSING_TITLE",
-      "detail": ""
-    },
-    {
-      "candidate_id": "gh:xzippyzachx/MXLify@master:TAB2MXL/ExampleOutputs/exampleemajor.musicxml",
       "code": "MISSING_TITLE",
       "detail": ""
     },
@@ -1084,6 +1034,26 @@
       "candidate_id": "mutopia:ftp/CarulliF/carulli-fughetta/carulli-fughetta#movement01",
       "code": "MULTIPLE_PARTS",
       "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "gh:nolanholden/dogma-maxima@master:score.mxl",
+      "code": "MULTI_STAFF_PITCHED",
+      "detail": "2 pitched staves; likely a duo"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/EnglishMusic/Holborne/BandPreludeGtr",
+      "code": "MULTI_STAFF_PITCHED",
+      "detail": "3 pitched staves; likely a duo"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/EnglishMusic/Holborne/NewYearsGiftGtr",
+      "code": "MULTI_STAFF_PITCHED",
+      "detail": "3 pitched staves; likely a duo"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/ItalianMusic/BergamascaGtr.iPad",
+      "code": "MULTI_STAFF_PITCHED",
+      "detail": "2 pitched staves; likely a duo"
     },
     {
       "candidate_id": "gh:ArturoBarrios/MusicClassification@master:MusicXML_Files/ABRSM_2020_2021_Raw/02_20_c10_villa-lobos_o_polichinelo_(from_a_prole_do_bebˆ_no1)(8).musicxml",
@@ -2596,19 +2566,59 @@
       "detail": "matched 'processed_pdf'"
     },
     {
+      "candidate_id": "mutopia:ftp/BachJS/BWV846/wtk1-prelude1-guitar-duo/wtk1-prelude1-guitar-duo#movement01",
+      "code": "PATH_NOISE",
+      "detail": "matched 'guitar-duo'"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BachJS/BWV846/wtk1-prelude1-guitar-duo/wtk1-prelude1-guitar-duo#movement02",
+      "code": "PATH_NOISE",
+      "detail": "matched 'guitar-duo'"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BachJS/BWV846/wtk1-prelude1-guitar-duo/wtk1-prelude1-guitar-duo#movement03",
+      "code": "PATH_NOISE",
+      "detail": "matched 'guitar-duo'"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BachJS/BWV846/wtk1-prelude1-guitar-duo/wtk1-prelude1-guitar-duo#movement04",
+      "code": "PATH_NOISE",
+      "detail": "matched 'guitar-duo'"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BeethovenLv/O13/pathetique-2-guitar-duo/pathetique-2-guitar-duo#movement01",
+      "code": "PATH_NOISE",
+      "detail": "matched 'guitar-duo'"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BeethovenLv/O27/moonlight-guitar-duo/moonlight-guitar-duo#movement01",
+      "code": "PATH_NOISE",
+      "detail": "matched 'guitar-duo'"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BeethovenLv/O67/sym5-1-guitar-duo/sym5-1-guitar-duo#movement01",
+      "code": "PATH_NOISE",
+      "detail": "matched 'guitar-duo'"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BeethovenLv/WoO59/fur-elise-guitar-duo/fur-elise-guitar-duo#movement01",
+      "code": "PATH_NOISE",
+      "detail": "matched 'guitar-duo'"
+    },
+    {
+      "candidate_id": "mutopia:ftp/MozartWA/KV265/guitar-duo-varV/guitar-duo-varV#movement01",
+      "code": "PATH_NOISE",
+      "detail": "matched 'guitar-duo'"
+    },
+    {
+      "candidate_id": "mutopia:ftp/MozartWA/KV265/guitar-duo-varV/guitar-duo-varV#movement02",
+      "code": "PATH_NOISE",
+      "detail": "matched 'guitar-duo'"
+    },
+    {
       "candidate_id": "gh:Calmer26/guitar_app@main:assets/exercises/oh_susanna_guitar.musicxml",
       "code": "PLACEHOLDER_METADATA",
       "detail": "composer='Composer'"
-    },
-    {
-      "candidate_id": "gh:Lavabaellchen/xml@main:Bre_1.musicxml",
-      "code": "PLACEHOLDER_METADATA",
-      "detail": "title='Unbenannte Partitur'"
-    },
-    {
-      "candidate_id": "gh:Lavabaellchen/xml@main:strchrds_4.musicxml",
-      "code": "PLACEHOLDER_METADATA",
-      "detail": "title='Unbenannte Partitur'"
     },
     {
       "candidate_id": "gh:ViliusP/music_notation@master:example/assets/scores/adjecent_notes.musicxml",
@@ -2617,11 +2627,6 @@
     },
     {
       "candidate_id": "gh:este36/musicxml-irealpro-test-files@master:musicxml/DaysOfWineRoses.musicxml",
-      "code": "PLACEHOLDER_METADATA",
-      "detail": "title='Partition sans titre'"
-    },
-    {
-      "candidate_id": "gh:este36/musicxml-irealpro-test-files@master:musicxml/chords.musicxml",
       "code": "PLACEHOLDER_METADATA",
       "detail": "title='Partition sans titre'"
     },
@@ -2649,6 +2654,31 @@
       "candidate_id": "guitarloot:Scores/LyraViol/01.UntitledGtr",
       "code": "PLACEHOLDER_METADATA",
       "detail": "title='Untitled'"
+    },
+    {
+      "candidate_id": "gh:KediMengistu/Tab2XML-Converter-Player@master:src/main/resources/musicXmlFiles/demo1.musicxml",
+      "code": "TAB_ONLY",
+      "detail": "clef signs: TAB"
+    },
+    {
+      "candidate_id": "gh:fheyen/musicvis-lib@main:test/_test_assets/[Test] Dotted Notes Guitar.musicxml",
+      "code": "TAB_ONLY",
+      "detail": "clef signs: TAB"
+    },
+    {
+      "candidate_id": "gh:lisyce/TalkingGuitarTabs@main:example_scores/BellaCiao.musicxml",
+      "code": "TAB_ONLY",
+      "detail": "clef signs: TAB"
+    },
+    {
+      "candidate_id": "gh:xzippyzachx/MXLify@master:TAB2MXL/ExampleOutputs/Example.musicxml",
+      "code": "TAB_ONLY",
+      "detail": "clef signs: TAB"
+    },
+    {
+      "candidate_id": "gh:xzippyzachx/MXLify@master:TAB2MXL/ExampleOutputs/exampleemajor.musicxml",
+      "code": "TAB_ONLY",
+      "detail": "clef signs: TAB"
     }
   ],
   "version": 1

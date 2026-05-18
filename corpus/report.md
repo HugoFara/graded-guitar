@@ -1,19 +1,22 @@
 # M1 ingest report
 
 - Total files considered: **1335**
-- Accepted: **805**
-- Rejected: **530**
+- Accepted: **799**
+- Rejected: **536**
 
 ## Rejections by reason
 
 - `NON_GUITAR_INSTRUMENT` — 184
-- `PATH_NOISE` — 118
+- `PATH_NOISE` — 128
 - `MULTIPLE_PARTS` — 107
-- `LY_CONVERSION_FAILED` — 89
-- `PLACEHOLDER_METADATA` — 11
-- `MISSING_COMPOSER` — 8
-- `MISSING_TITLE` — 7
+- `LY_CONVERSION_FAILED` — 80
+- `PLACEHOLDER_METADATA` — 8
+- `MISSING_COMPOSER` — 6
 - `FETCH_FAILED` — 5
+- `TAB_ONLY` — 5
+- `FRAGMENT` — 4
+- `MISSING_TITLE` — 4
+- `MULTI_STAFF_PITCHED` — 4
 - `DUPLICATE` — 1
 
 ## Top composers in accepted corpus
@@ -25,8 +28,8 @@ Grouped by mechanically-normalized composer (date annotations and source citatio
 - John Dowland — 45
 - Mauro Giuliani — 40
 - Fernando Sor — 37
-- Anthony Holborne — 35
 - Frantisek Max Knjze — 34
+- Anthony Holborne — 33
 - Mateo Carcassi — 24
 - William Corkine — 22
 - D. Aguado — 19
@@ -38,20 +41,18 @@ Grouped by mechanically-normalized composer (date annotations and source citatio
 
 ## Accepted pieces by source
 
-- guitarloot — 431
-- mutopia — 331
+- guitarloot — 428
+- mutopia — 330
 - gh:LYD01/music-teacher — 18
 - gh:rodrigoborgesdeoliveira/sheet-music-and-chords — 18
-- gh:KediMengistu/Tab2XML-Converter-Player — 1
 - gh:Plisken78/plisken78.github.io — 1
 - gh:ThePython10110/MuseScore — 1
 - gh:arhanv/ug-dataset — 1
 - gh:moisur/courstrompette — 1
-- gh:nolanholden/dogma-maxima — 1
 - gh:ujfjhz/ChineseMusicScore — 1
 
 ## Grade coverage (curator-assigned)
 
-- Pieces with a grade: **430** / 805
-- Distribution: G3: 4, G4: 6, G5: 39, G6: 105, G7: 158, G8: 110, G9: 8
-- Source `delcamp-eric-crouch`: 430
+- Pieces with a grade: **427** / 799
+- Distribution: G3: 4, G4: 6, G5: 39, G6: 103, G7: 158, G8: 109, G9: 8
+- Source `delcamp-eric-crouch`: 427

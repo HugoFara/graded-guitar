@@ -87,6 +87,8 @@ PATH_NOISE_TOKENS = (
     "test-fixtures",
     "/samples/",
     "demo/data",
+    "guitar-duo",
+    "guitar_duo",
 )
 
 REJECT_CODES = {
@@ -94,7 +96,10 @@ REJECT_CODES = {
     "XML_NOT_MUSICXML",
     "NO_PARTS",
     "MULTIPLE_PARTS",
+    "MULTI_STAFF_PITCHED",
     "NON_GUITAR_INSTRUMENT",
+    "TAB_ONLY",
+    "FRAGMENT",
     "MISSING_TITLE",
     "MISSING_COMPOSER",
     "PLACEHOLDER_METADATA",
@@ -105,6 +110,13 @@ REJECT_CODES = {
     "LY_CONVERSION_FAILED",
     "SUPERSEDED",
 }
+
+# Minimum pitched-note count for a score to be considered a real piece
+# rather than a placeholder / test fixture. Renaissance preludes from the
+# Guitar Loot corpus can be as short as ~20 notes in 5-6 measures; demo1
+# from Tab2XML-Converter-Player had 14. Threshold chosen to clear demo1
+# without sweeping out the shortest legitimate preludes.
+MIN_PITCHED_NOTES = 16
 
 
 def extract_score_xml(blob: bytes, fmt: str) -> bytes | tuple[None, str]:
@@ -257,6 +269,42 @@ def count_parts(root: etree._Element) -> int:
     return len(root.xpath("//*[local-name()='part-list']/*[local-name()='score-part']"))
 
 
+def staves_and_tab_staves(root: etree._Element) -> tuple[int, set[str]]:
+    """Return (staff count, set of staff numbers carrying a TAB clef).
+
+    A score with two pitched staves and no TAB staff is almost always a
+    duo (two players sharing one part list) or a piano reduction. A
+    score with one pitched staff plus one TAB staff is a notation+tab
+    pair display of a single guitar part — keep it.
+    """
+    staves: set[str] = set()
+    tab_staves: set[str] = set()
+    for clef in root.xpath("//*[local-name()='clef']"):
+        number = clef.get("number") or "1"
+        staves.add(number)
+        sign_n = clef.xpath("./*[local-name()='sign']")
+        if sign_n and (sign_n[0].text or "").strip().upper() == "TAB":
+            tab_staves.add(number)
+    if not staves:
+        staves.add("1")
+    return len(staves), tab_staves
+
+
+def clef_sign_set(root: etree._Element) -> set[str]:
+    signs: set[str] = set()
+    for sign_n in root.xpath("//*[local-name()='clef']/*[local-name()='sign']"):
+        text = (sign_n.text or "").strip().upper()
+        if text:
+            signs.add(text)
+    return signs
+
+
+def count_pitched_notes(root: etree._Element) -> int:
+    return len(
+        root.xpath("//*[local-name()='note'][not(./*[local-name()='rest'])]")
+    )
+
+
 def validate_one(blob: bytes, fmt: str) -> dict[str, Any]:
     """Validate one file. Returns either {ok: True, metadata: …} or
     {ok: False, code: …, detail: …}."""
@@ -286,6 +334,27 @@ def validate_one(blob: bytes, fmt: str) -> dict[str, Any]:
     if not is_guitar(tokens):
         return {"ok": False, "code": "NON_GUITAR_INSTRUMENT",
                 "detail": f"tokens={tokens[:6]}"}
+
+    # A score whose only clef is TAB carries no notated pitch information
+    # for a sight-reading platform — reject regardless of metadata. This
+    # also catches placeholder / test files like Tab2XML's demo1.
+    signs = clef_sign_set(root)
+    if signs and not (signs & {"G", "F", "C"}):
+        return {"ok": False, "code": "TAB_ONLY",
+                "detail": f"clef signs: {','.join(sorted(signs))}"}
+
+    # Multi-staff with NO TAB staff is almost always a duo or a piano
+    # reduction; a real guitar score either uses one pitched staff or
+    # one pitched staff plus a TAB staff for the same part.
+    staff_count, tab_staves = staves_and_tab_staves(root)
+    if staff_count > 1 and not tab_staves:
+        return {"ok": False, "code": "MULTI_STAFF_PITCHED",
+                "detail": f"{staff_count} pitched staves; likely a duo"}
+
+    pitched_notes = count_pitched_notes(root)
+    if pitched_notes < MIN_PITCHED_NOTES:
+        return {"ok": False, "code": "FRAGMENT",
+                "detail": f"{pitched_notes} pitched notes (< {MIN_PITCHED_NOTES})"}
 
     meta = extract_metadata(root)
     if not meta["title"]:
