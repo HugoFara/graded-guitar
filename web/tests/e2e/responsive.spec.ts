@@ -30,7 +30,7 @@ for (const vp of VIEWPORTS) {
       expect(overflow.docW, "no horizontal page overflow").toBeLessThanOrEqual(overflow.winW + 1);
 
       // Toolbar inputs are reachable
-      await expect(page.locator('input[type="search"]')).toBeVisible();
+      await expect(page.locator('input[type="search"]').first()).toBeVisible();
       await expect(page.locator(".piece").first()).toBeVisible();
     });
 

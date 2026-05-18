@@ -8,13 +8,22 @@ the stack rationale.
 ## What's here
 
 - Routes
-  - `/` — corpus list. Filter by grade range, by source (curator /
-    model / all), and by free-text on title or composer.
+  - `/` — landing. Redirects to `/feed` if a level is stored in
+    `localStorage`, else `/onboard`.
+  - `/onboard` — grade picker (M4). Saves the chosen level to
+    `localStorage.gradedGuitar.level` and continues to `/feed`.
+  - `/feed` — pieces at the user's level and one above (M4). Pieces
+    are round-robined across composer buckets so a prolific composer
+    doesn't dominate the head of the list.
+  - `/browse` — corpus list. Filter by free-text, composer (datalist
+    autocomplete), era, grade range, max length, and source (curator /
+    model / all).
   - `/piece/:cid` — alphaTab player with play/pause/stop, tempo slider
-    (50–150%), A/B loop, and a tab-view toggle.
-- `src/lib/manifest.ts` — typed loader for `corpus/manifest.json` and
-  the grade-resolution rules (curator preferred, model fallback,
-  `dummy-*` flagged as "placeholder").
+    (50–150%), bar-number loop, and a tab-view toggle.
+- `src/lib/manifest.ts` — typed loader for `corpus/manifest.json`,
+  grade-resolution rules (curator preferred, model fallback, `dummy-*`
+  flagged as "placeholder"), filter logic, and the feed builder.
+- `src/lib/level.ts` — `localStorage`-backed playing level (M4).
 - `src/lib/player.ts` — thin alphaTab wrapper.
 
 ## Running
