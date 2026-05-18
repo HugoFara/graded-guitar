@@ -1,0 +1,68 @@
+name: M6 beta feedback
+description: Bug, awkward UI, or a piece that's clearly mis-graded.
+title: "[beta] "
+labels:
+  - "m6-beta"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for trying graded-guitar. The site is in pre-alpha — the
+        grader is a placeholder (`dummy-v0`, see ADR 0010) and every
+        report is useful.
+
+        If you're flagging a mis-graded piece specifically, please use
+        the **easier / right / harder** vote on the piece detail page
+        as well — it goes straight into the grader signal.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of feedback is this?
+      options:
+        - Bug — something broke or behaved unexpectedly
+        - Grading — a piece feels wrongly graded for what it is
+        - Feed — the feed showed something it shouldn't have, or skipped something it should
+        - UI / copy — wording or layout that confused me
+        - Performance — slow load, rendering, etc.
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: piece
+    attributes:
+      label: Piece ID or title (if relevant)
+      description: "Open a piece and copy the URL, or paste the title."
+      placeholder: "e.g. 'Tárrega — Lágrima' or pdmx:QmXyz…"
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: "What did you expect? What did you see? Steps if it's reproducible."
+    validations:
+      required: true
+  - type: input
+    id: level
+    attributes:
+      label: Your declared level (in onboarding)
+      placeholder: "e.g. 5"
+  - type: dropdown
+    id: training
+    attributes:
+      label: Background
+      options:
+        - Self-taught
+        - Teacher-taught
+        - Conservatory
+        - Other
+        - Prefer not to say
+  - type: input
+    id: browser
+    attributes:
+      label: Browser / OS (if it's a bug)
+      placeholder: "e.g. Firefox 130 / macOS"
+  - type: checkboxes
+    id: share
+    attributes:
+      label: "Optional: share your library JSON for grader signal"
+      options:
+        - label: "I've sent (or am about to send) my library JSON to <hugo.farajallah@unige.ch> via the **Share signals…** button on the profile page."
