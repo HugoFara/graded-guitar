@@ -79,6 +79,14 @@ pip install -r requirements.txt
 # Run any/all discovery sources (each writes its own candidates.{source}.json):
 python scripts/m1_discover_github.py
 python scripts/m1_discover_imslp.py
+python scripts/m1_discover_guitarloot.py
+python scripts/m1_discover_mutopia.py
+# PDMX is an offline source: the discover script reads from a local
+# tarball and writes raw bytes + fetch-log entries directly. The
+# downloads (PDMX.csv 225MB, mxl.tar.gz 1.9GB) live under
+# experiments/pdmx_probe/ and are gitignored — fetch from Zenodo
+# (https://zenodo.org/records/15571083) on first run. See ADR 0015.
+python scripts/m1_discover_pdmx.py
 # Fetch + validate operate on the union of every candidates.*.json:
 python scripts/m1_fetch.py
 python scripts/m1_validate.py

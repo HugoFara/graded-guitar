@@ -51,6 +51,16 @@
       "detail": "0 pitched notes (< 16)"
     },
     {
+      "candidate_id": "pdmx:QmNb5ZxihYfgGLEg3y1Z7dcMg2hDpYyKrPmjj8CMMdfP1X",
+      "code": "FRAGMENT",
+      "detail": "8 pitched notes (< 16)"
+    },
+    {
+      "candidate_id": "pdmx:QmRFXWcN4MQotGavJW5mrjGBJWmooHFDQ5y4AoF31NmQiv",
+      "code": "FRAGMENT",
+      "detail": "15 pitched notes (< 16)"
+    },
+    {
       "candidate_id": "gh:lisyce/TalkingGuitarTabs@main:example_scores/Andante.musicxml",
       "code": "MISSING_COMPOSER",
       "detail": ""
@@ -81,6 +91,521 @@
       "detail": ""
     },
     {
+      "candidate_id": "pdmx:QmPJensn8anfZe8Lk2LDkds8hfajrEyWyzY983qCSXvZZ9",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmPPPWJNiXP8VPHRdSZeVEgktDQagftuvCQHG89JM69qEq",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmPQKV7MpikNLKAERMukVbQHpNJSbWFM5mfintE6tL9F9J",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmPQmHwTeH3Mx8bKWerJrfy3gH2CCDEQsHc7Pg3b5u24Vc",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmPkW1Hvhx6vZHhrzNXf16LNL3QeymufQ3j5URX6kpQHN3",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmPkcX15SS48F3W6pwbRaKzeukCwCTL2qsHm87Bea5G4nB",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmPoEqxXrvHkKiLUi5ZbEViGZm522AvRgeS9cGxNbAGznB",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmQ1fdETvdSDKopKK4VU7cNXVn6jZCoYvzzPqrHuYCCqBx",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmQ4XgM7E5cn8JQW9UfiARfh7p7F2CQsriuJmnuESgG29q",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmQPmJTbDcduR7ahmVrNaUTUDaMditvbvR52KvEkyWd9Ms",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmQzSUoezG651MCayxL1SZ2vSk7oUSQhDfidVX2UfnzMzF",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmR5Mbnwa2rGEoz8RtUNR1c5hCCxK1kbKZrRjHBXp22S2E",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmR7woLWr7t6Y5WFyxu1vNRyjUBfpvuStZSsivdH7u6cHA",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmRPDBJwVovPZC5w7KuU1qyjWQXyZrTf47ShZP9pvE7rLw",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmRcEHX44yrLTB38VJsDQWfV81vaKYxRxcQyykpRYoMth3",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmRtCu21UGz4fpoXQMSd2KtMtyk4HssrdSxugp3kQBQqup",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmSKPE91PgAGkf4btDBB55JVMZ4cWqAdm8pP59tcZ71R7n",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmSULdJhj34rNCdbdJ8M3x2JL3wn1xcdRH3GSoL4bXFtHD",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmT3PKazSLeAGrabRrCJ8SA6SamDpF28GjbfkpMRoPi9Yb",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmTCoVnoCLwev1cL8LW1xBf3MwkCD5i8vns6ig2pfPTKdb",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmTDbbpPK98tFq15YjjC8ySidZJVDF8eyT6FVrfArUJnJP",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmTVCpSssP9Uu9B9u46SfKJ5LmMuSLdQ4tPGZFJy54yP7G",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmTfV2QtSny6NTMSse2JNbDq8LxqFf7tsuBASmYnRJ6FNx",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmTi3tM8gDNRdTSEVyaV9uHFiBkA11Ycey7NtTBJNULRLV",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmTtiJN97SLE1m6RMjwo8t51Ki39GV1bnEq1k1puzN8uFB",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmTtn3dc9Sw7Zb25LQpdNcVFkd95wGujYKymCrF9picZLP",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmU4kSz1AasBgVjGhys9TyKwNvnoqZ4PeKYigqV7p1fCEf",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmU4rYAXkGmk3ukKAVaQ1HickgPKp1JUcJafZiDfCyByyx",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmUB5qKYTAhCTj1vjZYFPJdUq86XcGXBUpHyr7sY5TRo3i",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmUBWvsJ5jStqxAsB6cAhUC9byzqmqYeMZWBNRPJFaGix3",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmUBmXzZNMfmsRrqBvQCcvc9VdheA5P2ywWuh5yQUYbUSy",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmUEMiPyTEdEtYnBFP1HWstmRghorwhfYW55pUpDVwLgbm",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmUNNUUnY5KfLQEtEzYQMrd4SQeKv77JAnNMszDh7ELF9n",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmUYvL5xyU9mgedqTWuMYu1Pygi46ovMBtDDMDyK2tavfK",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmUkWvxSjaH7GCnazw6DURQqpDC3bPQsgPTHJfG4K75yag",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmUs8zgXg8b1JVzYV6z9MmvLMM2GKtiwm74ynEkM26SiDn",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmUwHH4tDMDR1ayEe41ZiDGFwrkNja5h1zTc3eS4kgF66M",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmVVNPHg5DGiqfoMR8dy5cpVWrJT1n7zardGogSFmz3vuf",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmVhDjdJuj59AtSiQu3GJqkNUoeQVbpDyigQJXzpjjXLEt",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmVn6ufnJZ1jZWUu8727xFDN9FEU4gBzzNR82QsTH5Hwpy",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmVo6rdcMe3F9yNFAzKBKhasmGVusHPPpNbV4NzJq9ZN21",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmVxAFDkwvPPsjvjbYjcoW4UtXpGRjPJd2Lfse3LNLPNPm",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmW3GCd4sg23ib5nnnAT7VAC1AwgrRnNQr9erE8VzXZo8r",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmWU94wyBT6GD7AWiV452vh1GhW3g3zREPKnhK4rBSoEHZ",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmX12qXx2vSbosMBcCduqyTqMiQCtdzjvy5X77eDUbso8X",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmXJb86irAR44MfTxSGqZb3CUXeujSzxPVwq3UBZqz21VL",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmXMWyw1tBH8CGtCR7oAaBkj8qrFK6HxnZBXYszvaHjYAU",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmXSVd6AmX2usCpFYm2YLGuLC8ZroqtA3ge9W7Pv9xSygh",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmXSeWhtJNV4dE2p8q2iJXgoPvYhNDWToUGaQ8mPAYUDuj",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmXe9JQqaqwnJKBqsTcWB6MdGtYSuzg1FqjvvtN2sw6QMM",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmXrfYs18vYFYCawJ53McLbs34v3qbycXSYrUzM24TfZfm",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmXsLxPakE5vxd1ABWow4g6zYQqzdagFASe5xFLisjDY6C",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmXsSze5VjojmqtfUSUJwqc6qy1h6nay1DrPhDKr5GCmtf",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmY9Q3sencXWvnh2uTQn92B1NYBMZiYU7mXQyKNwL2vLxk",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmYC1jm2K4rRaQnB1Mwdpc6D1mC4Ud5tdYBQNqnf1FYh7v",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmYCVuH72X4ppKygTq29m2yAJDezzXA22JfkSvmHoxzLGm",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmYKweQPaQ4dUvcZYoezMoaJCPhKcbsVzUQjXAiK7Mh9GR",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmZ1VbGzcrxJnTSA9kZ9kMSYGKxjGusPSVZiSVDqmwkxCj",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmZ6jXZqFYiYLUybRRzJ12hC8eAD7544Rsfqhcny3YkVnh",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmZD2Tu7RLHLcHJVGosRK1PRCqXBdpG2ZivdU4KJUVrrWd",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmZFY4QoXnaEtLHyDD9cBzGup4pdavQUUqn75zS1bssWZj",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmZZqzNFfh8nmZFFNEkRyrrBXuenUg1SPp29mreiqt9gto",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmZfUnr6ixxRv8t9orQAtrHPGK62Sct8EWb6TweSRxU26N",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmZuYqFknzSpWPL3WTkpxJ1HZXCESCBVRTaZ8bo983UJ9f",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:Qma2SxfoRkdyh7MGf7ohS29ULBvuD3NSUDfuhRuyMFD39h",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmaRFhnbYFRueRx4KojufwvmAUSBgyighLUKCQKPHkR4Ay",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmaXggGkbmLqDSpoxaiGDKojmGfNGQUzURLtme9X6xz6FY",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:Qman91LPh97rWaFAo1MqNgKtwWaYC7ji5NHtJvG45GsVqS",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmbAXMQu9c7n1gizczXyNaarp976CLKS8bguMgPh8n7M6L",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmbC52H14UiGukFg52DYa1vbZ9uitV8kkgtp2rFo8vmmtJ",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmbLkaXwufy7mUWsw1pVf8y3aHiqXWeUGnH29BYMbmCLZ8",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmbLzfCRx1gYYfHU5GDkVebHHsmJMuFESwQ8oyeC9Uehxj",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmbRi4B3YHFqKCLxekTt4J5C3JNPSvSSPGjbMpRba2Bvax",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmbY9Mayuxs8L9tQhzcoucSLshAPoA13TcUNykTSinBsfK",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmbhL3SnGGKFzv5zpPLkCWvEGz3gXhyZ4J5MNTkroxu19G",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmbrCaqoL7erh8PiREwwPzMPfJ2po8kQVgecMWwbvxrQr2",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:Qmbso5rXN5a1gD7RjBMgu8kQgMXqqYpqRpLnZwnrj8a9HW",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:Qmc4gnWdJXV8pPo2B9kD3eeWdWHzmD4mKFEFJrxLLyGRQD",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmcEgxjFQH7XErmt7VYnfTFkuXTWqjnzmDFtEphs6kRcLN",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmcFpb9bv3jqFEJ6dxTsrnzpRg3gjykfZXTg2ASjBXw4qD",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmcJUysrr8BZ6c8cUhYmobRec2ajceU6gEkq3Vy3eWy7s9",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmcLdSUfDhNwirc4mbxU1wtQZL3ieFFUTVnfL2jkk9Rcr3",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmcPGBPNpYHVXf78AjgQGikPjjWsfBbbg1qumChPmmbkMC",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmcYxRJkvyCu7ZbMXnssiEr95x2udMu7zKBzui2mTjXaAX",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmckgY9Qsw2wXCePMxnp9n1NyBghATUXsGJqPEtMi8xx8F",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:Qmd5TnAAEpPJFSiiemBWa8n3DtLJySHHBhkoSpe1Dx4QoJ",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmdTzuiTmqGF3jNLJwvcvyaXisTbhJxYrD1F3gZTuBPhrR",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmdW412WaJaRYtAHX258wxoMjNx68QgjFqndmf4cFdskDr",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmdjB6KppNcxYQcTir8udd5XBqUQoTJm1HR6Ssr9WXCf4W",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmdkFqdPrZzGkc654BAh1bQ2bLVy3rybTojsCDiGVvksFf",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmdxhWr6njmKZGjBUiGiz8ZSroaNXXtQDnEGQuDnzLXZiT",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmeCLChcfY61hTLBqhDafQcpK4Se7QzubZKBP7pJ4aFn7s",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmeSPcdnFsCqC3Zu3kq28fGxyfo3KZ7g1RzB33ekRSKh9f",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmeUpnZqgdH2Do44hTv5tKrUwYMHZ8kXpPuaT1SM4abfLt",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmebPfc3inP4vPeMUFJGZ1LCphJsQZV5AE6adARru77uWF",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmedmsbAekZJJZjjR6swNKsaibvxqUBy992f1fjFM8zAoM",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:Qmedrgc867VfLM7WnDidRQzgvYqUxg4jCM7DaYpkghhcr9",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:Qmeesg9aTrThcigKNZAY726stZFLSwP85ZNcFeCYoWS1Df",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmesD9GHffeTHg4FDEJWu2ZaxbJsgvfCYGLYM4wSE1Bzcx",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:Qmf22ERTVTh1bL1tTZPsAmTSwLxhbKe8HxwpEjbEHA6bYH",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:Qmf387TBYdjNUKqzdyQ8JWbSwBYCr3EhCLS6UAjzx6gQQ6",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmfCw6mNZoJgcqLSQGmBTT4XK4rDCf9eaDzTVp51iLs7wc",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmfHbu3PdqeEjAd5seivZN7p8iSPbYa49b7LejDFwNTzpn",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
       "candidate_id": "gh:rodrigoAMF/mo412-final-project@main:music/4. gunsNroses/Guns_n_Roses_-_Sweet_Child_O_Mine.mxl",
       "code": "MISSING_TITLE",
       "detail": ""
@@ -97,6 +622,961 @@
     },
     {
       "candidate_id": "guitarloot:Scores/ItalianMusic/Passacagli.Gtr",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmNMXSyKvdYxJ9CErd2xdNam2oPcEcr36eiZRMG6ZQz7oi",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmNREwnf8pMzJZXUo5fzhTdrQWSqBDCaL1zX6DtG9Yj2tR",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmNZgzEX3odWoBnPpC6xGXMqW5ufwa7HfBJR2mHcNAZhpX",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmNdV9RcauDnhXCT3MWt2JnLHN8r2oso6qDFC4hjzL2vKy",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmNevZXtUgy8H3rCXpjzReKj1iErFBpY8wf3nD7w8NeQNQ",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmNifknHEEsjtoSviudHrzMiVMtC5uCNbYG99XHqAS7AWT",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmNswHdnreTU5HCDtLLkyZfUgu8wHWSwS2cmVX9cJTELFN",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmP4Bc7YJDYmvxo81iNG5aAbhRxDoZy8vusXZdd3XszfBi",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmP8HdBShLv8WeE4eCnrMZKwrjBvMWTsrDYthMETpA6F7y",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmPDQCQFPYSBfcsNJ1NeYMp49AvnV6nC4Tr86P7bPreFqk",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmPDbFBF4rsoD3LxvrqKeXKknEjNx1sthJFguBmeJMgUBd",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmPEgf9EqsEv3H1HjtZZBXoTMZd38a8CnieYgvQoPSpZDn",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmPKpa1JoZ872WufCNUhFwtD3K3iADkGAEGJMD6U7Lt46x",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmPTKs3XLWkAWKHjqSe2M6bFnx49ypPvDLEMHR48Dih67S",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmPYubVBbR1VYGdZS58aG8qnuUJb5LCiq7KUTWp9qs3zxa",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmPaCnwmSuhbXDtUM1C9Qvf9Ub1rSosMdhBKrHTJY5MpKS",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmPcXanBnKBzaeBXnATxUhwM2bW7wfuunADNL3dpz5wSMo",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmPfNwDmRiGyzKyzk16GGcsUyFkMuH6szr9hU791TsrSxW",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmPfeqkusYk8EogxpqMNhWogz1JPstivvPgTJsub9ukmNP",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmPifk2FMAqtpHrpkRBxwbzP3hpgDkqX5vLqqtG1EcK8MJ",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmPp8mkPunYqXGKcEAVSc49vM1BJoHpW1bPJHUdWeBKAS5",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmPvL6ipivNp5Dkf71mZEFSDaNAxgSkfA4qvZU8Anhr5bj",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmQEGsXSdNdNuBCH7NLA2q95U8xNymd521s3jJMsAdLwZp",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmQPHqtba2ybdeG9z1sjumkxQzataxJPBtTns1q6rmPaa1",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmQcNcL7VBhfrpWRf63ns42ea7jtsfziVJaFmaWkYqyj1A",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmQdyiTJ9mAb36HhRxgoga64pmJSRgSBYMJ6A9VFe7Dbsg",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmQkXpR5ADxk6wY7FuZS4nmhaBjUnQMDR6QCwLB8YKHkh1",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmQpJENqBRENMb37BHPEnESGhU9gHQaTiAuMZXmEHvJDAP",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmQrF6B5Rds8spdMoT9ntGoKutBVApPsxt8sU7exweCwLu",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmQzaHPN5B69T9ihKUsA1emgnndYypmqwjcRWWgSHV7J9H",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmRGRmiN3gTJVnuaRtkeFKNei3Sp2LyNYG2KXCm5k8TbMn",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmRH2rKV1HgTCbMrYSnBRrmnGD5xVn98CBWHzdxfgpWeaU",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmRMPY1faWrTjVV9zRtawGKsq4DV7UKBX2tvo4xUuuEBHT",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmRMryQEyTJJ1BudpJpYPFnHtZ4gMSF8FUfHxSBUUod5mL",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmReYnkQXVE5FdB13tois6EqG28nRb4LDWFJqeYcdXpovH",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmRhtx8XiMEZQGTj4MxgfC2W99FhDmmpNNwjLMYwtrJKkJ",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmRiSaNK924VYoHcs1PvxcsSgswBpt1bDFRiqwsrUs5p4k",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmRjMgu9t6GbNxYZ17mm73M5NHfRWLkLkVnNRMBxzZFr22",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmRktmNukicsoyb9V38TpQ6Taxff8URk9hnZcC9y7Uerje",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmRoQAsT6ApS26VPweKsuvkP4a5TFgnU3oA8VhgAnmgRR4",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmSMCKbreBkPUH9hBE2AWmwagSs8cMUQA58zrKr442obx6",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmScqWoXB9jw6HuPpSUzVsWmMQJCqZr8cHZmw5VxY58DPQ",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmSdMvECCsdrM3gzg4DCU95AvK8qXmYV5bxLqaqN41YPnC",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmSdzXHGdu5xf9rLG7ZBuJR8A13NvCUC2JcYwz4EL9h8Ue",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmSi9uqpDsxvCzY9WzPUVU4LwNP7yzU2VL26S6KZBBfWSp",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmSpTBewiFm6QuzJdXLYRa7swHpdrb35a243L6v136PVMc",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmStQJShJNogMCE2QGesWgpVVjH5ognTREzmjSY3Wgo5ER",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmSvpyurzfp3R95C8Beexu82URH9WfSLNmgQCLMx44BmZS",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmT2QGx2bj7CMam7cEiZ7xNxWgi2VjkwqvXcmDfu8LcduC",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmT2Y7G2ArVw17aMKPamdpPKVh1SHhS6PVtYsvwhJ7pZS6",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmTBbWzZEd1PTub1neJ9iwQfyqU2kjoHTYT3k1FSbfbnTe",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmTWXvLd3zGP7aLtBGueszoXbZEcrgdbmzePoFYsVRDD36",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmTWcc1tbU95BDTi4k3cVxiK4yfQ9TwwtAF2h7qRvgBnKA",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmTddaPpyvpqaYE2xc6dqegQ697j4pCyavRPWu1xWYYdBj",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmTeHB1Ho2y42utsZhUbHSXtcquerPWJzRbFeirB67ESMw",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmTkx1BoRhk5d8SFDjBu1EW6EREJXiKJ4Sz8MKrmakmjSc",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmToq9eR3pmVWtrsixGKCpv9j4Kus9CNwA4qq2SwoBJmDv",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmTuU1QypLCRLFqnUHpxVfySjzYqAvPmZ8KQ5Psa7vfDW2",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmTw9gkq91pbeztXEnFndJUuFPp8Y8fCqTSHfQDUGGvKD2",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmTwbbYEKq6f81szmd8KhzCxUqgNY8RmU1eYpdZNqWSZ7K",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmTyVsS8Rm93rF4oGKLnK54iJivjSa4q14v3TyCnUiATx5",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmUAWUDZeKZafF9BADu1aFfmrg1kxRAdKtpCdWMZbAacPr",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmUBFHqZX5g16fpNtdPtXYrd6aWa6rT9mUZef2XR9rqV7s",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmUCRqE6jcWnaAaNx2GPVc5xEK2LrDfQr1josN3PcwdmEe",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmUGnr5NUskjR7cfFiTt4vn6LwSmhfB7VuFXDrVMottLPQ",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmUKmbiBPDjNde3FEdFSfTziVD1XRKRP1bp9SrcEeW6Cai",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmUUz1VmyJHmprUFUvzEV1saM7FARA3FLHC7kvqZ3ZMvzB",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmUj6e3PZmuVQVeXzWjPMdWkag2gsWY3NYVrb281QuzDAw",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmUodmRDoCjr5F7enh3TEog5fYkyX3fgvfxt9W5VgCPpeZ",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmUqHK51uF7SNKuYf79aqUezWgAHx73Ub3bN1bENYLdFHd",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmUx13GcH4rzH4fZG2U6GLCiob2DHbhQVuCGK8SvZ9SDNu",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmVK7jVWyWV4a38YTXf7G87kGukwrxwtD5PmjTw4rPdYyu",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmVUtGbNmWHqqsWUYtCYMA284qD4g3m6dg8DUExqp5mAon",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmVYbZ5SSF7MGTtuRR96oYXsReRPgsYTpVxbPV7zSPVE4y",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmVkqhWEYz7HJxqfND3JEoXnmns9wqfRmu4W449jmJxtDL",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmVmqUWBDDa2AvW8e559AH7zWkNbJryhDnLySNjSDx6xBk",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmVuzJEREqKjr8WuPUzHc6de5khF2fSTVwkYa1DVJbbiTr",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmVzXTySgnbNria9GZX5rAMRhFcAaotJaoo4EMo4qsmQkM",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmW1LrCG2Z7BF7V4UxSt1fDX8MhTSBYmPht74JYMvT6mNm",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmW1pwz5v6SCeVpiMVWSqoXG6j9UYkfBdPPTBgvTHwCLWA",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmW3YHhE1jPeNmwYoQdz2fAySQQjwHK5YeCRZH7id4SZ9c",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmW8CWbNF1uD1YAw6xStgHHyWKWbitoeR1QENS7odqVWDq",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmWCCctmcWEvRMVaFonabUAFm9TU5xNw4Rvk3Athic36YJ",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmWQpVR6qQWRBWZYvuKyFRtDDtkgBaMPzbwzgYKyprY9CR",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmWe6tPFy6wQVmg9Kjf9Ewwb6fnz76Wnitt4f9cCpaETCf",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmWjDPqPnhgRHujesJX9DAnGRipR2dM58RhfW7z484nGEZ",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmWnhV3Kpw9hxYgdaZFsG4zEtwtVx4rkRKc2EDbCadJRfB",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmWpoJjhLSsSwz3FEZDVkWMX3GAADk3ji1nwST4k1VJLnC",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmWwb3cUrymaYPN17rbVb5demJ3fBT6yJApDegH4ADs2GH",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmX38zE3xKAwSRwCWmUMRA77ZjGWg4wPeeKW7fXGpFL6Ve",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmXDHAMCZvyCAKRqtm2XLNR249Z9sVahooT6qkYjj1E5tT",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmXESauycLYZwCt54CJG8SRoMKoWo6GkRKfJY2gVGkv41h",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmXH6SqYKtcGyuPomKQitqZgh8unPypXXMvXHuXapgSHLR",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmXKo2DENmeEHrMtNnP8Q3R4zZJZzg2bAUcaX6KPq5L4ii",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmXMMRhfp528vp5qVqg7ief3that6Q1nxvc9FgY9La3w1T",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmXkZLyMjYiHKJS1otASNEKo8dMBz1DK2by3opMfjnJtNh",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmXqSwpT1Xoz6vjs4h2RbPf55sQDtAM1m2XrkGHBBzhnck",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmXt21bjNX1ZrbfXmNKuDtXNv73njXrYAsadwZNiNSPeva",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmXuhioPPmuvtiPzQyuB9ow2w4kMj5epGxc9tDTdiApg3F",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmY1nsP9hgB2zecTzQEaMT2rkHDkWkVnQETvyDeAkHbaqd",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmY2bYSXqdWCk8HvacE9AD9h1yZSmpKGjp9SxAFv1ofPHR",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmY2tqnmvVim3TruJyMfvDAEUqRebPjZftiJw3DFi9TYvt",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmY4L3vPP4ttExv2ySRceBCZt43d7Pe675snW62aKQ4EhB",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmY5g2u8jJFuK8MHWy94Bubva2pASMP2wqsRM1pgANQKzc",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmYJ8qPExZypvxWvgka3To8dd1GSfth6dbeCVJDQpczkvH",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmYJvQfjUJzqGNm8xRjgM7hhfy2usGY2Sq9BLW1XyqMq4C",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmYLWSWyN19mxBmwaCF5DjVp62nifLaBLF7Z8VxaPMvSMz",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmYRFrup4pwVY5BRDND22y5mPmpsJy9yrJTP8iKqK6B5dH",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmYhG8ZvA8wFqMfAVddWKdMiEV5QEuETV7E9VX5aGbFLiq",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmYtYDXp6SDhcCRhRMZg1fN4RihJqvaBVgEHGuXPLbUv6a",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmYyG5prCb7Ezsk7XmYF9SSPD3M4873kWKyu1K8j8FgnLi",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmZ4mGEpJuFZ2iKiN2b7hhWwGSv1USA48ndqeyitRTUTMw",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmZ6C8ok7vKi6XcbbzNgqKgxcJbersGSm1xqaPKM8gA7mj",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmZ85Tb31L8hAmafau3gQFt2E9cNBWV8AaFzoRGqxzRuyc",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmZAjyNNioAJc6extcWr7seRAZYKwwCAu4cLCDE7Ddu9Jp",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmZGGeN8DhWSdbyVgxCoNUR5QB8niqNjzs1ZjHLumKm3BD",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmZN4g7rT9DrM9U9T4MfYAkthnapPpqcb8RaPBKdCRhfk7",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmZPiQaj9PvPFNKXngFCeyoPw98L6vF28UG3qEvgCuvD6g",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmZSkMz463snDnA4w3bKsTVrepvmpRVTNvBnXj3WEMtHCK",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmZZARRwz43GPUnZGPCkrrBpy3jRnLaLwUyv2LdTp3p52r",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmZaQjYmrssnKJZfsrAm7EyqKMdq1rM4FyLwJiiieup2JE",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmZarCf86eQcxLB4ibANnw4PRDJZh6JbCkdU4AoyDasZpd",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmZdP6gM3ewirPXTjqh4YejoSex5SDUswYvSCjEoxcUnqv",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmZhSYUok1zsCigYPzZrYVPhDL5SbL3wDhdD1VnGQ5e6kg",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmZozyVKUqVBiCPUGaHHLnnkkbKrFsri2xyh1SeLthPmyL",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmZqMmwjMxbsSixTXP1kNtCPxj1fkVTF1PrjdBTRkMG81E",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmZszs4GvwLcnDkUUHCdbcFCDunMc5mubYKwaM3rUdyFHi",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmZtV9sBwXzBNyTaeigQNxzVaW36Zt9dntePcZyBPqTyMk",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:Qma2x1j74y6kpZ8DXqN7cw7kmWShTHnp7zUikPt38mkQNZ",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:Qma3dQtLa8ZKrGWXd8pTSV1a2BWSHtUxs1Go97KEaZ6HXU",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:Qma7rYFKkAYuvX7LpAFCkDX6dbMRWq8mBJUVyUfZ3UmVnK",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmaA8ytbqvP9xcmjffRrThEBfy5qSPco7zoZ5Bjziyz9T3",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmaEw6MtuwoQkwWJRGUxXsafryWM4zMdheGkQ7W2boxuRk",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmaTQcZqehPeEGaXYGxqLbgaKe619JmdGU5oZ2hMbZaanU",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmawzZxd7WhBiJgEX24hrnDMKGnrch7Cjj8zt2baRe4a9G",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmaxnLH1WrNT4u31z5m39KML42iKhGm8JjsywubopA2cpw",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:Qmb4Y5GJS7bNthovYyMzBp1Upktw1Qs89K74zHpBdReXsL",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmbAB4uvddMPG1KD8sXVwzB4jviDSi99hRXdadBYNLbMaj",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmbAd6RBcRnn8S1iM3aQsseo4jRCEV7e8o6B4gD2TRcgzJ",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmbPnT5W3V1LcSc3TLjD7bWAka26t3HCWyF9YomYZWgjZ8",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmbUqvpNNvfQSpRrA4jpC8YsQBpFdi2KhYVR3bDoZYsDkm",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmbW1fqPrYqCk7MkgbtMehN3iNGMtUmFcmJq3oTcUhvr4y",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmbXCC5EpL31K8bUUr9L5bGjEKPcQuNkPEybSuYSizivVh",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmbaZ4g2eRmf7DisrQA8J52PdLvhinsXF2XeXqr8NDJDzv",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmbdNA9SN2MwKcKZUo6JSbqBxRYNb2uNRVDY1s7BYMPHTf",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:Qmbf6LMcU1GyLR56RetmsmdSFrBiQcQqAbSRJoqeVBtKS6",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmbhjP1FJY7SiH64ZcgQCVERAL2u22L1Ng8SCQxgXCFUvD",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmbinmBnjFccqwx7hiMK3fYb9cFfboe1RuAcTWUpGwX81c",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmbkQcRKW6t7VYRwCbdV6p1dJogWigDufzjdTG2tE75eJm",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmbwCNbrAByx18R6UsQx8LSsVrW8s2x9EJ3UAHjaxrGLsU",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:Qmbwn1VoaqFgFru4xYLc4TwGrkahUpAzassA7Fn8i6hvo8",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmbyJW3JvpE9ohUVjacRN8LWyowfkgSfZMK65dHQnqeR5p",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:Qmc4KawFKapXwvvhKj1YGj57mTqewVPPL6bhbDSJHRVpwD",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmcCgcJRYg7aK7fzouD38484TS4Ae4npAF1vhYizRAdTCT",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmcD3sxQDgxwP2bxDexZaMy92fja7SA6JzWk3ZTtr2qbhs",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmcPQ8utdQubcuvGwQ9FS92Y7PWsiuiz47GAQbH11WSu9j",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmcSmFZgNjjo5y835fuV4D7oARr2nxf3V1DLbNzbmsTgCN",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmcUdPvCckeD3cdgm5prue5F1vGvyVqPRQAsqVJsGVefJg",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:Qmca4zrszqVk9cXADhS9nhPGiQAs89zHk3x4EtkWn5Xwpr",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmccCmsgUcRDbZxzXXqy7i5iwqHdQoEaa4YG2LGrs5qYHd",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmcgJiwgqUJeMinnMYmkXFcFAgU8dQaeNExD8bShrxNsh9",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmchLp55yAx5Jfp3akmMFNPABGxwx69nUXmttBw5T8kSXy",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmchZ8WjoQo7WUk7ZTCS8DDZRfFAvwyddxZ5mwnrpPXXQu",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmcqjJxPN7cYV2o2ArXYb8nZFWqLKjKTdpgurDP9Y6Rm1L",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmcvFPvgHWwm4dEPZ6yjMRqwyLSuXi5rpHBNTCbuWSJkzJ",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmcySksCFFLCoHoHLMSpKvyo6nxoXYFt9ZfF6DsG2mZHDT",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:Qmd5pyA6Z1P8jpaWRs9RUjXvuzv4cnjMRaeodZaPFUjwRK",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmdB5Qe9bE8gxWAFEWDoNDkMm19e26bctQBqCZfhZ6zVaP",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmdCWvXqGcH55z6e8oMsAoQjrgvREg3UuBJghVKmikLkot",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmdHwK44v2wN2BN1nKQLQHiT2tr1DsKUENkuwykDDsT8Uz",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmdR7JHhrCqXY6KbMjhF3JpZVdFehbEnH1vbuVAvjzXyDV",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmdS62wEgaBajWzTpg2G5CgTvFGiytzCb8vdPvHgCo1LKN",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmdWFZ5JvcVt3qcJuJ2STkK3zaGsak1cuXjMVLkHN8NuRi",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmdaPVu8LuEcbH32jhkL2MZJsvVDEahzxdmYH49zdQqg9k",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmdojTtps4P749QLb5zPVpfczv5PrVohZ3r2q2EwmvSBfK",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmdsmX6wj3LFx7t4EzpZDaD7waYgtPeuv7vUcj9M5SeDSJ",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:Qmdw8g9q1MRqeYCYFtXvenUgE2wKCzMWZbAiLQNudt36ZV",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmdyeQCZ1F1dEhpYWDrfS7AX7kToT2Pajnaw1XpjSLT82y",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmeEHYXu2ZbDdmXxFbxp1YK2xfZkSe3NptTGdBwUc7C7cJ",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmeEnit7raFfefzdtw79wcf9FBKVB44R1sTQaKXroMT1Qd",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmeLR9RdJLGFDHpqW1L5v8HYysEXUfnPz8jgzhB7nYyDNr",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmeQDtXcayLtjB7G4dftiJijv7xCGxnP8CxGH2tLnyTZKd",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmeQwx454rcRRoHpSavtQrEaCpYjArWTSRABGZ1Ve45zGE",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmeWwcE6KQLhxeqRZTtRNaBpFKUFtUuSppAtdSYQeKzSog",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmeYm4rEpodgs2YJ85yRSjFd6BVFsTU3st8zadG9dG7avG",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:Qmecwy7ua9K1gFEedBVECkD2cv41XPTPtf8AfbAzHp5Qgr",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:Qmep7dUfCfmVUdEdPE3b8CdDXSHXXgsfeAUJiksDGrVhcE",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:Qmf4WuDiRsaPAkGqNL2VaFDYM8Wjmy7UdoAekexV3CujHx",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:Qmf7RgGomEW1HEVQcLar6yaK2eYNvSDdv7yCPt4DHWkiXu",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmfGtuF1YHtaR1DEhkm1oYhcpZwA3U2SBnKmg7vxqcA7sL",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "pdmx:QmfMaMhkFbtA5cU7EWAA15XyWbgAnTzrsMvznot7TYkXqY",
       "code": "MISSING_TITLE",
       "detail": ""
     },
@@ -667,6 +2147,56 @@
     },
     {
       "candidate_id": "guitarloot:Scores/ItalianMusic/BergamascaGtr.iPad",
+      "code": "MULTI_STAFF_PITCHED",
+      "detail": "2 pitched staves; likely a duo"
+    },
+    {
+      "candidate_id": "pdmx:QmQfEF5fnvgjSJ19LTqoQM2r48MYKq5XiLeygZp6nTJPgS",
+      "code": "MULTI_STAFF_PITCHED",
+      "detail": "2 pitched staves; likely a duo"
+    },
+    {
+      "candidate_id": "pdmx:QmQoSfv651jBmRbKtWCg8ng5bf87Hmv8QjxU14BvG9hJ3m",
+      "code": "MULTI_STAFF_PITCHED",
+      "detail": "2 pitched staves; likely a duo"
+    },
+    {
+      "candidate_id": "pdmx:QmRBKr6WiJRkhQ9ZD9WAQHNc3qn5Eze6AJP4ctxid4w1Zx",
+      "code": "MULTI_STAFF_PITCHED",
+      "detail": "2 pitched staves; likely a duo"
+    },
+    {
+      "candidate_id": "pdmx:QmSY8QdQzkPgCwefmRiUoC7eWk3e9G4FEygKotTSCMootQ",
+      "code": "MULTI_STAFF_PITCHED",
+      "detail": "2 pitched staves; likely a duo"
+    },
+    {
+      "candidate_id": "pdmx:QmVB9W71vMuprCV6FykuE6vLgSiorgHLfaCG8TL9PRK9PP",
+      "code": "MULTI_STAFF_PITCHED",
+      "detail": "2 pitched staves; likely a duo"
+    },
+    {
+      "candidate_id": "pdmx:QmYHSSprsfF3JQUNnB4DdSRnsAoXiG1GqAr115snWrdkQh",
+      "code": "MULTI_STAFF_PITCHED",
+      "detail": "2 pitched staves; likely a duo"
+    },
+    {
+      "candidate_id": "pdmx:QmYqgebAueJN7ho2vDJn6cQ5EVXLucN9n4EsRt8gkXzxLb",
+      "code": "MULTI_STAFF_PITCHED",
+      "detail": "2 pitched staves; likely a duo"
+    },
+    {
+      "candidate_id": "pdmx:Qmc2qyPknyrLzFh6vw34z2WbPMwZwXzx1tJiSZCQiwiZu1",
+      "code": "MULTI_STAFF_PITCHED",
+      "detail": "3 pitched staves; likely a duo"
+    },
+    {
+      "candidate_id": "pdmx:QmcU1cMYcWQE3zNa6UjnxH7WMm9Z9NYmBTwrNhRPEKigHA",
+      "code": "MULTI_STAFF_PITCHED",
+      "detail": "2 pitched staves; likely a duo"
+    },
+    {
+      "candidate_id": "pdmx:QmdUF7pYCaMKeVdffVufc4cox8VJfLLuPfJGWRqCwswtJu",
       "code": "MULTI_STAFF_PITCHED",
       "detail": "2 pitched staves; likely a duo"
     },
@@ -1966,6 +3496,16 @@
       "detail": "OUT_OF_GUITAR_RANGE_LOW: {'min_midi': 24, 'below_gate': 8, 'pitched_notes': 190}"
     },
     {
+      "candidate_id": "pdmx:QmaVpecYiM3DRLdGx7kvTwuAoveGuf8KindRgGrxdwhB4A",
+      "code": "OUT_OF_GUITAR_RANGE_LOW",
+      "detail": "min MIDI=36 (< 38)"
+    },
+    {
+      "candidate_id": "pdmx:QmeF6kyG8cp4Ad5Hi4YsUPdL7dRTudK56TcHBQro78J9vL",
+      "code": "OUT_OF_GUITAR_RANGE_LOW",
+      "detail": "min MIDI=35 (< 38)"
+    },
+    {
       "candidate_id": "gh:MaxDevv/Music-Thingy@main:ear-training-sources/1. Loud.gpx_103-104.musicxml",
       "code": "PATH_NOISE",
       "detail": "matched 'ear-training'"
@@ -2646,6 +4186,66 @@
       "detail": "title='Untitled'"
     },
     {
+      "candidate_id": "pdmx:QmPhpq5zULzT12UsYrtdNJcM1qEtt6t7A7yidobbSPdFn4",
+      "code": "PLACEHOLDER_METADATA",
+      "detail": "composer='Composer'"
+    },
+    {
+      "candidate_id": "pdmx:QmPjbB23kpHtbnU8KA1Rxmw8ULwZ9jDHentDVPt3v8Q7Kc",
+      "code": "PLACEHOLDER_METADATA",
+      "detail": "composer='Composer'"
+    },
+    {
+      "candidate_id": "pdmx:QmTd41DAQR3nTYnJF2DT6uT3BEaS5LAdMwx4iEUgV5gYhf",
+      "code": "PLACEHOLDER_METADATA",
+      "detail": "composer='Unknown'"
+    },
+    {
+      "candidate_id": "pdmx:QmUXXU71x2F3NSdY3TJxtbJL7h3ainwbrZFo6WXMTjej6p",
+      "code": "PLACEHOLDER_METADATA",
+      "detail": "composer='Unknown'"
+    },
+    {
+      "candidate_id": "pdmx:QmUtvfoYDgRkT2znySkdngLPhs7LLRDcLjarn1xV4aBuuB",
+      "code": "PLACEHOLDER_METADATA",
+      "detail": "composer='Composer'"
+    },
+    {
+      "candidate_id": "pdmx:QmVt5uDyKwoNMc7sue1DYsZkhk83QGgRb2V3EY76nRqGGX",
+      "code": "PLACEHOLDER_METADATA",
+      "detail": "composer='Composer'"
+    },
+    {
+      "candidate_id": "pdmx:QmWskP1ByDfLtMoA93oZahuuHsyyrpszWu8nn4nMVVs6cK",
+      "code": "PLACEHOLDER_METADATA",
+      "detail": "composer='Composer'"
+    },
+    {
+      "candidate_id": "pdmx:QmXUXmDZ9rE4iV9BL4iPYeoWk2zVn8gAukVC5fVihGKMwV",
+      "code": "PLACEHOLDER_METADATA",
+      "detail": "composer='Composer'"
+    },
+    {
+      "candidate_id": "pdmx:QmY2htuDvLPK7b3PYtbzdqGFuDSEhLbmNW578JdtDQMpLz",
+      "code": "PLACEHOLDER_METADATA",
+      "detail": "composer='Unknown'"
+    },
+    {
+      "candidate_id": "pdmx:QmZdVepm6kU6HtCbGgS8X1KFSpXRoEB1hCJwZCwJ7BXnZ2",
+      "code": "PLACEHOLDER_METADATA",
+      "detail": "composer='Composer'"
+    },
+    {
+      "candidate_id": "pdmx:Qmbhyzu7ry2JY3k86aBoge32BSAitnn9YQE6G5US2UiCGc",
+      "code": "PLACEHOLDER_METADATA",
+      "detail": "composer='Composer'"
+    },
+    {
+      "candidate_id": "pdmx:QmdxGRedYuVP28QNeui6oU5NoHcPB9zSQGLro2GQ963u1i",
+      "code": "PLACEHOLDER_METADATA",
+      "detail": "composer='Composer'"
+    },
+    {
       "candidate_id": "gh:KediMengistu/Tab2XML-Converter-Player@master:src/main/resources/musicXmlFiles/demo1.musicxml",
       "code": "TAB_ONLY",
       "detail": "clef signs: TAB"
@@ -2667,6 +4267,171 @@
     },
     {
       "candidate_id": "gh:xzippyzachx/MXLify@master:TAB2MXL/ExampleOutputs/exampleemajor.musicxml",
+      "code": "TAB_ONLY",
+      "detail": "clef signs: TAB"
+    },
+    {
+      "candidate_id": "pdmx:QmPfPaKdUBn3nNuTozbqF9n9YUhqmAShhFBZczy48jtPM5",
+      "code": "TAB_ONLY",
+      "detail": "clef signs: TAB"
+    },
+    {
+      "candidate_id": "pdmx:QmQP9GqUSeNV6rhWY3YHYSNLCAtMC4Wsy4nnqWGqf7L2Xk",
+      "code": "TAB_ONLY",
+      "detail": "clef signs: TAB"
+    },
+    {
+      "candidate_id": "pdmx:QmRNuYWa5BW81dbph39mMa8BELxAc6QeUHN5gQp46qyUcX",
+      "code": "TAB_ONLY",
+      "detail": "clef signs: TAB"
+    },
+    {
+      "candidate_id": "pdmx:QmRUqHuSywyEW8grjrC2JQFLCyT1GUxc1ze5GwcPybSJE7",
+      "code": "TAB_ONLY",
+      "detail": "clef signs: TAB"
+    },
+    {
+      "candidate_id": "pdmx:QmRmAd2T23AvSTmJzRBBe4rfuD5QGshNZKKsmuUMxezmBX",
+      "code": "TAB_ONLY",
+      "detail": "clef signs: TAB"
+    },
+    {
+      "candidate_id": "pdmx:QmRxnqYdJDUriqzXD8zYzgZEFUzAWBDz4Qp9xf1KoXEbKt",
+      "code": "TAB_ONLY",
+      "detail": "clef signs: TAB"
+    },
+    {
+      "candidate_id": "pdmx:QmSD1cjJAY24vcvbAmz8yzAafECP4JvQQQzZ4maEZtVEqN",
+      "code": "TAB_ONLY",
+      "detail": "clef signs: TAB"
+    },
+    {
+      "candidate_id": "pdmx:QmSWbVhq2zSCm9z59CjJvWp2BzQJwzqc8XWPNKyULJgx4R",
+      "code": "TAB_ONLY",
+      "detail": "clef signs: TAB"
+    },
+    {
+      "candidate_id": "pdmx:QmSfi8z9Yor9QYH3jGGVb3VVxMH6zvxoRmV2eNuFhZEKNT",
+      "code": "TAB_ONLY",
+      "detail": "clef signs: TAB"
+    },
+    {
+      "candidate_id": "pdmx:QmV2jGTXz442febk9BVBbkr8wsi4oxw6iumpzUsNdfmfe6",
+      "code": "TAB_ONLY",
+      "detail": "clef signs: TAB"
+    },
+    {
+      "candidate_id": "pdmx:QmWLrTpPeyZ67SoG2Qgq66QTV3ZbWwZKTh5L8UrSgfMUB2",
+      "code": "TAB_ONLY",
+      "detail": "clef signs: TAB"
+    },
+    {
+      "candidate_id": "pdmx:QmWRnm8DeKVLyzi7TS7nvatgMKVLyWm8R8JyaRmVB3PPms",
+      "code": "TAB_ONLY",
+      "detail": "clef signs: TAB"
+    },
+    {
+      "candidate_id": "pdmx:QmWhygFkYuBcCjJpSLeCW6eZhxBsW4t43MFGrMdfiP9LST",
+      "code": "TAB_ONLY",
+      "detail": "clef signs: TAB"
+    },
+    {
+      "candidate_id": "pdmx:QmYZtFAGnYAzWaUn8jrKHdNQnPBrER1HJQJpeSPXngfFuZ",
+      "code": "TAB_ONLY",
+      "detail": "clef signs: TAB"
+    },
+    {
+      "candidate_id": "pdmx:QmYkznRo7tZNZvN2cnLfVDc1zsGQSzGZhctcZM3pK5tvpT",
+      "code": "TAB_ONLY",
+      "detail": "clef signs: TAB"
+    },
+    {
+      "candidate_id": "pdmx:QmZUUDxh5dMBNwntM1vR2rRV6JeT1SrTEa211eP5oY38c2",
+      "code": "TAB_ONLY",
+      "detail": "clef signs: TAB"
+    },
+    {
+      "candidate_id": "pdmx:QmZcfAMb8uXKzxm68uzeb81JdC68T8Uosna3d3Hs19hd8k",
+      "code": "TAB_ONLY",
+      "detail": "clef signs: TAB"
+    },
+    {
+      "candidate_id": "pdmx:Qma7pQEPe8TrQi2d78ArSZz2gWhoeScayPxjBMPsxk3FWU",
+      "code": "TAB_ONLY",
+      "detail": "clef signs: TAB"
+    },
+    {
+      "candidate_id": "pdmx:QmaLjNQy8Eopzk3bTh4PppDF262Z3P6qVnPkp7Mauh5p13",
+      "code": "TAB_ONLY",
+      "detail": "clef signs: TAB"
+    },
+    {
+      "candidate_id": "pdmx:QmaVB6Z8CjegRAeFSG6BQwVfmHmGTvPgVj864UN3JZ7poY",
+      "code": "TAB_ONLY",
+      "detail": "clef signs: TAB"
+    },
+    {
+      "candidate_id": "pdmx:QmaYLtLxMvpQP4tg8tKT1YzNX9ycResqHEomhyo3VLkqrM",
+      "code": "TAB_ONLY",
+      "detail": "clef signs: TAB"
+    },
+    {
+      "candidate_id": "pdmx:QmbBAFVe6VvF2FCk67dSFtbaV3gUmHbbMT4FCZ1FkFB8F9",
+      "code": "TAB_ONLY",
+      "detail": "clef signs: TAB"
+    },
+    {
+      "candidate_id": "pdmx:QmbHRB5noaahUYxb9bCVQAk7BUX51eyZ64Xkfxzq5LbHN6",
+      "code": "TAB_ONLY",
+      "detail": "clef signs: TAB"
+    },
+    {
+      "candidate_id": "pdmx:QmbTVjxFNPJdQNRmi7tDQw7YT3fzyS2xfd1hw8CzYQades",
+      "code": "TAB_ONLY",
+      "detail": "clef signs: TAB"
+    },
+    {
+      "candidate_id": "pdmx:QmcAGtPpzYkchxnRxGiWgmd5SoSBSPRKpZXFSHnEYgq9MP",
+      "code": "TAB_ONLY",
+      "detail": "clef signs: TAB"
+    },
+    {
+      "candidate_id": "pdmx:QmcFBzALeyKNzMb3vkhT4WmUAyHRZeA7Ke8eTn1WPSdStZ",
+      "code": "TAB_ONLY",
+      "detail": "clef signs: TAB"
+    },
+    {
+      "candidate_id": "pdmx:QmcSpLDfoxFD9pmhdU6sk2hiJ34tRJGJkNmjtkiyCa7PRe",
+      "code": "TAB_ONLY",
+      "detail": "clef signs: TAB"
+    },
+    {
+      "candidate_id": "pdmx:QmcyEX4RgDcMBLBJgfCbanxMJfkzDdpB6fGUYiMXRKTiwk",
+      "code": "TAB_ONLY",
+      "detail": "clef signs: TAB"
+    },
+    {
+      "candidate_id": "pdmx:Qmd698Wq5Y8FdQbaPH2bxVPstsEvEq7131VewpH81QJPMf",
+      "code": "TAB_ONLY",
+      "detail": "clef signs: TAB"
+    },
+    {
+      "candidate_id": "pdmx:QmebVNW6HdHkySNAjTJT4NgSm2Jrd5vtC2BU2D3fCBeLg6",
+      "code": "TAB_ONLY",
+      "detail": "clef signs: TAB"
+    },
+    {
+      "candidate_id": "pdmx:QmeosYWmCA6i69fSZ7fG1Mw8cQTSQXKu4aHxN2qrtxVqie",
+      "code": "TAB_ONLY",
+      "detail": "clef signs: TAB"
+    },
+    {
+      "candidate_id": "pdmx:Qmf2CB4MfCkoGevfkzXsmsbWSFuQmF4aFHLxUCDtJ1xx4G",
+      "code": "TAB_ONLY",
+      "detail": "clef signs: TAB"
+    },
+    {
+      "candidate_id": "pdmx:QmfWJMHSPi2TZ5idwej2WzxqA8J7id3Nz74hfyWj9255F6",
       "code": "TAB_ONLY",
       "detail": "clef signs: TAB"
     }
