@@ -51,6 +51,7 @@ require_file syllabi/abrsm.json
 
 echo "==> Advisor agreement template"
 require_file docs/ADVISOR.md
+require_file docs/M2_ADVISOR_PACKET.md
 
 echo "==> M1 ingest pipeline scripts"
 require_file requirements.txt
