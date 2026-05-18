@@ -8,6 +8,7 @@
   import Landing from "./routes/Landing.svelte";
   import Profile from "./routes/Profile.svelte";
   import Library from "./routes/Library.svelte";
+  import Privacy from "./routes/Privacy.svelte";
   import { getActiveProfileSync } from "./lib/storage/profile";
 
   const routes = {
@@ -17,6 +18,7 @@
     "/feed": Feed,
     "/library": Library,
     "/profile": Profile,
+    "/privacy": Privacy,
     "/piece/:cid": PieceDetail,
   };
 
@@ -65,6 +67,16 @@
   <Router {routes} />
 </main>
 
+<footer class="container site-footer">
+  <p>
+    <strong>Local-only profiles.</strong>
+    Your library lives in this browser — there is no server, no
+    account in the usual sense. If the project gains traction we may
+    offer hosted infrastructure later (opt-in). Details in the
+    <a href="#/privacy">privacy note</a>.
+  </p>
+</footer>
+
 <style>
   .row {
     display: flex;
@@ -96,5 +108,15 @@
   }
   .level-chip .lvl {
     color: var(--muted);
+  }
+  .site-footer {
+    margin-top: 3rem;
+    padding: 1rem 0;
+    border-top: 1px solid var(--border);
+    font-size: 0.85em;
+    color: var(--muted);
+  }
+  .site-footer p {
+    margin: 0;
   }
 </style>

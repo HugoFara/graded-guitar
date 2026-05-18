@@ -46,6 +46,14 @@
 </script>
 
 <section class="onboard">
+  <aside class="local-note">
+    <strong>Heads up:</strong> there's no signup. Your profile and
+    library live in <em>this browser only</em> — clearing site data
+    erases them, and they don't follow you to another device. If the
+    project gains traction we may add hosted accounts later. See the
+    <a href="#/privacy">privacy note</a>.
+  </aside>
+
   <h2>What level do you play at?</h2>
   <p class="lead">
     Pick a grade roughly aligned with the
@@ -96,6 +104,14 @@
   .onboard {
     max-width: 60rem;
     margin: 1rem auto;
+  }
+  .local-note {
+    padding: 0.7rem 0.9rem;
+    border-left: 3px solid var(--accent);
+    background: var(--card-bg);
+    border-radius: 3px;
+    margin-bottom: 1.25rem;
+    font-size: 0.9em;
   }
   .lead {
     color: var(--muted);
