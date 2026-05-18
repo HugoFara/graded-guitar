@@ -49,14 +49,13 @@ META_COLUMNS = {
 }
 
 # Hand-curated era assignments for composers present in the graded
-# subset. Built from Guitar Loot's top-25 composers plus a few common
-# classical-era names that appear in other Crouch sets. Composers not
-# in this map land in "Unknown" — the report makes the unmapped share
-# visible so the advisor can see what's missing. Era buckets are
-# coarse on purpose: the goal is to expose stylistic confounding, not
-# to do musicology.
+# subset. Built from Guitar Loot's top composers plus common classical-
+# era names. Composers not matched land in "Unknown" — the report
+# makes the unmapped share visible so the advisor can see what's
+# missing. Era buckets are coarse on purpose: the goal is to expose
+# stylistic confounding, not to do musicology.
 COMPOSER_ERA: dict[str, str] = {
-    # Renaissance / Jacobean lute (~1500-1650)
+    # Renaissance / Jacobean lute (~1500-1620)
     "John Dowland": "Renaissance",
     "Anthony Holborne": "Renaissance",
     "William Corkine": "Renaissance",
@@ -73,14 +72,87 @@ COMPOSER_ERA: dict[str, str] = {
     "Adrian Le Roy": "Renaissance",
     "Anon": "Renaissance",
     "Anon, Pickering Lute Book": "Renaissance",
-    # Baroque (~1600-1750)
+    "Richard Allison": "Renaissance",
+    "Cuthbert Hely": "Renaissance",
+    "Michelangelo Galilei": "Renaissance",
+    "Thomas Smyth": "Renaissance",
+    "Alfonso Ferrabosco 1": "Renaissance",
+    "Alfonso Ferrabosco the younger": "Renaissance",
+    "Robert Johnson": "Renaissance",
+    "Martin Peerson": "Renaissance",
+    "Nicolaes Vallet": "Renaissance",
+    "Joseph Sherlie": "Renaissance",
+    "John Whitfield": "Renaissance",
+    "Nicholas Strogers": "Renaissance",
+    "Augustine Bassano": "Renaissance",
+    "William Hollis": "Renaissance",
+    "Michael Cavendish": "Renaissance",
+    "Thomas Vautor": "Renaissance",
+    "Hans Leo Hassler": "Renaissance",
+    "P Guedron": "Renaissance",
+    "Pierre Guédron": "Renaissance",
+    "Anthony de Countie": "Renaissance",
+    "Germain Pinel, Pickering Lute Book": "Renaissance",
+    # Baroque (~1620-1750)
     "Giovanni Paolo Foscarini": "Baroque",
     "Sylvius Leopold Weiss": "Baroque",
     "Henry Purcell": "Baroque",
     "Robert de Visée": "Baroque",
+    "Robert de Visee": "Baroque",
     "Gaspar Sanz": "Baroque",
     "Johann Sebastian Bach": "Baroque",
     "J.S. Bach": "Baroque",
+    "Alessandro Piccinini": "Baroque",
+    "Esaias Reusner": "Baroque",
+    "Domenico Pellegrini": "Baroque",
+    "Johann Hieronymous Kapsberger": "Baroque",
+    "Jean Mercure": "Baroque",
+    "Daniel Purcell": "Baroque",
+    "William Lawes": "Baroque",
+    "Robert Ballard": "Baroque",
+    "Jacques Gallot": "Baroque",
+    "Germain Pinel": "Baroque",
+    "Gaultier": "Baroque",
+    "Simon Ives": "Baroque",
+    "Jean-Baptiste Besard": "Baroque",
+    "Charles Mouton": "Baroque",
+    "Enemond Gaultier": "Baroque",
+    "H. I. F. von Biber": "Baroque",
+    "Johann Hermann Schein": "Baroque",
+    "Philip van Wilder": "Renaissance",
+    "Phillip Franz Le Sage de Richée": "Baroque",
+    "Edward Pierce": "Renaissance",
+    "Newman": "Renaissance",
+    "Baruch Bulman": "Renaissance",
+    "Ambrose Lupo": "Renaissance",
+    "Richard Green": "Renaissance",
+    # Casing / spelling variants emitted by Guitar Loot.
+    "MARTIN PEERSON": "Renaissance",
+    "Anthoy Holborne": "Renaissance",
+    "Silvius Leopold Weiss": "Baroque",
+    "Silvius Leopold WEISS": "Baroque",
+    "Alfonso Ferrabosco I": "Renaissance",
+    "Alfonso Ferrabosco": "Renaissance",
+    # More historical composers found in the long tail.
+    "René Saman": "Renaissance",
+    "Giulio Abondante": "Renaissance",
+    "Joanambrosio Dalza": "Renaissance",
+    "Joan Ambrosio Dalza": "Renaissance",
+    "Marco dall'Aquila": "Renaissance",
+    "Daniel Farrant": "Renaissance",
+    "Jakup Polak": "Renaissance",
+    "Jacob Polak": "Renaissance",
+    "Emmanuel Adriaenssen": "Renaissance",
+    "John Coprario": "Renaissance",
+    "John McLauchland": "Renaissance",
+    "David Grieve": "Renaissance",
+    "Antonio Vivaldi": "Baroque",
+    "Johann Hieronymus Kapsberger": "Baroque",
+    "Dietrich Steffkins": "Baroque",
+    "Joseph Bodin de Boismortier": "Baroque",
+    "Dieterich Buxtehude": "Baroque",
+    "Santiago de Murcia": "Baroque",
+    "Carl Friedrich Abel": "Classical",
     # Classical (~1750-1820)
     "Fernando Sor": "Classical",
     "Mauro Giuliani": "Classical",
@@ -98,6 +170,22 @@ COMPOSER_ERA: dict[str, str] = {
     "Antonio Lauro": "Modern",
 }
 
+# Manuscript / source markers that confidently place a piece in the
+# Renaissance / Jacobean era when its composer field is "Anon" or a
+# source-suffixed variant ("Anon, Cosens Lute Book", etc.).
+_RENAISSANCE_SOURCE_MARKERS = (
+    "lute book", "16th century", "cosens lute", "balcarres",
+    "pickering lute", "willoughby lute", "margaret board",
+    "hirsch lute", "hisch lute", "cul ms", "dd.2.11", "dd. 2.11",
+    "dd.9.33", "combined sources", "manuscrit d'haslemere",
+    "dolmetsch library",
+)
+
+# Leading qualifiers we strip before mapping. "?" is the curator's
+# uncertainty marker; "Attr." and "after" are attribution hedges. The
+# underlying composer string after the prefix is what matters.
+_NAME_PREFIXES = ("Attr. ", "Attr.", "after ", "? ", "?")
+
 ERA_ORDER = ["Renaissance", "Baroque", "Classical", "Romantic", "Modern", "Unknown"]
 
 
@@ -111,7 +199,42 @@ def _to_float(value: str | None) -> float | None:
 
 
 def _era_of(composer: str) -> str:
-    return COMPOSER_ERA.get(composer, "Unknown")
+    """Map a composer field to an era bucket.
+
+    Order: strip attribution prefixes; exact dict match; Anon /
+    source-manuscript pattern → Renaissance; longest dict-key prefix
+    match (catches "John Danyel 1564 –" variants); fall back to
+    "Unknown".
+    """
+    if not composer:
+        return "Unknown"
+    n = composer.strip()
+    for pre in _NAME_PREFIXES:
+        if n.startswith(pre):
+            n = n[len(pre):].strip()
+            break
+    if n in COMPOSER_ERA:
+        return COMPOSER_ERA[n]
+    low = n.lower()
+    if low.startswith("anon"):
+        return "Renaissance"
+    for marker in _RENAISSANCE_SOURCE_MARKERS:
+        if marker in low:
+            return "Renaissance"
+    # Case-insensitive direct lookup (catches "MARTIN PEERSON" etc.).
+    cf = n.casefold()
+    for k, v in COMPOSER_ERA.items():
+        if k.casefold() == cf:
+            return v
+    # Longest-prefix match across map keys so "John Danyel 1564 –" or
+    # "Francis Cutting Cozens Lute Book" route to their named composer.
+    best: tuple[int, str] | None = None
+    for k, v in COMPOSER_ERA.items():
+        if cf.startswith(k.casefold()) and (best is None or len(k) > best[0]):
+            best = (len(k), v)
+    if best is not None:
+        return best[1]
+    return "Unknown"
 
 
 def _herfindahl(counts: list[int]) -> float:

@@ -68,6 +68,7 @@ require_file scripts/m2_feature_audit.py
 require_file scripts/m2_label_bias.py
 require_file scripts/m2_baseline_grader.py
 require_file scripts/tests/test_m1_validation.py
+require_file scripts/tests/test_m2.py
 require_file corpus/README.md
 
 echo "==> Syllabi JSON schema validation"
@@ -83,6 +84,14 @@ if command -v python3 >/dev/null 2>&1; then
   python3 scripts/tests/test_m1_validation.py || fail=1
 else
   red "  python3 not found; cannot run M1 regression tests"
+  fail=1
+fi
+
+echo "==> M2 regression tests"
+if command -v python3 >/dev/null 2>&1; then
+  python3 scripts/tests/test_m2.py || fail=1
+else
+  red "  python3 not found; cannot run M2 regression tests"
   fail=1
 fi
 

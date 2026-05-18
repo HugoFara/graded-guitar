@@ -66,16 +66,9 @@ For each grade: how many composers contribute, what share the top composer holds
 
 | era | G3 | G4 | G5 | G6 | G7 | G8 | G9 | total |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Renaissance | · | 2 | 22 | 66 | 71 | 67 | 7 | 235 |
-| Baroque | · | · | · | 12 | 8 | 6 | · | 26 |
-| Unknown | 4 | 4 | 17 | 25 | 79 | 36 | 1 | 166 |
-
-_166 graded pieces are from composers not in the era map (108 composers). Top unmapped:_
-  - Alessandro Piccinini (n=5)
-  - Richard Allison (n=4)
-  - Cuthbert Hely (n=4)
-  - Esaias Reusner (n=4)
-  - Domenico Pellegrini (n=4)
+| Renaissance | 4 | 6 | 30 | 86 | 120 | 97 | 8 | 351 |
+| Baroque | · | · | 9 | 17 | 37 | 12 | · | 75 |
+| Classical | · | · | · | · | 1 | · | · | 1 |
 
 ## 5. Per-feature composer η² (between-composer variance share)
 
@@ -113,6 +106,6 @@ _Restricted to composers with ≥5 graded pieces: 16 composers, 265 pieces._
 ## 6. Bottom line
 
 - **123 of 124 composers** have all their graded pieces at one grade. Together they account for **87.8% of the graded corpus**.
-- **55.0% of graded pieces are Renaissance** (by the hand-curated era map). The labelled subset is not a representative sample of the classical-guitar repertoire — it is a sample of one curator's lute-transcription set.
+- **82.2% of graded pieces are Renaissance** (by the hand-curated era map). The labelled subset is not a representative sample of the classical-guitar repertoire — it is a sample of one curator's lute-transcription set.
 - The advisor question is therefore not just *which features go into the model*, but **whether Delcamp-on-Crouch should be the primary label at all**, or whether it should be one signal among several (e.g. paired with a small advisor-graded calibration set spanning eras and difficulty).
 
