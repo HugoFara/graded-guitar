@@ -35,3 +35,4 @@ Open an ADR when introducing a new dependency, a new file format, a new service,
 - [0012 — M5 accounts: local-only profiles, async storage interface](./0012-m5-local-accounts.md)
 - [0013 — M6 framing: closed beta as the grading-signal path](./0013-m6-beta-as-grader.md)
 - [0014 — Corpus diversification: the realistic frontier without OMR](./0014-corpus-diversification-frontier.md)
+- [0015 — OMR feasibility spike](./0015-omr-feasibility-spike.md)
