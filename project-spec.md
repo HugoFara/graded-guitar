@@ -124,7 +124,7 @@ Each milestone has a goal, deliverables, and validation checks. Do not advance t
 - Ingest report: how many pieces processed, how many accepted, how many rejected and why.
 
 **Validation checks:**
-- [x] At least 40 distinct classical guitar pieces ingested and normalized, with a documented plan to grow (see *Grow plan* below). Original target was 500; lowered to reflect empirical scarcity of free-licensed classical-guitar MusicXML — spec §6 "ship narrow then widen" applies. **Current: 791 accepted pieces** as of 2026-05-18 (`corpus/report.md`).
+- [x] At least 40 distinct classical guitar pieces ingested and normalized, with a documented plan to grow (see *Grow plan* below). Original target was 500; lowered to reflect empirical scarcity of free-licensed classical-guitar MusicXML — spec §6 "ship narrow then widen" applies. **Current: 801 accepted pieces** as of 2026-05-18 (`corpus/report.md`).
 - [ ] Each piece has accurate composer, title, and key metadata.
 - [x] Every ingested piece can be opened by a standard MusicXML reader without errors. (Enforced by `m1_validate.py`: well-formed XML, `score-partwise` root, ≥1 part.)
 - [x] Pipeline is idempotent: running it twice produces the same corpus. (Content-addressed by sha256 in `corpus/raw/`; `corpus/cache/fetch_log.json` skips re-fetches.)
@@ -132,7 +132,7 @@ Each milestone has a goal, deliverables, and validation checks. Do not advance t
 - [x] Each piece's license is captured in the manifest (filtering for redistribution is an M3/M7 concern).
 - [ ] Advisor spot-checks 20 random pieces and confirms metadata is correct.
 
-**Grow plan.** Reaching 791 was achieved by adding sources opportunistically; the plan to keep growing is layered by how much work each requires.
+**Grow plan.** Reaching 801 was achieved by adding sources opportunistically; the plan to keep growing is layered by how much work each requires.
 
 - *No-effort* — re-running the existing pipeline periodically. Mutopia and Guitar Loot both add pieces over time; a quarterly re-run picks up new uploads on each.
 - *Low-effort additions (one ADR + one discover script each)* — other curator-style sites with predictable layouts, especially those catalogued at [musicxml.com/music-in-musicxml](https://www.musicxml.com/music-in-musicxml/) (Folkoteca Galega, Hausmusik, and similar small per-composer archives). The Delcamp Forum sheet-music section is community-uploaded and carries grading discussion — would need careful license handling but is the obvious second graded source after Guitar Loot.

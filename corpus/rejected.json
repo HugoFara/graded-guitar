@@ -51,86 +51,6 @@
       "detail": "0 pitched notes (< 16)"
     },
     {
-      "candidate_id": "mutopia:ftp/BachJS/BWV1006a/bwv-1006a_2g/bwv-1006a_2g#movement01",
-      "code": "LY_CONVERSION_FAILED",
-      "detail": "IndexError: pop from empty list"
-    },
-    {
-      "candidate_id": "mutopia:ftp/CarcassiM/O60/carcassi-op60-05/carcassi-op60-05#movement01",
-      "code": "LY_CONVERSION_FAILED",
-      "detail": "ValueError: invalid literal for int() with base 10: <scheme.Word 'text' at 150>"
-    },
-    {
-      "candidate_id": "mutopia:ftp/GruberFX/stille-orig/stille-orig#movement01",
-      "code": "LY_CONVERSION_FAILED",
-      "detail": "ValueError: invalid literal for int() with base 10: <scheme.Bool '#f' at 200>"
-    },
-    {
-      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky1/horetzky1#movement01",
-      "code": "LY_CONVERSION_FAILED",
-      "detail": "ValueError: invalid literal for int() with base 10: <scheme.Float '0.7' at 2006>"
-    },
-    {
-      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky1/horetzky1#movement02",
-      "code": "LY_CONVERSION_FAILED",
-      "detail": "ValueError: invalid literal for int() with base 10: <scheme.Float '0.7' at 2006>"
-    },
-    {
-      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky56/horetzky56#movement01",
-      "code": "LY_CONVERSION_FAILED",
-      "detail": "ValueError: invalid literal for int() with base 10: <scheme.Word 'left' at 3815>"
-    },
-    {
-      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky56/horetzky56#movement02",
-      "code": "LY_CONVERSION_FAILED",
-      "detail": "ValueError: invalid literal for int() with base 10: <scheme.Word 'left' at 3815>"
-    },
-    {
-      "candidate_id": "mutopia:ftp/JolyD/JolyD_Tyrolienne/JolyD_Tyrolienne#movement01",
-      "code": "LY_CONVERSION_FAILED",
-      "detail": "ValueError: invalid literal for int() with base 10: <scheme.Word 'left' at 746>"
-    },
-    {
-      "candidate_id": "mutopia:ftp/JolyD/JolyD_Tyrolienne/JolyD_Tyrolienne#movement02",
-      "code": "LY_CONVERSION_FAILED",
-      "detail": "ValueError: invalid literal for int() with base 10: <scheme.Word 'left' at 746>"
-    },
-    {
-      "candidate_id": "mutopia:ftp/SorF/O1/sor_op_1_5_2/sor_op_1_5_2#movement01",
-      "code": "LY_CONVERSION_FAILED",
-      "detail": "IndexError: list index out of range"
-    },
-    {
-      "candidate_id": "mutopia:ftp/SorF/O2/sor_op2_nr6/sor_op2_nr6#movement01",
-      "code": "LY_CONVERSION_FAILED",
-      "detail": "ValueError: invalid literal for int() with base 10: <scheme.Function 'set-accidental-style' at 6380>"
-    },
-    {
-      "candidate_id": "mutopia:ftp/SorF/O60/sor_op60-05/sor_op60-05#movement01",
-      "code": "LY_CONVERSION_FAILED",
-      "detail": "ValueError: invalid literal for int() with base 10: <scheme.Keyword 'down' at 76>"
-    },
-    {
-      "candidate_id": "mutopia:ftp/SorF/O60/sor_op60-06/sor_op60-06#movement01",
-      "code": "LY_CONVERSION_FAILED",
-      "detail": "ValueError: invalid literal for int() with base 10: <scheme.Keyword 'down' at 1358>"
-    },
-    {
-      "candidate_id": "mutopia:ftp/SorF/O60/sor_op60-07/sor_op60-07#movement01",
-      "code": "LY_CONVERSION_FAILED",
-      "detail": "ValueError: invalid literal for int() with base 10: <scheme.Keyword 'down' at 1751>"
-    },
-    {
-      "candidate_id": "mutopia:ftp/Traditional/greensleeves_guitar/greensleeves_guitar#movement01",
-      "code": "LY_CONVERSION_FAILED",
-      "detail": "AttributeError: 'list' object has no attribute 'inject_voice'"
-    },
-    {
-      "candidate_id": "mutopia:ftp/Traditional/greensleeves_guitar/greensleeves_guitar#movement02",
-      "code": "LY_CONVERSION_FAILED",
-      "detail": "AttributeError: 'list' object has no attribute 'pickup'"
-    },
-    {
       "candidate_id": "gh:lisyce/TalkingGuitarTabs@main:example_scores/Andante.musicxml",
       "code": "MISSING_COMPOSER",
       "detail": ""
@@ -712,6 +632,21 @@
     },
     {
       "candidate_id": "mutopia:ftp/CarulliF/carulli-fughetta/carulli-fughetta#movement01",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "mutopia:ftp/GruberFX/stille-orig/stille-orig#movement01",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "mutopia:ftp/Traditional/greensleeves_guitar/greensleeves_guitar#movement01",
+      "code": "MULTIPLE_PARTS",
+      "detail": "3 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "mutopia:ftp/Traditional/greensleeves_guitar/greensleeves_guitar#movement02",
       "code": "MULTIPLE_PARTS",
       "detail": "2 parts; solo guitar expected"
     },
@@ -1301,7 +1236,17 @@
       "detail": "tokens=[]"
     },
     {
+      "candidate_id": "mutopia:ftp/CarcassiM/O59/CarcassiMethodPreludes/CarcassiMethodPreludes#movement08",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
       "candidate_id": "mutopia:ftp/CarcassiM/O59/CarcassiMethodPreludes/CarcassiMethodPreludes#movement09",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O59/CarcassiMethodPreludes/CarcassiMethodPreludes#movement10",
       "code": "NON_GUITAR_INSTRUMENT",
       "detail": "tokens=[]"
     },
@@ -1316,12 +1261,27 @@
       "detail": "tokens=[]"
     },
     {
+      "candidate_id": "mutopia:ftp/CarcassiM/O59/CarcassiMethodPreludes/CarcassiMethodPreludes#movement13",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
       "candidate_id": "mutopia:ftp/CarcassiM/O59/CarcassiMethodPreludes/CarcassiMethodPreludes#movement14",
       "code": "NON_GUITAR_INSTRUMENT",
       "detail": "tokens=[]"
     },
     {
+      "candidate_id": "mutopia:ftp/CarcassiM/O59/CarcassiMethodPreludes/CarcassiMethodPreludes#movement15",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
       "candidate_id": "mutopia:ftp/CarcassiM/O59/CarcassiMethodPreludes/CarcassiMethodPreludes#movement16",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/CarcassiM/O59/CarcassiMethodPreludes/CarcassiMethodPreludes#movement17",
       "code": "NON_GUITAR_INSTRUMENT",
       "detail": "tokens=[]"
     },
@@ -1461,6 +1421,11 @@
       "detail": "tokens=[]"
     },
     {
+      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n21/giuliani-op50n21#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
       "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n22/giuliani-op50n22#movement01",
       "code": "NON_GUITAR_INSTRUMENT",
       "detail": "tokens=[]"
@@ -1536,6 +1501,11 @@
       "detail": "tokens=[]"
     },
     {
+      "candidate_id": "mutopia:ftp/JolyD/JolyD_Tyrolienne/JolyD_Tyrolienne#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
       "candidate_id": "mutopia:ftp/MilanL/milan-pavan2/milan-pavan2#movement01",
       "code": "NON_GUITAR_INSTRUMENT",
       "detail": "tokens=[]"
@@ -1571,6 +1541,11 @@
       "detail": "tokens=[]"
     },
     {
+      "candidate_id": "mutopia:ftp/SorF/O1/sor_op_1_5_2/sor_op_1_5_2#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
       "candidate_id": "mutopia:ftp/SorF/O1/sor_op_1_5_3/sor_op_1_5_3#movement01",
       "code": "NON_GUITAR_INSTRUMENT",
       "detail": "tokens=[]"
@@ -1592,6 +1567,11 @@
     },
     {
       "candidate_id": "mutopia:ftp/SorF/O2/sor_op2_nr5/sor_op2_nr5#movement01",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=[]"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O2/sor_op2_nr6/sor_op2_nr6#movement01",
       "code": "NON_GUITAR_INSTRUMENT",
       "detail": "tokens=[]"
     },
@@ -1691,37 +1671,7 @@
       "detail": "NO_NOTES: {'measures': 1}"
     },
     {
-      "candidate_id": "mutopia:ftp/CarcassiM/O59/CarcassiMethodPreludes/CarcassiMethodPreludes#movement08",
-      "code": "NO_NOTES",
-      "detail": "NO_NOTES: {'measures': 1}"
-    },
-    {
-      "candidate_id": "mutopia:ftp/CarcassiM/O59/CarcassiMethodPreludes/CarcassiMethodPreludes#movement10",
-      "code": "NO_NOTES",
-      "detail": "NO_NOTES: {'measures': 1}"
-    },
-    {
-      "candidate_id": "mutopia:ftp/CarcassiM/O59/CarcassiMethodPreludes/CarcassiMethodPreludes#movement13",
-      "code": "NO_NOTES",
-      "detail": "NO_NOTES: {'measures': 1}"
-    },
-    {
-      "candidate_id": "mutopia:ftp/CarcassiM/O59/CarcassiMethodPreludes/CarcassiMethodPreludes#movement15",
-      "code": "NO_NOTES",
-      "detail": "NO_NOTES: {'measures': 1}"
-    },
-    {
-      "candidate_id": "mutopia:ftp/CarcassiM/O59/CarcassiMethodPreludes/CarcassiMethodPreludes#movement17",
-      "code": "NO_NOTES",
-      "detail": "NO_NOTES: {'measures': 1}"
-    },
-    {
       "candidate_id": "mutopia:ftp/GiulianiM/O1/giuliani-op1n10/giuliani-op1n10#movement01",
-      "code": "NO_NOTES",
-      "detail": "NO_NOTES: {'measures': 1}"
-    },
-    {
-      "candidate_id": "mutopia:ftp/GiulianiM/O50/giuliani-op50n21/giuliani-op50n21#movement01",
       "code": "NO_NOTES",
       "detail": "NO_NOTES: {'measures': 1}"
     },
@@ -1918,7 +1868,7 @@
     {
       "candidate_id": "mutopia:ftp/GranadosE/O37/oriental-duo/oriental-duo#movement01",
       "code": "NO_PARTS",
-      "detail": "ValueError: invalid literal for int() with base 10: <scheme.Function 'define-music-function' at 5880>"
+      "detail": "NO_PARTS: {}"
     },
     {
       "candidate_id": "mutopia:ftp/KnjzeF/SixStudiesF/SixStudiesF#movement01",
@@ -1948,7 +1898,7 @@
     {
       "candidate_id": "mutopia:ftp/TarregaF/adelita-duo/adelita-duo#movement01",
       "code": "NO_PARTS",
-      "detail": "ValueError: invalid literal for int() with base 10: <scheme.Function 'define-music-function' at 4756>"
+      "detail": "NO_PARTS: {}"
     },
     {
       "candidate_id": "mutopia:ftp/TarregaF/adelita/adelita#movement01",
@@ -1963,7 +1913,7 @@
     {
       "candidate_id": "mutopia:ftp/TarregaF/lagrima-duo/lagrima-duo#movement01",
       "code": "NO_PARTS",
-      "detail": "ValueError: invalid literal for int() with base 10: <scheme.Word 'left' at 2732>"
+      "detail": "NO_PARTS: {}"
     },
     {
       "candidate_id": "mutopia:ftp/AguadoD/O3/aguado-op03n06/aguado-op03n06#movement01",

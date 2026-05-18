@@ -12719,15 +12719,15 @@
       "metadata": {
         "composer": "D. Aguado",
         "composer_normalized": "D. Aguado",
-        "key_fifths": "",
+        "key_fifths": "3",
         "opus": "",
         "title": "Les Favorites"
       },
       "normalized_path": "corpus/normalized/mutopia_ftp_AguadoD_O11_aguado-op11n02_aguado-op11n02#movement01.musicxml",
-      "normalized_sha256": "01311c2c0bfab2f93643366b8d6d6315310e8d84fe33b76a534c019e1aca4bea",
+      "normalized_sha256": "b9631510d2076bfd6a2394b5f3192de3efd1a78149cfa9ac014954bfb568b9ed",
       "page_url": "https://www.mutopiaproject.org/ftp/AguadoD/O11/aguado-op11n02/",
       "parts": 1,
-      "raw_sha256": "f36f6bb416b157feeb237d3f1d089f70a5ff967b0af452b27aa7b60463231991",
+      "raw_sha256": "981e3005932a2059181849724986d093d021a8707a3fb913a8a361474fadeda5",
       "source": "mutopia"
     },
     {
@@ -12744,15 +12744,15 @@
       "metadata": {
         "composer": "D. Aguado",
         "composer_normalized": "D. Aguado",
-        "key_fifths": "",
+        "key_fifths": "2",
         "opus": "",
         "title": "Les Favorites"
       },
       "normalized_path": "corpus/normalized/mutopia_ftp_AguadoD_O11_aguado-op11n03_aguado-op11n03#movement01.musicxml",
-      "normalized_sha256": "c65eb10b60b79a0cc5c09ca01a91aaee9fe13056bd33856995bd6b131029a28c",
+      "normalized_sha256": "dd0b961c76e856c5f81d9df718b62be502eb432b1ce97197a36a077a41fc1e44",
       "page_url": "https://www.mutopiaproject.org/ftp/AguadoD/O11/aguado-op11n03/",
       "parts": 1,
-      "raw_sha256": "7e2a9844039f72fbc3443511da30d18e5d6ef34002493c60a2f001816c123827",
+      "raw_sha256": "fe69222b0348344845b751ad1cf58c45bec7678fa034eb7176ca26015766a8c9",
       "source": "mutopia"
     },
     {
@@ -12794,15 +12794,15 @@
       "metadata": {
         "composer": "D. Aguado",
         "composer_normalized": "D. Aguado",
-        "key_fifths": "",
+        "key_fifths": "0",
         "opus": "",
         "title": "Les Favorites"
       },
       "normalized_path": "corpus/normalized/mutopia_ftp_AguadoD_O11_aguado-op11n05_aguado-op11n05#movement01.musicxml",
-      "normalized_sha256": "27d59b5d91e24854fb1d6c6fcf149ba25548c8287fef8976a35299835ddb2392",
+      "normalized_sha256": "75f210d6f524f6752b5ffb88d3b1d1d74fdd2064e74947923635427061d3d12a",
       "page_url": "https://www.mutopiaproject.org/ftp/AguadoD/O11/aguado-op11n05/",
       "parts": 1,
-      "raw_sha256": "8f9b1151be1c5d971f2eb316b2975e22f91816aced90d57f3c9eb98e0fbc0457",
+      "raw_sha256": "f4c55e74767d285b589991cda0f2c79a588ce62280f881dc9fb57de049e2a26f",
       "source": "mutopia"
     },
     {
@@ -12844,15 +12844,15 @@
       "metadata": {
         "composer": "D. Aguado",
         "composer_normalized": "D. Aguado",
-        "key_fifths": "",
+        "key_fifths": "1",
         "opus": "",
         "title": "Les Favorites"
       },
       "normalized_path": "corpus/normalized/mutopia_ftp_AguadoD_O11_aguado-op11n07_aguado-op11n07#movement01.musicxml",
-      "normalized_sha256": "28af6a07624de061c3b319c417b21a874617997cd22c727e30d8e2ba77b70446",
+      "normalized_sha256": "d2848a393146295dd209126c6558291cc69e92a31fbe15495274ad8bbd7d57a4",
       "page_url": "https://www.mutopiaproject.org/ftp/AguadoD/O11/aguado-op11n07/",
       "parts": 1,
-      "raw_sha256": "9dc19d8c3318db85ab7413da3cbdf910936471cf18aa6cb04d2b67afccddac10",
+      "raw_sha256": "781e763aef49a16b71083741f6892e3ae71e45eb93d64871abfbc021558a01b3",
       "source": "mutopia"
     },
     {
@@ -12869,15 +12869,15 @@
       "metadata": {
         "composer": "D. Aguado",
         "composer_normalized": "D. Aguado",
-        "key_fifths": "",
+        "key_fifths": "1",
         "opus": "",
         "title": "Les Favorites"
       },
       "normalized_path": "corpus/normalized/mutopia_ftp_AguadoD_O11_aguado-op11n08_aguado-op11n08#movement01.musicxml",
-      "normalized_sha256": "25d0c599eff5adb5f0adf428b4fb418520f894edd540cb46e3867efd2555539a",
+      "normalized_sha256": "86fbb2db559fca7efc35ce8eae22bf5e4e780028cf5d1eebfd746ff0c0489ef0",
       "page_url": "https://www.mutopiaproject.org/ftp/AguadoD/O11/aguado-op11n08/",
       "parts": 1,
-      "raw_sha256": "a268c09dbcc9534d22406b3bbb4ea2b942a11fba3b433c0903e6dcef90e9cbdd",
+      "raw_sha256": "ae91de4cb9e159488df4e368a44d895a3757c03b6cdf522aa05c01e3668acf45",
       "source": "mutopia"
     },
     {
@@ -12991,15 +12991,15 @@
       "metadata": {
         "composer": "D. Aguado",
         "composer_normalized": "D. Aguado",
-        "key_fifths": "",
+        "key_fifths": "3",
         "opus": "",
         "title": "8 Petites Pièces"
       },
       "normalized_path": "corpus/normalized/mutopia_ftp_AguadoD_O3_aguado-op03n03_aguado-op03n03#movement01.musicxml",
-      "normalized_sha256": "8bdf33e3656f511e3c051cd5dcbf07c7e7b30a0b75731a8251b18ee10ae4e6fe",
+      "normalized_sha256": "56544888e551162e0004474544ab872120565f51556620651d7ef90dce8f9d9d",
       "page_url": "https://www.mutopiaproject.org/ftp/AguadoD/O3/aguado-op03n03/",
       "parts": 1,
-      "raw_sha256": "833c715d33cc9a068997ea9048baf4f16377f606af4d1c00532bb63202d65f0c",
+      "raw_sha256": "3b88ac8f45f3729e7cd82d76dd1b3487c881a8ee0f3a91d90d54cba287166b10",
       "source": "mutopia"
     },
     {
@@ -13142,10 +13142,10 @@
         "title": "Six Petites Pièces, No. 1"
       },
       "normalized_path": "corpus/normalized/mutopia_ftp_AguadoD_O4_AguadoOp4No1_AguadoOp4No1#movement02.musicxml",
-      "normalized_sha256": "54c9997a4691bf955ae43a3c04b565c24060755fe2b15f9f0db01e998b3770b6",
+      "normalized_sha256": "bce4a02ac4f79811c4398adf455172b86e41b02b96eef4949b5a899e59e34cce",
       "page_url": "https://www.mutopiaproject.org/ftp/AguadoD/O4/AguadoOp4No1/",
       "parts": 1,
-      "raw_sha256": "a625177a2e3db33b1d9ceaeaf7535b11198a14f7ff18a752abbd33b5b5e9ce76",
+      "raw_sha256": "02f668e65b6177547ccd535c1a429d0451514d9aad93adb45fc7becdfa18b618",
       "source": "mutopia"
     },
     {
@@ -13432,10 +13432,10 @@
         "title": "Spanish Romance"
       },
       "normalized_path": "corpus/normalized/mutopia_ftp_Anonymous_spanish-romance_spanish-romance#movement01.musicxml",
-      "normalized_sha256": "14670e754a40846ca747c26ff08eb514fa9ecf1c2fca583fcd64e32d0fe161cc",
+      "normalized_sha256": "bc2a43edfbd3aa717d5c02e9e5448a9b2cf40ef3e9e1bdc1fe063b0fa227948e",
       "page_url": "https://www.mutopiaproject.org/ftp/Anonymous/spanish-romance/",
       "parts": 1,
-      "raw_sha256": "8953d469f7754be322b6c52ebc646cbfde9925fd6eab2d4e22b5402405e14b1b",
+      "raw_sha256": "077b197ff046edc265f99099e920b2da60c62a9f249df1897318311be5fbd037",
       "source": "mutopia"
     },
     {
@@ -13457,10 +13457,35 @@
         "title": "Suite E-Dur - BWV 1006a"
       },
       "normalized_path": "corpus/normalized/mutopia_ftp_BachJS_BWV1006a_bwv-1006a_1g_bwv-1006a_1g#movement01.musicxml",
-      "normalized_sha256": "43226b5e8e76fcaf8eff20df2992bdcd127773632f0a0bd616331c9a8b6a1d15",
+      "normalized_sha256": "4136f256652f951db6de207035f7a2e0561cea5f9cda64d907b7f01ab57f2c04",
       "page_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1006a/bwv-1006a_1g/",
       "parts": 1,
-      "raw_sha256": "7137d6675d50a449e9ff54920023594551ea5339cbafc7ed8521e9671e95ae84",
+      "raw_sha256": "77b4513d3e56ad9642cd590d77f6c7dcc9fdb6498a6a58b4e3599f9d9c8d2fdb",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/BachJS/BWV1006a/bwv-1006a_2g/bwv-1006a_2g#movement01",
+      "file_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1006a/bwv-1006a_2g/bwv-1006a_2g.ly",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "Laute",
+        "acoustic guitar (nylon)",
+        "pluck.guitar.nylon-string"
+      ],
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "metadata": {
+        "composer": "Johann Sebastian Bach (1685-1750)",
+        "composer_normalized": "Johann Sebastian Bach",
+        "key_fifths": "4",
+        "opus": "",
+        "title": "Suite E-Dur - BWV 1006a"
+      },
+      "normalized_path": "corpus/normalized/mutopia_ftp_BachJS_BWV1006a_bwv-1006a_2g_bwv-1006a_2g#movement01.musicxml",
+      "normalized_sha256": "6bee8e96b59cc8d820197b9ed6ad064f6f8df146fdb1cdbda79552038ff1589d",
+      "page_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1006a/bwv-1006a_2g/",
+      "parts": 1,
+      "raw_sha256": "e8dad8e6bdf7f08eb7eb771c3e799c85e11cdaacfaa3bf2c7c3a1973cc188db2",
       "source": "mutopia"
     },
     {
@@ -13629,10 +13654,10 @@
         "title": "Suite in C Minor for Lute (trans. to A minor)"
       },
       "normalized_path": "corpus/normalized/mutopia_ftp_BachJS_BWV997_bwv997-02fuga_bwv997-02fuga#movement01.musicxml",
-      "normalized_sha256": "d71790d304bfd7a8db5b533f1507a83f99478c76d826455dc9e27d8d454df1ce",
+      "normalized_sha256": "58af084cc4a4eed3b01efd73bf3dae41a8cc9771dc03c86c1d9f4b9cd824b571",
       "page_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV997/bwv997-02fuga/",
       "parts": 1,
-      "raw_sha256": "d077be9f8a07349c634d19615a6ee9532c2fe0f7d4588bbe6315193d289911d5",
+      "raw_sha256": "cf50a9339202ae74fcda483aea7fae2a25d5329a718c0f3e499536709edcc6f9",
       "source": "mutopia"
     },
     {
@@ -14051,6 +14076,30 @@
       "source": "mutopia"
     },
     {
+      "candidate_id": "mutopia:ftp/CarcassiM/O60/carcassi-op60-05/carcassi-op60-05#movement01",
+      "file_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-05/carcassi-op60-05.ly",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "acoustic guitar (nylon)",
+        "pluck.guitar.nylon-string"
+      ],
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "metadata": {
+        "composer": "Mateo Carcassi",
+        "composer_normalized": "Mateo Carcassi",
+        "key_fifths": "1",
+        "opus": "",
+        "title": "Etude 5"
+      },
+      "normalized_path": "corpus/normalized/mutopia_ftp_CarcassiM_O60_carcassi-op60-05_carcassi-op60-05#movement01.musicxml",
+      "normalized_sha256": "f2ccd28770033a4f8e8ade335f956bd0456335d94e706e3069a9e8bbe53bc19c",
+      "page_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-05/",
+      "parts": 1,
+      "raw_sha256": "92f48b4174e850141c158c2cfe7a7442e74ac14c79ea33a2f047af3a2e982eb0",
+      "source": "mutopia"
+    },
+    {
       "candidate_id": "mutopia:ftp/CarcassiM/O60/carcassi-op60-06/carcassi-op60-06#movement01",
       "file_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-06/carcassi-op60-06.ly",
       "format": "musicxml",
@@ -14406,10 +14455,10 @@
         "title": "Etude 22"
       },
       "normalized_path": "corpus/normalized/mutopia_ftp_CarcassiM_O60_carcassi-op60-22_carcassi-op60-22#movement01.musicxml",
-      "normalized_sha256": "ef322681baefd4e89a3ca4361a62ece03c9c9b49cfc63510cf5d225628a65465",
+      "normalized_sha256": "c7beaffa951f5162503b30bdd9401b615657d0a545fb5bb6f8227a84578de1dc",
       "page_url": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-22/",
       "parts": 1,
-      "raw_sha256": "9079ad3dcaa067e81e505e7739731c13c58d83380600c226b99edeac104031e5",
+      "raw_sha256": "8dbbe747a3072b992555a5ab4affa24e9ccfa5103bc33cd8a050fd839d9a846b",
       "source": "mutopia"
     },
     {
@@ -15440,6 +15489,54 @@
       "page_url": "https://www.mutopiaproject.org/ftp/GiulianiM/O59/giuliani-op59n16/",
       "parts": 1,
       "raw_sha256": "9d1161cf876746f11ac28c90f29c4882bbf48b91d3511041afac1bb0219031fe",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky1/horetzky1#movement01",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky1/horetzky1.ly",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "acoustic guitar (nylon)",
+        "pluck.guitar.nylon-string"
+      ],
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "metadata": {
+        "composer": "Felix Horetzky 1796-1870",
+        "composer_normalized": "Felix Horetzky",
+        "key_fifths": "2",
+        "opus": "",
+        "title": "Nº. 1. March by Rossini."
+      },
+      "normalized_path": "corpus/normalized/mutopia_ftp_HoretzkyF_horetzky1_horetzky1#movement01.musicxml",
+      "normalized_sha256": "4a9b9216f826d6b088ac9543fd864b46f2dc4e78ce213645dfe7a8c7269b6cb5",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky1/",
+      "parts": 1,
+      "raw_sha256": "dcc0c909836c26a12be9374c03afe68ecaa92619c3103be5afad39b027aad7ce",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky1/horetzky1#movement02",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky1/horetzky1.ly",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "acoustic guitar (nylon)",
+        "pluck.guitar.nylon-string"
+      ],
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "metadata": {
+        "composer": "Felix Horetzky 1796-1870",
+        "composer_normalized": "Felix Horetzky",
+        "key_fifths": "2",
+        "opus": "",
+        "title": "Nº. 1. March by Rossini."
+      },
+      "normalized_path": "corpus/normalized/mutopia_ftp_HoretzkyF_horetzky1_horetzky1#movement02.musicxml",
+      "normalized_sha256": "1d134d39db06dfc9070fea4e2d091491d25ccc2e0747b3348d3fbce5d073b607",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky1/",
+      "parts": 1,
+      "raw_sha256": "74cc08e062667308290402d8b6d3f1fca2b1df733038157861d8f1af4c66d193",
       "source": "mutopia"
     },
     {
@@ -17843,6 +17940,54 @@
       "source": "mutopia"
     },
     {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky56/horetzky56#movement01",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky56/horetzky56.ly",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "acoustic guitar (nylon)",
+        "pluck.guitar.nylon-string"
+      ],
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "metadata": {
+        "composer": "Felix Horetzky 1796-1870",
+        "composer_normalized": "Felix Horetzky",
+        "key_fifths": "2",
+        "opus": "",
+        "title": "Nº. 56. Chanson Des Marseillois."
+      },
+      "normalized_path": "corpus/normalized/mutopia_ftp_HoretzkyF_horetzky56_horetzky56#movement01.musicxml",
+      "normalized_sha256": "bc5cb5a414b04cb8d23b821d4a3398a8ac7210c7b366177b4da55b441f6716c4",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky56/",
+      "parts": 1,
+      "raw_sha256": "01ad593f472a560bc8706584d81be0d716776c9cf5a23e71ad4f7762018cd12f",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/HoretzkyF/horetzky56/horetzky56#movement02",
+      "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky56/horetzky56.ly",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "acoustic guitar (nylon)",
+        "pluck.guitar.nylon-string"
+      ],
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "metadata": {
+        "composer": "Felix Horetzky 1796-1870",
+        "composer_normalized": "Felix Horetzky",
+        "key_fifths": "2",
+        "opus": "",
+        "title": "Nº. 56. Chanson Des Marseillois."
+      },
+      "normalized_path": "corpus/normalized/mutopia_ftp_HoretzkyF_horetzky56_horetzky56#movement02.musicxml",
+      "normalized_sha256": "b1b0b1399a09281934b1c87c5f135bfccd8b74e937f91d834a8b87ad6a7f84be",
+      "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky56/",
+      "parts": 1,
+      "raw_sha256": "c6042481a35339c9882ba77a791485fe653e707a52632664b3991a21d7da1e98",
+      "source": "mutopia"
+    },
+    {
       "candidate_id": "mutopia:ftp/HoretzkyF/horetzky57/horetzky57#movement01",
       "file_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky57/horetzky57.ly",
       "format": "musicxml",
@@ -18224,6 +18369,30 @@
       "page_url": "https://www.mutopiaproject.org/ftp/HoretzkyF/horetzky9/",
       "parts": 1,
       "raw_sha256": "b9682d4bb923f373852db91c5ba9e88acec550608478b6804f654cf0c13ecb8a",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/JolyD/JolyD_Tyrolienne/JolyD_Tyrolienne#movement02",
+      "file_url": "https://www.mutopiaproject.org/ftp/JolyD/JolyD_Tyrolienne/JolyD_Tyrolienne.ly",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "acoustic guitar (nylon)",
+        "pluck.guitar.nylon-string"
+      ],
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "metadata": {
+        "composer": "D. Joly",
+        "composer_normalized": "D. Joly",
+        "key_fifths": "2",
+        "opus": "",
+        "title": "Tyrolienne"
+      },
+      "normalized_path": "corpus/normalized/mutopia_ftp_JolyD_JolyD_Tyrolienne_JolyD_Tyrolienne#movement02.musicxml",
+      "normalized_sha256": "c97b4f2af57da3b17d25e2b53d0853b1dbd2e1c0353440250080d0eaf6879ce5",
+      "page_url": "https://www.mutopiaproject.org/ftp/JolyD/JolyD_Tyrolienne/",
+      "parts": 1,
+      "raw_sha256": "b2e5f0fe79ac73598c096afa9b7bc1091c3068b63e398b08ef9df2465cb27d31",
       "source": "mutopia"
     },
     {
@@ -19351,10 +19520,10 @@
         "title": "Pavan 2"
       },
       "normalized_path": "corpus/normalized/mutopia_ftp_MilanL_milan-pavan2_milan-pavan2#movement02.musicxml",
-      "normalized_sha256": "f2b1df6076ba1aecb665832601f7af1a5d1a44ec9b1ce868e15286d46719c636",
+      "normalized_sha256": "c9c84fa3e64a9ca064ed7d6bd686acc06fba5154907054de873b209e30b5c5c6",
       "page_url": "https://www.mutopiaproject.org/ftp/MilanL/milan-pavan2/",
       "parts": 1,
-      "raw_sha256": "910225e29ba2a5ef5dab49f375103f97cf504a934f8bee49fa4ff43bb152962a",
+      "raw_sha256": "c87fdeec8fe1801900c2fa2f4412bfedd6849ac089b4031b54457fba5df1ba1b",
       "source": "mutopia"
     },
     {
@@ -19375,10 +19544,10 @@
         "title": "Recuerdos"
       },
       "normalized_path": "corpus/normalized/mutopia_ftp_PapezikR_forsting_forsting#movement01.musicxml",
-      "normalized_sha256": "70d46d5a28d42e5972800e1381097951afcb8844b20cdace441c338a48a30f47",
+      "normalized_sha256": "577b7affb3e2751005359481b3a2b1e86828aa72b27223abba53afb28466db30",
       "page_url": "https://www.mutopiaproject.org/ftp/PapezikR/forsting/",
       "parts": 1,
-      "raw_sha256": "d4102c85437d4516f5d8bb0c9d3abd05396ab59f14fa2007042efe0853113b7b",
+      "raw_sha256": "3afd5ed5b6ff65932915057dd4f4be66f57bb55f355988148231a49be52bf4e0",
       "source": "mutopia"
     },
     {
@@ -19442,15 +19611,15 @@
       "metadata": {
         "composer": "Fernando Sor",
         "composer_normalized": "Fernando Sor",
-        "key_fifths": "",
+        "key_fifths": "1",
         "opus": "",
         "title": "Six divertissements pour la guitare"
       },
       "normalized_path": "corpus/normalized/mutopia_ftp_SorF_O2_sor_op2_2_sor_op2_2#movement01.musicxml",
-      "normalized_sha256": "50bcab8d73d38a8fc528025a8e1ed00fc91d27a98c15c72293b6dcee02a59d0f",
+      "normalized_sha256": "e97ae190b138c2baefd89d3e7a973afa8536d3f2fc730339a94066bb0b9b60c4",
       "page_url": "https://www.mutopiaproject.org/ftp/SorF/O2/sor_op2_2/",
       "parts": 1,
-      "raw_sha256": "4decc12fdff7c2f44a8af5baced93d55773afb1330b9b845e70ee91e331d1714",
+      "raw_sha256": "5f2d126ec61068a1a39406dfb4afd1ff0223b3d86741cf44d14a5fc5b03ac1b1",
       "source": "mutopia"
     },
     {
@@ -19567,10 +19736,10 @@
         "title": "24 Studies for the Guitar"
       },
       "normalized_path": "corpus/normalized/mutopia_ftp_SorF_O35_sorf_op35_no11_sorf_op35_no11#movement01.musicxml",
-      "normalized_sha256": "12a89a0e89b128c1c17e94bd845c6c363f3a04e86014db49bc13cb5390d0c7f9",
+      "normalized_sha256": "b3ee6abf231cc02052f888846f4f1f3170041448cf92b4219cc29d1ee67c5e7d",
       "page_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no11/",
       "parts": 1,
-      "raw_sha256": "ef732b9f832186036841dc7d31b3158c42177dc2a5f29ede1f5bf0f79b0d594f",
+      "raw_sha256": "e5d616b23a152a730f801cc8ad5dd88ac9550a9ba9b85e2bf027b395d7868aa8",
       "source": "mutopia"
     },
     {
@@ -19783,10 +19952,10 @@
         "title": "24 Studies for the Guitar"
       },
       "normalized_path": "corpus/normalized/mutopia_ftp_SorF_O35_sorf_op35_no21_sorf_op35_no21#movement01.musicxml",
-      "normalized_sha256": "b324b72b40e0d6fa53ac3ac46cf5d6f57d024913f30511e7843978c8de471a37",
+      "normalized_sha256": "588e1b378685b21cd18b6651ef7b67056c2bf0a528bd42c367c9c5fe7c5d2191",
       "page_url": "https://www.mutopiaproject.org/ftp/SorF/O35/sorf_op35_no21/",
       "parts": 1,
-      "raw_sha256": "ecff83401291c11b63d2a347147dc75cf5eed0acf910b414b6e7248a23b96af2",
+      "raw_sha256": "0160d63e1dd9ff74817507ef91cabcd565b8488fd0668c644caa412c830fcfa5",
       "source": "mutopia"
     },
     {
@@ -20193,15 +20362,15 @@
       "metadata": {
         "composer": "F. Sor",
         "composer_normalized": "F. Sor",
-        "key_fifths": "",
+        "key_fifths": "3",
         "opus": "",
         "title": "Six Petites Pièces"
       },
       "normalized_path": "corpus/normalized/mutopia_ftp_SorF_O45_sorf-op45n05_sorf-op45n05#movement01.musicxml",
-      "normalized_sha256": "3b4d5a8ce1c9e18017ea509d5ad1ea1a71f7d2b63895764cb8773ccd6c323632",
+      "normalized_sha256": "d7745de2a606880e5da1c4257b78f077c41bd8849735a88d3f86e582c5ad5b72",
       "page_url": "https://www.mutopiaproject.org/ftp/SorF/O45/sorf-op45n05/",
       "parts": 1,
-      "raw_sha256": "6c195c932c0fa85eddde6f9b60665269724b425103c7fcdb62cb63d31a634e40",
+      "raw_sha256": "1e57a0ae12d3a6183e6d1bf0f29861295bae7314ff612beb8e28b2609f97fc2d",
       "source": "mutopia"
     },
     {
@@ -20222,10 +20391,10 @@
         "title": "Andante Largo"
       },
       "normalized_path": "corpus/normalized/mutopia_ftp_SorF_O5_sor-op5-5_sor-op5-5#movement01.musicxml",
-      "normalized_sha256": "251a98fbeceeffbdef40f81efb5b5ab681091ab1a307f4fec83c710f161ecc0b",
+      "normalized_sha256": "8fb6f1d376d72d6a197be39d4a8411d8a5c62aab4f07ba91b4f6dc06e72a1ae5",
       "page_url": "https://www.mutopiaproject.org/ftp/SorF/O5/sor-op5-5/",
       "parts": 1,
-      "raw_sha256": "3f11c99c4fc173eca748f44853380aaf5bb6e40796c571a21357b3db4adc55cf",
+      "raw_sha256": "3e96501a7415acd943a8df5c602f702d8937a5fc140d526489481e48bcecfe89",
       "source": "mutopia"
     },
     {
@@ -20253,6 +20422,78 @@
       "source": "mutopia"
     },
     {
+      "candidate_id": "mutopia:ftp/SorF/O60/sor_op60-05/sor_op60-05#movement01",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O60/sor_op60-05/sor_op60-05.ly",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "acoustic guitar (nylon)",
+        "pluck.guitar.nylon-string"
+      ],
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "metadata": {
+        "composer": "Fernando Sor",
+        "composer_normalized": "Fernando Sor",
+        "key_fifths": "0",
+        "opus": "",
+        "title": "25 Progressive Lessons"
+      },
+      "normalized_path": "corpus/normalized/mutopia_ftp_SorF_O60_sor_op60-05_sor_op60-05#movement01.musicxml",
+      "normalized_sha256": "3b830a4913f1e52a0a5cd832904294163bf92ff99e7617b0c19b46203e3002c6",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O60/sor_op60-05/",
+      "parts": 1,
+      "raw_sha256": "8822af4dfae454ca005c683123260843df09f3c5abd685f5072e1a2399fa333f",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O60/sor_op60-06/sor_op60-06#movement01",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O60/sor_op60-06/sor_op60-06.ly",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "acoustic guitar (nylon)",
+        "pluck.guitar.nylon-string"
+      ],
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "metadata": {
+        "composer": "Fernando Sor",
+        "composer_normalized": "Fernando Sor",
+        "key_fifths": "0",
+        "opus": "",
+        "title": "25 Progressive Studies"
+      },
+      "normalized_path": "corpus/normalized/mutopia_ftp_SorF_O60_sor_op60-06_sor_op60-06#movement01.musicxml",
+      "normalized_sha256": "ea949462ae6e7aed570771355a5657e38aad92a539412fec4c0513b5ad96b3ae",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O60/sor_op60-06/",
+      "parts": 1,
+      "raw_sha256": "35b426a5d717389696ce253e7fd96459cdc3772a1c754d07cd59e180223a28f9",
+      "source": "mutopia"
+    },
+    {
+      "candidate_id": "mutopia:ftp/SorF/O60/sor_op60-07/sor_op60-07#movement01",
+      "file_url": "https://www.mutopiaproject.org/ftp/SorF/O60/sor_op60-07/sor_op60-07.ly",
+      "format": "musicxml",
+      "instrument_tokens": [
+        "acoustic guitar (nylon)",
+        "pluck.guitar.nylon-string"
+      ],
+      "license": "Mutopia: per-file CC or PD",
+      "license_spdx": "TBD",
+      "metadata": {
+        "composer": "Fernando Sor",
+        "composer_normalized": "Fernando Sor",
+        "key_fifths": "0",
+        "opus": "",
+        "title": "25 Progressive Studies"
+      },
+      "normalized_path": "corpus/normalized/mutopia_ftp_SorF_O60_sor_op60-07_sor_op60-07#movement01.musicxml",
+      "normalized_sha256": "3abf9cdff19af22c04a8462989fa9365b558ce4fe289c56408673b9f0d207744",
+      "page_url": "https://www.mutopiaproject.org/ftp/SorF/O60/sor_op60-07/",
+      "parts": 1,
+      "raw_sha256": "f07b0d86719f2baff01e57adf426684d082cc471cfdda158fe4e023035523e40",
+      "source": "mutopia"
+    },
+    {
       "candidate_id": "mutopia:ftp/SorF/O60/sor_op60-08/sor_op60-08#movement01",
       "file_url": "https://www.mutopiaproject.org/ftp/SorF/O60/sor_op60-08/sor_op60-08.ly",
       "format": "musicxml",
@@ -20265,15 +20506,15 @@
       "metadata": {
         "composer": "Fernando Sor",
         "composer_normalized": "Fernando Sor",
-        "key_fifths": "",
+        "key_fifths": "0",
         "opus": "",
         "title": "25 Progressive Studies"
       },
       "normalized_path": "corpus/normalized/mutopia_ftp_SorF_O60_sor_op60-08_sor_op60-08#movement01.musicxml",
-      "normalized_sha256": "6ebea7084a2b60ee52d248e73c9fc476b3446bbe75756e93771649127be60d5f",
+      "normalized_sha256": "b17c6ffe8c0e23752855c32900804f9b6405a2d31898d9f521931c476b4ff3ea",
       "page_url": "https://www.mutopiaproject.org/ftp/SorF/O60/sor_op60-08/",
       "parts": 1,
-      "raw_sha256": "9b9a0dcafc3ef7fb59acfc77d16f0480a30b4e9d8870bd872b699e5e3a6242ff",
+      "raw_sha256": "abc8b1caf6d5e00aae1ae6fe694260dea16a2e2128052dda08535fe3b4332932",
       "source": "mutopia"
     },
     {
@@ -20289,15 +20530,15 @@
       "metadata": {
         "composer": "Fernando Sor",
         "composer_normalized": "Fernando Sor",
-        "key_fifths": "",
+        "key_fifths": "0",
         "opus": "",
         "title": "25 Progressive Studies"
       },
       "normalized_path": "corpus/normalized/mutopia_ftp_SorF_O60_sor_op60-09_sor_op60-09#movement01.musicxml",
-      "normalized_sha256": "2c06099fcf0f136fa199865d1950a7840ab49ff3d50c4d2941be0556a96433f2",
+      "normalized_sha256": "d8301c8c55a469138d910a0b8a6edd5541146b7112fe322c336d4119de61a858",
       "page_url": "https://www.mutopiaproject.org/ftp/SorF/O60/sor_op60-09/",
       "parts": 1,
-      "raw_sha256": "c04d765b72929874af44473fb3a8d5e29b2fe92d259d7d770d27ee985995e6bf",
+      "raw_sha256": "d270286bd1232d2c4bc509a38abf35ee8373fdda7a3359b46e44d71ec6fcee2f",
       "source": "mutopia"
     },
     {

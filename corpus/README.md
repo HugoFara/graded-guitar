@@ -10,6 +10,7 @@ Output of the M1 ingest pipeline.
 - `report.md` — human-readable summary (counts, top rejection reasons, top composers).
 - `spot_check.md` — mechanical pre-check punch list (range outliers, fragments, suspicious metadata). Output of `scripts/m1_pre_check.py`. Distinct from the formal advisor 20-piece spot-check.
 - `features.csv` — one row per accepted piece with the M2 grading-feature set. Output of `scripts/m2_features.py`. See `decisions/0009-m2-grading-inputs.md` for column definitions.
+- `feature_audit.md` — per-grade, per-source distribution summary of `features.csv`, plus pairwise correlation flags. Output of `scripts/m2_feature_audit.py`. Intended as the advisor's entry point to the Phase 1 feature list.
 
 ## What's gitignored
 
@@ -31,6 +32,8 @@ python scripts/m1_fetch.py
 python scripts/m1_validate.py
 # Feature extraction over the accepted manifest:
 python scripts/m2_features.py
+# Distributional audit (for advisor review):
+python scripts/m2_feature_audit.py
 ```
 
 `scripts/m1_discover_github.py` uses the `gh` CLI for auth and rate-limit handling — log in with `gh auth login` first.

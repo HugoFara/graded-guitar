@@ -1,17 +1,16 @@
 # M1 ingest report
 
 - Total files considered: **1335**
-- Accepted: **791**
-- Rejected: **544**
+- Accepted: **801**
+- Rejected: **534**
 
 ## Rejections by reason
 
-- `NON_GUITAR_INSTRUMENT` — 182
+- `NON_GUITAR_INSTRUMENT` — 191
 - `PATH_NOISE` — 128
-- `MULTIPLE_PARTS` — 107
-- `NO_NOTES` — 41
+- `MULTIPLE_PARTS` — 110
+- `NO_NOTES` — 35
 - `NO_PARTS` — 23
-- `LY_CONVERSION_FAILED` — 16
 - `OUT_OF_GUITAR_RANGE_LOW` — 10
 - `PLACEHOLDER_METADATA` — 8
 - `MISSING_COMPOSER` — 6
@@ -26,26 +25,26 @@
 
 Grouped by mechanically-normalized composer (date annotations and source citations stripped). Does not alias-merge initial-only forms — `D. Aguado` and `Dionisio Aguado` remain separate rows.
 
-- Felix Horetzky — 116
+- Felix Horetzky — 120
 - Anon — 52
 - John Dowland — 45
+- Fernando Sor — 39
 - Mauro Giuliani — 38
-- Fernando Sor — 36
 - Frantisek Max Knjze — 34
 - Anthony Holborne — 33
-- Mateo Carcassi — 23
+- Mateo Carcassi — 24
 - William Corkine — 22
 - D. Aguado — 18
 - Francis Cutting — 16
+- Johann Sebastian Bach — 13
 - Jakub Polak — 13
-- Johann Sebastian Bach — 12
 - Daniel Bacheler — 12
 - Giovanni Paolo Foscarini — 12
 
 ## Accepted pieces by source
 
 - guitarloot — 428
-- mutopia — 322
+- mutopia — 332
 - gh:LYD01/music-teacher — 18
 - gh:rodrigoborgesdeoliveira/sheet-music-and-chords — 18
 - gh:Plisken78/plisken78.github.io — 1
@@ -56,6 +55,6 @@ Grouped by mechanically-normalized composer (date annotations and source citatio
 
 ## Grade coverage (curator-assigned)
 
-- Pieces with a grade: **427** / 791
+- Pieces with a grade: **427** / 801
 - Distribution: G3: 4, G4: 6, G5: 39, G6: 103, G7: 158, G8: 109, G9: 8
 - Source `delcamp-eric-crouch`: 427

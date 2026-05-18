@@ -44,6 +44,7 @@ from lxml import etree
 import ly.musicxml
 import ly.musicxml.lymus2musxml as _lymus2musxml
 import ly.musicxml.xml_objs as _xml_objs
+import ly.musicxml.ly2xml_mediator as _ly2xml_mediator
 
 
 # -------------------- monkey-patch python-ly --------------------------
@@ -86,6 +87,104 @@ def _patched_inject_voice(self, new_voice, override=False,
 
 
 _xml_objs.Bar.inject_voice = _patched_inject_voice
+
+
+_ORIG_SCHEME_ITEM = _lymus2musxml.ParseSource.SchemeItem
+
+
+def _patched_scheme_item(self, item):
+    """python-ly's `SchemeItem` does `int(item.token)` for `\\mark`
+    expressions without checking that the token is numeric. Scheme
+    keywords / words / floats / booleans crash the entire conversion
+    with ValueError. We swallow per-item: the rehearsal mark or
+    override argument is lost, the music isn't.
+
+    Hits 12 of 16 remaining LY_CONVERSION_FAILED on the current Mutopia
+    corpus (Sor op.60, Joly Tyrolienne, Horetzky, etc. — all use
+    `\\override` arguments with non-integer Scheme values)."""
+    try:
+        return _ORIG_SCHEME_ITEM(self, item)
+    except ValueError:
+        return
+
+
+_lymus2musxml.ParseSource.SchemeItem = _patched_scheme_item
+
+
+_ORIG_SET_SLUR = _ly2xml_mediator.Mediator.set_slur
+
+
+def _patched_set_slur(self, nr, slur_type, phrasing=False):
+    """`Mediator.set_slur` does `self.slur_stack.pop()` on stop without
+    checking the stack is non-empty. Files with unbalanced slur
+    markers (slur-stop with no matching slur-start, typically caused
+    by earlier monkey-patch skipping a corrupted bar) crash with
+    IndexError. Swallow it: the slur becomes a no-op rather than
+    killing the entire score."""
+    try:
+        return _ORIG_SET_SLUR(self, nr, slur_type, phrasing)
+    except IndexError:
+        return
+
+
+_ly2xml_mediator.Mediator.set_slur = _patched_set_slur
+
+
+_ORIG_MERGE_VOICE = _xml_objs.ScoreSection.merge_voice
+
+
+def _patched_merge_voice(self, voice, override=False):
+    """`ScoreSection.merge_voice` zips two barlists and calls
+    `inject_voice` on each pair. When one barlist contains raw lists
+    instead of Bar objects (Mutopia traditional/folk files with nested
+    `\\repeat` constructs trigger this), the call crashes with
+    AttributeError: 'list' object has no attribute 'inject_voice'.
+    Skip the malformed bars; let the rest of the voice merge through."""
+    try:
+        return _ORIG_MERGE_VOICE(self, voice, override)
+    except AttributeError:
+        # Best-effort merge: copy whatever bars from `voice` extend
+        # past our own length, ignoring inject_voice problems on the
+        # overlapping prefix.
+        bl_len = len(self.barlist)
+        if len(voice.barlist) > bl_len:
+            self.barlist += voice.barlist[bl_len:]
+
+
+_xml_objs.ScoreSection.merge_voice = _patched_merge_voice
+
+
+_ORIG_ITERATE_BAR = _xml_objs.IterateXmlObjs.iterate_bar
+
+
+def _patched_iterate_bar(self, bar):
+    """`ScorePartwise.iterate_bar` expects a Bar object with a `.pickup`
+    attribute. When a malformed score puts a raw list in the barlist
+    (typically a nested `\\repeat` that we couldn't unfold), the call
+    crashes with AttributeError. Skip those bars instead of dying."""
+    if not hasattr(bar, "pickup"):
+        return
+    return _ORIG_ITERATE_BAR(self, bar)
+
+
+_xml_objs.IterateXmlObjs.iterate_bar = _patched_iterate_bar
+
+
+_ORIG_CHANGE_TUPLET_TYPE = _ly2xml_mediator.Mediator.change_tuplet_type
+
+
+def _patched_change_tuplet_type(self, index, newtype):
+    """`Mediator.change_tuplet_type` indexes `current_note.tuplet[index]`
+    without checking. Files where the tuplet list is empty when an End
+    event closes a Scaler block (sor_op_1_5_2 is the only known case)
+    crash with IndexError. No-op the change instead of dying."""
+    try:
+        return _ORIG_CHANGE_TUPLET_TYPE(self, index, newtype)
+    except IndexError:
+        return
+
+
+_ly2xml_mediator.Mediator.change_tuplet_type = _patched_change_tuplet_type
 
 
 SCORE_TOKEN = re.compile(r"\\score\b")
