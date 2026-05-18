@@ -19,6 +19,7 @@ Output of the M1 ingest pipeline.
 - `model_dummy_v0.json` — trained dummy-v0 logistic-regression weights, scaler, and feature order. Output of `scripts/m2_train.py`. **Not advisor-blessed.** Reload-friendly without sklearn.
 - `model_grades.csv` — per-piece prediction + probabilities from `dummy-v0`. Carries the `model_version` tag in every row.
 - `model_eval.md` — 5-fold CV, per-era breakdown, composer-out probe. Output of `scripts/m2_eval.py`. Numbers describe how well the pipeline reproduces dummy labels, not how well it grades difficulty.
+- `m3_render_check.md` — mechanical alphaTab render smoke test (10 seeded-random pieces) + TTI measurement. Output of `web/tests/e2e/*` + `web/scripts/render-report.mjs`. Tracks the spec §7 M3 close gates that don't need the advisor.
 
 ## What's gitignored
 

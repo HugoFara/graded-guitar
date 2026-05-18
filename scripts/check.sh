@@ -91,6 +91,11 @@ require_file web/src/components/GradeBadge.svelte
 require_file web/src/routes/CorpusList.svelte
 require_file web/src/routes/PieceDetail.svelte
 require_file web/scripts/copy-corpus.mjs
+require_file web/scripts/render-report.mjs
+require_file web/playwright.config.ts
+require_file web/tests/e2e/render-smoke.spec.ts
+require_file web/tests/e2e/tti.spec.ts
+require_file corpus/m3_render_check.md
 require_file .github/workflows/web.yml
 
 echo "==> Syllabi JSON schema validation"

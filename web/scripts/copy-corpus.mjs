@@ -33,6 +33,14 @@ async function copyIfNewer(src, dst) {
   return true;
 }
 
+// Files with `#` in their name break URL routing (Vite preview's SPA
+// fallback decodes %23 and treats it as a fragment). Rewrite `#` → `--`
+// at copy time and apply the same replacement in src/lib/manifest.ts
+// when building piece URLs.
+function safeName(name) {
+  return name.replaceAll("#", "--");
+}
+
 async function syncDir(src, dst) {
   const s = await statOr(src);
   if (!s) {
@@ -46,7 +54,7 @@ async function syncDir(src, dst) {
   for (const e of entries) {
     if (!e.isFile()) continue;
     const a = path.join(src, e.name);
-    const b = path.join(dst, e.name);
+    const b = path.join(dst, safeName(e.name));
     if (await copyIfNewer(a, b)) copied++;
     else skipped++;
   }

@@ -53,6 +53,24 @@ jobs:
       - name: Build
         working-directory: web
         run: pnpm run build
+      - name: Install Playwright browsers
+        working-directory: web
+        run: pnpm exec playwright install --with-deps chromium
+      - name: Run e2e render smoke
+        working-directory: web
+        run: pnpm run test:e2e
+      - name: Regenerate render report
+        working-directory: web
+        run: pnpm run report:e2e
+      - name: Upload Playwright report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report
+          path: |
+            web/playwright-report/
+            web/test-results/
+          retention-days: 14
       - name: Upload artifact
         if: github.event_name == 'workflow_dispatch' && inputs.deploy
         uses: actions/upload-pages-artifact@v3

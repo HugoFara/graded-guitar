@@ -33,6 +33,14 @@ pnpm dev          # http://localhost:5173
 pnpm test         # vitest, unit tests on manifest filtering
 pnpm check        # svelte-check / typecheck
 pnpm build        # production build into dist/
+pnpm test:e2e     # Playwright render smoke + TTI on 10 random pieces
+pnpm report:e2e   # regenerate ../corpus/m3_render_check.md
+```
+
+First-time setup for e2e tests needs the Chromium binary:
+
+```bash
+pnpm exec playwright install chromium
 ```
 
 ## Deployment

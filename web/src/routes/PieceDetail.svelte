@@ -22,6 +22,7 @@
   let isPlaying = $state(false);
   let tempo = $state(100);
   let showTab = $state(true);
+  let renderState = $state<"loading" | "rendered" | "error">("loading");
 
   let loopStart = $state<number | null>(null);
   let loopEnd = $state<number | null>(null);
@@ -42,20 +43,25 @@
       piece = found;
     } catch (e) {
       error = e instanceof Error ? e.message : String(e);
-      return;
     }
+  });
 
-    if (!containerEl || !piece) return;
+  $effect(() => {
+    if (!piece || !containerEl || handles) return;
     const url = musicxmlUrl(piece);
     handles = mountPlayer(containerEl, url, {
       onScoreLoaded: (score) => {
         totalBars = score.masterBars.length;
+      },
+      onRenderFinished: () => {
+        renderState = "rendered";
       },
       onPlayerStateChanged: (state) => {
         isPlaying = state === 1;
       },
       onError: (e) => {
         error = e instanceof Error ? e.message : String(e);
+        renderState = "error";
       },
     });
   });
@@ -161,7 +167,12 @@
       </span>
     </div>
 
-    <div bind:this={containerEl} class="alphatab"></div>
+    <div
+      bind:this={containerEl}
+      class="alphatab"
+      data-render-state={renderState}
+      data-cid={piece.candidate_id}
+    ></div>
   {/if}
 </section>
 

@@ -104,7 +104,7 @@
       </span>
     </div>
 
-    <ul class="pieces">
+    <ul class="pieces" data-corpus-loaded="true" data-corpus-count={manifest.pieces.length}>
       {#each visible as p (p.candidate_id)}
         {@const grade = resolveGrade(p)}
         <li>

@@ -10,13 +10,17 @@
     "build": "svelte-check --tsconfig ./tsconfig.json && vite build",
     "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",
-    "test": "vitest run"
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "report:e2e": "node scripts/render-report.mjs"
   },
   "dependencies": {
     "@coderline/alphatab": "^1.4.7",
     "svelte-spa-router": "^4.0.1"
   },
   "devDependencies": {
+    "@coderline/alphatab-vite": "^1.8.2",
+    "@playwright/test": "^1.60.0",
     "@sveltejs/vite-plugin-svelte": "^5.0.3",
     "@tsconfig/svelte": "^5.0.4",
     "jsdom": "^25.0.1",

@@ -1,6 +1,11 @@
 node_modules/
 dist/
 .svelte-kit/
-# Copy-corpus output — gitignored along with corpus/normalized/
+# Generated public/ assets: corpus output + alphaTab font/soundfont/
 public/manifest.json
 public/musicxml/
+public/font/
+public/soundfont/
+# Playwright output
+test-results/
+playwright-report/

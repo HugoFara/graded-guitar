@@ -60,9 +60,17 @@ export function isDummySource(source: string): boolean {
   return source.startsWith("dummy-");
 }
 
+// Mirrors web/scripts/copy-corpus.mjs `safeName()`: files with `#` in
+// their name break Vite preview's SPA fallback (it treats %23 as a
+// fragment), so the copy step renames `#` → `--` and we do the same
+// when resolving URLs.
+function safeFilename(name: string): string {
+  return name.replaceAll("#", "--");
+}
+
 export function musicxmlUrl(p: Piece): string {
   const base = (import.meta.env.BASE_URL ?? "/").replace(/\/$/, "");
-  const filename = p.normalized_path.replace(/^corpus\/normalized\//, "");
+  const filename = safeFilename(p.normalized_path.replace(/^corpus\/normalized\//, ""));
   return `${base}/musicxml/${encodeURIComponent(filename)}`;
 }
 

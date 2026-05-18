@@ -9,6 +9,7 @@ export type PlayerCallbacks = {
   onPositionChanged?: (currentTickPos: number, totalTicks: number, currentTime: number, endTime: number) => void;
   onPlayerStateChanged?: (state: number) => void;
   onScoreLoaded?: (score: alphaTab.model.Score) => void;
+  onRenderFinished?: () => void;
   onError?: (err: unknown) => void;
 };
 
@@ -17,12 +18,18 @@ export function mountPlayer(
   musicXmlUrl: string,
   cb: PlayerCallbacks,
 ): PlayerHandles {
+  const base = (import.meta.env.BASE_URL ?? "/").replace(/\/$/, "");
   const settings: alphaTab.Settings = new alphaTab.Settings();
   settings.core.engine = "svg";
+  // The alphatab-vite plugin copies fonts/soundfont to publicDir (→ dist/),
+  // not the asset bundle dir, so alphaTab's auto-detected paths (relative to
+  // its worker's import.meta.url under /assets/) miss them. Override.
+  settings.core.fontDirectory = `${base}/font/`;
   settings.player.enablePlayer = true;
   settings.player.enableCursor = true;
   settings.player.enableUserInteraction = true;
   settings.player.scrollMode = alphaTab.ScrollMode.OffScreen;
+  settings.player.soundFont = `${base}/soundfont/sonivox.sf2`;
   settings.notation.elements.set(alphaTab.NotationElement.GuitarTuning, false);
 
   const api = new alphaTab.AlphaTabApi(element, settings);
@@ -36,6 +43,7 @@ export function mountPlayer(
   if (cb.onPlayerStateChanged) {
     api.playerStateChanged.on((e) => cb.onPlayerStateChanged!(e.state));
   }
+  if (cb.onRenderFinished) api.renderFinished.on(cb.onRenderFinished);
   if (cb.onError) api.error.on(cb.onError);
 
   fetch(musicXmlUrl)
