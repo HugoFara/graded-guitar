@@ -25,6 +25,13 @@
       <strong>Per-piece status</strong> — which pieces you've marked as
       playing, completed, too hard, or not for you, with a timestamp.
     </li>
+    <li>
+      <strong>Grade-disagreement votes</strong> — when you tell us a
+      piece feels easier, right, or harder than the visible grade, we
+      keep that vote, the timestamp, and a snapshot of the grade you
+      were reacting to. The vote stays on this browser unless you
+      send it yourself (see <em>Sharing signals</em> below).
+    </li>
   </ul>
   <p>
     That data is keyed under the prefix <code>gradedGuitar.</code> in
@@ -64,6 +71,30 @@
       site data. That removes every <code>gradedGuitar.</code> entry.
     </li>
   </ul>
+
+  <h3>Sharing signals</h3>
+  <p>
+    The <a href="#/profile">profiles page</a> has a
+    <strong>Share signals…</strong> button. It downloads the same JSON
+    backup you can already export, then opens a pre-filled email so
+    you can attach it. Two things to know:
+  </p>
+  <ul>
+    <li>
+      It's strictly opt-in — nothing leaves your browser unless you
+      click Send in your mail client.
+    </li>
+    <li>
+      The file contains everything we store about you: display name,
+      level, every status and grade-vote record. Read it before
+      sending if you'd like to confirm what it contains.
+    </li>
+  </ul>
+  <p>
+    We use these shared signals only to improve grading accuracy
+    during the closed-beta milestone (ADR 0013). They are not
+    redistributed.
+  </p>
 
   <h3>Future hosting</h3>
   <p>

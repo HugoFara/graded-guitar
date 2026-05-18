@@ -119,6 +119,38 @@
     }
   }
 
+  // "Share signals" path — downloads the same JSON as Export, then
+  // opens a draft email pre-filled with attach-this-file instructions.
+  // We can't programmatically attach to mailto: from the browser, so
+  // we keep it honest: the user downloads, then attaches.
+  //
+  // This is the only outbound channel for user library data. It must
+  // stay strictly opt-in. See the privacy note for what's in the file.
+  const SIGNAL_TO = "hugo.farajallah@unige.ch";
+
+  async function shareSignals(p: Profile) {
+    await downloadBackup(p);
+    const subject = encodeURIComponent("graded-guitar beta — library signals");
+    const body = encodeURIComponent(
+      [
+        "Hi Hugo,",
+        "",
+        "Sharing my graded-guitar library so you can use my piece statuses",
+        "and grade-disagreement votes as input to the grader.",
+        "",
+        `Profile name: ${p.display_name}`,
+        `Declared level: ${p.level ?? "(not set)"}`,
+        "",
+        "(Attach the file that just downloaded: " + backupFilename(p) + ")",
+        "",
+        "Anything else worth knowing?",
+        "",
+        "Thanks,",
+      ].join("\n"),
+    );
+    window.location.href = `mailto:${SIGNAL_TO}?subject=${subject}&body=${body}`;
+  }
+
   async function onImportFile(e: Event) {
     const input = e.target as HTMLInputElement;
     const file = input.files?.[0];
@@ -132,7 +164,11 @@
       const result = await importProfile(payload);
       await refresh();
       window.dispatchEvent(new Event("hashchange"));
-      importInfo = `Imported "${result.profile.display_name}" — ${result.imported} statuses (${result.skipped} skipped).`;
+      const voteSuffix = result.votes_imported > 0
+        ? `, ${result.votes_imported} grade votes (${result.votes_skipped} skipped)`
+        : "";
+      importInfo =
+        `Imported "${result.profile.display_name}" — ${result.imported} statuses (${result.skipped} skipped)${voteSuffix}.`;
     } catch (e) {
       error = e instanceof Error ? e.message : String(e);
     } finally {
@@ -205,6 +241,14 @@
             <button type="button" disabled={busy} onclick={() => downloadBackup(p)}>
               Export JSON
             </button>
+            <button
+              type="button"
+              disabled={busy}
+              onclick={() => shareSignals(p)}
+              title="Send your library to the developers as M6 beta feedback"
+            >
+              Share signals…
+            </button>
             <button class="danger" type="button" disabled={busy} onclick={() => remove(p)}>
               Delete
             </button>
@@ -236,6 +280,14 @@
   {#if error}
     <p class="error">{error}</p>
   {/if}
+
+  <h3>Share signals with the project</h3>
+  <p class="hint">
+    During the M6 beta we use real library data to improve the grader.
+    <strong>Share signals…</strong> downloads your library as JSON and
+    opens a pre-filled email so you can attach it. Strictly opt-in.
+    See <a href="#/privacy">the privacy note</a> for what's in the file.
+  </p>
 
   <h3>Import a backup</h3>
   <p class="hint">

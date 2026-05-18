@@ -13,13 +13,18 @@
     STATUS_VALUES,
     type PieceStatus,
   } from "../lib/storage/status";
+  import {
+    loadAllVotes,
+    type VoteRecord,
+  } from "../lib/storage/votes";
   import GradeBadge from "../components/GradeBadge.svelte";
   import StatusChip from "../components/StatusChip.svelte";
 
   let manifest = $state<Manifest | null>(null);
   let statuses = $state<Record<string, PieceStatus>>({});
+  let votes = $state<Record<string, VoteRecord>>({});
   let error = $state<string | null>(null);
-  let activeFilter = $state<PieceStatus | "all">("playing");
+  let activeFilter = $state<PieceStatus | "all" | "votes">("playing");
   let profileName = $state<string>("");
 
   onMount(async () => {
@@ -29,6 +34,7 @@
       if (active) {
         profileName = active.display_name;
         statuses = await loadAllStatuses(active.id);
+        votes = await loadAllVotes(active.id);
       }
     } catch (e) {
       error = e instanceof Error ? e.message : String(e);
@@ -61,6 +67,7 @@
     const out: { piece: Piece; status: PieceStatus; updatedKey: string }[] = [];
     for (const [cid, status] of Object.entries(statuses)) {
       if (status === "not_seen") continue;
+      if (activeFilter === "votes") continue;
       if (activeFilter !== "all" && status !== activeFilter) continue;
       const piece = byCid.get(cid);
       if (!piece) continue;
@@ -70,15 +77,46 @@
     return out;
   });
 
+  // Aggregate vote view — every piece the user has voted on, most
+  // recent first. Carries the grade-at-vote so we can read disagreement
+  // without joining against the current manifest grade (which may have
+  // changed since the vote was cast).
+  const voteRows = $derived.by(() => {
+    const out: {
+      piece: Piece;
+      vote: VoteRecord;
+    }[] = [];
+    for (const [cid, rec] of Object.entries(votes)) {
+      const piece = byCid.get(cid);
+      if (!piece) continue;
+      out.push({ piece, vote: rec });
+    }
+    out.sort((a, b) => b.vote.updated_at.localeCompare(a.vote.updated_at));
+    return out;
+  });
+
+  const voteCounts = $derived.by(() => {
+    const c = { easier: 0, right: 0, harder: 0 };
+    for (const r of Object.values(votes)) c[r.vote]++;
+    return c;
+  });
+
   // Statuses to show as tabs — drop the implicit "not_seen" default,
   // and add an "all" pseudo-status to see the whole library.
-  const TABS: { value: PieceStatus | "all"; label: string }[] = [
+  const TABS: { value: PieceStatus | "all" | "votes"; label: string }[] = [
     { value: "playing", label: "Playing" },
     { value: "completed", label: "Completed" },
     { value: "too_hard", label: "Too hard" },
     { value: "not_for_me", label: "Skipped" },
     { value: "all", label: "All" },
+    { value: "votes", label: "Grade votes" },
   ];
+
+  function voteChipLabel(v: VoteRecord["vote"]): string {
+    if (v === "easier") return "easier";
+    if (v === "harder") return "harder";
+    return "right";
+  }
 
   // Keep the linter happy that STATUS_VALUES import is intentional:
   // it documents the exhaustive enum, and a future tab could be added
@@ -109,7 +147,9 @@
       {#each TABS as t}
         {@const n = t.value === "all"
           ? counts.playing + counts.completed + counts.too_hard + counts.not_for_me
-          : counts[t.value]}
+          : t.value === "votes"
+            ? voteCounts.easier + voteCounts.right + voteCounts.harder
+            : counts[t.value]}
         <button
           type="button"
           role="tab"
@@ -122,7 +162,48 @@
       {/each}
     </div>
 
-    {#if visible.length === 0}
+    {#if activeFilter === "votes"}
+      <p class="meta vote-summary">
+        Each vote records what you saw on the page at vote time
+        (<code>grade_at_record</code>), so it survives future grader
+        changes. <strong>{voteCounts.easier}</strong> easier ·
+        <strong>{voteCounts.right}</strong> right ·
+        <strong>{voteCounts.harder}</strong> harder.
+      </p>
+      {#if voteRows.length === 0}
+        <p class="empty">
+          No grade votes yet. On any piece detail page, use the
+          <em>Grade feels: easier / right / harder</em> control to
+          record one.
+        </p>
+      {:else}
+        <ul class="rows" data-votes-loaded="true">
+          {#each voteRows as { piece, vote } (piece.candidate_id)}
+            <li>
+              <a href="#/piece/{encodeCid(piece.candidate_id)}" class="row">
+                <div class="row-main">
+                  <span class="title">{piece.metadata.title}</span>
+                  <span class="composer">{piece.metadata.composer}</span>
+                </div>
+                <div class="row-meta">
+                  {#if vote.grade_at_record}
+                    <span
+                      class="grade-snapshot"
+                      title={vote.grade_source_at_record ?? "grade at vote time"}
+                    >
+                      voted on grade {vote.grade_at_record}
+                    </span>
+                  {/if}
+                  <span class="vote-chip vote-{vote.vote}">
+                    {voteChipLabel(vote.vote)}
+                  </span>
+                </div>
+              </a>
+            </li>
+          {/each}
+        </ul>
+      {/if}
+    {:else if visible.length === 0}
       <p class="empty">
         Nothing here yet. Open a piece and mark it as
         <em>{activeFilter === "all" ? "playing / completed / etc." : activeFilter.replace("_", " ")}</em>
@@ -242,5 +323,40 @@
   }
   .error {
     color: #b91c1c;
+  }
+  .vote-summary {
+    font-size: 0.9em;
+  }
+  .vote-summary code {
+    background: var(--card-bg);
+    padding: 0.05em 0.3em;
+    border-radius: 3px;
+    font-size: 0.9em;
+  }
+  .grade-snapshot {
+    font-size: 0.8em;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .vote-chip {
+    font-size: 0.8em;
+    padding: 0.15rem 0.5rem;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: var(--card-bg);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .vote-chip.vote-easier {
+    border-color: #047857;
+    color: #047857;
+  }
+  .vote-chip.vote-harder {
+    border-color: #b91c1c;
+    color: #b91c1c;
+  }
+  .vote-chip.vote-right {
+    border-color: var(--accent);
+    color: var(--accent);
   }
 </style>

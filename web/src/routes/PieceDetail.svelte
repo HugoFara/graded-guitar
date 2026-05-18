@@ -11,6 +11,7 @@
   import * as alphaTab from "@coderline/alphatab";
   import { mountPlayer, type PlayerHandles } from "../lib/player";
   import GradeBadge from "../components/GradeBadge.svelte";
+  import GradeVote from "../components/GradeVote.svelte";
   import StatusSelector from "../components/StatusSelector.svelte";
 
   type Props = { params?: { cid: string } };
@@ -177,6 +178,14 @@
             : { grade: grade.grade, source: grade.source }}
         />
       </div>
+      {#if grade.kind !== "none"}
+        <div class="vote-row">
+          <GradeVote
+            cid={piece.candidate_id}
+            gradeSnapshot={{ grade: grade.grade, source: grade.source }}
+          />
+        </div>
+      {/if}
     </header>
 
     <div class="transport">
@@ -247,6 +256,9 @@
   .status-row .label {
     font-size: 0.85em;
     color: var(--muted);
+  }
+  .vote-row {
+    margin: 0.25rem 0 0.5rem;
   }
   .meta {
     display: flex;

@@ -75,6 +75,15 @@
     offer hosted infrastructure later (opt-in). Details in the
     <a href="#/privacy">privacy note</a>.
   </p>
+  <p>
+    Found a bug or a wrongly-graded piece?
+    <a
+      href="https://github.com/HugoFara/graded-guitar/issues/new?template=beta-feedback.yml"
+      target="_blank"
+      rel="noopener">File beta feedback ↗</a>
+    or email
+    <a href="mailto:hugo.farajallah@unige.ch?subject=graded-guitar%20beta%20feedback">hugo.farajallah@unige.ch</a>.
+  </p>
 </footer>
 
 <style>
