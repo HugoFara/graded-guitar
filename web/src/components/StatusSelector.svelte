@@ -7,11 +7,16 @@
   import {
     getStatus,
     setStatus,
+    type GradeSnapshot,
     type PieceStatus,
   } from "../lib/storage/status";
 
-  type Props = { cid: string };
-  let { cid }: Props = $props();
+  // `gradeSnapshot` is what the user sees on the page when they
+  // judge the piece. It's persisted alongside the status so we can
+  // audit / replay / discard signals once the grader changes (today
+  // most grades are from dummy-v0). See ADR 0013.
+  type Props = { cid: string; gradeSnapshot?: GradeSnapshot };
+  let { cid, gradeSnapshot }: Props = $props();
 
   let current = $state<PieceStatus>("not_seen");
   let profileId = $state<string | null>(null);
@@ -28,7 +33,7 @@
     // Toggle off if user clicks the active state again
     const target = next === current ? "not_seen" : next;
     current = target;
-    await setStatus(profileId, cid, target);
+    await setStatus(profileId, cid, target, gradeSnapshot);
   }
 
   const BUTTONS: { value: PieceStatus; label: string; hint: string }[] = [

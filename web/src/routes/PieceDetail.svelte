@@ -170,7 +170,12 @@
       </p>
       <div class="status-row">
         <span class="label">Status:</span>
-        <StatusSelector cid={piece.candidate_id} />
+        <StatusSelector
+          cid={piece.candidate_id}
+          gradeSnapshot={grade.kind === "none"
+            ? undefined
+            : { grade: grade.grade, source: grade.source }}
+        />
       </div>
     </header>
 

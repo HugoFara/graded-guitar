@@ -30,7 +30,7 @@ describe("profile backup", () => {
 
     const refreshed = (await listProfiles()).find((p) => p.id === original.id)!;
     const dump = await exportProfile(refreshed);
-    expect(dump.version).toBe(1);
+    expect(dump.version).toBe(2);
     expect(dump.profile.display_name).toBe("Hugo");
     expect(dump.profile.level).toBe(6);
     expect(Object.keys(dump.statuses.records)).toHaveLength(2);
@@ -80,5 +80,42 @@ describe("profile backup", () => {
     await setActiveProfile(first.id);
     await importProfile(dump);
     expect((await getActiveProfile())?.id).toBe(first.id);
+  });
+
+  it("accepts v1 backups without snapshot fields", async () => {
+    const v1: any = {
+      version: 1,
+      exported_at: "2026-04-01T00:00:00.000Z",
+      profile: {
+        display_name: "Legacy",
+        level: 4,
+        created_at: "2026-01-01T00:00:00.000Z",
+      },
+      statuses: {
+        version: 1,
+        records: {
+          "old-piece": {
+            status: "playing",
+            updated_at: "2026-03-15T00:00:00.000Z",
+          },
+        },
+      },
+    };
+    const { profile, imported } = await importProfile(v1);
+    expect(imported).toBe(1);
+    expect(profile.display_name).toBe("Legacy");
+    expect(await getStatus(profile.id, "old-piece")).toBe("playing");
+  });
+
+  it("round-trips snapshot fields through a v2 backup", async () => {
+    const p = await createProfile({ display_name: "Snap", level: 5 });
+    await setStatus(p.id, "x", "too_hard", { grade: "6", source: "dummy-v0" });
+    const dump = await exportProfile(p);
+    const { profile: restored, imported } = await importProfile(dump);
+    expect(imported).toBe(1);
+    const restoredDump = await exportProfile(restored);
+    const rec = restoredDump.statuses.records["x"];
+    expect(rec.grade_at_record).toBe("6");
+    expect(rec.grade_source_at_record).toBe("dummy-v0");
   });
 });

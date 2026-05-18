@@ -12,8 +12,13 @@ import {
   type StatusExport,
 } from "./status";
 
+// v2 carries status records that may include the grade snapshot
+// fields (grade_at_record / grade_source_at_record) — see status.ts.
+// v1 backups are still accepted; their records simply have no
+// snapshot. The envelope version tracks the backup payload as a
+// whole; the statuses sub-payload has its own version.
 export type ProfileBackup = {
-  version: 1;
+  version: 1 | 2;
   exported_at: string;
   profile: {
     display_name: string;
@@ -25,7 +30,7 @@ export type ProfileBackup = {
 
 export async function exportProfile(p: Profile): Promise<ProfileBackup> {
   return {
-    version: 1,
+    version: 2,
     exported_at: new Date().toISOString(),
     profile: {
       display_name: p.display_name,
@@ -42,7 +47,7 @@ export async function exportProfile(p: Profile): Promise<ProfileBackup> {
 export async function importProfile(
   payload: ProfileBackup,
 ): Promise<{ profile: Profile; imported: number; skipped: number }> {
-  if (!payload || payload.version !== 1) {
+  if (!payload || (payload.version !== 1 && payload.version !== 2)) {
     throw new Error("unsupported backup version");
   }
   const profile = await createProfile({

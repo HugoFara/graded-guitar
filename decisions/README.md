@@ -33,3 +33,4 @@ Open an ADR when introducing a new dependency, a new file format, a new service,
 - [0008 — Guitar Loot as a third source with curator-assigned grades](./0008-guitarloot-source.md)
 - [0009 — M2 grading-model inputs and approach (scoping)](./0009-m2-grading-inputs.md)
 - [0012 — M5 accounts: local-only profiles, async storage interface](./0012-m5-local-accounts.md)
+- [0013 — M6 framing: closed beta as the grading-signal path](./0013-m6-beta-as-grader.md)
