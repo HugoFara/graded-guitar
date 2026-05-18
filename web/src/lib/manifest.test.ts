@@ -336,4 +336,39 @@ describe("buildFeed", () => {
     const out = buildFeed(pieces, 5);
     expect(out.map((p) => p.metadata.title)).toEqual(["Apple", "Mango", "Zebra"]);
   });
+
+  it("caps any one composer at perComposerCap when variety allows", () => {
+    // Horetzky-style skew: one composer dominates the bucket, plus
+    // enough other composers that the cap doesn't have to relax to
+    // fill the feed.
+    const pieces = [
+      ...Array.from({ length: 30 }, (_, i) =>
+        piece(`h${i}`, "Horetzky", `T${i}`, "5"),
+      ),
+      ...Array.from({ length: 15 }, (_, i) =>
+        piece(`o${i}`, `Other${i}`, `T${i}`, "5"),
+      ),
+    ];
+    // 16 composers × 3 perComposerCap = 48 >= cap=20, so the cap
+    // applies as-is rather than relaxing.
+    const out = buildFeed(pieces, 5, { cap: 20, perComposerCap: 3 });
+    const counts = new Map<string, number>();
+    for (const p of out) {
+      const c = p.metadata.composer;
+      counts.set(c, (counts.get(c) ?? 0) + 1);
+    }
+    expect(counts.get("Horetzky")).toBe(3);
+  });
+
+  it("relaxes perComposerCap when there isn't enough variety", () => {
+    // Only 2 composers, cap=10, perComposerCap=3 by default. If we
+    // applied the literal 3-per-composer cap we'd only fill 6 slots
+    // — but the user asked for 10. The cap should relax.
+    const pieces = [
+      ...Array.from({ length: 8 }, (_, i) => piece(`a${i}`, "A", `T${i}`, "5")),
+      ...Array.from({ length: 8 }, (_, i) => piece(`b${i}`, "B", `T${i}`, "5")),
+    ];
+    const out = buildFeed(pieces, 5, { cap: 10 });
+    expect(out).toHaveLength(10);
+  });
 });

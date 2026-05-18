@@ -131,6 +131,15 @@ export type FeedStatuses = Record<string, string>;
 export type FeedOptions = {
   statuses?: FeedStatuses;
   cap?: number;
+  // Hard ceiling on how many pieces any one composer can contribute
+  // to the feed. Defends against the "wall of Horetzky" effect — one
+  // composer with 120 pieces dominating a feed even after round-robin
+  // when smaller buckets exhaust. Defaults to 3.
+  //
+  // The cap relaxes automatically when there isn't enough variety to
+  // fill `cap` at the requested per-composer ceiling — otherwise a
+  // bucket with only 2 composers and cap=20 would underfill to 6.
+  perComposerCap?: number;
 };
 
 // Composers with this many "too_hard" pieces by the user get pushed
@@ -201,13 +210,17 @@ export function buildFeed(
     return buckets.get(b)!.length - buckets.get(a)!.length;
   });
 
+  const perCap = Math.max(
+    opts.perComposerCap ?? 3,
+    Math.ceil(cap / Math.max(composers.length, 1)),
+  );
   const out: Piece[] = [];
   let pass = 0;
   while (out.length < cap) {
     let added = 0;
     for (const c of composers) {
       const list = buckets.get(c)!;
-      if (pass < list.length) {
+      if (pass < list.length && pass < perCap) {
         out.push(list[pass]);
         added++;
         if (out.length >= cap) break;
