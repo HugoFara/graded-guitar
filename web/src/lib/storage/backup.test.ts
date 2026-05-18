@@ -14,6 +14,11 @@ import {
   getStatus,
   setStatus,
 } from "./status";
+import {
+  getVote,
+  loadAllVotes,
+  setVote,
+} from "./votes";
 
 describe("profile backup", () => {
   beforeEach(() => {
@@ -30,7 +35,7 @@ describe("profile backup", () => {
 
     const refreshed = (await listProfiles()).find((p) => p.id === original.id)!;
     const dump = await exportProfile(refreshed);
-    expect(dump.version).toBe(2);
+    expect(dump.version).toBe(3);
     expect(dump.profile.display_name).toBe("Hugo");
     expect(dump.profile.level).toBe(6);
     expect(Object.keys(dump.statuses.records)).toHaveLength(2);
@@ -117,5 +122,49 @@ describe("profile backup", () => {
     const rec = restoredDump.statuses.records["x"];
     expect(rec.grade_at_record).toBe("6");
     expect(rec.grade_source_at_record).toBe("dummy-v0");
+  });
+
+  it("round-trips grade-disagreement votes through a v3 backup", async () => {
+    const p = await createProfile({ display_name: "Voter", level: 5 });
+    await setVote(p.id, "x", "harder", { grade: "5", source: "dummy-v0" });
+    await setVote(p.id, "y", "easier", { grade: "8", source: "dummy-v0" });
+    const dump = await exportProfile(p);
+    expect(dump.version).toBe(3);
+    expect(Object.keys(dump.votes!.records)).toHaveLength(2);
+
+    const result = await importProfile(dump);
+    expect(result.votes_imported).toBe(2);
+    expect(result.votes_skipped).toBe(0);
+    expect(await getVote(result.profile.id, "x")).toBe("harder");
+    const all = await loadAllVotes(result.profile.id);
+    expect(all["x"].grade_at_record).toBe("5");
+  });
+
+  it("accepts a v2 backup that has no votes field", async () => {
+    const v2: any = {
+      version: 2,
+      exported_at: "2026-04-01T00:00:00.000Z",
+      profile: {
+        display_name: "PreVotes",
+        level: 4,
+        created_at: "2026-01-01T00:00:00.000Z",
+      },
+      statuses: {
+        version: 2,
+        records: {
+          "old-piece": {
+            status: "playing",
+            updated_at: "2026-03-15T00:00:00.000Z",
+            grade_at_record: "4",
+            grade_source_at_record: "dummy-v0",
+          },
+        },
+      },
+    };
+    const result = await importProfile(v2);
+    expect(result.imported).toBe(1);
+    expect(result.votes_imported).toBe(0);
+    expect(result.votes_skipped).toBe(0);
+    expect(await loadAllVotes(result.profile.id)).toEqual({});
   });
 });

@@ -11,14 +11,19 @@ import {
   importStatuses,
   type StatusExport,
 } from "./status";
+import {
+  exportVotes,
+  importVotes,
+  type VoteExport,
+} from "./votes";
 
-// v2 carries status records that may include the grade snapshot
-// fields (grade_at_record / grade_source_at_record) — see status.ts.
-// v1 backups are still accepted; their records simply have no
-// snapshot. The envelope version tracks the backup payload as a
-// whole; the statuses sub-payload has its own version.
+// Envelope versions:
+//   v1 — statuses only, no grade snapshot fields
+//   v2 — statuses with optional snapshot fields (ADR 0013)
+//   v3 — adds the grade-disagreement votes sub-payload (ADR 0013 follow-up)
+// Older imports are still accepted; missing payloads default to empty.
 export type ProfileBackup = {
-  version: 1 | 2;
+  version: 1 | 2 | 3;
   exported_at: string;
   profile: {
     display_name: string;
@@ -26,11 +31,12 @@ export type ProfileBackup = {
     created_at: string;
   };
   statuses: StatusExport;
+  votes?: VoteExport;
 };
 
 export async function exportProfile(p: Profile): Promise<ProfileBackup> {
   return {
-    version: 2,
+    version: 3,
     exported_at: new Date().toISOString(),
     profile: {
       display_name: p.display_name,
@@ -38,24 +44,49 @@ export async function exportProfile(p: Profile): Promise<ProfileBackup> {
       created_at: p.created_at,
     },
     statuses: await exportStatuses(p.id),
+    votes: await exportVotes(p.id),
   };
 }
+
+export type ImportResult = {
+  profile: Profile;
+  imported: number;
+  skipped: number;
+  votes_imported: number;
+  votes_skipped: number;
+};
 
 // Importing creates a NEW profile (never overwrites an existing one)
 // so users can't accidentally clobber their current library by loading
 // an old backup. Caller can rename / activate afterward.
 export async function importProfile(
   payload: ProfileBackup,
-): Promise<{ profile: Profile; imported: number; skipped: number }> {
-  if (!payload || (payload.version !== 1 && payload.version !== 2)) {
+): Promise<ImportResult> {
+  if (
+    !payload
+    || (payload.version !== 1 && payload.version !== 2 && payload.version !== 3)
+  ) {
     throw new Error("unsupported backup version");
   }
   const profile = await createProfile({
     display_name: payload.profile.display_name || "Imported",
     level: payload.profile.level ?? null,
   });
-  const result = await importStatuses(profile.id, payload.statuses);
-  return { profile, ...result };
+  const statusResult = await importStatuses(profile.id, payload.statuses);
+  let votesImported = 0;
+  let votesSkipped = 0;
+  if (payload.votes) {
+    const voteResult = await importVotes(profile.id, payload.votes);
+    votesImported = voteResult.imported;
+    votesSkipped = voteResult.skipped;
+  }
+  return {
+    profile,
+    imported: statusResult.imported,
+    skipped: statusResult.skipped,
+    votes_imported: votesImported,
+    votes_skipped: votesSkipped,
+  };
 }
 
 export function backupFilename(p: Profile): string {
