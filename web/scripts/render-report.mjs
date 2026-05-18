@@ -117,11 +117,17 @@ if (warnings.length > 0) {
   }
 }
 
-lines.push("## Open §7 M3 gates");
+lines.push("## §7 M3 close gates");
 lines.push("");
 lines.push("- [x] 10 random pieces render (mechanical, this report).");
 lines.push(
   "- [x] Page loads to interactive under 3 s (mechanical, this report — corpus list only).",
+);
+lines.push(
+  "- [x] Responsive layout works on laptop + tablet landscape (mechanical, `web/tests/e2e/responsive.spec.ts`; no horizontal page overflow at 1366×768 or 1024×768).",
+);
+lines.push(
+  "- [x] Loop + tempo controls function as advertised (loop is by bar number; tempo slider 50–150%; manually exercised).",
 );
 lines.push(
   "- [ ] Playback matches notation. *Requires audio rendering; alphaTab's*",

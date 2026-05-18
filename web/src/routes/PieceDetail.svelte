@@ -24,15 +24,16 @@
   let showTab = $state(true);
   let renderState = $state<"loading" | "rendered" | "error">("loading");
 
-  let loopStart = $state<number | null>(null);
-  let loopEnd = $state<number | null>(null);
-  let totalBars = $state<number>(0);
+  let totalBars = $state(0);
+  let masterBarStarts = $state<number[]>([]);
+  let masterBarDurations = $state<number[]>([]);
 
-  let positionTick = $state(0);
-  let endTick = $state(0);
+  let loopStartBar = $state<number | null>(null);
+  let loopEndBar = $state<number | null>(null);
+  let loopActive = $state(false);
+
   let currentTimeMs = $state(0);
   let endTimeMs = $state(0);
-  let seeking = $state(false);
 
   onMount(async () => {
     if (!params?.cid) {
@@ -58,6 +59,8 @@
     handles = mountPlayer(containerEl, url, {
       onScoreLoaded: (score) => {
         totalBars = score.masterBars.length;
+        masterBarStarts = score.masterBars.map((b) => b.start);
+        masterBarDurations = score.masterBars.map((b) => b.calculateDuration());
       },
       onRenderFinished: () => {
         renderState = "rendered";
@@ -65,12 +68,8 @@
       onPlayerStateChanged: (state) => {
         isPlaying = state === 1;
       },
-      onPositionChanged: (curTick, totTick, curMs, totMs) => {
-        if (!seeking) {
-          positionTick = curTick;
-          currentTimeMs = curMs;
-        }
-        endTick = totTick;
+      onPositionChanged: (_curTick, _totTick, curMs, totMs) => {
+        currentTimeMs = curMs;
         endTimeMs = totMs;
       },
       onError: (e) => {
@@ -108,41 +107,35 @@
     handles.api.render();
   }
 
-  function setLoopStart() {
-    if (!handles) return;
-    loopStart = handles.api.tickPosition;
+  // Valid range: 1..totalBars, with `from` <= `to`. Returns null if the
+  // current inputs don't describe a valid range.
+  function loopRangeTicks(): { startTick: number; endTick: number } | null {
+    if (loopStartBar == null || loopEndBar == null) return null;
+    if (loopStartBar < 1 || loopEndBar < 1) return null;
+    if (loopStartBar > totalBars || loopEndBar > totalBars) return null;
+    if (loopStartBar > loopEndBar) return null;
+    if (!masterBarStarts.length) return null;
+    const startTick = masterBarStarts[loopStartBar - 1];
+    const lastIdx = loopEndBar - 1;
+    const endTick = masterBarStarts[lastIdx] + masterBarDurations[lastIdx];
+    return { startTick, endTick };
   }
 
-  function setLoopEnd() {
+  function applyLoop() {
     if (!handles) return;
-    loopEnd = handles.api.tickPosition;
-    applyLoop();
+    const range = loopRangeTicks();
+    if (!range) return;
+    handles.api.playbackRange = range;
+    handles.api.tickPosition = range.startTick;
+    handles.api.isLooping = true;
+    loopActive = true;
   }
 
   function clearLoop() {
     if (!handles) return;
-    loopStart = null;
-    loopEnd = null;
     handles.api.isLooping = false;
-  }
-
-  function applyLoop() {
-    if (!handles || loopStart == null || loopEnd == null) return;
-    if (loopEnd <= loopStart) return;
-    handles.api.tickPosition = loopStart;
-    handles.api.isLooping = true;
-  }
-
-  function onSeekInput(v: number) {
-    seeking = true;
-    positionTick = v;
-  }
-
-  function onSeekCommit(v: number) {
-    if (!handles) return;
-    handles.api.tickPosition = v;
-    positionTick = v;
-    seeking = false;
+    handles.api.playbackRange = null;
+    loopActive = false;
   }
 
   function formatTime(ms: number): string {
@@ -177,6 +170,9 @@
     <div class="transport">
       <button onclick={togglePlay}>{isPlaying ? "Pause" : "Play"}</button>
       <button onclick={stop}>Stop</button>
+      <span class="time" aria-label="playback time">
+        {formatTime(currentTimeMs)} / {formatTime(endTimeMs)}
+      </span>
       <label>
         Tempo {tempo}%
         <input
@@ -189,31 +185,31 @@
         />
       </label>
       <button onclick={toggleTab}>{showTab ? "Hide tab" : "Show tab"}</button>
-      <span class="loop">
-        Loop:
-        <button onclick={setLoopStart}>set A</button>
-        <button onclick={setLoopEnd}>set B</button>
-        <button onclick={clearLoop} disabled={loopStart == null}>clear</button>
-        {#if loopStart != null && loopEnd != null}
-          <span class="loop-range">A→B set</span>
+      <span class="loop" class:active={loopActive}>
+        Loop bars
+        <input
+          type="number"
+          min="1"
+          max={totalBars || 1}
+          placeholder="from"
+          aria-label="loop start bar"
+          bind:value={loopStartBar}
+        />
+        to
+        <input
+          type="number"
+          min="1"
+          max={totalBars || 1}
+          placeholder="to"
+          aria-label="loop end bar"
+          bind:value={loopEndBar}
+        />
+        <button onclick={applyLoop} disabled={loopRangeTicks() == null}>set</button>
+        <button onclick={clearLoop} disabled={!loopActive}>clear</button>
+        {#if totalBars}
+          <span class="bar-hint">of {totalBars}</span>
         {/if}
       </span>
-    </div>
-
-    <div class="progress">
-      <span class="time">{formatTime(currentTimeMs)}</span>
-      <input
-        type="range"
-        class="progress-bar"
-        min="0"
-        max={Math.max(endTick, 1)}
-        step="1"
-        value={positionTick}
-        disabled={endTick === 0}
-        oninput={(e) => onSeekInput(parseInt((e.target as HTMLInputElement).value, 10))}
-        onchange={(e) => onSeekCommit(parseInt((e.target as HTMLInputElement).value, 10))}
-      />
-      <span class="time">{formatTime(endTimeMs)}</span>
     </div>
 
     <div
@@ -262,30 +258,19 @@
     gap: 0.3rem;
     font-size: 0.85em;
   }
-  .loop-range {
+  .loop input[type="number"] {
+    width: 4em;
+  }
+  .loop.active {
     color: var(--accent);
-    font-weight: 500;
   }
-  .progress {
-    display: flex;
-    align-items: center;
-    gap: 0.6rem;
-    margin: 0 0 1rem;
-    padding: 0.4rem 0.6rem;
-    background: var(--card-bg);
-    border: 1px solid var(--border);
-    border-radius: 4px;
-  }
-  .progress-bar {
-    flex: 1;
-    margin: 0;
+  .bar-hint {
+    color: var(--muted);
   }
   .time {
     font-size: 0.85em;
     color: var(--muted);
     font-variant-numeric: tabular-nums;
-    min-width: 3.2em;
-    text-align: center;
   }
   .alphatab {
     background: var(--card-bg);
