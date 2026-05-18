@@ -44,3 +44,13 @@ coverage/
 *.musicxml
 *.mxl
 *.pdf
+
+# Probe artifacts — large datasets downloaded for one-off feasibility
+# checks. Reports and probe scripts are committed; the raw downloads
+# (~2 GB each) are not.
+/experiments/pdmx_probe/PDMX.csv
+/experiments/pdmx_probe/*.tar.gz
+/experiments/pdmx_probe/subset_paths/
+/experiments/pdmx_probe/candidates.json
+/experiments/gaps_probe/*.zip
+/experiments/gaps_probe/gaps_v1/
