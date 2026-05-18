@@ -28,6 +28,33 @@ Output of the M1 ingest pipeline.
 
 Bulk MusicXML is kept out of the repo so cloning stays fast and so we don't redistribute upstream files. Anyone can rebuild `raw/` and `normalized/` from the committed JSON by re-running the pipeline.
 
+## Web read surface
+
+The M3 web app (`web/`, ADR 0011) reads `manifest.json` and the normalized
+MusicXML files directly. The contract between the pipeline and the player
+is the following subset of each piece entry — any change to these field
+names must update `web/src/lib/manifest.ts` in the same commit.
+
+| Field                  | Used for                                                |
+| ---------------------- | ------------------------------------------------------- |
+| `candidate_id`         | URL routing (`/piece/:cid`).                            |
+| `source`               | Surfaced on the piece detail header.                    |
+| `file_url`             | "Upstream ↗" link (informational; not loaded).          |
+| `page_url`             | "Upstream ↗" link target.                               |
+| `normalized_path`      | Resolves to `web/public/musicxml/<filename>` at build.  |
+| `metadata.title`       | Display + search.                                       |
+| `metadata.composer`    | Display + search + sort.                                |
+| `grade` / `grade_source`           | Curator grade; preferred over model.       |
+| `model_grade` / `model_grade_source` | Fallback grade; placeholder badge if source starts with `dummy-`. |
+
+Other fields (hashes, license, parts, key_fifths, opus, instrument tokens)
+are present in the manifest but not consumed by the web app at v0.1.
+
+`web/scripts/copy-corpus.mjs` (run via `pnpm predev` / `prebuild`) mirrors
+`manifest.json` to `web/public/manifest.json` and the normalized files to
+`web/public/musicxml/`. Both destinations are gitignored — they're built
+artifacts of the M1 pipeline output.
+
 ## Running the pipeline
 
 ```bash

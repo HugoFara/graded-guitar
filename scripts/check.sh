@@ -78,6 +78,21 @@ require_file scripts/tests/test_m1_validation.py
 require_file scripts/tests/test_m2.py
 require_file corpus/README.md
 
+echo "==> M3 web scaffold"
+require_file web/package.json
+require_file web/vite.config.ts
+require_file web/tsconfig.json
+require_file web/index.html
+require_file web/src/main.ts
+require_file web/src/App.svelte
+require_file web/src/lib/manifest.ts
+require_file web/src/lib/player.ts
+require_file web/src/components/GradeBadge.svelte
+require_file web/src/routes/CorpusList.svelte
+require_file web/src/routes/PieceDetail.svelte
+require_file web/scripts/copy-corpus.mjs
+require_file .github/workflows/web.yml
+
 echo "==> Syllabi JSON schema validation"
 if command -v python3 >/dev/null 2>&1; then
   python3 scripts/validate_syllabi.py

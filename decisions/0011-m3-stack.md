@@ -1,7 +1,7 @@
 # 0011 — M3 web player stack
 
-- **Status:** Proposed
-- **Date:** 2026-05-18
+- **Status:** Accepted
+- **Date:** 2026-05-18 (proposed) · 2026-05-18 (accepted, after scope review)
 
 ## Context
 
@@ -143,9 +143,41 @@ plateau under 2 MB by M2 close — fine to ship inline.
 
 ## Open items for M3 kickoff
 
-- Confirm the alphaTab soundfont strategy (default vs custom SF2).
-- Schema-doc `corpus/manifest.json`'s read surface (which fields the
-  player consumes).
-- Decide whether the corpus list shows `model_grade` for pieces with
-  no curator `grade`, or hides them while `model_grade_source` is
-  `dummy-*`. Default: show with an explicit "(estimated)" badge.
+- ~~Confirm the alphaTab soundfont strategy (default vs custom SF2).~~
+  Decision at v0.1: use alphaTab's default lazy-loaded soundfont; revisit
+  if classical-guitar timbre is a blocker during the advisor render
+  review. The notation renders before audio loads, so TTI is unaffected.
+- ~~Schema-doc `corpus/manifest.json`'s read surface.~~ Added to
+  [`corpus/README.md`](../corpus/README.md) under "Web read surface" —
+  the player consumes a fixed subset of fields and that subset is now
+  documented.
+- ~~Corpus-list dummy display rule.~~ v0.1 shows the piece with a
+  yellow "(placeholder)" badge for any `model_grade_source` starting
+  with `dummy-`, blue "(estimated)" for non-dummy models, and green for
+  curator grades. A `source` filter ("all / curator only / model only")
+  lets a level-conscious user hide placeholder grades.
+
+## v0.1 implementation notes (2026-05-18)
+
+Landed alongside this ADR's acceptance:
+
+- `web/` top-level Svelte 5 + Vite project with `package.json`,
+  `vite.config.ts`, `tsconfig.json`.
+- Routes: `/` (corpus list with grade/source filter) and
+  `/piece/:cid` (alphaTab player with play/pause/stop, tempo slider
+  50–150%, A/B loop, tab toggle).
+- `web/scripts/copy-corpus.mjs` — `prebuild`/`predev` step that mirrors
+  `corpus/manifest.json` and `corpus/normalized/` into `web/public/`.
+  Output is gitignored (matches `corpus/normalized/` policy).
+- `.github/workflows/web.yml` — typecheck + test + build on every push
+  touching `web/` or `corpus/manifest.json`; deploy step gated behind
+  `workflow_dispatch` until the repo flips public (ADR 0004).
+
+Spec §7 M3 validation gates **not yet satisfied** by this PR:
+
+- 10 random pieces render glitch-free (mechanical check; pending).
+- Playback matches notation (mechanical check; pending).
+- TTI <3 s on broadband (measurement; pending bundle profile).
+- Advisor sign-off on notation correctness on 10 sample pieces (human;
+  awaits advisor engagement).
+- Tab view correctness on 10 sample pieces (human; awaits advisor).

@@ -1,0 +1,191 @@
+<script lang="ts">
+  import { onMount } from "svelte";
+  import {
+    loadManifest,
+    applyFilters,
+    resolveGrade,
+    type Manifest,
+    type Filters,
+    type Piece,
+  } from "../lib/manifest";
+  import GradeBadge from "../components/GradeBadge.svelte";
+
+  let manifest = $state<Manifest | null>(null);
+  let error = $state<string | null>(null);
+
+  let filters = $state<Filters>({
+    query: "",
+    minGrade: null,
+    maxGrade: null,
+    source: "all",
+  });
+
+  let limit = $state(100);
+
+  onMount(async () => {
+    try {
+      manifest = await loadManifest();
+    } catch (e) {
+      error = e instanceof Error ? e.message : String(e);
+    }
+  });
+
+  const filtered = $derived(
+    manifest ? applyFilters(manifest.pieces, filters) : []
+  );
+
+  const sorted = $derived(
+    [...filtered].sort((a, b) => {
+      const composerCmp = a.metadata.composer.localeCompare(b.metadata.composer);
+      if (composerCmp !== 0) return composerCmp;
+      return a.metadata.title.localeCompare(b.metadata.title);
+    })
+  );
+
+  const visible = $derived(sorted.slice(0, limit));
+
+  function encodeCid(cid: string): string {
+    return encodeURIComponent(cid);
+  }
+
+  function parseGrade(v: string): number | null {
+    const n = parseInt(v, 10);
+    return Number.isFinite(n) ? n : null;
+  }
+</script>
+
+<section>
+  {#if error}
+    <p class="error">Failed to load manifest: {error}</p>
+  {:else if !manifest}
+    <p>Loading corpus…</p>
+  {:else}
+    <div class="toolbar">
+      <input
+        type="search"
+        placeholder="Search title or composer…"
+        bind:value={filters.query}
+      />
+      <label>
+        Min grade
+        <select
+          value={filters.minGrade ?? ""}
+          onchange={(e) => (filters.minGrade = parseGrade((e.target as HTMLSelectElement).value))}
+        >
+          <option value="">any</option>
+          {#each [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] as g}
+            <option value={g}>{g}</option>
+          {/each}
+        </select>
+      </label>
+      <label>
+        Max grade
+        <select
+          value={filters.maxGrade ?? ""}
+          onchange={(e) => (filters.maxGrade = parseGrade((e.target as HTMLSelectElement).value))}
+        >
+          <option value="">any</option>
+          {#each [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] as g}
+            <option value={g}>{g}</option>
+          {/each}
+        </select>
+      </label>
+      <label>
+        Source
+        <select bind:value={filters.source}>
+          <option value="all">all</option>
+          <option value="curator">curator only</option>
+          <option value="model">model only</option>
+        </select>
+      </label>
+      <span class="count">
+        {filtered.length} match{filtered.length === 1 ? "" : "es"}
+        ({manifest.pieces.length} total)
+      </span>
+    </div>
+
+    <ul class="pieces">
+      {#each visible as p (p.candidate_id)}
+        {@const grade = resolveGrade(p)}
+        <li>
+          <a href="#/piece/{encodeCid(p.candidate_id)}" class="piece">
+            <span class="title">{p.metadata.title}</span>
+            <span class="composer">{p.metadata.composer}</span>
+            <GradeBadge resolved={grade} />
+          </a>
+        </li>
+      {/each}
+    </ul>
+
+    {#if filtered.length > limit}
+      <div class="more">
+        Showing {limit} of {filtered.length}.
+        <button onclick={() => (limit += 100)}>Show 100 more</button>
+      </div>
+    {/if}
+  {/if}
+</section>
+
+<style>
+  .toolbar {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+  }
+  .toolbar label {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8em;
+    color: var(--muted);
+  }
+  .count {
+    margin-left: auto;
+    color: var(--muted);
+    font-size: 0.9em;
+  }
+  .pieces {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .pieces li {
+    border-bottom: 1px solid var(--border);
+  }
+  .piece {
+    display: grid;
+    grid-template-columns: 2fr 1.2fr auto;
+    gap: 1rem;
+    align-items: center;
+    padding: 0.6rem 0.3rem;
+    color: inherit;
+    text-decoration: none;
+  }
+  .piece:hover {
+    background: #f3f4f6;
+  }
+  .title {
+    font-weight: 500;
+  }
+  .composer {
+    color: var(--muted);
+    font-size: 0.9em;
+  }
+  .more {
+    margin-top: 1rem;
+    text-align: center;
+    color: var(--muted);
+  }
+  .error {
+    color: #b91c1c;
+  }
+  @media (max-width: 600px) {
+    .piece {
+      grid-template-columns: 1fr auto;
+    }
+    .composer {
+      grid-column: 1 / -1;
+    }
+  }
+</style>
