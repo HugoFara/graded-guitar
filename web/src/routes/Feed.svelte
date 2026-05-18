@@ -40,7 +40,9 @@
   }
 
   const feed = $derived(
-    manifest && level != null ? buildFeed(manifest.pieces, level, 30) : [],
+    manifest && level != null
+      ? buildFeed(manifest.pieces, level, { statuses, cap: 30 })
+      : [],
   );
 
   // Split the feed by grade: "at your level" vs "stretch (level+1)".

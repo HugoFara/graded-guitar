@@ -252,7 +252,7 @@ describe("buildFeed", () => {
       piece("b1", "B", "T1", "5"),
       piece("c1", "C", "T1", "5"),
     ];
-    const out = buildFeed(pieces, 5, 4);
+    const out = buildFeed(pieces, 5, { cap: 4 });
     // First pass: one from each (A is biggest so first)
     expect(out.slice(0, 3).map((p) => p.metadata.composer).sort()).toEqual([
       "A",
@@ -265,7 +265,61 @@ describe("buildFeed", () => {
     const pieces = Array.from({ length: 50 }, (_, i) =>
       piece(`p${i}`, `C${i % 5}`, `T${i}`, "4"),
     );
-    expect(buildFeed(pieces, 4, 10)).toHaveLength(10);
+    expect(buildFeed(pieces, 4, { cap: 10 })).toHaveLength(10);
+  });
+
+  it("excludes pieces marked too_hard or not_for_me", () => {
+    const pieces = [
+      piece("a", "X", "T1", "5"),
+      piece("b", "X", "T2", "5"),
+      piece("c", "X", "T3", "5"),
+    ];
+    const out = buildFeed(pieces, 5, {
+      statuses: { a: "too_hard", b: "not_for_me" },
+    });
+    expect(out.map((p) => p.candidate_id)).toEqual(["c"]);
+  });
+
+  it("sinks completed pieces to the bottom of their bucket", () => {
+    const pieces = [
+      piece("a", "X", "Apple", "5"),
+      piece("b", "X", "Banana", "5"),
+      piece("c", "X", "Cherry", "5"),
+    ];
+    const out = buildFeed(pieces, 5, { statuses: { a: "completed" } });
+    expect(out.map((p) => p.metadata.title)).toEqual(["Banana", "Cherry", "Apple"]);
+  });
+
+  it("downranks composers with 2+ too_hard pieces", () => {
+    const pieces = [
+      piece("x1", "X", "T1", "5"),
+      piece("x2", "X", "T2", "5"),
+      piece("x3", "X", "T3", "5"),
+      piece("x4", "X", "T4", "5"),
+      piece("y1", "Y", "T1", "5"),
+      piece("y2", "Y", "T2", "5"),
+    ];
+    // X has 2 too_hard marks → bucket sinks below Y's even though X
+    // still has more remaining pieces.
+    const out = buildFeed(pieces, 5, {
+      statuses: { x1: "too_hard", x2: "too_hard" },
+      cap: 4,
+    });
+    // First pick should be from Y (regular bucket), not from X
+    // (downranked bucket).
+    expect(out[0].metadata.composer).toBe("Y");
+  });
+
+  it("a single too_hard does not downrank the composer (only 2+)", () => {
+    const pieces = [
+      piece("x1", "X", "T1", "5"),
+      piece("x2", "X", "T2", "5"),
+      piece("x3", "X", "T3", "5"),
+      piece("y1", "Y", "T1", "5"),
+    ];
+    const out = buildFeed(pieces, 5, { statuses: { x1: "too_hard" } });
+    // X is still bigger and not downranked, so first pick from X.
+    expect(out[0].metadata.composer).toBe("X");
   });
 
   it("returns empty array for level with no pieces", () => {

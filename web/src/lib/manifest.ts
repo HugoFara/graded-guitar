@@ -123,22 +123,49 @@ export type Filters = {
   maxDurationSeconds: number | null;
 };
 
+// Per-piece status from the M5 status store, treated as a string here
+// to avoid a module cycle. Valid values match storage/status.ts; an
+// unknown string is treated the same as "not_seen".
+export type FeedStatuses = Record<string, string>;
+
+export type FeedOptions = {
+  statuses?: FeedStatuses;
+  cap?: number;
+};
+
+// Composers with this many "too_hard" pieces by the user get pushed
+// to the bottom of the bucket order. Below the threshold we trust a
+// single "too_hard" might be specific to that piece, not the composer.
+const TOO_HARD_COMPOSER_THRESHOLD = 2;
+
 // Build the M4 feed for a declared level: pieces at the target grade
 // and one above, round-robined across composer buckets so a prolific
 // composer (Horetzky alone has 120 pieces) doesn't dominate the page.
-// Within each bucket pieces are sorted by title for determinism.
+// M5 status signals layered on top:
+//   - too_hard / not_for_me on a piece → exclude
+//   - too_hard on N≥2 pieces by the same composer → bucket pushed to
+//     the bottom of the round-robin order
+//   - completed → still shown but sorted to the bottom of its bucket
+//   - playing → no effect on the feed; library view uses it instead
+// Within each bucket pieces are otherwise sorted by title for
+// determinism. See decisions/0012-m5-local-accounts.md.
 export function buildFeed(
   pieces: Piece[],
   level: number,
-  cap = 30,
+  opts: FeedOptions = {},
 ): Piece[] {
+  const statuses = opts.statuses ?? {};
+  const cap = opts.cap ?? 30;
   const targets = new Set([level, level + 1]);
   const matching = pieces.filter((p) => {
+    const s = statuses[p.candidate_id];
+    if (s === "too_hard" || s === "not_for_me") return false;
     const r = resolveGrade(p);
     if (r.kind === "none") return false;
     const g = gradeAsInt(r.grade);
     return g != null && targets.has(g);
   });
+
   const buckets = new Map<string, Piece[]>();
   for (const p of matching) {
     const composer =
@@ -147,13 +174,33 @@ export function buildFeed(
     buckets.get(composer)!.push(p);
   }
   for (const list of buckets.values()) {
-    list.sort((a, b) => a.metadata.title.localeCompare(b.metadata.title));
+    list.sort((a, b) => {
+      // Completed pieces sink to the bottom of their bucket so fresh
+      // suggestions surface first; ties break on title.
+      const ca = statuses[a.candidate_id] === "completed" ? 1 : 0;
+      const cb = statuses[b.candidate_id] === "completed" ? 1 : 0;
+      if (ca !== cb) return ca - cb;
+      return a.metadata.title.localeCompare(b.metadata.title);
+    });
   }
-  // Composer order: most-prolific first so popular composers anchor the
-  // top of the feed without monopolizing it.
-  const composers = [...buckets.keys()].sort(
-    (a, b) => buckets.get(b)!.length - buckets.get(a)!.length,
-  );
+
+  // Composer order: bucket priority is "regular" first, then "downranked"
+  // (= ≥2 too_hard pieces from this composer). Within each tier, the
+  // bigger bucket goes first so popular composers anchor the top.
+  const tooHardByComposer = new Map<string, number>();
+  for (const p of pieces) {
+    if (statuses[p.candidate_id] !== "too_hard") continue;
+    const composer =
+      p.metadata.composer_normalized || p.metadata.composer || "?";
+    tooHardByComposer.set(composer, (tooHardByComposer.get(composer) ?? 0) + 1);
+  }
+  const composers = [...buckets.keys()].sort((a, b) => {
+    const aDown = (tooHardByComposer.get(a) ?? 0) >= TOO_HARD_COMPOSER_THRESHOLD;
+    const bDown = (tooHardByComposer.get(b) ?? 0) >= TOO_HARD_COMPOSER_THRESHOLD;
+    if (aDown !== bDown) return aDown ? 1 : -1;
+    return buckets.get(b)!.length - buckets.get(a)!.length;
+  });
+
   const out: Piece[] = [];
   let pass = 0;
   while (out.length < cap) {
