@@ -122,11 +122,21 @@ for (const piece of sampled) {
 
     const durationMs = Date.now() - start;
 
-    // Snapshot DOM state for debugging slow/failed pieces.
-    const svgCount = await page.locator(".alphatab svg").count();
+    // Snapshot DOM state for debugging slow/failed pieces. After a
+    // timeout Playwright may already have closed the page, so wrap each
+    // probe — we still want the result row even if some probes fail.
+    const svgCount = await page.locator(".alphatab svg").count().catch(() => 0);
     const renderStateAttr = await container.getAttribute("data-render-state").catch(() => null);
     const errorTextLoc = page.locator(".error");
-    const errorText = (await errorTextLoc.count()) > 0 ? await errorTextLoc.first().textContent() : null;
+    const errorText = await (async () => {
+      try {
+        return (await errorTextLoc.count()) > 0
+          ? await errorTextLoc.first().textContent()
+          : null;
+      } catch {
+        return null;
+      }
+    })();
 
     appendResult({
       cid: piece.candidate_id,

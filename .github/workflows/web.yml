@@ -14,7 +14,11 @@ on:
   workflow_dispatch:
     inputs:
       deploy:
-        description: "Deploy to GitHub Pages (only effective once repo is public)"
+        description: "Deploy to GitHub Pages"
+        type: boolean
+        default: false
+      run_e2e:
+        description: "Run Playwright e2e (requires the M1 corpus on the runner — only meaningful on a self-hosted runner today)"
         type: boolean
         default: false
 
@@ -24,8 +28,8 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages
-  cancel-in-progress: false
+  group: web-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -53,17 +57,26 @@ jobs:
       - name: Build
         working-directory: web
         run: pnpm run build
+      # Playwright e2e needs the M1 corpus (corpus/normalized/, ~110 MB
+      # of MusicXML — gitignored). The hosted runner has no way to
+      # regenerate it without running the full M1 pipeline, so the
+      # render-smoke + TTI specs only run when explicitly requested via
+      # `workflow_dispatch` (presumably on a runner that has the corpus).
+      # Day-to-day CI value comes from typecheck + unit tests + build.
       - name: Install Playwright browsers
+        if: github.event_name == 'workflow_dispatch' && inputs.run_e2e
         working-directory: web
         run: pnpm exec playwright install --with-deps chromium
       - name: Run e2e render smoke
+        if: github.event_name == 'workflow_dispatch' && inputs.run_e2e
         working-directory: web
         run: pnpm run test:e2e
       - name: Regenerate render report
+        if: github.event_name == 'workflow_dispatch' && inputs.run_e2e
         working-directory: web
         run: pnpm run report:e2e
       - name: Upload Playwright report
-        if: always()
+        if: github.event_name == 'workflow_dispatch' && inputs.run_e2e && always()
         uses: actions/upload-artifact@v4
         with:
           name: playwright-report

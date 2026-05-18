@@ -43,11 +43,23 @@ First-time setup for e2e tests needs the Chromium binary:
 pnpm exec playwright install chromium
 ```
 
+## CI
+
+[`.github/workflows/web.yml`](../.github/workflows/web.yml) runs
+**typecheck + unit tests + build** on every push touching `web/` —
+that's the fast feedback (~2 min). It does not run Playwright e2e
+because the corpus (`corpus/normalized/`, ~110 MB) is gitignored and
+the hosted runner has no way to regenerate it without re-fetching from
+upstream. Run e2e locally before pushing changes to the player, and
+regenerate `corpus/m3_render_check.md` via `pnpm report:e2e`.
+
+Two `workflow_dispatch` inputs:
+
+- `deploy=true` — uploads `dist/` to GitHub Pages.
+- `run_e2e=true` — only useful on a runner that already has the
+  corpus checked out (self-hosted, mostly).
+
 ## Deployment
 
-A `workflow_dispatch`-gated job in
-[`.github/workflows/web.yml`](../.github/workflows/web.yml) builds and
-deploys to GitHub Pages. The deploy step only fires when the workflow
-is manually triggered with `deploy=true`, and the repo has to be
-public (see ADR 0004). Until then, builds run on push to confirm the
-project still compiles.
+GitHub Pages deploy is wired but only fires on `workflow_dispatch`
+with `deploy=true`. See ADR 0004 for the public-visibility timeline.

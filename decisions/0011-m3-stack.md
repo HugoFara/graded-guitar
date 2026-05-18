@@ -171,7 +171,13 @@ Landed alongside this ADR's acceptance:
   Output is gitignored (matches `corpus/normalized/` policy).
 - `.github/workflows/web.yml` — typecheck + test + build on every push
   touching `web/` or `corpus/manifest.json`; deploy step gated behind
-  `workflow_dispatch` until the repo flips public (ADR 0004).
+  `workflow_dispatch` until the repo flips public (ADR 0004). The
+  Playwright e2e + render-report steps are also gated behind
+  `workflow_dispatch` (`run_e2e=true`) because `corpus/normalized/` is
+  gitignored — the hosted runner has no way to populate `web/public/`
+  without re-running the M1 ingest pipeline. Locally, run
+  `pnpm test:e2e && pnpm report:e2e` before pushing player changes and
+  commit the refreshed `corpus/m3_render_check.md`.
 
 Spec §7 M3 validation gates **not yet satisfied** by this PR:
 
