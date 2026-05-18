@@ -16,6 +16,21 @@
       "detail": "format_undetected"
     },
     {
+      "candidate_id": "guitarloot:Scores/EnglishMusic/Anon/MaryGtrRevAS",
+      "code": "FETCH_FAILED",
+      "detail": "http_404"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/EnglishMusic/ELB/PavaneCosensGtr",
+      "code": "FETCH_FAILED",
+      "detail": "http_404"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/EnglishMusic/Robinson/Fant2Gtr",
+      "code": "FETCH_FAILED",
+      "detail": "http_404"
+    },
+    {
       "candidate_id": "mutopia:ftp/BachJS/BWV1006a/bwv-1006a_2g/bwv-1006a_2g#movement01",
       "code": "LY_CONVERSION_FAILED",
       "detail": "IndexError: pop from empty list"
@@ -486,6 +501,11 @@
       "detail": ""
     },
     {
+      "candidate_id": "guitarloot:Scores/FrenchMusic/Entree1Gtr.iPad",
+      "code": "MISSING_COMPOSER",
+      "detail": ""
+    },
+    {
       "candidate_id": "mutopia:ftp/GruberFX/stille-nacht/stille-nacht#movement01",
       "code": "MISSING_COMPOSER",
       "detail": ""
@@ -512,6 +532,21 @@
     },
     {
       "candidate_id": "gh:xzippyzachx/MXLify@master:TAB2MXL/ExampleOutputs/exampleemajor.musicxml",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "guitarloot:Scores/EnglishMusic/Anon/36.Galliard.BandoraGtr",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "guitarloot:Scores/ItalianMusic/CapricioChromaticoGtr",
+      "code": "MISSING_TITLE",
+      "detail": ""
+    },
+    {
+      "candidate_id": "guitarloot:Scores/ItalianMusic/Passacagli.Gtr",
       "code": "MISSING_TITLE",
       "detail": ""
     },
@@ -699,6 +734,351 @@
       "candidate_id": "gh:standardebooks/edward-lear_nonsense-books@master:images/sheet-music-the-courtship-of-the-yonghy-bonghy-bo.musicxml",
       "code": "MULTIPLE_PARTS",
       "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/01SouthcotePavan",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/02SouthcoteGalliard",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/03AlmGtrs",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/04PavenGtrs",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/05GallGtrs",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/06ForgetGtrs",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/07WestGtrs",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/08Lullere",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/09WildGtrs",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/10WhatGtrs",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/11TichToyGtrs",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/12BagGtrs",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/13.WhyNotGtrs",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/14AyreGtrs",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/15SouthcoteGigue",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/16CateGtrs",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/17SnatchGtrs",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/18PillGtrs",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/AllegezGtr",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/AnonAyre",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/BosleyAyre",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/BrunsAlmanGtrs",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/BullAlman2",
+      "code": "MULTIPLE_PARTS",
+      "detail": "4 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/CareyDompeDuo",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/CorantoGtrsRev",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/CorantoShAS",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/EchoAlmainRev.Gtr",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/FancyArr",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/FantAnonBodGtrs",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/GalliardAnonBodGtr",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/GreensleevesDuet",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/HolstonesDelightGtrAlt",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/HornepyperRevisedGtr.iPad",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/HowellsDelightCSGtr",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/HowellsDelightGtr",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/IrishDumpDuetGtr",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/ItGroundGtrD",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/ItGroundGtrE",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/Jewell.Arr",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/LesPleurs",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/Mace1DuetGtr",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/Mall%20Sims",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/MerryMAvi",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/MusicMirthArr",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/PackingtonPoundGtrDV",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/PaulGtrArr",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/PrincesAlmayne",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/SonateBoisGtr",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/SpiritofMusickeRev",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/Suite(v4)",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/TouchmesweetlyGtr",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/WatkinsAleRevGtr",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/WedGtr",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/WeissDuetGtrAAlt",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Duets/WynkRoundRev2Gtr.iPad",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Ensemble/Recorder/sonc",
+      "code": "MULTIPLE_PARTS",
+      "detail": "2 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Trios/28overtureGtrsEm",
+      "code": "MULTIPLE_PARTS",
+      "detail": "3 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Trios/AnonAlmainBod",
+      "code": "MULTIPLE_PARTS",
+      "detail": "3 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Trios/AnonCorantoBod",
+      "code": "MULTIPLE_PARTS",
+      "detail": "3 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Trios/CiaconiGtr",
+      "code": "MULTIPLE_PARTS",
+      "detail": "3 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Trios/DeepThoughtsGtrRev",
+      "code": "MULTIPLE_PARTS",
+      "detail": "3 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Trios/DonnaCrudelGtr",
+      "code": "MULTIPLE_PARTS",
+      "detail": "3 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Trios/FANTASYEGtrRev5",
+      "code": "MULTIPLE_PARTS",
+      "detail": "3 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Trios/IvesCorantoGtr",
+      "code": "MULTIPLE_PARTS",
+      "detail": "3 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Trios/JenkinsAyreGtrV2",
+      "code": "MULTIPLE_PARTS",
+      "detail": "3 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Trios/JiggeforLadiesGtrAS",
+      "code": "MULTIPLE_PARTS",
+      "detail": "3 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Trios/SchaffSonataGtr",
+      "code": "MULTIPLE_PARTS",
+      "detail": "3 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Trios/TwoOnGround",
+      "code": "MULTIPLE_PARTS",
+      "detail": "3 parts; solo guitar expected"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/Trios/unnamedarrange3",
+      "code": "MULTIPLE_PARTS",
+      "detail": "3 parts; solo guitar expected"
     },
     {
       "candidate_id": "mutopia:ftp/CarulliF/carulli-fughetta/carulli-fughetta#movement01",
@@ -1089,6 +1469,96 @@
       "candidate_id": "gh:ytplayalong/ytpa@main:next/public/mxl/Hot_Stuff.musicxml",
       "code": "NON_GUITAR_INSTRUMENT",
       "detail": "tokens=['Piano', 'Piano', 'keyboard.piano']"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/EnglishMusic//ELB/OxfordGtr",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=['P1', 'Bajo (3) (2)', 'pluck.bajo']"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/EnglishMusic/Bacheler/MonsieurAl.Alt",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=['keyboard.piano.grand']"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/EnglishMusic/Bacheler/PreludegtrDArr",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=['(9)', '(9)', 'keyboard.piano.grand', 'keyboard.piano.grand']"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/EnglishMusic/Dowland/Elizabeth.iPad",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=['P1', 'Bajo (3) (2)', 'pluck.bajo']"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/EnglishMusic/Dowland/LachPav.iPad",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=['P1', 'Kora (2)', 'pluck.kora']"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/EnglishMusic/Dowland/TarletonResGtr",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=['P1', 'Kora (2)', 'pluck.kora']"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/EnglishMusic/ELB/35aSmythGalliardGtr",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=['(2) (2)']"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/EnglishMusic/ELB/Anthony3lutev2",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=['P1', 'Lute (5)', 'pluck.lute']"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/EnglishMusic/ELB/JoaneMaypoleE",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=['P1', '(9)', 'keyboard.piano.grand']"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/EnglishMusic/Holborne/Will2Gtr.iPad",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=['6th to D', '6th to D', 'Bajo (3) (2)', 'pluck.bajo']"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/EnglishMusic/Johnson/BoardAlmaineGtr",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=['7-course Lute in G', '7-course Lute in G', 'Lute (2) (2)', 'pluck.lute']"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/EnglishMusic/Other/Sarab5AltGtr",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=['P1', 'Bajo (3) (2)', 'pluck.bajo']"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/EnglishMusic/Other/Sarab5Gtr.iPad",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=['P1', 'Bajo (3) (2)', 'pluck.bajo']"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/FrenchMusic/TombStLucGtriPad",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=['P1', 'Oud (2)']"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/GermanMusic/FantasiegtriPad",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=['6th string to D', '6th string to D', '(9)', 'keyboard.piano.grand']"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/ItalianMusic/Toccata3.1611.Gtr",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=['P1', 'Piano (2)', 'keyboard.piano.grand']"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/ItalianMusic/ToccataArpeggiataGtrA.iPad",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=['P1', 'Kora (2)', 'pluck.kora']"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/SpanishMusic/VacasGtriPad",
+      "code": "NON_GUITAR_INSTRUMENT",
+      "detail": "tokens=['P1', 'Bajo (3) (2)', 'pluck.bajo']"
     },
     {
       "candidate_id": "mutopia:ftp/AguadoD/O4/AguadoOp4No3/AguadoOp4No3#movement01",
@@ -2169,6 +2639,16 @@
       "candidate_id": "gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:anonymous/study-2/study-2.musicxml",
       "code": "PLACEHOLDER_METADATA",
       "detail": "composer='Composer / arranger'"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/EnglishMusic/ELB/35v.UntitledPiece.Gtr",
+      "code": "PLACEHOLDER_METADATA",
+      "detail": "title='Untitled'"
+    },
+    {
+      "candidate_id": "guitarloot:Scores/LyraViol/01.UntitledGtr",
+      "code": "PLACEHOLDER_METADATA",
+      "detail": "title='Untitled'"
     }
   ],
   "version": 1

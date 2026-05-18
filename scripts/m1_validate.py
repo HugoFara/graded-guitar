@@ -339,6 +339,23 @@ def write_report(stats: Counter, rejections: list[dict[str, Any]],
     if not source_counts:
         lines.append("- (none yet)")
 
+    # Grade coverage — currently populated only by guitarloot. Useful as
+    # a sanity check that the curator-assigned grades made it through.
+    graded = [p for p in manifest_pieces if p.get("grade")]
+    if graded:
+        lines.append("")
+        lines.append("## Grade coverage (curator-assigned)")
+        lines.append("")
+        lines.append(f"- Pieces with a grade: **{len(graded)}** / {len(manifest_pieces)}")
+        grade_counts = Counter(p["grade"] for p in graded)
+        dist_str = ", ".join(
+            f"G{g}: {grade_counts[g]}" for g in sorted(grade_counts, key=lambda x: int(x))
+        )
+        lines.append(f"- Distribution: {dist_str}")
+        grade_source_counts = Counter(p.get("grade_source", "") for p in graded)
+        for src, n in grade_source_counts.most_common():
+            lines.append(f"- Source `{src or '(unset)'}`: {n}")
+
     REPORT_PATH.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
@@ -438,7 +455,7 @@ def main() -> int:
         normalized_path = NORMALIZED_DIR / f"{safe}.musicxml"
         normalized_path.write_bytes(outcome["normalized_bytes"])
 
-        manifest_pieces.append({
+        piece = {
             "candidate_id": cid,
             "source": candidate.get("source", "unknown"),
             "page_url": candidate.get("page_url", ""),
@@ -452,7 +469,12 @@ def main() -> int:
             "metadata": outcome["metadata"],
             "parts": outcome["parts"],
             "instrument_tokens": outcome["instrument_tokens"][:8],
-        })
+        }
+        # Optional curator-assigned grade (currently Guitar Loot only).
+        if candidate.get("grade"):
+            piece["grade"] = candidate["grade"]
+            piece["grade_source"] = candidate.get("grade_source", "")
+        manifest_pieces.append(piece)
         stats["ACCEPTED"] += 1
 
     manifest_pieces.sort(key=lambda p: p["candidate_id"])

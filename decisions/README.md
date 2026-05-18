@@ -30,3 +30,4 @@ Open an ADR when introducing a new dependency, a new file format, a new service,
 - [0005 — M1 ingest pipeline architecture](./0005-ingest-pipeline.md)
 - [0006 — GitHub as primary discovery source](./0006-github-as-source.md)
 - [0007 — Mutopia as a secondary source via patched python-ly](./0007-mutopia-source.md)
+- [0008 — Guitar Loot as a third source with curator-assigned grades](./0008-guitarloot-source.md)
