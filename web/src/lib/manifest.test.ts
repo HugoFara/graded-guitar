@@ -7,6 +7,7 @@ import {
   type Filters,
   type Piece,
 } from "./manifest";
+import { parseTransposeSemitones } from "./player";
 
 const make = (over: Partial<Piece> & { cid: string }): Piece => ({
   candidate_id: over.cid,
@@ -83,6 +84,42 @@ describe("gradeAsInt", () => {
     expect(gradeAsInt(undefined)).toBeNull();
     expect(gradeAsInt("")).toBeNull();
     expect(gradeAsInt("abc")).toBeNull();
+  });
+});
+
+describe("parseTransposeSemitones", () => {
+  it("reads the guitar 8va-bassa convention", () => {
+    const xml = `<transpose>
+      <diatonic>0</diatonic>
+      <chromatic>0</chromatic>
+      <octave-change>-1</octave-change>
+    </transpose>`;
+    expect(parseTransposeSemitones(xml)).toBe(-12);
+  });
+
+  it("combines chromatic + octave-change", () => {
+    const xml = `<transpose>
+      <chromatic>2</chromatic>
+      <octave-change>-1</octave-change>
+    </transpose>`;
+    expect(parseTransposeSemitones(xml)).toBe(-10);
+  });
+
+  it("returns 0 when the file has no transpose declaration", () => {
+    expect(parseTransposeSemitones("<score-partwise>no transpose here</score-partwise>")).toBe(0);
+  });
+
+  it("ignores missing chromatic or octave-change children", () => {
+    expect(parseTransposeSemitones("<transpose></transpose>")).toBe(0);
+    expect(parseTransposeSemitones("<transpose><chromatic>3</chromatic></transpose>")).toBe(3);
+  });
+
+  it("uses the first transpose declaration on multi-part files", () => {
+    const xml = `
+      <transpose><octave-change>-1</octave-change></transpose>
+      <transpose><octave-change>-2</octave-change></transpose>
+    `;
+    expect(parseTransposeSemitones(xml)).toBe(-12);
   });
 });
 

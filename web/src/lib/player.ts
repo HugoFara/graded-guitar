@@ -13,6 +13,32 @@ export type PlayerCallbacks = {
   onError?: (err: unknown) => void;
 };
 
+// MusicXML's <transpose> element tells a reader: "written pitch is N
+// semitones higher than sounding pitch." Classical guitar parts almost
+// always carry <octave-change>-1</octave-change> because guitar music
+// is notated in treble clef but sounds 8va bassa. alphaTab honors the
+// transpose for rendering but plays the MIDI at written pitch — so we
+// extract the offset ourselves and apply it to playback after load.
+//
+// Per spec, <transpose> can live at part/measure level; in our corpus
+// every file has a single global transpose declaration, so we take the
+// first occurrence and apply it to every track. Multi-instrument scores
+// are not part of the M3 corpus.
+export function parseTransposeSemitones(xmlText: string): number {
+  const block = xmlText.match(/<transpose\b[^>]*>([\s\S]*?)<\/transpose>/);
+  if (!block) return 0;
+  const chromatic = parseInt(
+    block[1].match(/<chromatic>(-?\d+)<\/chromatic>/)?.[1] ?? "0",
+    10,
+  );
+  const octave = parseInt(
+    block[1].match(/<octave-change>(-?\d+)<\/octave-change>/)?.[1] ?? "0",
+    10,
+  );
+  const safe = (n: number) => (Number.isFinite(n) ? n : 0);
+  return safe(chromatic) + 12 * safe(octave);
+}
+
 export function mountPlayer(
   element: HTMLElement,
   musicXmlUrl: string,
@@ -74,9 +100,17 @@ export function mountPlayer(
   fetch(musicXmlUrl)
     .then((r) => {
       if (!r.ok) throw new Error(`${musicXmlUrl}: ${r.status}`);
-      return r.arrayBuffer();
+      return r.text();
     })
-    .then((buf) => api.load(new Uint8Array(buf)))
+    .then((xmlText) => {
+      const transposeSemis = parseTransposeSemitones(xmlText);
+      if (transposeSemis !== 0) {
+        api.scoreLoaded.on((score) => {
+          api.changeTrackTranspositionPitch(score.tracks, transposeSemis);
+        });
+      }
+      api.load(new TextEncoder().encode(xmlText));
+    })
     .catch((e) => cb.onError?.(e));
 
   return {
