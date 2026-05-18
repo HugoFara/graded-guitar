@@ -36,3 +36,4 @@ Open an ADR when introducing a new dependency, a new file format, a new service,
 - [0013 — M6 framing: closed beta as the grading-signal path](./0013-m6-beta-as-grader.md)
 - [0014 — Corpus diversification: the realistic frontier without OMR](./0014-corpus-diversification-frontier.md)
 - [0015 — OMR feasibility spike](./0015-omr-feasibility-spike.md)
+- [0016 — M6 signal egress: mailto + attach, no upload endpoint](./0016-m6-signal-egress-via-mailto.md)
