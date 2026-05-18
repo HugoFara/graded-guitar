@@ -40,6 +40,7 @@ require_file decisions/0005-ingest-pipeline.md
 require_file decisions/0006-github-as-source.md
 require_file decisions/0007-mutopia-source.md
 require_file decisions/0008-guitarloot-source.md
+require_file decisions/0009-m2-grading-inputs.md
 
 echo "==> Syllabi"
 require_file syllabi/README.md
@@ -61,6 +62,9 @@ require_file scripts/m1_discover_guitarloot.py
 require_file scripts/m1_lilypond.py
 require_file scripts/m1_fetch.py
 require_file scripts/m1_validate.py
+require_file scripts/m1_pre_check.py
+require_file scripts/m2_features.py
+require_file scripts/tests/test_m1_validation.py
 require_file corpus/README.md
 
 echo "==> Syllabi JSON schema validation"
@@ -68,6 +72,14 @@ if command -v python3 >/dev/null 2>&1; then
   python3 scripts/validate_syllabi.py
 else
   red "  python3 not found; cannot validate syllabi JSON"
+  fail=1
+fi
+
+echo "==> M1 validation regression tests"
+if command -v python3 >/dev/null 2>&1; then
+  python3 scripts/tests/test_m1_validation.py || fail=1
+else
+  red "  python3 not found; cannot run M1 regression tests"
   fail=1
 fi
 

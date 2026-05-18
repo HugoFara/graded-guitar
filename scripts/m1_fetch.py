@@ -198,6 +198,10 @@ def main() -> int:
     parser.add_argument("--limit", type=int, default=None)
     parser.add_argument("--force", action="store_true",
                         help="Ignore fetch_log and re-download everything.")
+    parser.add_argument("--source", default=None,
+                        help="Restrict to candidates whose 'source' field "
+                             "matches (e.g. 'mutopia', 'guitarloot', "
+                             "'github'). Other sources are left alone.")
     parser.add_argument("--min-interval", type=float, default=1.0)
     args = parser.parse_args()
 
@@ -221,6 +225,8 @@ def main() -> int:
 
     for i, c in enumerate(candidates, 1):
         cid = c["candidate_id"]
+        if args.source is not None and c.get("source") != args.source:
+            continue
         if not args.force and cid in entries:
             stats["cached"] += 1
             continue
