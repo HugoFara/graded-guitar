@@ -25,7 +25,9 @@ test("corpus list reaches interactive under TTI budget", async ({ browser }) => 
   const page = (await context.pages())[0];
 
   const start = Date.now();
-  await page.goto("/");
+  // /browse is the corpus-list route; / now redirects to /onboard or
+  // /feed depending on whether a level is stored (M4 step 4).
+  await page.goto("/#/browse");
   const list = page.locator("[data-corpus-loaded]");
   await list.waitFor({ state: "attached", timeout: 10_000 });
   const ttiMs = Date.now() - start;

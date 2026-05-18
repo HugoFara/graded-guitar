@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import {
   applyFilters,
+  buildFeed,
   gradeAsInt,
   isDummySource,
   resolveGrade,
@@ -163,5 +164,65 @@ describe("applyFilters", () => {
   it("min/max grade excludes ungraded pieces", () => {
     const out = applyFilters(pieces, baseFilters({ minGrade: 1, maxGrade: 10 }));
     expect(out.map((p) => p.candidate_id).sort()).toEqual(["a", "b", "c"]);
+  });
+});
+
+describe("buildFeed", () => {
+  const piece = (cid: string, composer: string, title: string, grade: string) =>
+    make({
+      cid,
+      grade,
+      grade_source: "delcamp",
+      metadata: { title, composer, composer_normalized: composer },
+    });
+
+  it("includes level and level+1, excludes others", () => {
+    const pieces = [
+      piece("a", "X", "T1", "3"),
+      piece("b", "X", "T2", "4"),
+      piece("c", "X", "T3", "5"),
+      piece("d", "X", "T4", "2"),
+    ];
+    const out = buildFeed(pieces, 3);
+    expect(out.map((p) => p.candidate_id).sort()).toEqual(["a", "b"]);
+  });
+
+  it("round-robins across composers so one doesn't dominate the head", () => {
+    const pieces = [
+      piece("a1", "A", "T1", "5"),
+      piece("a2", "A", "T2", "5"),
+      piece("a3", "A", "T3", "5"),
+      piece("b1", "B", "T1", "5"),
+      piece("c1", "C", "T1", "5"),
+    ];
+    const out = buildFeed(pieces, 5, 4);
+    // First pass: one from each (A is biggest so first)
+    expect(out.slice(0, 3).map((p) => p.metadata.composer).sort()).toEqual([
+      "A",
+      "B",
+      "C",
+    ]);
+  });
+
+  it("respects the cap", () => {
+    const pieces = Array.from({ length: 50 }, (_, i) =>
+      piece(`p${i}`, `C${i % 5}`, `T${i}`, "4"),
+    );
+    expect(buildFeed(pieces, 4, 10)).toHaveLength(10);
+  });
+
+  it("returns empty array for level with no pieces", () => {
+    const pieces = [piece("a", "X", "T", "3")];
+    expect(buildFeed(pieces, 9)).toEqual([]);
+  });
+
+  it("sorts pieces within a composer bucket by title", () => {
+    const pieces = [
+      piece("a", "X", "Zebra", "5"),
+      piece("b", "X", "Apple", "5"),
+      piece("c", "X", "Mango", "5"),
+    ];
+    const out = buildFeed(pieces, 5);
+    expect(out.map((p) => p.metadata.title)).toEqual(["Apple", "Mango", "Zebra"]);
   });
 });

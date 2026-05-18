@@ -5,10 +5,11 @@
   import PieceDetail from "./routes/PieceDetail.svelte";
   import Onboard from "./routes/Onboard.svelte";
   import Feed from "./routes/Feed.svelte";
+  import Landing from "./routes/Landing.svelte";
   import { loadLevel } from "./lib/level";
 
   const routes = {
-    "/": CorpusList,
+    "/": Landing,
     "/browse": CorpusList,
     "/onboard": Onboard,
     "/feed": Feed,

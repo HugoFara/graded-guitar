@@ -18,7 +18,9 @@ for (const vp of VIEWPORTS) {
     test.use({ viewport: { width: vp.width, height: vp.height } });
 
     test("corpus list fits without horizontal page scroll", async ({ page }) => {
-      await page.goto("/");
+      // /browse is the corpus-list route; / redirects to /onboard or
+      // /feed depending on stored level (M4 step 4).
+      await page.goto("/#/browse");
       await page.locator("[data-corpus-loaded]").waitFor({ timeout: 10_000 });
 
       const overflow = await page.evaluate(() => ({

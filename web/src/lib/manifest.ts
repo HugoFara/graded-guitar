@@ -120,6 +120,55 @@ export type Filters = {
   source: "all" | "curator" | "model";
 };
 
+// Build the M4 feed for a declared level: pieces at the target grade
+// and one above, round-robined across composer buckets so a prolific
+// composer (Horetzky alone has 120 pieces) doesn't dominate the page.
+// Within each bucket pieces are sorted by title for determinism.
+export function buildFeed(
+  pieces: Piece[],
+  level: number,
+  cap = 30,
+): Piece[] {
+  const targets = new Set([level, level + 1]);
+  const matching = pieces.filter((p) => {
+    const r = resolveGrade(p);
+    if (r.kind === "none") return false;
+    const g = gradeAsInt(r.grade);
+    return g != null && targets.has(g);
+  });
+  const buckets = new Map<string, Piece[]>();
+  for (const p of matching) {
+    const composer =
+      p.metadata.composer_normalized || p.metadata.composer || "?";
+    if (!buckets.has(composer)) buckets.set(composer, []);
+    buckets.get(composer)!.push(p);
+  }
+  for (const list of buckets.values()) {
+    list.sort((a, b) => a.metadata.title.localeCompare(b.metadata.title));
+  }
+  // Composer order: most-prolific first so popular composers anchor the
+  // top of the feed without monopolizing it.
+  const composers = [...buckets.keys()].sort(
+    (a, b) => buckets.get(b)!.length - buckets.get(a)!.length,
+  );
+  const out: Piece[] = [];
+  let pass = 0;
+  while (out.length < cap) {
+    let added = 0;
+    for (const c of composers) {
+      const list = buckets.get(c)!;
+      if (pass < list.length) {
+        out.push(list[pass]);
+        added++;
+        if (out.length >= cap) break;
+      }
+    }
+    if (added === 0) break;
+    pass++;
+  }
+  return out;
+}
+
 export function applyFilters(pieces: Piece[], f: Filters): Piece[] {
   const q = f.query.trim().toLowerCase();
   return pieces.filter((p) => {
