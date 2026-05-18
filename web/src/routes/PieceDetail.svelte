@@ -11,6 +11,7 @@
   import * as alphaTab from "@coderline/alphatab";
   import { mountPlayer, type PlayerHandles } from "../lib/player";
   import GradeBadge from "../components/GradeBadge.svelte";
+  import StatusSelector from "../components/StatusSelector.svelte";
 
   type Props = { params?: { cid: string } };
   let { params }: Props = $props();
@@ -167,6 +168,10 @@
           <a href={piece.page_url} target="_blank" rel="noopener">upstream ↗</a>
         {/if}
       </p>
+      <div class="status-row">
+        <span class="label">Status:</span>
+        <StatusSelector cid={piece.candidate_id} />
+      </div>
     </header>
 
     <div class="transport">
@@ -226,6 +231,17 @@
 <style>
   .piece-header h2 {
     margin: 0.3em 0 0.2em;
+  }
+  .status-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0.5rem 0;
+    flex-wrap: wrap;
+  }
+  .status-row .label {
+    font-size: 0.85em;
+    color: var(--muted);
   }
   .meta {
     display: flex;

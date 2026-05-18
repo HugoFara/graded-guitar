@@ -12,10 +12,14 @@
   } from "../lib/manifest";
   import { loadLevel } from "../lib/level";
   import GradeBadge from "../components/GradeBadge.svelte";
+  import StatusChip from "../components/StatusChip.svelte";
+  import { getActiveProfileSync } from "../lib/storage/profile";
+  import { loadAllStatuses, type PieceStatus } from "../lib/storage/status";
 
   let manifest = $state<Manifest | null>(null);
   let error = $state<string | null>(null);
   let level = $state<number | null>(loadLevel());
+  let statuses = $state<Record<string, PieceStatus>>({});
 
   onMount(async () => {
     if (level == null) {
@@ -24,10 +28,16 @@
     }
     try {
       manifest = await loadManifest();
+      const active = getActiveProfileSync();
+      if (active) statuses = await loadAllStatuses(active.id);
     } catch (e) {
       error = e instanceof Error ? e.message : String(e);
     }
   });
+
+  function statusFor(cid: string): PieceStatus {
+    return statuses[cid] ?? "not_seen";
+  }
 
   const feed = $derived(
     manifest && level != null ? buildFeed(manifest.pieces, level, 30) : [],
@@ -90,6 +100,7 @@
                     <span class="title">{p.metadata.title}</span>
                     <GradeBadge resolved={grade} />
                   </div>
+                  <StatusChip status={statusFor(p.candidate_id)} />
                   <div class="card-meta">
                     <span class="composer">{p.metadata.composer}</span>
                     {#if p.era && p.era !== "unknown"}
@@ -117,6 +128,7 @@
                     <span class="title">{p.metadata.title}</span>
                     <GradeBadge resolved={grade} />
                   </div>
+                  <StatusChip status={statusFor(p.candidate_id)} />
                   <div class="card-meta">
                     <span class="composer">{p.metadata.composer}</span>
                     {#if p.era && p.era !== "unknown"}
