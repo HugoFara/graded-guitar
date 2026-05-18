@@ -12,7 +12,8 @@
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "test": "vitest run",
     "test:e2e": "playwright test",
-    "report:e2e": "node scripts/render-report.mjs"
+    "report:e2e": "node scripts/render-report.mjs",
+    "deploy:local": "node scripts/deploy-local.mjs"
   },
   "dependencies": {
     "@coderline/alphatab": "^1.4.7",

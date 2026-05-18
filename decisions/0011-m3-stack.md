@@ -88,15 +88,26 @@ Alternatives considered:
   the kind of "boring infra we don't enjoy maintaining" that
   Svelte 5 already solves.
 
-### 3. Deployment: **GitHub Pages from a CI job**
+### 3. Deployment: **GitHub Pages from a developer machine**
 
-Already on GitHub, already running Actions. The site is static at M3.
-A workflow that builds with Vite and pushes the `dist/` to the
-`gh-pages` branch is ~20 lines.
+GitHub Pages with a manual `pnpm deploy:local` from a workstation
+that has the M1 corpus checked out. The deploy script builds `dist/`
+with the corpus in place and force-pushes to the `gh-pages` branch
+via an orphan commit (history doesn't accumulate). Pages source is
+"deploy from branch" (`gh-pages`), not "GitHub Actions."
 
-Cloudflare Pages / Vercel / Netlify are equally fine; the deciding
-factor is "least new infra to learn." The decision is reversible
-when a real backend lands (M5).
+**Why not auto-deploy from CI?** The hosted runner has no
+`corpus/normalized/` (gitignored, ~110 MB), so its `dist/` ships a
+music-less site. We tried push-to-main auto-deploy on
+2026-05-18; the site served the corpus list but 404'd on every
+piece's MusicXML. Until we settle on a strategy that gets the corpus
+onto CI (commit it under a license audit; self-hosted runner; run
+the M1 pipeline in CI), deploys are explicit and local.
+
+Cloudflare Pages / Vercel / Netlify would have the same corpus-availability
+problem; the choice is independent of the deploy story. The decision
+is reversible when the corpus question is settled or when a real
+backend lands (M5).
 
 ### Repo layout
 
@@ -170,14 +181,15 @@ Landed alongside this ADR's acceptance:
   `corpus/manifest.json` and `corpus/normalized/` into `web/public/`.
   Output is gitignored (matches `corpus/normalized/` policy).
 - `.github/workflows/web.yml` — typecheck + test + build on every push
-  touching `web/` or `corpus/manifest.json`; deploy step gated behind
-  `workflow_dispatch` until the repo flips public (ADR 0004). The
-  Playwright e2e + render-report steps are also gated behind
-  `workflow_dispatch` (`run_e2e=true`) because `corpus/normalized/` is
-  gitignored — the hosted runner has no way to populate `web/public/`
-  without re-running the M1 ingest pipeline. Locally, run
-  `pnpm test:e2e && pnpm report:e2e` before pushing player changes and
-  commit the refreshed `corpus/m3_render_check.md`.
+  touching `web/` or `corpus/manifest.json`. The Playwright e2e +
+  render-report steps are gated behind `workflow_dispatch`
+  (`run_e2e=true`) because `corpus/normalized/` is gitignored — the
+  hosted runner has no way to populate `web/public/` without re-running
+  the M1 ingest pipeline. Locally, run `pnpm test:e2e && pnpm report:e2e`
+  before pushing player changes and commit the refreshed
+  `corpus/m3_render_check.md`. The Pages deploy step has been removed
+  from CI entirely; see the "Deployment" sub-section above and
+  `web/scripts/deploy-local.mjs`.
 
 Spec §7 M3 validation gates **not yet satisfied** by this PR:
 

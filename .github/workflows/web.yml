@@ -13,10 +13,6 @@ on:
       - "web/**"
   workflow_dispatch:
     inputs:
-      deploy:
-        description: "Force a Pages deploy (push to main also auto-deploys)"
-        type: boolean
-        default: true
       run_e2e:
         description: "Run Playwright e2e (requires the M1 corpus on the runner — only meaningful on a self-hosted runner today)"
         type: boolean
@@ -24,8 +20,6 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
   group: web-${{ github.ref }}
@@ -84,20 +78,8 @@ jobs:
             web/playwright-report/
             web/test-results/
           retention-days: 14
-      - name: Upload artifact
-        if: (github.event_name == 'push' && github.ref == 'refs/heads/main') || (github.event_name == 'workflow_dispatch' && inputs.deploy)
-        uses: actions/upload-pages-artifact@v5
-        with:
-          path: web/dist
 
-  deploy:
-    name: Deploy to GitHub Pages
-    if: (github.event_name == 'push' && github.ref == 'refs/heads/main') || (github.event_name == 'workflow_dispatch' && inputs.deploy)
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v5
+# Pages deploys happen from a developer machine via `pnpm deploy:local`
+# inside web/, not from this workflow. The CI runner has no
+# `corpus/normalized/` (gitignored, ~110 MB) so its `dist/` would ship
+# a music-less site. See web/scripts/deploy-local.mjs + ADR 0011.

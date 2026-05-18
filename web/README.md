@@ -53,13 +53,26 @@ the hosted runner has no way to regenerate it without re-fetching from
 upstream. Run e2e locally before pushing changes to the player, and
 regenerate `corpus/m3_render_check.md` via `pnpm report:e2e`.
 
-Two `workflow_dispatch` inputs:
+`workflow_dispatch` input:
 
-- `deploy=true` — uploads `dist/` to GitHub Pages.
 - `run_e2e=true` — only useful on a runner that already has the
   corpus checked out (self-hosted, mostly).
 
 ## Deployment
 
-GitHub Pages deploy is wired but only fires on `workflow_dispatch`
-with `deploy=true`. See ADR 0004 for the public-visibility timeline.
+The CI runner has no MusicXML files, so deploys happen from a
+developer machine that has the corpus checked out:
+
+```bash
+cd web
+pnpm deploy:local
+```
+
+This builds with the live corpus, writes a `deploy.json` provenance
+marker, and force-pushes `dist/` to the `gh-pages` branch via an
+orphan commit (no history accumulation). GitHub Pages serves from
+that branch; the URL is [hugofara.github.io/graded-guitar/](https://hugofara.github.io/graded-guitar/).
+
+The script refuses to run if `web/public/musicxml/` is empty — that
+guard exists so we don't accidentally publish a music-less site from
+a fresh clone.
