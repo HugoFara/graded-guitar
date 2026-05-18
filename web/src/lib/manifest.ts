@@ -20,7 +20,27 @@ export type Piece = {
   model_grade?: string;
   model_grade_source?: string;
   duration_seconds?: number;
+  era?: Era;
 };
+
+export type Era =
+  | "renaissance"
+  | "baroque"
+  | "classical"
+  | "romantic"
+  | "modern"
+  | "traditional"
+  | "unknown";
+
+export const ERAS: Era[] = [
+  "renaissance",
+  "baroque",
+  "classical",
+  "romantic",
+  "modern",
+  "traditional",
+  "unknown",
+];
 
 export type Manifest = {
   pieces: Piece[];
