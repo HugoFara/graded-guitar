@@ -78,7 +78,7 @@
       <h2>Pieces for you</h2>
       <p class="meta">
         Showing {feed.length} pieces sampled across composers, at grades {level} and {Math.min(level + 1, 10)}.
-        <a href="#/onboard">Change level</a> · <a href="#/browse">browse the full corpus</a>
+        <a href="#/library">your library</a> · <a href="#/onboard">change level</a> · <a href="#/browse">browse the full corpus</a>
       </p>
     </header>
 

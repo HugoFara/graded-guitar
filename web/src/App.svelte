@@ -7,6 +7,7 @@
   import Feed from "./routes/Feed.svelte";
   import Landing from "./routes/Landing.svelte";
   import Profile from "./routes/Profile.svelte";
+  import Library from "./routes/Library.svelte";
   import { getActiveProfileSync } from "./lib/storage/profile";
 
   const routes = {
@@ -14,6 +15,7 @@
     "/browse": CorpusList,
     "/onboard": Onboard,
     "/feed": Feed,
+    "/library": Library,
     "/profile": Profile,
     "/piece/:cid": PieceDetail,
   };
