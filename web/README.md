@@ -8,22 +8,37 @@ the stack rationale.
 ## What's here
 
 - Routes
-  - `/` — landing. Redirects to `/feed` if a level is stored in
-    `localStorage`, else `/onboard`.
-  - `/onboard` — grade picker (M4). Saves the chosen level to
-    `localStorage.gradedGuitar.level` and continues to `/feed`.
+  - `/` — landing. Redirects to `/feed` if a level is stored on the
+    active profile, else `/onboard`.
+  - `/onboard` — grade picker (M4). Saves the chosen level to the
+    active profile and continues to `/feed`.
   - `/feed` — pieces at the user's level and one above (M4). Pieces
     are round-robined across composer buckets so a prolific composer
-    doesn't dominate the head of the list.
+    doesn't dominate the head of the list. M5 status signals
+    (`too_hard`, `not_for_me`, `completed`) re-shape the order.
+  - `/library` — your library (M5), tabbed by status: Playing /
+    Completed / Too hard / Skipped / All.
+  - `/profile` — manage local profiles (M5): switch, rename, change
+    level, delete, export/import JSON backups.
+  - `/privacy` — public privacy note (M5).
   - `/browse` — corpus list. Filter by free-text, composer (datalist
     autocomplete), era, grade range, max length, and source (curator /
     model / all).
   - `/piece/:cid` — alphaTab player with play/pause/stop, tempo slider
-    (50–150%), bar-number loop, and a tab-view toggle.
+    (50–150%), bar-number loop, tab-view toggle, and the M5 status
+    selector.
 - `src/lib/manifest.ts` — typed loader for `corpus/manifest.json`,
   grade-resolution rules (curator preferred, model fallback, `dummy-*`
   flagged as "placeholder"), filter logic, and the feed builder.
-- `src/lib/level.ts` — `localStorage`-backed playing level (M4).
+- `src/lib/level.ts` — playing level (sync wrapper over the active
+  profile).
+- `src/lib/storage/` — M5 client-only accounts scaffold (see
+  [`decisions/0012-m5-local-accounts.md`](../decisions/0012-m5-local-accounts.md)):
+  - `profile.ts` — `Profile` CRUD with async API.
+  - `status.ts` — per-piece status store (`not_seen | playing |
+    completed | too_hard | not_for_me`).
+  - `backup.ts` — JSON export/import for the eventual server
+    migration.
 - `src/lib/player.ts` — thin alphaTab wrapper.
 
 ## Running

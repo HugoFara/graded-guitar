@@ -9,6 +9,12 @@
     updateProfile,
     type Profile,
   } from "../lib/storage/profile";
+  import {
+    backupFilename,
+    exportProfile,
+    importProfile,
+    type ProfileBackup,
+  } from "../lib/storage/backup";
   import { MAX_LEVEL, MIN_LEVEL } from "../lib/level";
 
   let profiles = $state<Profile[]>([]);
@@ -16,7 +22,9 @@
   let newName = $state("");
   let newLevel = $state<number | "">("");
   let error = $state<string | null>(null);
+  let importInfo = $state<string | null>(null);
   let busy = $state(false);
+  let fileInput: HTMLInputElement | undefined = $state();
 
   async function refresh() {
     profiles = await listProfiles();
@@ -90,6 +98,49 @@
     }
   }
 
+  async function downloadBackup(p: Profile) {
+    busy = true;
+    try {
+      const dump = await exportProfile(p);
+      const blob = new Blob([JSON.stringify(dump, null, 2)], {
+        type: "application/json",
+      });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = backupFilename(p);
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(url);
+    } finally {
+      busy = false;
+    }
+  }
+
+  async function onImportFile(e: Event) {
+    const input = e.target as HTMLInputElement;
+    const file = input.files?.[0];
+    if (!file) return;
+    error = null;
+    importInfo = null;
+    busy = true;
+    try {
+      const text = await file.text();
+      const payload = JSON.parse(text) as ProfileBackup;
+      const result = await importProfile(payload);
+      await refresh();
+      window.dispatchEvent(new Event("hashchange"));
+      importInfo = `Imported "${result.profile.display_name}" — ${result.imported} statuses (${result.skipped} skipped).`;
+    } catch (e) {
+      error = e instanceof Error ? e.message : String(e);
+    } finally {
+      busy = false;
+      // Allow re-importing the same file later
+      if (input) input.value = "";
+    }
+  }
+
   async function remove(p: Profile) {
     if (!window.confirm(`Delete profile "${p.display_name}"? This wipes its library on this browser.`)) {
       return;
@@ -151,6 +202,9 @@
               />
             </label>
             <span class="created">created {p.created_at.slice(0, 10)}</span>
+            <button type="button" disabled={busy} onclick={() => downloadBackup(p)}>
+              Export JSON
+            </button>
             <button class="danger" type="button" disabled={busy} onclick={() => remove(p)}>
               Delete
             </button>
@@ -181,6 +235,25 @@
   </div>
   {#if error}
     <p class="error">{error}</p>
+  {/if}
+
+  <h3>Import a backup</h3>
+  <p class="hint">
+    Imports a JSON backup as a new profile. Existing profiles are
+    untouched — you can rename or delete them afterward.
+  </p>
+  <div class="create">
+    <input
+      bind:this={fileInput}
+      type="file"
+      accept="application/json,.json"
+      disabled={busy}
+      onchange={onImportFile}
+      aria-label="import profile backup"
+    />
+  </div>
+  {#if importInfo}
+    <p class="info">{importInfo}</p>
   {/if}
 </section>
 
@@ -277,5 +350,12 @@
   }
   .error {
     color: #b91c1c;
+  }
+  .info {
+    color: var(--accent);
+  }
+  .hint {
+    color: var(--muted);
+    font-size: 0.9em;
   }
 </style>
