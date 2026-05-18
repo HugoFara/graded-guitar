@@ -17,6 +17,7 @@ from __future__ import annotations
 
 import argparse
 import io
+import re
 import sys
 import zipfile
 from collections import Counter
@@ -197,6 +198,32 @@ def is_guitar(tokens: list[str]) -> bool:
     return any(t.startswith("midi-program-") for t in tokens)
 
 
+# Mechanical composer normalization — strip date annotations and source
+# citations so identical composers under different encodings collapse to
+# one row in the "Top composers" report. Does NOT do alias mapping
+# (e.g., "D. Aguado" → "Dionisio Aguado"); that needs human judgement.
+# Raw string is preserved in metadata.composer; normalized form lands in
+# metadata.composer_normalized.
+_PAREN_BLOCK = re.compile(r"\s*\([^)]*\)")                  # "(1563 - 1626)", "(fl. 1610-17)"
+_TRAILING_DATE_RANGE = re.compile(r"\s+(?:c\.?\s*)?\d{3,4}\s*[-–]\s*\d{3,4}\s*$")
+_TRAILING_FLDATE = re.compile(r"\s+(?:fl\.?|c\.?|d\.?)\s*\d{3,4}.*$", re.IGNORECASE)
+_LINEBREAK_SUFFIX = re.compile(r"[\r\n].*$", re.DOTALL)     # "Robinson\nfrom ..."
+_MULTISPACE = re.compile(r"\s+")
+
+
+def normalize_composer(raw: str) -> str:
+    if not raw:
+        return ""
+    s = _LINEBREAK_SUFFIX.sub("", raw)
+    # Apply paren-block twice — works through nested or sequential blocks.
+    s = _PAREN_BLOCK.sub("", s)
+    s = _PAREN_BLOCK.sub("", s)
+    s = _TRAILING_DATE_RANGE.sub("", s)
+    s = _TRAILING_FLDATE.sub("", s)
+    s = _MULTISPACE.sub(" ", s).strip(" ,.;")
+    return s
+
+
 def extract_metadata(root: etree._Element) -> dict[str, str]:
     title = find_text(root, "//*[local-name()='work']/*[local-name()='work-title']")
     if not title:
@@ -216,9 +243,11 @@ def extract_metadata(root: etree._Element) -> dict[str, str]:
         root,
         "//*[local-name()='measure'][1]//*[local-name()='key']/*[local-name()='fifths']",
     )
+    composer_clean = composer.strip()
     return {
         "title": title.strip(),
-        "composer": composer.strip(),
+        "composer": composer_clean,
+        "composer_normalized": normalize_composer(composer_clean),
         "opus": opus.strip(),
         "key_fifths": key_fifths.strip(),
     }
@@ -312,8 +341,17 @@ def write_report(stats: Counter, rejections: list[dict[str, Any]],
     lines.append("")
     lines.append("## Top composers in accepted corpus")
     lines.append("")
+    lines.append("Grouped by mechanically-normalized composer "
+                 "(date annotations and source citations stripped). "
+                 "Does not alias-merge initial-only forms — `D. Aguado` "
+                 "and `Dionisio Aguado` remain separate rows.")
+    lines.append("")
     composer_counts = Counter(
-        (p.get("metadata", {}).get("composer") or "(unknown)")
+        (
+            p.get("metadata", {}).get("composer_normalized")
+            or p.get("metadata", {}).get("composer")
+            or "(unknown)"
+        )
         for p in manifest_pieces
     )
     for composer, n in composer_counts.most_common(15):

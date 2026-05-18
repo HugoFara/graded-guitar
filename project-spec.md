@@ -115,7 +115,7 @@ Each milestone has a goal, deliverables, and validation checks. Do not advance t
 
 **Goal:** a reproducible pipeline that turns publicly available classical-guitar scores into clean, normalized MusicXML the platform can use.
 
-**Note on sources.** The original spec assumed IMSLP would provide ≥500 classical-guitar MusicXML files. The M1.1 discovery run (2026-05-17) walked IMSLP's `Category:For guitar` and found **zero** MusicXML files — IMSLP is overwhelmingly PDF scans. OpenScore has no guitar corpus; Mutopia is LilyPond-only and the only viable LilyPond→MusicXML converter (`python-ly`) silently truncates multi-`\score` files. GitHub code search is the current primary source. See ADRs [0005](./decisions/0005-ingest-pipeline.md) (pipeline architecture) and [0006](./decisions/0006-github-as-source.md) (GitHub source rationale).
+**Note on sources.** The original spec assumed IMSLP would provide ≥500 classical-guitar MusicXML files. The M1.1 discovery run (2026-05-17) walked IMSLP's `Category:For guitar` and found **zero** MusicXML files — IMSLP is overwhelmingly PDF scans. Three sources ended up wired: GitHub code-search + repo walks (ADR [0006](./decisions/0006-github-as-source.md)), Mutopia via a patched `python-ly` LilyPond→MusicXML converter (ADR [0007](./decisions/0007-mutopia-source.md)), and Guitar Loot (ADR [0008](./decisions/0008-guitarloot-source.md)) — a curated single-arranger Renaissance/Baroque collection whose ~530 .mxl files carry pre-assigned Delcamp 1-10 grades on 87% of entries. Pipeline architecture is in ADR [0005](./decisions/0005-ingest-pipeline.md).
 
 **Deliverables:**
 - Pipeline that identifies classical-guitar scores in MusicXML format from public sources (initially GitHub; pluggable per source).
@@ -124,13 +124,22 @@ Each milestone has a goal, deliverables, and validation checks. Do not advance t
 - Ingest report: how many pieces processed, how many accepted, how many rejected and why.
 
 **Validation checks:**
-- [ ] At least 40 distinct classical guitar pieces ingested and normalized, with a documented plan to grow (community submissions, additional curated repos, license outreach). Original target was 500; lowered to reflect empirical scarcity of free-licensed classical-guitar MusicXML — spec §6 "ship narrow then widen" applies.
+- [x] At least 40 distinct classical guitar pieces ingested and normalized, with a documented plan to grow (see *Grow plan* below). Original target was 500; lowered to reflect empirical scarcity of free-licensed classical-guitar MusicXML — spec §6 "ship narrow then widen" applies. **Current: 805 accepted pieces** as of 2026-05-18 (`corpus/report.md`).
 - [ ] Each piece has accurate composer, title, and key metadata.
-- [ ] Every ingested piece can be opened by a standard MusicXML reader without errors.
-- [ ] Pipeline is idempotent: running it twice produces the same corpus.
-- [ ] Rejected pieces have a recorded reason; the rejection list is reviewable.
-- [ ] Each piece's license is captured in the manifest (filtering for redistribution is an M3/M7 concern).
+- [x] Every ingested piece can be opened by a standard MusicXML reader without errors. (Enforced by `m1_validate.py`: well-formed XML, `score-partwise` root, ≥1 part.)
+- [x] Pipeline is idempotent: running it twice produces the same corpus. (Content-addressed by sha256 in `corpus/raw/`; `corpus/cache/fetch_log.json` skips re-fetches.)
+- [x] Rejected pieces have a recorded reason; the rejection list is reviewable. (`corpus/rejected.json` with structured reason codes — see ADR 0005.)
+- [x] Each piece's license is captured in the manifest (filtering for redistribution is an M3/M7 concern).
 - [ ] Advisor spot-checks 20 random pieces and confirms metadata is correct.
+
+**Grow plan.** Reaching 805 was achieved by adding sources opportunistically; the plan to keep growing is layered by how much work each requires.
+
+- *No-effort* — re-running the existing pipeline periodically. Mutopia and Guitar Loot both add pieces over time; a quarterly re-run picks up new uploads on each.
+- *Low-effort additions (one ADR + one discover script each)* — other curator-style sites with predictable layouts, especially those catalogued at [musicxml.com/music-in-musicxml](https://www.musicxml.com/music-in-musicxml/) (Folkoteca Galega, Hausmusik, and similar small per-composer archives). The Delcamp Forum sheet-music section is community-uploaded and carries grading discussion — would need careful license handling but is the obvious second graded source after Guitar Loot.
+- *Medium-effort* — IMSLP API key crawl. IMSLP has individual per-work pages with occasional `.musicxml`/`.mxl` files even though `Category:MusicXML files` is empty for guitar; a per-work scrape would catch those. Wikifonia (defunct but mirrored on Internet Archive snapshots) would reuse `m1_lilypond.py` if its `.ly` files are still reachable.
+- *Community-driven (post-M3 launch)* — a submission form on the platform itself, license outreach to publishers willing to release public-domain editions, and explicit asks to conservatory programs that already typeset guitar repertoire.
+
+The pipeline is source-pluggable (`corpus/candidates.*.json` glob; per-source discover scripts; one `fetch.py` and one `validate.py`), so each new source is contained.
 
 ### Milestone 2 — Grading model (v1)
 

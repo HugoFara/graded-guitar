@@ -18,21 +18,23 @@
 
 ## Top composers in accepted corpus
 
-- Felix Horetzky 1796-1870 — 116
+Grouped by mechanically-normalized composer (date annotations and source citations stripped). Does not alias-merge initial-only forms — `D. Aguado` and `Dionisio Aguado` remain separate rows.
+
+- Felix Horetzky — 116
+- Anon — 52
+- John Dowland — 45
 - Mauro Giuliani — 40
-- Fernando Sor — 36
-- Frantisek Max Knjze (1784-1840) — 34
+- Fernando Sor — 37
+- Anthony Holborne — 35
+- Frantisek Max Knjze — 34
 - Mateo Carcassi — 24
-- John Dowland (1563 - 1626) — 19
+- William Corkine — 22
 - D. Aguado — 19
-- John Dowland 1563 - 1626 — 13
-- Dionisio Aguado — 12
-- Johann Sebastian Bach (1685-1750) — 12
-- William Corkine (fl. 1610 - 17) — 10
-- Anon (Varietie of Lute Lessons - Robert Dowland) — 8
-- Jakub Polak (c1545 - 1605) — 8
-- F. Sor — 8
-- Daniel Bacheler (1572 - 1619) — 7
+- Francis Cutting — 16
+- Johann Sebastian Bach — 13
+- Jakub Polak — 13
+- Daniel Bacheler — 12
+- Giovanni Paolo Foscarini — 12
 
 ## Accepted pieces by source
 
