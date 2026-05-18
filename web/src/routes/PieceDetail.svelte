@@ -293,6 +293,10 @@
     border-radius: 4px;
     padding: 1rem;
     min-height: 200px;
+    /* alphaTab positions its cursor elements absolutely — anchor them
+       to this container. */
+    position: relative;
+    overflow-x: auto;
   }
   .error {
     color: #b91c1c;

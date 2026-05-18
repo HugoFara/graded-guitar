@@ -39,12 +39,23 @@ export function mountPlayer(
 
   // Guitarloot MusicXML declares "Acoustic Guitar (nylon)" via
   // <instrument-sound> but never sets <midi-program>, so alphaTab's
-  // MusicXML reader falls back to program 0 (piano). Force the nylon
-  // guitar patch on every track at load time.
+  // MusicXML reader leaves the track at program 0 (piano). Setting
+  // `playbackInfo.program` after scoreLoaded is too late — the MIDI
+  // file is already generated. Inject a program-change event at tick 0
+  // on every track once the MIDI file is built.
   const NYLON_GUITAR_PROGRAM = 24;
   api.scoreLoaded.on((score) => {
     for (const track of score.tracks) {
       track.playbackInfo.program = NYLON_GUITAR_PROGRAM;
+    }
+  });
+  api.midiLoad.on((midi) => {
+    const tracks = api.tracks ?? [];
+    for (let i = 0; i < tracks.length; i++) {
+      const ch = tracks[i].playbackInfo.primaryChannel;
+      midi.addEvent(
+        new alphaTab.midi.ProgramChangeEvent(i, 0, ch, NYLON_GUITAR_PROGRAM),
+      );
     }
   });
 
