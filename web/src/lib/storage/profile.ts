@@ -169,3 +169,27 @@ export async function deleteProfile(id: string): Promise<void> {
     }
   }
 }
+
+// Sync helpers for components that read the active profile on every
+// render (header chip, feed mount). These are safe because the
+// localStorage backing is sync; they exist alongside the async API so
+// the future server-backed implementation can keep the async surface
+// while sync callers move to $effect/Svelte stores. Internal use only.
+export function getActiveProfileSync(): Profile | null {
+  if (!hasStorage()) return null;
+  const profiles = ensureMigrated();
+  if (profiles.length === 0) return null;
+  const activeId = localStorage.getItem(KEY_ACTIVE_PROFILE);
+  return (activeId ? profiles.find((p) => p.id === activeId) : null) ?? profiles[0];
+}
+
+export function setActiveLevelSync(level: number | null): void {
+  if (!hasStorage()) return;
+  const active = getActiveProfileSync();
+  if (!active) return;
+  const profiles = readProfiles();
+  const i = profiles.findIndex((p) => p.id === active.id);
+  if (i < 0) return;
+  profiles[i] = { ...profiles[i], level: clampLevel(level) };
+  writeProfiles(profiles);
+}

@@ -6,28 +6,33 @@
   import Onboard from "./routes/Onboard.svelte";
   import Feed from "./routes/Feed.svelte";
   import Landing from "./routes/Landing.svelte";
-  import { loadLevel } from "./lib/level";
+  import Profile from "./routes/Profile.svelte";
+  import { getActiveProfileSync } from "./lib/storage/profile";
 
   const routes = {
     "/": Landing,
     "/browse": CorpusList,
     "/onboard": Onboard,
     "/feed": Feed,
+    "/profile": Profile,
     "/piece/:cid": PieceDetail,
   };
 
-  let level = $state<number | null>(null);
+  let activeName = $state<string | null>(null);
+  let activeLevel = $state<number | null>(null);
 
-  // Header level chip — reads localStorage on every navigation so it
-  // reflects updates from Onboard.svelte without a manual refresh.
-  function refreshLevel() {
-    level = loadLevel();
+  // Header chip — reads the active profile on every navigation so it
+  // reflects updates from /onboard or /profile without a manual reload.
+  function refreshChip() {
+    const active = getActiveProfileSync();
+    activeName = active?.display_name ?? null;
+    activeLevel = active?.level ?? null;
   }
 
   onMount(() => {
-    refreshLevel();
-    window.addEventListener("hashchange", refreshLevel);
-    return () => window.removeEventListener("hashchange", refreshLevel);
+    refreshChip();
+    window.addEventListener("hashchange", refreshChip);
+    return () => window.removeEventListener("hashchange", refreshChip);
   });
 </script>
 
@@ -35,8 +40,10 @@
   <div class="row">
     <h1><a href="#/">graded-guitar</a></h1>
     <nav>
-      {#if level != null}
-        <a href="#/onboard" class="level-chip">Level {level}</a>
+      {#if activeName != null}
+        <a href="#/profile" class="level-chip" title="manage profiles">
+          {activeName}{#if activeLevel != null}<span class="lvl"> · L{activeLevel}</span>{/if}
+        </a>
       {:else}
         <a href="#/onboard" class="level-chip set-prompt">Set your level</a>
       {/if}
@@ -84,5 +91,8 @@
   .level-chip.set-prompt {
     color: var(--accent);
     border-color: var(--accent);
+  }
+  .level-chip .lvl {
+    color: var(--muted);
   }
 </style>

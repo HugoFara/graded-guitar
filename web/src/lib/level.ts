@@ -1,28 +1,21 @@
-// User's declared playing level, persisted in localStorage. No accounts
-// at M4 (spec §7 defers identity to M5) — this is the only personalization
-// signal the feed has, so it has to survive page reloads but doesn't
-// need to survive a browser change.
+// Declared playing level. Stored on the active profile (M5); see
+// decisions/0012-m5-local-accounts.md. The sync API here exists for
+// hot paths in components (header chip, feed mount); canonical reads
+// and writes go through the profile store.
+import { getActiveProfileSync, setActiveLevelSync } from "./storage/profile";
 
-const STORAGE_KEY = "gradedGuitar.level";
 export const MIN_LEVEL = 1;
 export const MAX_LEVEL = 10;
 
 export function loadLevel(): number | null {
-  if (typeof localStorage === "undefined") return null;
-  const raw = localStorage.getItem(STORAGE_KEY);
-  if (!raw) return null;
-  const n = parseInt(raw, 10);
-  if (!Number.isFinite(n) || n < MIN_LEVEL || n > MAX_LEVEL) return null;
-  return n;
+  return getActiveProfileSync()?.level ?? null;
 }
 
 export function saveLevel(level: number): void {
-  if (typeof localStorage === "undefined") return;
   if (!Number.isFinite(level) || level < MIN_LEVEL || level > MAX_LEVEL) return;
-  localStorage.setItem(STORAGE_KEY, String(Math.round(level)));
+  setActiveLevelSync(Math.round(level));
 }
 
 export function clearLevel(): void {
-  if (typeof localStorage === "undefined") return;
-  localStorage.removeItem(STORAGE_KEY);
+  setActiveLevelSync(null);
 }
