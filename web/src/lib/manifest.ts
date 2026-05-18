@@ -19,6 +19,7 @@ export type Piece = {
   grade_source?: string;
   model_grade?: string;
   model_grade_source?: string;
+  duration_seconds?: number;
 };
 
 export type Manifest = {
@@ -76,6 +77,14 @@ export function musicxmlUrl(p: Piece): string {
 
 export function pieceById(manifest: Manifest, cid: string): Piece | undefined {
   return manifest.pieces.find((p) => p.candidate_id === cid);
+}
+
+export function formatDuration(seconds: number | undefined): string {
+  if (seconds == null || !Number.isFinite(seconds) || seconds <= 0) return "—";
+  const total = Math.round(seconds);
+  const m = Math.floor(total / 60);
+  const s = total % 60;
+  return `${m}:${String(s).padStart(2, "0")}`;
 }
 
 export function gradeAsInt(g: string | undefined): number | null {

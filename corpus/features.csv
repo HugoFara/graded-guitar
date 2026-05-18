@@ -17,34 +17,34 @@ gh:LYD01/music-teacher@main:public/pieces/recuerdos-theme.musicxml,github,Recuer
 gh:LYD01/music-teacher@main:public/pieces/romanza.musicxml,github,Romanza (Spanish Romance),Anonymous,,,59,72,13,68.0,1,1,80.0,3/4,1,4,0,0,0,2.8,6,0,0.0,0,0,0,0,0,0,0,,8,7,5,8,23,18.0
 gh:LYD01/music-teacher@main:public/pieces/second-string-notes.musicxml,github,Notes on the B String,Exercise,,,59,62,3,60,0,1,70.0,4/4,1,4,0,0,0,3.4,0,0,0.0,0,0,0,0,0,0,0,,3,3,0,8,27,27.4
 gh:LYD01/music-teacher@main:public/pieces/spanish-study-am.musicxml,github,Spanish Study in A minor,Traditional Spanish,,,45,64,19,57,0,1,80.0,3/4,1,8,0,0,0,5.6,3,3,0.125,0,0,0,0,0,0,0,,3,3,0,8,46,18.0
-gh:Plisken78/plisken78.github.io@main:notlasning/songs/Ave Maria.musicxml,github,Ave Maria,F. Schubert,,,53,72,19,66.0,-1,1,,12/8,1,8,32,28,2,4.4,10,0,0.0,1,0,0,0,0,0,0,,8,5,5,26,114,
+gh:Plisken78/plisken78.github.io@main:notlasning/songs/Ave Maria.musicxml,github,Ave Maria,F. Schubert,,,53,72,19,66.0,-1,1,,12/8,1,8,32,28,2,4.4,10,0,0.0,1,0,0,0,0,0,0,,8,5,5,26,114,93.6
 gh:ThePython10110/MuseScore@master:Converted/MusicXML/Silksong/Choral Chambers on guitar (Silksong).musicxml,github,Choral Chambers (Silksong),"Christopher Larkin, Arranged by Beyond the Guitar",,,43,74,31,62.0,0,1,125.0,3/4,1,32,66,12,20,6.6,0,4,1.0,4,0,0,0,6,0,0,31,10,5,215,97,774,139.7
 gh:arhanv/ug-dataset@main:dataset-converted-xml/Open D/Metal/Criminal - New Disorder.musicxml,github,new disorder,riffman hansgtr@hotmail.com,,,38,58,20,44.0,0,1,250.0,4/4,1,8,4,0,0,17.8,152,3,1.0,1,0,0,0,0,0,0,25,4,4,0,17,328,16.3
 gh:moisur/courstrompette@master:public/Wikifonia.rendered/lee konitz - subconscious lee.musicxml,github,subconscious lee,lee konitz,,,65,88,23,77,0,1,120.0,4/4,1,16,3,2,12,5.2,66,0,0.0,1,0,0,0,0,0,0,,24,18,33,33,201,66.0
-gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:anonymous/andante/andante.musicxml,github,Andante,Anonymous,,,52,77,25,72.0,0,1,,3/4,1,8,9,0,0,5.5,0,0,1.0,2,0,0,0,0,0,0,,13,12,10,8,51,
+gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:anonymous/andante/andante.musicxml,github,Andante,Anonymous,,,52,77,25,72.0,0,1,,3/4,1,8,9,0,0,5.5,0,0,1.0,2,0,0,0,0,0,0,,13,12,10,8,51,14.4
 gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:antonio-rovira/romance-de-amor/romance-de-amor.musicxml,github,Romance de Amor,Antonio Rovira,,,40,76,36,64,1,2,100.0,3/4,1,8,40,0,180,12.5,13,4,1.0,3,0,0,0,0,0,0,,12,9,129,33,414,59.4
 gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:dilermando-reis/se-ela-perguntar/se-ela-perguntar.musicxml,github,Se Ela Perguntar,Dilermando Reis,,,40,78,38,64.0,1,1,100.0,3/4,1,8,58,8,0,6.8,75,3,1.0,3,0,0,0,13,0,0,,14,10,99,66,471,118.8
-gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:dorival-caymmi/modinha-para-gabriela/modinha-para-gabriela.musicxml,github,Modinha para Gabriela,Dorival Caymmi,,,40,66,26,54.0,-1,2,,4/4,2,16,8,28,0,7.0,0,3,1.0,2,0,0,0,0,0,0,,4,3,5,18,136,
-gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:ernesto-nazareth/odeon/odeon.musicxml,github,Odeon,Ernesto Nazareth,,,40,77,37,58.0,-1,1,,2/4,1,16,24,0,0,11.7,62,3,1.0,2,0,0,0,11,0,0,,13,5,15,49,666,
+gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:dorival-caymmi/modinha-para-gabriela/modinha-para-gabriela.musicxml,github,Modinha para Gabriela,Dorival Caymmi,,,40,66,26,54.0,-1,2,,4/4,2,16,8,28,0,7.0,0,3,1.0,2,0,0,0,0,0,0,,4,3,5,18,136,32.4
+gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:ernesto-nazareth/odeon/odeon.musicxml,github,Odeon,Ernesto Nazareth,,,40,77,37,58.0,-1,1,,2/4,1,16,24,0,0,11.7,62,3,1.0,2,0,0,0,11,0,0,,13,5,15,49,666,58.1
 gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:j-s-bach/air-on-the-g-string/air-on-the-g-string.musicxml,github,Air on the G String,Johann Sebastian Bach,,,40,70,30,57,0,1,60.0,4/4,1,16,8,24,0,10.2,27,3,1.0,3,0,0,0,0,0,0,,6,3,10,33,351,132.0
-gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:j-s-bach/bourree/bourree.musicxml,github,Bourreé,J. S. Bach,,,52,83,31,66,1,1,,4/4,1,8,11,0,0,9.0,28,0,1.0,4,0,0,0,0,0,0,,19,12,76,26,233,
+gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:j-s-bach/bourree/bourree.musicxml,github,Bourreé,J. S. Bach,,,52,83,31,66,1,1,,4/4,1,8,11,0,0,9.0,28,0,1.0,4,0,0,0,0,0,0,,19,12,76,26,233,57.6
 gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:j-s-bach/jesu-joy-of-mans-desiring/jesu-joy-of-mans-desiring.musicxml,github,"Jesu,  Joy of Man's Desiring",J. S. Bach,,,40,72,32,62,0,1,75.0,3/4,1,8,0,2,110,13.4,4,4,1.0,2,0,0,0,0,0,0,,8,3,10,19,270,45.6
-gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:j-s-bach/minueto-I/minueto-I.musicxml,github,Minueto I,J. S. Bach,,,40,72,32,59.0,0,1,,3/4,1,16,21,0,0,6.2,12,3,1.0,2,0,0,0,0,0,0,,8,5,20,32,200,
-gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:j-s-bach/minueto-II/minueto-II.musicxml,github,Minueto II,J. S. Bach,,,40,71,31,55,1,1,,3/4,1,8,17,2,0,6.0,5,2,1.0,2,0,0,0,0,0,0,,7,3,15,32,194,
+gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:j-s-bach/minueto-I/minueto-I.musicxml,github,Minueto I,J. S. Bach,,,40,72,32,59.0,0,1,,3/4,1,16,21,0,0,6.2,12,3,1.0,2,0,0,0,0,0,0,,8,5,20,32,200,57.6
+gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:j-s-bach/minueto-II/minueto-II.musicxml,github,Minueto II,J. S. Bach,,,40,71,31,55,1,1,,3/4,1,8,17,2,0,6.0,5,2,1.0,2,0,0,0,0,0,0,,7,3,15,32,194,57.6
 gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:j-s-bach/prelude-for-lute/prelude-for-lute.musicxml,github,Prelude,J. S. Bach,,,40,74,34,58.0,-1,1,80.0,3/4,1,16,0,0,0,14.7,166,4,1.0,2,0,0,0,0,0,0,,10,3,37,43,680,96.8
 gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:joao-pernambuco/sons-de-carrilhoes/sons-de-carrilhoes.musicxml,github,Sons de Carrilhões,João Pernambuco,,,38,76,38,60,2,2,70.0,2/4,1,16,0,38,0,10.8,19,3,0.971,2,0,0,0,5,0,0,,12,7,47,35,385,60.0
-gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:matteo-carcassi/study-3/study-3.musicxml,github,Study 3,Matteo Carcassi,,,40,69,29,59,3,1,,2/4,1,8,16,0,0,4.7,5,2,1.0,2,0,0,0,0,0,0,,5,4,17,26,138,
+gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:matteo-carcassi/study-3/study-3.musicxml,github,Study 3,Matteo Carcassi,,,40,69,29,59,3,1,,2/4,1,8,16,0,0,4.7,5,2,1.0,2,0,0,0,0,0,0,,5,4,17,26,138,30.3
 gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:maurice-ravel/bolero/bolero.musicxml,github,Bolero,Maurice Ravel,,,45,64,19,57.0,0,1,80.0,3/4,1,16,21,64,28,6.2,85,0,0.0,1,0,0,0,0,0,0,,4,4,13,51,327,114.8
 gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:paulinho-nogueira/bachianinha-1/bachianinha-1.musicxml,github,Bachianinha Nº 1,Paulinho Nogueira,,,40,76,36,60.0,0,1,160.0,2/4,1,16,1,20,0,5.2,37,4,1.0,4,0,0,0,0,0,0,,12,3,40,98,584,73.5
 gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:pixinguinha/carinhoso/carinhoso.musicxml,github,Carinhoso,Pixinguinha,,,40,69,29,57.0,1,1,72.0,2/4,1,16,9,0,30,7.8,45,4,0.974,2,0,0,0,0,0,0,,5,3,11,39,322,65.0
 gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:waldyr-azevedo/pedacinhos-do-ceu/pedacinhos-do-ceu.musicxml,github,Pedacinhos do céu,Waldyr Azevedo,,,40,72,32,59.0,1,1,60.0,2/4,1,32,26,104,0,8.9,91,4,0.98,2,0,0,0,0,0,0,,8,4,19,51,492,102.0
-gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:zacar/soleado/soleado.musicxml,github,Soleado,Zacar,,,40,69,29,55.0,1,1,,4/4,1,16,8,4,0,8.0,0,2,0.9,3,0,0,0,0,0,0,,5,3,0,10,91,
-gh:ujfjhz/ChineseMusicScore@main:MusicScore/民间音乐/汉族/河北/河北民歌-小白菜/河北民歌-小白菜.musicxml,github,河北民歌-小白菜,河北民歌,,,57,69,12,62,2,1,,3/4,1,8,7,0,0,1.9,0,0,0.0,1,0,0,0,0,0,0,,5,3,1,12,23,
+gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:zacar/soleado/soleado.musicxml,github,Soleado,Zacar,,,40,69,29,55.0,1,1,,4/4,1,16,8,4,0,8.0,0,2,0.9,3,0,0,0,0,0,0,,5,3,0,10,91,21.3
+gh:ujfjhz/ChineseMusicScore@main:MusicScore/民间音乐/汉族/河北/河北民歌-小白菜/河北民歌-小白菜.musicxml,github,河北民歌-小白菜,河北民歌,,,57,69,12,62,2,1,,3/4,1,8,7,0,0,1.9,0,0,0.0,1,0,0,0,0,0,0,,5,3,1,12,23,21.6
 guitarloot:Scores/EnglishMusic/Allison/AllisonQuadroGtr,guitarloot,Quadro Pavan,Richard Allison,3,delcamp-eric-crouch,52,84,32,71,3,1,48.0,4/4,1,32,62,44,0,24.3,68,3,0.98,3,0,0,0,0,0,0,,20,14,207,49,1212,245.0
 guitarloot:Scores/EnglishMusic/Allison/AlmainAllisonAS,guitarloot,Almain,Richard Allison,3,delcamp-eric-crouch,52,83,31,71.0,1,1,86.0,4/4,1,16,0,0,0,20.9,30,3,1.0,2,0,0,0,0,0,0,,19,14,33,9,188,25.1
 guitarloot:Scores/EnglishMusic/Allison/DeLaTrombaPavanGtr,guitarloot,De La Tromba Pavan,Richard Allison,3,delcamp-eric-crouch,50,84,34,72,1,1,64.0,2/2,1,32,59,4,0,19.0,109,4,1.0,3,0,0,0,0,0,0,,20,15,115,32,615,120.0
 guitarloot:Scores/EnglishMusic/Allison/SharpPavan2cGtrAS,guitarloot,Sharp Pavan (2c),Richard Allison,3,delcamp-eric-crouch,52,85,33,75,4,1,48.0,2/4,1,32,46,12,0,11.1,29,4,1.0,3,0,0,0,0,0,0,,21,16,199,72,818,180.0
-guitarloot:Scores/EnglishMusic/Anon/012MilanDumpGtr,guitarloot,The Duke of Milan's Dump,Anon,6,delcamp-eric-crouch,38,72,34,57,2,1,,2/2,1,16,1,30,0,15.3,2,2,0.952,2,0,0,0,0,0,0,,8,4,29,21,323,
+guitarloot:Scores/EnglishMusic/Anon/012MilanDumpGtr,guitarloot,The Duke of Milan's Dump,Anon,6,delcamp-eric-crouch,38,72,34,57,2,1,,2/2,1,16,1,30,0,15.3,2,2,0.952,2,0,0,0,0,0,0,,8,4,29,21,323,48.3
 guitarloot:Scores/EnglishMusic/Anon/CareyDompeAS,guitarloot,My Lady Carey's Dompe,Anon,5,delcamp-eric-crouch,50,88,38,71,-1,1,108.0,4/4,1,16,6,2,0,9.1,38,3,1.0,4,0,0,0,0,0,0,,24,17,156,51,515,113.3
 guitarloot:Scores/EnglishMusic/Anon/DargessonGtr,guitarloot,Dargesson,Anon Dd.2.11 f.8,6,delcamp-eric-crouch,52,81,29,71,1,1,96.0,12/8,1,16,188,30,0,19.3,23,3,1.0,3,0,0,0,0,0,0,,17,12,109,28,549,105.0
 guitarloot:Scores/EnglishMusic/Anon/DowneGGtr,guitarloot,A Downe,Anon 16th century,6,delcamp-eric-crouch,55,83,28,71,1,1,64.0,4/4,1,16,0,4,0,14.8,0,2,0.92,3,0,0,0,0,0,0,,19,15,51,25,373,93.8
@@ -57,8 +57,8 @@ guitarloot:Scores/EnglishMusic/Anon/Pastyme,guitarloot,Pastyme,Anon,5,delcamp-er
 guitarloot:Scores/EnglishMusic/Anon/PastymeAlt,guitarloot,Pastyme,Anon (Combined sources,5,delcamp-eric-crouch,52,81,29,71.0,1,1,76.0,4/4,1,16,21,0,0,13.5,9,2,1.0,2,0,0,0,0,0,0,,17,15,23,12,162,37.9
 guitarloot:Scores/EnglishMusic/Anon/SickSVS,guitarloot,"Sick, Sick and Very Sick",Anon,6,delcamp-eric-crouch,52,83,31,71,1,1,120.0,4/4,1,32,59,10,0,17.5,44,3,1.0,2,0,0,0,0,0,0,,19,14,220,32,570,64.0
 guitarloot:Scores/EnglishMusic/Anon/SouthwellGallAS,guitarloot,Southwell's Galliard,Anon. CUL Dd.2.11f.68r,6,delcamp-eric-crouch,50,84,34,73,3,1,82.0,3/4,1,16,73,0,0,11.3,63,3,1.0,3,0,0,0,0,0,0,,20,16,110,48,543,105.4
-guitarloot:Scores/EnglishMusic/Anon/somersettgtr,guitarloot,The Duke of Somerset's Reverie (A Dompe),"Anon, 16th Century",5,delcamp-eric-crouch,50,81,31,69,2,1,,4/4,1,32,19,2,0,13.1,4,3,0.983,4,0,0,0,0,0,0,,17,14,139,60,806,
-guitarloot:Scores/EnglishMusic/Anon/somersettgtrE,guitarloot,The Duke of Somerset's Reverie (A dompe),"Anon, 16th Century",5,delcamp-eric-crouch,51,83,32,71.0,4,1,,4/4,1,32,20,8,0,12.7,4,3,0.983,4,0,0,0,0,0,0,,19,16,170,60,797,
+guitarloot:Scores/EnglishMusic/Anon/somersettgtr,guitarloot,The Duke of Somerset's Reverie (A Dompe),"Anon, 16th Century",5,delcamp-eric-crouch,50,81,31,69,2,1,,4/4,1,32,19,2,0,13.1,4,3,0.983,4,0,0,0,0,0,0,,17,14,139,60,806,118.8
+guitarloot:Scores/EnglishMusic/Anon/somersettgtrE,guitarloot,The Duke of Somerset's Reverie (A dompe),"Anon, 16th Century",5,delcamp-eric-crouch,51,83,32,71.0,4,1,,4/4,1,32,20,8,0,12.7,4,3,0.983,4,0,0,0,0,0,0,,19,16,170,60,797,146.1
 guitarloot:Scores/EnglishMusic/Bacheler/Cour(Volt)E,guitarloot,Courante (or Volt),Daniel Bacheler,7,delcamp-eric-crouch,52,83,31,73.0,4,1,108.0,3/4,1,16,57,8,0,5.5,4,2,0.979,3,0,0,0,0,0,0,,19,16,216,96,561,160.0
 guitarloot:Scores/EnglishMusic/Bacheler/Cour(Volt)G,guitarloot,Courante (or Volt),Daniel Bacheler,7,delcamp-eric-crouch,50,86,36,72,1,1,108.0,3/4,1,16,57,12,0,5.5,4,2,0.979,3,0,0,0,0,0,0,,22,19,193,96,564,160.0
 guitarloot:Scores/EnglishMusic/Bacheler/EnMeRevenant.iPad,guitarloot,En Me Revenant (When I Return),Daniel Bacheler,7,delcamp-eric-crouch,40,73,33,59,4,1,84.0,4/4,1,16,64,20,0,10.3,10,2,0.986,4,0,0,0,0,0,0,,9,4,105,72,794,205.7
@@ -68,8 +68,8 @@ guitarloot:Scores/EnglishMusic/Bacheler/Galliard.Gtr.2A,guitarloot,Galliard 2,Da
 guitarloot:Scores/EnglishMusic/Bacheler/Galliard.Gtr.3A,guitarloot,Galliard 3,Daniel Bacheler,7,delcamp-eric-crouch,52,89,37,76.0,0,1,64.0,3/4,1,32,91,34,0,12.5,48,3,1.0,4,0,0,0,0,0,0,,24,20,143,41,533,115.3
 guitarloot:Scores/EnglishMusic/Bacheler/Galliard1gtr,guitarloot,Galliard 1,Daniel Bacheler,7,delcamp-eric-crouch,40,72,32,60.0,0,1,76.0,3/4,1,32,76,28,0,9.5,20,3,1.0,4,0,0,0,0,0,0,,8,3,17,48,502,113.7
 guitarloot:Scores/EnglishMusic/Bacheler/MPavGtrArrA,guitarloot,Pavan,Daniel Bacheler,7,delcamp-eric-crouch,52,85,33,72.0,4,1,56.0,4/4,1,32,91,122,0,12.6,32,3,1.0,3,0,0,0,0,0,0,,21,17,241,71,924,304.3
-guitarloot:Scores/EnglishMusic/Bacheler/Prelude10str,guitarloot,Unmeasured Prelude,Daniel Bacheler,7,delcamp-eric-crouch,50,86,36,64.0,0,1,,4/4,1,16,9,0,0,34.7,11,3,1.0,4,0,0,0,0,0,0,,22,12,15,6,232,
-guitarloot:Scores/EnglishMusic/Bacheler/PreludegtrEArr,guitarloot,Lute Prelude,Daniel Bacheler,7,delcamp-eric-crouch,40,71,31,59.0,1,1,,16/4,4,16,3,0,0,34.0,12,3,1.0,4,0,0,0,0,0,0,,7,3,11,6,238,
+guitarloot:Scores/EnglishMusic/Bacheler/Prelude10str,guitarloot,Unmeasured Prelude,Daniel Bacheler,7,delcamp-eric-crouch,50,86,36,64.0,0,1,,4/4,1,16,9,0,0,34.7,11,3,1.0,4,0,0,0,0,0,0,,22,12,15,6,232,47.7
+guitarloot:Scores/EnglishMusic/Bacheler/PreludegtrEArr,guitarloot,Lute Prelude,Daniel Bacheler,7,delcamp-eric-crouch,40,71,31,59.0,1,1,,16/4,4,16,3,0,0,34.0,12,3,1.0,4,0,0,0,0,0,0,,7,3,11,6,238,40.8
 guitarloot:Scores/EnglishMusic/Bacheler/jeunefillettegtrEf,guitarloot,La Jeune Fillette,Daniel Bacheler,7,delcamp-eric-crouch,52,88,36,71,1,1,76.0,4/4,1,32,190,28,0,12.8,282,3,0.994,4,0,0,0,0,0,0,,24,17,512,170,2350,536.8
 guitarloot:Scores/EnglishMusic/Cutting/01AnneMarkhamPavan.GtrA,guitarloot,Mrs. Ann Markham's Pavan B01,Francis Cutting Cozens Lute Book,7,delcamp-eric-crouch,52,81,29,71,1,1,44.0,2/4,1,64,38,42,0,12.6,116,4,1.0,3,0,0,0,0,0,0,,17,14,214,88,1130,240.0
 guitarloot:Scores/EnglishMusic/Cutting/02GalliardGtr,guitarloot,Galliard B02,Francis Cutting,7,delcamp-eric-crouch,40,72,32,59,1,1,72.0,3/4,1,32,64,6,0,11.5,61,3,1.0,4,0,0,0,0,0,0,,8,4,43,48,573,120.0
@@ -88,7 +88,7 @@ guitarloot:Scores/EnglishMusic/Cutting/35GallGtr,guitarloot,Sir Walter Raleigh's
 guitarloot:Scores/EnglishMusic/Cutting/36GallGtrA,guitarloot,Galliard B36,Francis Cutting or John Dowland,7,delcamp-eric-crouch,55,86,31,76.0,1,1,72.0,3/4,1,16,31,4,0,10.8,75,3,1.0,4,0,0,0,0,0,0,,22,19,174,52,581,130.0
 guitarloot:Scores/EnglishMusic/Cutting/39AlmaineGtrA,guitarloot,Almaine B39,Francis Cutting,7,delcamp-eric-crouch,52,83,31,71,3,1,64.0,4/4,1,32,11,6,0,26.2,21,3,1.0,3,0,0,0,0,0,0,,19,14,64,16,421,60.0
 guitarloot:Scores/EnglishMusic/Cutting/46WilloughbyGtr.iPad,guitarloot,My Lord Willoughby's Welcome Home B46,Francis Cutting,7,delcamp-eric-crouch,52,85,33,73.0,2,1,78.0,4/4,1,16,35,4,0,9.3,35,3,1.0,3,0,0,0,0,0,0,,21,16,128,48,475,147.7
-guitarloot:Scores/EnglishMusic/Cutting/51LachrimaeGtr.iPad,guitarloot,Lachrimae Pavan B51,Francis Cutting,7,delcamp-eric-crouch,52,84,32,71,1,1,,4/4,1,16,81,26,0,8.8,108,5,1.0,4,0,0,0,0,0,0,,20,14,264,98,905,
+guitarloot:Scores/EnglishMusic/Cutting/51LachrimaeGtr.iPad,guitarloot,Lachrimae Pavan B51,Francis Cutting,7,delcamp-eric-crouch,52,84,32,71,1,1,,4/4,1,16,81,26,0,8.8,108,5,1.0,4,0,0,0,0,0,0,,20,14,264,98,905,235.2
 guitarloot:Scores/EnglishMusic/Cutting/52Quadro.GtrA,guitarloot,Quadro Pavan B52,? Francis Cutting,7,delcamp-eric-crouch,52,83,31,71,3,1,54.0,4/4,1,16,35,2,0,14.2,39,3,0.98,4,0,0,0,0,0,0,,19,14,116,49,714,217.8
 guitarloot:Scores/EnglishMusic/Cutting/55WoodsSoWildGtrArr,guitarloot,The Woods so Wild B55,Francis Cutting/William Byrd,7,delcamp-eric-crouch,52,83,31,69,2,1,120.0,6/8,1,32,217,6,0,13.5,105,3,1.0,3,0,0,0,0,0,0,,19,12,361,114,1553,171.0
 guitarloot:Scores/EnglishMusic/Cutting/56GalliardGtrA,guitarloot,Galliard 56,Francis Cutting,7,delcamp-eric-crouch,55,79,24,71.0,1,1,72.0,3/4,1,16,17,6,0,8.4,12,4,1.0,4,0,0,0,0,0,0,,15,12,59,24,203,60.0
@@ -103,7 +103,7 @@ guitarloot:Scores/EnglishMusic/Danyel/fRosagtr,guitarloot,Rosa,John Danyel,9,del
 guitarloot:Scores/EnglishMusic/Dowland/32VauxGalliardGtr,guitarloot,Mrs. Vaux Galliard,John Dowland,8,delcamp-eric-crouch,40,72,32,57.0,0,1,72.0,3/4,1,16,30,54,0,11.7,22,3,1.0,3,0,0,0,0,0,0,,8,3,14,28,347,70.0
 guitarloot:Scores/EnglishMusic/Dowland/57VauxGigue,guitarloot,Mrs. Vaux Gigue,John Dowland,8,delcamp-eric-crouch,40,72,32,59,0,1,84.0,6/8,1,16,31,18,0,12.3,15,3,0.966,3,0,0,0,0,0,0,,8,3,25,29,364,62.1
 guitarloot:Scores/EnglishMusic/Dowland/Almain49Gtr,guitarloot,An Almain,John Dowland,8,delcamp-eric-crouch,52,83,31,73.0,4,1,76.0,4/4,1,16,27,10,0,9.4,5,3,1.0,3,0,0,0,0,0,0,,19,16,48,19,187,60.0
-guitarloot:Scores/EnglishMusic/Dowland/AlmandGtrA,guitarloot,Almand,John Dowland,8,delcamp-eric-crouch,50,91,41,76,-1,1,,4/4,1,32,33,24,0,12.0,27,3,1.0,3,0,0,0,0,0,0,,24,19,110,33,413,
+guitarloot:Scores/EnglishMusic/Dowland/AlmandGtrA,guitarloot,Almand,John Dowland,8,delcamp-eric-crouch,50,91,41,76,-1,1,,4/4,1,32,33,24,0,12.0,27,3,1.0,3,0,0,0,0,0,0,,24,19,110,33,413,78.3
 guitarloot:Scores/EnglishMusic/Dowland/AloeGtr.iPad,guitarloot,Aloe,John Dowland,8,delcamp-eric-crouch,52,86,34,71.0,1,1,68.0,4/4,1,16,37,2,0,15.1,69,4,1.0,4,0,0,0,0,0,0,,22,17,171,48,763,169.4
 guitarloot:Scores/EnglishMusic/Dowland/BarbaraDowlandGtr,guitarloot,La Mia Barbara,John Dowland,8,delcamp-eric-crouch,50,88,38,73.0,2,1,64.0,4/4,1,32,67,78,0,12.5,79,3,1.0,4,0,0,0,0,0,0,,24,15,254,98,1286,367.5
 guitarloot:Scores/EnglishMusic/Dowland/CanSheExcuseGtriPad,guitarloot,"Can She Excuse My Wrongs (P42)
@@ -139,7 +139,7 @@ guitarloot:Scores/EnglishMusic/Dowland/JSmithAlmaineGtrAS,guitarloot,Sir John Sm
 guitarloot:Scores/EnglishMusic/Dowland/LachrimaeGalliardGtrf.iPad,guitarloot,Galliard to Lachrimae,John Dowland,8,delcamp-eric-crouch,52,86,34,71,0,1,68.0,3/4,1,16,68,102,0,13.6,166,3,1.0,4,0,0,0,0,0,0,,22,14,194,52,746,137.6
 guitarloot:Scores/EnglishMusic/Dowland/LangtonGallGtrA,guitarloot,Mr Langton's Galliard,John Dowland,8,delcamp-eric-crouch,52,90,38,73.0,4,1,68.0,3/4,1,32,86,40,0,9.1,20,3,1.0,4,0,0,0,0,0,0,,24,17,189,68,649,180.0
 guitarloot:Scores/EnglishMusic/Dowland/LisleGtr,guitarloot,"The Lord Viscount Lisle, His Galliard",John Dowland,8,delcamp-eric-crouch,50,84,34,72.0,-1,1,60.0,3/4,1,32,75,16,0,12.8,76,4,1.0,3,0,0,0,0,0,0,,20,15,142,48,627,144.0
-guitarloot:Scores/EnglishMusic/Dowland/LothDepartGtr,guitarloot,Loth to Depart (Poulton 69),John Dowland,8,delcamp-eric-crouch,52,86,34,71,1,1,,3/4,1,64,105,38,0,12.1,128,4,1.0,4,0,0,0,0,0,0,,22,15,416,112,1380,
+guitarloot:Scores/EnglishMusic/Dowland/LothDepartGtr,guitarloot,Loth to Depart (Poulton 69),John Dowland,8,delcamp-eric-crouch,52,86,34,71,1,1,,3/4,1,64,105,38,0,12.1,128,4,1.0,4,0,0,0,0,0,0,,22,15,416,112,1380,201.8
 guitarloot:Scores/EnglishMusic/Dowland/MelancholyGalliardGtrDiPad,guitarloot,Melancholy Galliard (Poulton 25),John Dowland,8,delcamp-eric-crouch,50,84,34,73.0,-1,1,68.0,3/4,1,16,52,32,0,10.8,48,3,0.98,4,0,0,0,0,0,0,,20,15,104,49,554,129.7
 guitarloot:Scores/EnglishMusic/Dowland/MignardaEGtr,guitarloot,Mignarda (M. Henry Noel's Galliard),John Dowland,8,delcamp-eric-crouch,52,83,31,73,4,1,64.0,3/4,1,32,120,52,0,10.5,69,4,1.0,4,0,0,0,0,0,0,,19,16,173,64,739,180.0
 guitarloot:Scores/EnglishMusic/Dowland/NoTitleP51.iPad,guitarloot,A Piece Without Title (Poulton 51),John Dowland,8,delcamp-eric-crouch,50,88,38,71,2,1,64.0,4/4,1,32,23,16,4,21.3,13,3,1.0,4,0,0,0,0,0,0,,24,17,94,18,423,67.5
@@ -206,8 +206,8 @@ guitarloot:Scores/EnglishMusic/ELB/JohnKissNowGtr,guitarloot,John Come Kiss Me N
 guitarloot:Scores/EnglishMusic/ELB/MadTom,guitarloot,Mad Tom of Bedlam,Anon,6,delcamp-eric-crouch,52,84,32,71,1,2,108.0,4/4,2,8,51,0,0,5.5,14,3,1.0,3,0,0,0,0,0,0,,20,16,87,38,213,84.4
 guitarloot:Scores/EnglishMusic/ELB/MarshSellGtr,guitarloot,Sellenger's Round,Anon,6,delcamp-eric-crouch,52,84,32,71.0,3,1,72.0,6/8,1,32,104,30,0,13.0,109,3,1.0,2,0,0,0,0,0,0,,20,15,188,60,783,150.0
 guitarloot:Scores/EnglishMusic/ELB/New%20Almaine,guitarloot,A New Almaine,Anon,7,delcamp-eric-crouch,52,83,31,73.0,2,1,86.0,4/4,1,32,63,0,0,12.9,55,3,1.0,3,0,0,0,0,0,0,,19,14,216,79,1018,220.5
-guitarloot:Scores/EnglishMusic/ELB/Pavan.Dd.5.78.Gtr,guitarloot,Pavan (Dd.5.78.3;1v-2r),Anon 16th Century,6,delcamp-eric-crouch,52,83,31,71,4,1,,2/2,1,32,30,14,0,21.1,36,3,1.0,3,0,0,0,0,0,0,,19,16,199,36,767,
-guitarloot:Scores/EnglishMusic/ELB/QuandoClaroGtr.iPad,guitarloot,"Quando Claro, Quando Claro?",Anon,7,delcamp-eric-crouch,52,86,34,73,4,1,,6/8,1,32,95,52,0,8.9,5,3,1.0,4,0,0,0,0,0,0,,22,16,247,92,862,
+guitarloot:Scores/EnglishMusic/ELB/Pavan.Dd.5.78.Gtr,guitarloot,Pavan (Dd.5.78.3;1v-2r),Anon 16th Century,6,delcamp-eric-crouch,52,83,31,71,4,1,,2/2,1,32,30,14,0,21.1,36,3,1.0,3,0,0,0,0,0,0,,19,16,199,36,767,86.4
+guitarloot:Scores/EnglishMusic/ELB/QuandoClaroGtr.iPad,guitarloot,"Quando Claro, Quando Claro?",Anon,7,delcamp-eric-crouch,52,86,34,73,4,1,,6/8,1,32,95,52,0,8.9,5,3,1.0,4,0,0,0,0,0,0,,22,16,247,92,862,158.1
 guitarloot:Scores/EnglishMusic/ELB/SoucheGtr,guitarloot,Lord Souches Maske,Anon,6,delcamp-eric-crouch,52,83,31,71,4,1,96.0,4/4,1,16,43,14,0,9.7,6,3,1.0,2,0,0,0,0,0,0,,19,14,177,64,632,160.0
 guitarloot:Scores/EnglishMusic/ELB/StrangeGallGtr,guitarloot,Lord Strang's Galliard,Anon,6,delcamp-eric-crouch,52,84,32,74,0,1,68.0,3/4,1,32,38,18,0,11.8,79,4,1.0,3,0,0,0,0,0,0,,20,16,105,52,616,137.6
 guitarloot:Scores/EnglishMusic/ELB/Teares8Gtr.iPad,guitarloot,Mrs EB Teares,Anon 16th Century,6,delcamp-eric-crouch,52,88,36,76.0,1,1,54.0,4/4,1,32,36,20,0,13.9,25,3,1.0,3,0,0,0,0,0,0,,24,19,109,32,452,142.2
@@ -256,7 +256,7 @@ guitarloot:Scores/EnglishMusic/Holborne/Will2EGtr,guitarloot,Pavan - Last Will a
 guitarloot:Scores/EnglishMusic/Johnson/01.FantasiaJGtr.iPad,guitarloot,Fantasia,Robert Johnson,7,delcamp-eric-crouch,50,89,39,72,-1,1,96.0,4/4,1,16,38,30,0,14.2,60,4,0.979,3,0,0,0,0,0,0,,24,17,171,48,689,120.0
 guitarloot:Scores/EnglishMusic/Johnson/02.PavanGtrArr,guitarloot,Pavan 02,Robert Johnson,7,delcamp-eric-crouch,50,86,36,72.0,-1,1,60.0,4/4,1,16,106,110,0,10.9,165,4,1.0,4,0,0,0,0,0,0,,22,15,333,136,1537,544.0
 guitarloot:Scores/EnglishMusic/Johnson/05.MildmayGtr.Folger,guitarloot,Galliard - My Lady Mildemay’s Delight,Robert Johnson,7,delcamp-eric-crouch,52,86,34,75,1,1,86.0,3/4,2,16,66,18,0,10.9,59,3,1.0,4,0,0,0,0,0,0,,22,17,116,43,495,90.0
-guitarloot:Scores/EnglishMusic/Johnson/NobleMensMasqueEGtr,guitarloot,The Noble Man,?Robert Johnson,7,delcamp-eric-crouch,52,88,36,75.0,1,2,,2/2,1,16,82,14,0,8.9,34,3,1.0,3,0,0,0,0,0,0,,24,17,208,68,640,
+guitarloot:Scores/EnglishMusic/Johnson/NobleMensMasqueEGtr,guitarloot,The Noble Man,?Robert Johnson,7,delcamp-eric-crouch,52,88,36,75.0,1,2,,2/2,1,16,82,14,0,8.9,34,3,1.0,3,0,0,0,0,0,0,,24,17,208,68,640,164.4
 guitarloot:Scores/EnglishMusic/Other/10.PavanLupo.Gtr,guitarloot,Pavan 10,?Ambrose Lupo,8,delcamp-eric-crouch,52,84,32,73,4,1,68.0,2/2,1,16,88,2,0,9.1,131,3,1.0,3,0,0,0,0,0,0,,20,14,221,96,912,338.8
 guitarloot:Scores/EnglishMusic/Other/32bEnglishHuntsUpp.Gtr,guitarloot,The English Hunt's Up,John Whitfield,8,delcamp-eric-crouch,52,81,29,71.0,3,1,108.0,6/8,1,16,72,2,0,9.7,12,3,1.0,3,0,0,0,0,0,0,,17,14,46,26,257,43.3
 guitarloot:Scores/EnglishMusic/Other/35vDaphneCorridonD,guitarloot,"Daphne & Corridon (or Tell Me, Daphne)",John Whitfield,8,delcamp-eric-crouch,50,89,39,74.0,-1,1,72.0,4/4,1,16,44,22,0,12.7,96,3,1.0,3,0,0,0,0,0,0,,24,17,245,64,832,213.3
@@ -317,7 +317,7 @@ guitarloot:Scores/FrenchMusic/ChacSaizBrevAlt.iPad,guitarloot,Chaconne,Robert de
 guitarloot:Scores/FrenchMusic/ChacSaizGtr,guitarloot,Chaconne,Robert de Visee,7,delcamp-eric-crouch,52,86,34,74.0,2,2,72.0,3/4,1,16,28,112,0,7.7,35,3,1.0,2,0,0,0,65,0,0,,22,15,174,81,651,202.5
 guitarloot:Scores/FrenchMusic/ChaconeGtrArr.iPad,guitarloot,Chacone du vieux Gaultier,Enemond Gaultier,7,delcamp-eric-crouch,52,80,28,69.0,3,1,96.0,3/2,1,32,52,189,0,13.1,12,3,1.0,3,0,0,0,6,0,0,,16,10,187,59,794,221.2
 guitarloot:Scores/FrenchMusic/ChaconneHmGtrG.iPad,guitarloot,Chaconne,"[Manuscrit d'Haslemere, Dolmetsch library II D 2, folio 119]",7,delcamp-eric-crouch,50,86,36,69.0,1,1,72.0,3/4,1,16,96,190,0,6.7,50,3,1.0,3,0,0,0,7,0,0,,22,15,249,128,929,320.0
-guitarloot:Scores/FrenchMusic/ChaconneM.iPad,guitarloot,Chaconne,Charles Mouton,7,delcamp-eric-crouch,50,83,33,67.0,1,1,,3/4,1,16,53,126,0,6.9,12,2,1.0,3,0,0,0,41,0,0,,19,14,128,68,523,
+guitarloot:Scores/FrenchMusic/ChaconneM.iPad,guitarloot,Chaconne,Charles Mouton,7,delcamp-eric-crouch,50,83,33,67.0,1,1,,3/4,1,16,53,126,0,6.9,12,2,1.0,3,0,0,0,41,0,0,,19,14,128,68,523,122.4
 guitarloot:Scores/FrenchMusic/GalliardeBesGtr,guitarloot,Galliarde,Anon 1603,7,delcamp-eric-crouch,52,83,31,71.0,3,1,68.0,3/2,1,16,35,18,0,20.5,70,3,1.0,3,0,0,0,0,0,0,,19,12,103,21,442,111.2
 guitarloot:Scores/FrenchMusic/L'AmantGallotGtr,guitarloot,L'Amant Malheureux,Jacques Gallot,7,delcamp-eric-crouch,50,79,29,70,2,1,60.0,4/4,1,32,32,40,0,15.4,27,2,1.0,3,0,0,0,39,0,0,,15,12,72,20,321,80.0
 guitarloot:Scores/FrenchMusic/LaCometeGtr,guitarloot,La Comète,Jacques Gallot,7,delcamp-eric-crouch,50,86,36,73.0,2,1,68.0,3/4,1,16,80,14,0,7.5,24,3,1.0,3,0,0,0,0,0,0,,22,16,183,76,592,201.2
@@ -326,9 +326,9 @@ guitarloot:Scores/FrenchMusic/PantalonsAv,guitarloot,Les Pantalons,Nicolaes Vall
 guitarloot:Scores/FrenchMusic/Valletprel.iPad,guitarloot,Prelude,Nicolaes Vallet,7,delcamp-eric-crouch,52,83,31,70,2,1,84.0,4/4,1,8,12,20,0,9.9,18,3,1.0,3,0,0,0,0,0,0,,19,14,59,19,191,54.3
 guitarloot:Scores/GermanMusic/1PreludeGtr.iPad,guitarloot,Prelude,Sylvius Leopold Weiss,8,delcamp-eric-crouch,52,86,34,74,3,1,92.0,4/4,1,16,1,18,2,8.9,7,3,1.0,2,0,0,0,0,0,0,,22,17,109,27,273,70.4
 guitarloot:Scores/GermanMusic/2PassBibGtrArrAS,guitarloot,Passacaglia,H. I. F. von Biber,7,delcamp-eric-crouch,50,88,38,72.0,-1,1,60.0,3/4,1,8,97,113,0,7.4,135,3,1.0,4,0,0,0,3,0,0,,24,17,304,108,815,324.0
-guitarloot:Scores/GermanMusic/Chaconne.iPad,guitarloot,Chaconne,Anon,7,delcamp-eric-crouch,52,85,33,73,3,1,,3/4,1,16,123,89,0,6.7,9,4,1.0,4,0,0,0,42,0,0,,21,17,223,93,637,
+guitarloot:Scores/GermanMusic/Chaconne.iPad,guitarloot,Chaconne,Anon,7,delcamp-eric-crouch,52,85,33,73,3,1,,3/4,1,16,123,89,0,6.7,9,4,1.0,4,0,0,0,42,0,0,,21,17,223,93,637,167.4
 guitarloot:Scores/GermanMusic/CiaconaAv,guitarloot,Ciacona,Esaias Reusner,7,delcamp-eric-crouch,50,86,36,73,2,1,76.0,3/4,1,16,102,76,0,6.6,26,3,1.0,4,0,0,0,2,0,0,,22,15,260,96,749,227.4
-guitarloot:Scores/GermanMusic/FantBelissGtrF,guitarloot,Fantasia Belissima,Anon,7,delcamp-eric-crouch,52,86,34,74,1,1,,2/2,1,16,30,12,0,10.1,12,2,1.0,4,0,0,0,0,0,0,,22,17,198,67,756,
+guitarloot:Scores/GermanMusic/FantBelissGtrF,guitarloot,Fantasia Belissima,Anon,7,delcamp-eric-crouch,52,86,34,74,1,1,,2/2,1,16,30,12,0,10.1,12,2,1.0,4,0,0,0,0,0,0,,22,17,198,67,756,165.9
 guitarloot:Scores/GermanMusic/Fantasia1Gtr,guitarloot,Fantasia,Anon,7,delcamp-eric-crouch,54,83,29,71,2,1,84.0,2/2,1,16,14,4,0,11.5,26,4,0.963,4,0,0,0,0,0,0,,19,14,111,54,649,154.3
 guitarloot:Scores/GermanMusic/Fantasia4Gtr,guitarloot,Fantasia 4,Anon,7,delcamp-eric-crouch,52,84,32,69.0,0,1,84.0,2/2,1,16,30,98,0,8.9,65,4,1.0,3,0,0,0,0,0,0,,20,13,146,75,685,214.3
 guitarloot:Scores/GermanMusic/FantasieE,guitarloot,Fantasie,Silvius Leopold WEISS,8,delcamp-eric-crouch,52,90,38,76,1,1,60.0,4/4,1,16,6,20,0,9.5,67,2,1.0,3,0,0,0,3,0,0,,24,19,303,65,674,260.0
@@ -345,15 +345,15 @@ guitarloot:Scores/GermanMusic/ReusnerPreludeAv,guitarloot,Prelude,Esaias Reusner
 guitarloot:Scores/GermanMusic/ReusnerPreludeE.iPad,guitarloot,Prelude,Esaias Reusner,7,delcamp-eric-crouch,50,88,38,71,1,1,64.0,4/4,2,32,45,114,0,11.7,46,2,1.0,4,0,0,0,12,0,0,,24,17,134,36,460,135.0
 guitarloot:Scores/GermanMusic/SarabMosGtrAS,guitarloot,Sarabande,Silvius Leopold Weiss,8,delcamp-eric-crouch,52,84,32,71.0,0,1,54.0,3/4,1,16,37,14,0,10.8,30,2,1.0,2,0,0,0,2,0,0,,20,13,143,39,455,130.0
 guitarloot:Scores/GermanMusic/WD6GavotteGtr.iPad,guitarloot,Gavotte,Sylvius Leopold Weiss,8,delcamp-eric-crouch,52,88,36,76,1,1,120.0,4/4,1,8,2,41,0,9.0,30,2,0.952,2,0,0,0,2,0,0,,24,19,89,42,390,84.0
-guitarloot:Scores/GermanMusic/corantgtr.iPad,guitarloot,Corant,Anon,7,delcamp-eric-crouch,52,83,31,69,3,1,,3/4,1,16,29,26,0,4.7,4,3,1.0,3,0,0,0,0,0,0,,19,14,67,38,193,
+guitarloot:Scores/GermanMusic/corantgtr.iPad,guitarloot,Corant,Anon,7,delcamp-eric-crouch,52,83,31,69,3,1,,3/4,1,16,29,26,0,4.7,4,3,1.0,3,0,0,0,0,0,0,,19,14,67,38,193,64.8
 guitarloot:Scores/ItalianMusic/12SaravandaGtr.iPad,guitarloot,Saravanda alla Francese,Alessandro Piccinini,6,delcamp-eric-crouch,50,89,39,76,2,2,108.0,3/8,2,32,67,34,0,8.5,45,3,1.0,3,0,0,0,0,0,0,,24,19,119,48,417,40.0
 guitarloot:Scores/ItalianMusic/25Corrente9Arr.iPad,guitarloot,Corrente IX,Alessandro Piccinini,6,delcamp-eric-crouch,52,83,31,69,3,1,120.0,3/4,1,8,24,4,0,6.4,75,2,0.984,3,0,0,0,0,0,0,,19,14,112,61,393,91.5
 guitarloot:Scores/ItalianMusic/Allemanda.iPad,guitarloot,Allemanda,Domenico Pellegrini,5,delcamp-eric-crouch,52,84,32,71,1,1,72.0,2/4,1,16,16,8,0,7.2,9,3,0.964,3,0,0,0,0,0,0,,20,15,66,28,211,46.7
 guitarloot:Scores/ItalianMusic/AriaSVPAv,guitarloot,Aria di Saravanda in Varie Partite,Alessandro Piccinini,6,delcamp-eric-crouch,50,91,41,74.0,2,1,92.0,3/4,1,16,76,18,0,5.9,2,3,1.0,3,0,0,0,0,0,0,,24,17,251,113,729,221.1
 guitarloot:Scores/ItalianMusic/BallettoEGtr.iPad,guitarloot,Balletto,Domenico Pellegrini,5,delcamp-eric-crouch,52,86,34,76.0,4,1,68.0,4/4,1,16,53,28,0,12.2,8,3,1.0,2,7,0,0,0,0,0,,22,19,112,32,391,112.9
-guitarloot:Scores/ItalianMusic/BergAbondGtrV2,guitarloot,Bergamasca,Giulio Abondante,7,delcamp-eric-crouch,52,88,36,73,3,1,,4/4,1,32,28,14,0,12.9,9,3,1.0,3,0,0,0,0,0,0,,24,17,175,48,645,
-guitarloot:Scores/ItalianMusic/CaponaGtrErevAlt,guitarloot,Capona,Johann Hieronymous Kapsberger,8,delcamp-eric-crouch,52,83,31,76.0,4,1,,3/4,1,8,9,17,0,4.0,13,3,0.854,4,0,0,0,0,0,0,,19,16,83,41,169,
-guitarloot:Scores/ItalianMusic/ChiacconaVariateFinal,guitarloot,Chiaccona in Partite Variate,Alessandro Piccinini,6,delcamp-eric-crouch,50,81,31,69,3,1,,3/4,1,16,27,5,0,5.9,0,3,1.0,3,0,0,0,0,0,0,,17,12,76,41,253,
+guitarloot:Scores/ItalianMusic/BergAbondGtrV2,guitarloot,Bergamasca,Giulio Abondante,7,delcamp-eric-crouch,52,88,36,73,3,1,,4/4,1,32,28,14,0,12.9,9,3,1.0,3,0,0,0,0,0,0,,24,17,175,48,645,115.8
+guitarloot:Scores/ItalianMusic/CaponaGtrErevAlt,guitarloot,Capona,Johann Hieronymous Kapsberger,8,delcamp-eric-crouch,52,83,31,76.0,4,1,,3/4,1,8,9,17,0,4.0,13,3,0.854,4,0,0,0,0,0,0,,19,16,83,41,169,58.8
+guitarloot:Scores/ItalianMusic/ChiacconaVariateFinal,guitarloot,Chiaccona in Partite Variate,Alessandro Piccinini,6,delcamp-eric-crouch,50,81,31,69,3,1,,3/4,1,16,27,5,0,5.9,0,3,1.0,3,0,0,0,0,0,0,,17,12,76,41,253,73.8
 guitarloot:Scores/ItalianMusic/CiacconaArr4Gtr.iPad,guitarloot,Title,Johann Hieronymous Kapsberger,8,delcamp-eric-crouch,52,81,29,69.0,3,1,72.0,6/8,1,16,20,22,0,8.0,6,3,1.0,3,0,0,0,0,0,0,,17,12,70,29,246,72.5
 guitarloot:Scores/ItalianMusic/ConcertoRV93.iPad,guitarloot,3. Allegro,Antonio Vivaldi,7,delcamp-eric-crouch,52,86,34,74,2,1,108.0,4/4,2,32,221,0,0,15.5,106,4,1.0,3,0,0,0,0,0,0,,22,17,528,102,1658,226.7
 guitarloot:Scores/ItalianMusic/Corrente.iPad,guitarloot,Corrente,Domenico Pellegrini,5,delcamp-eric-crouch,52,84,32,74,1,1,144.0,3/4,1,16,42,30,0,5.8,17,4,1.0,3,0,0,0,0,0,0,,20,17,125,56,350,70.0
@@ -395,7 +395,7 @@ guitarloot:Scores/LyraViol/1.24.FortuneGtr.iPad,guitarloot,Fortune 1.24,William 
 guitarloot:Scores/LyraViol/2.20.ComplaintsGtrAS,guitarloot,If My Complaints 2.20,William Corkine,8,delcamp-eric-crouch,50,86,36,74,-1,1,68.0,3/4,1,16,44,22,0,9.3,44,3,1.0,3,0,0,0,0,0,0,,22,17,125,48,471,127.1
 guitarloot:Scores/LyraViol/2.21.PreludeGtrAS,guitarloot,Perlude (Prelude) 2.21,William Corkine,8,delcamp-eric-crouch,50,86,36,73.0,2,1,72.0,4/4,1,16,12,12,0,12.5,11,2,1.0,3,0,0,0,0,0,0,,22,17,77,23,323,76.7
 guitarloot:Scores/LyraViol/2.22.ComeLiveGtrArr,guitarloot,Come Live with Me 2.22,William Corkine,8,delcamp-eric-crouch,52,91,39,76.0,1,1,68.0,6/4,1,32,72,16,0,15.9,37,2,1.0,3,0,0,0,0,0,0,,24,19,173,40,703,211.8
-guitarloot:Scores/LyraViol/2.23.PreludeGtr,guitarloot,Perlude (Prelude) 2.23,William Corkine,8,delcamp-eric-crouch,55,81,26,73,-1,1,,4/4,1,16,2,16,0,11.4,7,2,1.0,3,0,0,0,0,0,0,,17,15,15,5,57,
+guitarloot:Scores/LyraViol/2.23.PreludeGtr,guitarloot,Perlude (Prelude) 2.23,William Corkine,8,delcamp-eric-crouch,55,81,26,73,-1,1,,4/4,1,16,2,16,0,11.4,7,2,1.0,3,0,0,0,0,0,0,,17,15,15,5,57,12.3
 guitarloot:Scores/LyraViol/2.25.CorantoGtrAS,guitarloot,Coranto 2.25,William Corkine,8,delcamp-eric-crouch,50,86,36,74.0,2,1,120.0,3/4,1,16,42,16,0,4.1,27,2,1.0,3,0,0,0,0,0,0,,22,17,78,39,173,58.5
 guitarloot:Scores/LyraViol/2.26.MounsierGtrAS,guitarloot,Mounsiers Almaine 2.26,William Corkine,8,delcamp-eric-crouch,50,88,38,74,2,1,84.0,2/2,1,16,46,44,0,10.3,5,2,1.0,3,0,0,0,0,0,0,,24,17,156,56,623,160.0
 guitarloot:Scores/LyraViol/2.27.Coranto.Gtr,guitarloot,Coranto 2.27,William Corkine,8,delcamp-eric-crouch,50,86,36,74,2,1,96.0,3/4,1,16,40,8,0,6.6,7,2,1.0,2,0,0,0,0,0,0,,22,17,48,18,137,33.8
@@ -440,7 +440,7 @@ guitarloot:Scores/Miscellaneous/Fillette1PAGtr,guitarloot,Une Jeune Fillette,Jak
 guitarloot:Scores/Miscellaneous/Fillette2PAGtr,guitarloot,Une Jeune Fillette,Jakub Polak,6,delcamp-eric-crouch,52,84,32,73.0,1,1,68.0,2/4,1,16,27,34,0,7.4,134,3,0.993,3,0,0,0,0,0,0,,20,15,276,145,1102,255.9
 guitarloot:Scores/Miscellaneous/Galliard1ArrAS,guitarloot,Galliard 1,Jakub Polak,6,delcamp-eric-crouch,52,92,40,75.0,4,1,68.0,3/4,1,16,37,6,0,10.2,5,3,1.0,3,0,0,0,0,0,0,,24,19,91,38,403,100.6
 guitarloot:Scores/Miscellaneous/Galliard2Gtr,guitarloot,Galliard 2,Jakub Polak,6,delcamp-eric-crouch,50,86,36,71,2,1,68.0,3/4,1,16,23,0,0,9.9,3,3,1.0,3,0,0,0,0,0,0,,22,17,45,18,186,47.6
-guitarloot:Scores/Miscellaneous/Galliard3AGtr.iPad,guitarloot,Galliard 3,Jacob Polak,6,delcamp-eric-crouch,52,88,36,69,3,1,,3/4,1,32,56,34,0,11.3,12,3,1.0,4,0,0,0,0,0,0,,24,16,110,48,580,
+guitarloot:Scores/Miscellaneous/Galliard3AGtr.iPad,guitarloot,Galliard 3,Jacob Polak,6,delcamp-eric-crouch,52,88,36,69,3,1,,3/4,1,32,56,34,0,11.3,12,3,1.0,4,0,0,0,0,0,0,,24,16,110,48,580,89.4
 guitarloot:Scores/Miscellaneous/GrayGtr,guitarloot,Gray's Inn the First,John Coprario,8,delcamp-eric-crouch,52,90,38,71,1,1,92.0,4/4,1,16,21,0,0,7.6,12,3,1.0,2,0,0,0,0,0,0,,24,20,73,36,276,93.9
 guitarloot:Scores/Miscellaneous/Preludium1,guitarloot,Preludium 1,Jakub Polak,6,delcamp-eric-crouch,50,81,31,67.0,2,1,64.0,2/4,2,16,8,16,0,8.8,2,3,1.0,4,0,0,0,0,0,0,,17,14,53,24,216,45.0
 guitarloot:Scores/Miscellaneous/Preludium3Gtr,guitarloot,Preludium 3,Jakub Polak,6,delcamp-eric-crouch,52,86,34,73.0,3,1,64.0,2/2,1,16,14,20,0,16.5,31,3,1.0,3,0,0,0,0,0,0,,22,17,68,17,294,63.8
@@ -452,7 +452,7 @@ guitarloot:Scores/OtherMusic/10AirGtr,guitarloot,Air,Henry Purcell,7,delcamp-eri
 guitarloot:Scores/OtherMusic/174IrishDumpGtr,guitarloot,The Irish Dumpe,Anon,7,delcamp-eric-crouch,50,86,36,73.0,2,1,96.0,3/4,1,16,46,0,0,7.8,6,3,1.0,4,0,0,0,0,0,0,,22,15,64,25,201,46.9
 guitarloot:Scores/OtherMusic/41.CorantGtr,guitarloot,Corant,Henry Purcell,7,delcamp-eric-crouch,50,84,34,69.0,1,1,80.0,3/4,1,16,99,46,0,7.8,11,3,1.0,3,13,0,0,0,0,0,,20,14,80,38,326,85.5
 guitarloot:Scores/OtherMusic/42.AlmandGtr,guitarloot,Almand,Henry Purcell,7,delcamp-eric-crouch,50,84,34,69.0,1,1,80.0,2/2,1,16,15,10,0,10.7,2,2,0.929,3,4,0,0,0,0,0,,20,14,48,14,172,42.0
-guitarloot:Scores/OtherMusic/AireDminGtr,guitarloot,Aire in D minor,Henry Purcell,7,delcamp-eric-crouch,50,82,32,72,-1,1,,4/4,1,16,11,2,0,14.5,9,2,1.0,3,14,0,0,0,0,0,,18,15,47,14,209,
+guitarloot:Scores/OtherMusic/AireDminGtr,guitarloot,Aire in D minor,Henry Purcell,7,delcamp-eric-crouch,50,82,32,72,-1,1,,4/4,1,16,11,2,0,14.5,9,2,1.0,3,14,0,0,0,0,0,,18,15,47,14,209,33.6
 guitarloot:Scores/OtherMusic/ChaconneBDGtrAS,guitarloot,Chaconne,Joseph Bodin de Boismortier,7,delcamp-eric-crouch,50,83,33,74.0,2,2,76.0,3/4,1,16,29,8,20,8.9,17,2,1.0,3,0,0,0,5,0,0,,19,15,381,117,1064,277.1
 guitarloot:Scores/OtherMusic/Dido2GtrD,guitarloot,Dido's Lament,Henry Purcell,7,delcamp-eric-crouch,50,86,36,73.0,-1,1,54.0,3/4,1,16,39,4,0,8.3,43,4,0.896,4,0,1,0,0,0,0,,22,17,111,48,398,160.0
 guitarloot:Scores/OtherMusic/GroundGamutGtrAS,guitarloot,A Ground in Gamut,Henry Purcell,7,delcamp-eric-crouch,50,86,36,69.0,1,1,80.0,3/4,1,16,148,4,0,7.3,12,3,1.0,3,10,0,0,1,0,0,,22,15,148,64,551,144.0
@@ -469,29 +469,29 @@ guitarloot:Scores/ScotsMusic/CanarioBalcarresAS,guitarloot,"The Canaries, the ol
 guitarloot:Scores/ScotsMusic/HelenD.iPad,guitarloot,I wish I were where Helen Lies,David Grieve,6,delcamp-eric-crouch,50,85,35,69.0,2,1,72.0,4/4,1,16,60,0,0,7.8,0,3,0.97,2,0,0,0,0,0,0,,21,14,69,33,260,110.0
 guitarloot:Scores/ScotsMusic/JeanMoreBalcarresAS,guitarloot,"Minuet Jean More, Mr Beck's Way",Balcarres Lute Book,6,delcamp-eric-crouch,50,86,36,74,2,1,104.0,3/4,1,16,27,8,0,6.1,0,3,1.0,3,0,0,0,3,0,0,,22,15,52,24,147,41.5
 guitarloot:Scores/ScotsMusic/TweedsydeGtrD,guitarloot,Tweedsyde,'Mr Beck' - Balcarrers Lute Book,6,delcamp-eric-crouch,50,88,38,74.0,2,1,120.0,3/4,1,16,116,12,0,5.6,0,3,1.0,3,8,4,0,0,0,0,,24,17,311,121,673,181.5
-guitarloot:Scores/SpanishMusic/Payssanos2.iPad,guitarloot,Payssanos,Santiago de Murcia,7,delcamp-eric-crouch,52,88,36,74,0,1,,6/8,1,16,107,28,0,7.7,9,3,1.0,3,0,0,0,0,0,0,,24,20,107,32,252,
+guitarloot:Scores/SpanishMusic/Payssanos2.iPad,guitarloot,Payssanos,Santiago de Murcia,7,delcamp-eric-crouch,52,88,36,74,0,1,,6/8,1,16,107,28,0,7.7,9,3,1.0,3,0,0,0,0,0,0,,24,20,107,32,252,55.8
 guitarloot:Scores/Trios/SuiteV.Eminor.Marais.Gtrs,guitarloot,Suite in E minor,Marin Marais,,,52,84,32,63.0,1,1,68.0,2/2,2,32,89,4,12,3.0,56,0,0.0,1,0,0,0,0,0,0,,20,7,132,308,947,1087.1
 mutopia:ftp/AguadoD/O11/aguado-op11n01/aguado-op11n01#movement01,mutopia,Les Favorites,D. Aguado,,,40,74,34,61.0,2,2,74.0,2/4,1,32,17,6,0,6.0,17,3,1.0,3,0,0,0,1,0,0,,10,4,46,57,418,92.4
-mutopia:ftp/AguadoD/O11/aguado-op11n02/aguado-op11n02#movement01,mutopia,Les Favorites,D. Aguado,,,45,74,29,62.0,3,2,,2/4,1,16,12,2,0,4.4,6,3,0.979,3,0,0,0,8,0,0,,10,5,26,48,239,
-mutopia:ftp/AguadoD/O11/aguado-op11n03/aguado-op11n03#movement01,mutopia,Les Favorites,D. Aguado,,,40,76,36,59,2,2,,2/4,1,16,7,4,0,6.7,35,3,1.0,3,0,0,0,12,0,0,,12,5,52,50,389,
-mutopia:ftp/AguadoD/O11/aguado-op11n04/aguado-op11n04#movement01,mutopia,Les Favorites,D. Aguado,,,40,74,34,59,2,2,,2/4,1,16,2,4,24,4.5,11,3,1.0,3,0,0,0,0,0,0,,10,5,25,59,300,
-mutopia:ftp/AguadoD/O11/aguado-op11n05/aguado-op11n05#movement01,mutopia,Les Favorites,D. Aguado,,,40,71,31,60,0,2,,2/4,1,16,9,14,0,3.9,18,3,1.0,3,0,0,0,4,0,0,,7,3,6,65,284,
-mutopia:ftp/AguadoD/O11/aguado-op11n06/aguado-op11n06#movement01,mutopia,Les Favorites,D. Aguado,,,42,76,34,59.0,2,2,,2/4,1,16,4,6,0,5.8,14,2,0.958,2,0,0,0,0,0,0,,12,5,24,48,325,
-mutopia:ftp/AguadoD/O11/aguado-op11n07/aguado-op11n07#movement01,mutopia,Les Favorites,D. Aguado,,,50,74,24,66,1,2,,2/4,1,16,0,0,8,4.8,23,3,1.0,3,0,0,0,22,0,0,,10,7,26,59,306,
-mutopia:ftp/AguadoD/O11/aguado-op11n08/aguado-op11n08#movement01,mutopia,Les Favorites,D. Aguado,,,42,72,30,62.0,1,2,,2/4,1,32,16,16,0,5.6,13,3,1.0,3,0,0,0,0,0,0,,8,5,25,57,363,
-mutopia:ftp/AguadoD/O11/aguado-op11n09/aguado-op11n09#movement01,mutopia,Les Favorites,D. Aguado,,,40,76,36,58,2,2,,2/4,1,16,7,0,0,5.8,50,2,0.983,3,0,0,0,4,0,0,,12,5,45,58,384,
+mutopia:ftp/AguadoD/O11/aguado-op11n02/aguado-op11n02#movement01,mutopia,Les Favorites,D. Aguado,,,45,74,29,62.0,3,2,,2/4,1,16,12,2,0,4.4,6,3,0.979,3,0,0,0,8,0,0,,10,5,26,48,239,58.8
+mutopia:ftp/AguadoD/O11/aguado-op11n03/aguado-op11n03#movement01,mutopia,Les Favorites,D. Aguado,,,40,76,36,59,2,2,,2/4,1,16,7,4,0,6.7,35,3,1.0,3,0,0,0,12,0,0,,12,5,52,50,389,62.4
+mutopia:ftp/AguadoD/O11/aguado-op11n04/aguado-op11n04#movement01,mutopia,Les Favorites,D. Aguado,,,40,74,34,59,2,2,,2/4,1,16,2,4,24,4.5,11,3,1.0,3,0,0,0,0,0,0,,10,5,25,59,300,61.2
+mutopia:ftp/AguadoD/O11/aguado-op11n05/aguado-op11n05#movement01,mutopia,Les Favorites,D. Aguado,,,40,71,31,60,0,2,,2/4,1,16,9,14,0,3.9,18,3,1.0,3,0,0,0,4,0,0,,7,3,6,65,284,78.0
+mutopia:ftp/AguadoD/O11/aguado-op11n06/aguado-op11n06#movement01,mutopia,Les Favorites,D. Aguado,,,42,76,34,59.0,2,2,,2/4,1,16,4,6,0,5.8,14,2,0.958,2,0,0,0,0,0,0,,12,5,24,48,325,63.0
+mutopia:ftp/AguadoD/O11/aguado-op11n07/aguado-op11n07#movement01,mutopia,Les Favorites,D. Aguado,,,50,74,24,66,1,2,,2/4,1,16,0,0,8,4.8,23,3,1.0,3,0,0,0,22,0,0,,10,7,26,59,306,67.2
+mutopia:ftp/AguadoD/O11/aguado-op11n08/aguado-op11n08#movement01,mutopia,Les Favorites,D. Aguado,,,42,72,30,62.0,1,2,,2/4,1,32,16,16,0,5.6,13,3,1.0,3,0,0,0,0,0,0,,8,5,25,57,363,69.6
+mutopia:ftp/AguadoD/O11/aguado-op11n09/aguado-op11n09#movement01,mutopia,Les Favorites,D. Aguado,,,40,76,36,58,2,2,,2/4,1,16,7,0,0,5.8,50,2,0.983,3,0,0,0,4,0,0,,12,5,45,58,384,72.9
 mutopia:ftp/AguadoD/O11/aguado-op11n10/aguado-op11n10#movement01,mutopia,Les Favorites,D. Aguado,,,40,73,33,56.0,4,1,74.0,2/4,1,16,12,0,0,3.5,23,3,1.0,3,0,0,0,6,0,0,,9,4,25,57,252,92.4
-mutopia:ftp/AguadoD/O3/aguado-op03n01/aguado-op03n01#movement01,mutopia,8 Petites Pièces,D. Aguado,,,40,72,32,59,0,2,,3/8,1,32,37,2,0,6.1,23,2,1.0,3,0,0,0,5,0,0,,8,3,8,48,318,
-mutopia:ftp/AguadoD/O3/aguado-op03n02/aguado-op03n02#movement01,mutopia,8 Petites Pièces,D. Aguado,,,40,74,34,61,0,2,,3/8,1,32,66,0,12,5.6,29,3,1.0,3,0,0,0,9,0,0,,10,5,55,57,351,
-mutopia:ftp/AguadoD/O3/aguado-op03n03/aguado-op03n03#movement01,mutopia,8 Petites Pièces,D. Aguado,,,40,78,38,63,3,1,,3/8,1,32,20,2,0,5.5,9,2,1.0,3,0,0,0,7,0,0,,14,9,43,35,212,
-mutopia:ftp/AguadoD/O3/aguado-op03n04/aguado-op03n04#movement01,mutopia,8 Petites Pièces,D. Aguado,,,39,72,33,55,1,1,,3/8,1,32,57,0,8,7.6,27,2,1.0,3,0,0,0,6,0,0,,8,4,31,45,398,
-mutopia:ftp/AguadoD/O3/aguado-op03n05/aguado-op03n05#movement01,mutopia,8 Petites Pièces,D. Aguado,,,39,98,59,60,0,2,,3/8,1,32,80,4,0,7.6,51,3,0.98,3,0,0,0,24,0,0,,24,19,76,49,423,
-mutopia:ftp/AguadoD/O3/aguado-op03n07/aguado-op03n07#movement01,mutopia,8 Petites Pièces,D. Aguado,,,40,75,35,60.0,-3,1,,3/8,1,32,44,0,0,6.4,53,4,1.0,3,0,0,0,5,0,0,,11,4,22,59,408,
-mutopia:ftp/AguadoD/O3/aguado-op03n08/aguado-op03n08#movement01,mutopia,8 Petites Pièces,D. Aguado,,,40,78,38,63,4,2,,3/8,1,32,16,0,2,8.0,19,3,1.0,3,0,0,0,0,0,0,,14,7,53,33,296,
-mutopia:ftp/AguadoD/O4/AguadoOp4No1/AguadoOp4No1#movement01,mutopia,"Six Petites Pièces, No. 1",Dionisio Aguado,,,40,72,32,61,,0,,3/4,1,64,12,2,8,9.3,13,3,1.0,2,0,0,0,8,0,0,,8,3,9,16,160,
-mutopia:ftp/AguadoD/O4/AguadoOp4No1/AguadoOp4No1#movement02,mutopia,"Six Petites Pièces, No. 1",Dionisio Aguado,,,47,77,30,64,,0,,3/8,1,32,17,0,0,4.3,14,3,1.0,3,0,0,0,4,0,0,,13,7,12,41,180,
-mutopia:ftp/AguadoD/O4/AguadoOp4No2/AguadoOp4No2#movement01,mutopia,"Six Petites Pièces, No. 2",Dionisio Aguado,,,38,74,36,62.0,-1,1,,3/4,1,16,3,0,0,10.4,29,2,1.0,3,0,0,0,2,0,0,,10,8,13,17,185,
-mutopia:ftp/AguadoD/O4/AguadoOp4No2/AguadoOp4No2#movement02,mutopia,"Six Petites Pièces, No. 2",Dionisio Aguado,,,38,74,36,61.5,-1,2,,3/8,1,32,38,0,10,6.6,25,3,1.0,3,0,0,0,3,0,0,,10,5,24,34,250,
+mutopia:ftp/AguadoD/O3/aguado-op03n01/aguado-op03n01#movement01,mutopia,8 Petites Pièces,D. Aguado,,,40,72,32,59,0,2,,3/8,1,32,37,2,0,6.1,23,2,1.0,3,0,0,0,5,0,0,,8,3,8,48,318,38.7
+mutopia:ftp/AguadoD/O3/aguado-op03n02/aguado-op03n02#movement01,mutopia,8 Petites Pièces,D. Aguado,,,40,74,34,61,0,2,,3/8,1,32,66,0,12,5.6,29,3,1.0,3,0,0,0,9,0,0,,10,5,55,57,351,51.6
+mutopia:ftp/AguadoD/O3/aguado-op03n03/aguado-op03n03#movement01,mutopia,8 Petites Pièces,D. Aguado,,,40,78,38,63,3,1,,3/8,1,32,20,2,0,5.5,9,2,1.0,3,0,0,0,7,0,0,,14,9,43,35,212,31.2
+mutopia:ftp/AguadoD/O3/aguado-op03n04/aguado-op03n04#movement01,mutopia,8 Petites Pièces,D. Aguado,,,39,72,33,55,1,1,,3/8,1,32,57,0,8,7.6,27,2,1.0,3,0,0,0,6,0,0,,8,4,31,45,398,41.5
+mutopia:ftp/AguadoD/O3/aguado-op03n05/aguado-op03n05#movement01,mutopia,8 Petites Pièces,D. Aguado,,,39,98,59,60,0,2,,3/8,1,32,80,4,0,7.6,51,3,0.98,3,0,0,0,24,0,0,,24,19,76,49,423,46.8
+mutopia:ftp/AguadoD/O3/aguado-op03n07/aguado-op03n07#movement01,mutopia,8 Petites Pièces,D. Aguado,,,40,75,35,60.0,-3,1,,3/8,1,32,44,0,0,6.4,53,4,1.0,3,0,0,0,5,0,0,,11,4,22,59,408,59.7
+mutopia:ftp/AguadoD/O3/aguado-op03n08/aguado-op03n08#movement01,mutopia,8 Petites Pièces,D. Aguado,,,40,78,38,63,4,2,,3/8,1,32,16,0,2,8.0,19,3,1.0,3,0,0,0,0,0,0,,14,7,53,33,296,32.7
+mutopia:ftp/AguadoD/O4/AguadoOp4No1/AguadoOp4No1#movement01,mutopia,"Six Petites Pièces, No. 1",Dionisio Aguado,,,40,72,32,61,,0,,3/4,1,64,12,2,8,9.3,13,3,1.0,2,0,0,0,8,0,0,,8,3,9,16,160,28.8
+mutopia:ftp/AguadoD/O4/AguadoOp4No1/AguadoOp4No1#movement02,mutopia,"Six Petites Pièces, No. 1",Dionisio Aguado,,,47,77,30,64,,0,,3/8,1,32,17,0,0,4.3,14,3,1.0,3,0,0,0,4,0,0,,13,7,12,41,180,36.0
+mutopia:ftp/AguadoD/O4/AguadoOp4No2/AguadoOp4No2#movement01,mutopia,"Six Petites Pièces, No. 2",Dionisio Aguado,,,38,74,36,62.0,-1,1,,3/4,1,16,3,0,0,10.4,29,2,1.0,3,0,0,0,2,0,0,,10,8,13,17,185,30.6
+mutopia:ftp/AguadoD/O4/AguadoOp4No2/AguadoOp4No2#movement02,mutopia,"Six Petites Pièces, No. 2",Dionisio Aguado,,,38,74,36,61.5,-1,2,,3/8,1,32,38,0,10,6.6,25,3,1.0,3,0,0,0,3,0,0,,10,5,24,34,250,33.6
 mutopia:ftp/AguadoD/O4/AguadoOp4No3/AguadoOp4No3#movement03,mutopia,Six Petites Pièces,Dionisio Aguado,,,40,74,34,62.0,3,1,100.0,3/4,1,16,16,0,2,4.6,23,3,1.0,2,0,0,0,3,0,0,,10,7,24,45,241,81.0
 mutopia:ftp/AguadoD/O4/AguadoOp4No3/AguadoOp4No3#movement04,mutopia,Six Petites Pièces,Dionisio Aguado,,,40,78,38,61.0,3,1,100.0,3/8,1,32,39,0,0,3.1,7,2,0.877,2,0,0,0,2,0,0,,14,5,22,65,215,58.5
 mutopia:ftp/AguadoD/O4/AguadoOp4No4/AguadoOp4No4#movement03,mutopia,"Six Petites Pièces, No. 4",Dionisio Aguado,,,40,69,29,57.0,3,1,100.0,3/4,1,16,9,4,0,4.1,6,2,1.0,2,0,0,0,1,0,0,,5,4,9,33,149,59.4
@@ -499,307 +499,307 @@ mutopia:ftp/AguadoD/O4/AguadoOp4No4/AguadoOp4No4#movement04,mutopia,"Six Petites
 mutopia:ftp/AguadoD/O4/AguadoOp4No5/AguadoOp4No5#movement03,mutopia,Six Petites Pièces,Dionisio Aguado,,,43,67,24,55.5,,0,100.0,4/4,1,16,4,0,0,4.5,4,3,0.75,2,0,0,0,0,0,0,,4,3,2,12,61,28.8
 mutopia:ftp/AguadoD/O4/AguadoOp4No5/AguadoOp4No5#movement04,mutopia,Six Petites Pièces,Dionisio Aguado,,,41,74,33,59,1,2,100.0,4/4,2,32,23,5,0,3.1,29,3,0.97,2,0,0,0,1,0,0,,10,4,13,66,217,158.4
 mutopia:ftp/AguadoD/O4/AguadoOp4No6/AguadoOp4No6#movement02,mutopia,"Six Petites Pièces, No. 6",Dionisio Aguado,,,42,79,37,62.0,1,1,100.0,3/8,1,32,24,2,85,3.1,24,3,0.984,2,0,0,0,7,0,0,,15,7,42,128,451,115.2
-mutopia:ftp/AguadoD/aminor-study/aminor-study#movement01,mutopia,Study in A Minor,Dionisio Aguado,,,40,65,25,59,0,1,,4/4,1,16,0,0,0,18.6,22,0,1.0,2,0,0,0,0,0,0,,3,3,0,16,302,
-mutopia:ftp/AguadoD/g-major-allegro/g-major-allegro#movement01,mutopia,Allegro,D. Aguado,,,42,76,34,62.0,1,2,,2/4,1,16,15,2,4,7.0,27,2,1.0,3,0,0,0,18,0,0,,12,7,35,52,412,
-mutopia:ftp/Anonymous/spanish-romance/spanish-romance#movement01,mutopia,Spanish Romance,Anonymous,,,52,88,36,76.0,1,2,,3/4,1,8,28,0,176,8.5,23,0,0.0,1,0,0,0,0,0,0,,24,21,256,46,394,
-mutopia:ftp/BachJS/BWV1006a/bwv-1006a_1g/bwv-1006a_1g#movement01,mutopia,Suite E-Dur - BWV 1006a,Johann Sebastian Bach,,,56,88,32,75,4,1,,3/4,1,32,2,0,0,9.2,140,2,0.34,2,0,1,0,0,0,0,,24,17,506,141,1335,
-mutopia:ftp/BachJS/BWV1006a/bwv-1006a_2g/bwv-1006a_2g#movement01,mutopia,Suite E-Dur - BWV 1006a,Johann Sebastian Bach,,,59,85,26,78.0,4,1,,6/4,1,32,40,0,4,8.4,24,2,0.88,3,1,8,0,0,0,0,,21,18,39,25,213,
-mutopia:ftp/BachJS/BWV1006a/bwv-1006a_3g/bwv-1006a_3g#movement01,mutopia,Suite E-Dur - BWV 1006a,Johann Sebastian Bach,,,52,86,34,73,4,1,,4/4,1,16,4,0,4,8.2,64,3,1.0,2,0,1,0,0,0,0,,22,16,324,104,957,
-mutopia:ftp/BachJS/BWV1006a/bwv-1006a_4g/bwv-1006a_4g#movement01,mutopia,Suite E-Dur - BWV 1006a,Johann Sebastian Bach,,,52,83,31,73,4,1,,3/4,1,16,8,0,0,6.7,9,4,1.0,2,0,1,0,0,0,0,,19,16,69,35,277,
-mutopia:ftp/BachJS/BWV1006a/bwv-1006a_5g/bwv-1006a_5g#movement01,mutopia,Suite E-Dur - Suite BWV 1006a,Johann Sebastian Bach,,,52,83,31,71.0,4,1,,3/4,1,16,4,0,0,7.5,13,3,1.0,3,0,0,0,0,0,0,,19,16,95,33,257,
-mutopia:ftp/BachJS/BWV1006a/bwv-1006a_6g/bwv-1006a_6g#movement01,mutopia,Suite E-Dur - Suite BWV 1006a,Johann Sebastian Bach,,,52,83,31,73.0,4,1,,4/4,1,8,4,0,0,9.6,23,2,1.0,2,0,0,0,0,0,0,,19,16,143,37,408,
-mutopia:ftp/BachJS/BWV1006a/bwv-1006a_7g/bwv-1006a_7g#movement01,mutopia,Suite E-Dur - Suite BWV 1006a,Johann Sebastian Bach,,,52,83,31,71,4,1,,6/8,1,16,4,0,0,13.1,23,3,1.0,2,0,0,0,0,0,0,,19,16,147,33,487,
+mutopia:ftp/AguadoD/aminor-study/aminor-study#movement01,mutopia,Study in A Minor,Dionisio Aguado,,,40,65,25,59,0,1,,4/4,1,16,0,0,0,18.6,22,0,1.0,2,0,0,0,0,0,0,,3,3,0,16,302,38.4
+mutopia:ftp/AguadoD/g-major-allegro/g-major-allegro#movement01,mutopia,Allegro,D. Aguado,,,42,76,34,62.0,1,2,,2/4,1,16,15,2,4,7.0,27,2,1.0,3,0,0,0,18,0,0,,12,7,35,52,412,62.4
+mutopia:ftp/Anonymous/spanish-romance/spanish-romance#movement01,mutopia,Spanish Romance,Anonymous,,,52,88,36,76.0,1,2,,3/4,1,8,28,0,176,8.5,23,0,0.0,1,0,0,0,0,0,0,,24,21,256,46,394,229.2
+mutopia:ftp/BachJS/BWV1006a/bwv-1006a_1g/bwv-1006a_1g#movement01,mutopia,Suite E-Dur - BWV 1006a,Johann Sebastian Bach,,,56,88,32,75,4,1,,3/4,1,32,2,0,0,9.2,140,2,0.34,2,0,1,0,0,0,0,,24,17,506,141,1335,282.3
+mutopia:ftp/BachJS/BWV1006a/bwv-1006a_2g/bwv-1006a_2g#movement01,mutopia,Suite E-Dur - BWV 1006a,Johann Sebastian Bach,,,59,85,26,78.0,4,1,,6/4,1,32,40,0,4,8.4,24,2,0.88,3,1,8,0,0,0,0,,21,18,39,25,213,106.1
+mutopia:ftp/BachJS/BWV1006a/bwv-1006a_3g/bwv-1006a_3g#movement01,mutopia,Suite E-Dur - BWV 1006a,Johann Sebastian Bach,,,52,86,34,73,4,1,,4/4,1,16,4,0,4,8.2,64,3,1.0,2,0,1,0,0,0,0,,22,16,324,104,957,244.8
+mutopia:ftp/BachJS/BWV1006a/bwv-1006a_4g/bwv-1006a_4g#movement01,mutopia,Suite E-Dur - BWV 1006a,Johann Sebastian Bach,,,52,83,31,73,4,1,,3/4,1,16,8,0,0,6.7,9,4,1.0,2,0,1,0,0,0,0,,19,16,69,35,277,62.1
+mutopia:ftp/BachJS/BWV1006a/bwv-1006a_5g/bwv-1006a_5g#movement01,mutopia,Suite E-Dur - Suite BWV 1006a,Johann Sebastian Bach,,,52,83,31,71.0,4,1,,3/4,1,16,4,0,0,7.5,13,3,1.0,3,0,0,0,0,0,0,,19,16,95,33,257,73.8
+mutopia:ftp/BachJS/BWV1006a/bwv-1006a_6g/bwv-1006a_6g#movement01,mutopia,Suite E-Dur - Suite BWV 1006a,Johann Sebastian Bach,,,52,83,31,73.0,4,1,,4/4,1,8,4,0,0,9.6,23,2,1.0,2,0,0,0,0,0,0,,19,16,143,37,408,88.2
+mutopia:ftp/BachJS/BWV1006a/bwv-1006a_7g/bwv-1006a_7g#movement01,mutopia,Suite E-Dur - Suite BWV 1006a,Johann Sebastian Bach,,,52,83,31,71,4,1,,6/8,1,16,4,0,0,13.1,23,3,1.0,2,0,0,0,0,0,0,,19,16,147,33,487,58.5
 mutopia:ftp/BachJS/BWV997/bwv997-01prelude/bwv997-01prelude#movement01,mutopia,Suite in C Minor for Lute (trans. to A minor),Johann Sebastian Bach,,,52,89,37,70.0,0,1,60.0,4/4,1,16,0,0,0,8.6,181,3,0.548,1,0,4,0,0,0,0,,24,15,228,115,1050,460.0
 mutopia:ftp/BachJS/BWV997/bwv997-02fuga/bwv997-02fuga#movement01,mutopia,Suite in C Minor for Lute (trans. to A minor),Johann Sebastian Bach,,,52,77,25,62.0,0,1,100.0,6/8,1,16,41,0,0,4.8,85,0,0.008,3,0,0,0,0,0,0,,13,5,84,125,665,225.0
 mutopia:ftp/BachJS/BWV997/bwv997-03sarabande/bwv997-03sarabande#movement01,mutopia,Suite in C Minor for Lute (trans. to A minor),Johann Sebastian Bach,,,52,84,32,70,0,1,45.0,3/4,1,32,17,0,0,4.6,66,3,0.933,1,0,0,0,0,0,0,,20,15,62,105,514,420.0
 mutopia:ftp/BachJS/BWV997/bwv997-04gigue/bwv997-04gigue#movement01,mutopia,Suite in C Minor for Lute (trans. to A minor),Johann Sebastian Bach,,,52,84,32,72,0,1,80.0,6/8,1,32,29,0,0,4.8,75,0,0.01,2,1,4,0,19,0,0,,20,16,98,98,520,220.5
 mutopia:ftp/BachJS/BWV997/bwv997-05double/bwv997-05double#movement01,mutopia,Suite in C Minor for Lute (trans. to A minor),Johann Sebastian Bach,,,52,86,34,70.0,0,1,80.0,6/8,1,16,9,0,0,6.9,99,0,0.01,2,1,0,0,0,0,0,,22,14,132,96,763,216.0
 mutopia:ftp/BachJS/BWV999/Bach_Prelude_BWV999/Bach_Prelude_BWV999#movement01,mutopia,Prelude,J.S. Bach,,,40,74,34,59,-1,1,80.0,3/4,1,16,0,0,0,5.8,152,3,0.523,1,0,0,0,0,0,0,,10,3,30,88,680,198.0
-mutopia:ftp/BrahmsJ/O39/brahms-vals3/brahms-vals3#movement01,mutopia,Vals no. 3,J. Brahms,,,40,76,36,60,,0,,3/4,1,8,17,0,0,7.7,2,3,1.0,2,0,0,0,0,0,0,,12,5,21,20,165,
+mutopia:ftp/BrahmsJ/O39/brahms-vals3/brahms-vals3#movement01,mutopia,Vals no. 3,J. Brahms,,,40,76,36,60,,0,,3/4,1,8,17,0,0,7.7,2,3,1.0,2,0,0,0,0,0,0,,12,5,21,20,165,34.2
 mutopia:ftp/BrahmsJ/O39/brahms-vals3/brahms-vals3#movement02,mutopia,Vals no. 3,J. Brahms,,,40,76,36,60,,0,120.0,3/4,1,8,17,0,0,3.8,2,3,0.825,1,0,0,0,0,0,0,,12,5,18,40,165,60.0
-mutopia:ftp/BrahmsJ/O39/brahms-vals9/brahms-vals9#movement01,mutopia,Vals no. 9,J. Brahms,,,40,76,36,59.0,1,1,,3/4,1,4,1,8,0,4.9,24,4,1.0,2,0,0,0,0,0,0,,12,5,26,30,191,
+mutopia:ftp/BrahmsJ/O39/brahms-vals9/brahms-vals9#movement01,mutopia,Vals no. 9,J. Brahms,,,40,76,36,59.0,1,1,,3/4,1,4,1,8,0,4.9,24,4,1.0,2,0,0,0,0,0,0,,12,5,26,30,191,54.6
 mutopia:ftp/BrahmsJ/O39/brahms-vals9/brahms-vals9#movement02,mutopia,Vals no. 9,J. Brahms,,,40,76,36,59.0,1,1,136.0,3/4,1,4,1,8,0,2.5,24,4,0.867,1,0,0,0,0,0,0,,12,5,23,60,191,79.4
-mutopia:ftp/CarcassiM/O26/carcassi-op26-01/carcassi-op26-01#movement01,mutopia,Six Caprices,Mateo Carcassi,,,40,72,32,55.0,0,1,,3/4,1,16,12,0,0,13.5,37,4,1.0,3,0,0,0,0,0,0,,8,3,15,53,719,
-mutopia:ftp/CarcassiM/O26/carcassi-op26-03/carcassi-op26-03#movement01,mutopia,Six Caprices,Mateo Carcassi,,,40,79,39,55,1,1,,12/8,1,8,14,0,0,13.8,20,0,0.944,2,0,0,0,0,0,0,,15,3,14,36,498,
-mutopia:ftp/CarcassiM/O26/carcassi-op26-04/carcassi-op26-04#movement01,mutopia,Six Caprices,Mateo Carcassi,,,40,76,36,55.0,0,1,,6/8,1,16,89,0,0,15.0,143,4,1.0,2,0,0,0,0,0,0,,12,3,53,82,1238,
-mutopia:ftp/CarcassiM/O26/carcassi-op26-05/carcassi-op26-05#movement01,mutopia,Six Caprices,Mateo Carcassi,,,40,76,36,61.0,2,1,,4/4,1,16,3,0,0,20.4,49,3,1.0,2,0,0,0,0,0,0,,12,4,146,58,1191,
-mutopia:ftp/CarcassiM/O26/carcassi-op26-06/carcassi-op26-06#movement01,mutopia,Caprice No. 6,Mateo Carcassi,,,40,69,29,57,3,1,,4/4,1,16,0,0,0,19.2,45,4,1.0,2,0,0,0,0,0,0,,5,4,69,58,1114,
+mutopia:ftp/CarcassiM/O26/carcassi-op26-01/carcassi-op26-01#movement01,mutopia,Six Caprices,Mateo Carcassi,,,40,72,32,55.0,0,1,,3/4,1,16,12,0,0,13.5,37,4,1.0,3,0,0,0,0,0,0,,8,3,15,53,719,96.3
+mutopia:ftp/CarcassiM/O26/carcassi-op26-03/carcassi-op26-03#movement01,mutopia,Six Caprices,Mateo Carcassi,,,40,79,39,55,1,1,,12/8,1,8,14,0,0,13.8,20,0,0.944,2,0,0,0,0,0,0,,15,3,14,36,498,171.0
+mutopia:ftp/CarcassiM/O26/carcassi-op26-04/carcassi-op26-04#movement01,mutopia,Six Caprices,Mateo Carcassi,,,40,76,36,55.0,0,1,,6/8,1,16,89,0,0,15.0,143,4,1.0,2,0,0,0,0,0,0,,12,3,53,82,1238,147.0
+mutopia:ftp/CarcassiM/O26/carcassi-op26-05/carcassi-op26-05#movement01,mutopia,Six Caprices,Mateo Carcassi,,,40,76,36,61.0,2,1,,4/4,1,16,3,0,0,20.4,49,3,1.0,2,0,0,0,0,0,0,,12,4,146,58,1191,141.6
+mutopia:ftp/CarcassiM/O26/carcassi-op26-06/carcassi-op26-06#movement01,mutopia,Caprice No. 6,Mateo Carcassi,,,40,69,29,57,3,1,,4/4,1,16,0,0,0,19.2,45,4,1.0,2,0,0,0,0,0,0,,5,4,69,58,1114,138.9
 mutopia:ftp/CarcassiM/O60/carcassi-op60-01/carcassi-op60-01#movement02,mutopia,Etude 1,Matteo Carcassi,,,52,84,32,69.0,,0,160.0,4/4,1,8,0,0,0,2.7,23,3,0.341,1,0,0,0,0,0,0,,20,14,78,129,404,193.5
-mutopia:ftp/CarcassiM/O60/carcassi-op60-02/carcassi-op60-02#movement01,mutopia,Etude 2,Mateo Carcassi,,,40,77,37,64.0,,0,,4/4,1,16,0,0,0,17.2,58,0,1.0,2,0,0,0,0,0,0,,13,7,35,24,416,
+mutopia:ftp/CarcassiM/O60/carcassi-op60-02/carcassi-op60-02#movement01,mutopia,Etude 2,Mateo Carcassi,,,40,77,37,64.0,,0,,4/4,1,16,0,0,0,17.2,58,0,1.0,2,0,0,0,0,0,0,,13,7,35,24,416,58.8
 mutopia:ftp/CarcassiM/O60/carcassi-op60-03/carcassi-op60-03#movement02,mutopia,Etude 3,Matteo Carcassi,,,52,86,34,73,3,1,60.0,4/4,1,8,17,0,8,3.5,30,0,0.0,1,0,0,0,0,0,0,,22,17,202,106,370,424.0
-mutopia:ftp/CarcassiM/O60/carcassi-op60-04/carcassi-op60-04#movement01,mutopia,Etude 4,Mateo Carcassi,,,40,78,38,64.0,2,1,,2/4,1,16,0,0,18,8.6,15,0,0.667,2,0,0,0,0,0,0,,14,7,47,36,312,
-mutopia:ftp/CarcassiM/O60/carcassi-op60-05/carcassi-op60-05#movement01,mutopia,Etude 5,Mateo Carcassi,,,40,74,34,57,1,1,,2/4,1,16,0,0,0,11.1,47,5,1.0,2,0,0,0,0,0,0,,10,4,36,38,442,
-mutopia:ftp/CarcassiM/O60/carcassi-op60-06/carcassi-op60-06#movement01,mutopia,Etude 6,Mateo Carcassi,,,40,72,32,55,,0,,4/4,1,16,5,0,0,10.4,31,3,1.0,2,0,0,0,0,0,0,,8,3,16,41,447,
-mutopia:ftp/CarcassiM/O60/carcassi-op60-07/carcassi-op60-07#movement01,mutopia,Etude 7,Matteo Carcassi,,,52,83,31,69,0,1,,4/4,1,16,0,0,0,17.9,60,0,0.0,1,0,0,0,0,0,0,,19,12,222,30,543,
-mutopia:ftp/CarcassiM/O60/carcassi-op60-08/carcassi-op60-08#movement01,mutopia,Etude 8,Matteo Carcassi,,,52,85,33,71,4,1,,2/4,1,16,0,0,0,9.2,31,0,0.0,1,0,0,0,0,0,0,,21,14,119,25,234,
-mutopia:ftp/CarcassiM/O60/carcassi-op60-10/carcassi-op60-10#movement01,mutopia,Etude 10,Mateo Carcassi,,,40,76,36,67.0,2,1,,3/8,1,16,37,0,80,6.7,11,2,1.0,2,0,0,0,0,0,0,,12,8,59,47,316,
-mutopia:ftp/CarcassiM/O60/carcassi-op60-11/carcassi-op60-11#movement01,mutopia,Etude 11,Mateo Carcassi,,,43,70,27,57,-1,1,,2/4,1,16,0,0,0,7.8,22,0,0.966,2,0,0,0,0,0,0,,6,4,17,29,338,
-mutopia:ftp/CarcassiM/O60/carcassi-op60-12/carcassi-op60-12#movement01,mutopia,Etude 12,Mateo Carcassi,,,40,74,34,57.0,2,1,,4/4,1,16,78,0,0,22.5,60,0,0.952,2,0,0,0,0,0,0,,10,4,55,21,472,
-mutopia:ftp/CarcassiM/O60/carcassi-op60-13/carcassi-op60-13#movement01,mutopia,Etude 13,Mateo Carcassi,,,40,71,31,62,3,1,,2/4,1,16,0,0,232,9.7,15,3,0.714,2,0,0,0,0,0,0,,7,4,32,42,410,
-mutopia:ftp/CarcassiM/O60/carcassi-op60-14/carcassi-op60-14#movement01,mutopia,Etude 14,Mateo Carcassi,,,40,76,36,62.0,2,1,,2/4,1,16,0,0,0,8.3,23,3,0.976,2,0,0,0,0,0,0,,12,5,37,41,373,
-mutopia:ftp/CarcassiM/O60/carcassi-op60-16/carcassi-op60-16#movement01,mutopia,Etude 16,Mateo Carcassi,,,43,74,31,60.0,-1,1,0.0,4/4,1,8,0,0,0,11.8,19,2,1.0,2,0,0,0,0,0,0,,10,3,9,22,318,
-mutopia:ftp/CarcassiM/O60/carcassi-op60-17/carcassi-op60-17#movement01,mutopia,Etude 17,Mateo Carcassi,,,40,76,36,57,,0,,2/4,1,16,1,0,0,11.2,49,3,1.0,2,0,0,0,0,0,0,,12,3,50,46,519,
-mutopia:ftp/CarcassiM/O60/carcassi-op60-18/carcassi-op60-18#movement01,mutopia,Etude 18,Mateo Carcassi,,,40,76,36,61.0,3,1,0.0,6/8,1,8,42,0,0,4.8,29,3,0.911,2,0,0,0,3,0,0,,12,5,27,45,237,
-mutopia:ftp/CarcassiM/O60/carcassi-op60-19/carcassi-op60-19#movement01,mutopia,Etude 19,Mateo Carcassi,,,40,71,31,59,1,1,,3/4,1,16,50,0,0,14.3,49,3,1.0,3,0,0,0,0,0,0,,7,3,23,37,532,
-mutopia:ftp/CarcassiM/O60/carcassi-op60-20/carcassi-op60-20#movement01,mutopia,Etude 20,Mateo Carcassi,,,40,81,41,59.0,3,1,0.0,12/8,1,8,48,0,0,10.5,35,0,0.727,2,0,0,0,1,0,0,,17,5,67,33,354,
-mutopia:ftp/CarcassiM/O60/carcassi-op60-21/carcassi-op60-21#movement01,mutopia,Etude 21,Mateo Carcassi,,,40,74,34,60.0,3,2,,2/4,1,16,0,0,0,8.0,49,3,1.0,2,0,0,0,92,0,0,,10,4,24,64,590,
-mutopia:ftp/CarcassiM/O60/carcassi-op60-22/carcassi-op60-22#movement01,mutopia,Etude 22,Mateo Carcassi,,,42,76,34,55,,0,,6/8,1,16,2,0,0,13.1,32,0,0.625,2,0,0,0,0,0,0,,12,4,16,8,114,
-mutopia:ftp/CarcassiM/O60/carcassi-op60-23/carcassi-op60-23#movement01,mutopia,Etude 23,Mateo Carcassi,,,38,76,38,64.0,3,2,,12/8,1,8,48,0,0,12.3,43,0,0.818,2,0,0,0,0,0,0,,12,5,50,33,430,
-mutopia:ftp/CarcassiM/O60/carcassi-op60-24/carcassi-op60-24#movement01,mutopia,Etude 24,Mateo Carcassi,,,40,76,36,61.0,4,1,,6/8,1,32,40,10,18,15.6,59,3,1.0,2,0,0,0,20,0,0,,12,5,108,45,801,
-mutopia:ftp/CarcassiM/O60/carcassi-op60-25/carcassi-op60-25#movement01,mutopia,Etude 25,Mateo Carcassi,,,40,81,41,61,3,1,0.0,4/4,1,16,0,0,0,14.7,101,3,1.0,2,0,0,0,0,0,0,,17,5,152,56,841,
-mutopia:ftp/FaureG/O78/faure-sicilienne-guitare-doigtee/faure-sicilienne-guitare-doigtee#movement01,mutopia,Sicilienne (Op 78),Gabriel Fauré,,,38,74,36,57.0,-2,1,,6/8,1,16,37,6,0,8.5,25,3,1.0,2,0,0,0,0,0,0,,10,4,10,26,225,
-mutopia:ftp/GiulianiM/O100/GiulianiOp100No1/GiulianiOp100No1#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,40,65,25,57,,0,,4/4,1,16,0,0,0,11.7,6,2,1.0,2,0,0,0,0,0,0,,3,3,0,11,167,
-mutopia:ftp/GiulianiM/O100/GiulianiOp100No10/GiulianiOp100No10#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,41,67,26,55.0,0,1,,2/4,1,16,0,0,0,7.7,21,3,1.0,2,0,0,0,0,0,0,,4,3,2,49,471,
-mutopia:ftp/GiulianiM/O100/GiulianiOp100No11/GiulianiOp100No11#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,40,72,32,57,0,1,,4/4,1,16,0,0,0,17.9,48,3,1.0,2,0,0,0,0,0,0,,8,3,55,35,682,
-mutopia:ftp/GiulianiM/O100/GiulianiOp100No12/GiulianiOp100No12#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,40,71,31,57.0,1,1,,6/8,1,16,92,0,0,11.6,39,3,1.0,2,0,0,0,0,0,0,,7,3,21,47,634,
-mutopia:ftp/GiulianiM/O100/GiulianiOp100No13/GiulianiOp100No13#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,40,79,39,59.0,1,1,,3/4,1,8,58,0,0,6.5,50,3,1.0,2,0,0,0,0,0,0,,15,4,50,81,616,
-mutopia:ftp/GiulianiM/O100/GiulianiOp100No14/GiulianiOp100No14#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,40,74,34,57,2,1,,4/4,1,16,0,0,0,13.6,37,3,1.0,2,0,0,0,0,0,0,,10,3,53,41,638,
-mutopia:ftp/GiulianiM/O100/GiulianiOp100No15/GiulianiOp100No15#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,40,69,29,57,3,2,,2/4,1,16,21,0,0,6.3,37,4,0.981,2,0,0,0,0,0,0,,5,3,25,106,793,
-mutopia:ftp/GiulianiM/O100/GiulianiOp100No16/GiulianiOp100No16#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,40,76,36,55,0,1,,2/4,1,16,5,0,0,9.6,42,3,1.0,2,0,0,0,0,0,0,,12,3,42,82,865,
-mutopia:ftp/GiulianiM/O100/GiulianiOp100No17/GiulianiOp100No17#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,40,77,37,60.0,0,1,,4/4,1,16,0,0,0,13.1,9,3,1.0,2,0,4,0,0,0,0,,13,5,9,7,94,
-mutopia:ftp/GiulianiM/O100/GiulianiOp100No18/GiulianiOp100No18#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,43,76,33,57,0,1,,4/4,1,32,0,0,0,15.5,25,4,0.231,2,0,0,0,0,0,0,,12,3,16,13,201,
-mutopia:ftp/GiulianiM/O100/GiulianiOp100No19/GiulianiOp100No19#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,43,74,31,62,1,1,,4/4,1,16,2,0,0,13.5,12,3,1.0,2,0,0,0,0,0,0,,10,5,18,15,227,
+mutopia:ftp/CarcassiM/O60/carcassi-op60-04/carcassi-op60-04#movement01,mutopia,Etude 4,Mateo Carcassi,,,40,78,38,64.0,2,1,,2/4,1,16,0,0,18,8.6,15,0,0.667,2,0,0,0,0,0,0,,14,7,47,36,312,29.4
+mutopia:ftp/CarcassiM/O60/carcassi-op60-05/carcassi-op60-05#movement01,mutopia,Etude 5,Mateo Carcassi,,,40,74,34,57,1,1,,2/4,1,16,0,0,0,11.1,47,5,1.0,2,0,0,0,0,0,0,,10,4,36,38,442,45.4
+mutopia:ftp/CarcassiM/O60/carcassi-op60-06/carcassi-op60-06#movement01,mutopia,Etude 6,Mateo Carcassi,,,40,72,32,55,,0,,4/4,1,16,5,0,0,10.4,31,3,1.0,2,0,0,0,0,0,0,,8,3,16,41,447,98.2
+mutopia:ftp/CarcassiM/O60/carcassi-op60-07/carcassi-op60-07#movement01,mutopia,Etude 7,Matteo Carcassi,,,52,83,31,69,0,1,,4/4,1,16,0,0,0,17.9,60,0,0.0,1,0,0,0,0,0,0,,19,12,222,30,543,201.6
+mutopia:ftp/CarcassiM/O60/carcassi-op60-08/carcassi-op60-08#movement01,mutopia,Etude 8,Matteo Carcassi,,,52,85,33,71,4,1,,2/4,1,16,0,0,0,9.2,31,0,0.0,1,0,0,0,0,0,0,,21,14,119,25,234,86.4
+mutopia:ftp/CarcassiM/O60/carcassi-op60-10/carcassi-op60-10#movement01,mutopia,Etude 10,Mateo Carcassi,,,40,76,36,67.0,2,1,,3/8,1,16,37,0,80,6.7,11,2,1.0,2,0,0,0,0,0,0,,12,8,59,47,316,35.8
+mutopia:ftp/CarcassiM/O60/carcassi-op60-11/carcassi-op60-11#movement01,mutopia,Etude 11,Mateo Carcassi,,,43,70,27,57,-1,1,,2/4,1,16,0,0,0,7.8,22,0,0.966,2,0,0,0,0,0,0,,6,4,17,29,338,34.0
+mutopia:ftp/CarcassiM/O60/carcassi-op60-12/carcassi-op60-12#movement01,mutopia,Etude 12,Mateo Carcassi,,,40,74,34,57.0,2,1,,4/4,1,16,78,0,0,22.5,60,0,0.952,2,0,0,0,0,0,0,,10,4,55,21,472,48.0
+mutopia:ftp/CarcassiM/O60/carcassi-op60-13/carcassi-op60-13#movement01,mutopia,Etude 13,Mateo Carcassi,,,40,71,31,62,3,1,,2/4,1,16,0,0,232,9.7,15,3,0.714,2,0,0,0,0,0,0,,7,4,32,42,410,33.9
+mutopia:ftp/CarcassiM/O60/carcassi-op60-14/carcassi-op60-14#movement01,mutopia,Etude 14,Mateo Carcassi,,,40,76,36,62.0,2,1,,2/4,1,16,0,0,0,8.3,23,3,0.976,2,0,0,0,0,0,0,,12,5,37,41,373,48.0
+mutopia:ftp/CarcassiM/O60/carcassi-op60-16/carcassi-op60-16#movement01,mutopia,Etude 16,Mateo Carcassi,,,43,74,31,60.0,-1,1,0.0,4/4,1,8,0,0,0,11.8,19,2,1.0,2,0,0,0,0,0,0,,10,3,9,22,318,34.2
+mutopia:ftp/CarcassiM/O60/carcassi-op60-17/carcassi-op60-17#movement01,mutopia,Etude 17,Mateo Carcassi,,,40,76,36,57,,0,,2/4,1,16,1,0,0,11.2,49,3,1.0,2,0,0,0,0,0,0,,12,3,50,46,519,56.1
+mutopia:ftp/CarcassiM/O60/carcassi-op60-18/carcassi-op60-18#movement01,mutopia,Etude 18,Mateo Carcassi,,,40,76,36,61.0,3,1,0.0,6/8,1,8,42,0,0,4.8,29,3,0.911,2,0,0,0,3,0,0,,12,5,27,45,237,52.2
+mutopia:ftp/CarcassiM/O60/carcassi-op60-19/carcassi-op60-19#movement01,mutopia,Etude 19,Mateo Carcassi,,,40,71,31,59,1,1,,3/4,1,16,50,0,0,14.3,49,3,1.0,3,0,0,0,0,0,0,,7,3,23,37,532,66.0
+mutopia:ftp/CarcassiM/O60/carcassi-op60-20/carcassi-op60-20#movement01,mutopia,Etude 20,Mateo Carcassi,,,40,81,41,59.0,3,1,0.0,12/8,1,8,48,0,0,10.5,35,0,0.727,2,0,0,0,1,0,0,,17,5,67,33,354,138.0
+mutopia:ftp/CarcassiM/O60/carcassi-op60-21/carcassi-op60-21#movement01,mutopia,Etude 21,Mateo Carcassi,,,40,74,34,60.0,3,2,,2/4,1,16,0,0,0,8.0,49,3,1.0,2,0,0,0,92,0,0,,10,4,24,64,590,65.7
+mutopia:ftp/CarcassiM/O60/carcassi-op60-22/carcassi-op60-22#movement01,mutopia,Etude 22,Mateo Carcassi,,,42,76,34,55,,0,,6/8,1,16,2,0,0,13.1,32,0,0.625,2,0,0,0,0,0,0,,12,4,16,8,114,13.1
+mutopia:ftp/CarcassiM/O60/carcassi-op60-23/carcassi-op60-23#movement01,mutopia,Etude 23,Mateo Carcassi,,,38,76,38,64.0,3,2,,12/8,1,8,48,0,0,12.3,43,0,0.818,2,0,0,0,0,0,0,,12,5,50,33,430,111.6
+mutopia:ftp/CarcassiM/O60/carcassi-op60-24/carcassi-op60-24#movement01,mutopia,Etude 24,Mateo Carcassi,,,40,76,36,61.0,4,1,,6/8,1,32,40,10,18,15.6,59,3,1.0,2,0,0,0,20,0,0,,12,5,108,45,801,76.8
+mutopia:ftp/CarcassiM/O60/carcassi-op60-25/carcassi-op60-25#movement01,mutopia,Etude 25,Mateo Carcassi,,,40,81,41,61,3,1,0.0,4/4,1,16,0,0,0,14.7,101,3,1.0,2,0,0,0,0,0,0,,17,5,152,56,841,140.1
+mutopia:ftp/FaureG/O78/faure-sicilienne-guitare-doigtee/faure-sicilienne-guitare-doigtee#movement01,mutopia,Sicilienne (Op 78),Gabriel Fauré,,,38,74,36,57.0,-2,1,,6/8,1,16,37,6,0,8.5,25,3,1.0,2,0,0,0,0,0,0,,10,4,10,26,225,50.1
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No1/GiulianiOp100No1#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,40,65,25,57,,0,,4/4,1,16,0,0,0,11.7,6,2,1.0,2,0,0,0,0,0,0,,3,3,0,11,167,24.0
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No10/GiulianiOp100No10#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,41,67,26,55.0,0,1,,2/4,1,16,0,0,0,7.7,21,3,1.0,2,0,0,0,0,0,0,,4,3,2,49,471,57.6
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No11/GiulianiOp100No11#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,40,72,32,57,0,1,,4/4,1,16,0,0,0,17.9,48,3,1.0,2,0,0,0,0,0,0,,8,3,55,35,682,81.6
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No12/GiulianiOp100No12#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,40,71,31,57.0,1,1,,6/8,1,16,92,0,0,11.6,39,3,1.0,2,0,0,0,0,0,0,,7,3,21,47,634,82.8
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No13/GiulianiOp100No13#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,40,79,39,59.0,1,1,,3/4,1,8,58,0,0,6.5,50,3,1.0,2,0,0,0,0,0,0,,15,4,50,81,616,144.6
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No14/GiulianiOp100No14#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,40,74,34,57,2,1,,4/4,1,16,0,0,0,13.6,37,3,1.0,2,0,0,0,0,0,0,,10,3,53,41,638,97.2
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No15/GiulianiOp100No15#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,40,69,29,57,3,2,,2/4,1,16,21,0,0,6.3,37,4,0.981,2,0,0,0,0,0,0,,5,3,25,106,793,246.0
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No16/GiulianiOp100No16#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,40,76,36,55,0,1,,2/4,1,16,5,0,0,9.6,42,3,1.0,2,0,0,0,0,0,0,,12,3,42,82,865,97.2
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No17/GiulianiOp100No17#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,40,77,37,60.0,0,1,,4/4,1,16,0,0,0,13.1,9,3,1.0,2,0,4,0,0,0,0,,13,5,9,7,94,19.5
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No18/GiulianiOp100No18#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,43,76,33,57,0,1,,4/4,1,32,0,0,0,15.5,25,4,0.231,2,0,0,0,0,0,0,,12,3,16,13,201,22.6
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No19/GiulianiOp100No19#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,43,74,31,62,1,1,,4/4,1,16,2,0,0,13.5,12,3,1.0,2,0,0,0,0,0,0,,10,5,18,15,227,33.6
 mutopia:ftp/GiulianiM/O100/GiulianiOp100No2/GiulianiOp100No2#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,40,67,27,59.0,1,1,110.0,6/8,1,8,40,0,0,5.7,14,3,1.0,2,0,0,0,0,0,0,,4,3,11,41,270,67.1
-mutopia:ftp/GiulianiM/O100/GiulianiOp100No20/GiulianiOp100No20#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,40,72,32,60,1,1,,4/4,1,32,0,0,0,11.3,32,5,0.692,2,0,0,0,0,0,0,,8,4,20,13,147,
-mutopia:ftp/GiulianiM/O100/GiulianiOp100No21/GiulianiOp100No21#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,43,81,38,59.0,2,1,,4/4,1,16,0,0,0,13.1,8,3,1.0,2,0,0,0,0,0,0,,17,5,15,9,118,
-mutopia:ftp/GiulianiM/O100/GiulianiOp100No22/GiulianiOp100No22#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,40,67,27,57.0,-1,1,,4/4,1,16,0,0,0,17.0,23,4,1.0,2,0,0,0,0,0,0,,4,3,0,21,366,
-mutopia:ftp/GiulianiM/O100/GiulianiOp100No23/GiulianiOp100No23#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,40,69,29,59.0,3,1,,4/4,1,16,0,0,0,14.7,0,4,1.0,3,0,0,0,0,0,0,,5,3,10,24,417,
-mutopia:ftp/GiulianiM/O100/GiulianiOp100No24/GiulianiOp100No24#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,40,76,36,57,4,1,,4/4,1,16,1,0,0,12.9,50,5,0.9,2,0,0,0,0,0,0,,12,4,51,40,583,
-mutopia:ftp/GiulianiM/O100/GiulianiOp100No3/GiulianiOp100No3#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,42,68,26,59,2,1,,4/4,1,16,0,0,0,13.8,22,3,1.0,2,0,0,0,0,0,0,,4,3,10,18,290,
-mutopia:ftp/GiulianiM/O100/GiulianiOp100No4/GiulianiOp100No4#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,40,69,29,59.0,3,1,,3/4,1,16,0,0,0,11.4,41,3,1.0,2,0,0,0,0,0,0,,5,4,4,36,584,
-mutopia:ftp/GiulianiM/O100/GiulianiOp100No5/GiulianiOp100No5#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,40,71,31,59.0,4,1,,6/8,1,16,56,0,0,11.3,27,3,1.0,2,0,0,0,0,0,0,,7,4,29,29,382,
-mutopia:ftp/GiulianiM/O100/GiulianiOp100No6/GiulianiOp100No6#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,43,67,24,59.0,-1,1,,2/4,1,16,0,0,0,7.6,14,3,1.0,2,0,0,0,0,0,0,,3,3,0,32,274,
-mutopia:ftp/GiulianiM/O100/GiulianiOp100No7/GiulianiOp100No7#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,43,69,26,58.0,-2,1,,2/4,1,16,0,0,0,7.8,20,3,1.0,2,0,0,0,0,0,0,,5,3,8,50,438,
-mutopia:ftp/GiulianiM/O100/GiulianiOp100No8/GiulianiOp100No8#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,43,70,27,58.0,-3,1,,6/8,1,8,35,0,0,5.7,22,0,0.97,2,0,0,0,0,0,0,,6,4,2,33,219,
-mutopia:ftp/GiulianiM/O100/GiulianiOp100No9/GiulianiOp100No9#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,41,70,29,60.0,-4,1,,2/4,1,16,0,0,0,7.7,9,3,1.0,2,0,0,0,0,0,0,,6,4,4,35,301,
-mutopia:ftp/GiulianiM/O59/giuliani-op59n01/giuliani-op59n01#movement01,mutopia,16 Studies for the Guitar,Mauro Giuliani,,,42,67,25,50,1,1,,6/8,1,16,20,0,0,10.0,10,3,1.0,2,0,0,0,6,0,0,,4,3,3,25,266,
-mutopia:ftp/GiulianiM/O59/giuliani-op59n02/giuliani-op59n02#movement01,mutopia,16 Studies for the Guitar,Mauro Giuliani,,,40,67,27,55,0,1,,2/4,1,16,0,0,0,9.9,6,3,1.0,2,0,0,0,0,0,0,,4,3,2,33,340,
-mutopia:ftp/GiulianiM/O59/giuliani-op59n03/giuliani-op59n03#movement01,mutopia,16 Studies for the Guitar,Mauro Giuliani,,,40,69,29,57,2,1,,6/8,1,16,40,0,0,8.6,11,3,1.0,2,0,0,0,7,0,0,,5,3,18,34,328,
-mutopia:ftp/GiulianiM/O59/giuliani-op59n04/giuliani-op59n04#movement01,mutopia,16 Studies for the Guitar,Mauro Giuliani,,,41,67,26,55,-1,1,,2/4,1,16,9,0,0,12.0,13,3,1.0,2,0,0,0,0,0,0,,4,3,0,23,303,
-mutopia:ftp/GiulianiM/O59/giuliani-op59n05/giuliani-op59n05#movement01,mutopia,16 Studies for the Guitar,Mauro Giuliani,,,41,67,26,55,,0,,6/8,1,32,47,0,0,8.1,6,4,1.0,2,0,0,0,2,0,0,,4,3,1,37,326,
-mutopia:ftp/GiulianiM/O59/giuliani-op59n06/giuliani-op59n06#movement01,mutopia,16 Studies for the Guitar,Mauro Giuliani,,,40,69,29,57,3,1,,3/4,1,16,11,0,3,11.4,6,3,1.0,2,0,0,0,0,0,0,,5,3,15,23,282,
-mutopia:ftp/GiulianiM/O59/giuliani-op59n07/giuliani-op59n07#movement01,mutopia,16 Studies for the Guitar,Mauro Giuliani,,,40,69,29,55.0,1,1,,6/8,1,16,32,0,0,9.9,17,3,1.0,2,0,0,0,1,0,0,,5,3,17,34,354,
-mutopia:ftp/GiulianiM/O59/giuliani-op59n08/giuliani-op59n08#movement01,mutopia,16 Studies for the Guitar,Mauro Giuliani,,,40,69,29,57,2,1,,2/4,1,16,0,0,0,8.9,16,3,1.0,2,0,0,0,0,0,0,,5,4,29,31,310,
-mutopia:ftp/GiulianiM/O59/giuliani-op59n09/giuliani-op59n09#movement01,mutopia,16 Studies for the Guitar,Mauro Giuliani,,,40,69,29,59,3,1,,6/8,1,16,34,0,0,7.5,8,3,1.0,2,0,0,0,6,0,0,,5,3,13,35,323,
-mutopia:ftp/GiulianiM/O59/giuliani-op59n10/giuliani-op59n10#movement01,mutopia,16 Studies for the Guitar,Mauro Giuliani,,,40,69,29,55.0,0,1,,2/4,1,16,0,0,0,9.4,6,4,1.0,2,0,0,0,0,0,0,,5,3,3,30,288,
-mutopia:ftp/GiulianiM/O59/giuliani-op59n11/giuliani-op59n11#movement01,mutopia,16 Studies for the Guitar,Mauro Giuliani,,,42,71,29,52,1,1,,3/4,1,16,5,0,0,13.6,7,3,1.0,2,0,0,0,0,0,0,,7,3,11,25,368,
-mutopia:ftp/GiulianiM/O59/giuliani-op59n13/giuliani-op59n13#movement01,mutopia,16 Studies for the Guitar,Mauro Giuliani,,,40,71,31,59,1,1,,2/4,1,16,3,0,0,9.1,17,4,1.0,2,0,0,0,0,0,0,,7,2,4,20,200,
-mutopia:ftp/GiulianiM/O59/giuliani-op59n15/giuliani-op59n15#movement01,mutopia,16 Studies for the Guitar,Mauro Giuliani,,,42,69,27,56.0,1,1,,3/8,1,16,23,0,0,6.8,25,3,1.0,2,0,0,0,3,0,0,,5,3,9,69,492,
-mutopia:ftp/GiulianiM/O59/giuliani-op59n16/giuliani-op59n16#movement01,mutopia,16 Studies for the Guitar,Mauro Giuliani,,,40,72,32,55,0,1,,2/4,1,16,19,0,0,9.7,1,4,1.0,2,0,0,0,0,0,0,,8,3,4,43,426,
-mutopia:ftp/HoretzkyF/horetzky1/horetzky1#movement01,mutopia,Nº. 1. March by Rossini.,Felix Horetzky,,,52,86,34,73,2,1,,4/4,1,32,16,6,0,10.4,2,2,1.0,3,0,0,0,2,0,0,,22,15,33,13,148,
-mutopia:ftp/HoretzkyF/horetzky1/horetzky1#movement02,mutopia,Nº. 1. March by Rossini.,Felix Horetzky,,,52,86,34,73,2,1,,4/4,1,32,16,6,0,10.4,2,2,1.0,3,0,0,0,2,0,0,,22,15,33,13,148,
-mutopia:ftp/HoretzkyF/horetzky10/horetzky10#movement01,mutopia,Nº. 10. Untitled.,Felix Horetzky,,,52,84,32,69.0,0,1,,6/8,1,16,18,0,0,10.8,9,2,1.0,3,0,0,0,0,0,0,,20,12,24,12,135,
-mutopia:ftp/HoretzkyF/horetzky10/horetzky10#movement02,mutopia,Nº. 10. Untitled.,Felix Horetzky,,,52,76,24,62,0,1,,6/8,1,16,6,0,0,6.1,3,2,1.0,2,0,0,0,0,0,0,,12,4,6,9,59,
-mutopia:ftp/HoretzkyF/horetzky11/horetzky11#movement01,mutopia,Nº. 11. German Air.,Felix Horetzky,,,52,88,36,74.0,3,1,,2/4,1,16,2,0,0,8.0,0,2,1.0,3,0,0,0,0,0,0,,24,17,44,13,113,
-mutopia:ftp/HoretzkyF/horetzky11/horetzky11#movement02,mutopia,Nº. 11. German Air.,Felix Horetzky,,,52,88,36,74.0,3,1,,2/4,1,16,2,0,0,8.0,0,2,1.0,3,0,0,0,0,0,0,,24,17,44,13,113,
-mutopia:ftp/HoretzkyF/horetzky12/horetzky12#movement01,mutopia,Nº. 12. Russian Hymn.,Felix Horetzky,,,52,79,27,67.0,1,1,,4/4,1,8,5,0,0,6.4,4,3,1.0,3,0,0,0,0,0,0,,15,10,23,17,112,
-mutopia:ftp/HoretzkyF/horetzky12/horetzky12#movement02,mutopia,Nº. 12. Russian Hymn.,Felix Horetzky,,,52,79,27,67.0,1,1,,4/4,1,8,5,0,0,6.4,4,3,1.0,3,0,0,0,0,0,0,,15,10,23,17,112,
-mutopia:ftp/HoretzkyF/horetzky13/horetzky13#movement01,mutopia,"Nº. 13. John Anderson, My Jo.",Felix Horetzky,,,52,86,34,71.0,1,1,,4/4,1,16,10,8,0,9.1,9,3,1.0,3,0,0,0,1,0,0,,22,17,54,17,169,
-mutopia:ftp/HoretzkyF/horetzky13/horetzky13#movement02,mutopia,"Nº. 13. John Anderson, My Jo.",Felix Horetzky,,,52,86,34,71.0,1,1,,4/4,1,16,10,8,0,9.1,9,3,1.0,3,0,0,0,1,0,0,,22,17,54,17,169,
-mutopia:ftp/HoretzkyF/horetzky14/horetzky14#movement01,mutopia,Nº. 14. Tyrolian Air.,Felix Horetzky,,,52,81,29,68.0,4,1,,3/4,1,16,9,4,38,8.5,2,3,1.0,2,0,0,0,0,0,0,,17,12,58,19,163,
-mutopia:ftp/HoretzkyF/horetzky14/horetzky14#movement02,mutopia,Nº. 14. Tyrolian Air.,Felix Horetzky,,,52,81,29,68.0,4,1,,3/4,1,16,9,4,38,8.5,2,3,1.0,2,0,0,0,0,0,0,,17,12,58,19,163,
-mutopia:ftp/HoretzkyF/horetzky15/horetzky15#movement01,mutopia,Nº. 15. Danish Air.,Felix Horetzky,,,52,79,27,67.0,1,1,,2/4,1,32,13,0,0,13.8,12,3,1.0,2,0,0,0,0,0,0,,15,12,20,8,115,
-mutopia:ftp/HoretzkyF/horetzky15/horetzky15#movement02,mutopia,Nº. 15. Danish Air.,Felix Horetzky,,,52,79,27,67.0,1,1,,2/4,1,32,13,0,0,13.8,12,3,1.0,2,0,0,0,0,0,0,,15,12,20,8,115,
-mutopia:ftp/HoretzkyF/horetzky16/horetzky16#movement01,mutopia,Nº. 16. Cherubini's Air.,Felix Horetzky,,,52,81,29,69,0,1,,4/4,1,16,7,4,0,10.5,2,3,1.0,3,0,0,0,0,0,0,,17,13,26,10,118,
-mutopia:ftp/HoretzkyF/horetzky16/horetzky16#movement02,mutopia,Nº. 16. Cherubini's Air.,Felix Horetzky,,,52,81,29,69,0,1,,4/4,1,16,7,4,0,10.5,2,3,1.0,3,0,0,0,0,0,0,,17,13,26,10,118,
-mutopia:ftp/HoretzkyF/horetzky17/horetzky17#movement01,mutopia,Nº. 17. Polish Hymn.,Felix Horetzky,,,52,79,27,67.0,0,1,,3/4,1,16,4,0,0,11.1,5,3,1.0,2,0,0,0,0,0,0,,15,12,19,11,122,
-mutopia:ftp/HoretzkyF/horetzky17/horetzky17#movement02,mutopia,Nº. 17. Polish Hymn.,Felix Horetzky,,,52,79,27,67.0,0,1,,3/4,1,16,4,0,0,11.1,5,3,1.0,2,0,0,0,0,0,0,,15,12,19,11,122,
-mutopia:ftp/HoretzkyF/horetzky18/horetzky18#movement01,mutopia,Nº. 18. Kelvin Grove.,Felix Horetzky,,,60,81,21,69,0,1,,4/4,1,16,9,0,0,13.7,3,2,1.0,3,0,0,0,1,0,0,,17,12,26,9,126,
-mutopia:ftp/HoretzkyF/horetzky18/horetzky18#movement02,mutopia,Nº. 18. Kelvin Grove.,Felix Horetzky,,,60,81,21,69,0,1,,4/4,1,16,9,0,0,13.7,3,2,1.0,3,0,0,0,1,0,0,,17,12,26,9,126,
-mutopia:ftp/HoretzkyF/horetzky19/horetzky19#movement01,mutopia,Nº. 19. Podolian Air.,Felix Horetzky,,,52,81,29,69.0,0,1,,2/4,1,32,10,0,0,8.8,14,3,1.0,3,0,0,0,0,0,0,,17,12,37,17,160,
-mutopia:ftp/HoretzkyF/horetzky19/horetzky19#movement02,mutopia,Nº. 19. Podolian Air.,Felix Horetzky,,,52,81,29,69.0,0,1,,2/4,1,32,10,0,0,8.8,14,3,1.0,3,0,0,0,0,0,0,,17,12,37,17,160,
-mutopia:ftp/HoretzkyF/horetzky2/horetzky2#movement01,mutopia,Nº. 2. Russian Air.,Felix Horetzky,,,52,81,29,67.0,2,1,,2/4,1,16,10,0,0,5.7,12,3,1.0,3,0,0,0,0,0,0,,17,12,40,29,169,
-mutopia:ftp/HoretzkyF/horetzky2/horetzky2#movement02,mutopia,Nº. 2. Russian Air.,Felix Horetzky,,,52,81,29,66.0,2,1,,2/4,1,16,7,0,0,4.8,10,3,1.0,3,0,0,0,0,0,0,,17,12,31,29,144,
-mutopia:ftp/HoretzkyF/horetzky20/horetzky20#movement01,mutopia,Nº. 20. Fra Tante Angoscie.,Felix Horetzky,,,55,79,24,65,0,1,,2/4,1,8,0,0,0,9.6,10,3,1.0,4,0,0,0,0,0,0,,15,10,45,25,247,
-mutopia:ftp/HoretzkyF/horetzky20/horetzky20#movement02,mutopia,Nº. 20. Fra Tante Angoscie.,Felix Horetzky,,,55,79,24,65,0,1,,2/4,1,8,0,0,0,9.6,10,3,1.0,4,0,0,0,0,0,0,,15,10,45,25,247,
-mutopia:ftp/HoretzkyF/horetzky21/horetzky21#movement01,mutopia,Nº. 21. Au Clair De la Lune.,Felix Horetzky,,,52,76,24,67,0,1,,2/4,1,8,1,0,0,7.6,4,2,1.0,2,0,0,0,0,0,0,,12,10,33,17,133,
-mutopia:ftp/HoretzkyF/horetzky21/horetzky21#movement02,mutopia,Nº. 21. Au Clair De la Lune.,Felix Horetzky,,,52,76,24,67,0,1,,2/4,1,8,1,0,0,7.6,4,2,1.0,2,0,0,0,0,0,0,,12,10,33,17,133,
-mutopia:ftp/HoretzkyF/horetzky22/horetzky22#movement01,mutopia,Nº. 22. Dutch Air.,Felix Horetzky,,,52,79,27,67.0,0,1,,4/4,1,16,11,0,0,10.4,5,3,1.0,2,0,0,0,0,0,0,,15,12,44,19,211,
-mutopia:ftp/HoretzkyF/horetzky22/horetzky22#movement02,mutopia,Nº. 22. Dutch Air.,Felix Horetzky,,,52,79,27,67.0,0,1,,4/4,1,16,11,0,0,10.4,5,3,1.0,2,0,0,0,0,0,0,,15,12,44,19,211,
-mutopia:ftp/HoretzkyF/horetzky23/horetzky23#movement01,mutopia,Nº. 23. Portuguese Hymn.,Felix Horetzky,,,52,79,27,67,0,1,,4/4,1,8,5,0,0,8.7,2,3,1.0,2,0,0,0,0,0,0,,15,12,43,21,187,
-mutopia:ftp/HoretzkyF/horetzky23/horetzky23#movement02,mutopia,Nº. 23. Portuguese Hymn.,Felix Horetzky,,,52,79,27,67,0,1,,4/4,1,8,5,0,0,8.7,2,3,1.0,2,0,0,0,0,0,0,,15,12,43,21,187,
-mutopia:ftp/HoretzkyF/horetzky24/horetzky24#movement01,mutopia,Nº. 24. Air by Gelinek.,Felix Horetzky,,,52,83,31,69,3,1,,2/4,1,32,2,0,0,5.4,2,3,1.0,3,0,0,0,1,0,0,,19,12,26,17,116,
-mutopia:ftp/HoretzkyF/horetzky24/horetzky24#movement02,mutopia,Nº. 24. Air by Gelinek.,Felix Horetzky,,,52,83,31,69,3,1,,2/4,1,32,2,0,0,5.4,2,3,1.0,3,0,0,0,1,0,0,,19,12,26,17,116,
-mutopia:ftp/HoretzkyF/horetzky25/horetzky25#movement01,mutopia,Nº. 25. Pyrenese Melody.,Felix Horetzky,,,52,85,33,69,3,1,,2/4,1,16,9,0,0,4.8,0,2,1.0,3,0,0,0,0,0,0,,21,12,30,17,117,
-mutopia:ftp/HoretzkyF/horetzky25/horetzky25#movement02,mutopia,Nº. 25. Pyrenese Melody.,Felix Horetzky,,,52,85,33,69,3,1,,2/4,1,16,9,0,0,4.8,0,2,1.0,3,0,0,0,0,0,0,,21,12,30,17,117,
-mutopia:ftp/HoretzkyF/horetzky26/horetzky26#movement01,mutopia,Nº. 26. Polish Air.,Felix Horetzky,,,52,81,29,74.0,2,1,,3/8,1,16,3,0,0,7.3,4,2,1.0,2,0,0,0,0,0,0,,17,15,47,18,140,
-mutopia:ftp/HoretzkyF/horetzky26/horetzky26#movement02,mutopia,Nº. 26. Polish Air.,Felix Horetzky,,,52,81,29,74.0,2,1,,3/8,1,16,3,0,0,7.3,4,2,1.0,2,0,0,0,0,0,0,,17,15,47,18,140,
-mutopia:ftp/HoretzkyF/horetzky27/horetzky27#movement01,mutopia,Nº. 27. Scotch Air.,Felix Horetzky,,,57,86,29,74,2,1,,2/4,1,32,23,0,0,8.2,3,2,1.0,2,0,0,0,1,0,0,,22,19,35,17,147,
-mutopia:ftp/HoretzkyF/horetzky27/horetzky27#movement02,mutopia,Nº. 27. Scotch Air.,Felix Horetzky,,,57,86,29,74,2,1,,2/4,1,32,23,0,0,8.2,3,2,1.0,2,0,0,0,1,0,0,,22,19,35,17,147,
-mutopia:ftp/HoretzkyF/horetzky28/horetzky28#movement01,mutopia,Nº. 28. Pleyel's Hymn.,Felix Horetzky,,,52,79,27,70,0,1,,4/4,1,4,8,0,0,5.8,5,3,1.0,2,0,0,0,0,0,0,,15,12,32,17,106,
-mutopia:ftp/HoretzkyF/horetzky28/horetzky28#movement02,mutopia,Nº. 28. Pleyel's Hymn.,Felix Horetzky,,,52,79,27,70,0,1,,4/4,1,4,8,0,0,5.8,5,3,1.0,2,0,0,0,0,0,0,,15,12,32,17,106,
-mutopia:ftp/HoretzkyF/horetzky29/horetzky29#movement01,mutopia,Nº. 29. Scotch Air. “Donald.”,Felix Horetzky,,,55,86,31,74.0,1,1,,4/4,1,32,29,0,14,14.4,7,3,1.0,3,0,0,0,13,0,0,,22,19,66,22,333,
-mutopia:ftp/HoretzkyF/horetzky29/horetzky29#movement02,mutopia,Nº. 29. Scotch Air. “Donald.”,Felix Horetzky,,,55,86,31,74.0,1,1,,4/4,1,32,29,0,14,14.4,7,3,1.0,3,0,0,0,13,0,0,,22,19,66,22,333,
-mutopia:ftp/HoretzkyF/horetzky3/horetzky3#movement01,mutopia,Nº. 3. Andante by Beethoven.,Felix Horetzky,,,52,86,34,74,2,1,,3/8,1,32,18,0,0,7.7,19,3,1.0,3,0,0,0,5,0,0,,22,15,90,35,295,
-mutopia:ftp/HoretzkyF/horetzky3/horetzky3#movement02,mutopia,Nº. 3. Andante by Beethoven.,Felix Horetzky,,,52,86,34,74,2,1,,3/8,1,32,18,0,0,7.7,19,3,1.0,3,0,0,0,5,0,0,,22,15,90,35,295,
-mutopia:ftp/HoretzkyF/horetzky30/horetzky30#movement01,mutopia,Nº. 30. Sicilian Mariner's Hymn,Felix Horetzky,,,52,81,29,71,3,1,,2/4,1,16,8,0,0,6.9,1,3,1.0,2,0,0,0,1,0,0,,17,14,30,17,118,
-mutopia:ftp/HoretzkyF/horetzky30/horetzky30#movement02,mutopia,Nº. 30. Sicilian Mariner's Hymn,Felix Horetzky,,,52,81,29,71,3,1,,2/4,1,16,8,0,0,6.9,1,3,1.0,2,0,0,0,1,0,0,,17,14,30,17,118,
-mutopia:ftp/HoretzkyF/horetzky31/horetzky31#movement01,mutopia,Nº. 31. Auld Lang Syne.,Felix Horetzky,,,55,86,31,73.0,2,1,,2/4,1,16,20,0,0,8.0,2,3,1.0,2,0,0,0,0,0,0,,22,14,40,17,142,
-mutopia:ftp/HoretzkyF/horetzky31/horetzky31#movement02,mutopia,Nº. 31. Auld Lang Syne.,Felix Horetzky,,,55,86,31,73.0,2,1,,2/4,1,16,20,0,0,8.0,2,3,1.0,2,0,0,0,0,0,0,,22,14,40,17,142,
-mutopia:ftp/HoretzkyF/horetzky32/horetzky32#movement01,mutopia,Nº. 32. German Air.,Felix Horetzky,,,52,81,29,74,2,1,,2/4,1,16,7,0,0,9.5,3,2,1.0,3,0,0,0,0,0,0,,17,15,39,17,165,
-mutopia:ftp/HoretzkyF/horetzky32/horetzky32#movement02,mutopia,Nº. 32. German Air.,Felix Horetzky,,,52,81,29,74,2,1,,2/4,1,16,7,0,0,9.5,3,2,1.0,3,0,0,0,0,0,0,,17,15,39,17,165,
-mutopia:ftp/HoretzkyF/horetzky33/horetzky33#movement01,mutopia,Nº. 33. Scots Wha Hae Wi' Wallace Bled.,Felix Horetzky,,,57,81,24,69.0,2,1,,2/4,1,16,24,0,0,8.0,4,3,1.0,2,0,0,0,0,0,0,,17,14,32,25,202,
-mutopia:ftp/HoretzkyF/horetzky33/horetzky33#movement02,mutopia,Nº. 33. Scots Wha Hae Wi' Wallace Bled.,Felix Horetzky,,,57,81,24,69.0,2,1,,2/4,1,16,24,0,0,8.0,4,3,1.0,2,0,0,0,0,0,0,,17,14,32,25,202,
-mutopia:ftp/HoretzkyF/horetzky34/horetzky34#movement01,mutopia,Nº. 34. Vive Henri Quatre.,Felix Horetzky,,,55,82,27,70,-2,1,,4/4,1,8,16,0,0,7.8,13,3,1.0,2,0,0,0,0,0,0,,18,15,44,23,186,
-mutopia:ftp/HoretzkyF/horetzky34/horetzky34#movement02,mutopia,Nº. 34. Vive Henri Quatre.,Felix Horetzky,,,55,82,27,70,-2,1,,4/4,1,8,16,0,0,7.8,13,3,1.0,2,0,0,0,0,0,0,,18,15,44,23,186,
-mutopia:ftp/HoretzkyF/horetzky35/horetzky35#movement01,mutopia,Nº. 35. Air from the Ballet of Nina.,Felix Horetzky,,,52,88,36,76,3,1,,4/4,1,16,17,0,0,11.6,5,3,1.0,3,0,0,0,1,0,0,,24,19,52,17,210,
-mutopia:ftp/HoretzkyF/horetzky35/horetzky35#movement02,mutopia,Nº. 35. Air from the Ballet of Nina.,Felix Horetzky,,,52,88,36,76,3,1,,4/4,1,16,17,0,0,11.6,5,3,1.0,3,0,0,0,1,0,0,,24,19,52,17,210,
-mutopia:ftp/HoretzkyF/horetzky36/horetzky36#movement01,mutopia,Nº. 36. Danish Air.,Felix Horetzky,,,52,84,32,72,0,1,,3/4,1,16,15,0,0,9.7,11,2,1.0,3,0,0,0,1,0,0,,20,12,39,17,165,
-mutopia:ftp/HoretzkyF/horetzky36/horetzky36#movement02,mutopia,Nº. 36. Danish Air.,Felix Horetzky,,,52,84,32,72,0,1,,3/4,1,16,15,0,0,9.7,11,2,1.0,3,0,0,0,1,0,0,,20,12,39,17,165,
-mutopia:ftp/HoretzkyF/horetzky37/horetzky37#movement01,mutopia,Nº. 37. Post Horn Waltz.,Felix Horetzky,,,55,84,29,67.0,0,1,,3/4,1,16,5,0,0,5.2,0,3,1.0,2,0,0,0,0,0,0,,20,12,41,17,108,
-mutopia:ftp/HoretzkyF/horetzky37/horetzky37#movement02,mutopia,Nº. 37. Post Horn Waltz.,Felix Horetzky,,,55,84,29,67.0,0,1,,3/4,1,16,5,0,0,5.2,0,3,1.0,2,0,0,0,0,0,0,,20,12,41,17,108,
-mutopia:ftp/HoretzkyF/horetzky38/horetzky38#movement01,mutopia,Nº. 38. Old German Air.,Felix Horetzky,,,52,81,29,71.0,3,1,,2/4,1,16,11,0,0,6.1,1,2,1.0,2,0,0,0,0,0,0,,17,12,25,17,107,
-mutopia:ftp/HoretzkyF/horetzky38/horetzky38#movement02,mutopia,Nº. 38. Old German Air.,Felix Horetzky,,,52,81,29,71.0,3,1,,2/4,1,16,11,0,0,6.1,1,2,1.0,2,0,0,0,0,0,0,,17,12,25,17,107,
-mutopia:ftp/HoretzkyF/horetzky39/horetzky39#movement01,mutopia,Nº. 39. Air.,Felix Horetzky,,,55,86,31,74.0,2,1,,2/4,1,32,45,4,0,10.0,4,2,1.0,2,0,0,0,3,0,0,,22,17,75,17,174,
-mutopia:ftp/HoretzkyF/horetzky39/horetzky39#movement02,mutopia,Nº. 39. Air.,Felix Horetzky,,,55,86,31,74.0,2,1,,2/4,1,32,45,4,0,10.0,4,2,1.0,2,0,0,0,3,0,0,,22,17,75,17,174,
-mutopia:ftp/HoretzkyF/horetzky4/horetzky4#movement01,mutopia,Nº. 4. The Last Rose of Summer.,Felix Horetzky,,,52,79,27,67,1,1,,3/4,1,32,10,2,8,9.3,2,3,1.0,3,0,0,0,3,0,0,,15,14,29,13,132,
-mutopia:ftp/HoretzkyF/horetzky4/horetzky4#movement02,mutopia,Nº. 4. The Last Rose of Summer.,Felix Horetzky,,,52,79,27,67,1,1,,3/4,1,32,10,2,8,9.3,2,3,1.0,3,0,0,0,3,0,0,,15,14,29,13,132,
-mutopia:ftp/HoretzkyF/horetzky40/horetzky40#movement01,mutopia,Nº. 40. Polish Air . Krakoviak.,Felix Horetzky,,,52,81,29,71.0,3,1,,2/4,1,32,6,0,0,7.8,4,2,1.0,3,0,0,0,6,0,0,,17,13,32,17,139,
-mutopia:ftp/HoretzkyF/horetzky40/horetzky40#movement02,mutopia,Nº. 40. Polish Air . Krakoviak.,Felix Horetzky,,,52,81,29,71.0,3,1,,2/4,1,32,6,0,0,7.8,4,2,1.0,3,0,0,0,6,0,0,,17,13,32,17,139,
-mutopia:ftp/HoretzkyF/horetzky41/horetzky41#movement01,mutopia,Nº. 41. Scotch Air.,Felix Horetzky,,,57,86,29,74,2,1,,2/4,1,32,5,0,0,9.6,5,2,1.0,3,0,0,0,0,0,0,,22,17,24,13,128,
-mutopia:ftp/HoretzkyF/horetzky41/horetzky41#movement02,mutopia,Nº. 41. Scotch Air.,Felix Horetzky,,,57,86,29,74,2,1,,2/4,1,32,5,0,0,9.6,5,2,1.0,3,0,0,0,0,0,0,,22,17,24,13,128,
-mutopia:ftp/HoretzkyF/horetzky42/horetzky42#movement01,mutopia,Nº. 42. Swedish Air.,Felix Horetzky,,,53,84,31,69,0,1,,4/4,1,16,19,2,0,9.9,2,3,1.0,2,0,0,0,0,0,0,,20,12,45,16,168,
-mutopia:ftp/HoretzkyF/horetzky42/horetzky42#movement02,mutopia,Nº. 42. Swedish Air.,Felix Horetzky,,,53,84,31,69,0,1,,4/4,1,16,19,2,0,9.9,2,3,1.0,2,0,0,0,0,0,0,,20,12,45,16,168,
-mutopia:ftp/HoretzkyF/horetzky43/horetzky43#movement01,mutopia,Nº. 43. Danish Air.,Felix Horetzky,,,53,86,33,71,0,1,,2/2,1,16,4,0,0,14.1,11,3,1.0,3,0,0,0,3,0,0,,22,14,55,17,241,
-mutopia:ftp/HoretzkyF/horetzky43/horetzky43#movement02,mutopia,Nº. 43. Danish Air.,Felix Horetzky,,,53,86,33,71,0,1,,2/2,1,16,4,0,0,14.1,11,3,1.0,3,0,0,0,3,0,0,,22,14,55,17,241,
-mutopia:ftp/HoretzkyF/horetzky44/horetzky44#movement01,mutopia,"Nº. 44. Il Pleut, Il Pleut, Bergère.",Felix Horetzky,,,57,83,26,76,2,1,,6/8,1,16,26,5,0,8.8,1,2,1.0,2,0,0,0,2,0,0,,19,17,36,17,158,
-mutopia:ftp/HoretzkyF/horetzky44/horetzky44#movement02,mutopia,"Nº. 44. Il Pleut, Il Pleut, Bergère.",Felix Horetzky,,,57,83,26,76,2,1,,6/8,1,16,26,5,0,8.8,1,2,1.0,2,0,0,0,2,0,0,,19,17,36,17,158,
-mutopia:ftp/HoretzkyF/horetzky45/horetzky45#movement01,mutopia,Nº. 45. Rule Britannia.,Felix Horetzky,,,52,84,32,67,0,1,,4/4,1,16,5,0,0,19.0,8,4,1.0,3,0,0,0,0,0,0,,20,12,53,15,302,
-mutopia:ftp/HoretzkyF/horetzky45/horetzky45#movement02,mutopia,Nº. 45. Rule Britannia.,Felix Horetzky,,,52,84,32,67,0,1,,4/4,1,16,5,0,0,19.0,8,4,1.0,3,0,0,0,0,0,0,,20,12,53,15,302,
-mutopia:ftp/HoretzkyF/horetzky46/horetzky46#movement01,mutopia,Nº. 46. “C'est L'Amour” a French Air.,Felix Horetzky,,,55,77,22,67,0,1,,6/8,1,16,9,0,0,10.2,1,2,1.0,2,0,0,0,1,0,0,,13,10,37,20,211,
-mutopia:ftp/HoretzkyF/horetzky46/horetzky46#movement02,mutopia,Nº. 46. “C'est L'Amour” a French Air.,Felix Horetzky,,,55,77,22,67,0,1,,6/8,1,16,9,0,0,10.2,1,2,1.0,2,0,0,0,1,0,0,,13,10,37,20,211,
-mutopia:ftp/HoretzkyF/horetzky47/horetzky47#movement01,mutopia,Nº. 47. Scotch Air.,Felix Horetzky,,,52,79,27,69,1,1,,2/4,1,32,8,0,0,8.9,19,3,1.0,2,0,0,0,0,0,0,,15,14,52,25,233,
-mutopia:ftp/HoretzkyF/horetzky47/horetzky47#movement02,mutopia,Nº. 47. Scotch Air.,Felix Horetzky,,,52,79,27,69,1,1,,2/4,1,32,8,0,0,8.9,19,3,1.0,2,0,0,0,0,0,0,,15,14,52,25,233,
-mutopia:ftp/HoretzkyF/horetzky48/horetzky48#movement01,mutopia,Nº. 48. An Alexis.,Felix Horetzky,,,52,81,29,73,2,1,,3/4,1,16,14,0,0,8.2,8,2,1.0,2,0,0,0,2,0,0,,17,14,41,21,205,
-mutopia:ftp/HoretzkyF/horetzky48/horetzky48#movement02,mutopia,Nº. 48. An Alexis.,Felix Horetzky,,,52,81,29,73,2,1,,3/4,1,16,14,0,0,8.2,8,2,1.0,2,0,0,0,2,0,0,,17,14,41,21,205,
-mutopia:ftp/HoretzkyF/horetzky49/horetzky49#movement01,mutopia,Nº. 49. March by Rossini.,Felix Horetzky,,,52,88,36,71.0,3,1,,4/4,1,16,58,14,2,13.5,14,4,1.0,3,0,1,0,0,0,0,,24,14,58,22,316,
-mutopia:ftp/HoretzkyF/horetzky49/horetzky49#movement02,mutopia,Nº. 49. March by Rossini.,Felix Horetzky,,,52,88,36,71.0,3,1,,4/4,1,16,58,14,2,13.5,14,4,1.0,3,0,1,0,0,0,0,,24,14,58,22,316,
-mutopia:ftp/HoretzkyF/horetzky5/horetzky5#movement01,mutopia,Nº. 5. French Air.,Felix Horetzky,,,53,81,28,72.0,0,1,,2/4,1,16,11,0,0,4.2,8,3,1.0,2,0,0,0,0,0,0,,17,15,78,42,207,
-mutopia:ftp/HoretzkyF/horetzky5/horetzky5#movement02,mutopia,Nº. 5. French Air.,Felix Horetzky,,,53,81,28,72.0,0,1,,2/4,1,16,11,0,0,4.2,8,3,1.0,2,0,0,0,0,0,0,,17,15,78,42,207,
-mutopia:ftp/HoretzkyF/horetzky50/horetzky50#movement01,mutopia,Nº. 50. Je Suis Lindor.,Felix Horetzky,,,52,83,31,71,3,1,,2/4,1,16,4,0,0,8.5,2,2,1.0,3,0,0,0,1,0,0,,19,14,41,18,163,
-mutopia:ftp/HoretzkyF/horetzky50/horetzky50#movement02,mutopia,Nº. 50. Je Suis Lindor.,Felix Horetzky,,,52,83,31,71,3,1,,2/4,1,16,4,0,0,8.5,2,2,1.0,3,0,0,0,1,0,0,,19,14,41,18,163,
-mutopia:ftp/HoretzkyF/horetzky51/horetzky51#movement01,mutopia,Nº. 51. Scotch Air. Kelso.,Felix Horetzky,,,52,78,26,71.0,3,1,,2/4,1,16,4,0,0,8.0,2,2,0.889,2,0,0,0,0,0,0,,14,12,17,9,73,
-mutopia:ftp/HoretzkyF/horetzky51/horetzky51#movement02,mutopia,Nº. 51. Scotch Air. Kelso.,Felix Horetzky,,,52,78,26,71.0,3,1,,2/4,1,16,4,0,0,8.0,2,2,0.889,2,0,0,0,0,0,0,,14,12,17,9,73,
-mutopia:ftp/HoretzkyF/horetzky52/horetzky52#movement01,mutopia,Nº. 52. Polish Air. Krakoviak.,Felix Horetzky,,,52,81,29,69,3,1,,2/4,1,16,12,0,0,6.6,1,2,1.0,2,0,0,0,0,0,0,,17,12,26,17,119,
-mutopia:ftp/HoretzkyF/horetzky52/horetzky52#movement02,mutopia,Nº. 52. Polish Air. Krakoviak.,Felix Horetzky,,,52,81,29,69,3,1,,2/4,1,16,12,0,0,6.6,1,2,1.0,2,0,0,0,0,0,0,,17,12,26,17,119,
-mutopia:ftp/HoretzkyF/horetzky53/horetzky53#movement01,mutopia,Nº. 53. German Air.,Felix Horetzky,,,52,86,34,74.0,2,1,,4/4,1,16,13,0,0,10.1,14,3,1.0,3,0,0,0,12,0,0,,22,15,64,30,329,
-mutopia:ftp/HoretzkyF/horetzky53/horetzky53#movement02,mutopia,Nº. 53. German Air.,Felix Horetzky,,,52,86,34,74.0,2,1,,4/4,1,16,13,0,0,10.1,14,3,1.0,3,0,0,0,12,0,0,,22,15,64,30,329,
-mutopia:ftp/HoretzkyF/horetzky54/horetzky54#movement01,mutopia,Nº. 54. March by Gallenberg.,Felix Horetzky,,,53,84,31,68,0,1,,4/4,1,16,11,0,0,10.4,10,3,1.0,2,0,0,0,0,0,0,,20,13,57,17,187,
-mutopia:ftp/HoretzkyF/horetzky54/horetzky54#movement02,mutopia,Nº. 54. March by Gallenberg.,Felix Horetzky,,,53,84,31,68,0,1,,4/4,1,16,11,0,0,10.4,10,3,1.0,2,0,0,0,0,0,0,,20,13,57,17,187,
-mutopia:ftp/HoretzkyF/horetzky55/horetzky55#movement01,mutopia,Nº. 55. Rousseau's Dream.,Felix Horetzky,,,57,86,29,76,2,1,,4/4,1,16,15,0,0,11.3,1,2,1.0,3,0,0,0,3,0,0,,22,17,37,13,154,
-mutopia:ftp/HoretzkyF/horetzky55/horetzky55#movement02,mutopia,Nº. 55. Rousseau's Dream.,Felix Horetzky,,,57,86,29,76,2,1,,4/4,1,16,15,0,0,11.3,1,2,1.0,3,0,0,0,3,0,0,,22,17,37,13,154,
-mutopia:ftp/HoretzkyF/horetzky56/horetzky56#movement01,mutopia,Nº. 56. Chanson Des Marseillois.,Felix Horetzky,,,57,81,24,71,2,1,,4/4,1,16,24,0,0,9.9,13,2,1.0,3,0,0,0,0,0,0,,17,14,57,24,256,
-mutopia:ftp/HoretzkyF/horetzky56/horetzky56#movement02,mutopia,Nº. 56. Chanson Des Marseillois.,Felix Horetzky,,,57,81,24,71,2,1,,4/4,1,16,24,0,0,9.9,13,2,1.0,3,0,0,0,0,0,0,,17,14,57,24,256,
-mutopia:ftp/HoretzkyF/horetzky57/horetzky57#movement01,mutopia,Nº. 57. Old Saxon Air.,Felix Horetzky,,,52,83,31,74,3,1,,2/4,1,32,3,0,0,9.8,5,2,1.0,2,0,0,0,1,0,0,,19,17,31,12,124,
-mutopia:ftp/HoretzkyF/horetzky57/horetzky57#movement02,mutopia,Nº. 57. Old Saxon Air.,Felix Horetzky,,,52,83,31,74,3,1,,2/4,1,32,3,0,0,9.8,5,2,1.0,2,0,0,0,1,0,0,,19,17,31,12,124,
-mutopia:ftp/HoretzkyF/horetzky58/horetzky58#movement01,mutopia,Nº. 58. Sul Margine D'un Rio.,Felix Horetzky,,,53,79,26,67,0,1,,2/4,1,32,8,0,0,11.9,3,2,1.0,2,0,0,0,0,0,0,,15,12,27,13,160,
-mutopia:ftp/HoretzkyF/horetzky58/horetzky58#movement02,mutopia,Nº. 58. Sul Margine D'un Rio.,Felix Horetzky,,,53,79,26,67,0,1,,2/4,1,32,8,0,0,11.9,3,2,1.0,2,0,0,0,0,0,0,,15,12,27,13,160,
-mutopia:ftp/HoretzkyF/horetzky59/horetzky59#movement01,mutopia,Nº. 59. Venetian Air. “La Biondina”.,Felix Horetzky,,,52,83,31,76.0,2,1,,6/8,1,16,38,0,0,10.3,6,2,1.0,2,0,0,0,1,0,0,,19,17,54,23,257,
-mutopia:ftp/HoretzkyF/horetzky59/horetzky59#movement02,mutopia,Nº. 59. Venetian Air. “La Biondina”.,Felix Horetzky,,,52,83,31,76.0,2,1,,6/8,1,16,38,0,0,10.3,6,2,1.0,2,0,0,0,1,0,0,,19,17,54,23,257,
-mutopia:ftp/HoretzkyF/horetzky6/horetzky6#movement01,mutopia,Nº. 6. Un Noel.,Felix Horetzky,,,52,79,27,69,0,1,,4/4,1,16,20,0,0,8.5,9,2,0.941,2,0,0,0,0,0,0,,15,10,25,17,149,
-mutopia:ftp/HoretzkyF/horetzky6/horetzky6#movement02,mutopia,Nº. 6. Un Noel.,Felix Horetzky,,,52,79,27,69,0,1,,4/4,1,16,20,0,0,8.5,9,2,0.941,2,0,0,0,0,0,0,,15,10,25,17,149,
-mutopia:ftp/HoretzkyF/horetzky60/horetzky60#movement01,mutopia,Nº. 60. Care Pupille By Blangini.,Felix Horetzky,,,56,84,28,74,2,1,,6/8,1,16,100,2,0,9.9,33,2,1.0,3,0,0,0,16,0,0,,20,15,94,44,461,
-mutopia:ftp/HoretzkyF/horetzky60/horetzky60#movement02,mutopia,Nº. 60. Care Pupille By Blangini.,Felix Horetzky,,,56,84,28,74,2,1,,6/8,1,16,100,2,0,9.9,33,2,1.0,3,0,0,0,16,0,0,,20,15,94,44,461,
-mutopia:ftp/HoretzkyF/horetzky7/horetzky7#movement01,mutopia,Nº. 7. Le Petit Tambour.,Felix Horetzky,,,53,79,26,71,0,1,,2/4,1,32,11,0,0,7.2,8,3,1.0,3,0,0,0,0,0,0,,15,12,42,32,239,
-mutopia:ftp/HoretzkyF/horetzky7/horetzky7#movement02,mutopia,Nº. 7. Le Petit Tambour.,Felix Horetzky,,,53,79,26,71,0,1,,2/4,1,32,11,0,0,7.2,8,3,1.0,3,0,0,0,0,0,0,,15,12,42,32,239,
-mutopia:ftp/HoretzkyF/horetzky8/horetzky8#movement01,mutopia,Nº. 8. Russian Air.,Felix Horetzky,,,52,76,24,68,0,1,,2/4,1,16,12,0,0,6.2,15,2,1.0,2,0,0,0,0,0,0,,12,8,20,17,112,
-mutopia:ftp/HoretzkyF/horetzky8/horetzky8#movement02,mutopia,Nº. 8. Russian Air.,Felix Horetzky,,,52,76,24,68,0,1,,2/4,1,16,12,0,0,6.2,15,2,1.0,2,0,0,0,0,0,0,,12,8,20,17,112,
-mutopia:ftp/HoretzkyF/horetzky9/horetzky9#movement01,mutopia,Nº. 9. Polish National Air.,Felix Horetzky,,,52,81,29,71.0,3,1,,3/4,1,16,17,0,0,8.7,1,2,1.0,3,0,0,0,0,0,0,,17,12,37,17,158,
-mutopia:ftp/HoretzkyF/horetzky9/horetzky9#movement02,mutopia,Nº. 9. Polish National Air.,Felix Horetzky,,,52,81,29,71.0,3,1,,3/4,1,16,17,0,0,8.7,1,2,1.0,3,0,0,0,0,0,0,,17,12,37,17,158,
-mutopia:ftp/JolyD/JolyD_Tyrolienne/JolyD_Tyrolienne#movement02,mutopia,Tyrolienne,D. Joly,,,40,74,34,64,2,1,,3/8,1,32,31,0,0,6.1,8,4,1.0,2,0,0,0,0,0,0,,10,5,37,36,221,
-mutopia:ftp/KnjzeF/SixStudiesA/SixStudiesA#movement01,mutopia,Six Progressive Studies,Frantisek Max Knjze,,,52,79,27,67,0,1,,4/4,1,8,0,0,108,9.3,19,3,1.0,2,0,0,0,0,0,0,,15,10,233,56,575,
-mutopia:ftp/KnjzeF/SixStudiesA/SixStudiesA#movement02,mutopia,Six Progressive Studies,Frantisek Max Knjze,,,52,79,27,67,0,1,,4/4,1,8,0,0,108,9.3,19,3,1.0,2,0,0,0,0,0,0,,15,10,233,56,575,
-mutopia:ftp/KnjzeF/SixStudiesB/SixStudiesB#movement01,mutopia,Six Progressive Studies,Frantisek Max Knjze,,,52,78,26,69.0,0,2,,2/4,1,16,3,0,0,6.1,25,3,1.0,2,0,0,0,0,0,0,,14,12,142,60,391,
-mutopia:ftp/KnjzeF/SixStudiesB/SixStudiesB#movement02,mutopia,Six Progressive Studies,Frantisek Max Knjze,,,52,78,26,69.0,0,2,,2/4,1,16,3,0,0,6.1,25,3,1.0,2,0,0,0,0,0,0,,14,12,142,60,391,
-mutopia:ftp/KnjzeF/SixStudiesC/SixStudiesC#movement01,mutopia,Six Progressive Studies,Frantisek Max Knjze,,,52,79,27,69,0,1,,2/4,1,16,0,0,0,9.0,34,0,0.957,2,0,0,0,0,0,0,,15,12,180,47,457,
-mutopia:ftp/KnjzeF/SixStudiesC/SixStudiesC#movement02,mutopia,Six Progressive Studies,Frantisek Max Knjze,,,52,79,27,69,0,1,,2/4,1,16,0,0,0,9.0,34,0,0.957,2,0,0,0,0,0,0,,15,12,180,47,457,
-mutopia:ftp/KnjzeF/SixStudiesD/SixStudiesD#movement01,mutopia,Six Progressive Studies,Frantisek Max Knjze,,,52,79,27,69,0,1,,3/8,1,8,32,8,0,4.6,15,3,0.985,3,0,0,0,0,0,0,,15,12,155,68,317,
-mutopia:ftp/KnjzeF/SixStudiesD/SixStudiesD#movement02,mutopia,Six Progressive Studies,Frantisek Max Knjze,,,52,79,27,69,0,1,,3/8,1,8,32,8,0,4.6,15,3,0.985,3,0,0,0,0,0,0,,15,12,155,68,317,
-mutopia:ftp/KnjzeF/SixStudiesE/SixStudiesE#movement01,mutopia,Six Progressive Studies,Frantisek Max Knjze,,,52,79,27,69,1,1,,2/4,1,16,0,0,106,8.8,17,2,1.0,2,0,0,0,0,0,0,,15,12,220,40,384,
-mutopia:ftp/KnjzeF/SixStudiesE/SixStudiesE#movement02,mutopia,Six Progressive Studies,Frantisek Max Knjze,,,52,79,27,69,1,1,,2/4,1,16,0,0,106,8.8,17,2,1.0,2,0,0,0,0,0,0,,15,12,220,40,384,
-mutopia:ftp/KnjzeF/knjze12monferA/knjze12monferA#movement01,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,52,84,32,72.0,0,1,,6/8,1,16,29,0,0,9.4,14,3,1.0,2,0,0,0,9,0,0,,20,16,32,16,167,
-mutopia:ftp/KnjzeF/knjze12monferA/knjze12monferA#movement02,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,52,84,32,72.0,0,1,,6/8,1,16,29,0,0,9.4,14,3,1.0,2,0,0,0,9,0,0,,20,16,32,16,167,
-mutopia:ftp/KnjzeF/knjze12monferB/knjze12monferB#movement01,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,52,81,29,71,0,1,,6/8,1,16,33,0,0,10.9,16,3,1.0,2,0,0,0,8,0,0,,17,13,41,17,200,
-mutopia:ftp/KnjzeF/knjze12monferB/knjze12monferB#movement02,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,52,81,29,71,0,1,,6/8,1,16,33,0,0,10.9,16,3,1.0,2,0,0,0,8,0,0,,17,13,41,17,200,
-mutopia:ftp/KnjzeF/knjze12monferC/knjze12monferC#movement01,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,53,81,28,70.0,-1,1,,6/8,1,16,21,0,0,10.7,19,3,1.0,2,0,0,0,7,0,0,,17,13,34,17,200,
-mutopia:ftp/KnjzeF/knjze12monferC/knjze12monferC#movement02,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,53,81,28,70.0,-1,1,,6/8,1,16,21,0,0,10.7,19,3,1.0,2,0,0,0,7,0,0,,17,13,34,17,200,
-mutopia:ftp/KnjzeF/knjze12monferD/knjze12monferD#movement01,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,53,81,28,69,-1,1,,6/8,1,16,18,0,0,9.1,12,3,1.0,2,0,0,0,1,0,0,,17,13,62,17,162,
-mutopia:ftp/KnjzeF/knjze12monferD/knjze12monferD#movement02,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,53,81,28,69,-1,1,,6/8,1,16,18,0,0,9.1,12,3,1.0,2,0,0,0,1,0,0,,17,13,62,17,162,
-mutopia:ftp/KnjzeF/knjze12monferE/knjze12monferE#movement01,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,55,83,28,71,2,1,,6/8,1,16,17,0,0,10.4,15,3,1.0,2,0,0,0,8,0,0,,19,14,31,17,199,
-mutopia:ftp/KnjzeF/knjze12monferE/knjze12monferE#movement02,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,55,83,28,71,2,1,,6/8,1,16,17,0,0,10.4,15,3,1.0,2,0,0,0,8,0,0,,19,14,31,17,199,
-mutopia:ftp/KnjzeF/knjze12monferF/knjze12monferF#movement01,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,52,79,27,71.0,1,1,,6/8,1,16,32,0,0,9.9,4,3,1.0,2,0,0,0,0,0,0,,15,12,73,17,201,
-mutopia:ftp/KnjzeF/knjze12monferF/knjze12monferF#movement02,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,52,79,27,71.0,1,1,,6/8,1,16,32,0,0,9.9,4,3,1.0,2,0,0,0,0,0,0,,15,12,73,17,201,
-mutopia:ftp/KnjzeF/knjze12monferG/knjze12monferG#movement01,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,52,81,29,71,1,1,,6/8,1,16,13,0,0,11.0,18,3,1.0,2,0,0,0,7,0,0,,17,14,57,17,207,
-mutopia:ftp/KnjzeF/knjze12monferG/knjze12monferG#movement02,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,52,81,29,71,1,1,,6/8,1,16,13,0,0,11.0,18,3,1.0,2,0,0,0,7,0,0,,17,14,57,17,207,
-mutopia:ftp/KnjzeF/knjze12monferH/knjze12monferH#movement01,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,52,83,31,71,4,1,,6/8,1,16,29,0,0,11.0,6,3,1.0,2,0,0,0,2,0,0,,19,16,73,17,203,
-mutopia:ftp/KnjzeF/knjze12monferH/knjze12monferH#movement02,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,52,83,31,71,4,1,,6/8,1,16,29,0,0,11.0,6,3,1.0,2,0,0,0,2,0,0,,19,16,73,17,203,
-mutopia:ftp/KnjzeF/knjze12monferI/knjze12monferI#movement01,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,52,83,31,73,3,1,,6/8,1,16,9,0,0,11.6,11,3,1.0,2,0,0,0,5,0,0,,19,16,31,16,212,
-mutopia:ftp/KnjzeF/knjze12monferI/knjze12monferI#movement02,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,52,83,31,73,3,1,,6/8,1,16,9,0,0,11.6,11,3,1.0,2,0,0,0,5,0,0,,19,16,31,16,212,
-mutopia:ftp/KnjzeF/knjze12monferJ/knjze12monferJ#movement01,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,52,81,29,71.0,2,1,,6/8,1,16,25,0,0,10.4,14,3,1.0,2,0,0,0,6,0,0,,17,14,34,17,189,
-mutopia:ftp/KnjzeF/knjze12monferJ/knjze12monferJ#movement02,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,52,81,29,71.0,2,1,,6/8,1,16,25,0,0,10.4,14,3,1.0,2,0,0,0,6,0,0,,17,14,34,17,189,
-mutopia:ftp/KnjzeF/knjze12monferK/knjze12monferK#movement01,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,52,84,32,71.0,1,1,,6/8,1,16,30,0,0,11.2,5,3,1.0,2,0,0,0,8,0,0,,20,14,38,17,204,
-mutopia:ftp/KnjzeF/knjze12monferK/knjze12monferK#movement02,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,52,84,32,71.0,1,1,,6/8,1,16,30,0,0,11.2,5,3,1.0,2,0,0,0,8,0,0,,20,14,38,17,204,
-mutopia:ftp/KnjzeF/knjze12monferL/knjze12monferL#movement01,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,52,88,36,71.0,4,1,,6/8,1,16,22,0,0,10.4,5,3,1.0,2,0,0,0,4,0,0,,24,16,55,17,198,
-mutopia:ftp/KnjzeF/knjze12monferL/knjze12monferL#movement02,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,52,88,36,71.0,4,1,,6/8,1,16,22,0,0,10.4,5,3,1.0,2,0,0,0,4,0,0,,24,16,55,17,198,
-mutopia:ftp/KuffnerJ/air-varie/air-varie#movement01,mutopia,Air varié,Joseph Küffner,,,43,64,21,55.0,0,1,,2/4,1,16,3,0,0,8.0,0,3,1.0,2,0,0,0,0,0,0,,3,3,0,17,138,
-mutopia:ftp/KuffnerJ/air-varie/air-varie#movement02,mutopia,Air varié,Joseph Küffner,,,41,69,28,56.0,0,1,,2/4,1,16,0,0,0,8.5,7,0,0.947,2,0,0,0,0,0,0,,5,3,1,19,179,
-mutopia:ftp/KuffnerJ/air-varie/air-varie#movement03,mutopia,Air varié,Joseph Küffner,,,41,69,28,60,0,1,,2/4,1,16,0,0,18,8.5,10,0,0.654,2,0,0,0,0,0,0,,5,3,0,26,240,
-mutopia:ftp/MatiegkaWT/Matiegka2/Matiegka2#movement01,mutopia,Nº. 2. Rondo,Wenzel Thomas Matiegka,,,52,79,27,69.0,0,1,,2/4,1,32,15,0,78,8.5,24,4,1.0,3,0,0,0,10,0,0,,15,12,351,119,1157,
-mutopia:ftp/MatiegkaWT/Matiegka2/Matiegka2#movement02,mutopia,Nº. 2. Rondo,Wenzel Thomas Matiegka,,,52,79,27,69.0,0,1,,2/4,1,32,15,0,78,8.5,24,4,1.0,3,0,0,0,10,0,0,,15,12,351,119,1157,
-mutopia:ftp/MatiegkaWT/Matiegka3/Matiegka3#movement01,mutopia,Nº. 3. Andante,Wenzel Thomas Matiegka,,,52,81,29,69,0,1,,4/4,1,8,17,0,78,7.2,40,3,1.0,2,0,0,0,2,0,0,,17,15,316,98,830,
-mutopia:ftp/MatiegkaWT/Matiegka3/Matiegka3#movement02,mutopia,Nº. 3. Andante,Wenzel Thomas Matiegka,,,52,81,29,69,0,1,,4/4,1,8,17,0,78,7.2,40,3,1.0,2,0,0,0,2,0,0,,17,15,316,98,830,
-mutopia:ftp/MatiegkaWT/Matiegka4/Matiegka4#movement01,mutopia,Nº. 4. Menuetto.,Wenzel Thomas Matiegka,,,52,81,29,69,0,1,,3/4,1,16,73,4,0,6.4,111,3,1.0,2,0,0,0,39,0,0,,17,13,434,178,1327,
-mutopia:ftp/MatiegkaWT/Matiegka4/Matiegka4#movement02,mutopia,Nº. 4. Menuetto.,Wenzel Thomas Matiegka,,,52,81,29,69,0,1,,3/4,1,16,73,4,0,6.4,111,3,1.0,2,0,0,0,39,0,0,,17,13,434,178,1327,
-mutopia:ftp/MatiegkaWT/Matiegka5/Matiegka5#movement01,mutopia,Nº. 5. Siciliano.,Wenzel Thomas Matiegka,,,52,84,32,69,0,2,,6/8,1,32,156,0,140,12.4,189,4,1.0,3,0,0,0,36,0,0,,20,12,525,131,1819,
-mutopia:ftp/MatiegkaWT/Matiegka5/Matiegka5#movement02,mutopia,Nº. 5. Siciliano.,Wenzel Thomas Matiegka,,,52,84,32,69,0,2,,6/8,1,32,156,0,140,12.4,189,4,1.0,3,0,0,0,36,0,0,,20,12,525,131,1819,
-mutopia:ftp/MertzJK/mertz_etude/mertz_etude#movement01,mutopia,Etude in A minor,Johann Kaspar Mertz,,,40,76,36,59.0,0,1,,4/4,1,16,1,0,0,15.6,20,3,1.0,2,0,0,0,0,0,0,,12,2,11,17,276,
-mutopia:ftp/MilanL/milan-pavan2/milan-pavan2#movement02,mutopia,Pavan 2,Luis Milan,,,62,81,19,73.0,2,1,,3/2,1,4,7,0,0,2.5,4,2,1.0,2,0,0,0,0,0,0,,17,14,20,48,121,
-mutopia:ftp/PapezikR/forsting/forsting#movement01,mutopia,Recuerdos,Radan Papežík,,,52,90,38,69.0,5,1,,3/4,1,8,33,0,3,6.5,95,0,0.493,3,0,0,0,0,0,0,,23,14,223,71,512,
-mutopia:ftp/SorF/O1/sor_op1_1/sor_op1_1#movement01,mutopia,Six divertissements pour la guitare,Fernando Sor,,,42,74,32,57,1,1,,3/4,1,16,13,0,4,12.4,11,4,1.0,3,0,0,0,2,0,0,,10,3,5,18,233,
-mutopia:ftp/SorF/O2/sor_op2_1/sor_op2_1#movement01,mutopia,Six divertissements pour la guitare,Fernando Sor,,,55,83,28,72,1,1,,3/4,1,4,7,0,0,7.3,8,2,1.0,3,0,0,0,0,0,0,,19,15,40,16,119,
-mutopia:ftp/SorF/O2/sor_op2_2/sor_op2_2#movement01,mutopia,Six divertissements pour la guitare,Fernando Sor,,,50,84,34,72.0,1,1,,3/8,1,32,13,0,8,4.8,5,2,1.0,3,0,0,0,9,0,0,,20,15,46,49,243,
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No20/GiulianiOp100No20#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,40,72,32,60,1,1,,4/4,1,32,0,0,0,11.3,32,5,0.692,2,0,0,0,0,0,0,,8,4,20,13,147,23.7
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No21/GiulianiOp100No21#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,43,81,38,59.0,2,1,,4/4,1,16,0,0,0,13.1,8,3,1.0,2,0,0,0,0,0,0,,17,5,15,9,118,27.3
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No22/GiulianiOp100No22#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,40,67,27,57.0,-1,1,,4/4,1,16,0,0,0,17.0,23,4,1.0,2,0,0,0,0,0,0,,4,3,0,21,366,48.0
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No23/GiulianiOp100No23#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,40,69,29,59.0,3,1,,4/4,1,16,0,0,0,14.7,0,4,1.0,3,0,0,0,0,0,0,,5,3,10,24,417,59.1
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No24/GiulianiOp100No24#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,40,76,36,57,4,1,,4/4,1,16,1,0,0,12.9,50,5,0.9,2,0,0,0,0,0,0,,12,4,51,40,583,97.2
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No3/GiulianiOp100No3#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,42,68,26,59,2,1,,4/4,1,16,0,0,0,13.8,22,3,1.0,2,0,0,0,0,0,0,,4,3,10,18,290,40.8
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No4/GiulianiOp100No4#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,40,69,29,59.0,3,1,,3/4,1,16,0,0,0,11.4,41,3,1.0,2,0,0,0,0,0,0,,5,4,4,36,584,63.0
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No5/GiulianiOp100No5#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,40,71,31,59.0,4,1,,6/8,1,16,56,0,0,11.3,27,3,1.0,2,0,0,0,0,0,0,,7,4,29,29,382,50.4
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No6/GiulianiOp100No6#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,43,67,24,59.0,-1,1,,2/4,1,16,0,0,0,7.6,14,3,1.0,2,0,0,0,0,0,0,,3,3,0,32,274,37.2
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No7/GiulianiOp100No7#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,43,69,26,58.0,-2,1,,2/4,1,16,0,0,0,7.8,20,3,1.0,2,0,0,0,0,0,0,,5,3,8,50,438,58.8
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No8/GiulianiOp100No8#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,43,70,27,58.0,-3,1,,6/8,1,8,35,0,0,5.7,22,0,0.97,2,0,0,0,0,0,0,,6,4,2,33,219,57.6
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No9/GiulianiOp100No9#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,41,70,29,60.0,-4,1,,2/4,1,16,0,0,0,7.7,9,3,1.0,2,0,0,0,0,0,0,,6,4,4,35,301,40.8
+mutopia:ftp/GiulianiM/O59/giuliani-op59n01/giuliani-op59n01#movement01,mutopia,16 Studies for the Guitar,Mauro Giuliani,,,42,67,25,50,1,1,,6/8,1,16,20,0,0,10.0,10,3,1.0,2,0,0,0,6,0,0,,4,3,3,25,266,43.2
+mutopia:ftp/GiulianiM/O59/giuliani-op59n02/giuliani-op59n02#movement01,mutopia,16 Studies for the Guitar,Mauro Giuliani,,,40,67,27,55,0,1,,2/4,1,16,0,0,0,9.9,6,3,1.0,2,0,0,0,0,0,0,,4,3,2,33,340,39.0
+mutopia:ftp/GiulianiM/O59/giuliani-op59n03/giuliani-op59n03#movement01,mutopia,16 Studies for the Guitar,Mauro Giuliani,,,40,69,29,57,2,1,,6/8,1,16,40,0,0,8.6,11,3,1.0,2,0,0,0,7,0,0,,5,3,18,34,328,60.3
+mutopia:ftp/GiulianiM/O59/giuliani-op59n04/giuliani-op59n04#movement01,mutopia,16 Studies for the Guitar,Mauro Giuliani,,,41,67,26,55,-1,1,,2/4,1,16,9,0,0,12.0,13,3,1.0,2,0,0,0,0,0,0,,4,3,0,23,303,27.2
+mutopia:ftp/GiulianiM/O59/giuliani-op59n05/giuliani-op59n05#movement01,mutopia,16 Studies for the Guitar,Mauro Giuliani,,,41,67,26,55,,0,,6/8,1,32,47,0,0,8.1,6,4,1.0,2,0,0,0,2,0,0,,4,3,1,37,326,64.8
+mutopia:ftp/GiulianiM/O59/giuliani-op59n06/giuliani-op59n06#movement01,mutopia,16 Studies for the Guitar,Mauro Giuliani,,,40,69,29,57,3,1,,3/4,1,16,11,0,3,11.4,6,3,1.0,2,0,0,0,0,0,0,,5,3,15,23,282,39.6
+mutopia:ftp/GiulianiM/O59/giuliani-op59n07/giuliani-op59n07#movement01,mutopia,16 Studies for the Guitar,Mauro Giuliani,,,40,69,29,55.0,1,1,,6/8,1,16,32,0,0,9.9,17,3,1.0,2,0,0,0,1,0,0,,5,3,17,34,354,59.7
+mutopia:ftp/GiulianiM/O59/giuliani-op59n08/giuliani-op59n08#movement01,mutopia,16 Studies for the Guitar,Mauro Giuliani,,,40,69,29,57,2,1,,2/4,1,16,0,0,0,8.9,16,3,1.0,2,0,0,0,0,0,0,,5,4,29,31,310,36.6
+mutopia:ftp/GiulianiM/O59/giuliani-op59n09/giuliani-op59n09#movement01,mutopia,16 Studies for the Guitar,Mauro Giuliani,,,40,69,29,59,3,1,,6/8,1,16,34,0,0,7.5,8,3,1.0,2,0,0,0,6,0,0,,5,3,13,35,323,61.8
+mutopia:ftp/GiulianiM/O59/giuliani-op59n10/giuliani-op59n10#movement01,mutopia,16 Studies for the Guitar,Mauro Giuliani,,,40,69,29,55.0,0,1,,2/4,1,16,0,0,0,9.4,6,4,1.0,2,0,0,0,0,0,0,,5,3,3,30,288,35.4
+mutopia:ftp/GiulianiM/O59/giuliani-op59n11/giuliani-op59n11#movement01,mutopia,16 Studies for the Guitar,Mauro Giuliani,,,42,71,29,52,1,1,,3/4,1,16,5,0,0,13.6,7,3,1.0,2,0,0,0,0,0,0,,7,3,11,25,368,43.4
+mutopia:ftp/GiulianiM/O59/giuliani-op59n13/giuliani-op59n13#movement01,mutopia,16 Studies for the Guitar,Mauro Giuliani,,,40,71,31,59,1,1,,2/4,1,16,3,0,0,9.1,17,4,1.0,2,0,0,0,0,0,0,,7,2,4,20,200,22.9
+mutopia:ftp/GiulianiM/O59/giuliani-op59n15/giuliani-op59n15#movement01,mutopia,16 Studies for the Guitar,Mauro Giuliani,,,42,69,27,56.0,1,1,,3/8,1,16,23,0,0,6.8,25,3,1.0,2,0,0,0,3,0,0,,5,3,9,69,492,61.3
+mutopia:ftp/GiulianiM/O59/giuliani-op59n16/giuliani-op59n16#movement01,mutopia,16 Studies for the Guitar,Mauro Giuliani,,,40,72,32,55,0,1,,2/4,1,16,19,0,0,9.7,1,4,1.0,2,0,0,0,0,0,0,,8,3,4,43,426,50.7
+mutopia:ftp/HoretzkyF/horetzky1/horetzky1#movement01,mutopia,Nº. 1. March by Rossini.,Felix Horetzky,,,52,86,34,73,2,1,,4/4,1,32,16,6,0,10.4,2,2,1.0,3,0,0,0,2,0,0,,22,15,33,13,148,37.2
+mutopia:ftp/HoretzkyF/horetzky1/horetzky1#movement02,mutopia,Nº. 1. March by Rossini.,Felix Horetzky,,,52,86,34,73,2,1,,4/4,1,32,16,6,0,10.4,2,2,1.0,3,0,0,0,2,0,0,,22,15,33,13,148,37.2
+mutopia:ftp/HoretzkyF/horetzky10/horetzky10#movement01,mutopia,Nº. 10. Untitled.,Felix Horetzky,,,52,84,32,69.0,0,1,,6/8,1,16,18,0,0,10.8,9,2,1.0,3,0,0,0,0,0,0,,20,12,24,12,135,22.8
+mutopia:ftp/HoretzkyF/horetzky10/horetzky10#movement02,mutopia,Nº. 10. Untitled.,Felix Horetzky,,,52,76,24,62,0,1,,6/8,1,16,6,0,0,6.1,3,2,1.0,2,0,0,0,0,0,0,,12,4,6,9,59,0.6
+mutopia:ftp/HoretzkyF/horetzky11/horetzky11#movement01,mutopia,Nº. 11. German Air.,Felix Horetzky,,,52,88,36,74.0,3,1,,2/4,1,16,2,0,0,8.0,0,2,1.0,3,0,0,0,0,0,0,,24,17,44,13,113,14.7
+mutopia:ftp/HoretzkyF/horetzky11/horetzky11#movement02,mutopia,Nº. 11. German Air.,Felix Horetzky,,,52,88,36,74.0,3,1,,2/4,1,16,2,0,0,8.0,0,2,1.0,3,0,0,0,0,0,0,,24,17,44,13,113,14.7
+mutopia:ftp/HoretzkyF/horetzky12/horetzky12#movement01,mutopia,Nº. 12. Russian Hymn.,Felix Horetzky,,,52,79,27,67.0,1,1,,4/4,1,8,5,0,0,6.4,4,3,1.0,3,0,0,0,0,0,0,,15,10,23,17,112,27.0
+mutopia:ftp/HoretzkyF/horetzky12/horetzky12#movement02,mutopia,Nº. 12. Russian Hymn.,Felix Horetzky,,,52,79,27,67.0,1,1,,4/4,1,8,5,0,0,6.4,4,3,1.0,3,0,0,0,0,0,0,,15,10,23,17,112,27.0
+mutopia:ftp/HoretzkyF/horetzky13/horetzky13#movement01,mutopia,"Nº. 13. John Anderson, My Jo.",Felix Horetzky,,,52,86,34,71.0,1,1,,4/4,1,16,10,8,0,9.1,9,3,1.0,3,0,0,0,1,0,0,,22,17,54,17,169,38.4
+mutopia:ftp/HoretzkyF/horetzky13/horetzky13#movement02,mutopia,"Nº. 13. John Anderson, My Jo.",Felix Horetzky,,,52,86,34,71.0,1,1,,4/4,1,16,10,8,0,9.1,9,3,1.0,3,0,0,0,1,0,0,,22,17,54,17,169,38.4
+mutopia:ftp/HoretzkyF/horetzky14/horetzky14#movement01,mutopia,Nº. 14. Tyrolian Air.,Felix Horetzky,,,52,81,29,68.0,4,1,,3/4,1,16,9,4,38,8.5,2,3,1.0,2,0,0,0,0,0,0,,17,12,58,19,163,28.8
+mutopia:ftp/HoretzkyF/horetzky14/horetzky14#movement02,mutopia,Nº. 14. Tyrolian Air.,Felix Horetzky,,,52,81,29,68.0,4,1,,3/4,1,16,9,4,38,8.5,2,3,1.0,2,0,0,0,0,0,0,,17,12,58,19,163,28.8
+mutopia:ftp/HoretzkyF/horetzky15/horetzky15#movement01,mutopia,Nº. 15. Danish Air.,Felix Horetzky,,,52,79,27,67.0,1,1,,2/4,1,32,13,0,0,13.8,12,3,1.0,2,0,0,0,0,0,0,,15,12,20,8,115,9.6
+mutopia:ftp/HoretzkyF/horetzky15/horetzky15#movement02,mutopia,Nº. 15. Danish Air.,Felix Horetzky,,,52,79,27,67.0,1,1,,2/4,1,32,13,0,0,13.8,12,3,1.0,2,0,0,0,0,0,0,,15,12,20,8,115,9.6
+mutopia:ftp/HoretzkyF/horetzky16/horetzky16#movement01,mutopia,Nº. 16. Cherubini's Air.,Felix Horetzky,,,52,81,29,69,0,1,,4/4,1,16,7,4,0,10.5,2,3,1.0,3,0,0,0,0,0,0,,17,13,26,10,118,25.2
+mutopia:ftp/HoretzkyF/horetzky16/horetzky16#movement02,mutopia,Nº. 16. Cherubini's Air.,Felix Horetzky,,,52,81,29,69,0,1,,4/4,1,16,7,4,0,10.5,2,3,1.0,3,0,0,0,0,0,0,,17,13,26,10,118,25.2
+mutopia:ftp/HoretzkyF/horetzky17/horetzky17#movement01,mutopia,Nº. 17. Polish Hymn.,Felix Horetzky,,,52,79,27,67.0,0,1,,3/4,1,16,4,0,0,11.1,5,3,1.0,2,0,0,0,0,0,0,,15,12,19,11,122,18.0
+mutopia:ftp/HoretzkyF/horetzky17/horetzky17#movement02,mutopia,Nº. 17. Polish Hymn.,Felix Horetzky,,,52,79,27,67.0,0,1,,3/4,1,16,4,0,0,11.1,5,3,1.0,2,0,0,0,0,0,0,,15,12,19,11,122,18.0
+mutopia:ftp/HoretzkyF/horetzky18/horetzky18#movement01,mutopia,Nº. 18. Kelvin Grove.,Felix Horetzky,,,60,81,21,69,0,1,,4/4,1,16,9,0,0,13.7,3,2,1.0,3,0,0,0,1,0,0,,17,12,26,9,126,19.2
+mutopia:ftp/HoretzkyF/horetzky18/horetzky18#movement02,mutopia,Nº. 18. Kelvin Grove.,Felix Horetzky,,,60,81,21,69,0,1,,4/4,1,16,9,0,0,13.7,3,2,1.0,3,0,0,0,1,0,0,,17,12,26,9,126,19.2
+mutopia:ftp/HoretzkyF/horetzky19/horetzky19#movement01,mutopia,Nº. 19. Podolian Air.,Felix Horetzky,,,52,81,29,69.0,0,1,,2/4,1,32,10,0,0,8.8,14,3,1.0,3,0,0,0,0,0,0,,17,12,37,17,160,19.2
+mutopia:ftp/HoretzkyF/horetzky19/horetzky19#movement02,mutopia,Nº. 19. Podolian Air.,Felix Horetzky,,,52,81,29,69.0,0,1,,2/4,1,32,10,0,0,8.8,14,3,1.0,3,0,0,0,0,0,0,,17,12,37,17,160,19.2
+mutopia:ftp/HoretzkyF/horetzky2/horetzky2#movement01,mutopia,Nº. 2. Russian Air.,Felix Horetzky,,,52,81,29,67.0,2,1,,2/4,1,16,10,0,0,5.7,12,3,1.0,3,0,0,0,0,0,0,,17,12,40,29,169,44.1
+mutopia:ftp/HoretzkyF/horetzky2/horetzky2#movement02,mutopia,Nº. 2. Russian Air.,Felix Horetzky,,,52,81,29,66.0,2,1,,2/4,1,16,7,0,0,4.8,10,3,1.0,3,0,0,0,0,0,0,,17,12,31,29,144,38.7
+mutopia:ftp/HoretzkyF/horetzky20/horetzky20#movement01,mutopia,Nº. 20. Fra Tante Angoscie.,Felix Horetzky,,,55,79,24,65,0,1,,2/4,1,8,0,0,0,9.6,10,3,1.0,4,0,0,0,0,0,0,,15,10,45,25,247,36.9
+mutopia:ftp/HoretzkyF/horetzky20/horetzky20#movement02,mutopia,Nº. 20. Fra Tante Angoscie.,Felix Horetzky,,,55,79,24,65,0,1,,2/4,1,8,0,0,0,9.6,10,3,1.0,4,0,0,0,0,0,0,,15,10,45,25,247,36.9
+mutopia:ftp/HoretzkyF/horetzky21/horetzky21#movement01,mutopia,Nº. 21. Au Clair De la Lune.,Felix Horetzky,,,52,76,24,67,0,1,,2/4,1,8,1,0,0,7.6,4,2,1.0,2,0,0,0,0,0,0,,12,10,33,17,133,19.2
+mutopia:ftp/HoretzkyF/horetzky21/horetzky21#movement02,mutopia,Nº. 21. Au Clair De la Lune.,Felix Horetzky,,,52,76,24,67,0,1,,2/4,1,8,1,0,0,7.6,4,2,1.0,2,0,0,0,0,0,0,,12,10,33,17,133,19.2
+mutopia:ftp/HoretzkyF/horetzky22/horetzky22#movement01,mutopia,Nº. 22. Dutch Air.,Felix Horetzky,,,52,79,27,67.0,0,1,,4/4,1,16,11,0,0,10.4,5,3,1.0,2,0,0,0,0,0,0,,15,12,44,19,211,43.8
+mutopia:ftp/HoretzkyF/horetzky22/horetzky22#movement02,mutopia,Nº. 22. Dutch Air.,Felix Horetzky,,,52,79,27,67.0,0,1,,4/4,1,16,11,0,0,10.4,5,3,1.0,2,0,0,0,0,0,0,,15,12,44,19,211,43.8
+mutopia:ftp/HoretzkyF/horetzky23/horetzky23#movement01,mutopia,Nº. 23. Portuguese Hymn.,Felix Horetzky,,,52,79,27,67,0,1,,4/4,1,8,5,0,0,8.7,2,3,1.0,2,0,0,0,0,0,0,,15,12,43,21,187,49.8
+mutopia:ftp/HoretzkyF/horetzky23/horetzky23#movement02,mutopia,Nº. 23. Portuguese Hymn.,Felix Horetzky,,,52,79,27,67,0,1,,4/4,1,8,5,0,0,8.7,2,3,1.0,2,0,0,0,0,0,0,,15,12,43,21,187,49.8
+mutopia:ftp/HoretzkyF/horetzky24/horetzky24#movement01,mutopia,Nº. 24. Air by Gelinek.,Felix Horetzky,,,52,83,31,69,3,1,,2/4,1,32,2,0,0,5.4,2,3,1.0,3,0,0,0,1,0,0,,19,12,26,17,116,19.2
+mutopia:ftp/HoretzkyF/horetzky24/horetzky24#movement02,mutopia,Nº. 24. Air by Gelinek.,Felix Horetzky,,,52,83,31,69,3,1,,2/4,1,32,2,0,0,5.4,2,3,1.0,3,0,0,0,1,0,0,,19,12,26,17,116,19.2
+mutopia:ftp/HoretzkyF/horetzky25/horetzky25#movement01,mutopia,Nº. 25. Pyrenese Melody.,Felix Horetzky,,,52,85,33,69,3,1,,2/4,1,16,9,0,0,4.8,0,2,1.0,3,0,0,0,0,0,0,,21,12,30,17,117,19.2
+mutopia:ftp/HoretzkyF/horetzky25/horetzky25#movement02,mutopia,Nº. 25. Pyrenese Melody.,Felix Horetzky,,,52,85,33,69,3,1,,2/4,1,16,9,0,0,4.8,0,2,1.0,3,0,0,0,0,0,0,,21,12,30,17,117,19.2
+mutopia:ftp/HoretzkyF/horetzky26/horetzky26#movement01,mutopia,Nº. 26. Polish Air.,Felix Horetzky,,,52,81,29,74.0,2,1,,3/8,1,16,3,0,0,7.3,4,2,1.0,2,0,0,0,0,0,0,,17,15,47,18,140,16.2
+mutopia:ftp/HoretzkyF/horetzky26/horetzky26#movement02,mutopia,Nº. 26. Polish Air.,Felix Horetzky,,,52,81,29,74.0,2,1,,3/8,1,16,3,0,0,7.3,4,2,1.0,2,0,0,0,0,0,0,,17,15,47,18,140,16.2
+mutopia:ftp/HoretzkyF/horetzky27/horetzky27#movement01,mutopia,Nº. 27. Scotch Air.,Felix Horetzky,,,57,86,29,74,2,1,,2/4,1,32,23,0,0,8.2,3,2,1.0,2,0,0,0,1,0,0,,22,19,35,17,147,19.2
+mutopia:ftp/HoretzkyF/horetzky27/horetzky27#movement02,mutopia,Nº. 27. Scotch Air.,Felix Horetzky,,,57,86,29,74,2,1,,2/4,1,32,23,0,0,8.2,3,2,1.0,2,0,0,0,1,0,0,,22,19,35,17,147,19.2
+mutopia:ftp/HoretzkyF/horetzky28/horetzky28#movement01,mutopia,Nº. 28. Pleyel's Hymn.,Felix Horetzky,,,52,79,27,70,0,1,,4/4,1,4,8,0,0,5.8,5,3,1.0,2,0,0,0,0,0,0,,15,12,32,17,106,41.4
+mutopia:ftp/HoretzkyF/horetzky28/horetzky28#movement02,mutopia,Nº. 28. Pleyel's Hymn.,Felix Horetzky,,,52,79,27,70,0,1,,4/4,1,4,8,0,0,5.8,5,3,1.0,2,0,0,0,0,0,0,,15,12,32,17,106,41.4
+mutopia:ftp/HoretzkyF/horetzky29/horetzky29#movement01,mutopia,Nº. 29. Scotch Air. “Donald.”,Felix Horetzky,,,55,86,31,74.0,1,1,,4/4,1,32,29,0,14,14.4,7,3,1.0,3,0,0,0,13,0,0,,22,19,66,22,333,48.0
+mutopia:ftp/HoretzkyF/horetzky29/horetzky29#movement02,mutopia,Nº. 29. Scotch Air. “Donald.”,Felix Horetzky,,,55,86,31,74.0,1,1,,4/4,1,32,29,0,14,14.4,7,3,1.0,3,0,0,0,13,0,0,,22,19,66,22,333,48.0
+mutopia:ftp/HoretzkyF/horetzky3/horetzky3#movement01,mutopia,Nº. 3. Andante by Beethoven.,Felix Horetzky,,,52,86,34,74,2,1,,3/8,1,32,18,0,0,7.7,19,3,1.0,3,0,0,0,5,0,0,,22,15,90,35,295,30.6
+mutopia:ftp/HoretzkyF/horetzky3/horetzky3#movement02,mutopia,Nº. 3. Andante by Beethoven.,Felix Horetzky,,,52,86,34,74,2,1,,3/8,1,32,18,0,0,7.7,19,3,1.0,3,0,0,0,5,0,0,,22,15,90,35,295,30.6
+mutopia:ftp/HoretzkyF/horetzky30/horetzky30#movement01,mutopia,Nº. 30. Sicilian Mariner's Hymn,Felix Horetzky,,,52,81,29,71,3,1,,2/4,1,16,8,0,0,6.9,1,3,1.0,2,0,0,0,1,0,0,,17,14,30,17,118,19.2
+mutopia:ftp/HoretzkyF/horetzky30/horetzky30#movement02,mutopia,Nº. 30. Sicilian Mariner's Hymn,Felix Horetzky,,,52,81,29,71,3,1,,2/4,1,16,8,0,0,6.9,1,3,1.0,2,0,0,0,1,0,0,,17,14,30,17,118,19.2
+mutopia:ftp/HoretzkyF/horetzky31/horetzky31#movement01,mutopia,Nº. 31. Auld Lang Syne.,Felix Horetzky,,,55,86,31,73.0,2,1,,2/4,1,16,20,0,0,8.0,2,3,1.0,2,0,0,0,0,0,0,,22,14,40,17,142,19.2
+mutopia:ftp/HoretzkyF/horetzky31/horetzky31#movement02,mutopia,Nº. 31. Auld Lang Syne.,Felix Horetzky,,,55,86,31,73.0,2,1,,2/4,1,16,20,0,0,8.0,2,3,1.0,2,0,0,0,0,0,0,,22,14,40,17,142,19.2
+mutopia:ftp/HoretzkyF/horetzky32/horetzky32#movement01,mutopia,Nº. 32. German Air.,Felix Horetzky,,,52,81,29,74,2,1,,2/4,1,16,7,0,0,9.5,3,2,1.0,3,0,0,0,0,0,0,,17,15,39,17,165,19.2
+mutopia:ftp/HoretzkyF/horetzky32/horetzky32#movement02,mutopia,Nº. 32. German Air.,Felix Horetzky,,,52,81,29,74,2,1,,2/4,1,16,7,0,0,9.5,3,2,1.0,3,0,0,0,0,0,0,,17,15,39,17,165,19.2
+mutopia:ftp/HoretzkyF/horetzky33/horetzky33#movement01,mutopia,Nº. 33. Scots Wha Hae Wi' Wallace Bled.,Felix Horetzky,,,57,81,24,69.0,2,1,,2/4,1,16,24,0,0,8.0,4,3,1.0,2,0,0,0,0,0,0,,17,14,32,25,202,28.8
+mutopia:ftp/HoretzkyF/horetzky33/horetzky33#movement02,mutopia,Nº. 33. Scots Wha Hae Wi' Wallace Bled.,Felix Horetzky,,,57,81,24,69.0,2,1,,2/4,1,16,24,0,0,8.0,4,3,1.0,2,0,0,0,0,0,0,,17,14,32,25,202,28.8
+mutopia:ftp/HoretzkyF/horetzky34/horetzky34#movement01,mutopia,Nº. 34. Vive Henri Quatre.,Felix Horetzky,,,55,82,27,70,-2,1,,4/4,1,8,16,0,0,7.8,13,3,1.0,2,0,0,0,0,0,0,,18,15,44,23,186,52.8
+mutopia:ftp/HoretzkyF/horetzky34/horetzky34#movement02,mutopia,Nº. 34. Vive Henri Quatre.,Felix Horetzky,,,55,82,27,70,-2,1,,4/4,1,8,16,0,0,7.8,13,3,1.0,2,0,0,0,0,0,0,,18,15,44,23,186,52.8
+mutopia:ftp/HoretzkyF/horetzky35/horetzky35#movement01,mutopia,Nº. 35. Air from the Ballet of Nina.,Felix Horetzky,,,52,88,36,76,3,1,,4/4,1,16,17,0,0,11.6,5,3,1.0,3,0,0,0,1,0,0,,24,19,52,17,210,38.4
+mutopia:ftp/HoretzkyF/horetzky35/horetzky35#movement02,mutopia,Nº. 35. Air from the Ballet of Nina.,Felix Horetzky,,,52,88,36,76,3,1,,4/4,1,16,17,0,0,11.6,5,3,1.0,3,0,0,0,1,0,0,,24,19,52,17,210,38.4
+mutopia:ftp/HoretzkyF/horetzky36/horetzky36#movement01,mutopia,Nº. 36. Danish Air.,Felix Horetzky,,,52,84,32,72,0,1,,3/4,1,16,15,0,0,9.7,11,2,1.0,3,0,0,0,1,0,0,,20,12,39,17,165,28.8
+mutopia:ftp/HoretzkyF/horetzky36/horetzky36#movement02,mutopia,Nº. 36. Danish Air.,Felix Horetzky,,,52,84,32,72,0,1,,3/4,1,16,15,0,0,9.7,11,2,1.0,3,0,0,0,1,0,0,,20,12,39,17,165,28.8
+mutopia:ftp/HoretzkyF/horetzky37/horetzky37#movement01,mutopia,Nº. 37. Post Horn Waltz.,Felix Horetzky,,,55,84,29,67.0,0,1,,3/4,1,16,5,0,0,5.2,0,3,1.0,2,0,0,0,0,0,0,,20,12,41,17,108,28.8
+mutopia:ftp/HoretzkyF/horetzky37/horetzky37#movement02,mutopia,Nº. 37. Post Horn Waltz.,Felix Horetzky,,,55,84,29,67.0,0,1,,3/4,1,16,5,0,0,5.2,0,3,1.0,2,0,0,0,0,0,0,,20,12,41,17,108,28.8
+mutopia:ftp/HoretzkyF/horetzky38/horetzky38#movement01,mutopia,Nº. 38. Old German Air.,Felix Horetzky,,,52,81,29,71.0,3,1,,2/4,1,16,11,0,0,6.1,1,2,1.0,2,0,0,0,0,0,0,,17,12,25,17,107,19.2
+mutopia:ftp/HoretzkyF/horetzky38/horetzky38#movement02,mutopia,Nº. 38. Old German Air.,Felix Horetzky,,,52,81,29,71.0,3,1,,2/4,1,16,11,0,0,6.1,1,2,1.0,2,0,0,0,0,0,0,,17,12,25,17,107,19.2
+mutopia:ftp/HoretzkyF/horetzky39/horetzky39#movement01,mutopia,Nº. 39. Air.,Felix Horetzky,,,55,86,31,74.0,2,1,,2/4,1,32,45,4,0,10.0,4,2,1.0,2,0,0,0,3,0,0,,22,17,75,17,174,19.2
+mutopia:ftp/HoretzkyF/horetzky39/horetzky39#movement02,mutopia,Nº. 39. Air.,Felix Horetzky,,,55,86,31,74.0,2,1,,2/4,1,32,45,4,0,10.0,4,2,1.0,2,0,0,0,3,0,0,,22,17,75,17,174,19.2
+mutopia:ftp/HoretzkyF/horetzky4/horetzky4#movement01,mutopia,Nº. 4. The Last Rose of Summer.,Felix Horetzky,,,52,79,27,67,1,1,,3/4,1,32,10,2,8,9.3,2,3,1.0,3,0,0,0,3,0,0,,15,14,29,13,132,21.6
+mutopia:ftp/HoretzkyF/horetzky4/horetzky4#movement02,mutopia,Nº. 4. The Last Rose of Summer.,Felix Horetzky,,,52,79,27,67,1,1,,3/4,1,32,10,2,8,9.3,2,3,1.0,3,0,0,0,3,0,0,,15,14,29,13,132,21.6
+mutopia:ftp/HoretzkyF/horetzky40/horetzky40#movement01,mutopia,Nº. 40. Polish Air . Krakoviak.,Felix Horetzky,,,52,81,29,71.0,3,1,,2/4,1,32,6,0,0,7.8,4,2,1.0,3,0,0,0,6,0,0,,17,13,32,17,139,19.2
+mutopia:ftp/HoretzkyF/horetzky40/horetzky40#movement02,mutopia,Nº. 40. Polish Air . Krakoviak.,Felix Horetzky,,,52,81,29,71.0,3,1,,2/4,1,32,6,0,0,7.8,4,2,1.0,3,0,0,0,6,0,0,,17,13,32,17,139,19.2
+mutopia:ftp/HoretzkyF/horetzky41/horetzky41#movement01,mutopia,Nº. 41. Scotch Air.,Felix Horetzky,,,57,86,29,74,2,1,,2/4,1,32,5,0,0,9.6,5,2,1.0,3,0,0,0,0,0,0,,22,17,24,13,128,14.4
+mutopia:ftp/HoretzkyF/horetzky41/horetzky41#movement02,mutopia,Nº. 41. Scotch Air.,Felix Horetzky,,,57,86,29,74,2,1,,2/4,1,32,5,0,0,9.6,5,2,1.0,3,0,0,0,0,0,0,,22,17,24,13,128,14.4
+mutopia:ftp/HoretzkyF/horetzky42/horetzky42#movement01,mutopia,Nº. 42. Swedish Air.,Felix Horetzky,,,53,84,31,69,0,1,,4/4,1,16,19,2,0,9.9,2,3,1.0,2,0,0,0,0,0,0,,20,12,45,16,168,38.4
+mutopia:ftp/HoretzkyF/horetzky42/horetzky42#movement02,mutopia,Nº. 42. Swedish Air.,Felix Horetzky,,,53,84,31,69,0,1,,4/4,1,16,19,2,0,9.9,2,3,1.0,2,0,0,0,0,0,0,,20,12,45,16,168,38.4
+mutopia:ftp/HoretzkyF/horetzky43/horetzky43#movement01,mutopia,Nº. 43. Danish Air.,Felix Horetzky,,,53,86,33,71,0,1,,2/2,1,16,4,0,0,14.1,11,3,1.0,3,0,0,0,3,0,0,,22,14,55,17,241,40.8
+mutopia:ftp/HoretzkyF/horetzky43/horetzky43#movement02,mutopia,Nº. 43. Danish Air.,Felix Horetzky,,,53,86,33,71,0,1,,2/2,1,16,4,0,0,14.1,11,3,1.0,3,0,0,0,3,0,0,,22,14,55,17,241,40.8
+mutopia:ftp/HoretzkyF/horetzky44/horetzky44#movement01,mutopia,"Nº. 44. Il Pleut, Il Pleut, Bergère.",Felix Horetzky,,,57,83,26,76,2,1,,6/8,1,16,26,5,0,8.8,1,2,1.0,2,0,0,0,2,0,0,,19,17,36,17,158,28.8
+mutopia:ftp/HoretzkyF/horetzky44/horetzky44#movement02,mutopia,"Nº. 44. Il Pleut, Il Pleut, Bergère.",Felix Horetzky,,,57,83,26,76,2,1,,6/8,1,16,26,5,0,8.8,1,2,1.0,2,0,0,0,2,0,0,,19,17,36,17,158,28.8
+mutopia:ftp/HoretzkyF/horetzky45/horetzky45#movement01,mutopia,Nº. 45. Rule Britannia.,Felix Horetzky,,,52,84,32,67,0,1,,4/4,1,16,5,0,0,19.0,8,4,1.0,3,0,0,0,0,0,0,,20,12,53,15,302,33.6
+mutopia:ftp/HoretzkyF/horetzky45/horetzky45#movement02,mutopia,Nº. 45. Rule Britannia.,Felix Horetzky,,,52,84,32,67,0,1,,4/4,1,16,5,0,0,19.0,8,4,1.0,3,0,0,0,0,0,0,,20,12,53,15,302,33.6
+mutopia:ftp/HoretzkyF/horetzky46/horetzky46#movement01,mutopia,Nº. 46. “C'est L'Amour” a French Air.,Felix Horetzky,,,55,77,22,67,0,1,,6/8,1,16,9,0,0,10.2,1,2,1.0,2,0,0,0,1,0,0,,13,10,37,20,211,36.0
+mutopia:ftp/HoretzkyF/horetzky46/horetzky46#movement02,mutopia,Nº. 46. “C'est L'Amour” a French Air.,Felix Horetzky,,,55,77,22,67,0,1,,6/8,1,16,9,0,0,10.2,1,2,1.0,2,0,0,0,1,0,0,,13,10,37,20,211,36.0
+mutopia:ftp/HoretzkyF/horetzky47/horetzky47#movement01,mutopia,Nº. 47. Scotch Air.,Felix Horetzky,,,52,79,27,69,1,1,,2/4,1,32,8,0,0,8.9,19,3,1.0,2,0,0,0,0,0,0,,15,14,52,25,233,28.8
+mutopia:ftp/HoretzkyF/horetzky47/horetzky47#movement02,mutopia,Nº. 47. Scotch Air.,Felix Horetzky,,,52,79,27,69,1,1,,2/4,1,32,8,0,0,8.9,19,3,1.0,2,0,0,0,0,0,0,,15,14,52,25,233,28.8
+mutopia:ftp/HoretzkyF/horetzky48/horetzky48#movement01,mutopia,Nº. 48. An Alexis.,Felix Horetzky,,,52,81,29,73,2,1,,3/4,1,16,14,0,0,8.2,8,2,1.0,2,0,0,0,2,0,0,,17,14,41,21,205,36.0
+mutopia:ftp/HoretzkyF/horetzky48/horetzky48#movement02,mutopia,Nº. 48. An Alexis.,Felix Horetzky,,,52,81,29,73,2,1,,3/4,1,16,14,0,0,8.2,8,2,1.0,2,0,0,0,2,0,0,,17,14,41,21,205,36.0
+mutopia:ftp/HoretzkyF/horetzky49/horetzky49#movement01,mutopia,Nº. 49. March by Rossini.,Felix Horetzky,,,52,88,36,71.0,3,1,,4/4,1,16,58,14,2,13.5,14,4,1.0,3,0,1,0,0,0,0,,24,14,58,22,316,48.6
+mutopia:ftp/HoretzkyF/horetzky49/horetzky49#movement02,mutopia,Nº. 49. March by Rossini.,Felix Horetzky,,,52,88,36,71.0,3,1,,4/4,1,16,58,14,2,13.5,14,4,1.0,3,0,1,0,0,0,0,,24,14,58,22,316,48.6
+mutopia:ftp/HoretzkyF/horetzky5/horetzky5#movement01,mutopia,Nº. 5. French Air.,Felix Horetzky,,,53,81,28,72.0,0,1,,2/4,1,16,11,0,0,4.2,8,3,1.0,2,0,0,0,0,0,0,,17,15,78,42,207,48.0
+mutopia:ftp/HoretzkyF/horetzky5/horetzky5#movement02,mutopia,Nº. 5. French Air.,Felix Horetzky,,,53,81,28,72.0,0,1,,2/4,1,16,11,0,0,4.2,8,3,1.0,2,0,0,0,0,0,0,,17,15,78,42,207,48.0
+mutopia:ftp/HoretzkyF/horetzky50/horetzky50#movement01,mutopia,Nº. 50. Je Suis Lindor.,Felix Horetzky,,,52,83,31,71,3,1,,2/4,1,16,4,0,0,8.5,2,2,1.0,3,0,0,0,1,0,0,,19,14,41,18,163,20.4
+mutopia:ftp/HoretzkyF/horetzky50/horetzky50#movement02,mutopia,Nº. 50. Je Suis Lindor.,Felix Horetzky,,,52,83,31,71,3,1,,2/4,1,16,4,0,0,8.5,2,2,1.0,3,0,0,0,1,0,0,,19,14,41,18,163,20.4
+mutopia:ftp/HoretzkyF/horetzky51/horetzky51#movement01,mutopia,Nº. 51. Scotch Air. Kelso.,Felix Horetzky,,,52,78,26,71.0,3,1,,2/4,1,16,4,0,0,8.0,2,2,0.889,2,0,0,0,0,0,0,,14,12,17,9,73,9.9
+mutopia:ftp/HoretzkyF/horetzky51/horetzky51#movement02,mutopia,Nº. 51. Scotch Air. Kelso.,Felix Horetzky,,,52,78,26,71.0,3,1,,2/4,1,16,4,0,0,8.0,2,2,0.889,2,0,0,0,0,0,0,,14,12,17,9,73,9.9
+mutopia:ftp/HoretzkyF/horetzky52/horetzky52#movement01,mutopia,Nº. 52. Polish Air. Krakoviak.,Felix Horetzky,,,52,81,29,69,3,1,,2/4,1,16,12,0,0,6.6,1,2,1.0,2,0,0,0,0,0,0,,17,12,26,17,119,19.2
+mutopia:ftp/HoretzkyF/horetzky52/horetzky52#movement02,mutopia,Nº. 52. Polish Air. Krakoviak.,Felix Horetzky,,,52,81,29,69,3,1,,2/4,1,16,12,0,0,6.6,1,2,1.0,2,0,0,0,0,0,0,,17,12,26,17,119,19.2
+mutopia:ftp/HoretzkyF/horetzky53/horetzky53#movement01,mutopia,Nº. 53. German Air.,Felix Horetzky,,,52,86,34,74.0,2,1,,4/4,1,16,13,0,0,10.1,14,3,1.0,3,0,0,0,12,0,0,,22,15,64,30,329,68.4
+mutopia:ftp/HoretzkyF/horetzky53/horetzky53#movement02,mutopia,Nº. 53. German Air.,Felix Horetzky,,,52,86,34,74.0,2,1,,4/4,1,16,13,0,0,10.1,14,3,1.0,3,0,0,0,12,0,0,,22,15,64,30,329,68.4
+mutopia:ftp/HoretzkyF/horetzky54/horetzky54#movement01,mutopia,Nº. 54. March by Gallenberg.,Felix Horetzky,,,53,84,31,68,0,1,,4/4,1,16,11,0,0,10.4,10,3,1.0,2,0,0,0,0,0,0,,20,13,57,17,187,39.6
+mutopia:ftp/HoretzkyF/horetzky54/horetzky54#movement02,mutopia,Nº. 54. March by Gallenberg.,Felix Horetzky,,,53,84,31,68,0,1,,4/4,1,16,11,0,0,10.4,10,3,1.0,2,0,0,0,0,0,0,,20,13,57,17,187,39.6
+mutopia:ftp/HoretzkyF/horetzky55/horetzky55#movement01,mutopia,Nº. 55. Rousseau's Dream.,Felix Horetzky,,,57,86,29,76,2,1,,4/4,1,16,15,0,0,11.3,1,2,1.0,3,0,0,0,3,0,0,,22,17,37,13,154,28.8
+mutopia:ftp/HoretzkyF/horetzky55/horetzky55#movement02,mutopia,Nº. 55. Rousseau's Dream.,Felix Horetzky,,,57,86,29,76,2,1,,4/4,1,16,15,0,0,11.3,1,2,1.0,3,0,0,0,3,0,0,,22,17,37,13,154,28.8
+mutopia:ftp/HoretzkyF/horetzky56/horetzky56#movement01,mutopia,Nº. 56. Chanson Des Marseillois.,Felix Horetzky,,,57,81,24,71,2,1,,4/4,1,16,24,0,0,9.9,13,2,1.0,3,0,0,0,0,0,0,,17,14,57,24,256,57.8
+mutopia:ftp/HoretzkyF/horetzky56/horetzky56#movement02,mutopia,Nº. 56. Chanson Des Marseillois.,Felix Horetzky,,,57,81,24,71,2,1,,4/4,1,16,24,0,0,9.9,13,2,1.0,3,0,0,0,0,0,0,,17,14,57,24,256,57.8
+mutopia:ftp/HoretzkyF/horetzky57/horetzky57#movement01,mutopia,Nº. 57. Old Saxon Air.,Felix Horetzky,,,52,83,31,74,3,1,,2/4,1,32,3,0,0,9.8,5,2,1.0,2,0,0,0,1,0,0,,19,17,31,12,124,14.4
+mutopia:ftp/HoretzkyF/horetzky57/horetzky57#movement02,mutopia,Nº. 57. Old Saxon Air.,Felix Horetzky,,,52,83,31,74,3,1,,2/4,1,32,3,0,0,9.8,5,2,1.0,2,0,0,0,1,0,0,,19,17,31,12,124,14.4
+mutopia:ftp/HoretzkyF/horetzky58/horetzky58#movement01,mutopia,Nº. 58. Sul Margine D'un Rio.,Felix Horetzky,,,53,79,26,67,0,1,,2/4,1,32,8,0,0,11.9,3,2,1.0,2,0,0,0,0,0,0,,15,12,27,13,160,14.4
+mutopia:ftp/HoretzkyF/horetzky58/horetzky58#movement02,mutopia,Nº. 58. Sul Margine D'un Rio.,Felix Horetzky,,,53,79,26,67,0,1,,2/4,1,32,8,0,0,11.9,3,2,1.0,2,0,0,0,0,0,0,,15,12,27,13,160,14.4
+mutopia:ftp/HoretzkyF/horetzky59/horetzky59#movement01,mutopia,Nº. 59. Venetian Air. “La Biondina”.,Felix Horetzky,,,52,83,31,76.0,2,1,,6/8,1,16,38,0,0,10.3,6,2,1.0,2,0,0,0,1,0,0,,19,17,54,23,257,39.6
+mutopia:ftp/HoretzkyF/horetzky59/horetzky59#movement02,mutopia,Nº. 59. Venetian Air. “La Biondina”.,Felix Horetzky,,,52,83,31,76.0,2,1,,6/8,1,16,38,0,0,10.3,6,2,1.0,2,0,0,0,1,0,0,,19,17,54,23,257,39.6
+mutopia:ftp/HoretzkyF/horetzky6/horetzky6#movement01,mutopia,Nº. 6. Un Noel.,Felix Horetzky,,,52,79,27,69,0,1,,4/4,1,16,20,0,0,8.5,9,2,0.941,2,0,0,0,0,0,0,,15,10,25,17,149,38.4
+mutopia:ftp/HoretzkyF/horetzky6/horetzky6#movement02,mutopia,Nº. 6. Un Noel.,Felix Horetzky,,,52,79,27,69,0,1,,4/4,1,16,20,0,0,8.5,9,2,0.941,2,0,0,0,0,0,0,,15,10,25,17,149,38.4
+mutopia:ftp/HoretzkyF/horetzky60/horetzky60#movement01,mutopia,Nº. 60. Care Pupille By Blangini.,Felix Horetzky,,,56,84,28,74,2,1,,6/8,1,16,100,2,0,9.9,33,2,1.0,3,0,0,0,16,0,0,,20,15,94,44,461,75.6
+mutopia:ftp/HoretzkyF/horetzky60/horetzky60#movement02,mutopia,Nº. 60. Care Pupille By Blangini.,Felix Horetzky,,,56,84,28,74,2,1,,6/8,1,16,100,2,0,9.9,33,2,1.0,3,0,0,0,16,0,0,,20,15,94,44,461,75.6
+mutopia:ftp/HoretzkyF/horetzky7/horetzky7#movement01,mutopia,Nº. 7. Le Petit Tambour.,Felix Horetzky,,,53,79,26,71,0,1,,2/4,1,32,11,0,0,7.2,8,3,1.0,3,0,0,0,0,0,0,,15,12,42,32,239,38.7
+mutopia:ftp/HoretzkyF/horetzky7/horetzky7#movement02,mutopia,Nº. 7. Le Petit Tambour.,Felix Horetzky,,,53,79,26,71,0,1,,2/4,1,32,11,0,0,7.2,8,3,1.0,3,0,0,0,0,0,0,,15,12,42,32,239,38.7
+mutopia:ftp/HoretzkyF/horetzky8/horetzky8#movement01,mutopia,Nº. 8. Russian Air.,Felix Horetzky,,,52,76,24,68,0,1,,2/4,1,16,12,0,0,6.2,15,2,1.0,2,0,0,0,0,0,0,,12,8,20,17,112,19.2
+mutopia:ftp/HoretzkyF/horetzky8/horetzky8#movement02,mutopia,Nº. 8. Russian Air.,Felix Horetzky,,,52,76,24,68,0,1,,2/4,1,16,12,0,0,6.2,15,2,1.0,2,0,0,0,0,0,0,,12,8,20,17,112,19.2
+mutopia:ftp/HoretzkyF/horetzky9/horetzky9#movement01,mutopia,Nº. 9. Polish National Air.,Felix Horetzky,,,52,81,29,71.0,3,1,,3/4,1,16,17,0,0,8.7,1,2,1.0,3,0,0,0,0,0,0,,17,12,37,17,158,28.8
+mutopia:ftp/HoretzkyF/horetzky9/horetzky9#movement02,mutopia,Nº. 9. Polish National Air.,Felix Horetzky,,,52,81,29,71.0,3,1,,3/4,1,16,17,0,0,8.7,1,2,1.0,3,0,0,0,0,0,0,,17,12,37,17,158,28.8
+mutopia:ftp/JolyD/JolyD_Tyrolienne/JolyD_Tyrolienne#movement02,mutopia,Tyrolienne,D. Joly,,,40,74,34,64,2,1,,3/8,1,32,31,0,0,6.1,8,4,1.0,2,0,0,0,0,0,0,,10,5,37,36,221,32.7
+mutopia:ftp/KnjzeF/SixStudiesA/SixStudiesA#movement01,mutopia,Six Progressive Studies,Frantisek Max Knjze,,,52,79,27,67,0,1,,4/4,1,8,0,0,108,9.3,19,3,1.0,2,0,0,0,0,0,0,,15,10,233,56,575,124.8
+mutopia:ftp/KnjzeF/SixStudiesA/SixStudiesA#movement02,mutopia,Six Progressive Studies,Frantisek Max Knjze,,,52,79,27,67,0,1,,4/4,1,8,0,0,108,9.3,19,3,1.0,2,0,0,0,0,0,0,,15,10,233,56,575,124.8
+mutopia:ftp/KnjzeF/SixStudiesB/SixStudiesB#movement01,mutopia,Six Progressive Studies,Frantisek Max Knjze,,,52,78,26,69.0,0,2,,2/4,1,16,3,0,0,6.1,25,3,1.0,2,0,0,0,0,0,0,,14,12,142,60,391,72.3
+mutopia:ftp/KnjzeF/SixStudiesB/SixStudiesB#movement02,mutopia,Six Progressive Studies,Frantisek Max Knjze,,,52,78,26,69.0,0,2,,2/4,1,16,3,0,0,6.1,25,3,1.0,2,0,0,0,0,0,0,,14,12,142,60,391,72.3
+mutopia:ftp/KnjzeF/SixStudiesC/SixStudiesC#movement01,mutopia,Six Progressive Studies,Frantisek Max Knjze,,,52,79,27,69,0,1,,2/4,1,16,0,0,0,9.0,34,0,0.957,2,0,0,0,0,0,0,,15,12,180,47,457,60.6
+mutopia:ftp/KnjzeF/SixStudiesC/SixStudiesC#movement02,mutopia,Six Progressive Studies,Frantisek Max Knjze,,,52,79,27,69,0,1,,2/4,1,16,0,0,0,9.0,34,0,0.957,2,0,0,0,0,0,0,,15,12,180,47,457,60.6
+mutopia:ftp/KnjzeF/SixStudiesD/SixStudiesD#movement01,mutopia,Six Progressive Studies,Frantisek Max Knjze,,,52,79,27,69,0,1,,3/8,1,8,32,8,0,4.6,15,3,0.985,3,0,0,0,0,0,0,,15,12,155,68,317,61.5
+mutopia:ftp/KnjzeF/SixStudiesD/SixStudiesD#movement02,mutopia,Six Progressive Studies,Frantisek Max Knjze,,,52,79,27,69,0,1,,3/8,1,8,32,8,0,4.6,15,3,0.985,3,0,0,0,0,0,0,,15,12,155,68,317,61.5
+mutopia:ftp/KnjzeF/SixStudiesE/SixStudiesE#movement01,mutopia,Six Progressive Studies,Frantisek Max Knjze,,,52,79,27,69,1,1,,2/4,1,16,0,0,106,8.8,17,2,1.0,2,0,0,0,0,0,0,,15,12,220,40,384,40.5
+mutopia:ftp/KnjzeF/SixStudiesE/SixStudiesE#movement02,mutopia,Six Progressive Studies,Frantisek Max Knjze,,,52,79,27,69,1,1,,2/4,1,16,0,0,106,8.8,17,2,1.0,2,0,0,0,0,0,0,,15,12,220,40,384,40.5
+mutopia:ftp/KnjzeF/knjze12monferA/knjze12monferA#movement01,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,52,84,32,72.0,0,1,,6/8,1,16,29,0,0,9.4,14,3,1.0,2,0,0,0,9,0,0,,20,16,32,16,167,30.4
+mutopia:ftp/KnjzeF/knjze12monferA/knjze12monferA#movement02,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,52,84,32,72.0,0,1,,6/8,1,16,29,0,0,9.4,14,3,1.0,2,0,0,0,9,0,0,,20,16,32,16,167,30.4
+mutopia:ftp/KnjzeF/knjze12monferB/knjze12monferB#movement01,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,52,81,29,71,0,1,,6/8,1,16,33,0,0,10.9,16,3,1.0,2,0,0,0,8,0,0,,17,13,41,17,200,30.9
+mutopia:ftp/KnjzeF/knjze12monferB/knjze12monferB#movement02,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,52,81,29,71,0,1,,6/8,1,16,33,0,0,10.9,16,3,1.0,2,0,0,0,8,0,0,,17,13,41,17,200,30.9
+mutopia:ftp/KnjzeF/knjze12monferC/knjze12monferC#movement01,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,53,81,28,70.0,-1,1,,6/8,1,16,21,0,0,10.7,19,3,1.0,2,0,0,0,7,0,0,,17,13,34,17,200,31.3
+mutopia:ftp/KnjzeF/knjze12monferC/knjze12monferC#movement02,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,53,81,28,70.0,-1,1,,6/8,1,16,21,0,0,10.7,19,3,1.0,2,0,0,0,7,0,0,,17,13,34,17,200,31.3
+mutopia:ftp/KnjzeF/knjze12monferD/knjze12monferD#movement01,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,53,81,28,69,-1,1,,6/8,1,16,18,0,0,9.1,12,3,1.0,2,0,0,0,1,0,0,,17,13,62,17,162,28.8
+mutopia:ftp/KnjzeF/knjze12monferD/knjze12monferD#movement02,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,53,81,28,69,-1,1,,6/8,1,16,18,0,0,9.1,12,3,1.0,2,0,0,0,1,0,0,,17,13,62,17,162,28.8
+mutopia:ftp/KnjzeF/knjze12monferE/knjze12monferE#movement01,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,55,83,28,71,2,1,,6/8,1,16,17,0,0,10.4,15,3,1.0,2,0,0,0,8,0,0,,19,14,31,17,199,29.6
+mutopia:ftp/KnjzeF/knjze12monferE/knjze12monferE#movement02,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,55,83,28,71,2,1,,6/8,1,16,17,0,0,10.4,15,3,1.0,2,0,0,0,8,0,0,,19,14,31,17,199,29.6
+mutopia:ftp/KnjzeF/knjze12monferF/knjze12monferF#movement01,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,52,79,27,71.0,1,1,,6/8,1,16,32,0,0,9.9,4,3,1.0,2,0,0,0,0,0,0,,15,12,73,17,201,29.4
+mutopia:ftp/KnjzeF/knjze12monferF/knjze12monferF#movement02,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,52,79,27,71.0,1,1,,6/8,1,16,32,0,0,9.9,4,3,1.0,2,0,0,0,0,0,0,,15,12,73,17,201,29.4
+mutopia:ftp/KnjzeF/knjze12monferG/knjze12monferG#movement01,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,52,81,29,71,1,1,,6/8,1,16,13,0,0,11.0,18,3,1.0,2,0,0,0,7,0,0,,17,14,57,17,207,28.8
+mutopia:ftp/KnjzeF/knjze12monferG/knjze12monferG#movement02,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,52,81,29,71,1,1,,6/8,1,16,13,0,0,11.0,18,3,1.0,2,0,0,0,7,0,0,,17,14,57,17,207,28.8
+mutopia:ftp/KnjzeF/knjze12monferH/knjze12monferH#movement01,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,52,83,31,71,4,1,,6/8,1,16,29,0,0,11.0,6,3,1.0,2,0,0,0,2,0,0,,19,16,73,17,203,29.4
+mutopia:ftp/KnjzeF/knjze12monferH/knjze12monferH#movement02,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,52,83,31,71,4,1,,6/8,1,16,29,0,0,11.0,6,3,1.0,2,0,0,0,2,0,0,,19,16,73,17,203,29.4
+mutopia:ftp/KnjzeF/knjze12monferI/knjze12monferI#movement01,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,52,83,31,73,3,1,,6/8,1,16,9,0,0,11.6,11,3,1.0,2,0,0,0,5,0,0,,19,16,31,16,212,30.0
+mutopia:ftp/KnjzeF/knjze12monferI/knjze12monferI#movement02,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,52,83,31,73,3,1,,6/8,1,16,9,0,0,11.6,11,3,1.0,2,0,0,0,5,0,0,,19,16,31,16,212,30.0
+mutopia:ftp/KnjzeF/knjze12monferJ/knjze12monferJ#movement01,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,52,81,29,71.0,2,1,,6/8,1,16,25,0,0,10.4,14,3,1.0,2,0,0,0,6,0,0,,17,14,34,17,189,29.4
+mutopia:ftp/KnjzeF/knjze12monferJ/knjze12monferJ#movement02,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,52,81,29,71.0,2,1,,6/8,1,16,25,0,0,10.4,14,3,1.0,2,0,0,0,6,0,0,,17,14,34,17,189,29.4
+mutopia:ftp/KnjzeF/knjze12monferK/knjze12monferK#movement01,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,52,84,32,71.0,1,1,,6/8,1,16,30,0,0,11.2,5,3,1.0,2,0,0,0,8,0,0,,20,14,38,17,204,28.8
+mutopia:ftp/KnjzeF/knjze12monferK/knjze12monferK#movement02,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,52,84,32,71.0,1,1,,6/8,1,16,30,0,0,11.2,5,3,1.0,2,0,0,0,8,0,0,,20,14,38,17,204,28.8
+mutopia:ftp/KnjzeF/knjze12monferL/knjze12monferL#movement01,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,52,88,36,71.0,4,1,,6/8,1,16,22,0,0,10.4,5,3,1.0,2,0,0,0,4,0,0,,24,16,55,17,198,29.4
+mutopia:ftp/KnjzeF/knjze12monferL/knjze12monferL#movement02,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,52,88,36,71.0,4,1,,6/8,1,16,22,0,0,10.4,5,3,1.0,2,0,0,0,4,0,0,,24,16,55,17,198,29.4
+mutopia:ftp/KuffnerJ/air-varie/air-varie#movement01,mutopia,Air varié,Joseph Küffner,,,43,64,21,55.0,0,1,,2/4,1,16,3,0,0,8.0,0,3,1.0,2,0,0,0,0,0,0,,3,3,0,17,138,27.3
+mutopia:ftp/KuffnerJ/air-varie/air-varie#movement02,mutopia,Air varié,Joseph Küffner,,,41,69,28,56.0,0,1,,2/4,1,16,0,0,0,8.5,7,0,0.947,2,0,0,0,0,0,0,,5,3,1,19,179,21.6
+mutopia:ftp/KuffnerJ/air-varie/air-varie#movement03,mutopia,Air varié,Joseph Küffner,,,41,69,28,60,0,1,,2/4,1,16,0,0,18,8.5,10,0,0.654,2,0,0,0,0,0,0,,5,3,0,26,240,21.6
+mutopia:ftp/MatiegkaWT/Matiegka2/Matiegka2#movement01,mutopia,Nº. 2. Rondo,Wenzel Thomas Matiegka,,,52,79,27,69.0,0,1,,2/4,1,32,15,0,78,8.5,24,4,1.0,3,0,0,0,10,0,0,,15,12,351,119,1157,137.8
+mutopia:ftp/MatiegkaWT/Matiegka2/Matiegka2#movement02,mutopia,Nº. 2. Rondo,Wenzel Thomas Matiegka,,,52,79,27,69.0,0,1,,2/4,1,32,15,0,78,8.5,24,4,1.0,3,0,0,0,10,0,0,,15,12,351,119,1157,137.8
+mutopia:ftp/MatiegkaWT/Matiegka3/Matiegka3#movement01,mutopia,Nº. 3. Andante,Wenzel Thomas Matiegka,,,52,81,29,69,0,1,,4/4,1,8,17,0,78,7.2,40,3,1.0,2,0,0,0,2,0,0,,17,15,316,98,830,242.7
+mutopia:ftp/MatiegkaWT/Matiegka3/Matiegka3#movement02,mutopia,Nº. 3. Andante,Wenzel Thomas Matiegka,,,52,81,29,69,0,1,,4/4,1,8,17,0,78,7.2,40,3,1.0,2,0,0,0,2,0,0,,17,15,316,98,830,242.7
+mutopia:ftp/MatiegkaWT/Matiegka4/Matiegka4#movement01,mutopia,Nº. 4. Menuetto.,Wenzel Thomas Matiegka,,,52,81,29,69,0,1,,3/4,1,16,73,4,0,6.4,111,3,1.0,2,0,0,0,39,0,0,,17,13,434,178,1327,330.3
+mutopia:ftp/MatiegkaWT/Matiegka4/Matiegka4#movement02,mutopia,Nº. 4. Menuetto.,Wenzel Thomas Matiegka,,,52,81,29,69,0,1,,3/4,1,16,73,4,0,6.4,111,3,1.0,2,0,0,0,39,0,0,,17,13,434,178,1327,330.3
+mutopia:ftp/MatiegkaWT/Matiegka5/Matiegka5#movement01,mutopia,Nº. 5. Siciliano.,Wenzel Thomas Matiegka,,,52,84,32,69,0,2,,6/8,1,32,156,0,140,12.4,189,4,1.0,3,0,0,0,36,0,0,,20,12,525,131,1819,229.4
+mutopia:ftp/MatiegkaWT/Matiegka5/Matiegka5#movement02,mutopia,Nº. 5. Siciliano.,Wenzel Thomas Matiegka,,,52,84,32,69,0,2,,6/8,1,32,156,0,140,12.4,189,4,1.0,3,0,0,0,36,0,0,,20,12,525,131,1819,229.4
+mutopia:ftp/MertzJK/mertz_etude/mertz_etude#movement01,mutopia,Etude in A minor,Johann Kaspar Mertz,,,40,76,36,59.0,0,1,,4/4,1,16,1,0,0,15.6,20,3,1.0,2,0,0,0,0,0,0,,12,2,11,17,276,38.4
+mutopia:ftp/MilanL/milan-pavan2/milan-pavan2#movement02,mutopia,Pavan 2,Luis Milan,,,62,81,19,73.0,2,1,,3/2,1,4,7,0,0,2.5,4,2,1.0,2,0,0,0,0,0,0,,17,14,20,48,121,190.2
+mutopia:ftp/PapezikR/forsting/forsting#movement01,mutopia,Recuerdos,Radan Papežík,,,52,90,38,69.0,5,1,,3/4,1,8,33,0,3,6.5,95,0,0.493,3,0,0,0,0,0,0,,23,14,223,71,512,144.6
+mutopia:ftp/SorF/O1/sor_op1_1/sor_op1_1#movement01,mutopia,Six divertissements pour la guitare,Fernando Sor,,,42,74,32,57,1,1,,3/4,1,16,13,0,4,12.4,11,4,1.0,3,0,0,0,2,0,0,,10,3,5,18,233,37.2
+mutopia:ftp/SorF/O2/sor_op2_1/sor_op2_1#movement01,mutopia,Six divertissements pour la guitare,Fernando Sor,,,55,83,28,72,1,1,,3/4,1,4,7,0,0,7.3,8,2,1.0,3,0,0,0,0,0,0,,19,15,40,16,119,33.0
+mutopia:ftp/SorF/O2/sor_op2_2/sor_op2_2#movement01,mutopia,Six divertissements pour la guitare,Fernando Sor,,,50,84,34,72.0,1,1,,3/8,1,32,13,0,8,4.8,5,2,1.0,3,0,0,0,9,0,0,,20,15,46,49,243,43.8
 mutopia:ftp/SorF/O2/sor_op2_3/sor_op2_3#movement02,mutopia,Six divertissements pour la guitare,Fernando Sor,,,50,86,36,74.0,-1,2,84.0,2/4,1,32,26,0,0,10.0,49,3,1.0,3,0,0,0,4,0,0,,22,17,232,52,555,74.3
-mutopia:ftp/SorF/O29/o29-13/o29-13#movement01,mutopia,Opus 29 no. 13,Fernando Sor,,,52,86,34,72,-2,1,,2/4,1,16,2,0,201,9.2,49,0,0.667,3,0,0,0,0,0,0,,22,15,437,87,978,
-mutopia:ftp/SorF/O35/sorf_op35_no1/sorf_op35_no1#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,43,67,24,55,,0,,4/4,1,4,2,4,0,5.3,0,2,1.0,2,0,0,0,0,0,0,,3,3,0,33,190,
-mutopia:ftp/SorF/O35/sorf_op35_no10/sorf_op35_no10#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,41,69,28,57,-1,1,,2/4,1,32,9,0,0,9.7,11,2,1.0,3,0,0,0,1,0,0,,5,3,6,37,378,
-mutopia:ftp/SorF/O35/sorf_op35_no11/sorf_op35_no11#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,41,72,31,62.0,-1,1,,2/4,1,8,0,2,0,3.1,21,3,1.0,2,0,0,0,0,0,0,,8,5,7,38,151,
-mutopia:ftp/SorF/O35/sorf_op35_no13/sorf_op35_no13#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,41,67,26,55.0,0,1,,2/4,1,16,0,0,0,11.2,9,0,0.97,3,0,0,0,0,0,0,,4,3,0,33,371,
-mutopia:ftp/SorF/O35/sorf_op35_no15/sorf_op35_no15#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,40,73,33,62.0,3,1,,2/4,1,16,1,0,0,9.8,3,2,1.0,2,0,0,0,2,0,0,,9,5,23,25,257,
-mutopia:ftp/SorF/O35/sorf_op35_no16/sorf_op35_no16#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,41,73,32,61.0,-1,1,,3/4,1,16,35,0,0,7.6,72,4,1.0,3,0,0,0,8,0,0,,9,4,25,63,614,
-mutopia:ftp/SorF/O35/sorf_op35_no17/sorf_op35_no17#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,40,69,29,57.0,2,1,,4/4,1,16,53,0,0,8.1,29,3,1.0,3,0,0,0,0,0,0,,5,4,25,33,332,
-mutopia:ftp/SorF/O35/sorf_op35_no18/sorf_op35_no18#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,40,67,27,59.0,1,1,,2/4,1,16,3,0,0,9.2,32,3,1.0,3,0,0,0,0,0,0,,4,3,21,41,379,
+mutopia:ftp/SorF/O29/o29-13/o29-13#movement01,mutopia,Opus 29 no. 13,Fernando Sor,,,52,86,34,72,-2,1,,2/4,1,16,2,0,201,9.2,49,0,0.667,3,0,0,0,0,0,0,,22,15,437,87,978,76.4
+mutopia:ftp/SorF/O35/sorf_op35_no1/sorf_op35_no1#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,43,67,24,55,,0,,4/4,1,4,2,4,0,5.3,0,2,1.0,2,0,0,0,0,0,0,,3,3,0,33,190,79.2
+mutopia:ftp/SorF/O35/sorf_op35_no10/sorf_op35_no10#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,41,69,28,57,-1,1,,2/4,1,32,9,0,0,9.7,11,2,1.0,3,0,0,0,1,0,0,,5,3,6,37,378,50.7
+mutopia:ftp/SorF/O35/sorf_op35_no11/sorf_op35_no11#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,41,72,31,62.0,-1,1,,2/4,1,8,0,2,0,3.1,21,3,1.0,2,0,0,0,0,0,0,,8,5,7,38,151,42.0
+mutopia:ftp/SorF/O35/sorf_op35_no13/sorf_op35_no13#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,41,67,26,55.0,0,1,,2/4,1,16,0,0,0,11.2,9,0,0.97,3,0,0,0,0,0,0,,4,3,0,33,371,39.0
+mutopia:ftp/SorF/O35/sorf_op35_no15/sorf_op35_no15#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,40,73,33,62.0,3,1,,2/4,1,16,1,0,0,9.8,3,2,1.0,2,0,0,0,2,0,0,,9,5,23,25,257,32.4
+mutopia:ftp/SorF/O35/sorf_op35_no16/sorf_op35_no16#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,41,73,32,61.0,-1,1,,3/4,1,16,35,0,0,7.6,72,4,1.0,3,0,0,0,8,0,0,,9,4,25,63,614,124.2
+mutopia:ftp/SorF/O35/sorf_op35_no17/sorf_op35_no17#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,40,69,29,57.0,2,1,,4/4,1,16,53,0,0,8.1,29,3,1.0,3,0,0,0,0,0,0,,5,4,25,33,332,81.3
+mutopia:ftp/SorF/O35/sorf_op35_no18/sorf_op35_no18#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,40,67,27,59.0,1,1,,2/4,1,16,3,0,0,9.2,32,3,1.0,3,0,0,0,0,0,0,,4,3,21,41,379,51.9
 mutopia:ftp/SorF/O35/sorf_op35_no19/sorf_op35_no19#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,40,67,27,62.0,0,1,90.0,2/4,1,16,17,0,64,7.7,3,4,1.0,2,0,0,0,0,0,0,,3,3,0,47,367,62.7
-mutopia:ftp/SorF/O35/sorf_op35_no2/sorf_op35_no2#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,43,68,25,55,,0,,3/8,1,16,2,0,0,5.2,2,2,1.0,3,0,0,0,0,0,0,,4,3,3,24,133,
-mutopia:ftp/SorF/O35/sorf_op35_no20/sorf_op35_no20#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,40,76,36,64,3,1,,3/4,1,8,50,0,212,8.8,25,0,0.747,3,0,0,0,0,0,0,,12,7,174,75,665,
+mutopia:ftp/SorF/O35/sorf_op35_no2/sorf_op35_no2#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,43,68,25,55,,0,,3/8,1,16,2,0,0,5.2,2,2,1.0,3,0,0,0,0,0,0,,4,3,3,24,133,22.8
+mutopia:ftp/SorF/O35/sorf_op35_no20/sorf_op35_no20#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,40,76,36,64,3,1,,3/4,1,8,50,0,212,8.8,25,0,0.747,3,0,0,0,0,0,0,,12,7,174,75,665,132.6
 mutopia:ftp/SorF/O35/sorf_op35_no21/sorf_op35_no21#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,40,69,29,59,3,1,110.0,2/4,1,16,7,8,0,5.8,13,3,1.0,4,0,0,0,0,0,0,,5,3,9,45,278,49.1
-mutopia:ftp/SorF/O35/sorf_op35_no22/sorf_op35_no22#movement02,mutopia,24 Studies for the Guitar,Fernando Sor,,,40,71,31,61.0,2,1,,3/4,1,8,15,2,0,8.7,51,3,1.0,3,0,0,0,0,0,0,,7,4,47,48,419,
-mutopia:ftp/SorF/O35/sorf_op35_no23/sorf_op35_no23#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,40,76,36,59.0,4,1,0.0,2/4,1,32,0,0,38,10.1,11,3,0.905,2,0,0,0,0,0,0,,12,4,27,21,261,
-mutopia:ftp/SorF/O35/sorf_op35_no24/sorf_op35_no24#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,40,72,32,57.5,1,1,,4/4,1,16,0,0,0,17.4,81,0,0.981,2,0,0,0,0,0,0,,8,3,79,53,925,
-mutopia:ftp/SorF/O35/sorf_op35_no3/sorf_op35_no3#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,40,69,29,60,,0,,3/4,1,16,25,4,0,7.9,17,2,1.0,3,0,0,0,4,0,0,,5,3,0,25,206,
-mutopia:ftp/SorF/O35/sorf_op35_no4/sorf_op35_no4#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,40,67,27,55,1,1,,3/4,1,16,12,26,0,7.5,10,2,1.0,3,0,0,0,0,0,0,,4,3,13,37,309,
-mutopia:ftp/SorF/O35/sorf_op35_no5/sorf_op35_no5#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,43,71,28,59.0,1,1,0.0,2/4,1,16,0,0,0,8.4,14,0,0.585,2,0,0,0,0,0,0,,7,3,29,41,346,
-mutopia:ftp/SorF/O35/sorf_op35_no6/sorf_op35_no6#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,40,71,31,64,2,1,,2/4,1,8,0,13,0,7.5,13,3,1.0,2,0,0,0,1,0,0,,7,4,12,26,202,
-mutopia:ftp/SorF/O35/sorf_op35_no7/sorf_op35_no7#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,40,71,31,59.0,1,1,,12/8,1,16,103,36,0,24.9,40,3,1.0,3,0,0,0,1,0,0,,7,3,6,34,859,
-mutopia:ftp/SorF/O35/sorf_op35_no8/sorf_op35_no8#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,40,71,31,59,4,1,,3/8,1,32,37,2,4,5.7,20,3,1.0,2,0,0,0,1,0,0,,7,4,52,65,400,
-mutopia:ftp/SorF/O35/sorf_op35_no9/sorf_op35_no9#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,40,69,29,57.0,3,1,,4/4,1,8,1,0,0,9.6,14,0,0.98,2,0,0,0,0,0,0,,5,3,23,49,471,
-mutopia:ftp/SorF/O45/sorf-op45n01/sorf-op45n01#movement01,mutopia,Six Petites Pièces,F. Sor,,,43,67,24,55,1,1,,3/4,1,16,31,0,0,7.3,25,4,1.0,3,0,0,0,0,0,0,,4,3,27,49,375,
-mutopia:ftp/SorF/O45/sorf-op45n02/sorf-op45n02#movement01,mutopia,Six Petites Pièces,F. Sor,,,40,74,34,59.0,1,1,,2/4,1,32,3,0,0,8.3,15,3,1.0,3,0,0,0,5,0,0,,10,5,67,49,432,
-mutopia:ftp/SorF/O45/sorf-op45n03/sorf-op45n03#movement02,mutopia,Six Petites Pièces,F. Sor,,,47,67,20,59,0,1,,2/4,1,16,4,4,0,9.8,3,0,0.941,3,0,0,0,1,0,0,,4,3,0,17,175,
-mutopia:ftp/SorF/O45/sorf-op45n03/sorf-op45n03#movement03,mutopia,Six Petites Pièces,F. Sor,,,48,69,21,59,-3,1,,2/4,1,32,13,0,0,6.7,18,2,1.0,3,0,0,0,0,0,0,,5,4,8,19,136,
-mutopia:ftp/SorF/O45/sorf-op45n03/sorf-op45n03#movement04,mutopia,Six Petites Pièces,F. Sor,,,40,74,34,60,0,1,,2/4,1,16,0,0,28,10.8,7,2,1.0,3,0,0,0,0,0,0,,10,3,22,20,219,
-mutopia:ftp/SorF/O45/sorf-op45n04/sorf-op45n04#movement01,mutopia,Six Petites Pièces,F. Sor,,,41,77,36,60.0,0,1,,3/8,1,32,63,16,4,6.3,36,3,0.99,3,0,0,0,4,0,0,,13,3,37,98,633,
-mutopia:ftp/SorF/O45/sorf-op45n05/sorf-op45n05#movement01,mutopia,Six Petites Pièces,F. Sor,,,40,84,44,61.0,3,2,,2/4,1,32,39,0,8,8.0,67,2,1.0,3,0,0,0,7,0,0,,20,11,140,97,813,
-mutopia:ftp/SorF/O5/sor-op5-5/sor-op5-5#movement01,mutopia,Andante Largo,Fernando Sor,,,50,86,36,74.0,2,2,,2/4,1,64,33,0,4,6.5,146,4,0.494,2,0,1,0,5,0,0,,22,17,136,89,626,
-mutopia:ftp/SorF/O60/sor_op60-02/sor_op60-02#movement01,mutopia,25 Progressive Lessons,Fernando Sor,,,55,79,24,72.0,0,1,,3/4,1,8,0,0,0,3.7,4,0,0.081,2,0,0,0,0,0,0,,15,13,52,37,139,
-mutopia:ftp/SorF/O60/sor_op60-05/sor_op60-05#movement01,mutopia,25 Progressive Lessons,Fernando Sor,,,52,81,29,71.0,0,2,,6/8,1,8,56,12,0,6.3,11,0,0.975,2,0,0,0,0,0,0,,17,12,100,40,256,
-mutopia:ftp/SorF/O60/sor_op60-06/sor_op60-06#movement01,mutopia,25 Progressive Studies,Fernando Sor,,,40,67,27,59,0,1,,2/4,1,32,1,0,0,4.3,9,2,0.515,1,0,0,0,0,0,0,,4,3,1,33,186,
-mutopia:ftp/SorF/O60/sor_op60-07/sor_op60-07#movement01,mutopia,25 Progressive Studies,Fernando Sor,,,43,65,22,57,0,1,,3/8,1,32,23,0,0,5.4,14,2,0.317,1,0,0,0,1,0,0,,3,3,0,41,227,
-mutopia:ftp/SorF/O60/sor_op60-08/sor_op60-08#movement01,mutopia,25 Progressive Studies,Fernando Sor,,,48,67,19,62,0,1,,4/4,1,4,1,0,0,2.7,3,2,0.625,2,0,0,0,0,0,0,,3,3,0,16,64,
-mutopia:ftp/SorF/O60/sor_op60-09/sor_op60-09#movement01,mutopia,25 Progressive Studies,Fernando Sor,,,43,67,24,60,0,1,,4/4,1,8,1,0,0,3.8,3,0,0.188,2,0,0,0,0,0,0,,3,3,0,16,78,
-mutopia:ftp/SorF/O60/sor_op60-10/sor_op60-10#movement01,mutopia,25 Progressive Studies,Fernando Sor,,,40,67,27,55,0,1,,4/4,1,8,1,0,0,9.6,4,2,0.312,1,0,0,0,0,0,0,,3,3,0,16,156,
-mutopia:ftp/SorF/O60/sor_op60-11/sor_op60-11#movement01,mutopia,25 Progressive Studies,Fernando Sor,,,50,74,24,57.0,1,1,,6/8,1,8,52,2,0,6.7,11,3,0.788,1,0,0,0,0,0,0,,10,3,13,33,226,
-mutopia:ftp/SorF/O60/sor_op60-12/sor_op60-12#movement01,mutopia,25 Progressive Studies,Fernando Sor,,,43,72,29,59,1,1,,2/4,1,32,5,0,0,6.4,20,2,0.154,1,0,0,0,0,0,0,,8,4,12,26,179,
-mutopia:ftp/SorF/O60/sor_op60-13/sor_op60-13#movement01,mutopia,25 Progressive Studies,Fernando Sor,,,45,67,22,55.0,0,1,,2/4,1,8,3,0,0,7.2,3,2,1.0,2,0,0,0,0,0,0,,3,3,0,24,184,
-mutopia:ftp/SorF/SorF_Andantino/SorF_Andantino#movement01,mutopia,Andantino,Fernando Sor,,,40,69,29,51.5,3,1,,3/4,1,8,22,0,0,3.5,25,3,1.0,3,0,0,0,0,0,0,,5,4,18,82,317,
-mutopia:ftp/TarregaF/capricho-arabe/capricho-arabe#movement02,mutopia,Capricho Árabe,Francisco Tárrega,,,38,79,41,62.0,-1,2,,3/4,2,32,25,22,17,13.4,119,3,1.0,3,0,0,0,78,0,0,,15,9,89,83,1247,
-mutopia:ftp/TarregaF/claro-de-luna/claro-de-luna#movement02,mutopia,CLARO DE LUNA,Arr: de F. Tárrega,,,43,83,40,62.0,-1,1,,4/4,1,16,38,0,510,8.3,145,3,1.0,3,0,0,0,0,0,0,,19,6,156,121,1041,
+mutopia:ftp/SorF/O35/sorf_op35_no22/sorf_op35_no22#movement02,mutopia,24 Studies for the Guitar,Fernando Sor,,,40,71,31,61.0,2,1,,3/4,1,8,15,2,0,8.7,51,3,1.0,3,0,0,0,0,0,0,,7,4,47,48,419,105.0
+mutopia:ftp/SorF/O35/sorf_op35_no23/sorf_op35_no23#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,40,76,36,59.0,4,1,0.0,2/4,1,32,0,0,38,10.1,11,3,0.905,2,0,0,0,0,0,0,,12,4,27,21,261,22.2
+mutopia:ftp/SorF/O35/sorf_op35_no24/sorf_op35_no24#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,40,72,32,57.5,1,1,,4/4,1,16,0,0,0,17.4,81,0,0.981,2,0,0,0,0,0,0,,8,3,79,53,925,133.8
+mutopia:ftp/SorF/O35/sorf_op35_no3/sorf_op35_no3#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,40,69,29,60,,0,,3/4,1,16,25,4,0,7.9,17,2,1.0,3,0,0,0,4,0,0,,5,3,0,25,206,50.4
+mutopia:ftp/SorF/O35/sorf_op35_no4/sorf_op35_no4#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,40,67,27,55,1,1,,3/4,1,16,12,26,0,7.5,10,2,1.0,3,0,0,0,0,0,0,,4,3,13,37,309,83.4
+mutopia:ftp/SorF/O35/sorf_op35_no5/sorf_op35_no5#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,43,71,28,59.0,1,1,0.0,2/4,1,16,0,0,0,8.4,14,0,0.585,2,0,0,0,0,0,0,,7,3,29,41,346,29.4
+mutopia:ftp/SorF/O35/sorf_op35_no6/sorf_op35_no6#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,40,71,31,64,2,1,,2/4,1,8,0,13,0,7.5,13,3,1.0,2,0,0,0,1,0,0,,7,4,12,26,202,30.0
+mutopia:ftp/SorF/O35/sorf_op35_no7/sorf_op35_no7#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,40,71,31,59.0,1,1,,12/8,1,16,103,36,0,24.9,40,3,1.0,3,0,0,0,1,0,0,,7,3,6,34,859,156.9
+mutopia:ftp/SorF/O35/sorf_op35_no8/sorf_op35_no8#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,40,71,31,59,4,1,,3/8,1,32,37,2,4,5.7,20,3,1.0,2,0,0,0,1,0,0,,7,4,52,65,400,67.5
+mutopia:ftp/SorF/O35/sorf_op35_no9/sorf_op35_no9#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,40,69,29,57.0,3,1,,4/4,1,8,1,0,0,9.6,14,0,0.98,2,0,0,0,0,0,0,,5,3,23,49,471,117.3
+mutopia:ftp/SorF/O45/sorf-op45n01/sorf-op45n01#movement01,mutopia,Six Petites Pièces,F. Sor,,,43,67,24,55,1,1,,3/4,1,16,31,0,0,7.3,25,4,1.0,3,0,0,0,0,0,0,,4,3,27,49,375,91.2
+mutopia:ftp/SorF/O45/sorf-op45n02/sorf-op45n02#movement01,mutopia,Six Petites Pièces,F. Sor,,,40,74,34,59.0,1,1,,2/4,1,32,3,0,0,8.3,15,3,1.0,3,0,0,0,5,0,0,,10,5,67,49,432,59.4
+mutopia:ftp/SorF/O45/sorf-op45n03/sorf-op45n03#movement02,mutopia,Six Petites Pièces,F. Sor,,,47,67,20,59,0,1,,2/4,1,16,4,4,0,9.8,3,0,0.941,3,0,0,0,1,0,0,,4,3,0,17,175,21.3
+mutopia:ftp/SorF/O45/sorf-op45n03/sorf-op45n03#movement03,mutopia,Six Petites Pièces,F. Sor,,,48,69,21,59,-3,1,,2/4,1,32,13,0,0,6.7,18,2,1.0,3,0,0,0,0,0,0,,5,4,8,19,136,22.2
+mutopia:ftp/SorF/O45/sorf-op45n03/sorf-op45n03#movement04,mutopia,Six Petites Pièces,F. Sor,,,40,74,34,60,0,1,,2/4,1,16,0,0,28,10.8,7,2,1.0,3,0,0,0,0,0,0,,10,3,22,20,219,23.2
+mutopia:ftp/SorF/O45/sorf-op45n04/sorf-op45n04#movement01,mutopia,Six Petites Pièces,F. Sor,,,41,77,36,60.0,0,1,,3/8,1,32,63,16,4,6.3,36,3,0.99,3,0,0,0,4,0,0,,13,3,37,98,633,88.5
+mutopia:ftp/SorF/O45/sorf-op45n05/sorf-op45n05#movement01,mutopia,Six Petites Pièces,F. Sor,,,40,84,44,61.0,3,2,,2/4,1,32,39,0,8,8.0,67,2,1.0,3,0,0,0,7,0,0,,20,11,140,97,813,117.6
+mutopia:ftp/SorF/O5/sor-op5-5/sor-op5-5#movement01,mutopia,Andante Largo,Fernando Sor,,,50,86,36,74.0,2,2,,2/4,1,64,33,0,4,6.5,146,4,0.494,2,0,1,0,5,0,0,,22,17,136,89,626,150.0
+mutopia:ftp/SorF/O60/sor_op60-02/sor_op60-02#movement01,mutopia,25 Progressive Lessons,Fernando Sor,,,55,79,24,72.0,0,1,,3/4,1,8,0,0,0,3.7,4,0,0.081,2,0,0,0,0,0,0,,15,13,52,37,139,73.2
+mutopia:ftp/SorF/O60/sor_op60-05/sor_op60-05#movement01,mutopia,25 Progressive Lessons,Fernando Sor,,,52,81,29,71.0,0,2,,6/8,1,8,56,12,0,6.3,11,0,0.975,2,0,0,0,0,0,0,,17,12,100,40,256,74.7
+mutopia:ftp/SorF/O60/sor_op60-06/sor_op60-06#movement01,mutopia,25 Progressive Studies,Fernando Sor,,,40,67,27,59,0,1,,2/4,1,32,1,0,0,4.3,9,2,0.515,1,0,0,0,0,0,0,,4,3,1,33,186,76.5
+mutopia:ftp/SorF/O60/sor_op60-07/sor_op60-07#movement01,mutopia,25 Progressive Studies,Fernando Sor,,,43,65,22,57,0,1,,3/8,1,32,23,0,0,5.4,14,2,0.317,1,0,0,0,1,0,0,,3,3,0,41,227,70.8
+mutopia:ftp/SorF/O60/sor_op60-08/sor_op60-08#movement01,mutopia,25 Progressive Studies,Fernando Sor,,,48,67,19,62,0,1,,4/4,1,4,1,0,0,2.7,3,2,0.625,2,0,0,0,0,0,0,,3,3,0,16,64,45.6
+mutopia:ftp/SorF/O60/sor_op60-09/sor_op60-09#movement01,mutopia,25 Progressive Studies,Fernando Sor,,,43,67,24,60,0,1,,4/4,1,8,1,0,0,3.8,3,0,0.188,2,0,0,0,0,0,0,,3,3,0,16,78,45.6
+mutopia:ftp/SorF/O60/sor_op60-10/sor_op60-10#movement01,mutopia,25 Progressive Studies,Fernando Sor,,,40,67,27,55,0,1,,4/4,1,8,1,0,0,9.6,4,2,0.312,1,0,0,0,0,0,0,,3,3,0,16,156,75.6
+mutopia:ftp/SorF/O60/sor_op60-11/sor_op60-11#movement01,mutopia,25 Progressive Studies,Fernando Sor,,,50,74,24,57.0,1,1,,6/8,1,8,52,2,0,6.7,11,3,0.788,1,0,0,0,0,0,0,,10,3,13,33,226,113.4
+mutopia:ftp/SorF/O60/sor_op60-12/sor_op60-12#movement01,mutopia,25 Progressive Studies,Fernando Sor,,,43,72,29,59,1,1,,2/4,1,32,5,0,0,6.4,20,2,0.154,1,0,0,0,0,0,0,,8,4,12,26,179,61.5
+mutopia:ftp/SorF/O60/sor_op60-13/sor_op60-13#movement01,mutopia,25 Progressive Studies,Fernando Sor,,,45,67,22,55.0,0,1,,2/4,1,8,3,0,0,7.2,3,2,1.0,2,0,0,0,0,0,0,,3,3,0,24,184,31.2
+mutopia:ftp/SorF/SorF_Andantino/SorF_Andantino#movement01,mutopia,Andantino,Fernando Sor,,,40,69,29,51.5,3,1,,3/4,1,8,22,0,0,3.5,25,3,1.0,3,0,0,0,0,0,0,,5,4,18,82,317,47.4
+mutopia:ftp/TarregaF/capricho-arabe/capricho-arabe#movement02,mutopia,Capricho Árabe,Francisco Tárrega,,,38,79,41,62.0,-1,2,,3/4,2,32,25,22,17,13.4,119,3,1.0,3,0,0,0,78,0,0,,15,9,89,83,1247,239.1
+mutopia:ftp/TarregaF/claro-de-luna/claro-de-luna#movement02,mutopia,CLARO DE LUNA,Arr: de F. Tárrega,,,43,83,40,62.0,-1,1,,4/4,1,16,38,0,510,8.3,145,3,1.0,3,0,0,0,0,0,0,,19,6,156,121,1041,230.8

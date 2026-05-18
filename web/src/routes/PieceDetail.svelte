@@ -5,6 +5,7 @@
     pieceById,
     resolveGrade,
     musicxmlUrl,
+    formatDuration,
     type Piece,
   } from "../lib/manifest";
   import * as alphaTab from "@coderline/alphatab";
@@ -160,6 +161,7 @@
       <p class="meta">
         <span>{piece.metadata.composer}</span>
         <GradeBadge resolved={grade} />
+        <span class="duration" title="approximate playback duration">~{formatDuration(piece.duration_seconds)}</span>
         <span class="source">source: {piece.source}</span>
         {#if piece.page_url}
           <a href={piece.page_url} target="_blank" rel="noopener">upstream ↗</a>
@@ -234,6 +236,10 @@
   }
   .source {
     font-size: 0.85em;
+  }
+  .duration {
+    font-size: 0.85em;
+    font-variant-numeric: tabular-nums;
   }
   .transport {
     display: flex;

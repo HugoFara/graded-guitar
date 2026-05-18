@@ -437,26 +437,86 @@ def _rhythm_misc(root: etree._Element) -> dict[str, int]:
     }
 
 
-def _duration_seconds(measure_count: int, tempo_bpm: float | None,
-                      time_sig: str) -> float | None:
-    """Approximate piece duration: assumes the opening tempo and meter
-    hold for the whole piece. Wrong for accelerandos and meter changes,
-    but useful as a coarse complexity proxy."""
-    if not tempo_bpm or not time_sig or measure_count == 0:
+def _total_quarters(root: etree._Element) -> float | None:
+    """Sum forward voice-1 progression across the first part, in quarter
+    notes. Returns None if no `<divisions>` is set or no notes are found.
+
+    This is the fallback path for pieces whose MusicXML omits time
+    signature or tempo (common with LilyPond-converted Mutopia files):
+    the formula in `_duration_seconds` needs both, but the per-note
+    `<duration>` walk does not.
+    """
+    parts = root.xpath("//*[local-name()='part']")
+    if not parts:
         return None
-    try:
-        beats, beat_type = time_sig.split("/")
-        beats_per_measure = float(beats)
-        beat_type_i = int(beat_type)
-    except (ValueError, AttributeError):
+    part = parts[0]
+    divisions: int | None = None
+    quarters = 0.0
+    for measure in part.xpath("./*[local-name()='measure']"):
+        for el in measure.iter():
+            tag = etree.QName(el).localname
+            if tag == "divisions" and el.text:
+                try:
+                    divisions = int(el.text)
+                except ValueError:
+                    pass
+        if not divisions:
+            continue
+        measure_dur = 0
+        for child in measure:
+            ctag = etree.QName(child).localname
+            if ctag == "note":
+                voice = next((c.text for c in child
+                              if etree.QName(c).localname == "voice"), None)
+                if voice is not None and voice.strip() != "1":
+                    continue
+                if any(etree.QName(c).localname == "chord" for c in child):
+                    continue
+                d = next((c.text for c in child
+                          if etree.QName(c).localname == "duration"), None)
+                if d:
+                    try:
+                        measure_dur += int(d)
+                    except ValueError:
+                        pass
+            elif ctag == "forward":
+                d = next((c.text for c in child
+                          if etree.QName(c).localname == "duration"), None)
+                if d:
+                    try:
+                        measure_dur += int(d)
+                    except ValueError:
+                        pass
+        quarters += measure_dur / divisions
+    return quarters if quarters > 0 else None
+
+
+def _duration_seconds(root: etree._Element, measure_count: int,
+                      tempo_bpm: float | None, time_sig: str) -> float | None:
+    """Approximate piece duration in seconds.
+
+    Primary path: opening tempo × opening time-sig × measure count. Wrong
+    for accelerandos and meter changes but cheap and stable. Falls back
+    to summing per-note durations when tempo or time-sig is missing —
+    common for LilyPond-converted Mutopia files. The fallback assumes
+    100 BPM when no tempo marking is present (a slow-walk default that
+    biases toward "feels longer than it is", which is the safe side for
+    a sight-reading feed)."""
+    if tempo_bpm and time_sig and measure_count > 0:
+        try:
+            beats, beat_type = time_sig.split("/")
+            beats_per_measure = float(beats)
+            beat_type_i = int(beat_type)
+            quarters_per_beat = 4.0 / beat_type_i
+            quarters_total = beats_per_measure * quarters_per_beat * measure_count
+            return round((quarters_total / tempo_bpm) * 60.0, 1)
+        except (ValueError, AttributeError):
+            pass
+
+    quarters = _total_quarters(root)
+    if quarters is None:
         return None
-    # MusicXML <sound tempo="N"> is N quarter-notes per minute. Convert
-    # the piece's beat-type to quarters: a beat of type 8 = half a quarter.
-    quarters_per_beat = 4.0 / beat_type_i
-    quarters_per_measure = beats_per_measure * quarters_per_beat
-    quarters_total = quarters_per_measure * measure_count
-    seconds = (quarters_total / tempo_bpm) * 60.0
-    return round(seconds, 1)
+    return round((quarters / (tempo_bpm or 100.0)) * 60.0, 1)
 
 
 def extract_features(root: etree._Element) -> dict[str, Any]:
@@ -494,7 +554,7 @@ def extract_features(root: etree._Element) -> dict[str, Any]:
     barre = _barre_count(root)
     pos_shifts = _position_shift_proxy(root)
     pitch_fingering = _pitch_fingering_stats(root)
-    duration = _duration_seconds(measure_count, tempo_bpm, time_sig)
+    duration = _duration_seconds(root, measure_count, tempo_bpm, time_sig)
 
     return {
         "midi_min": midi_min,

@@ -47,9 +47,16 @@ names must update `web/src/lib/manifest.ts` in the same commit.
 | `metadata.composer`    | Display + search + sort.                                |
 | `grade` / `grade_source`           | Curator grade; preferred over model.       |
 | `model_grade` / `model_grade_source` | Fallback grade; placeholder badge if source starts with `dummy-`. |
+| `duration_seconds`     | Approximate playback duration, shown on feed cards (M4). |
 
 Other fields (hashes, license, parts, key_fifths, opus, instrument tokens)
 are present in the manifest but not consumed by the web app at v0.1.
+
+`duration_seconds` is written by `scripts/m4_duration_to_manifest.py`,
+which joins the `duration_sec_approx` column from `corpus/features.csv`
+back into the manifest. The number is a coarse estimate (single tempo,
+single time signature, fallback to a per-note walk when those are
+absent); it shouldn't be read as ground truth.
 
 `web/scripts/copy-corpus.mjs` (run via `pnpm predev` / `prebuild`) mirrors
 `manifest.json` to `web/public/manifest.json` and the normalized files to
