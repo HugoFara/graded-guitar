@@ -34,3 +34,4 @@ Open an ADR when introducing a new dependency, a new file format, a new service,
 - [0009 — M2 grading-model inputs and approach (scoping)](./0009-m2-grading-inputs.md)
 - [0012 — M5 accounts: local-only profiles, async storage interface](./0012-m5-local-accounts.md)
 - [0013 — M6 framing: closed beta as the grading-signal path](./0013-m6-beta-as-grader.md)
+- [0014 — Corpus diversification: the realistic frontier without OMR](./0014-corpus-diversification-frontier.md)

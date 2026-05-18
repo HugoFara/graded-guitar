@@ -81,6 +81,13 @@
     Questions or concerns:
     <a href="mailto:hugo.farajallah@unige.ch">hugo.farajallah@unige.ch</a>.
   </p>
+  <p>
+    Have classical-guitar MusicXML you've typeset and would be
+    comfortable contributing to the corpus? The library is small and
+    Renaissance/Baroque-heavy — modern repertoire, contemporary
+    arrangements, and conservatory editions are all welcome. Same
+    address.
+  </p>
 </section>
 
 <style>

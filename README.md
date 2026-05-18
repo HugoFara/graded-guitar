@@ -62,6 +62,8 @@ If you disagree with a decision, open an issue or a PR against the relevant ADR.
 
 See [`CONTRIBUTING.md`](./CONTRIBUTING.md). The short version: this project values pedagogical correctness above technical elegance — see spec §5 and §6 — and we are intentionally narrow in scope (classical guitar only, no editing, no OMR, no audio listening; see spec §4).
 
+**Have classical-guitar MusicXML you've typeset?** The corpus is Renaissance/Baroque-heavy (see [`decisions/0014-corpus-diversification-frontier.md`](./decisions/0014-corpus-diversification-frontier.md)); modern repertoire, contemporary arrangements, and conservatory editions are all welcome. Open an issue or email <hugo.farajallah@unige.ch>.
+
 ## License
 
 MIT. See [`LICENSE`](./LICENSE) and [`decisions/0001-license-mit.md`](./decisions/0001-license-mit.md) for rationale.
