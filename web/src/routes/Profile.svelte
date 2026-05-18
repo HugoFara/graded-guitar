@@ -4,11 +4,13 @@
   import {
     createProfile,
     deleteProfile,
+    getActiveProfile,
     listProfiles,
     setActiveProfile,
     updateProfile,
     type Profile,
   } from "../lib/storage/profile";
+  import { clearAllStatuses } from "../lib/storage/status";
   import {
     backupFilename,
     exportProfile,
@@ -28,7 +30,6 @@
 
   async function refresh() {
     profiles = await listProfiles();
-    const { getActiveProfile } = await import("../lib/storage/profile");
     const active = await getActiveProfile();
     activeId = active?.id ?? null;
   }
@@ -150,7 +151,6 @@
       await deleteProfile(p.id);
       // Also wipe their status records — deleteProfile only handles
       // the profile table; status data lives under its own key.
-      const { clearAllStatuses } = await import("../lib/storage/status");
       await clearAllStatuses(p.id);
       await refresh();
       window.dispatchEvent(new Event("hashchange"));
