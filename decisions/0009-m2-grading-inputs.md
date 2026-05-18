@@ -86,6 +86,33 @@ Explicitly **not** in the first draft:
   collinear with composer identity; let the model find that itself if
   it helps.
 
+#### Phase 1 follow-ups (built after the first draft)
+
+- **`scripts/m2_feature_audit.py` → `corpus/feature_audit.md`** —
+  per-grade and per-source median tables, full distributions, pairwise
+  Pearson correlations at |r| ≥ 0.7. Surfaced that `position_shift_proxy`
+  is 99.8% missing on this corpus because Sibelius-emitted MusicXML
+  rarely carries `<technical>/<string>`+`<fret>`.
+- **`scripts/m2_label_bias.py` → `corpus/label_bias.md`** — composer/era
+  confound diagnostics on the Delcamp-graded subset. Concrete finding:
+  **87.8% of graded pieces come from composers whose entire output
+  in the corpus sits at a single Delcamp grade.** Only "Anon" (n=52)
+  spans more than one grade (G4–G7). The grade variance is between
+  composers, not within them. This sharpens the *primary label source*
+  question below — Delcamp-on-Crouch is essentially a composer-attribution
+  signal on this subset.
+- **`scripts/m2_baseline_grader.py` → `corpus/baseline_grader.md`** —
+  fixed-rule percentile-composite grader (5 features, equal weights,
+  no tuning against labels). On the labelled subset: exact match 35%,
+  within ±1 grade 83%. Intended as a concrete object for the advisor
+  to react to, not a benchmark target.
+- **Pitch-only fingering proxy** — `pitch_min_fret_max`,
+  `pitch_min_fret_p90`, `pitch_position_shifts` added to
+  `m2_features.py`. Lower-bound position load from the pitch stream
+  alone (standard tuning); 100% coverage. Replaces the 99.8%-missing
+  `position_shift_proxy` as the de facto position feature, though both
+  are retained.
+
 ### Phase 2 — blocked on advisor
 
 After advisor engagement (ADR 0004 gate):

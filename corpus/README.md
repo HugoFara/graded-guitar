@@ -11,6 +11,9 @@ Output of the M1 ingest pipeline.
 - `spot_check.md` — mechanical pre-check punch list (range outliers, fragments, suspicious metadata). Output of `scripts/m1_pre_check.py`. Distinct from the formal advisor 20-piece spot-check.
 - `features.csv` — one row per accepted piece with the M2 grading-feature set. Output of `scripts/m2_features.py`. See `decisions/0009-m2-grading-inputs.md` for column definitions.
 - `feature_audit.md` — per-grade, per-source distribution summary of `features.csv`, plus pairwise correlation flags. Output of `scripts/m2_feature_audit.py`. Intended as the advisor's entry point to the Phase 1 feature list.
+- `label_bias.md` — composer/era confound diagnostics on the Delcamp-graded subset. Output of `scripts/m2_label_bias.py`. Quantifies the per-composer grading pattern in the Guitar Loot corpus; flags features whose variance is dominated by composer identity.
+- `baseline_grades.csv` — predicted grade for every piece from a fixed, hand-readable rule (percentile-composite over a small feature subset). Output of `scripts/m2_baseline_grader.py`. **Not a model.** Intended to give the advisor a concrete prediction to react to.
+- `baseline_grader.md` — confusion matrix and agreement rate of the baseline rule against Delcamp labels. Companion to `baseline_grades.csv`.
 
 ## What's gitignored
 
@@ -23,6 +26,7 @@ Bulk MusicXML is kept out of the repo so cloning stays fast and so we don't redi
 ## Running the pipeline
 
 ```bash
+python3.13 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 # Run any/all discovery sources (each writes its own candidates.{source}.json):
 python scripts/m1_discover_github.py
@@ -34,6 +38,8 @@ python scripts/m1_validate.py
 python scripts/m2_features.py
 # Distributional audit (for advisor review):
 python scripts/m2_feature_audit.py
+python scripts/m2_label_bias.py
+python scripts/m2_baseline_grader.py
 ```
 
 `scripts/m1_discover_github.py` uses the `gh` CLI for auth and rate-limit handling — log in with `gh auth login` first.

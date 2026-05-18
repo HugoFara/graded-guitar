@@ -65,6 +65,8 @@ require_file scripts/m1_validate.py
 require_file scripts/m1_pre_check.py
 require_file scripts/m2_features.py
 require_file scripts/m2_feature_audit.py
+require_file scripts/m2_label_bias.py
+require_file scripts/m2_baseline_grader.py
 require_file scripts/tests/test_m1_validation.py
 require_file corpus/README.md
 

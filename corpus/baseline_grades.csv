@@ -1,0 +1,805 @@
+candidate_id,source,title,composer_normalized,grade,grade_source,predicted_grade,composite_percentile,midi_max_pct,max_chord_stack_pct,voice_count_max_pct,polyphonic_measure_ratio_pct,measure_count_pct
+gh:LYD01/music-teacher@main:public/pieces/adelita.musicxml,github,Adelita,Francisco Tárrega,,,3,3.4,9.6,3.2,1.1,1.4,1.8
+gh:LYD01/music-teacher@main:public/pieces/am-dm-e-progression.musicxml,github,Am - Dm - E Progression,Exercise,,,5,21.4,1.1,99.3,1.1,3.5,1.8
+gh:LYD01/music-teacher@main:public/pieces/asturias-theme.musicxml,github,Asturias (Leyenda) - Theme,Isaac Albéniz,,,3,4.0,12.5,3.2,1.1,1.4,1.8
+gh:LYD01/music-teacher@main:public/pieces/basic-open-chords.musicxml,github,Basic Open Chords,Exercise,,,5,33.3,3.1,99.9,1.1,60.6,1.8
+gh:LYD01/music-teacher@main:public/pieces/capricho-arabe.musicxml,github,Capricho Árabe (Theme),Francisco Tárrega,,,3,4.8,16.5,3.2,1.1,1.4,1.8
+gh:LYD01/music-teacher@main:public/pieces/estudio-am.musicxml,github,Estudio in A minor,Francisco Tárrega,,,3,4.0,12.5,3.2,1.1,1.4,1.8
+gh:LYD01/music-teacher@main:public/pieces/farruca.musicxml,github,Farruca,Traditional Flamenco,,,3,4.0,12.5,3.2,1.1,1.4,1.8
+gh:LYD01/music-teacher@main:public/pieces/first-string-notes.musicxml,github,Notes on the High E String,Exercise,,,3,2.1,3.1,3.2,1.1,1.4,1.8
+gh:LYD01/music-teacher@main:public/pieces/greensleeves.musicxml,github,Greensleeves,Traditional English,,,3,1.7,1.1,3.2,1.1,1.4,1.8
+gh:LYD01/music-teacher@main:public/pieces/lagrima.musicxml,github,Lágrima,Francisco Tárrega,,,3,5.6,20.3,3.2,1.1,1.4,1.8
+gh:LYD01/music-teacher@main:public/pieces/malaguena.musicxml,github,Malagueña,Traditional Spanish,,,3,1.7,1.1,3.2,1.1,1.4,1.8
+gh:LYD01/music-teacher@main:public/pieces/ode-to-joy.musicxml,github,Ode to Joy,Ludwig van Beethoven,,,3,2.1,3.1,3.2,1.1,1.4,1.8
+gh:LYD01/music-teacher@main:public/pieces/open-string-notes.musicxml,github,Open String Notes,Exercise,,,3,1.6,0.4,3.2,1.1,1.4,1.8
+gh:LYD01/music-teacher@main:public/pieces/prelude-emin-villalobos.musicxml,github,Prelude No. 1 in E minor (Theme),Heitor Villa-Lobos,,,5,21.5,9.6,91.4,1.1,3.5,1.8
+gh:LYD01/music-teacher@main:public/pieces/recuerdos-theme.musicxml,github,Recuerdos de la Alhambra (Theme),Francisco Tárrega,,,3,4.0,12.5,3.2,1.1,1.4,1.8
+gh:LYD01/music-teacher@main:public/pieces/romanza.musicxml,github,Romanza (Spanish Romance),Anonymous,,,3,4.0,12.5,3.2,1.1,1.4,1.8
+gh:LYD01/music-teacher@main:public/pieces/second-string-notes.musicxml,github,Notes on the B String,Exercise,,,3,1.5,0.1,3.2,1.1,1.4,1.8
+gh:LYD01/music-teacher@main:public/pieces/spanish-study-am.musicxml,github,Spanish Study in A minor,Traditional Spanish,,,3,12.3,0.4,54.9,1.1,3.5,1.8
+gh:Plisken78/plisken78.github.io@main:notlasning/songs/Ave Maria.musicxml,github,Ave Maria,F. Schubert,,,3,11.7,12.5,3.2,3.5,1.4,37.6
+gh:ThePython10110/MuseScore@master:Converted/MusicXML/Silksong/Choral Chambers on guitar (Silksong).musicxml,github,Choral Chambers (Silksong),"Christopher Larkin, Arranged by Beyond the Guitar",,,7,70.5,16.5,91.4,92.4,60.6,91.8
+gh:arhanv/ug-dataset@main:dataset-converted-xml/Open D/Metal/Criminal - New Disorder.musicxml,github,new disorder,riffman hansgtr@hotmail.com,,,5,27.0,0.0,54.9,3.5,60.6,16.2
+gh:moisur/courstrompette@master:public/Wikifonia.rendered/lee konitz - subconscious lee.musicxml,github,subconscious lee,lee konitz,,,5,29.6,92.5,3.2,3.5,1.4,47.1
+gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:anonymous/andante/andante.musicxml,github,Andante,Anonymous,,,5,21.7,23.0,3.2,19.8,60.6,1.8
+gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:antonio-rovira/romance-de-amor/romance-de-amor.musicxml,github,Romance de Amor,Antonio Rovira,,,7,55.8,20.3,91.4,59.8,60.6,47.1
+gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:dilermando-reis/se-ela-perguntar/se-ela-perguntar.musicxml,github,Se Ela Perguntar,Dilermando Reis,,,7,56.5,24.2,54.9,59.8,60.6,83.2
+gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:dorival-caymmi/modinha-para-gabriela/modinha-para-gabriela.musicxml,github,Modinha para Gabriela,Dorival Caymmi,,,5,31.7,1.5,54.9,19.8,60.6,21.9
+gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:ernesto-nazareth/odeon/odeon.musicxml,github,Odeon,Ernesto Nazareth,,,6,45.8,23.0,54.9,19.8,60.6,70.7
+gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:j-s-bach/air-on-the-g-string/air-on-the-g-string.musicxml,github,Air on the G String,Johann Sebastian Bach,,,6,46.1,8.3,54.9,59.8,60.6,47.1
+gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:j-s-bach/bourree/bourree.musicxml,github,Bourreé,J. S. Bach,,,6,48.9,50.7,3.2,92.4,60.6,37.6
+gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:j-s-bach/jesu-joy-of-mans-desiring/jesu-joy-of-mans-desiring.musicxml,github,"Jesu,  Joy of Man's Desiring",J. S. Bach,,,6,41.6,12.5,91.4,19.8,60.6,23.5
+gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:j-s-bach/minueto-I/minueto-I.musicxml,github,Minueto I,J. S. Bach,,,6,38.4,12.5,54.9,19.8,60.6,44.2
+gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:j-s-bach/minueto-II/minueto-II.musicxml,github,Minueto II,J. S. Bach,,,5,30.1,9.6,16.2,19.8,60.6,44.2
+gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:j-s-bach/prelude-for-lute/prelude-for-lute.musicxml,github,Prelude,J. S. Bach,,,6,49.9,16.5,91.4,19.8,60.6,60.9
+gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:joao-pernambuco/sons-de-carrilhoes/sons-de-carrilhoes.musicxml,github,Sons de Carrilhões,João Pernambuco,,,5,31.8,20.3,54.9,19.8,13.6,50.4
+gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:matteo-carcassi/study-3/study-3.musicxml,github,Study 3,Matteo Carcassi,,,5,28.1,6.4,16.2,19.8,60.6,37.6
+gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:maurice-ravel/bolero/bolero.musicxml,github,Bolero,Maurice Ravel,,,3,16.2,0.4,3.2,3.5,1.4,72.5
+gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:paulinho-nogueira/bachianinha-1/bachianinha-1.musicxml,github,Bachianinha Nº 1,Paulinho Nogueira,,,7,71.4,20.3,91.4,92.4,60.6,92.5
+gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:pixinguinha/carinhoso/carinhoso.musicxml,github,Carinhoso,Pixinguinha,,,6,37.5,6.4,91.4,19.8,14.4,55.7
+gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:waldyr-azevedo/pedacinhos-do-ceu/pedacinhos-do-ceu.musicxml,github,Pedacinhos do céu,Waldyr Azevedo,,,6,42.6,12.5,91.4,19.8,16.8,72.5
+gh:rodrigoborgesdeoliveira/sheet-music-and-chords@main:zacar/soleado/soleado.musicxml,github,Soleado,Zacar,,,3,18.9,6.4,16.2,59.8,8.1,4.2
+gh:ujfjhz/ChineseMusicScore@main:MusicScore/民间音乐/汉族/河北/河北民歌-小白菜/河北民歌-小白菜.musicxml,github,河北民歌-小白菜,河北民歌,,,3,4.0,6.4,3.2,3.5,1.4,5.2
+guitarloot:Scores/EnglishMusic/Allison/AllisonQuadroGtr,guitarloot,Quadro Pavan,Richard Allison,3,delcamp-eric-crouch,6,53.1,63.6,54.9,59.8,16.8,70.7
+guitarloot:Scores/EnglishMusic/Allison/AlmainAllisonAS,guitarloot,Almain,Richard Allison,3,delcamp-eric-crouch,6,37.9,50.7,54.9,19.8,60.6,3.6
+guitarloot:Scores/EnglishMusic/Allison/DeLaTrombaPavanGtr,guitarloot,De La Tromba Pavan,Richard Allison,3,delcamp-eric-crouch,7,63.9,63.6,91.4,59.8,60.6,44.2
+guitarloot:Scores/EnglishMusic/Allison/SharpPavan2cGtrAS,guitarloot,Sharp Pavan (2c),Richard Allison,3,delcamp-eric-crouch,7,73.8,71.4,91.4,59.8,60.6,86.1
+guitarloot:Scores/EnglishMusic/Anon/012MilanDumpGtr,guitarloot,The Duke of Milan's Dump,Anon,6,delcamp-eric-crouch,3,17.1,12.5,16.2,19.8,10.4,26.8
+guitarloot:Scores/EnglishMusic/Anon/CareyDompeAS,guitarloot,My Lady Carey's Dompe,Anon,5,delcamp-eric-crouch,7,74.6,92.5,54.9,92.4,60.6,72.5
+guitarloot:Scores/EnglishMusic/Anon/DargessonGtr,guitarloot,Dargesson,Anon Dd.2.11 f.8,6,delcamp-eric-crouch,6,50.3,36.5,54.9,59.8,60.6,39.8
+guitarloot:Scores/EnglishMusic/Anon/DowneGGtr,guitarloot,A Downe,Anon 16th century,6,delcamp-eric-crouch,5,34.1,50.7,16.2,59.8,8.8,35.3
+guitarloot:Scores/EnglishMusic/Anon/GallUntitledGtr,guitarloot,Untitled (Galliard),Anon,6,delcamp-eric-crouch,7,57.7,80.8,54.9,59.8,60.6,32.4
+guitarloot:Scores/EnglishMusic/Anon/JourDesireGAS,guitarloot,Jour Desiré,Anon,6,delcamp-eric-crouch,6,53.9,50.7,91.4,59.8,14.2,53.2
+guitarloot:Scores/EnglishMusic/Anon/LothDepartAnonAS,guitarloot,Loth to Depart,Anon Dd. 2.11 f.9,6,delcamp-eric-crouch,7,66.5,36.5,91.4,92.4,60.6,51.9
+guitarloot:Scores/EnglishMusic/Anon/MilitisDumpAArr,guitarloot,Militis Dump,Anon: CUL MS Dd.9.33,7,delcamp-eric-crouch,6,53.1,80.8,91.4,19.8,15.0,58.8
+guitarloot:Scores/EnglishMusic/Anon/MilitisDumpAlt,guitarloot,Militis Dump,Anon: CUL MS Dd.9.33,7,delcamp-eric-crouch,6,50.4,63.6,54.9,59.8,15.0,58.8
+guitarloot:Scores/EnglishMusic/Anon/Pastyme,guitarloot,Pastyme,Anon,5,delcamp-eric-crouch,6,35.0,36.5,16.2,19.8,60.6,42.1
+guitarloot:Scores/EnglishMusic/Anon/PastymeAlt,guitarloot,Pastyme,Anon (Combined sources,5,delcamp-eric-crouch,5,27.7,36.5,16.2,19.8,60.6,5.2
+guitarloot:Scores/EnglishMusic/Anon/SickSVS,guitarloot,"Sick, Sick and Very Sick",Anon,6,delcamp-eric-crouch,6,46.0,50.7,54.9,19.8,60.6,44.2
+guitarloot:Scores/EnglishMusic/Anon/SouthwellGallAS,guitarloot,Southwell's Galliard,Anon. CUL Dd.2.11f.68r,6,delcamp-eric-crouch,7,61.2,63.6,54.9,59.8,60.6,67.1
+guitarloot:Scores/EnglishMusic/Anon/somersettgtr,guitarloot,The Duke of Somerset's Reverie (A Dompe),"Anon, 16th Century",5,delcamp-eric-crouch,7,56.2,36.5,54.9,92.4,18.1,79.0
+guitarloot:Scores/EnglishMusic/Anon/somersettgtrE,guitarloot,The Duke of Somerset's Reverie (A dompe),"Anon, 16th Century",5,delcamp-eric-crouch,7,59.0,50.7,54.9,92.4,18.1,79.0
+guitarloot:Scores/EnglishMusic/Bacheler/Cour(Volt)E,guitarloot,Courante (or Volt),Daniel Bacheler,7,delcamp-eric-crouch,6,46.7,50.7,16.2,59.8,15.9,91.1
+guitarloot:Scores/EnglishMusic/Bacheler/Cour(Volt)G,guitarloot,Courante (or Volt),Daniel Bacheler,7,delcamp-eric-crouch,6,52.7,80.8,16.2,59.8,15.9,91.1
+guitarloot:Scores/EnglishMusic/Bacheler/EnMeRevenant.iPad,guitarloot,En Me Revenant (When I Return),Daniel Bacheler,7,delcamp-eric-crouch,6,45.8,14.6,16.2,92.4,19.6,86.1
+guitarloot:Scores/EnglishMusic/Bacheler/FantasyBacheler06Gtr,guitarloot,Fantasy,Daniel Bacheler,7,delcamp-eric-crouch,7,76.6,80.8,91.4,59.8,60.6,90.3
+guitarloot:Scores/EnglishMusic/Bacheler/FantasyBacheler10Gtr,guitarloot,Fantasy,Daniel Bacheler,7,delcamp-eric-crouch,8,83.1,80.8,91.4,92.4,60.6,90.3
+guitarloot:Scores/EnglishMusic/Bacheler/Galliard.Gtr.2A,guitarloot,Galliard 2,Daniel Bacheler,7,delcamp-eric-crouch,7,65.9,80.8,54.9,59.8,60.6,73.5
+guitarloot:Scores/EnglishMusic/Bacheler/Galliard.Gtr.3A,guitarloot,Galliard 3,Daniel Bacheler,7,delcamp-eric-crouch,7,72.8,97.3,54.9,92.4,60.6,58.8
+guitarloot:Scores/EnglishMusic/Bacheler/Galliard1gtr,guitarloot,Galliard 1,Daniel Bacheler,7,delcamp-eric-crouch,7,57.5,12.5,54.9,92.4,60.6,67.1
+guitarloot:Scores/EnglishMusic/Bacheler/MPavGtrArrA,guitarloot,Pavan,Daniel Bacheler,7,delcamp-eric-crouch,7,66.5,71.4,54.9,59.8,60.6,85.6
+guitarloot:Scores/EnglishMusic/Bacheler/Prelude10str,guitarloot,Unmeasured Prelude,Daniel Bacheler,7,delcamp-eric-crouch,7,57.8,80.8,54.9,92.4,60.6,0.2
+guitarloot:Scores/EnglishMusic/Bacheler/PreludegtrEArr,guitarloot,Lute Prelude,Daniel Bacheler,7,delcamp-eric-crouch,6,43.5,9.6,54.9,92.4,60.6,0.2
+guitarloot:Scores/EnglishMusic/Bacheler/jeunefillettegtrEf,guitarloot,La Jeune Fillette,Daniel Bacheler,7,delcamp-eric-crouch,7,72.0,92.5,54.9,92.4,20.9,99.2
+guitarloot:Scores/EnglishMusic/Cutting/01AnneMarkhamPavan.GtrA,guitarloot,Mrs. Ann Markham's Pavan B01,Francis Cutting Cozens Lute Book,7,delcamp-eric-crouch,7,67.6,36.5,91.4,59.8,60.6,89.8
+guitarloot:Scores/EnglishMusic/Cutting/02GalliardGtr,guitarloot,Galliard B02,Francis Cutting,7,delcamp-eric-crouch,7,57.5,12.5,54.9,92.4,60.6,67.1
+guitarloot:Scores/EnglishMusic/Cutting/03PavanGtrA,guitarloot,Pavan B03,Francis Cutting,7,delcamp-eric-crouch,7,65.2,63.6,54.9,92.4,60.6,54.6
+guitarloot:Scores/EnglishMusic/Cutting/08GalliardGtr,guitarloot,Galliard B08,Francis Cutting,7,delcamp-eric-crouch,7,70.0,71.4,91.4,59.8,60.6,67.1
+guitarloot:Scores/EnglishMusic/Cutting/09PavanGtr,guitarloot,Pavan B09,Francis Cutting,7,delcamp-eric-crouch,7,65.2,63.6,54.9,92.4,60.6,54.6
+guitarloot:Scores/EnglishMusic/Cutting/13SansPerGtrArriPad,guitarloot,Pavan Sans Per B13,Francis Cutting,7,delcamp-eric-crouch,7,69.1,80.8,54.9,92.4,60.6,56.9
+guitarloot:Scores/EnglishMusic/Cutting/18GroningeGtr.iPad,guitarloot,Groninge Pavan B18,Francis Cutting,7,delcamp-eric-crouch,6,47.9,12.5,54.9,59.8,60.6,51.9
+guitarloot:Scores/EnglishMusic/Cutting/22Galliard.Gtr,guitarloot,Galliard B22,Francis Cutting,7,delcamp-eric-crouch,7,72.4,50.7,91.4,92.4,60.6,67.1
+guitarloot:Scores/EnglishMusic/Cutting/23GalliardGtr.iPad,guitarloot,Galliard B23,Francis Cutting,7,delcamp-eric-crouch,7,56.9,9.6,54.9,92.4,60.6,67.1
+guitarloot:Scores/EnglishMusic/Cutting/27GalliardGtr.iPad,guitarloot,Galliard B27,Francis Cutting,7,delcamp-eric-crouch,7,57.0,36.5,54.9,59.8,60.6,73.5
+guitarloot:Scores/EnglishMusic/Cutting/32GalliardGtrA,guitarloot,Galliard 32,Francis Cutting,7,delcamp-eric-crouch,7,59.9,50.7,54.9,59.8,60.6,73.5
+guitarloot:Scores/EnglishMusic/Cutting/33GallGtrAS,guitarloot,Galliard B33,Francis Cutting,7,delcamp-eric-crouch,7,71.2,80.8,54.9,92.4,60.6,67.1
+guitarloot:Scores/EnglishMusic/Cutting/34GallGtrA,guitarloot,Galliard B34,Francis Cutting,7,delcamp-eric-crouch,6,53.4,63.6,16.2,59.8,60.6,67.1
+guitarloot:Scores/EnglishMusic/Cutting/35GallGtr,guitarloot,Sir Walter Raleigh's Galliard B35,Francis Cutting or Richard Allison,7,delcamp-eric-crouch,6,53.4,63.6,16.2,59.8,60.6,67.1
+guitarloot:Scores/EnglishMusic/Cutting/36GallGtrA,guitarloot,Galliard B36,Francis Cutting or John Dowland,7,delcamp-eric-crouch,7,72.4,80.8,54.9,92.4,60.6,73.5
+guitarloot:Scores/EnglishMusic/Cutting/39AlmaineGtrA,guitarloot,Almaine B39,Francis Cutting,7,delcamp-eric-crouch,6,47.2,50.7,54.9,59.8,60.6,10.0
+guitarloot:Scores/EnglishMusic/Cutting/46WilloughbyGtr.iPad,guitarloot,My Lord Willoughby's Welcome Home B46,Francis Cutting,7,delcamp-eric-crouch,7,62.7,71.4,54.9,59.8,60.6,67.1
+guitarloot:Scores/EnglishMusic/Cutting/51LachrimaeGtr.iPad,guitarloot,Lachrimae Pavan B51,Francis Cutting,7,delcamp-eric-crouch,8,81.7,63.6,99.3,92.4,60.6,92.5
+guitarloot:Scores/EnglishMusic/Cutting/52Quadro.GtrA,guitarloot,Quadro Pavan B52,? Francis Cutting,7,delcamp-eric-crouch,7,57.1,50.7,54.9,92.4,16.8,70.7
+guitarloot:Scores/EnglishMusic/Cutting/55WoodsSoWildGtrArr,guitarloot,The Woods so Wild B55,Francis Cutting/William Byrd,7,delcamp-eric-crouch,7,64.2,50.7,54.9,59.8,60.6,95.2
+guitarloot:Scores/EnglishMusic/Cutting/56GalliardGtrA,guitarloot,Galliard 56,Francis Cutting,7,delcamp-eric-crouch,7,60.9,27.8,91.4,92.4,60.6,32.4
+guitarloot:Scores/EnglishMusic/Danyel/AnnGreneGtr,guitarloot,Mistress Ann Grene - Her Leaves be Green,John Danyel,9,delcamp-eric-crouch,7,78.6,92.5,91.4,92.4,20.4,96.4
+guitarloot:Scores/EnglishMusic/Danyel/AnnGrenefGtr,guitarloot,Mistress Ann Grene - Her Leaves be Green,John Danyel,9,delcamp-eric-crouch,7,78.6,92.5,91.4,92.4,20.4,96.4
+guitarloot:Scores/EnglishMusic/Danyel/MonsieurDanGtr.iPad,guitarloot,Mounsier's Almaine,John Danyel,9,delcamp-eric-crouch,7,72.1,50.7,91.4,59.8,60.6,98.1
+guitarloot:Scores/EnglishMusic/Danyel/PavanDanGtr.iPad,guitarloot,Pavan,John Danyel 1564 –,9,delcamp-eric-crouch,7,65.6,71.4,54.9,59.8,60.6,81.5
+guitarloot:Scores/EnglishMusic/Danyel/RosaMix,guitarloot,Rosa(mund),John Danyel,9,delcamp-eric-crouch,7,79.6,97.3,91.4,59.8,60.6,89.1
+guitarloot:Scores/EnglishMusic/Danyel/Rosagtr,guitarloot,Rosa,John Danyel,9,delcamp-eric-crouch,7,79.6,97.3,91.4,59.8,60.6,89.1
+guitarloot:Scores/EnglishMusic/Danyel/RosamundGtr,guitarloot,Rosamund,John Danyel,9,delcamp-eric-crouch,7,78.7,92.5,91.4,59.8,60.6,89.1
+guitarloot:Scores/EnglishMusic/Danyel/fRosagtr,guitarloot,Rosa,John Danyel,9,delcamp-eric-crouch,7,79.6,97.3,91.4,59.8,60.6,89.1
+guitarloot:Scores/EnglishMusic/Dowland/32VauxGalliardGtr,guitarloot,Mrs. Vaux Galliard,John Dowland,8,delcamp-eric-crouch,6,45.5,12.5,54.9,59.8,60.6,39.8
+guitarloot:Scores/EnglishMusic/Dowland/57VauxGigue,guitarloot,Mrs. Vaux Gigue,John Dowland,8,delcamp-eric-crouch,6,36.1,12.5,54.9,59.8,12.3,40.9
+guitarloot:Scores/EnglishMusic/Dowland/Almain49Gtr,guitarloot,An Almain,John Dowland,8,delcamp-eric-crouch,6,49.9,50.7,54.9,59.8,60.6,23.5
+guitarloot:Scores/EnglishMusic/Dowland/AlmandGtrA,guitarloot,Almand,John Dowland,8,delcamp-eric-crouch,7,64.4,99.5,54.9,59.8,60.6,47.1
+guitarloot:Scores/EnglishMusic/Dowland/AloeGtr.iPad,guitarloot,Aloe,John Dowland,8,delcamp-eric-crouch,7,78.5,80.8,91.4,92.4,60.6,67.1
+guitarloot:Scores/EnglishMusic/Dowland/BarbaraDowlandGtr,guitarloot,La Mia Barbara,John Dowland,8,delcamp-eric-crouch,7,78.6,92.5,54.9,92.4,60.6,92.5
+guitarloot:Scores/EnglishMusic/Dowland/CanSheExcuseGtriPad,guitarloot,"Can She Excuse My Wrongs (P42)
+(Poulton 42)",John Dowland,8,delcamp-eric-crouch,7,65.1,50.7,54.9,92.4,60.6,67.1
+guitarloot:Scores/EnglishMusic/Dowland/CaseP.iPad,guitarloot,Dr Case's Pavane,John Dowland,8,delcamp-eric-crouch,7,58.2,50.7,54.9,92.4,60.6,32.4
+guitarloot:Scores/EnglishMusic/Dowland/ChamberlainGalliardGtrSoloAS,guitarloot,My Lord Chamberlain's Galliard,John Dowland,8,delcamp-eric-crouch,6,47.7,27.8,54.9,59.8,60.6,35.3
+guitarloot:Scores/EnglishMusic/Dowland/CliftonGtr,guitarloot,"The Right Honourable, the Lady Clifton's Spirit",John Dowland,8,delcamp-eric-crouch,7,58.6,50.7,54.9,59.8,60.6,67.1
+guitarloot:Scores/EnglishMusic/Dowland/ComeAwayGtr,guitarloot,Come Away,John Dowland,8,delcamp-eric-crouch,6,50.2,50.7,54.9,59.8,60.6,25.0
+guitarloot:Scores/EnglishMusic/Dowland/DMidnightGtr.iPad,guitarloot,Mr. Dowlands Midnight,John Dowland,8,delcamp-eric-crouch,6,41.8,63.6,54.9,19.8,60.6,10.0
+guitarloot:Scores/EnglishMusic/Dowland/DarbyGallEGtr.iPad,guitarloot,"The Right Honourable Ferdinando Earle of Darby 
+his Galliard (Poulton 44a)",John Dowland,8,delcamp-eric-crouch,7,78.0,71.4,91.4,92.4,60.6,74.4
+guitarloot:Scores/EnglishMusic/Dowland/DigoryGallGtrAS,guitarloot,Captain Digorie Piper's Galliard,John Dowland,8,delcamp-eric-crouch,7,64.6,80.8,54.9,59.8,60.6,67.1
+guitarloot:Scores/EnglishMusic/Dowland/Dowlands1stGallP22AS,guitarloot,Dowland's First Galliard,John Dowland,8,delcamp-eric-crouch,7,69.1,50.7,99.3,59.8,60.6,75.1
+guitarloot:Scores/EnglishMusic/Dowland/DowlandsBellsECA,guitarloot,Dowland's Bells (Lady Rich's Galliard),John Dowland,8,delcamp-eric-crouch,7,58.6,50.7,54.9,59.8,60.6,67.1
+guitarloot:Scores/EnglishMusic/Dowland/DreamGtrA,guitarloot,A Dream,John Dowland,8,delcamp-eric-crouch,7,60.8,63.6,54.9,92.4,60.6,32.4
+guitarloot:Scores/EnglishMusic/Dowland/FancyP6Gtr,guitarloot,A Fancy (Poulton No. 6),John Dowland,8,delcamp-eric-crouch,7,60.5,63.6,54.9,59.8,60.6,63.8
+guitarloot:Scores/EnglishMusic/Dowland/Fantasia73.Gtr.iPad,guitarloot,Fancy,John Dowland,8,delcamp-eric-crouch,7,57.9,50.7,54.9,59.8,60.6,63.8
+guitarloot:Scores/EnglishMusic/Dowland/Fantasia73.Srev.Gtr.iPad,guitarloot,Fancy; Revised version,John Dowland,8,delcamp-eric-crouch,7,60.7,50.7,54.9,59.8,60.6,77.6
+guitarloot:Scores/EnglishMusic/Dowland/Fantasia74.Gtr.iPad,guitarloot,Fancy,John Dowland,8,delcamp-eric-crouch,7,62.4,50.7,99.9,59.8,60.6,40.9
+guitarloot:Scores/EnglishMusic/Dowland/FantasyP5GtrAS,guitarloot,Fantasy,John Dowland,8,delcamp-eric-crouch,7,62.6,50.7,91.4,59.8,60.6,50.4
+guitarloot:Scores/EnglishMusic/Dowland/FortuneGtrA,guitarloot,Fortune,John Dowland,8,delcamp-eric-crouch,7,59.2,92.5,16.2,59.8,60.6,67.1
+guitarloot:Scores/EnglishMusic/Dowland/FrogTGtrA,guitarloot,The Frog Galliard,after John Dowland,8,delcamp-eric-crouch,7,74.8,71.4,54.9,92.4,60.6,94.9
+guitarloot:Scores/EnglishMusic/Dowland/GagliardaGtr,guitarloot,Gagliarda,Attr. John Dowland,8,delcamp-eric-crouch,7,69.5,92.5,54.9,59.8,60.6,79.8
+guitarloot:Scores/EnglishMusic/Dowland/Gall30GtrA,guitarloot,Galliard,John Dowland,8,delcamp-eric-crouch,7,65.1,50.7,54.9,92.4,60.6,67.1
+guitarloot:Scores/EnglishMusic/Dowland/Gall35GtrRev,guitarloot,Galliard,John Dowland,8,delcamp-eric-crouch,7,63.1,50.7,54.9,92.4,60.6,56.9
+guitarloot:Scores/EnglishMusic/Dowland/Galliard24GtrAS,guitarloot,Galliard (Poulton 24),John Dowland,8,delcamp-eric-crouch,7,63.7,80.8,54.9,92.4,60.6,29.8
+guitarloot:Scores/EnglishMusic/Dowland/GalliardP27Gtr.iPad,guitarloot,Galliard,John Dowland,8,delcamp-eric-crouch,7,72.0,63.6,91.4,92.4,60.6,51.9
+guitarloot:Scores/EnglishMusic/Dowland/GalliardP28Gtr,guitarloot,Galliard (Poulton 28),John Dowland,8,delcamp-eric-crouch,7,69.0,63.6,54.9,92.4,60.6,73.5
+guitarloot:Scores/EnglishMusic/Dowland/GalliardP82Gtr,guitarloot,Galliard,John Dowland/Francis Cutting,8,delcamp-eric-crouch,7,62.5,63.6,54.9,59.8,60.6,73.5
+guitarloot:Scores/EnglishMusic/Dowland/GoWindowGtr.iPad,guitarloot,Go From My Window,John Dowland,8,delcamp-eric-crouch,7,59.6,36.5,54.9,59.8,60.6,86.1
+guitarloot:Scores/EnglishMusic/Dowland/HobieGallGtrAS,guitarloot,Giles Hobie's Galliard,John Dowland,8,delcamp-eric-crouch,7,78.5,80.8,91.4,92.4,60.6,67.1
+guitarloot:Scores/EnglishMusic/Dowland/JSmithAlmaineGtrAS,guitarloot,Sir John Smith his Almaine (Poulton 47),John Dowland,8,delcamp-eric-crouch,7,68.1,80.8,54.9,59.8,60.6,84.3
+guitarloot:Scores/EnglishMusic/Dowland/LachrimaeGalliardGtrf.iPad,guitarloot,Galliard to Lachrimae,John Dowland,8,delcamp-eric-crouch,7,72.4,80.8,54.9,92.4,60.6,73.5
+guitarloot:Scores/EnglishMusic/Dowland/LangtonGallGtrA,guitarloot,Mr Langton's Galliard,John Dowland,8,delcamp-eric-crouch,7,78.2,98.7,54.9,92.4,60.6,84.3
+guitarloot:Scores/EnglishMusic/Dowland/LisleGtr,guitarloot,"The Lord Viscount Lisle, His Galliard",John Dowland,8,delcamp-eric-crouch,7,68.5,63.6,91.4,59.8,60.6,67.1
+guitarloot:Scores/EnglishMusic/Dowland/LothDepartGtr,guitarloot,Loth to Depart (Poulton 69),John Dowland,8,delcamp-eric-crouch,8,84.0,80.8,91.4,92.4,60.6,94.6
+guitarloot:Scores/EnglishMusic/Dowland/MelancholyGalliardGtrDiPad,guitarloot,Melancholy Galliard (Poulton 25),John Dowland,8,delcamp-eric-crouch,7,59.6,63.6,54.9,92.4,16.8,70.7
+guitarloot:Scores/EnglishMusic/Dowland/MignardaEGtr,guitarloot,Mignarda (M. Henry Noel's Galliard),John Dowland,8,delcamp-eric-crouch,7,75.3,50.7,91.4,92.4,60.6,81.5
+guitarloot:Scores/EnglishMusic/Dowland/NoTitleP51.iPad,guitarloot,A Piece Without Title (Poulton 51),John Dowland,8,delcamp-eric-crouch,7,64.5,92.5,54.9,92.4,60.6,21.9
+guitarloot:Scores/EnglishMusic/Dowland/P58ShoemakersWife,guitarloot,The Shoemaker's Wife,John Dowland,8,delcamp-eric-crouch,6,51.7,50.7,54.9,59.8,60.6,32.4
+guitarloot:Scores/EnglishMusic/Dowland/PavanP94Gtr,guitarloot,Pavan,Attr. John Dowland,8,delcamp-eric-crouch,7,72.5,92.5,54.9,59.8,60.6,94.6
+guitarloot:Scores/EnglishMusic/Dowland/PraeGtr,guitarloot,Praeambulum,Attr. John Dowland,8,delcamp-eric-crouch,6,53.7,71.4,54.9,59.8,60.6,21.9
+guitarloot:Scores/EnglishMusic/Dowland/Preludium98EGtr,guitarloot,Preludium,John Dowland,8,delcamp-eric-crouch,6,50.5,50.7,54.9,59.8,60.6,26.8
+guitarloot:Scores/EnglishMusic/Dowland/RobinGtr,guitarloot,Robin,John Dowland,8,delcamp-eric-crouch,7,69.7,50.7,91.4,59.8,60.6,86.1
+guitarloot:Scores/EnglishMusic/Dowland/SolusCumSolaGtriPad,guitarloot,Solus cum Sola,John Dowland,8,delcamp-eric-crouch,7,69.1,80.8,54.9,92.4,60.6,56.9
+guitarloot:Scores/EnglishMusic/Dowland/SolusSineSolaGtrA,guitarloot,Brigide Fleetwood's Pavan (Solus Sine Sola),John Dowland,8,delcamp-eric-crouch,7,60.4,50.7,54.9,59.8,60.6,76.1
+guitarloot:Scores/EnglishMusic/Dowland/TarletonJigGtr,guitarloot,Tarleton's Jig,John Dowland,8,delcamp-eric-crouch,6,53.2,80.8,54.9,59.8,60.6,10.0
+guitarloot:Scores/EnglishMusic/Dowland/WhatDay79.Gtr.iPad,guitarloot,What If A Day,John Dowland,8,delcamp-eric-crouch,7,58.7,80.8,54.9,59.8,60.6,37.6
+guitarloot:Scores/EnglishMusic/ELB//Sellinger,guitarloot,Sellinger's Round,Anon,5,delcamp-eric-crouch,7,72.8,92.5,54.9,59.8,60.6,96.0
+guitarloot:Scores/EnglishMusic/ELB/06v.BlundevillesPavane.GtrV5,guitarloot,John Blundevilles Last Farewell (Pavan),William Hollis,8,delcamp-eric-crouch,7,63.7,80.8,54.9,59.8,60.6,62.4
+guitarloot:Scores/EnglishMusic/ELB/07.GalliardAnonHirschGtr,guitarloot,Galliard 7,Anon. Hisch Lute book f.4,4,delcamp-eric-crouch,6,48.0,36.5,16.2,59.8,60.6,67.1
+guitarloot:Scores/EnglishMusic/ELB/10v.Prelude.GtrD,guitarloot,Prelude,Anon (Cosens Lute Book,5,delcamp-eric-crouch,7,59.1,63.6,54.9,59.8,60.6,56.9
+guitarloot:Scores/EnglishMusic/ELB/11.Galliard.HirschAnon.Gtr,guitarloot,Galliard 11,Anon,4,delcamp-eric-crouch,6,50.5,50.7,54.9,59.8,16.8,70.7
+guitarloot:Scores/EnglishMusic/ELB/133Grimstock.Gtr,guitarloot,Grimstock,Anon,6,delcamp-eric-crouch,6,39.6,36.5,16.2,59.8,60.6,25.0
+guitarloot:Scores/EnglishMusic/ELB/26vMallSimsPickeringGtr,guitarloot,Mall Sims,Anon. ? Hans Leo Hassler,7,delcamp-eric-crouch,8,80.7,92.5,91.4,59.8,60.6,99.1
+guitarloot:Scores/EnglishMusic/ELB/29bAllemandeEGtr,guitarloot,Allemande,"Anon, Pickering Lute Book",7,delcamp-eric-crouch,7,62.4,92.5,54.9,59.8,60.6,44.2
+guitarloot:Scores/EnglishMusic/ELB/33.GalliardGtrRev,guitarloot,Galliard,Anon. (Cosens Lute Book,5,delcamp-eric-crouch,7,68.9,92.5,54.9,92.4,60.6,44.2
+guitarloot:Scores/EnglishMusic/ELB/34v.SmythPavaneGtr,guitarloot,Pavane,Thomas Smyth,8,delcamp-eric-crouch,7,67.8,63.6,91.4,59.8,60.6,63.8
+guitarloot:Scores/EnglishMusic/ELB/35b.SmythGalliard.Gtr,guitarloot,Galliard,Thomas Smyth,8,delcamp-eric-crouch,7,70.0,98.7,91.4,59.8,60.6,39.8
+guitarloot:Scores/EnglishMusic/ELB/36v.LachrimaeGtrCK,guitarloot,Lachrimae Pavan CK,"Anon ""CK"" (Cosens Lute Book",5,delcamp-eric-crouch,7,70.3,50.7,54.9,92.4,60.6,93.0
+guitarloot:Scores/EnglishMusic/ELB/39.CKFantasy.Gtr,guitarloot,Fantasy,"Anon ""CK"" (Cosens Lute Book",5,delcamp-eric-crouch,7,73.8,63.6,91.4,59.8,60.6,93.4
+guitarloot:Scores/EnglishMusic/ELB/39AnonCourante,guitarloot,Courante (39),"Anon, Pickering Lute Book",7,delcamp-eric-crouch,7,55.5,92.5,54.9,59.8,14.4,55.7
+guitarloot:Scores/EnglishMusic/ELB/40AnonAllemandeGtrV2,guitarloot,Allemande (40r),"Anon, Pickering Lute Book",7,delcamp-eric-crouch,7,64.1,92.5,91.4,59.8,15.4,61.6
+guitarloot:Scores/EnglishMusic/ELB/42.CavendishGalliard.Gtr,guitarloot,Cavendish Galliard,Michael Cavendish,8,delcamp-eric-crouch,7,60.6,80.8,54.9,59.8,60.6,47.1
+guitarloot:Scores/EnglishMusic/ELB/44CouranteGaultier,guitarloot,Courante,?Gaultier,7,delcamp-eric-crouch,5,29.3,36.5,54.9,19.8,10.1,25.0
+guitarloot:Scores/EnglishMusic/ELB/45vAnonAllemandeGtr,guitarloot,Allemande (45v),"Anon, Pickering Lute Book",7,delcamp-eric-crouch,7,63.4,97.3,54.9,59.8,60.6,44.2
+guitarloot:Scores/EnglishMusic/ELB/46AnonAllemandeGtr,guitarloot,Allemande (46),"Anon, Pickering Lute Book",7,delcamp-eric-crouch,6,39.1,50.7,16.2,59.8,60.6,8.3
+guitarloot:Scores/EnglishMusic/ELB/46bAnonSarabande,guitarloot,Sarabande,"Anon, Pickering Lute Book",7,delcamp-eric-crouch,6,53.7,71.4,54.9,59.8,60.6,21.9
+guitarloot:Scores/EnglishMusic/ELB/46v.LadyNorthsGalliardE.Gtr,guitarloot,Lady North's Galliard,Anon,5,delcamp-eric-crouch,7,63.8,71.4,54.9,59.8,60.6,72.5
+guitarloot:Scores/EnglishMusic/ELB/46vSarabande,guitarloot,Le Sarabande,"Germain Pinel, Pickering Lute Book",7,delcamp-eric-crouch,6,42.4,42.9,16.2,59.8,60.6,32.4
+guitarloot:Scores/EnglishMusic/ELB/47SmythGalliard.Gtr,guitarloot,Galliard,Thomas Smyth,8,delcamp-eric-crouch,7,78.5,80.8,91.4,92.4,60.6,67.1
+guitarloot:Scores/EnglishMusic/ELB/47v.VautorAllemandeGtr,guitarloot,Allemande,Thomas Vautor (Cosens Lute Book,8,delcamp-eric-crouch,6,45.1,50.7,54.9,59.8,13.1,47.1
+guitarloot:Scores/EnglishMusic/ELB/48GaultierNightingaleGtr,guitarloot,Nightingale,Gaultier,7,delcamp-eric-crouch,7,65.6,92.5,54.9,59.8,60.6,60.2
+guitarloot:Scores/EnglishMusic/ELB/50.gtGalliard.Gtr,guitarloot,Galliard,Anon. ?Thomas Smyth,8,delcamp-eric-crouch,7,74.3,92.5,91.4,59.8,60.6,67.1
+guitarloot:Scores/EnglishMusic/ELB/50vJigGtr,guitarloot,Jig,"Anon, Pickering Lute Book",7,delcamp-eric-crouch,6,47.6,92.5,54.9,19.8,60.6,10.0
+guitarloot:Scores/EnglishMusic/ELB/51HornpipeGtr,guitarloot,Hornpipe,"Anon, Pickering Lute Book",7,delcamp-eric-crouch,6,38.8,50.7,16.2,59.8,60.6,6.7
+guitarloot:Scores/EnglishMusic/ELB/Alman13Gtr,guitarloot,13. Alman,Anon; Willoughby Lute Book ff.17v-18r,7,delcamp-eric-crouch,7,56.6,63.6,54.9,59.8,60.6,44.2
+guitarloot:Scores/EnglishMusic/ELB/Anthony3v2,guitarloot,Anthony Pavan,?Anthony de Countie,7,delcamp-eric-crouch,7,56.8,12.5,54.9,92.4,60.6,63.8
+guitarloot:Scores/EnglishMusic/ELB/Anthony4v2,guitarloot,Anthony Pavan,?Anthony de Countie,7,delcamp-eric-crouch,7,64.9,63.6,54.9,92.4,60.6,53.2
+guitarloot:Scores/EnglishMusic/ELB/BellAlmayneEGtr,guitarloot,Bell Almayne,Margaret Board Lute Book f.31,5,delcamp-eric-crouch,7,63.6,92.5,54.9,59.8,60.6,50.4
+guitarloot:Scores/EnglishMusic/ELB/BrewsterPavan.iPad,guitarloot,Brewster's Pavan,Anon,7,delcamp-eric-crouch,6,48.8,36.5,54.9,59.8,60.6,32.4
+guitarloot:Scores/EnglishMusic/ELB/ChacogneGtrRev,guitarloot,Chacogne,Anon,5,delcamp-eric-crouch,6,54.4,24.2,54.9,59.8,60.6,72.5
+guitarloot:Scores/EnglishMusic/ELB/ChaconeRobartsGtrWeb,guitarloot,Chacone,Anon,4,delcamp-eric-crouch,7,78.3,92.5,91.4,59.8,60.6,87.5
+guitarloot:Scores/EnglishMusic/ELB/CorantoBGtr,guitarloot,Coranto,Anon,5,delcamp-eric-crouch,7,55.3,63.6,54.9,59.8,18.6,79.8
+guitarloot:Scores/EnglishMusic/ELB/DelacourtGtrAS,guitarloot,The Delacourt Pavan,Anon,5,delcamp-eric-crouch,7,68.5,63.6,91.4,59.8,60.6,67.1
+guitarloot:Scores/EnglishMusic/ELB/Doompe,guitarloot,A Doomp,Anon,6,delcamp-eric-crouch,6,51.2,63.6,54.9,19.8,60.6,56.9
+guitarloot:Scores/EnglishMusic/ELB/Eglantine,guitarloot,The Eglantine Branche,Anon,5,delcamp-eric-crouch,6,52.8,50.7,54.9,92.4,60.6,5.2
+guitarloot:Scores/EnglishMusic/ELB/Fantasia29Gtr,guitarloot,Fantasy 29,Anon: Hirsch Lute Book,4,delcamp-eric-crouch,6,54.5,42.9,54.9,59.8,60.6,54.6
+guitarloot:Scores/EnglishMusic/ELB/FantasieGtrRev.iPad,guitarloot,Fansie (Fantasia),Anon,7,delcamp-eric-crouch,7,62.7,80.8,54.9,59.8,19.6,98.4
+guitarloot:Scores/EnglishMusic/ELB/Fantasy51AnonGtrA,guitarloot,51. Fantasy,Anon: Hirsch Lute Book,4,delcamp-eric-crouch,7,58.8,92.5,54.9,59.8,11.9,75.1
+guitarloot:Scores/EnglishMusic/ELB/FlatPavan.Gtr,guitarloot,The Flat Pavan,Anon,6,delcamp-eric-crouch,6,40.8,36.5,54.9,19.8,60.6,32.4
+guitarloot:Scores/EnglishMusic/ELB/FrenchTuneEGtr,guitarloot,The French Tune,? P Guedron,6,delcamp-eric-crouch,6,46.7,36.5,54.9,59.8,60.6,21.9
+guitarloot:Scores/EnglishMusic/ELB/GallFlat.Gtr,guitarloot,Galliard to the Flat Pavan,Anon,6,delcamp-eric-crouch,6,54.0,27.8,54.9,59.8,60.6,67.1
+guitarloot:Scores/EnglishMusic/ELB/Galliard15Gtr,guitarloot,Galliard,Anon,7,delcamp-eric-crouch,7,55.8,36.5,54.9,59.8,60.6,67.1
+guitarloot:Scores/EnglishMusic/ELB/Gillyflower,guitarloot,Gillyflower,Anon,5,delcamp-eric-crouch,5,30.2,50.7,54.9,19.8,9.3,16.2
+guitarloot:Scores/EnglishMusic/ELB/Ground19Gtr,guitarloot,19.Ground,Anon: Hirsch Lute Book,4,delcamp-eric-crouch,7,57.2,63.6,54.9,59.8,60.6,47.1
+guitarloot:Scores/EnglishMusic/ELB/Halls%20Galliard,guitarloot,Hall's Galliard,?Richard Green,7,delcamp-eric-crouch,7,61.0,36.5,91.4,59.8,60.6,56.9
+guitarloot:Scores/EnglishMusic/ELB/JoaneMaypole,guitarloot,Joane to the Maypole,Anon,5,delcamp-eric-crouch,6,47.0,50.7,54.9,19.8,60.6,49.2
+guitarloot:Scores/EnglishMusic/ELB/JohnKissNowGtr,guitarloot,John Come Kiss Me Now,Anon,6,delcamp-eric-crouch,7,68.5,71.4,54.9,59.8,60.6,96.0
+guitarloot:Scores/EnglishMusic/ELB/MadTom,guitarloot,Mad Tom of Bedlam,Anon,6,delcamp-eric-crouch,7,58.7,63.6,54.9,59.8,60.6,54.6
+guitarloot:Scores/EnglishMusic/ELB/MarshSellGtr,guitarloot,Sellenger's Round,Anon,6,delcamp-eric-crouch,7,55.6,63.6,54.9,19.8,60.6,79.0
+guitarloot:Scores/EnglishMusic/ELB/New%20Almaine,guitarloot,A New Almaine,Anon,7,delcamp-eric-crouch,7,62.7,50.7,54.9,59.8,60.6,87.5
+guitarloot:Scores/EnglishMusic/ELB/Pavan.Dd.5.78.Gtr,guitarloot,Pavan (Dd.5.78.3;1v-2r),Anon 16th Century,6,delcamp-eric-crouch,7,55.6,50.7,54.9,59.8,60.6,51.9
+guitarloot:Scores/EnglishMusic/ELB/QuandoClaroGtr.iPad,guitarloot,"Quando Claro, Quando Claro?",Anon,7,delcamp-eric-crouch,7,75.8,80.8,54.9,92.4,60.6,90.5
+guitarloot:Scores/EnglishMusic/ELB/SoucheGtr,guitarloot,Lord Souches Maske,Anon,6,delcamp-eric-crouch,6,53.5,50.7,54.9,19.8,60.6,81.5
+guitarloot:Scores/EnglishMusic/ELB/StrangeGallGtr,guitarloot,Lord Strang's Galliard,Anon,6,delcamp-eric-crouch,7,69.8,63.6,91.4,59.8,60.6,73.5
+guitarloot:Scores/EnglishMusic/ELB/Teares8Gtr.iPad,guitarloot,Mrs EB Teares,Anon 16th Century,6,delcamp-eric-crouch,7,62.4,92.5,54.9,59.8,60.6,44.2
+guitarloot:Scores/EnglishMusic/ELB/Teares9Gtr.iPad,guitarloot,Teares (A Lament),Anon. 16th century,6,delcamp-eric-crouch,7,59.5,63.6,54.9,59.8,60.6,58.8
+guitarloot:Scores/EnglishMusic/ELB/TomBedlamGtr,guitarloot,Poor Tom of Bedlam,Anon,6,delcamp-eric-crouch,7,61.1,50.7,54.9,92.4,60.6,47.1
+guitarloot:Scores/EnglishMusic/ELB/Woodbynde,guitarloot,The Wood Bynde,Anon,5,delcamp-eric-crouch,6,53.3,50.7,54.9,92.4,60.6,7.9
+guitarloot:Scores/EnglishMusic/Ferrabosco/BandFant1Gtr.iPad,guitarloot,Bandora Fantasia No.1,Alfonso Ferrabosco 1,7,delcamp-eric-crouch,7,61.1,88.4,54.9,59.8,14.7,87.9
+guitarloot:Scores/EnglishMusic/Ferrabosco/BandFant2.iPad,guitarloot,Bandora Fantasia No.2,Alfonso Ferrabosco 1,7,delcamp-eric-crouch,7,59.5,63.6,54.9,92.4,11.9,75.1
+guitarloot:Scores/EnglishMusic/Ferrabosco/BandFant4Gtr.iPad,guitarloot,BANDORA FANTASIA No.4,Alfonso Ferrabosco I,7,delcamp-eric-crouch,7,64.0,80.8,54.9,92.4,17.5,74.4
+guitarloot:Scores/EnglishMusic/Ferrabosco/BandPavGtr,guitarloot,Bandora Pavan,Alfonso Ferrabosco 1,7,delcamp-eric-crouch,7,66.6,63.6,54.9,92.4,60.6,61.6
+guitarloot:Scores/EnglishMusic/Ferrabosco/Pavan(Varietie)Gtr.iPad,guitarloot,Lute Pavan No.1,Alfonso Ferrabosco,7,delcamp-eric-crouch,7,61.1,42.9,54.9,59.8,60.6,87.5
+guitarloot:Scores/EnglishMusic/Holborne/44%20AlmaineGtr,guitarloot,Lute Almaine (The Choyce),Anthony Holborne,6,delcamp-eric-crouch,6,52.7,50.7,54.9,59.8,60.6,37.6
+guitarloot:Scores/EnglishMusic/Holborne/47HollyGtr,guitarloot,As it fell on a Holiday*,Anthony Holborne,6,delcamp-eric-crouch,6,44.4,36.5,54.9,59.8,60.6,10.0
+guitarloot:Scores/EnglishMusic/Holborne/BandFant1.Gtr.iPad,guitarloot,Bandora Fantasia 1,Anthony Holborne,6,delcamp-eric-crouch,6,47.7,50.7,54.9,59.8,10.8,62.4
+guitarloot:Scores/EnglishMusic/Holborne/BandFant2.Gtr.Arr,guitarloot,Bandora Fantasia 2,Anthony Holborne,6,delcamp-eric-crouch,7,65.5,80.8,54.9,92.4,13.9,85.6
+guitarloot:Scores/EnglishMusic/Holborne/BandFant3.iPad,guitarloot,Bandora Fantasia 3,Anthony Holborne,6,delcamp-eric-crouch,6,54.4,50.7,54.9,92.4,11.1,63.0
+guitarloot:Scores/EnglishMusic/Holborne/BandFant4.iPad,guitarloot,Bandora Fantasia 4,Anthony Holborne,6,delcamp-eric-crouch,6,53.4,63.6,54.9,59.8,16.8,71.9
+guitarloot:Scores/EnglishMusic/Holborne/BandGall1Gtr,guitarloot,Bandora Galliard 1 - Lullaby,Anthony Holborne,6,delcamp-eric-crouch,7,62.4,92.5,54.9,59.8,60.6,44.2
+guitarloot:Scores/EnglishMusic/Holborne/BandGall2Gtr,guitarloot,Bandora Galliard 2,Anthony Holborne,6,delcamp-eric-crouch,6,50.1,36.5,54.9,59.8,60.6,38.9
+guitarloot:Scores/EnglishMusic/Holborne/BandPav2Gtr,guitarloot,Bandora Pavan 2,Anthony Holborne,6,delcamp-eric-crouch,7,63.1,71.4,91.4,59.8,60.6,32.4
+guitarloot:Scores/EnglishMusic/Holborne/BandPav3Gtr,guitarloot,Bandora Pavan 3,Anthony Holborne,6,delcamp-eric-crouch,7,55.7,63.6,54.9,59.8,60.6,39.8
+guitarloot:Scores/EnglishMusic/Holborne/BandPav4Gtr,guitarloot,Bandora Pavan 4,Anthony Holborne,6,delcamp-eric-crouch,7,62.3,71.4,54.9,92.4,60.6,32.4
+guitarloot:Scores/EnglishMusic/Holborne/BandPav5Gtr.iPad,guitarloot,Bandora Pavan 5,Anthony Holborne,6,delcamp-eric-crouch,7,68.0,50.7,54.9,92.4,60.6,81.5
+guitarloot:Scores/EnglishMusic/Holborne/BandPav6Gtr,guitarloot,Bandora Pavan 6,Anthony Holborne,6,delcamp-eric-crouch,6,54.2,63.6,54.9,59.8,60.6,32.4
+guitarloot:Scores/EnglishMusic/Holborne/BondGallGtr,guitarloot,Mr. Bond's Galliard (Nec Invideo),Anthony Holborne,6,delcamp-eric-crouch,7,65.0,80.8,91.4,59.8,60.6,32.4
+guitarloot:Scores/EnglishMusic/Holborne/ChosesGtrArev2.iPad,guitarloot,Tres Choses,Anthony Holborne,6,delcamp-eric-crouch,7,78.4,92.5,54.9,92.4,60.6,91.8
+guitarloot:Scores/EnglishMusic/Holborne/ClarkesGalliard.Gtr,guitarloot,Clarke's Galliard,Anthony Holborne,6,delcamp-eric-crouch,7,62.3,36.5,54.9,92.4,60.6,67.1
+guitarloot:Scores/EnglishMusic/Holborne/CradleConceitsGtrAS,guitarloot,Pavan - The Cradle of Conceits,Anthony Holborne,6,delcamp-eric-crouch,7,58.6,50.7,54.9,59.8,60.6,67.1
+guitarloot:Scores/EnglishMusic/Holborne/FairyRound.Gtr,guitarloot,The Fairy Round,Anthony Holborne,6,delcamp-eric-crouch,7,58.6,50.7,54.9,59.8,60.6,67.1
+guitarloot:Scores/EnglishMusic/Holborne/FantasyHolb01GtrAlt,guitarloot,Lute Fantasia 1,Anthoy Holborne,6,delcamp-eric-crouch,7,65.5,63.6,54.9,59.8,60.6,88.7
+guitarloot:Scores/EnglishMusic/Holborne/Farewell.Gtr.Arr,guitarloot,Galliard - Farewell,Anthony Holborne,6,delcamp-eric-crouch,7,67.6,50.7,91.4,59.8,60.6,75.5
+guitarloot:Scores/EnglishMusic/Holborne/Galliard.PassionGtr,guitarloot,Passion (Galliard),Anthony Holborne,6,delcamp-eric-crouch,7,61.5,63.6,91.4,59.8,60.6,32.4
+guitarloot:Scores/EnglishMusic/Holborne/Galliard16Gtr,guitarloot,Galliard 16,Anthony Holborne,6,delcamp-eric-crouch,7,59.6,80.8,54.9,59.8,60.6,42.1
+guitarloot:Scores/EnglishMusic/Holborne/Galliard17gtr,guitarloot,Galliard 17,Anthony Holborne,6,delcamp-eric-crouch,6,48.8,36.5,54.9,59.8,60.6,32.4
+guitarloot:Scores/EnglishMusic/Holborne/GroundGtr,guitarloot,A Ground,Anthony Holborne,6,delcamp-eric-crouch,6,43.1,36.5,16.2,92.4,60.6,10.0
+guitarloot:Scores/EnglishMusic/Holborne/HeartseaseGtr,guitarloot,Heart's Ease (Almain),Anthony Holborne,6,delcamp-eric-crouch,7,59.2,50.7,54.9,92.4,60.6,37.6
+guitarloot:Scores/EnglishMusic/Holborne/HeresPaternusGtr,guitarloot,Pavan - Heres Paternus,Anthony Holborne,6,delcamp-eric-crouch,7,62.5,63.6,54.9,92.4,60.6,40.9
+guitarloot:Scores/EnglishMusic/Holborne/NightWatch.iPad,guitarloot,The Night Watch,Anthony Holborne,6,delcamp-eric-crouch,7,62.8,80.8,91.4,92.4,11.6,37.6
+guitarloot:Scores/EnglishMusic/Holborne/PavanBonaSperenzaGtr,guitarloot,Pavan - Bona Sperenza,Anthony Holborne,6,delcamp-eric-crouch,7,55.3,63.6,54.9,59.8,60.6,37.6
+guitarloot:Scores/EnglishMusic/Holborne/PembPavRev.iPad,guitarloot,Pavan - The Countess of Pembroke's Paradise,Anthony Holborne,6,delcamp-eric-crouch,6,47.7,36.5,54.9,59.8,60.6,26.8
+guitarloot:Scores/EnglishMusic/Holborne/ReadeAlmaine.Gtr,guitarloot,Lute Almaine 4 (Reade's Almaine),Anthony Holborne,6,delcamp-eric-crouch,7,65.5,80.8,54.9,92.4,60.6,38.9
+guitarloot:Scores/EnglishMusic/Holborne/ResponseGalliardGtr,guitarloot,Response Galliard,Anthony Holborne,6,delcamp-eric-crouch,7,68.8,50.7,91.4,59.8,60.6,81.5
+guitarloot:Scores/EnglishMusic/Holborne/TearsMusesGtrArr,guitarloot,Tears of the Muses (Galliard),Anthony Holborne,6,delcamp-eric-crouch,7,62.1,63.6,54.9,92.4,60.6,38.9
+guitarloot:Scores/EnglishMusic/Holborne/VarGordianGtrAS,guitarloot,The Gordian Knot,Anthony Holborne,6,delcamp-eric-crouch,7,69.7,63.6,54.9,92.4,60.6,76.9
+guitarloot:Scores/EnglishMusic/Holborne/Will2EGtr,guitarloot,Pavan - Last Will and Testament,Anthony Holborne,6,delcamp-eric-crouch,7,62.3,36.5,54.9,92.4,60.6,67.1
+guitarloot:Scores/EnglishMusic/Johnson/01.FantasiaJGtr.iPad,guitarloot,Fantasia,Robert Johnson,7,delcamp-eric-crouch,7,66.3,97.3,91.4,59.8,15.9,67.1
+guitarloot:Scores/EnglishMusic/Johnson/02.PavanGtrArr,guitarloot,Pavan 02,Robert Johnson,7,delcamp-eric-crouch,8,84.7,80.8,91.4,92.4,60.6,98.1
+guitarloot:Scores/EnglishMusic/Johnson/05.MildmayGtr.Folger,guitarloot,Galliard - My Lady Mildemay’s Delight,Robert Johnson,7,delcamp-eric-crouch,7,69.9,80.8,54.9,92.4,60.6,60.9
+guitarloot:Scores/EnglishMusic/Johnson/NobleMensMasqueEGtr,guitarloot,The Noble Man,?Robert Johnson,7,delcamp-eric-crouch,7,70.4,92.5,54.9,59.8,60.6,84.3
+guitarloot:Scores/EnglishMusic/Other/10.PavanLupo.Gtr,guitarloot,Pavan 10,?Ambrose Lupo,8,delcamp-eric-crouch,7,66.0,63.6,54.9,59.8,60.6,91.1
+guitarloot:Scores/EnglishMusic/Other/32bEnglishHuntsUpp.Gtr,guitarloot,The English Hunt's Up,John Whitfield,8,delcamp-eric-crouch,6,49.9,36.5,54.9,59.8,60.6,37.6
+guitarloot:Scores/EnglishMusic/Other/35vDaphneCorridonD,guitarloot,"Daphne & Corridon (or Tell Me, Daphne)",John Whitfield,8,delcamp-eric-crouch,7,70.8,97.3,54.9,59.8,60.6,81.5
+guitarloot:Scores/EnglishMusic/Other/Alman90Gtr,guitarloot,Alman,Martin Peerson,7,delcamp-eric-crouch,7,64.7,71.4,54.9,92.4,60.6,44.2
+guitarloot:Scores/EnglishMusic/Other/BulmanPavGtr.iPad,guitarloot,Pavan,Baruch Bulman,8,delcamp-eric-crouch,7,66.5,63.6,91.4,59.8,60.6,56.9
+guitarloot:Scores/EnglishMusic/Other/Fansyegtr.iPad,guitarloot,Fansye (Fantasy),Newman,8,delcamp-eric-crouch,7,55.7,50.7,16.2,92.4,60.6,58.8
+guitarloot:Scores/EnglishMusic/Other/Fantasia4GtrArrF.iPad,guitarloot,Lute Fantasia 4,Cuthbert Hely,8,delcamp-eric-crouch,7,71.5,97.3,54.9,92.4,17.8,95.2
+guitarloot:Scores/EnglishMusic/Other/Fantasy03RGtr,guitarloot,Fantasia 3,Cuthbert Hely,8,delcamp-eric-crouch,6,52.8,12.5,54.9,59.8,60.6,76.1
+guitarloot:Scores/EnglishMusic/Other/FlatTuneGtr.iPad,guitarloot,Mr. Lawes flat tune,William Lawes,7,delcamp-eric-crouch,7,59.0,63.6,54.9,92.4,60.6,23.5
+guitarloot:Scores/EnglishMusic/Other/Galliard23Gtr,guitarloot,Galliard 23,Edward Pierce,8,delcamp-eric-crouch,6,53.1,50.7,54.9,59.8,60.6,39.8
+guitarloot:Scores/EnglishMusic/Other/InNomineGalliard,guitarloot,In Nomine Galliard,Nicholas Strogers,8,delcamp-eric-crouch,7,57.5,50.7,54.9,59.8,60.6,61.6
+guitarloot:Scores/EnglishMusic/Other/InNominePavan,guitarloot,In Nomine Pavan,Nicholas Strogers,8,delcamp-eric-crouch,7,77.2,50.7,91.4,92.4,60.6,91.1
+guitarloot:Scores/EnglishMusic/Other/Pavane1BassanoGtr,guitarloot,La Vecchia Pavane 1,Augustine Bassano,8,delcamp-eric-crouch,7,70.3,92.5,91.4,59.8,60.6,47.1
+guitarloot:Scores/EnglishMusic/Other/Pavane2BassanoGtr,guitarloot,La Vecchia Pavane 2,Augustine Bassano,8,delcamp-eric-crouch,7,61.6,80.8,54.9,59.8,60.6,51.9
+guitarloot:Scores/EnglishMusic/Other/PipersPavanPGtr,guitarloot,Pipers Paven.,MARTIN PEERSON,7,delcamp-eric-crouch,7,79.7,98.7,54.9,92.4,60.6,91.8
+guitarloot:Scores/EnglishMusic/Other/Prelude6Arr,guitarloot,Prelude 6,Cuthbert Hely,8,delcamp-eric-crouch,7,62.9,92.5,91.4,59.8,60.6,10.0
+guitarloot:Scores/EnglishMusic/Other/Prelude8Gtr,guitarloot,Prelude 8,Cuthbert Hely,8,delcamp-eric-crouch,7,60.7,50.7,91.4,59.8,60.6,40.9
+guitarloot:Scores/EnglishMusic/Other/PrimroseGtrArr,guitarloot,The Primrose,Martin Peerson,7,delcamp-eric-crouch,7,65.3,71.4,54.9,92.4,60.6,47.1
+guitarloot:Scores/EnglishMusic/Other/SarabandGtrL.iPad,guitarloot,Sarabande,William Lawes,7,delcamp-eric-crouch,6,36.6,36.5,16.2,59.8,60.6,10.0
+guitarloot:Scores/EnglishMusic/Other/StrangsGregoryGtr,guitarloot,"""Mr Strangs Gregory hitts""",?John Whitfield,8,delcamp-eric-crouch,7,61.0,97.3,54.9,59.8,60.6,32.4
+guitarloot:Scores/EnglishMusic/Other/leafeGtr.iPad,guitarloot,The Fall of the Leaf,Martin Peerson,7,delcamp-eric-crouch,7,61.1,50.7,54.9,92.4,60.6,47.1
+guitarloot:Scores/EnglishMusic/Pilkington/6Galliard6GtriPad,guitarloot,Galliard (6),Francis Pilkington,6,delcamp-eric-crouch,7,67.7,98.7,91.4,59.8,16.8,71.9
+guitarloot:Scores/EnglishMusic/Pilkington/9OldfieldGtrAS,guitarloot,Mrs. Mary Oldfield's Galliard (9),Francis Pilkington,6,delcamp-eric-crouch,6,50.9,50.7,16.2,59.8,60.6,67.1
+guitarloot:Scores/EnglishMusic/Pilkington/FuneralGtriPad,guitarloot,Pavane (1): George Pilkington's Funeral,Francis Pilkington,6,delcamp-eric-crouch,7,67.1,92.5,54.9,92.4,60.6,35.3
+guitarloot:Scores/EnglishMusic/Pilkington/GoWindowGtr.iPad,guitarloot,Go From My Window (15),Francis Pilkington,6,delcamp-eric-crouch,7,66.1,50.7,54.9,92.4,60.6,71.9
+guitarloot:Scores/EnglishMusic/Pilkington/MurcottGallGtriPad,guitarloot,Mrs. Elizabeth Murcott's Galliard (10),Francis Pilkington,6,delcamp-eric-crouch,7,55.7,80.8,54.9,59.8,15.9,67.1
+guitarloot:Scores/EnglishMusic/Pilkington/WagstaffGtriPad,guitarloot,Galliard (11): Mr. T Wagstaff's Content of Desire,Francis Pilkington,6,delcamp-eric-crouch,7,64.6,80.8,54.9,59.8,60.6,67.1
+guitarloot:Scores/EnglishMusic/Robinson/20vSpanishPavane.Gtr,guitarloot,The Spanish Pavane,Thomas Robinson,5,delcamp-eric-crouch,7,67.5,80.8,54.9,59.8,60.6,81.5
+guitarloot:Scores/EnglishMusic/Robinson/Almayne23,guitarloot,Almayne (23),Thomas Robinson,5,delcamp-eric-crouch,7,56.6,63.6,54.9,59.8,60.6,44.2
+guitarloot:Scores/EnglishMusic/Robinson/Bellvedere32Gtr.iPad,guitarloot,Bellvedere,Thomas Robinson,5,delcamp-eric-crouch,7,79.5,92.5,99.3,59.8,60.6,85.2
+guitarloot:Scores/EnglishMusic/Robinson/Fant3Gtr,guitarloot,Fantasia 3,Thomas Robinson,5,delcamp-eric-crouch,6,47.1,27.8,54.9,59.8,12.6,80.4
+guitarloot:Scores/EnglishMusic/Robinson/Galliard17Gtr,guitarloot,Galliard (17),Thomas Robinson,5,delcamp-eric-crouch,6,51.7,50.7,54.9,59.8,60.6,32.4
+guitarloot:Scores/EnglishMusic/Robinson/Galliard6Gtr.iPad,guitarloot,Galliard (6),Thomas Robinson,5,delcamp-eric-crouch,7,57.7,80.8,54.9,59.8,60.6,32.4
+guitarloot:Scores/EnglishMusic/Robinson/Galliard7Gtr,guitarloot,Galliard (7),Thomas Robinson,5,delcamp-eric-crouch,7,65.7,63.6,54.9,92.4,60.6,56.9
+guitarloot:Scores/EnglishMusic/Robinson/Gigue22GtrAS,guitarloot,Gigue (22),Thomas Robinson,5,delcamp-eric-crouch,6,48.8,36.5,16.2,59.8,60.6,70.7
+guitarloot:Scores/EnglishMusic/Robinson/GoWindow20Gtr,guitarloot,Go from My Window,Thomas Robinson,5,delcamp-eric-crouch,7,60.1,80.8,54.9,59.8,60.6,44.2
+guitarloot:Scores/EnglishMusic/Robinson/MerryMelancholyGtr.iPad,guitarloot,Merry Melancholy,Thomas Robinson,5,delcamp-eric-crouch,6,53.4,50.7,54.9,59.8,19.1,82.8
+guitarloot:Scores/EnglishMusic/Robinson/QueensGigue,guitarloot,The Queen's Gigue,Thomas Robinson,5,delcamp-eric-crouch,6,52.2,71.4,54.9,19.8,60.6,54.6
+guitarloot:Scores/EnglishMusic/Varietie/GuilfordeGtr,guitarloot,"Sir Henry Guilforde, his Almaine",Anon,7,delcamp-eric-crouch,7,62.7,71.4,54.9,59.8,60.6,67.1
+guitarloot:Scores/EnglishMusic/Varietie/QMaske1gtriPad,guitarloot,The first of the Queen's Maskes,Anon,7,delcamp-eric-crouch,7,66.1,50.7,91.4,92.4,60.6,35.3
+guitarloot:Scores/EnglishMusic/Varietie/QMaske2GtriPad,guitarloot,The Second of the Queen's Maskes,Anon,7,delcamp-eric-crouch,6,51.1,50.7,54.9,59.8,60.6,29.8
+guitarloot:Scores/EnglishMusic/Varietie/QMaske3GtriPad,guitarloot,The Third of the Queen's Maskes,Anon,7,delcamp-eric-crouch,6,54.2,63.6,54.9,59.8,60.6,32.4
+guitarloot:Scores/EnglishMusic/Varietie/SamanCoranto.iPad,guitarloot,"Mounsier Saman, his Coranto",René Saman,7,delcamp-eric-crouch,7,63.1,98.7,91.4,59.8,13.9,51.9
+guitarloot:Scores/EnglishMusic/Varietie/Volte1GtrAS,guitarloot,Volte 1,Anon,7,delcamp-eric-crouch,7,64.4,99.5,54.9,59.8,60.6,47.1
+guitarloot:Scores/EnglishMusic/Varietie/Volte2GtrAS,guitarloot,Volte 2,Anon,7,delcamp-eric-crouch,7,65.7,97.3,54.9,59.8,60.6,55.7
+guitarloot:Scores/EnglishMusic/Varietie/Volte3GtrAS,guitarloot,Volte 3,Anon,7,delcamp-eric-crouch,7,70.9,97.3,54.9,92.4,60.6,49.2
+guitarloot:Scores/EnglishMusic/Varietie/Volte4GtrAS,guitarloot,Volte 4,Anon,7,delcamp-eric-crouch,7,56.6,80.8,54.9,59.8,60.6,26.8
+guitarloot:Scores/EnglishMusic/Varietie/Volte5GtrAS,guitarloot,Volte 5,Anon,7,delcamp-eric-crouch,7,56.9,80.8,54.9,59.8,60.6,28.3
+guitarloot:Scores/EnglishMusic/Varietie/Volte6GtrAS,guitarloot,Volte 6,Anon,7,delcamp-eric-crouch,6,53.4,63.6,54.9,59.8,60.6,28.3
+guitarloot:Scores/EnglishMusic/Varietie/Volte7GtrAS,guitarloot,Volte 7,Anon,7,delcamp-eric-crouch,6,51.5,50.7,16.2,92.4,60.6,37.6
+guitarloot:Scores/EnglishMusic/Wilder/AsDumpGtrRev.iPad,guitarloot,Arthur's Dump,Attr. Philip van Wilder,8,delcamp-eric-crouch,7,61.5,71.4,16.2,59.8,60.6,99.4
+guitarloot:Scores/EnglishMusic/Wilder/FantasieGtrNiPad,guitarloot,Fantasie,Philip van Wilder,8,delcamp-eric-crouch,7,70.4,50.7,54.9,92.4,60.6,93.2
+guitarloot:Scores/FrenchMusic/Angelique03Gtr.iPad,guitarloot,Angelique Troisieme,Robert Ballard,7,delcamp-eric-crouch,7,56.5,63.6,54.9,59.8,19.6,84.9
+guitarloot:Scores/FrenchMusic/Ballet5GtrAS,guitarloot,Ballet 5,Robert Ballard,7,delcamp-eric-crouch,7,61.1,92.5,54.9,59.8,60.6,37.6
+guitarloot:Scores/FrenchMusic/BergamascoDGtr,guitarloot,Bergamasco,Jean-Baptiste Besard,7,delcamp-eric-crouch,7,75.5,92.5,91.4,59.8,60.6,73.5
+guitarloot:Scores/FrenchMusic/ChacSaizAlt2Arr,guitarloot,Chaconne,Robert de Visée,7,delcamp-eric-crouch,7,70.2,80.8,54.9,59.8,60.6,94.9
+guitarloot:Scores/FrenchMusic/ChacSaizBrevAlt.iPad,guitarloot,Chaconne,Robert de Visee,7,delcamp-eric-crouch,7,70.1,80.8,54.9,59.8,60.6,94.3
+guitarloot:Scores/FrenchMusic/ChacSaizGtr,guitarloot,Chaconne,Robert de Visee,7,delcamp-eric-crouch,7,60.8,80.8,54.9,19.8,60.6,87.9
+guitarloot:Scores/FrenchMusic/ChaconeGtrArr.iPad,guitarloot,Chacone du vieux Gaultier,Enemond Gaultier,7,delcamp-eric-crouch,7,56.9,30.8,54.9,59.8,60.6,78.2
+guitarloot:Scores/FrenchMusic/ChaconneHmGtrG.iPad,guitarloot,Chaconne,"[Manuscrit d'Haslemere, Dolmetsch library II D 2, folio 119]",7,delcamp-eric-crouch,7,70.7,80.8,54.9,59.8,60.6,97.2
+guitarloot:Scores/FrenchMusic/ChaconneM.iPad,guitarloot,Chaconne,Charles Mouton,7,delcamp-eric-crouch,6,54.3,50.7,16.2,59.8,60.6,84.3
+guitarloot:Scores/FrenchMusic/GalliardeBesGtr,guitarloot,Galliarde,Anon 1603,7,delcamp-eric-crouch,6,50.5,50.7,54.9,59.8,60.6,26.8
+guitarloot:Scores/FrenchMusic/L'AmantGallotGtr,guitarloot,L'Amant Malheureux,Jacques Gallot,7,delcamp-eric-crouch,6,37.9,27.8,16.2,59.8,60.6,25.0
+guitarloot:Scores/FrenchMusic/LaCometeGtr,guitarloot,La Comète,Jacques Gallot,7,delcamp-eric-crouch,7,68.6,80.8,54.9,59.8,60.6,87.1
+guitarloot:Scores/FrenchMusic/MalSimmesRevGtr,guitarloot,Mal Simmes,Nicolaes Vallet,7,delcamp-eric-crouch,7,68.0,92.5,54.9,92.4,60.6,39.8
+guitarloot:Scores/FrenchMusic/PantalonsAv,guitarloot,Les Pantalons,Nicolaes Vallet,7,delcamp-eric-crouch,7,70.4,80.8,54.9,59.8,60.6,96.0
+guitarloot:Scores/FrenchMusic/Valletprel.iPad,guitarloot,Prelude,Nicolaes Vallet,7,delcamp-eric-crouch,6,49.9,50.7,54.9,59.8,60.6,23.5
+guitarloot:Scores/GermanMusic/1PreludeGtr.iPad,guitarloot,Prelude,Sylvius Leopold Weiss,8,delcamp-eric-crouch,6,51.0,80.8,54.9,19.8,60.6,38.9
+guitarloot:Scores/GermanMusic/2PassBibGtrArrAS,guitarloot,Passacaglia,H. I. F. von Biber,7,delcamp-eric-crouch,7,78.9,92.5,54.9,92.4,60.6,94.1
+guitarloot:Scores/GermanMusic/Chaconne.iPad,guitarloot,Chaconne,Anon,7,delcamp-eric-crouch,8,81.3,71.4,91.4,92.4,60.6,90.6
+guitarloot:Scores/GermanMusic/CiaconaAv,guitarloot,Ciacona,Esaias Reusner,7,delcamp-eric-crouch,7,76.0,80.8,54.9,92.4,60.6,91.1
+guitarloot:Scores/GermanMusic/FantBelissGtrF,guitarloot,Fantasia Belissima,Anon,7,delcamp-eric-crouch,7,66.7,80.8,16.2,92.4,60.6,83.6
+guitarloot:Scores/GermanMusic/Fantasia1Gtr,guitarloot,Fantasia,Anon,7,delcamp-eric-crouch,7,64.3,50.7,91.4,92.4,11.9,75.1
+guitarloot:Scores/GermanMusic/Fantasia4Gtr,guitarloot,Fantasia 4,Anon,7,delcamp-eric-crouch,7,72.4,63.6,91.4,59.8,60.6,86.8
+guitarloot:Scores/GermanMusic/FantasieE,guitarloot,Fantasie,Silvius Leopold WEISS,8,delcamp-eric-crouch,7,63.6,98.7,16.2,59.8,60.6,82.8
+guitarloot:Scores/GermanMusic/FrogAltGtr.iPad,guitarloot,Two variations on the Frog Galliard,Anon,7,delcamp-eric-crouch,7,72.9,71.4,91.4,59.8,60.6,81.5
+guitarloot:Scores/GermanMusic/Fuga.iPad,guitarloot,Fuga,Sylvius Leopold Weiss,8,delcamp-eric-crouch,7,64.1,92.5,54.9,59.8,13.6,99.8
+guitarloot:Scores/GermanMusic/L'AmantFin.iPadRev,guitarloot,L'Amant malheureux,Sylvius Leopold Weiss,8,delcamp-eric-crouch,8,85.0,92.5,91.4,92.4,60.6,88.3
+guitarloot:Scores/GermanMusic/MmeTiroloiseGtr.iPad,guitarloot,Mademoiselle Tiroloise,Sylvius Leopold Weiss,8,delcamp-eric-crouch,6,47.5,80.8,16.2,19.8,60.6,60.2
+guitarloot:Scores/GermanMusic/Padouana(Schein)gtr.AS,guitarloot,Padouana (à 4 Krumhorn),Johann Hermann Schein 1586 - 1613),7,delcamp-eric-crouch,7,57.3,36.5,54.9,92.4,60.6,42.1
+guitarloot:Scores/GermanMusic/PasagalliaRGtr,guitarloot,"Pasagallia à Discretion 
+*(to be played slowly and with rhythmic freedom)",Phillip Franz Le Sage de Richée,7,delcamp-eric-crouch,7,70.7,80.8,54.9,59.8,60.6,97.2
+guitarloot:Scores/GermanMusic/PassacagliaGtriPad,guitarloot,Passacaglia,Esaias Reusner,7,delcamp-eric-crouch,7,74.1,71.4,91.4,59.8,60.6,87.2
+guitarloot:Scores/GermanMusic/PlaintefGtr.iPad,guitarloot,Plainte,Sylvius Leopold Weiss,8,delcamp-eric-crouch,7,57.6,63.6,54.9,59.8,60.6,49.2
+guitarloot:Scores/GermanMusic/ReusnerPreludeAv,guitarloot,Prelude,Esaias Reusner,7,delcamp-eric-crouch,7,60.4,80.8,16.2,92.4,60.6,51.9
+guitarloot:Scores/GermanMusic/ReusnerPreludeE.iPad,guitarloot,Prelude,Esaias Reusner,7,delcamp-eric-crouch,7,62.7,92.5,16.2,92.4,60.6,51.9
+guitarloot:Scores/GermanMusic/SarabMosGtrAS,guitarloot,Sarabande,Silvius Leopold Weiss,8,delcamp-eric-crouch,6,43.2,63.6,16.2,19.8,60.6,55.7
+guitarloot:Scores/GermanMusic/WD6GavotteGtr.iPad,guitarloot,Gavotte,Sylvius Leopold Weiss,8,delcamp-eric-crouch,6,39.8,92.5,16.2,19.8,10.4,60.2
+guitarloot:Scores/GermanMusic/corantgtr.iPad,guitarloot,Corant,Anon,7,delcamp-eric-crouch,7,56.1,50.7,54.9,59.8,60.6,54.6
+guitarloot:Scores/ItalianMusic/12SaravandaGtr.iPad,guitarloot,Saravanda alla Francese,Alessandro Piccinini,6,delcamp-eric-crouch,7,67.9,97.3,54.9,59.8,60.6,67.1
+guitarloot:Scores/ItalianMusic/25Corrente9Arr.iPad,guitarloot,Corrente IX,Alessandro Piccinini,6,delcamp-eric-crouch,6,45.0,50.7,16.2,59.8,18.6,79.8
+guitarloot:Scores/ItalianMusic/Allemanda.iPad,guitarloot,Allemanda,Domenico Pellegrini,5,delcamp-eric-crouch,6,46.0,63.6,54.9,59.8,12.1,39.8
+guitarloot:Scores/ItalianMusic/AriaSVPAv,guitarloot,Aria di Saravanda in Varie Partite,Alessandro Piccinini,6,delcamp-eric-crouch,7,73.9,99.5,54.9,59.8,60.6,94.9
+guitarloot:Scores/ItalianMusic/BallettoEGtr.iPad,guitarloot,Balletto,Domenico Pellegrini,5,delcamp-eric-crouch,6,52.1,80.8,54.9,19.8,60.6,44.2
+guitarloot:Scores/ItalianMusic/BergAbondGtrV2,guitarloot,Bergamasca,Giulio Abondante,7,delcamp-eric-crouch,7,67.0,92.5,54.9,59.8,60.6,67.1
+guitarloot:Scores/ItalianMusic/CaponaGtrErevAlt,guitarloot,Capona,Johann Hieronymous Kapsberger,8,delcamp-eric-crouch,6,52.7,50.7,54.9,92.4,7.0,58.8
+guitarloot:Scores/ItalianMusic/ChiacconaVariateFinal,guitarloot,Chiaccona in Partite Variate,Alessandro Piccinini,6,delcamp-eric-crouch,6,54.1,36.5,54.9,59.8,60.6,58.8
+guitarloot:Scores/ItalianMusic/CiacconaArr4Gtr.iPad,guitarloot,Title,Johann Hieronymous Kapsberger,8,delcamp-eric-crouch,6,50.5,36.5,54.9,59.8,60.6,40.9
+guitarloot:Scores/ItalianMusic/ConcertoRV93.iPad,guitarloot,3. Allegro,Antonio Vivaldi,7,delcamp-eric-crouch,7,77.1,80.8,91.4,59.8,60.6,93.1
+guitarloot:Scores/ItalianMusic/Corrente.iPad,guitarloot,Corrente,Domenico Pellegrini,5,delcamp-eric-crouch,7,70.3,63.6,91.4,59.8,60.6,76.1
+guitarloot:Scores/ItalianMusic/CorrentePrimaGtriPad,guitarloot,Corrente Prima,Alessandro Piccinini,6,delcamp-eric-crouch,6,50.9,80.8,16.2,59.8,11.5,86.4
+guitarloot:Scores/ItalianMusic/CorrenteXVIgtr,guitarloot,Corrente XVI,Michelangelo Galilei,7,delcamp-eric-crouch,7,64.8,63.6,54.9,59.8,60.6,85.2
+guitarloot:Scores/ItalianMusic/Foscarini/AlemandaGtr,guitarloot,Alemanda,Giovanni Paolo Foscarini,6,delcamp-eric-crouch,6,52.1,63.6,54.9,59.8,60.6,21.9
+guitarloot:Scores/ItalianMusic/Foscarini/CapriccioGtr,guitarloot,Capriccio (Passacaglia),Giovanni Paolo Foscarini,6,delcamp-eric-crouch,6,51.2,42.9,54.9,59.8,60.6,37.6
+guitarloot:Scores/ItalianMusic/Foscarini/CorrenteFrancaiseGtrRev,guitarloot,Corrente Francaise,Giovanni Paolo Foscarini,6,delcamp-eric-crouch,7,67.5,42.9,54.9,92.4,60.6,86.8
+guitarloot:Scores/ItalianMusic/Foscarini/CorrenteRev,guitarloot,Corrente,Giovanni Paolo Foscarini,6,delcamp-eric-crouch,6,53.4,50.7,54.9,59.8,60.6,40.9
+guitarloot:Scores/ItalianMusic/Foscarini/CorrenteVRevGtr,guitarloot,Corrente con la sua Variatione,Giovanni Paolo Foscarini,6,delcamp-eric-crouch,6,44.3,42.9,16.2,59.8,19.1,83.6
+guitarloot:Scores/ItalianMusic/Foscarini/FantasiaRev,guitarloot,Fantasia,Giovanni Paolo Foscarini,6,delcamp-eric-crouch,6,52.3,71.4,91.4,59.8,10.6,28.3
+guitarloot:Scores/ItalianMusic/Foscarini/PassacaglioGtr,guitarloot,Passacaglio,Giovanni Paolo Foscarini,6,delcamp-eric-crouch,7,69.3,92.5,91.4,59.8,19.1,83.6
+guitarloot:Scores/ItalianMusic/Foscarini/PavanigliaGtr,guitarloot,Pavaniglia con parti variate,Giovanni Paolo Foscarini,6,delcamp-eric-crouch,7,59.9,42.9,54.9,59.8,60.6,81.5
+guitarloot:Scores/ItalianMusic/Foscarini/TasteggiataGtrRev,guitarloot,Tastegiata detta la Feretti,Giovanni Paolo Foscarini,6,delcamp-eric-crouch,7,60.5,80.8,91.4,59.8,60.6,10.0
+guitarloot:Scores/ItalianMusic/Foscarini/TasteggiataSoaveGtr,guitarloot,Tasteggiata Soave,Giovanni Paolo Foscarini,6,delcamp-eric-crouch,6,53.2,27.8,91.4,59.8,60.6,26.8
+guitarloot:Scores/ItalianMusic/Foscarini/ToccataGtr,guitarloot,Toccata,Giovanni Paolo Foscarini,6,delcamp-eric-crouch,6,48.4,50.7,54.9,59.8,60.6,16.2
+guitarloot:Scores/ItalianMusic/Foscarini/ToccataMGtrRev,guitarloot,Toccata Musicale,Giovanni Paolo Foscarini,6,delcamp-eric-crouch,6,50.9,50.7,54.9,59.8,60.6,28.3
+guitarloot:Scores/ItalianMusic/GagliardaGtr,guitarloot,Gagliarda 2,Michelangelo Galilei,7,delcamp-eric-crouch,6,50.2,36.5,54.9,59.8,18.6,81.5
+guitarloot:Scores/ItalianMusic/KapsbergerGtr,guitarloot,Kapsberger,Johann Hieronymus Kapsberger,8,delcamp-eric-crouch,7,58.7,80.8,54.9,59.8,8.5,89.8
+guitarloot:Scores/ItalianMusic/Passacaglia21Gtr.Rev,guitarloot,Passacaglia 21,Johann Hieronymous Kapsberger,8,delcamp-eric-crouch,6,51.2,36.5,54.9,19.8,60.6,84.3
+guitarloot:Scores/ItalianMusic/PavanaFerrarese.iPad,guitarloot,Pavana alla Ferrarese,Joanambrosio Dalza,7,delcamp-eric-crouch,6,46.5,14.6,16.2,59.8,60.6,81.5
+guitarloot:Scores/ItalianMusic/PavanaVenetianaGtriPad,guitarloot,Pavana alla Venetiana,Joan Ambrosio Dalza,7,delcamp-eric-crouch,6,48.8,20.3,54.9,92.4,15.4,60.9
+guitarloot:Scores/ItalianMusic/Ricercar33.iPad,guitarloot,Ricercar 33,Marco dall'Aquila,7,delcamp-eric-crouch,6,41.7,36.5,16.2,59.8,60.6,35.3
+guitarloot:Scores/ItalianMusic/SaltarelloIgtr,guitarloot,Saltarello I,Michelangelo Galilei,7,delcamp-eric-crouch,7,59.8,63.6,54.9,59.8,60.6,60.2
+guitarloot:Scores/ItalianMusic/Sarabanda.iPad,guitarloot,Sarabande,Domenico Pellegrini,5,delcamp-eric-crouch,7,59.5,50.7,91.4,59.8,60.6,35.3
+guitarloot:Scores/ItalianMusic/VoltaVgtr,guitarloot,Volta V,Michelangelo Galilei,7,delcamp-eric-crouch,7,68.8,50.7,91.4,59.8,60.6,81.5
+guitarloot:Scores/LyraViol/1.13.AlmaineGtrAS,guitarloot,Almaine 1.13,William Corkine,8,delcamp-eric-crouch,7,62.1,92.5,54.9,59.8,60.6,42.9
+guitarloot:Scores/LyraViol/1.14.Pavin.Gtr.iPad,guitarloot,Pavin 1.14,William Corkine,8,delcamp-eric-crouch,7,55.7,63.6,54.9,59.8,60.6,39.8
+guitarloot:Scores/LyraViol/1.15.Coranto.GtrAS,guitarloot,Coranto 1.15,William Corkine,8,delcamp-eric-crouch,6,45.4,80.8,54.9,59.8,9.8,21.9
+guitarloot:Scores/LyraViol/1.16.Almaine.Gtr.iPad,guitarloot,Almaine 1.16,William Corkine,8,delcamp-eric-crouch,7,64.5,80.8,91.4,59.8,60.6,29.8
+guitarloot:Scores/LyraViol/1.17.CorantoGtr,guitarloot,Coranto 1.17,William Corkine,8,delcamp-eric-crouch,6,44.8,80.8,16.2,59.8,60.6,6.7
+guitarloot:Scores/LyraViol/1.18.Pavin.Gtr.iPad,guitarloot,Pavin 1.18,William Corkine,8,delcamp-eric-crouch,7,71.4,97.3,54.9,59.8,60.6,84.3
+guitarloot:Scores/LyraViol/1.19.CorantoGtrArr,guitarloot,Coranto 1.19,William Corkine,8,delcamp-eric-crouch,6,48.2,80.8,16.2,59.8,60.6,23.5
+guitarloot:Scores/LyraViol/1.20.GalliardGtr,guitarloot,Galliard 1.20,William Corkine,8,delcamp-eric-crouch,7,62.1,80.8,54.9,59.8,60.6,54.6
+guitarloot:Scores/LyraViol/1.21.GalliardGtrArr,guitarloot,Galliard 1.21,William Corkine,8,delcamp-eric-crouch,6,53.7,63.6,54.9,59.8,60.6,29.8
+guitarloot:Scores/LyraViol/1.22.WhoopeGtrf.iPad,guitarloot,Whoope doe me no harme goodman 1.22,William Corkine,8,delcamp-eric-crouch,7,76.5,80.8,91.4,92.4,20.4,97.6
+guitarloot:Scores/LyraViol/1.23.GalliardGtrAS,guitarloot,Galliard 1.23,William Corkine,8,delcamp-eric-crouch,7,57.2,80.8,54.9,59.8,60.6,29.8
+guitarloot:Scores/LyraViol/1.24.FortuneGtr.iPad,guitarloot,Fortune 1.24,William Corkine,8,delcamp-eric-crouch,7,77.4,80.8,99.3,59.8,60.6,86.5
+guitarloot:Scores/LyraViol/2.20.ComplaintsGtrAS,guitarloot,If My Complaints 2.20,William Corkine,8,delcamp-eric-crouch,7,64.6,80.8,54.9,59.8,60.6,67.1
+guitarloot:Scores/LyraViol/2.21.PreludeGtrAS,guitarloot,Perlude (Prelude) 2.21,William Corkine,8,delcamp-eric-crouch,6,49.4,80.8,16.2,59.8,60.6,29.8
+guitarloot:Scores/LyraViol/2.22.ComeLiveGtrArr,guitarloot,Come Live with Me 2.22,William Corkine,8,delcamp-eric-crouch,7,58.6,99.5,16.2,59.8,60.6,56.9
+guitarloot:Scores/LyraViol/2.23.PreludeGtr,guitarloot,Perlude (Prelude) 2.23,William Corkine,8,delcamp-eric-crouch,5,34.6,36.5,16.2,59.8,60.6,0.0
+guitarloot:Scores/LyraViol/2.25.CorantoGtrAS,guitarloot,Coranto 2.25,William Corkine,8,delcamp-eric-crouch,6,54.6,80.8,16.2,59.8,60.6,55.7
+guitarloot:Scores/LyraViol/2.26.MounsierGtrAS,guitarloot,Mounsiers Almaine 2.26,William Corkine,8,delcamp-eric-crouch,7,61.0,92.5,16.2,59.8,60.6,76.1
+guitarloot:Scores/LyraViol/2.27.Coranto.Gtr,guitarloot,Coranto 2.27,William Corkine,8,delcamp-eric-crouch,6,39.9,80.8,16.2,19.8,60.6,21.9
+guitarloot:Scores/LyraViol/2.28.PunckeGtrArr,guitarloot,The Puncke's Delight 2.28,William Corkine,8,delcamp-eric-crouch,7,58.6,36.5,54.9,59.8,60.6,81.5
+guitarloot:Scores/LyraViol/2.29.PavinGtr.iPad,guitarloot,Pavin 2.29,William Corkine,8,delcamp-eric-crouch,7,57.8,42.9,54.9,59.8,60.6,70.7
+guitarloot:Scores/LyraViol/2.30.AlmaineGtr.iPad,guitarloot,Almaine 2.30,William Corkine,8,delcamp-eric-crouch,6,45.8,36.5,16.2,59.8,60.6,55.7
+guitarloot:Scores/LyraViol/25.26.Question&AnswerGtr,guitarloot,25/26 A Question and an Answer,Tobias Hume,7,delcamp-eric-crouch,7,58.7,63.6,54.9,59.8,60.6,54.6
+guitarloot:Scores/LyraViol/42PavinGtriPad,guitarloot,42 A Pavin,Tobias Hume,7,delcamp-eric-crouch,7,59.0,36.5,54.9,59.8,60.6,83.2
+guitarloot:Scores/LyraViol/46CHPavanGtr.iPad,guitarloot,46 Captain Hume's Pavan,Tobias Hume,7,delcamp-eric-crouch,7,72.4,63.6,91.4,59.8,60.6,86.8
+guitarloot:Scores/LyraViol/AlmaineGtr.Sherl.iPad,guitarloot,Almaine,Joseph Sherlie,7,delcamp-eric-crouch,7,67.2,80.8,54.9,59.8,60.6,80.1
+guitarloot:Scores/LyraViol/AnonVar,guitarloot,Variations,Anon,7,delcamp-eric-crouch,7,64.3,92.5,54.9,59.8,20.1,94.3
+guitarloot:Scores/LyraViol/DovehouseAGtr,guitarloot,The Dovehouse Pavan,Alfonso Ferrabosco the younger,7,delcamp-eric-crouch,7,57.1,36.5,16.2,92.4,60.6,79.8
+guitarloot:Scores/LyraViol/DovehouseGtr,guitarloot,The Dovehouse Pavan,Alfonso Ferrabosco the younger,7,delcamp-eric-crouch,7,66.0,80.8,16.2,92.4,60.6,79.8
+guitarloot:Scores/LyraViol/GalliardGtr.Sherl.iPad,guitarloot,Galliard,Joseph Sherlie,7,delcamp-eric-crouch,7,69.2,80.8,54.9,59.8,60.6,90.1
+guitarloot:Scores/LyraViol/GoodAgaineGtr,guitarloot,Good Againe,Tobias Hume,7,delcamp-eric-crouch,7,64.3,50.7,91.4,59.8,20.9,99.0
+guitarloot:Scores/LyraViol/GoodAgaineGtrDArr.iPad,guitarloot,Good Againe,Tobias Hume,7,delcamp-eric-crouch,7,72.5,92.5,91.4,59.8,20.7,98.2
+guitarloot:Scores/LyraViol/HolstoneGtr.iPad,guitarloot,The Duke of Holstone's Almayne,Tobias Hume,7,delcamp-eric-crouch,7,58.4,80.8,91.4,59.8,13.1,47.1
+guitarloot:Scores/LyraViol/HumorousPavinGtr.iPad,guitarloot,A Humorous Pavin,Tobias Hume,7,delcamp-eric-crouch,7,76.2,92.5,91.4,59.8,60.6,76.9
+guitarloot:Scores/LyraViol/LachLyraGGtrAS,guitarloot,Lachrimae Pavan,Anonymous setting of Dowland's Lachrimae,7,delcamp-eric-crouch,7,77.6,88.4,54.9,92.4,60.6,91.8
+guitarloot:Scores/LyraViol/MyHopeGtr.iPad,guitarloot,My Hope is Decayed,Tobias Hume,7,delcamp-eric-crouch,6,49.9,50.7,16.2,92.4,60.6,29.8
+guitarloot:Scores/LyraViol/OldHumorGtrAS,guitarloot,The Old Humor,Tobias Hume,7,delcamp-eric-crouch,7,74.2,80.8,91.4,59.8,60.6,78.2
+guitarloot:Scores/LyraViol/PavFarrantGtr,guitarloot,Pavin,Daniel Farrant,7,delcamp-eric-crouch,6,52.3,80.8,16.2,59.8,60.6,44.2
+guitarloot:Scores/LyraViol/PavinGtr.Sherl.iPad,guitarloot,Pavin,Joseph Sherlie,7,delcamp-eric-crouch,7,63.2,80.8,54.9,59.8,60.6,60.2
+guitarloot:Scores/LyraViol/PostNagGtr,guitarloot,Post Nag,Simon Ives,7,delcamp-eric-crouch,6,41.2,50.7,54.9,59.8,11.1,29.8
+guitarloot:Scores/LyraViol/PrelAireGtrF,guitarloot,Prelude and Aire,Anon. - from a Lyra Viol MS in,7,delcamp-eric-crouch,6,45.2,92.5,16.2,59.8,7.1,50.4
+guitarloot:Scores/LyraViol/Prelude32Gtr,guitarloot,Prelude 32,Simon Ives,7,delcamp-eric-crouch,6,49.9,36.5,54.9,59.8,60.6,37.6
+guitarloot:Scores/LyraViol/TouchGtr.iPad,guitarloot,Touch Me Lightly,Tobias Hume,7,delcamp-eric-crouch,6,51.6,50.7,91.4,19.8,60.6,35.3
+guitarloot:Scores/LyraViol/ViolPieceRevGtr,guitarloot,Untitled Piece,Carl Friedrich Abel,7,delcamp-eric-crouch,7,78.7,92.5,91.4,59.8,60.6,89.4
+guitarloot:Scores/LyraViol/WalsinghamLV.iPad,guitarloot,Walsingham,Anon,7,delcamp-eric-crouch,7,69.5,63.6,54.9,92.4,60.6,76.1
+guitarloot:Scores/Mercure/AlmaineGtrMercure,guitarloot,Almaine,Jean Mercure,5,delcamp-eric-crouch,7,58.9,92.5,54.9,92.4,12.5,42.1
+guitarloot:Scores/Mercure/GigGtrArr,guitarloot,'Gig',Dietrich Steffkins,5,delcamp-eric-crouch,6,50.5,50.7,54.9,59.8,60.6,26.8
+guitarloot:Scores/Mercure/SarabandMercure,guitarloot,Saraband (Mercure),after Jean Mercure,5,delcamp-eric-crouch,7,64.4,50.7,91.4,92.4,60.6,26.8
+guitarloot:Scores/Mercure/SarabandMercureDRev,guitarloot,Sarabande,Jean Mercure,5,delcamp-eric-crouch,6,47.4,36.5,54.9,59.8,60.6,25.0
+guitarloot:Scores/Mercure/SarabandMercureERev,guitarloot,Sarabande,Jean Mercure,5,delcamp-eric-crouch,6,50.2,50.7,54.9,59.8,60.6,25.0
+guitarloot:Scores/Miscellaneous/Branle2Gtr.AS,guitarloot,Branle 2,Attr. Jakub Polak,6,delcamp-eric-crouch,7,73.5,80.8,54.9,92.4,60.6,79.0
+guitarloot:Scores/Miscellaneous/BranleSN.Gtr.AS,guitarloot,"Branle I, de St. Nicolas",Jakup Polak,6,delcamp-eric-crouch,7,70.9,71.4,54.9,92.4,60.6,75.1
+guitarloot:Scores/Miscellaneous/Courante2c.Gtr.AS,guitarloot,Courante 2c,Jakub Polak,6,delcamp-eric-crouch,7,62.0,99.5,54.9,59.8,18.1,77.6
+guitarloot:Scores/Miscellaneous/Fantasia04,guitarloot,Fantasia 04,Jakub Polak,6,delcamp-eric-crouch,7,56.0,80.8,54.9,59.8,9.8,75.1
+guitarloot:Scores/Miscellaneous/Fantasia14Gtr,guitarloot,Fantasia 14,Jakub Polak,6,delcamp-eric-crouch,7,58.9,80.8,54.9,59.8,13.6,85.2
+guitarloot:Scores/Miscellaneous/FantasiaAdGtrAS,guitarloot,Fantasia No. 1,Emmanuel Adriaenssen,7,delcamp-eric-crouch,7,67.3,71.4,91.4,59.8,20.1,93.9
+guitarloot:Scores/Miscellaneous/Fillette1PAGtr,guitarloot,Une Jeune Fillette,Jakub Polak,6,delcamp-eric-crouch,7,69.8,80.8,54.9,92.4,21.1,99.9
+guitarloot:Scores/Miscellaneous/Fillette2PAGtr,guitarloot,Une Jeune Fillette,Jakub Polak,6,delcamp-eric-crouch,7,59.5,63.6,54.9,59.8,20.7,98.8
+guitarloot:Scores/Miscellaneous/Galliard1ArrAS,guitarloot,Galliard 1,Jakub Polak,6,delcamp-eric-crouch,7,65.9,99.9,54.9,59.8,60.6,54.6
+guitarloot:Scores/Miscellaneous/Galliard2Gtr,guitarloot,Galliard 2,Jakub Polak,6,delcamp-eric-crouch,7,55.6,80.8,54.9,59.8,60.6,21.9
+guitarloot:Scores/Miscellaneous/Galliard3AGtr.iPad,guitarloot,Galliard 3,Jacob Polak,6,delcamp-eric-crouch,7,73.5,92.5,54.9,92.4,60.6,67.1
+guitarloot:Scores/Miscellaneous/GrayGtr,guitarloot,Gray's Inn the First,John Coprario,8,delcamp-eric-crouch,7,57.2,98.7,54.9,19.8,60.6,51.9
+guitarloot:Scores/Miscellaneous/Preludium1,guitarloot,Preludium 1,Jakub Polak,6,delcamp-eric-crouch,7,55.4,36.5,54.9,92.4,60.6,32.4
+guitarloot:Scores/Miscellaneous/Preludium3Gtr,guitarloot,Preludium 3,Jakub Polak,6,delcamp-eric-crouch,6,54.5,80.8,54.9,59.8,60.6,16.2
+guitarloot:Scores/Miscellaneous/SarabandegtrfAS,guitarloot,Sarabande,Jakub Polak,6,delcamp-eric-crouch,7,77.1,80.8,54.9,92.4,60.6,96.8
+guitarloot:Scores/Miscellaneous/SarabandegtriPad,guitarloot,Sarabande,Jakub Polak,6,delcamp-eric-crouch,7,77.1,80.8,54.9,92.4,60.6,96.8
+guitarloot:Scores/Miscellaneous/Volte2.Gtr.AS,guitarloot,Volte 2,Jakub Polak,6,delcamp-eric-crouch,6,49.1,92.5,16.2,59.8,15.4,61.6
+guitarloot:Scores/Miscellaneous/Volte6Gtr,guitarloot,Volte 6,Jakub Polak,6,delcamp-eric-crouch,7,59.8,80.8,54.9,59.8,60.6,42.9
+guitarloot:Scores/OtherMusic/10AirGtr,guitarloot,Air,Henry Purcell,7,delcamp-eric-crouch,6,45.7,63.6,16.2,59.8,60.6,28.3
+guitarloot:Scores/OtherMusic/174IrishDumpGtr,guitarloot,The Irish Dumpe,Anon,7,delcamp-eric-crouch,7,64.8,80.8,54.9,92.4,60.6,35.3
+guitarloot:Scores/OtherMusic/41.CorantGtr,guitarloot,Corant,Henry Purcell,7,delcamp-eric-crouch,7,58.7,63.6,54.9,59.8,60.6,54.6
+guitarloot:Scores/OtherMusic/42.AlmandGtr,guitarloot,Almand,Henry Purcell,7,delcamp-eric-crouch,5,31.2,63.6,16.2,59.8,8.9,7.9
+guitarloot:Scores/OtherMusic/AireDminGtr,guitarloot,Aire in D minor,Henry Purcell,7,delcamp-eric-crouch,6,37.5,42.9,16.2,59.8,60.6,7.9
+guitarloot:Scores/OtherMusic/ChaconneBDGtrAS,guitarloot,Chaconne,Joseph Bodin de Boismortier,7,delcamp-eric-crouch,7,56.5,50.7,16.2,59.8,60.6,95.5
+guitarloot:Scores/OtherMusic/Dido2GtrD,guitarloot,Dido's Lament,Henry Purcell,7,delcamp-eric-crouch,7,67.9,80.8,91.4,92.4,7.9,67.1
+guitarloot:Scores/OtherMusic/GroundGamutGtrAS,guitarloot,A Ground in Gamut,Henry Purcell,7,delcamp-eric-crouch,7,67.5,80.8,54.9,59.8,60.6,81.5
+guitarloot:Scores/OtherMusic/HornpipeGtr,guitarloot,Hornpipe,Daniel Purcell,7,delcamp-eric-crouch,6,42.0,63.6,16.2,59.8,60.6,10.0
+guitarloot:Scores/OtherMusic/MinuetGtr,guitarloot,Minuet,Daniel Purcell,7,delcamp-eric-crouch,6,39.5,50.7,16.2,59.8,60.6,10.0
+guitarloot:Scores/OtherMusic/Sarabande%20D'AmourGtrArr,guitarloot,Sarabande d'Amour,Dieterich Buxtehude,7,delcamp-eric-crouch,7,56.2,80.8,54.9,59.8,60.6,25.0
+guitarloot:Scores/OtherMusic/SarabandeiPad,guitarloot,Sarabande,Daniel Purcell,7,delcamp-eric-crouch,6,45.1,50.7,54.9,19.8,60.6,39.8
+guitarloot:Scores/OtherMusic/SefauchiGtrArr,guitarloot,Sefauchi's Farewell,Henry Purcell,7,delcamp-eric-crouch,6,42.4,42.9,16.2,59.8,60.6,32.4
+guitarloot:Scores/ScotsMusic/BeckGreenSleevesGtr.iPad,guitarloot,Greensleeves,"Balcarres Lute Book, ""Mr. Beck""",6,delcamp-eric-crouch,7,59.5,63.6,54.9,19.8,60.6,98.4
+guitarloot:Scores/ScotsMusic/BeckTarphickenGtr,guitarloot,Tarphicken,"Balcarres Lute Book, ""Mr. Beck""",6,delcamp-eric-crouch,6,52.6,80.8,54.9,59.8,14.2,53.2
+guitarloot:Scores/ScotsMusic/BobBeckGtr.iPad,guitarloot,"When she came in, she bobbed","Balcarres Lute Book, ""Mr. Beck""",6,delcamp-eric-crouch,6,53.9,63.6,54.9,19.8,60.6,70.7
+guitarloot:Scores/ScotsMusic/BuckSarabCombGtr,guitarloot,Buckingham's Saraband,Balcarres Lute Book,6,delcamp-eric-crouch,7,69.1,71.4,54.9,59.8,60.6,98.9
+guitarloot:Scores/ScotsMusic/CanarioBalcarresAS,guitarloot,"The Canaries, the old way",John McLauchland,6,delcamp-eric-crouch,6,46.3,71.4,54.9,19.8,60.6,25.0
+guitarloot:Scores/ScotsMusic/HelenD.iPad,guitarloot,I wish I were where Helen Lies,David Grieve,6,delcamp-eric-crouch,6,41.2,71.4,54.9,19.8,13.1,47.1
+guitarloot:Scores/ScotsMusic/JeanMoreBalcarresAS,guitarloot,"Minuet Jean More, Mr Beck's Way",Balcarres Lute Book,6,delcamp-eric-crouch,7,57.7,80.8,54.9,59.8,60.6,32.4
+guitarloot:Scores/ScotsMusic/TweedsydeGtrD,guitarloot,Tweedsyde,'Mr Beck' - Balcarrers Lute Book,6,delcamp-eric-crouch,7,72.8,92.5,54.9,59.8,60.6,96.4
+guitarloot:Scores/SpanishMusic/Payssanos2.iPad,guitarloot,Payssanos,Santiago de Murcia,7,delcamp-eric-crouch,7,62.4,92.5,54.9,59.8,60.6,44.2
+guitarloot:Scores/Trios/SuiteV.Eminor.Marais.Gtrs,guitarloot,Suite in E minor,Marin Marais,,,5,34.3,63.6,3.2,3.5,1.4,100.0
+mutopia:ftp/AguadoD/O11/aguado-op11n01/aguado-op11n01#movement01,mutopia,Les Favorites,D. Aguado,,,6,53.7,16.5,54.9,59.8,60.6,76.9
+mutopia:ftp/AguadoD/O11/aguado-op11n02/aguado-op11n02#movement01,mutopia,Les Favorites,D. Aguado,,,6,42.8,16.5,54.9,59.8,15.9,67.1
+mutopia:ftp/AguadoD/O11/aguado-op11n03/aguado-op11n03#movement01,mutopia,Les Favorites,D. Aguado,,,6,53.5,20.3,54.9,59.8,60.6,71.9
+mutopia:ftp/AguadoD/O11/aguado-op11n04/aguado-op11n04#movement01,mutopia,Les Favorites,D. Aguado,,,6,54.0,16.5,54.9,59.8,60.6,78.2
+mutopia:ftp/AguadoD/O11/aguado-op11n05/aguado-op11n05#movement01,mutopia,Les Favorites,D. Aguado,,,6,53.5,9.6,54.9,59.8,60.6,82.8
+mutopia:ftp/AguadoD/O11/aguado-op11n06/aguado-op11n06#movement01,mutopia,Les Favorites,D. Aguado,,,5,26.9,20.3,16.2,19.8,11.4,67.1
+mutopia:ftp/AguadoD/O11/aguado-op11n07/aguado-op11n07#movement01,mutopia,Les Favorites,D. Aguado,,,6,54.0,16.5,54.9,59.8,60.6,78.2
+mutopia:ftp/AguadoD/O11/aguado-op11n08/aguado-op11n08#movement01,mutopia,Les Favorites,D. Aguado,,,6,52.9,12.5,54.9,59.8,60.6,76.9
+mutopia:ftp/AguadoD/O11/aguado-op11n09/aguado-op11n09#movement01,mutopia,Les Favorites,D. Aguado,,,6,38.4,20.3,16.2,59.8,18.1,77.6
+mutopia:ftp/AguadoD/O11/aguado-op11n10/aguado-op11n10#movement01,mutopia,Les Favorites,D. Aguado,,,6,53.4,14.6,54.9,59.8,60.6,76.9
+mutopia:ftp/AguadoD/O3/aguado-op03n01/aguado-op03n01#movement01,mutopia,8 Petites Pièces,D. Aguado,,,6,43.2,12.5,16.2,59.8,60.6,67.1
+mutopia:ftp/AguadoD/O3/aguado-op03n02/aguado-op03n02#movement01,mutopia,8 Petites Pièces,D. Aguado,,,6,53.7,16.5,54.9,59.8,60.6,76.9
+mutopia:ftp/AguadoD/O3/aguado-op03n03/aguado-op03n03#movement01,mutopia,8 Petites Pièces,D. Aguado,,,6,42.2,24.2,16.2,59.8,60.6,50.4
+mutopia:ftp/AguadoD/O3/aguado-op03n04/aguado-op03n04#movement01,mutopia,8 Petites Pièces,D. Aguado,,,6,42.3,12.5,16.2,59.8,60.6,62.4
+mutopia:ftp/AguadoD/O3/aguado-op03n05/aguado-op03n05#movement01,mutopia,8 Petites Pièces,D. Aguado,,,7,60.4,100.0,54.9,59.8,16.8,70.7
+mutopia:ftp/AguadoD/O3/aguado-op03n07/aguado-op03n07#movement01,mutopia,8 Petites Pièces,D. Aguado,,,7,61.6,18.1,91.4,59.8,60.6,78.2
+mutopia:ftp/AguadoD/O3/aguado-op03n08/aguado-op03n08#movement01,mutopia,8 Petites Pièces,D. Aguado,,,6,49.3,24.2,54.9,59.8,60.6,47.1
+mutopia:ftp/AguadoD/O4/AguadoOp4No1/AguadoOp4No1#movement01,mutopia,"Six Petites Pièces, No. 1",Dionisio Aguado,,,5,31.6,12.5,54.9,19.8,60.6,10.0
+mutopia:ftp/AguadoD/O4/AguadoOp4No1/AguadoOp4No1#movement02,mutopia,"Six Petites Pièces, No. 1",Dionisio Aguado,,,6,51.4,23.0,54.9,59.8,60.6,58.8
+mutopia:ftp/AguadoD/O4/AguadoOp4No2/AguadoOp4No2#movement01,mutopia,"Six Petites Pièces, No. 2",Dionisio Aguado,,,5,33.9,16.5,16.2,59.8,60.6,16.2
+mutopia:ftp/AguadoD/O4/AguadoOp4No2/AguadoOp4No2#movement02,mutopia,"Six Petites Pièces, No. 2",Dionisio Aguado,,,6,48.2,16.5,54.9,59.8,60.6,49.2
+mutopia:ftp/AguadoD/O4/AguadoOp4No3/AguadoOp4No3#movement03,mutopia,Six Petites Pièces,Dionisio Aguado,,,6,42.8,16.5,54.9,19.8,60.6,62.4
+mutopia:ftp/AguadoD/O4/AguadoOp4No3/AguadoOp4No3#movement04,mutopia,Six Petites Pièces,Dionisio Aguado,,,5,30.1,24.2,16.2,19.8,7.4,82.8
+mutopia:ftp/AguadoD/O4/AguadoOp4No4/AguadoOp4No4#movement03,mutopia,"Six Petites Pièces, No. 4",Dionisio Aguado,,,5,30.0,6.4,16.2,19.8,60.6,47.1
+mutopia:ftp/AguadoD/O4/AguadoOp4No4/AguadoOp4No4#movement04,mutopia,"Six Petites Pièces, No. 4",Dionisio Aguado,,,6,36.7,20.3,54.9,19.8,8.3,80.4
+mutopia:ftp/AguadoD/O4/AguadoOp4No5/AguadoOp4No5#movement03,mutopia,Six Petites Pièces,Dionisio Aguado,,,3,17.9,3.1,54.9,19.8,6.5,5.2
+mutopia:ftp/AguadoD/O4/AguadoOp4No5/AguadoOp4No5#movement04,mutopia,Six Petites Pièces,Dionisio Aguado,,,6,37.5,16.5,54.9,19.8,13.1,83.2
+mutopia:ftp/AguadoD/O4/AguadoOp4No6/AguadoOp4No6#movement02,mutopia,"Six Petites Pièces, No. 6",Dionisio Aguado,,,6,43.6,27.8,54.9,19.8,18.6,97.2
+mutopia:ftp/AguadoD/aminor-study/aminor-study#movement01,mutopia,Study in A Minor,Dionisio Aguado,,,3,18.9,1.1,3.2,19.8,60.6,10.0
+mutopia:ftp/AguadoD/g-major-allegro/g-major-allegro#movement01,mutopia,Allegro,D. Aguado,,,6,46.1,20.3,16.2,59.8,60.6,73.5
+mutopia:ftp/Anonymous/spanish-romance/spanish-romance#movement01,mutopia,Spanish Romance,Anonymous,,,5,32.7,92.5,3.2,3.5,1.4,63.0
+mutopia:ftp/BachJS/BWV1006a/bwv-1006a_1g/bwv-1006a_1g#movement01,mutopia,Suite E-Dur - BWV 1006a,Johann Sebastian Bach,,,6,46.3,92.5,16.2,19.8,4.4,98.6
+mutopia:ftp/BachJS/BWV1006a/bwv-1006a_2g/bwv-1006a_2g#movement01,mutopia,Suite E-Dur - BWV 1006a,Johann Sebastian Bach,,,6,38.0,71.4,16.2,59.8,7.5,35.3
+mutopia:ftp/BachJS/BWV1006a/bwv-1006a_3g/bwv-1006a_3g#movement01,mutopia,Suite E-Dur - BWV 1006a,Johann Sebastian Bach,,,7,61.9,80.8,54.9,19.8,60.6,93.4
+mutopia:ftp/BachJS/BWV1006a/bwv-1006a_4g/bwv-1006a_4g#movement01,mutopia,Suite E-Dur - BWV 1006a,Johann Sebastian Bach,,,6,54.6,50.7,91.4,19.8,60.6,50.4
+mutopia:ftp/BachJS/BWV1006a/bwv-1006a_5g/bwv-1006a_5g#movement01,mutopia,Suite E-Dur - Suite BWV 1006a,Johann Sebastian Bach,,,6,54.6,50.7,54.9,59.8,60.6,47.1
+mutopia:ftp/BachJS/BWV1006a/bwv-1006a_6g/bwv-1006a_6g#movement01,mutopia,Suite E-Dur - Suite BWV 1006a,Johann Sebastian Bach,,,6,40.1,50.7,16.2,19.8,60.6,53.2
+mutopia:ftp/BachJS/BWV1006a/bwv-1006a_7g/bwv-1006a_7g#movement01,mutopia,Suite E-Dur - Suite BWV 1006a,Johann Sebastian Bach,,,6,46.6,50.7,54.9,19.8,60.6,47.1
+mutopia:ftp/BachJS/BWV997/bwv997-01prelude/bwv997-01prelude#movement01,mutopia,Suite in C Minor for Lute (trans. to A minor),Johann Sebastian Bach,,,6,51.2,97.3,54.9,3.5,5.1,95.4
+mutopia:ftp/BachJS/BWV997/bwv997-02fuga/bwv997-02fuga#movement01,mutopia,Suite in C Minor for Lute (trans. to A minor),Johann Sebastian Bach,,,6,37.2,23.0,3.2,59.8,2.9,97.0
+mutopia:ftp/BachJS/BWV997/bwv997-03sarabande/bwv997-03sarabande#movement01,mutopia,Suite in C Minor for Lute (trans. to A minor),Johann Sebastian Bach,,,6,44.9,63.6,54.9,3.5,9.0,93.6
+mutopia:ftp/BachJS/BWV997/bwv997-04gigue/bwv997-04gigue#movement01,mutopia,Suite in C Minor for Lute (trans. to A minor),Johann Sebastian Bach,,,6,36.4,63.6,3.2,19.8,3.1,92.5
+mutopia:ftp/BachJS/BWV997/bwv997-05double/bwv997-05double#movement01,mutopia,Suite in C Minor for Lute (trans. to A minor),Johann Sebastian Bach,,,6,39.6,80.8,3.2,19.8,3.1,91.1
+mutopia:ftp/BachJS/BWV999/Bach_Prelude_BWV999/Bach_Prelude_BWV999#movement01,mutopia,Prelude,J.S. Bach,,,5,33.9,16.5,54.9,3.5,5.0,89.8
+mutopia:ftp/BrahmsJ/O39/brahms-vals3/brahms-vals3#movement01,mutopia,Vals no. 3,J. Brahms,,,6,36.1,20.3,54.9,19.8,60.6,25.0
+mutopia:ftp/BrahmsJ/O39/brahms-vals3/brahms-vals3#movement02,mutopia,Vals no. 3,J. Brahms,,,5,28.5,20.3,54.9,3.5,6.9,56.9
+mutopia:ftp/BrahmsJ/O39/brahms-vals9/brahms-vals9#movement01,mutopia,Vals no. 9,J. Brahms,,,6,46.9,20.3,91.4,19.8,60.6,42.1
+mutopia:ftp/BrahmsJ/O39/brahms-vals9/brahms-vals9#movement02,mutopia,Vals no. 9,J. Brahms,,,6,40.3,20.3,91.4,3.5,7.2,79.0
+mutopia:ftp/CarcassiM/O26/carcassi-op26-01/carcassi-op26-01#movement01,mutopia,Six Caprices,Mateo Carcassi,,,7,59.7,12.5,91.4,59.8,60.6,74.4
+mutopia:ftp/CarcassiM/O26/carcassi-op26-03/carcassi-op26-03#movement01,mutopia,Six Caprices,Mateo Carcassi,,,5,22.5,27.8,3.2,19.8,9.8,51.9
+mutopia:ftp/CarcassiM/O26/carcassi-op26-04/carcassi-op26-04#movement01,mutopia,Six Caprices,Mateo Carcassi,,,7,56.1,20.3,91.4,19.8,60.6,88.3
+mutopia:ftp/CarcassiM/O26/carcassi-op26-05/carcassi-op26-05#movement01,mutopia,Six Caprices,Mateo Carcassi,,,6,46.6,20.3,54.9,19.8,60.6,77.6
+mutopia:ftp/CarcassiM/O26/carcassi-op26-06/carcassi-op26-06#movement01,mutopia,Caprice No. 6,Mateo Carcassi,,,6,51.2,6.4,91.4,19.8,60.6,77.6
+mutopia:ftp/CarcassiM/O60/carcassi-op60-01/carcassi-op60-01#movement02,mutopia,Etude 1,Matteo Carcassi,,,6,44.8,63.6,54.9,3.5,4.5,97.5
+mutopia:ftp/CarcassiM/O60/carcassi-op60-02/carcassi-op60-02#movement01,mutopia,Etude 2,Mateo Carcassi,,,5,27.8,23.0,3.2,19.8,60.6,32.4
+mutopia:ftp/CarcassiM/O60/carcassi-op60-03/carcassi-op60-03#movement02,mutopia,Etude 3,Matteo Carcassi,,,6,36.6,80.8,3.2,3.5,1.4,93.9
+mutopia:ftp/CarcassiM/O60/carcassi-op60-04/carcassi-op60-04#movement01,mutopia,Etude 4,Mateo Carcassi,,,5,21.0,24.2,3.2,19.8,5.8,51.9
+mutopia:ftp/CarcassiM/O60/carcassi-op60-05/carcassi-op60-05#movement01,mutopia,Etude 5,Mateo Carcassi,,,6,50.2,16.5,99.3,19.8,60.6,54.6
+mutopia:ftp/CarcassiM/O60/carcassi-op60-06/carcassi-op60-06#movement01,mutopia,Etude 6,Mateo Carcassi,,,6,41.3,12.5,54.9,19.8,60.6,58.8
+mutopia:ftp/CarcassiM/O60/carcassi-op60-07/carcassi-op60-07#movement01,mutopia,Etude 7,Matteo Carcassi,,,5,20.2,50.7,3.2,3.5,1.4,42.1
+mutopia:ftp/CarcassiM/O60/carcassi-op60-08/carcassi-op60-08#movement01,mutopia,Etude 8,Matteo Carcassi,,,5,23.0,71.4,3.2,3.5,1.4,35.3
+mutopia:ftp/CarcassiM/O60/carcassi-op60-10/carcassi-op60-10#movement01,mutopia,Etude 10,Mateo Carcassi,,,6,36.1,20.3,16.2,19.8,60.6,63.8
+mutopia:ftp/CarcassiM/O60/carcassi-op60-11/carcassi-op60-11#movement01,mutopia,Etude 11,Mateo Carcassi,,,3,16.9,8.3,3.2,19.8,12.3,40.9
+mutopia:ftp/CarcassiM/O60/carcassi-op60-12/carcassi-op60-12#movement01,mutopia,Etude 12,Mateo Carcassi,,,3,15.3,16.5,3.2,19.8,10.4,26.8
+mutopia:ftp/CarcassiM/O60/carcassi-op60-13/carcassi-op60-13#movement01,mutopia,Etude 13,Mateo Carcassi,,,5,30.1,9.6,54.9,19.8,6.1,60.2
+mutopia:ftp/CarcassiM/O60/carcassi-op60-14/carcassi-op60-14#movement01,mutopia,Etude 14,Mateo Carcassi,,,5,33.8,20.3,54.9,19.8,15.0,58.8
+mutopia:ftp/CarcassiM/O60/carcassi-op60-16/carcassi-op60-16#movement01,mutopia,Etude 16,Mateo Carcassi,,,5,28.3,16.5,16.2,19.8,60.6,28.3
+mutopia:ftp/CarcassiM/O60/carcassi-op60-17/carcassi-op60-17#movement01,mutopia,Etude 17,Mateo Carcassi,,,6,43.7,20.3,54.9,19.8,60.6,63.0
+mutopia:ftp/CarcassiM/O60/carcassi-op60-18/carcassi-op60-18#movement01,mutopia,Etude 18,Mateo Carcassi,,,5,33.2,20.3,54.9,19.8,8.6,62.4
+mutopia:ftp/CarcassiM/O60/carcassi-op60-19/carcassi-op60-19#movement01,mutopia,Etude 19,Mateo Carcassi,,,6,47.6,9.6,54.9,59.8,60.6,53.2
+mutopia:ftp/CarcassiM/O60/carcassi-op60-20/carcassi-op60-20#movement01,mutopia,Etude 20,Mateo Carcassi,,,5,22.6,36.5,3.2,19.8,6.2,47.1
+mutopia:ftp/CarcassiM/O60/carcassi-op60-21/carcassi-op60-21#movement01,mutopia,Etude 21,Mateo Carcassi,,,6,46.7,16.5,54.9,19.8,60.6,81.5
+mutopia:ftp/CarcassiM/O60/carcassi-op60-22/carcassi-op60-22#movement01,mutopia,Etude 22,Mateo Carcassi,,,3,10.1,20.3,3.2,19.8,5.4,1.8
+mutopia:ftp/CarcassiM/O60/carcassi-op60-23/carcassi-op60-23#movement01,mutopia,Etude 23,Mateo Carcassi,,,3,19.4,20.3,3.2,19.8,6.8,47.1
+mutopia:ftp/CarcassiM/O60/carcassi-op60-24/carcassi-op60-24#movement01,mutopia,Etude 24,Mateo Carcassi,,,6,43.6,20.3,54.9,19.8,60.6,62.4
+mutopia:ftp/CarcassiM/O60/carcassi-op60-25/carcassi-op60-25#movement01,mutopia,Etude 25,Mateo Carcassi,,,6,49.6,36.5,54.9,19.8,60.6,76.1
+mutopia:ftp/FaureG/O78/faure-sicilienne-guitare-doigtee/faure-sicilienne-guitare-doigtee#movement01,mutopia,Sicilienne (Op 78),Gabriel Fauré,,,6,37.9,16.5,54.9,19.8,60.6,37.6
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No1/GiulianiOp100No1#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,5,20.5,1.1,16.2,19.8,60.6,4.6
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No10/GiulianiOp100No10#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,6,41.8,3.1,54.9,19.8,60.6,70.7
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No11/GiulianiOp100No11#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,6,39.6,12.5,54.9,19.8,60.6,50.4
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No12/GiulianiOp100No12#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,6,41.7,9.6,54.9,19.8,60.6,63.8
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No13/GiulianiOp100No13#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,6,50.2,27.8,54.9,19.8,60.6,87.9
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No14/GiulianiOp100No14#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,6,42.1,16.5,54.9,19.8,60.6,58.8
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No15/GiulianiOp100No15#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,6,45.8,6.4,91.4,19.8,17.5,93.9
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No16/GiulianiOp100No16#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,6,48.8,20.3,54.9,19.8,60.6,88.3
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No17/GiulianiOp100No17#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,5,31.7,23.0,54.9,19.8,60.6,0.4
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No18/GiulianiOp100No18#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,5,28.4,20.3,91.4,19.8,4.0,6.7
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No19/GiulianiOp100No19#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,5,32.0,16.5,54.9,19.8,60.6,8.3
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No2/GiulianiOp100No2#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,6,39.4,3.1,54.9,19.8,60.6,58.8
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No20/GiulianiOp100No20#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,5,28.9,12.5,99.3,19.8,6.0,6.7
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No21/GiulianiOp100No21#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,6,35.1,36.5,54.9,19.8,60.6,3.6
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No22/GiulianiOp100No22#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,6,40.3,3.1,91.4,19.8,60.6,26.8
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No23/GiulianiOp100No23#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,6,50.1,6.4,91.4,59.8,60.6,32.4
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No24/GiulianiOp100No24#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,6,40.9,20.3,99.3,19.8,8.1,56.9
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No3/GiulianiOp100No3#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,5,32.4,4.7,54.9,19.8,60.6,21.9
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No4/GiulianiOp100No4#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,6,38.7,6.4,54.9,19.8,60.6,51.9
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No5/GiulianiOp100No5#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,6,37.2,9.6,54.9,19.8,60.6,40.9
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No6/GiulianiOp100No6#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,6,36.5,3.1,54.9,19.8,60.6,44.2
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No7/GiulianiOp100No7#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,6,42.7,6.4,54.9,19.8,60.6,71.9
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No8/GiulianiOp100No8#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,3,18.3,8.3,3.2,19.8,13.1,47.1
+mutopia:ftp/GiulianiM/O100/GiulianiOp100No9/GiulianiOp100No9#movement01,mutopia,24 Studies for the Guitar,Mauro Giuliani,,,6,38.8,8.3,54.9,19.8,60.6,50.4
+mutopia:ftp/GiulianiM/O59/giuliani-op59n01/giuliani-op59n01#movement01,mutopia,16 Studies for the Guitar,Mauro Giuliani,,,5,34.7,3.1,54.9,19.8,60.6,35.3
+mutopia:ftp/GiulianiM/O59/giuliani-op59n02/giuliani-op59n02#movement01,mutopia,16 Studies for the Guitar,Mauro Giuliani,,,6,37.1,3.1,54.9,19.8,60.6,47.1
+mutopia:ftp/GiulianiM/O59/giuliani-op59n03/giuliani-op59n03#movement01,mutopia,16 Studies for the Guitar,Mauro Giuliani,,,6,38.2,6.4,54.9,19.8,60.6,49.2
+mutopia:ftp/GiulianiM/O59/giuliani-op59n04/giuliani-op59n04#movement01,mutopia,16 Studies for the Guitar,Mauro Giuliani,,,5,33.6,3.1,54.9,19.8,60.6,29.8
+mutopia:ftp/GiulianiM/O59/giuliani-op59n05/giuliani-op59n05#movement01,mutopia,16 Studies for the Guitar,Mauro Giuliani,,,6,45.6,3.1,91.4,19.8,60.6,53.2
+mutopia:ftp/GiulianiM/O59/giuliani-op59n06/giuliani-op59n06#movement01,mutopia,16 Studies for the Guitar,Mauro Giuliani,,,5,34.3,6.4,54.9,19.8,60.6,29.8
+mutopia:ftp/GiulianiM/O59/giuliani-op59n07/giuliani-op59n07#movement01,mutopia,16 Studies for the Guitar,Mauro Giuliani,,,6,38.2,6.4,54.9,19.8,60.6,49.2
+mutopia:ftp/GiulianiM/O59/giuliani-op59n08/giuliani-op59n08#movement01,mutopia,16 Studies for the Guitar,Mauro Giuliani,,,6,36.9,6.4,54.9,19.8,60.6,42.9
+mutopia:ftp/GiulianiM/O59/giuliani-op59n09/giuliani-op59n09#movement01,mutopia,16 Studies for the Guitar,Mauro Giuliani,,,6,38.4,6.4,54.9,19.8,60.6,50.4
+mutopia:ftp/GiulianiM/O59/giuliani-op59n10/giuliani-op59n10#movement01,mutopia,16 Studies for the Guitar,Mauro Giuliani,,,6,44.1,6.4,91.4,19.8,60.6,42.1
+mutopia:ftp/GiulianiM/O59/giuliani-op59n11/giuliani-op59n11#movement01,mutopia,16 Studies for the Guitar,Mauro Giuliani,,,6,36.0,9.6,54.9,19.8,60.6,35.3
+mutopia:ftp/GiulianiM/O59/giuliani-op59n13/giuliani-op59n13#movement01,mutopia,16 Studies for the Guitar,Mauro Giuliani,,,6,41.3,9.6,91.4,19.8,60.6,25.0
+mutopia:ftp/GiulianiM/O59/giuliani-op59n15/giuliani-op59n15#movement01,mutopia,16 Studies for the Guitar,Mauro Giuliani,,,6,45.3,6.4,54.9,19.8,60.6,84.9
+mutopia:ftp/GiulianiM/O59/giuliani-op59n16/giuliani-op59n16#movement01,mutopia,16 Studies for the Guitar,Mauro Giuliani,,,6,49.0,12.5,91.4,19.8,60.6,60.9
+mutopia:ftp/HoretzkyF/horetzky1/horetzky1#movement01,mutopia,Nº. 1. March by Rossini.,Felix Horetzky,,,6,44.8,80.8,16.2,59.8,60.6,6.7
+mutopia:ftp/HoretzkyF/horetzky1/horetzky1#movement02,mutopia,Nº. 1. March by Rossini.,Felix Horetzky,,,6,44.8,80.8,16.2,59.8,60.6,6.7
+mutopia:ftp/HoretzkyF/horetzky10/horetzky10#movement01,mutopia,Nº. 10. Untitled.,Felix Horetzky,,,6,41.1,63.6,16.2,59.8,60.6,5.2
+mutopia:ftp/HoretzkyF/horetzky10/horetzky10#movement02,mutopia,Nº. 10. Untitled.,Felix Horetzky,,,5,24.1,20.3,16.2,19.8,60.6,3.6
+mutopia:ftp/HoretzkyF/horetzky11/horetzky11#movement01,mutopia,Nº. 11. German Air.,Felix Horetzky,,,6,47.1,92.5,16.2,59.8,60.6,6.7
+mutopia:ftp/HoretzkyF/horetzky11/horetzky11#movement02,mutopia,Nº. 11. German Air.,Felix Horetzky,,,6,47.1,92.5,16.2,59.8,60.6,6.7
+mutopia:ftp/HoretzkyF/horetzky12/horetzky12#movement01,mutopia,Nº. 12. Russian Hymn.,Felix Horetzky,,,6,43.8,27.8,54.9,59.8,60.6,16.2
+mutopia:ftp/HoretzkyF/horetzky12/horetzky12#movement02,mutopia,Nº. 12. Russian Hymn.,Felix Horetzky,,,6,43.8,27.8,54.9,59.8,60.6,16.2
+mutopia:ftp/HoretzkyF/horetzky13/horetzky13#movement01,mutopia,"Nº. 13. John Anderson, My Jo.",Felix Horetzky,,,6,54.5,80.8,54.9,59.8,60.6,16.2
+mutopia:ftp/HoretzkyF/horetzky13/horetzky13#movement02,mutopia,"Nº. 13. John Anderson, My Jo.",Felix Horetzky,,,6,54.5,80.8,54.9,59.8,60.6,16.2
+mutopia:ftp/HoretzkyF/horetzky14/horetzky14#movement01,mutopia,Nº. 14. Tyrolian Air.,Felix Horetzky,,,6,39.1,36.5,54.9,19.8,60.6,23.5
+mutopia:ftp/HoretzkyF/horetzky14/horetzky14#movement02,mutopia,Nº. 14. Tyrolian Air.,Felix Horetzky,,,6,39.1,36.5,54.9,19.8,60.6,23.5
+mutopia:ftp/HoretzkyF/horetzky15/horetzky15#movement01,mutopia,Nº. 15. Danish Air.,Felix Horetzky,,,5,33.0,27.8,54.9,19.8,60.6,1.8
+mutopia:ftp/HoretzkyF/horetzky15/horetzky15#movement02,mutopia,Nº. 15. Danish Air.,Felix Horetzky,,,5,33.0,27.8,54.9,19.8,60.6,1.8
+mutopia:ftp/HoretzkyF/horetzky16/horetzky16#movement01,mutopia,Nº. 16. Cherubini's Air.,Felix Horetzky,,,6,43.2,36.5,54.9,59.8,60.6,4.2
+mutopia:ftp/HoretzkyF/horetzky16/horetzky16#movement02,mutopia,Nº. 16. Cherubini's Air.,Felix Horetzky,,,6,43.2,36.5,54.9,59.8,60.6,4.2
+mutopia:ftp/HoretzkyF/horetzky17/horetzky17#movement01,mutopia,Nº. 17. Polish Hymn.,Felix Horetzky,,,5,33.5,27.8,54.9,19.8,60.6,4.6
+mutopia:ftp/HoretzkyF/horetzky17/horetzky17#movement02,mutopia,Nº. 17. Polish Hymn.,Felix Horetzky,,,5,33.5,27.8,54.9,19.8,60.6,4.6
+mutopia:ftp/HoretzkyF/horetzky18/horetzky18#movement01,mutopia,Nº. 18. Kelvin Grove.,Felix Horetzky,,,6,35.3,36.5,16.2,59.8,60.6,3.6
+mutopia:ftp/HoretzkyF/horetzky18/horetzky18#movement02,mutopia,Nº. 18. Kelvin Grove.,Felix Horetzky,,,6,35.3,36.5,16.2,59.8,60.6,3.6
+mutopia:ftp/HoretzkyF/horetzky19/horetzky19#movement01,mutopia,Nº. 19. Podolian Air.,Felix Horetzky,,,6,45.6,36.5,54.9,59.8,60.6,16.2
+mutopia:ftp/HoretzkyF/horetzky19/horetzky19#movement02,mutopia,Nº. 19. Podolian Air.,Felix Horetzky,,,6,45.6,36.5,54.9,59.8,60.6,16.2
+mutopia:ftp/HoretzkyF/horetzky2/horetzky2#movement01,mutopia,Nº. 2. Russian Air.,Felix Horetzky,,,6,50.5,36.5,54.9,59.8,60.6,40.9
+mutopia:ftp/HoretzkyF/horetzky2/horetzky2#movement02,mutopia,Nº. 2. Russian Air.,Felix Horetzky,,,6,50.5,36.5,54.9,59.8,60.6,40.9
+mutopia:ftp/HoretzkyF/horetzky20/horetzky20#movement01,mutopia,Nº. 20. Fra Tante Angoscie.,Felix Horetzky,,,6,54.2,27.8,54.9,92.4,60.6,35.3
+mutopia:ftp/HoretzkyF/horetzky20/horetzky20#movement02,mutopia,Nº. 20. Fra Tante Angoscie.,Felix Horetzky,,,6,54.2,27.8,54.9,92.4,60.6,35.3
+mutopia:ftp/HoretzkyF/horetzky21/horetzky21#movement01,mutopia,Nº. 21. Au Clair De la Lune.,Felix Horetzky,,,5,26.6,20.3,16.2,19.8,60.6,16.2
+mutopia:ftp/HoretzkyF/horetzky21/horetzky21#movement02,mutopia,Nº. 21. Au Clair De la Lune.,Felix Horetzky,,,5,26.6,20.3,16.2,19.8,60.6,16.2
+mutopia:ftp/HoretzkyF/horetzky22/horetzky22#movement01,mutopia,Nº. 22. Dutch Air.,Felix Horetzky,,,6,37.3,27.8,54.9,19.8,60.6,23.5
+mutopia:ftp/HoretzkyF/horetzky22/horetzky22#movement02,mutopia,Nº. 22. Dutch Air.,Felix Horetzky,,,6,37.3,27.8,54.9,19.8,60.6,23.5
+mutopia:ftp/HoretzkyF/horetzky23/horetzky23#movement01,mutopia,Nº. 23. Portuguese Hymn.,Felix Horetzky,,,6,38.0,27.8,54.9,19.8,60.6,26.8
+mutopia:ftp/HoretzkyF/horetzky23/horetzky23#movement02,mutopia,Nº. 23. Portuguese Hymn.,Felix Horetzky,,,6,38.0,27.8,54.9,19.8,60.6,26.8
+mutopia:ftp/HoretzkyF/horetzky24/horetzky24#movement01,mutopia,Nº. 24. Air by Gelinek.,Felix Horetzky,,,6,48.4,50.7,54.9,59.8,60.6,16.2
+mutopia:ftp/HoretzkyF/horetzky24/horetzky24#movement02,mutopia,Nº. 24. Air by Gelinek.,Felix Horetzky,,,6,48.4,50.7,54.9,59.8,60.6,16.2
+mutopia:ftp/HoretzkyF/horetzky25/horetzky25#movement01,mutopia,Nº. 25. Pyrenese Melody.,Felix Horetzky,,,6,44.8,71.4,16.2,59.8,60.6,16.2
+mutopia:ftp/HoretzkyF/horetzky25/horetzky25#movement02,mutopia,Nº. 25. Pyrenese Melody.,Felix Horetzky,,,6,44.8,71.4,16.2,59.8,60.6,16.2
+mutopia:ftp/HoretzkyF/horetzky26/horetzky26#movement01,mutopia,Nº. 26. Polish Air.,Felix Horetzky,,,5,31.0,36.5,16.2,19.8,60.6,21.9
+mutopia:ftp/HoretzkyF/horetzky26/horetzky26#movement02,mutopia,Nº. 26. Polish Air.,Felix Horetzky,,,5,31.0,36.5,16.2,19.8,60.6,21.9
+mutopia:ftp/HoretzkyF/horetzky27/horetzky27#movement01,mutopia,Nº. 27. Scotch Air.,Felix Horetzky,,,6,38.7,80.8,16.2,19.8,60.6,16.2
+mutopia:ftp/HoretzkyF/horetzky27/horetzky27#movement02,mutopia,Nº. 27. Scotch Air.,Felix Horetzky,,,6,38.7,80.8,16.2,19.8,60.6,16.2
+mutopia:ftp/HoretzkyF/horetzky28/horetzky28#movement01,mutopia,Nº. 28. Pleyel's Hymn.,Felix Horetzky,,,6,35.9,27.8,54.9,19.8,60.6,16.2
+mutopia:ftp/HoretzkyF/horetzky28/horetzky28#movement02,mutopia,Nº. 28. Pleyel's Hymn.,Felix Horetzky,,,6,35.9,27.8,54.9,19.8,60.6,16.2
+mutopia:ftp/HoretzkyF/horetzky29/horetzky29#movement01,mutopia,Nº. 29. Scotch Air. “Donald.”,Felix Horetzky,,,7,56.9,80.8,54.9,59.8,60.6,28.3
+mutopia:ftp/HoretzkyF/horetzky29/horetzky29#movement02,mutopia,Nº. 29. Scotch Air. “Donald.”,Felix Horetzky,,,7,56.9,80.8,54.9,59.8,60.6,28.3
+mutopia:ftp/HoretzkyF/horetzky3/horetzky3#movement01,mutopia,Nº. 3. Andante by Beethoven.,Felix Horetzky,,,7,61.3,80.8,54.9,59.8,60.6,50.4
+mutopia:ftp/HoretzkyF/horetzky3/horetzky3#movement02,mutopia,Nº. 3. Andante by Beethoven.,Felix Horetzky,,,7,61.3,80.8,54.9,59.8,60.6,50.4
+mutopia:ftp/HoretzkyF/horetzky30/horetzky30#movement01,mutopia,Nº. 30. Sicilian Mariner's Hymn,Felix Horetzky,,,6,37.6,36.5,54.9,19.8,60.6,16.2
+mutopia:ftp/HoretzkyF/horetzky30/horetzky30#movement02,mutopia,Nº. 30. Sicilian Mariner's Hymn,Felix Horetzky,,,6,37.6,36.5,54.9,19.8,60.6,16.2
+mutopia:ftp/HoretzkyF/horetzky31/horetzky31#movement01,mutopia,Nº. 31. Auld Lang Syne.,Felix Horetzky,,,6,46.5,80.8,54.9,19.8,60.6,16.2
+mutopia:ftp/HoretzkyF/horetzky31/horetzky31#movement02,mutopia,Nº. 31. Auld Lang Syne.,Felix Horetzky,,,6,46.5,80.8,54.9,19.8,60.6,16.2
+mutopia:ftp/HoretzkyF/horetzky32/horetzky32#movement01,mutopia,Nº. 32. German Air.,Felix Horetzky,,,6,37.9,36.5,16.2,59.8,60.6,16.2
+mutopia:ftp/HoretzkyF/horetzky32/horetzky32#movement02,mutopia,Nº. 32. German Air.,Felix Horetzky,,,6,37.9,36.5,16.2,59.8,60.6,16.2
+mutopia:ftp/HoretzkyF/horetzky33/horetzky33#movement01,mutopia,Nº. 33. Scots Wha Hae Wi' Wallace Bled.,Felix Horetzky,,,6,41.4,36.5,54.9,19.8,60.6,35.3
+mutopia:ftp/HoretzkyF/horetzky33/horetzky33#movement02,mutopia,Nº. 33. Scots Wha Hae Wi' Wallace Bled.,Felix Horetzky,,,6,41.4,36.5,54.9,19.8,60.6,35.3
+mutopia:ftp/HoretzkyF/horetzky34/horetzky34#movement01,mutopia,Nº. 34. Vive Henri Quatre.,Felix Horetzky,,,6,41.6,42.9,54.9,19.8,60.6,29.8
+mutopia:ftp/HoretzkyF/horetzky34/horetzky34#movement02,mutopia,Nº. 34. Vive Henri Quatre.,Felix Horetzky,,,6,41.6,42.9,54.9,19.8,60.6,29.8
+mutopia:ftp/HoretzkyF/horetzky35/horetzky35#movement01,mutopia,Nº. 35. Air from the Ballet of Nina.,Felix Horetzky,,,7,56.8,92.5,54.9,59.8,60.6,16.2
+mutopia:ftp/HoretzkyF/horetzky35/horetzky35#movement02,mutopia,Nº. 35. Air from the Ballet of Nina.,Felix Horetzky,,,7,56.8,92.5,54.9,59.8,60.6,16.2
+mutopia:ftp/HoretzkyF/horetzky36/horetzky36#movement01,mutopia,Nº. 36. Danish Air.,Felix Horetzky,,,6,43.3,63.6,16.2,59.8,60.6,16.2
+mutopia:ftp/HoretzkyF/horetzky36/horetzky36#movement02,mutopia,Nº. 36. Danish Air.,Felix Horetzky,,,6,43.3,63.6,16.2,59.8,60.6,16.2
+mutopia:ftp/HoretzkyF/horetzky37/horetzky37#movement01,mutopia,Nº. 37. Post Horn Waltz.,Felix Horetzky,,,6,43.0,63.6,54.9,19.8,60.6,16.2
+mutopia:ftp/HoretzkyF/horetzky37/horetzky37#movement02,mutopia,Nº. 37. Post Horn Waltz.,Felix Horetzky,,,6,43.0,63.6,54.9,19.8,60.6,16.2
+mutopia:ftp/HoretzkyF/horetzky38/horetzky38#movement01,mutopia,Nº. 38. Old German Air.,Felix Horetzky,,,5,29.9,36.5,16.2,19.8,60.6,16.2
+mutopia:ftp/HoretzkyF/horetzky38/horetzky38#movement02,mutopia,Nº. 38. Old German Air.,Felix Horetzky,,,5,29.9,36.5,16.2,19.8,60.6,16.2
+mutopia:ftp/HoretzkyF/horetzky39/horetzky39#movement01,mutopia,Nº. 39. Air.,Felix Horetzky,,,6,38.7,80.8,16.2,19.8,60.6,16.2
+mutopia:ftp/HoretzkyF/horetzky39/horetzky39#movement02,mutopia,Nº. 39. Air.,Felix Horetzky,,,6,38.7,80.8,16.2,19.8,60.6,16.2
+mutopia:ftp/HoretzkyF/horetzky4/horetzky4#movement01,mutopia,Nº. 4. The Last Rose of Summer.,Felix Horetzky,,,6,41.9,27.8,54.9,59.8,60.6,6.7
+mutopia:ftp/HoretzkyF/horetzky4/horetzky4#movement02,mutopia,Nº. 4. The Last Rose of Summer.,Felix Horetzky,,,6,41.9,27.8,54.9,59.8,60.6,6.7
+mutopia:ftp/HoretzkyF/horetzky40/horetzky40#movement01,mutopia,Nº. 40. Polish Air . Krakoviak.,Felix Horetzky,,,6,37.9,36.5,16.2,59.8,60.6,16.2
+mutopia:ftp/HoretzkyF/horetzky40/horetzky40#movement02,mutopia,Nº. 40. Polish Air . Krakoviak.,Felix Horetzky,,,6,37.9,36.5,16.2,59.8,60.6,16.2
+mutopia:ftp/HoretzkyF/horetzky41/horetzky41#movement01,mutopia,Nº. 41. Scotch Air.,Felix Horetzky,,,6,44.8,80.8,16.2,59.8,60.6,6.7
+mutopia:ftp/HoretzkyF/horetzky41/horetzky41#movement02,mutopia,Nº. 41. Scotch Air.,Felix Horetzky,,,6,44.8,80.8,16.2,59.8,60.6,6.7
+mutopia:ftp/HoretzkyF/horetzky42/horetzky42#movement01,mutopia,Nº. 42. Swedish Air.,Felix Horetzky,,,6,41.8,63.6,54.9,19.8,60.6,10.0
+mutopia:ftp/HoretzkyF/horetzky42/horetzky42#movement02,mutopia,Nº. 42. Swedish Air.,Felix Horetzky,,,6,41.8,63.6,54.9,19.8,60.6,10.0
+mutopia:ftp/HoretzkyF/horetzky43/horetzky43#movement01,mutopia,Nº. 43. Danish Air.,Felix Horetzky,,,6,54.5,80.8,54.9,59.8,60.6,16.2
+mutopia:ftp/HoretzkyF/horetzky43/horetzky43#movement02,mutopia,Nº. 43. Danish Air.,Felix Horetzky,,,6,54.5,80.8,54.9,59.8,60.6,16.2
+mutopia:ftp/HoretzkyF/horetzky44/horetzky44#movement01,mutopia,"Nº. 44. Il Pleut, Il Pleut, Bergère.",Felix Horetzky,,,5,32.7,50.7,16.2,19.8,60.6,16.2
+mutopia:ftp/HoretzkyF/horetzky44/horetzky44#movement02,mutopia,"Nº. 44. Il Pleut, Il Pleut, Bergère.",Felix Horetzky,,,5,32.7,50.7,16.2,19.8,60.6,16.2
+mutopia:ftp/HoretzkyF/horetzky45/horetzky45#movement01,mutopia,Nº. 45. Rule Britannia.,Felix Horetzky,,,7,56.7,63.6,91.4,59.8,60.6,8.3
+mutopia:ftp/HoretzkyF/horetzky45/horetzky45#movement02,mutopia,Nº. 45. Rule Britannia.,Felix Horetzky,,,7,56.7,63.6,91.4,59.8,60.6,8.3
+mutopia:ftp/HoretzkyF/horetzky46/horetzky46#movement01,mutopia,Nº. 46. “C'est L'Amour” a French Air.,Felix Horetzky,,,5,28.9,23.0,16.2,19.8,60.6,25.0
+mutopia:ftp/HoretzkyF/horetzky46/horetzky46#movement02,mutopia,Nº. 46. “C'est L'Amour” a French Air.,Felix Horetzky,,,5,28.9,23.0,16.2,19.8,60.6,25.0
+mutopia:ftp/HoretzkyF/horetzky47/horetzky47#movement01,mutopia,Nº. 47. Scotch Air.,Felix Horetzky,,,6,39.7,27.8,54.9,19.8,60.6,35.3
+mutopia:ftp/HoretzkyF/horetzky47/horetzky47#movement02,mutopia,Nº. 47. Scotch Air.,Felix Horetzky,,,6,39.7,27.8,54.9,19.8,60.6,35.3
+mutopia:ftp/HoretzkyF/horetzky48/horetzky48#movement01,mutopia,Nº. 48. An Alexis.,Felix Horetzky,,,5,32.0,36.5,16.2,19.8,60.6,26.8
+mutopia:ftp/HoretzkyF/horetzky48/horetzky48#movement02,mutopia,Nº. 48. An Alexis.,Felix Horetzky,,,5,32.0,36.5,16.2,19.8,60.6,26.8
+mutopia:ftp/HoretzkyF/horetzky49/horetzky49#movement01,mutopia,Nº. 49. March by Rossini.,Felix Horetzky,,,7,66.5,92.5,91.4,59.8,60.6,28.3
+mutopia:ftp/HoretzkyF/horetzky49/horetzky49#movement02,mutopia,Nº. 49. March by Rossini.,Felix Horetzky,,,7,66.5,92.5,91.4,59.8,60.6,28.3
+mutopia:ftp/HoretzkyF/horetzky5/horetzky5#movement01,mutopia,Nº. 5. French Air.,Felix Horetzky,,,6,46.4,36.5,54.9,19.8,60.6,60.2
+mutopia:ftp/HoretzkyF/horetzky5/horetzky5#movement02,mutopia,Nº. 5. French Air.,Felix Horetzky,,,6,46.4,36.5,54.9,19.8,60.6,60.2
+mutopia:ftp/HoretzkyF/horetzky50/horetzky50#movement01,mutopia,Nº. 50. Je Suis Lindor.,Felix Horetzky,,,6,41.8,50.7,16.2,59.8,60.6,21.9
+mutopia:ftp/HoretzkyF/horetzky50/horetzky50#movement02,mutopia,Nº. 50. Je Suis Lindor.,Felix Horetzky,,,6,41.8,50.7,16.2,59.8,60.6,21.9
+mutopia:ftp/HoretzkyF/horetzky51/horetzky51#movement01,mutopia,Nº. 51. Scotch Air. Kelso.,Felix Horetzky,,,3,14.3,24.2,16.2,19.8,7.7,3.6
+mutopia:ftp/HoretzkyF/horetzky51/horetzky51#movement02,mutopia,Nº. 51. Scotch Air. Kelso.,Felix Horetzky,,,3,14.3,24.2,16.2,19.8,7.7,3.6
+mutopia:ftp/HoretzkyF/horetzky52/horetzky52#movement01,mutopia,Nº. 52. Polish Air. Krakoviak.,Felix Horetzky,,,5,29.9,36.5,16.2,19.8,60.6,16.2
+mutopia:ftp/HoretzkyF/horetzky52/horetzky52#movement02,mutopia,Nº. 52. Polish Air. Krakoviak.,Felix Horetzky,,,5,29.9,36.5,16.2,19.8,60.6,16.2
+mutopia:ftp/HoretzkyF/horetzky53/horetzky53#movement01,mutopia,Nº. 53. German Air.,Felix Horetzky,,,7,59.6,80.8,54.9,59.8,60.6,42.1
+mutopia:ftp/HoretzkyF/horetzky53/horetzky53#movement02,mutopia,Nº. 53. German Air.,Felix Horetzky,,,7,59.6,80.8,54.9,59.8,60.6,42.1
+mutopia:ftp/HoretzkyF/horetzky54/horetzky54#movement01,mutopia,Nº. 54. March by Gallenberg.,Felix Horetzky,,,6,43.0,63.6,54.9,19.8,60.6,16.2
+mutopia:ftp/HoretzkyF/horetzky54/horetzky54#movement02,mutopia,Nº. 54. March by Gallenberg.,Felix Horetzky,,,6,43.0,63.6,54.9,19.8,60.6,16.2
+mutopia:ftp/HoretzkyF/horetzky55/horetzky55#movement01,mutopia,Nº. 55. Rousseau's Dream.,Felix Horetzky,,,6,44.8,80.8,16.2,59.8,60.6,6.7
+mutopia:ftp/HoretzkyF/horetzky55/horetzky55#movement02,mutopia,Nº. 55. Rousseau's Dream.,Felix Horetzky,,,6,44.8,80.8,16.2,59.8,60.6,6.7
+mutopia:ftp/HoretzkyF/horetzky56/horetzky56#movement01,mutopia,Nº. 56. Chanson Des Marseillois.,Felix Horetzky,,,6,41.1,36.5,16.2,59.8,60.6,32.4
+mutopia:ftp/HoretzkyF/horetzky56/horetzky56#movement02,mutopia,Nº. 56. Chanson Des Marseillois.,Felix Horetzky,,,6,41.1,36.5,16.2,59.8,60.6,32.4
+mutopia:ftp/HoretzkyF/horetzky57/horetzky57#movement01,mutopia,Nº. 57. Old Saxon Air.,Felix Horetzky,,,5,30.5,50.7,16.2,19.8,60.6,5.2
+mutopia:ftp/HoretzkyF/horetzky57/horetzky57#movement02,mutopia,Nº. 57. Old Saxon Air.,Felix Horetzky,,,5,30.5,50.7,16.2,19.8,60.6,5.2
+mutopia:ftp/HoretzkyF/horetzky58/horetzky58#movement01,mutopia,Nº. 58. Sul Margine D'un Rio.,Felix Horetzky,,,5,26.2,27.8,16.2,19.8,60.6,6.7
+mutopia:ftp/HoretzkyF/horetzky58/horetzky58#movement02,mutopia,Nº. 58. Sul Margine D'un Rio.,Felix Horetzky,,,5,26.2,27.8,16.2,19.8,60.6,6.7
+mutopia:ftp/HoretzkyF/horetzky59/horetzky59#movement01,mutopia,Nº. 59. Venetian Air. “La Biondina”.,Felix Horetzky,,,6,35.4,50.7,16.2,19.8,60.6,29.8
+mutopia:ftp/HoretzkyF/horetzky59/horetzky59#movement02,mutopia,Nº. 59. Venetian Air. “La Biondina”.,Felix Horetzky,,,6,35.4,50.7,16.2,19.8,60.6,29.8
+mutopia:ftp/HoretzkyF/horetzky6/horetzky6#movement01,mutopia,Nº. 6. Un Noel.,Felix Horetzky,,,3,17.9,27.8,16.2,19.8,9.3,16.2
+mutopia:ftp/HoretzkyF/horetzky6/horetzky6#movement02,mutopia,Nº. 6. Un Noel.,Felix Horetzky,,,3,17.9,27.8,16.2,19.8,9.3,16.2
+mutopia:ftp/HoretzkyF/horetzky60/horetzky60#movement01,mutopia,Nº. 60. Care Pupille By Blangini.,Felix Horetzky,,,6,52.3,63.6,16.2,59.8,60.6,61.6
+mutopia:ftp/HoretzkyF/horetzky60/horetzky60#movement02,mutopia,Nº. 60. Care Pupille By Blangini.,Felix Horetzky,,,6,52.3,63.6,16.2,59.8,60.6,61.6
+mutopia:ftp/HoretzkyF/horetzky7/horetzky7#movement01,mutopia,Nº. 7. Le Petit Tambour.,Felix Horetzky,,,6,49.5,27.8,54.9,59.8,60.6,44.2
+mutopia:ftp/HoretzkyF/horetzky7/horetzky7#movement02,mutopia,Nº. 7. Le Petit Tambour.,Felix Horetzky,,,6,49.5,27.8,54.9,59.8,60.6,44.2
+mutopia:ftp/HoretzkyF/horetzky8/horetzky8#movement01,mutopia,Nº. 8. Russian Air.,Felix Horetzky,,,5,26.6,20.3,16.2,19.8,60.6,16.2
+mutopia:ftp/HoretzkyF/horetzky8/horetzky8#movement02,mutopia,Nº. 8. Russian Air.,Felix Horetzky,,,5,26.6,20.3,16.2,19.8,60.6,16.2
+mutopia:ftp/HoretzkyF/horetzky9/horetzky9#movement01,mutopia,Nº. 9. Polish National Air.,Felix Horetzky,,,6,37.9,36.5,16.2,59.8,60.6,16.2
+mutopia:ftp/HoretzkyF/horetzky9/horetzky9#movement02,mutopia,Nº. 9. Polish National Air.,Felix Horetzky,,,6,37.9,36.5,16.2,59.8,60.6,16.2
+mutopia:ftp/JolyD/JolyD_Tyrolienne/JolyD_Tyrolienne#movement02,mutopia,Tyrolienne,D. Joly,,,6,48.0,16.5,91.4,19.8,60.6,51.9
+mutopia:ftp/KnjzeF/SixStudiesA/SixStudiesA#movement01,mutopia,Six Progressive Studies,Frantisek Max Knjze,,,6,47.8,27.8,54.9,19.8,60.6,76.1
+mutopia:ftp/KnjzeF/SixStudiesA/SixStudiesA#movement02,mutopia,Six Progressive Studies,Frantisek Max Knjze,,,6,47.8,27.8,54.9,19.8,60.6,76.1
+mutopia:ftp/KnjzeF/SixStudiesB/SixStudiesB#movement01,mutopia,Six Progressive Studies,Frantisek Max Knjze,,,6,47.7,24.2,54.9,19.8,60.6,79.0
+mutopia:ftp/KnjzeF/SixStudiesB/SixStudiesB#movement02,mutopia,Six Progressive Studies,Frantisek Max Knjze,,,6,47.7,24.2,54.9,19.8,60.6,79.0
+mutopia:ftp/KnjzeF/SixStudiesC/SixStudiesC#movement01,mutopia,Six Progressive Studies,Frantisek Max Knjze,,,5,25.1,27.8,3.2,19.8,11.1,63.8
+mutopia:ftp/KnjzeF/SixStudiesC/SixStudiesC#movement02,mutopia,Six Progressive Studies,Frantisek Max Knjze,,,5,25.1,27.8,3.2,19.8,11.1,63.8
+mutopia:ftp/KnjzeF/SixStudiesD/SixStudiesD#movement01,mutopia,Six Progressive Studies,Frantisek Max Knjze,,,6,49.2,27.8,54.9,59.8,19.1,84.3
+mutopia:ftp/KnjzeF/SixStudiesD/SixStudiesD#movement02,mutopia,Six Progressive Studies,Frantisek Max Knjze,,,6,49.2,27.8,54.9,59.8,19.1,84.3
+mutopia:ftp/KnjzeF/SixStudiesE/SixStudiesE#movement01,mutopia,Six Progressive Studies,Frantisek Max Knjze,,,6,36.3,27.8,16.2,19.8,60.6,56.9
+mutopia:ftp/KnjzeF/SixStudiesE/SixStudiesE#movement02,mutopia,Six Progressive Studies,Frantisek Max Knjze,,,6,36.3,27.8,16.2,19.8,60.6,56.9
+mutopia:ftp/KnjzeF/knjze12monferA/knjze12monferA#movement01,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,6,41.8,63.6,54.9,19.8,60.6,10.0
+mutopia:ftp/KnjzeF/knjze12monferA/knjze12monferA#movement02,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,6,41.8,63.6,54.9,19.8,60.6,10.0
+mutopia:ftp/KnjzeF/knjze12monferB/knjze12monferB#movement01,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,6,37.6,36.5,54.9,19.8,60.6,16.2
+mutopia:ftp/KnjzeF/knjze12monferB/knjze12monferB#movement02,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,6,37.6,36.5,54.9,19.8,60.6,16.2
+mutopia:ftp/KnjzeF/knjze12monferC/knjze12monferC#movement01,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,6,37.6,36.5,54.9,19.8,60.6,16.2
+mutopia:ftp/KnjzeF/knjze12monferC/knjze12monferC#movement02,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,6,37.6,36.5,54.9,19.8,60.6,16.2
+mutopia:ftp/KnjzeF/knjze12monferD/knjze12monferD#movement01,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,6,37.6,36.5,54.9,19.8,60.6,16.2
+mutopia:ftp/KnjzeF/knjze12monferD/knjze12monferD#movement02,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,6,37.6,36.5,54.9,19.8,60.6,16.2
+mutopia:ftp/KnjzeF/knjze12monferE/knjze12monferE#movement01,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,6,40.4,50.7,54.9,19.8,60.6,16.2
+mutopia:ftp/KnjzeF/knjze12monferE/knjze12monferE#movement02,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,6,40.4,50.7,54.9,19.8,60.6,16.2
+mutopia:ftp/KnjzeF/knjze12monferF/knjze12monferF#movement01,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,6,35.9,27.8,54.9,19.8,60.6,16.2
+mutopia:ftp/KnjzeF/knjze12monferF/knjze12monferF#movement02,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,6,35.9,27.8,54.9,19.8,60.6,16.2
+mutopia:ftp/KnjzeF/knjze12monferG/knjze12monferG#movement01,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,6,37.6,36.5,54.9,19.8,60.6,16.2
+mutopia:ftp/KnjzeF/knjze12monferG/knjze12monferG#movement02,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,6,37.6,36.5,54.9,19.8,60.6,16.2
+mutopia:ftp/KnjzeF/knjze12monferH/knjze12monferH#movement01,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,6,40.4,50.7,54.9,19.8,60.6,16.2
+mutopia:ftp/KnjzeF/knjze12monferH/knjze12monferH#movement02,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,6,40.4,50.7,54.9,19.8,60.6,16.2
+mutopia:ftp/KnjzeF/knjze12monferI/knjze12monferI#movement01,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,6,39.2,50.7,54.9,19.8,60.6,10.0
+mutopia:ftp/KnjzeF/knjze12monferI/knjze12monferI#movement02,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,6,39.2,50.7,54.9,19.8,60.6,10.0
+mutopia:ftp/KnjzeF/knjze12monferJ/knjze12monferJ#movement01,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,6,37.6,36.5,54.9,19.8,60.6,16.2
+mutopia:ftp/KnjzeF/knjze12monferJ/knjze12monferJ#movement02,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,6,37.6,36.5,54.9,19.8,60.6,16.2
+mutopia:ftp/KnjzeF/knjze12monferK/knjze12monferK#movement01,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,6,43.0,63.6,54.9,19.8,60.6,16.2
+mutopia:ftp/KnjzeF/knjze12monferK/knjze12monferK#movement02,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,6,43.0,63.6,54.9,19.8,60.6,16.2
+mutopia:ftp/KnjzeF/knjze12monferL/knjze12monferL#movement01,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,6,48.8,92.5,54.9,19.8,60.6,16.2
+mutopia:ftp/KnjzeF/knjze12monferL/knjze12monferL#movement02,mutopia,Twelve Monferrine,Frantisek Max Knjze,,,6,48.8,92.5,54.9,19.8,60.6,16.2
+mutopia:ftp/KuffnerJ/air-varie/air-varie#movement01,mutopia,Air varié,Joseph Küffner,,,5,30.4,0.4,54.9,19.8,60.6,16.2
+mutopia:ftp/KuffnerJ/air-varie/air-varie#movement02,mutopia,Air varié,Joseph Küffner,,,3,12.6,6.4,3.2,19.8,10.0,23.5
+mutopia:ftp/KuffnerJ/air-varie/air-varie#movement03,mutopia,Air varié,Joseph Küffner,,,3,14.6,6.4,3.2,19.8,5.6,37.6
+mutopia:ftp/MatiegkaWT/Matiegka2/Matiegka2#movement01,mutopia,Nº. 2. Rondo,Wenzel Thomas Matiegka,,,7,67.0,27.8,91.4,59.8,60.6,95.7
+mutopia:ftp/MatiegkaWT/Matiegka2/Matiegka2#movement02,mutopia,Nº. 2. Rondo,Wenzel Thomas Matiegka,,,7,67.0,27.8,91.4,59.8,60.6,95.7
+mutopia:ftp/MatiegkaWT/Matiegka3/Matiegka3#movement01,mutopia,Nº. 3. Andante,Wenzel Thomas Matiegka,,,6,52.9,36.5,54.9,19.8,60.6,92.5
+mutopia:ftp/MatiegkaWT/Matiegka3/Matiegka3#movement02,mutopia,Nº. 3. Andante,Wenzel Thomas Matiegka,,,6,52.9,36.5,54.9,19.8,60.6,92.5
+mutopia:ftp/MatiegkaWT/Matiegka4/Matiegka4#movement01,mutopia,Nº. 4. Menuetto.,Wenzel Thomas Matiegka,,,6,54.3,36.5,54.9,19.8,60.6,99.6
+mutopia:ftp/MatiegkaWT/Matiegka4/Matiegka4#movement02,mutopia,Nº. 4. Menuetto.,Wenzel Thomas Matiegka,,,6,54.3,36.5,54.9,19.8,60.6,99.6
+mutopia:ftp/MatiegkaWT/Matiegka5/Matiegka5#movement01,mutopia,Nº. 5. Siciliano.,Wenzel Thomas Matiegka,,,7,74.6,63.6,91.4,59.8,60.6,97.8
+mutopia:ftp/MatiegkaWT/Matiegka5/Matiegka5#movement02,mutopia,Nº. 5. Siciliano.,Wenzel Thomas Matiegka,,,7,74.6,63.6,91.4,59.8,60.6,97.8
+mutopia:ftp/MertzJK/mertz_etude/mertz_etude#movement01,mutopia,Etude in A minor,Johann Kaspar Mertz,,,5,34.4,20.3,54.9,19.8,60.6,16.2
+mutopia:ftp/MilanL/milan-pavan2/milan-pavan2#movement02,mutopia,Pavan 2,Luis Milan,,,6,40.0,36.5,16.2,19.8,60.6,67.1
+mutopia:ftp/PapezikR/forsting/forsting#movement01,mutopia,Recuerdos,Radan Papežík,,,6,50.4,98.7,3.2,59.8,4.6,85.6
+mutopia:ftp/SorF/O1/sor_op1_1/sor_op1_1#movement01,mutopia,Six divertissements pour la guitare,Fernando Sor,,,6,50.0,16.5,91.4,59.8,60.6,21.9
+mutopia:ftp/SorF/O2/sor_op2_1/sor_op2_1#movement01,mutopia,Six divertissements pour la guitare,Fernando Sor,,,6,39.5,50.7,16.2,59.8,60.6,10.0
+mutopia:ftp/SorF/O2/sor_op2_2/sor_op2_2#movement01,mutopia,Six divertissements pour la guitare,Fernando Sor,,,6,54.2,63.6,16.2,59.8,60.6,70.7
+mutopia:ftp/SorF/O2/sor_op2_3/sor_op2_3#movement02,mutopia,Six divertissements pour la guitare,Fernando Sor,,,7,65.9,80.8,54.9,59.8,60.6,73.5
+mutopia:ftp/SorF/O29/o29-13/o29-13#movement01,mutopia,Opus 29 no. 13,Fernando Sor,,,6,47.8,80.8,3.2,59.8,5.8,89.4
+mutopia:ftp/SorF/O35/sorf_op35_no1/sorf_op35_no1#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,5,29.4,3.1,16.2,19.8,60.6,47.1
+mutopia:ftp/SorF/O35/sorf_op35_no10/sorf_op35_no10#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,6,39.2,6.4,16.2,59.8,60.6,53.2
+mutopia:ftp/SorF/O35/sorf_op35_no11/sorf_op35_no11#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,6,40.5,12.5,54.9,19.8,60.6,54.6
+mutopia:ftp/SorF/O35/sorf_op35_no13/sorf_op35_no13#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,5,25.2,3.1,3.2,59.8,13.1,47.1
+mutopia:ftp/SorF/O35/sorf_op35_no15/sorf_op35_no15#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,5,29.3,14.6,16.2,19.8,60.6,35.3
+mutopia:ftp/SorF/O35/sorf_op35_no16/sorf_op35_no16#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,7,61.4,14.6,91.4,59.8,60.6,80.4
+mutopia:ftp/SorF/O35/sorf_op35_no17/sorf_op35_no17#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,6,45.8,6.4,54.9,59.8,60.6,47.1
+mutopia:ftp/SorF/O35/sorf_op35_no18/sorf_op35_no18#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,6,47.4,3.1,54.9,59.8,60.6,58.8
+mutopia:ftp/SorF/O35/sorf_op35_no19/sorf_op35_no19#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,6,47.7,3.1,91.4,19.8,60.6,63.8
+mutopia:ftp/SorF/O35/sorf_op35_no2/sorf_op35_no2#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,5,34.7,4.7,16.2,59.8,60.6,32.4
+mutopia:ftp/SorF/O35/sorf_op35_no20/sorf_op35_no20#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,6,35.3,20.3,3.2,59.8,6.4,86.8
+mutopia:ftp/SorF/O35/sorf_op35_no21/sorf_op35_no21#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,7,55.3,6.4,54.9,92.4,60.6,62.4
+mutopia:ftp/SorF/O35/sorf_op35_no22/sorf_op35_no22#movement02,mutopia,24 Studies for the Guitar,Fernando Sor,,,6,50.4,9.6,54.9,59.8,60.6,67.1
+mutopia:ftp/SorF/O35/sorf_op35_no23/sorf_op35_no23#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,5,26.0,20.3,54.9,19.8,8.3,26.8
+mutopia:ftp/SorF/O35/sorf_op35_no24/sorf_op35_no24#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,5,25.5,12.5,3.2,19.8,17.5,74.4
+mutopia:ftp/SorF/O35/sorf_op35_no3/sorf_op35_no3#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,6,35.7,6.4,16.2,59.8,60.6,35.3
+mutopia:ftp/SorF/O35/sorf_op35_no4/sorf_op35_no4#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,6,38.6,3.1,16.2,59.8,60.6,53.2
+mutopia:ftp/SorF/O35/sorf_op35_no5/sorf_op35_no5#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,3,19.3,9.6,3.2,19.8,5.2,58.8
+mutopia:ftp/SorF/O35/sorf_op35_no6/sorf_op35_no6#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,6,36.5,9.6,54.9,19.8,60.6,37.6
+mutopia:ftp/SorF/O35/sorf_op35_no7/sorf_op35_no7#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,6,46.8,9.6,54.9,59.8,60.6,49.2
+mutopia:ftp/SorF/O35/sorf_op35_no8/sorf_op35_no8#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,6,45.5,9.6,54.9,19.8,60.6,82.8
+mutopia:ftp/SorF/O35/sorf_op35_no9/sorf_op35_no9#movement01,mutopia,24 Studies for the Guitar,Fernando Sor,,,5,23.4,6.4,3.2,19.8,16.8,70.7
+mutopia:ftp/SorF/O45/sorf-op45n01/sorf-op45n01#movement01,mutopia,Six Petites Pièces,F. Sor,,,7,57.1,3.1,91.4,59.8,60.6,70.7
+mutopia:ftp/SorF/O45/sorf-op45n02/sorf-op45n02#movement01,mutopia,Six Petites Pièces,F. Sor,,,6,52.5,16.5,54.9,59.8,60.6,70.7
+mutopia:ftp/SorF/O45/sorf-op45n03/sorf-op45n03#movement02,mutopia,Six Petites Pièces,F. Sor,,,3,18.3,3.1,3.2,59.8,9.3,16.2
+mutopia:ftp/SorF/O45/sorf-op45n03/sorf-op45n03#movement03,mutopia,Six Petites Pièces,F. Sor,,,5,33.3,6.4,16.2,59.8,60.6,23.5
+mutopia:ftp/SorF/O45/sorf-op45n03/sorf-op45n03#movement04,mutopia,Six Petites Pièces,F. Sor,,,6,35.6,16.5,16.2,59.8,60.6,25.0
+mutopia:ftp/SorF/O45/sorf-op45n04/sorf-op45n04#movement01,mutopia,Six Petites Pièces,F. Sor,,,6,50.0,23.0,54.9,59.8,19.9,92.5
+mutopia:ftp/SorF/O45/sorf-op45n05/sorf-op45n05#movement01,mutopia,Six Petites Pièces,F. Sor,,,7,58.4,63.6,16.2,59.8,60.6,91.8
+mutopia:ftp/SorF/O5/sor-op5-5/sor-op5-5#movement01,mutopia,Andante Largo,Fernando Sor,,,7,57.4,80.8,91.4,19.8,4.8,90.0
+mutopia:ftp/SorF/O60/sor_op60-02/sor_op60-02#movement01,mutopia,25 Progressive Lessons,Fernando Sor,,,5,21.5,27.8,3.2,19.8,3.2,53.2
+mutopia:ftp/SorF/O60/sor_op60-05/sor_op60-05#movement01,mutopia,25 Progressive Lessons,Fernando Sor,,,5,26.2,36.5,3.2,19.8,14.7,56.9
+mutopia:ftp/SorF/O60/sor_op60-06/sor_op60-06#movement01,mutopia,25 Progressive Studies,Fernando Sor,,,3,14.9,3.1,16.2,3.5,4.9,47.1
+mutopia:ftp/SorF/O60/sor_op60-07/sor_op60-07#movement01,mutopia,25 Progressive Studies,Fernando Sor,,,3,16.8,1.1,16.2,3.5,4.2,58.8
+mutopia:ftp/SorF/O60/sor_op60-08/sor_op60-08#movement01,mutopia,25 Progressive Studies,Fernando Sor,,,3,10.9,3.1,16.2,19.8,5.4,10.0
+mutopia:ftp/SorF/O60/sor_op60-09/sor_op60-09#movement01,mutopia,25 Progressive Studies,Fernando Sor,,,3,8.0,3.1,3.2,19.8,3.9,10.0
+mutopia:ftp/SorF/O60/sor_op60-10/sor_op60-10#movement01,mutopia,25 Progressive Studies,Fernando Sor,,,3,7.4,3.1,16.2,3.5,4.1,10.0
+mutopia:ftp/SorF/O60/sor_op60-11/sor_op60-11#movement01,mutopia,25 Progressive Studies,Fernando Sor,,,5,25.7,16.5,54.9,3.5,6.6,47.1
+mutopia:ftp/SorF/O60/sor_op60-12/sor_op60-12#movement01,mutopia,25 Progressive Studies,Fernando Sor,,,3,14.7,12.5,16.2,3.5,3.8,37.6
+mutopia:ftp/SorF/O60/sor_op60-13/sor_op60-13#movement01,mutopia,25 Progressive Studies,Fernando Sor,,,5,26.4,3.1,16.2,19.8,60.6,32.4
+mutopia:ftp/SorF/SorF_Andantino/SorF_Andantino#movement01,mutopia,Andantino,Fernando Sor,,,6,54.0,6.4,54.9,59.8,60.6,88.3
+mutopia:ftp/TarregaF/capricho-arabe/capricho-arabe#movement02,mutopia,Capricho Árabe,Francisco Tárrega,,,7,58.3,27.8,54.9,59.8,60.6,88.7
+mutopia:ftp/TarregaF/claro-de-luna/claro-de-luna#movement02,mutopia,CLARO DE LUNA,Arr: de F. Tárrega,,,7,64.5,50.7,54.9,59.8,60.6,96.4

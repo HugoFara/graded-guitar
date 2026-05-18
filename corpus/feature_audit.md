@@ -34,6 +34,9 @@ Output of `scripts/m2_feature_audit.py`. Inputs come from `corpus/features.csv` 
 | harmonic_count | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 |
 | barre_count | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 |
 | position_shift_proxy | — | — | — | — | — | — | — |
+| pitch_min_fret_max | 20.0 | 19.5 | 20.0 | 20.0 | 20.5 | 21.0 | 24.0 |
+| pitch_min_fret_p90 | 14.5 | 15.5 | 15.0 | 15.0 | 15.0 | 16.0 | 18.0 |
+| pitch_position_shifts | 157.0 | 112.0 | 98.0 | 109.0 | 125.0 | 124.0 | 321.0 |
 | measure_count | 40.5 | 48.5 | 35.0 | 38.0 | 48.0 | 42.0 | 86.0 |
 | note_count | 716.5 | 486.0 | 350.0 | 424.0 | 493.0 | 454.0 | 1092.0 |
 | duration_sec_approx | 150.0 | 116.5 | 80.7 | 105.0 | 120.0 | 123.5 | 308.65 |
@@ -64,6 +67,9 @@ Output of `scripts/m2_feature_audit.py`. Inputs come from `corpus/features.csv` 
 | harmonic_count | 0.0 | 0.0 | 0.0 |
 | barre_count | 0.0 | 0.0 | 0.0 |
 | position_shift_proxy | 28.0 | — | — |
+| pitch_min_fret_max | 8.0 | 20.0 | 15.0 |
+| pitch_min_fret_p90 | 4.0 | 15.0 | 12.0 |
+| pitch_position_shifts | 6.0 | 115.5 | 35.0 |
 | measure_count | 12.0 | 44.0 | 25.0 |
 | note_count | 91.0 | 473.0 | 233.0 |
 | duration_sec_approx | 27.4 | 115.65 | 92.4 |
@@ -92,6 +98,9 @@ Output of `scripts/m2_feature_audit.py`. Inputs come from `corpus/features.csv` 
 - **`harmonic_count`** — n=801 · med=0.0 (p25=0.0, p75=0.0) · range=[0.0, 0.0]
 - **`barre_count`** — n=801 · med=0.0 (p25=0.0, p75=0.0) · range=[0.0, 0.0]
 - **`position_shift_proxy`** — n=2 · med=28.0 (p25=25.0, p75=31.0) · range=[25.0, 31.0]
+- **`pitch_min_fret_max`** — n=801 · med=19.0 (p25=15.0, p75=22.0) · range=[0.0, 24.0]
+- **`pitch_min_fret_p90`** — n=801 · med=14.0 (p25=10.0, p75=16.0) · range=[0.0, 21.0]
+- **`pitch_position_shifts`** — n=801 · med=69.0 (p25=33.0, p75=140.0) · range=[0.0, 537.0]
 - **`measure_count`** — n=801 · med=35.0 (p25=20.0, p75=54.0) · range=[5.0, 308.0]
 - **`note_count`** — n=801 · med=346.0 (p25=200.0, p75=570.0) · range=[18.0, 2350.0]
 - **`duration_sec_approx`** — n=460 · med=113.7 (p25=66.3, p75=176.8) · range=[14.4, 1087.1]
@@ -102,11 +111,20 @@ Pairs with |r| ≥ 0.7 on the shared non-empty subset. High correlation isn't fa
 
 | feature A | feature B | r |
 | --- | --- | --- |
+| `midi_max` | `pitch_min_fret_max` | +0.99 |
+| `midi_median` | `pitch_min_fret_p90` | +0.94 |
+| `pitch_min_fret_max` | `pitch_min_fret_p90` | +0.93 |
+| `midi_max` | `pitch_min_fret_p90` | +0.92 |
+| `midi_median` | `pitch_min_fret_max` | +0.88 |
 | `midi_max` | `midi_median` | +0.87 |
+| `pitch_position_shifts` | `note_count` | +0.85 |
 | `measure_count` | `duration_sec_approx` | +0.84 |
 | `note_count` | `duration_sec_approx` | +0.81 |
 | `measure_count` | `note_count` | +0.81 |
 | `midi_min` | `midi_median` | +0.80 |
+| `pitch_position_shifts` | `measure_count` | +0.78 |
+| `midi_min` | `pitch_min_fret_p90` | +0.75 |
+| `pitch_position_shifts` | `duration_sec_approx` | +0.73 |
 
 ## Coverage gaps
 

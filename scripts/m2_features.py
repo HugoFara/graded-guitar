@@ -75,6 +75,9 @@ COLUMNS = [
     "harmonic_count",
     "barre_count",
     "position_shift_proxy",
+    "pitch_min_fret_max",
+    "pitch_min_fret_p90",
+    "pitch_position_shifts",
     # length (★★★)
     "measure_count",
     "note_count",
@@ -265,6 +268,80 @@ def _position_shift_proxy(root: etree._Element) -> int | None:
     return shifts if seen_string_fret else None
 
 
+# Standard-tuning MIDI for open strings 6 → 1 (low E to high E).
+_OPEN_STRING_MIDI = (40, 45, 50, 55, 59, 64)
+_FRET_RANGE_MAX = 24  # 24-fret guitar; classical tops out lower in practice.
+
+
+def _pitch_min_fret(midi: int) -> int | None:
+    """Lowest fret across any string in standard tuning that can sound `midi`.
+
+    A lower bound on the left-hand position a player must reach: the
+    note could be played higher up another string, but never lower.
+    Returns None if the pitch is unreachable in standard tuning
+    (below low E or above 24th-fret high E).
+    """
+    best: int | None = None
+    for s in _OPEN_STRING_MIDI:
+        f = midi - s
+        if 0 <= f <= _FRET_RANGE_MAX:
+            if best is None or f < best:
+                best = f
+    return best
+
+
+def _pitch_fingering_stats(root: etree._Element) -> dict[str, int | None]:
+    """Pitch-only proxies for left-hand position load.
+
+    These fill the gap left by `_position_shift_proxy`, which needs
+    explicit `<technical>/<string>/<fret>` and is therefore ~100%
+    missing for engravers (Sibelius, LilyPond) that don't emit
+    string/fret. The proxies here use the pitch sequence alone and
+    are a lower bound: actual fingering may force a higher position
+    to avoid string crossings.
+
+    - `pitch_min_fret_max` — max min-fret across the piece.
+    - `pitch_min_fret_p90` — 90th percentile.
+    - `pitch_position_shifts` — melodic jumps in min-fret ≥ 4
+      between consecutive non-chord notes (chord continuation notes,
+      marked by a leading `<chord/>`, are skipped so each beat
+      contributes a single position).
+    """
+    frets: list[int] = []
+    melodic_frets: list[int] = []
+    for n in root.xpath("//*[local-name()='note']"):
+        p = n.find("{*}pitch")
+        if p is None:
+            continue
+        midi = _note_midi(p)
+        if midi is None:
+            continue
+        f = _pitch_min_fret(midi)
+        if f is None:
+            continue
+        frets.append(f)
+        if n.find("{*}chord") is None:
+            melodic_frets.append(f)
+    if not frets:
+        return {
+            "pitch_min_fret_max": None,
+            "pitch_min_fret_p90": None,
+            "pitch_position_shifts": None,
+        }
+    s = sorted(frets)
+    n_total = len(s)
+    p90_index = max(0, min(n_total - 1, int(round(0.9 * (n_total - 1)))))
+    shifts = sum(
+        1 for a, b in zip(melodic_frets, melodic_frets[1:])
+        if abs(a - b) >= 4
+    )
+    return {
+        "pitch_min_fret_max": max(frets),
+        "pitch_min_fret_p90": s[p90_index],
+        "pitch_position_shifts": shifts,
+    }
+
+
 def _rhythm_misc(root: etree._Element) -> dict[str, int]:
     return {
         "dotted": len(root.xpath("//*[local-name()='note']/*[local-name()='dot']")),
@@ -329,6 +406,7 @@ def extract_features(root: etree._Element) -> dict[str, Any]:
     harmonics = _harmonic_count(root)
     barre = _barre_count(root)
     pos_shifts = _position_shift_proxy(root)
+    pitch_fingering = _pitch_fingering_stats(root)
     duration = _duration_seconds(measure_count, tempo_bpm, time_sig)
 
     return {
@@ -355,6 +433,9 @@ def extract_features(root: etree._Element) -> dict[str, Any]:
         "harmonic_count": harmonics,
         "barre_count": barre,
         "position_shift_proxy": pos_shifts,
+        "pitch_min_fret_max": pitch_fingering["pitch_min_fret_max"],
+        "pitch_min_fret_p90": pitch_fingering["pitch_min_fret_p90"],
+        "pitch_position_shifts": pitch_fingering["pitch_position_shifts"],
         "measure_count": measure_count,
         "note_count": note_count,
         "duration_sec_approx": duration,
