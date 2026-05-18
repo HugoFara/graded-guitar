@@ -118,6 +118,9 @@ export type Filters = {
   minGrade: number | null;
   maxGrade: number | null;
   source: "all" | "curator" | "model";
+  composer: string;
+  era: Era | "all";
+  maxDurationSeconds: number | null;
 };
 
 // Build the M4 feed for a declared level: pieces at the target grade
@@ -171,10 +174,24 @@ export function buildFeed(
 
 export function applyFilters(pieces: Piece[], f: Filters): Piece[] {
   const q = f.query.trim().toLowerCase();
+  const composerNeedle = f.composer.trim().toLowerCase();
   return pieces.filter((p) => {
     if (q) {
       const hay = `${p.metadata.title} ${p.metadata.composer}`.toLowerCase();
       if (!hay.includes(q)) return false;
+    }
+    if (composerNeedle) {
+      const composer = (
+        p.metadata.composer_normalized || p.metadata.composer
+      ).toLowerCase();
+      if (!composer.includes(composerNeedle)) return false;
+    }
+    if (f.era !== "all" && p.era !== f.era) return false;
+    if (
+      f.maxDurationSeconds != null &&
+      (p.duration_seconds == null || p.duration_seconds > f.maxDurationSeconds)
+    ) {
+      return false;
     }
     const r = resolveGrade(p);
     if (f.source === "curator" && r.kind !== "curator") return false;
@@ -187,4 +204,21 @@ export function applyFilters(pieces: Piece[], f: Filters): Piece[] {
     }
     return true;
   });
+}
+
+// Composer list for the autocomplete: every distinct
+// composer_normalized (with a fallback to composer) plus how many
+// pieces each appears in. Caller usually wants alpha order; we leave
+// counts in so the UI can rank popular composers if it wants.
+export function listComposers(
+  pieces: Piece[],
+): { composer: string; count: number }[] {
+  const counts = new Map<string, number>();
+  for (const p of pieces) {
+    const c = p.metadata.composer_normalized || p.metadata.composer || "?";
+    counts.set(c, (counts.get(c) ?? 0) + 1);
+  }
+  return [...counts.entries()]
+    .map(([composer, count]) => ({ composer, count }))
+    .sort((a, b) => a.composer.localeCompare(b.composer));
 }

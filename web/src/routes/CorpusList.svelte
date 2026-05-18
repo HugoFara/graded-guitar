@@ -3,10 +3,12 @@
   import {
     loadManifest,
     applyFilters,
+    listComposers,
     resolveGrade,
+    formatDuration,
+    ERAS,
     type Manifest,
     type Filters,
-    type Piece,
   } from "../lib/manifest";
   import GradeBadge from "../components/GradeBadge.svelte";
 
@@ -18,7 +20,12 @@
     minGrade: null,
     maxGrade: null,
     source: "all",
+    composer: "",
+    era: "all",
+    maxDurationSeconds: null,
   });
+
+  let maxMinutesInput = $state<string>("");
 
   let limit = $state(100);
 
@@ -30,8 +37,23 @@
     }
   });
 
+  const composerList = $derived(
+    manifest ? listComposers(manifest.pieces) : [],
+  );
+
+  // Sync the user-typed "max minutes" → maxDurationSeconds (60×)
+  $effect(() => {
+    const trimmed = maxMinutesInput.trim();
+    if (!trimmed) {
+      filters.maxDurationSeconds = null;
+      return;
+    }
+    const n = parseFloat(trimmed);
+    filters.maxDurationSeconds = Number.isFinite(n) && n > 0 ? n * 60 : null;
+  });
+
   const filtered = $derived(
-    manifest ? applyFilters(manifest.pieces, filters) : []
+    manifest ? applyFilters(manifest.pieces, filters) : [],
   );
 
   const sorted = $derived(
@@ -39,7 +61,7 @@
       const composerCmp = a.metadata.composer.localeCompare(b.metadata.composer);
       if (composerCmp !== 0) return composerCmp;
       return a.metadata.title.localeCompare(b.metadata.title);
-    })
+    }),
   );
 
   const visible = $derived(sorted.slice(0, limit));
@@ -67,6 +89,29 @@
         bind:value={filters.query}
       />
       <label>
+        Composer
+        <input
+          type="search"
+          list="composer-list"
+          placeholder="any"
+          bind:value={filters.composer}
+        />
+        <datalist id="composer-list">
+          {#each composerList as c}
+            <option value={c.composer}>{c.count}</option>
+          {/each}
+        </datalist>
+      </label>
+      <label>
+        Era
+        <select bind:value={filters.era}>
+          <option value="all">any</option>
+          {#each ERAS as era}
+            <option value={era}>{era}</option>
+          {/each}
+        </select>
+      </label>
+      <label>
         Min grade
         <select
           value={filters.minGrade ?? ""}
@@ -91,6 +136,16 @@
         </select>
       </label>
       <label>
+        Max length (min)
+        <input
+          type="number"
+          min="0"
+          step="1"
+          placeholder="any"
+          bind:value={maxMinutesInput}
+        />
+      </label>
+      <label>
         Source
         <select bind:value={filters.source}>
           <option value="all">all</option>
@@ -111,6 +166,9 @@
           <a href="#/piece/{encodeCid(p.candidate_id)}" class="piece">
             <span class="title">{p.metadata.title}</span>
             <span class="composer">{p.metadata.composer}</span>
+            <span class="duration">
+              {#if p.duration_seconds}~{formatDuration(p.duration_seconds)}{/if}
+            </span>
             <GradeBadge resolved={grade} />
           </a>
         </li>
@@ -130,7 +188,7 @@
   .toolbar {
     display: flex;
     gap: 0.75rem;
-    align-items: center;
+    align-items: flex-end;
     flex-wrap: wrap;
     margin-bottom: 1rem;
   }
@@ -139,6 +197,13 @@
     flex-direction: column;
     font-size: 0.8em;
     color: var(--muted);
+  }
+  .toolbar input[type="number"] {
+    width: 6em;
+  }
+  .toolbar input[list],
+  .toolbar input[type="search"] {
+    min-width: 12rem;
   }
   .count {
     margin-left: auto;
@@ -155,7 +220,7 @@
   }
   .piece {
     display: grid;
-    grid-template-columns: 2fr 1.2fr auto;
+    grid-template-columns: 2fr 1.2fr auto auto;
     gap: 1rem;
     align-items: center;
     padding: 0.6rem 0.3rem;
@@ -172,6 +237,13 @@
     color: var(--muted);
     font-size: 0.9em;
   }
+  .duration {
+    color: var(--muted);
+    font-size: 0.85em;
+    font-variant-numeric: tabular-nums;
+    min-width: 3em;
+    text-align: right;
+  }
   .more {
     margin-top: 1rem;
     text-align: center;
@@ -184,7 +256,8 @@
     .piece {
       grid-template-columns: 1fr auto;
     }
-    .composer {
+    .composer,
+    .duration {
       grid-column: 1 / -1;
     }
   }

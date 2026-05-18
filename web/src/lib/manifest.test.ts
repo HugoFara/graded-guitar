@@ -4,6 +4,7 @@ import {
   buildFeed,
   gradeAsInt,
   isDummySource,
+  listComposers,
   resolveGrade,
   type Filters,
   type Piece,
@@ -27,6 +28,8 @@ const make = (over: Partial<Piece> & { cid: string }): Piece => ({
   grade_source: over.grade_source,
   model_grade: over.model_grade,
   model_grade_source: over.model_grade_source,
+  duration_seconds: over.duration_seconds,
+  era: over.era,
 });
 
 const baseFilters = (over: Partial<Filters> = {}): Filters => ({
@@ -34,6 +37,9 @@ const baseFilters = (over: Partial<Filters> = {}): Filters => ({
   minGrade: null,
   maxGrade: null,
   source: "all",
+  composer: "",
+  era: "all",
+  maxDurationSeconds: null,
   ...over,
 });
 
@@ -164,6 +170,57 @@ describe("applyFilters", () => {
   it("min/max grade excludes ungraded pieces", () => {
     const out = applyFilters(pieces, baseFilters({ minGrade: 1, maxGrade: 10 }));
     expect(out.map((p) => p.candidate_id).sort()).toEqual(["a", "b", "c"]);
+  });
+
+  it("filters by era when set", () => {
+    const erased = [
+      make({ cid: "x", era: "renaissance", metadata: { title: "T", composer: "Dowland" } }),
+      make({ cid: "y", era: "classical", metadata: { title: "T", composer: "Sor" } }),
+    ];
+    const out = applyFilters(erased, baseFilters({ era: "renaissance" }));
+    expect(out.map((p) => p.candidate_id)).toEqual(["x"]);
+  });
+
+  it("filters by composer substring", () => {
+    const out = applyFilters(pieces, baseFilters({ composer: "sor" }));
+    expect(out.map((p) => p.candidate_id)).toEqual(["b"]);
+  });
+
+  it("max duration excludes longer pieces and those with no duration", () => {
+    const timed = [
+      make({ cid: "short", duration_seconds: 60 }),
+      make({ cid: "long", duration_seconds: 600 }),
+      make({ cid: "unknown" }),
+    ];
+    const out = applyFilters(timed, baseFilters({ maxDurationSeconds: 120 }));
+    expect(out.map((p) => p.candidate_id)).toEqual(["short"]);
+  });
+
+  it("combines composer + era + grade filters", () => {
+    const mixed = [
+      make({ cid: "1", grade: "5", grade_source: "delcamp", era: "renaissance", metadata: { title: "T", composer: "Dowland" } }),
+      make({ cid: "2", grade: "5", grade_source: "delcamp", era: "classical", metadata: { title: "T", composer: "Sor" } }),
+      make({ cid: "3", grade: "7", grade_source: "delcamp", era: "renaissance", metadata: { title: "T", composer: "Dowland" } }),
+    ];
+    const out = applyFilters(
+      mixed,
+      baseFilters({ era: "renaissance", composer: "Dowland", minGrade: 1, maxGrade: 6 }),
+    );
+    expect(out.map((p) => p.candidate_id)).toEqual(["1"]);
+  });
+});
+
+describe("listComposers", () => {
+  it("returns unique composers with counts, sorted alphabetically", () => {
+    const pieces = [
+      make({ cid: "a", metadata: { title: "T1", composer: "Sor", composer_normalized: "Sor" } }),
+      make({ cid: "b", metadata: { title: "T2", composer: "Sor", composer_normalized: "Sor" } }),
+      make({ cid: "c", metadata: { title: "T3", composer: "Tárrega", composer_normalized: "Tárrega" } }),
+    ];
+    expect(listComposers(pieces)).toEqual([
+      { composer: "Sor", count: 2 },
+      { composer: "Tárrega", count: 1 },
+    ]);
   });
 });
 
