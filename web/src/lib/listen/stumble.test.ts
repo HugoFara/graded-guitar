@@ -4,6 +4,7 @@ import { TempoMap } from "./tempo";
 import { synthesizePerformance, type Perturbation } from "./synth";
 import { viterbiAlign } from "./align";
 import { analyzeTake, hardestBars } from "./stumble";
+import { FEATURE_DIM } from "./chroma";
 
 const TPQ = 960;
 const BAR_TICKS = TPQ * 4;
@@ -99,7 +100,7 @@ describe("analyzeTake", () => {
     const { live } = synthesizePerformance(ref, []);
     const half = Math.floor(live.frameCount / 2);
     const truncated = {
-      frames: live.frames.slice(0, half * 12),
+      frames: live.frames.slice(0, half * FEATURE_DIM),
       frameCount: half,
       silent: live.silent.slice(0, half),
       frameRate: live.frameRate,
@@ -114,7 +115,7 @@ describe("analyzeTake", () => {
     const { live } = synthesizePerformance(ref, []);
     const half = Math.floor(live.frameCount / 2);
     const truncated = {
-      frames: live.frames.slice(0, half * 12),
+      frames: live.frames.slice(0, half * FEATURE_DIM),
       frameCount: half,
       silent: live.silent.slice(0, half),
       frameRate: live.frameRate,

@@ -207,6 +207,91 @@ persisted and never transmitted.
 - Nothing structural. If M8 fails its stop condition, the code is
   deletable and M2 is exactly where it is today.
 
+## Addendum — first real take, 2026-08-16
+
+The first take recorded against a real guitar was Asturias. Reported
+symptom: the cursor repeatedly lost the player. Three findings, all
+measured rather than guessed, via `web/src/lib/listen/diagnose.test.ts`:
+
+**1. The confidence readout was lying.** It reported posterior mass on
+the single MAP state. Across several thousand reference frames a
+posterior correctly concentrated on a 20-frame neighbourhood still puts
+only a few percent on any one frame, so on a synthetic take the
+follower tracked *perfectly* for all 640 frames, the indicator showed
+"locked" on 9.8% of them and "searching" for the rest. Some unknown
+share of "it kept losing me" was the indicator, not the tracker. It now
+reports mass within a bar of the MAP state: 100% "locked" on the same
+take.
+
+**2. Chroma is close to blind on ostinato textures.** Self-ambiguity —
+the fraction of frame pairs more than half a bar apart that are
+indistinguishable — measured **1.9% on varied material and 79.5% on an
+Asturias-shaped fixture**. With the emission term that flat, the
+aligner is running on the transition prior alone. This is a property of
+the piece meeting the feature, not a tuning error, and Asturias is
+close to the worst case in the repertoire: a static pedal against
+slow-moving harmony, all in one key, for minutes at a time.
+
+**3. Slow playing was not the problem.** Worth recording because it was
+the obvious hypothesis and it was wrong: offline alignment stayed at
+zero bar error down to 0.35x written tempo on varied material. No work
+went into fixing it.
+
+### Change: two-band chroma
+
+The feature is now 24-dim — one chroma per register, split at E4
+(MIDI 64), each band normalized independently before the whole vector
+is. Guitar writing leans constantly on a static pedal in one register
+against motion in another, and folding the registers together discards
+the part that identifies the bar. Per-band normalization is what makes
+it work: without it a loud treble ostinato swamps a quiet bass line and
+the bass band contributes nothing, which is the single-band behaviour
+again.
+
+Partials are filed under the register they actually sound in, not their
+fundamental's — the 4th partial of a low E really is up in the treble
+band, and that is where the microphone finds it. This costs some
+separation (a prototype filing whole notes by their fundamental scored
+26.6% against the implementation's 40.8%) but it is the physically
+consistent choice, and consistency between the two sides of the
+comparison is the entire reason the harmonic model exists.
+
+Result: ostinato self-ambiguity **79.5% → 40.8%**, varied 1.9% → 0.8%.
+The M8 stop condition still passes unchanged.
+
+### What is still true
+
+Following ostinato material remains substantially worse than varied
+material, and no amount of feature engineering will fully fix it — a
+piece that genuinely repeats itself is genuinely ambiguous. Current
+numbers on the ostinato fixture, bar error p50/p95:
+
+| playing tempo | offline | live cursor |
+|---|---|---|
+| written | 0 / 0 | 0 / 1 |
+| 0.7x | 0 / 1 | 1 / 12 |
+| 0.5x | 1 / 3 | 1 / 12 |
+| 0.35x | 1 / 12 | 2 / 13 |
+
+The offline pass — which is what produces every recorded measurement —
+holds up considerably better than the live cursor, which is the split
+this ADR already committed to. Two consequences:
+
+- The cursor is driven by a hysteresis-smoothed position that requires
+  a distant jump to persist for half a second before following it.
+  This helps the cursor stop teleporting; it does not fix sustained
+  misplacement, and the table above is with it applied.
+- The practice page now measures each piece's ambiguity on load and
+  warns above 25%, because a wandering cursor on repetitive writing is
+  a property of the piece and the player should not be left guessing
+  whether the tool is broken.
+
+**Open question this addendum does not answer:** whether the *offline*
+stumble map for that take was also wrong, or only the cursor. That
+determines whether the remaining gap matters for M2 at all — the
+grading signal comes from the offline pass — and it needs the take's
+stored per-bar record read against what the player remembers.
+
 **Follow-ups:**
 
 1. Chroma, reference-building, alignment and stumble-metric core, with

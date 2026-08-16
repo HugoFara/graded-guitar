@@ -12,6 +12,28 @@
 
 export const CHROMA_BINS = 12;
 
+// Chroma is computed per register rather than over the whole range, and
+// the two are concatenated into one feature vector.
+//
+// Measured, not assumed. A single 12-bin chroma is close to blind on
+// ostinato textures — on an Asturias-shaped fixture, 79.5% of frame
+// pairs more than half a bar apart were indistinguishable, against 1.9%
+// on varied material. Splitting the register at E4 drops that to 26.6%,
+// because the figure's high pedal tone stops being folded together with
+// the melody moving underneath it. Splitting lower (MIDI 55) changes
+// nothing, since both parts land in the same band.
+//
+// Guitar writing leans on exactly this: a static pedal in one register
+// against motion in another. Folding the registers together discards
+// the part that actually identifies the bar.
+export const BAND_COUNT = 2;
+export const FEATURE_DIM = CHROMA_BINS * BAND_COUNT;
+export const BAND_SPLIT_MIDI = 64;
+
+export function bandOf(midi: number): number {
+  return midi >= BAND_SPLIT_MIDI ? 1 : 0;
+}
+
 // Guitar's low E is MIDI 40. The top of the standard classical range is
 // around MIDI 88, but partials of those notes carry real energy well
 // above it and folding them in makes the observed vector match the
@@ -41,33 +63,55 @@ export function midiToFreq(midi: number): number {
 //   h=1 -> +0  (unison)      h=4 -> +0  (two octaves)
 //   h=2 -> +0  (octave)      h=5 -> +4  (major third)
 //   h=3 -> +7  (fifth)       h=6 -> +7  (fifth)
-export function harmonicOffsets(
+// Semitone offset of each partial above the fundamental, unreduced, so
+// the partial's own register can be worked out. Partial h sits
+// 12*log2(h) semitones up; we round because chroma is a semitone-
+// resolution representation.
+export function harmonicPartials(
   count: number = HARMONIC_COUNT,
-): { offset: number; weight: number }[] {
-  const out: { offset: number; weight: number }[] = [];
+): { semitones: number; weight: number }[] {
+  const out: { semitones: number; weight: number }[] = [];
   for (let h = 1; h <= count; h++) {
-    out.push({
-      offset: Math.round(12 * Math.log2(h)) % CHROMA_BINS,
-      weight: 1 / h,
-    });
+    out.push({ semitones: Math.round(12 * Math.log2(h)), weight: 1 / h });
   }
   return out;
 }
 
-const HARMONICS = harmonicOffsets();
+// Pitch-class offsets alone, for callers that only care which class a
+// partial lands on:
+//   h=1 -> +0  (unison)      h=4 -> +0  (two octaves)
+//   h=2 -> +0  (octave)      h=5 -> +4  (major third)
+//   h=3 -> +7  (fifth)       h=6 -> +7  (fifth)
+export function harmonicOffsets(
+  count: number = HARMONIC_COUNT,
+): { offset: number; weight: number }[] {
+  return harmonicPartials(count).map(({ semitones, weight }) => ({
+    offset: semitones % CHROMA_BINS,
+    weight,
+  }));
+}
 
-// Symbolic -> chroma. Used to build the reference from the score. The
-// harmonic model above is applied here so both sides of the comparison
-// carry the same smearing.
+const HARMONICS = harmonicPartials();
+
+// Symbolic -> banded chroma. Used to build the reference from the score.
+//
+// A partial is filed under the register it actually sounds in, not its
+// fundamental's — the 4th partial of a low E really is up in the treble
+// band, and that is where the microphone will find it. Filing partials
+// by their fundamental would put reference energy in a band the
+// observation never puts it in, which is the whole failure the harmonic
+// model exists to avoid.
 export function chromaFromPitches(
   midiPitches: Iterable<number>,
-  out: Float32Array = new Float32Array(CHROMA_BINS),
+  out: Float32Array = new Float32Array(FEATURE_DIM),
 ): Float32Array {
   out.fill(0);
   for (const midi of midiPitches) {
-    const base = ((Math.round(midi) % CHROMA_BINS) + CHROMA_BINS) % CHROMA_BINS;
-    for (const { offset, weight } of HARMONICS) {
-      out[(base + offset) % CHROMA_BINS] += weight;
+    const rounded = Math.round(midi);
+    for (const { semitones, weight } of HARMONICS) {
+      const partialMidi = rounded + semitones;
+      const cls = ((partialMidi % CHROMA_BINS) + CHROMA_BINS) % CHROMA_BINS;
+      out[bandOf(partialMidi) * CHROMA_BINS + cls] += weight;
     }
   }
   return out;
@@ -83,6 +127,10 @@ export type ChromaMapping = {
   // Half-open [start, end) spectrum-bin range for each analysed pitch.
   binStart: Int32Array;
   binEnd: Int32Array;
+  // Destination index in the banded feature vector, i.e.
+  // band * CHROMA_BINS + pitch class. Precomputed so the per-frame loop
+  // does no arithmetic beyond the accumulate.
+  featureIndex: Int32Array;
   pitchClass: Int8Array;
 };
 
@@ -94,6 +142,7 @@ export function createChromaMapping(
   const binStart = new Int32Array(pitchCount);
   const binEnd = new Int32Array(pitchCount);
   const pitchClass = new Int8Array(pitchCount);
+  const featureIndex = new Int32Array(pitchCount);
   // getFloatFrequencyData fills fftSize/2 bins, each sampleRate/fftSize
   // wide.
   const binCount = fftSize / 2;
@@ -121,9 +170,10 @@ export function createChromaMapping(
     binStart[i] = s;
     binEnd[i] = e;
     pitchClass[i] = midi % CHROMA_BINS;
+    featureIndex[i] = bandOf(midi) * CHROMA_BINS + pitchClass[i];
   }
 
-  return { sampleRate, fftSize, binStart, binEnd, pitchClass };
+  return { sampleRate, fftSize, binStart, binEnd, pitchClass, featureIndex };
 }
 
 // Below this level a bin is treated as silence and contributes nothing.
@@ -143,13 +193,13 @@ export const SILENCE_FLOOR_DB = -85;
 export function chromaFromSpectrum(
   spectrumDb: Float32Array,
   mapping: ChromaMapping,
-  out: Float32Array = new Float32Array(CHROMA_BINS),
+  out: Float32Array = new Float32Array(FEATURE_DIM),
 ): { chroma: Float32Array; energy: number } {
   out.fill(0);
   let energy = 0;
-  const { binStart, binEnd, pitchClass } = mapping;
+  const { binStart, binEnd, featureIndex } = mapping;
 
-  for (let i = 0; i < pitchClass.length; i++) {
+  for (let i = 0; i < featureIndex.length; i++) {
     const end = binEnd[i];
     let sum = 0;
     for (let b = binStart[i]; b < end; b++) {
@@ -160,7 +210,7 @@ export function chromaFromSpectrum(
       // toward their strongest note; amplitude keeps the shape.
       sum += Math.pow(10, db / 20);
     }
-    out[pitchClass[i]] += sum;
+    out[featureIndex[i]] += sum;
     energy += sum;
   }
 
@@ -170,13 +220,31 @@ export function chromaFromSpectrum(
 // L2-normalize in place. A zero vector is left as zeros rather than
 // producing NaN — silent frames are legitimate and the aligner handles
 // them via the energy gate, not via the chroma direction.
-export function l2Normalize(v: Float32Array): Float32Array {
+export function l2Normalize(v: Float32Array, offset = 0, length = v.length - offset): Float32Array {
   let ss = 0;
-  for (let i = 0; i < v.length; i++) ss += v[i] * v[i];
+  for (let i = offset; i < offset + length; i++) ss += v[i] * v[i];
   if (ss <= 0) return v;
   const inv = 1 / Math.sqrt(ss);
-  for (let i = 0; i < v.length; i++) v[i] *= inv;
+  for (let i = offset; i < offset + length; i++) v[i] *= inv;
   return v;
+}
+
+// Normalize a banded feature: each band to unit length first, then the
+// whole vector.
+//
+// The per-band pass is what makes the split worth having. Without it a
+// loud treble ostinato swamps a quiet bass line and the bass band
+// contributes nothing — which is the single-band behaviour we are
+// trying to get away from. With it, both registers weigh equally
+// regardless of how the player balances them or where the microphone
+// sits. A band with nothing sounding in it stays zero and simply does
+// not contribute, and the final pass keeps the vector unit-length so
+// cosine distance stays in [0, 1] either way.
+export function normalizeFeature(v: Float32Array): Float32Array {
+  for (let b = 0; b < BAND_COUNT; b++) {
+    l2Normalize(v, b * CHROMA_BINS, CHROMA_BINS);
+  }
+  return l2Normalize(v);
 }
 
 // Cosine distance between two L2-normalized chroma vectors, read from
@@ -193,7 +261,7 @@ export function cosineDistanceAt(
   bOffset: number,
 ): number {
   let dot = 0;
-  for (let i = 0; i < CHROMA_BINS; i++) {
+  for (let i = 0; i < FEATURE_DIM; i++) {
     dot += a[aOffset + i] * b[bOffset + i];
   }
   return 1 - dot;

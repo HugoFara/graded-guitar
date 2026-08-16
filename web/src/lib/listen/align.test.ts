@@ -3,7 +3,7 @@ import { buildReference, type BarSpan, type NoteEvent } from "./reference";
 import { TempoMap } from "./tempo";
 import { synthesizePerformance, type Perturbation } from "./synth";
 import { viterbiAlign, OnlineFollower, decimateFrames } from "./align";
-import { CHROMA_BINS } from "./chroma";
+import { FEATURE_DIM } from "./chroma";
 
 const TPQ = 960;
 const BEATS_PER_BAR = 4;
@@ -98,8 +98,8 @@ describe("reference construction", () => {
     let sounding = 0;
     for (let f = 0; f < ref.frameCount; f++) {
       let ss = 0;
-      for (let c = 0; c < CHROMA_BINS; c++) {
-        ss += ref.frames[f * CHROMA_BINS + c] ** 2;
+      for (let c = 0; c < FEATURE_DIM; c++) {
+        ss += ref.frames[f * FEATURE_DIM + c] ** 2;
       }
       if (ss > 0) {
         sounding++;
@@ -228,7 +228,7 @@ describe("online follower", () => {
     const follower = new OnlineFollower(ref);
     const path = new Int32Array(live.frameCount);
     for (let t = 0; t < live.frameCount; t++) {
-      path[t] = follower.step(live.frames, t * CHROMA_BINS, live.silent[t] === 1);
+      path[t] = follower.step(live.frames, t * FEATURE_DIM, live.silent[t] === 1);
     }
     // The live cursor is allowed to be worse than the offline pass —
     // it only ever sees the past. One bar is the spec M8 target.
@@ -240,7 +240,7 @@ describe("online follower", () => {
     expect(follower.confidence).toBe(0);
     const { live } = synthesizePerformance(ref, []);
     for (let t = 0; t < 20; t++) {
-      follower.step(live.frames, t * CHROMA_BINS, live.silent[t] === 1);
+      follower.step(live.frames, t * FEATURE_DIM, live.silent[t] === 1);
     }
     expect(follower.confidence).toBeGreaterThan(0);
     expect(follower.confidence).toBeLessThanOrEqual(1);
@@ -258,7 +258,7 @@ describe("decimateFrames", () => {
     for (let t = 0; t < half.frameCount; t++) {
       if (half.silent[t]) continue;
       let ss = 0;
-      for (let c = 0; c < CHROMA_BINS; c++) ss += half.frames[t * CHROMA_BINS + c] ** 2;
+      for (let c = 0; c < FEATURE_DIM; c++) ss += half.frames[t * FEATURE_DIM + c] ** 2;
       expect(Math.sqrt(ss)).toBeCloseTo(1, 5);
     }
   });

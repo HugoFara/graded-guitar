@@ -10,7 +10,7 @@
 // it is the only way to check alignment against truth we actually know
 // — a real take's ground truth has to be hand-annotated bar by bar.
 
-import { CHROMA_BINS } from "./chroma";
+import { FEATURE_DIM, normalizeFeature } from "./chroma";
 import type { LiveFrames } from "./align";
 import type { Reference } from "./reference";
 
@@ -107,7 +107,7 @@ export function synthesizePerformance(
 
   const truth = Int32Array.from(truthList);
   const frameCount = truth.length;
-  const frames = new Float32Array(frameCount * CHROMA_BINS);
+  const frames = new Float32Array(frameCount * FEATURE_DIM);
   const silent = new Uint8Array(frameCount);
 
   for (let t = 0; t < frameCount; t++) {
@@ -117,12 +117,12 @@ export function synthesizePerformance(
       continue;
     }
     let ss = 0;
-    for (let c = 0; c < CHROMA_BINS; c++) {
+    for (let c = 0; c < FEATURE_DIM; c++) {
       const v = Math.max(
         0,
-        ref.frames[src * CHROMA_BINS + c] + (rand() - 0.5) * 2 * opts.noise,
+        ref.frames[src * FEATURE_DIM + c] + (rand() - 0.5) * 2 * opts.noise,
       );
-      frames[t * CHROMA_BINS + c] = v;
+      frames[t * FEATURE_DIM + c] = v;
       ss += v * v;
     }
     // A reference frame with no notes sounding is all zeros; noise can
@@ -132,8 +132,10 @@ export function synthesizePerformance(
       silent[t] = 1;
       continue;
     }
-    const inv = 1 / Math.sqrt(ss);
-    for (let c = 0; c < CHROMA_BINS; c++) frames[t * CHROMA_BINS + c] *= inv;
+    // Band-normalized, matching what capture produces — normalizing the
+    // whole vector instead would let a loud band dominate and make the
+    // synthetic take easier to align than a real one.
+    normalizeFeature(frames.subarray(t * FEATURE_DIM, (t + 1) * FEATURE_DIM));
   }
 
   return {

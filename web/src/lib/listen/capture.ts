@@ -1,15 +1,15 @@
 // Microphone capture -> chroma frames.
 //
 // Audio never leaves the browser and raw PCM is never retained. What we
-// keep is the derived chroma stream: 12 floats per frame at 20 Hz, about
-// 1 KB/s, from which the original audio cannot be reconstructed. See
+// keep is the derived chroma stream: 24 floats per frame at 20 Hz, about
+// 2 KB/s, from which the original audio cannot be reconstructed. See
 // decisions/0018-microphone-score-following.md and the privacy note.
 
 import {
-  CHROMA_BINS,
+  FEATURE_DIM,
   chromaFromSpectrum,
   createChromaMapping,
-  l2Normalize,
+  normalizeFeature,
   type ChromaMapping,
 } from "./chroma";
 import type { LiveFrames } from "./align";
@@ -67,12 +67,12 @@ export class MicrophoneUnavailableError extends Error {
 // reallocating per frame at 20 Hz would churn; doubling keeps it to
 // log(n) copies.
 class FrameBuffer {
-  private data = new Float32Array(CHROMA_BINS * 1024);
+  private data = new Float32Array(FEATURE_DIM * 1024);
   private silentFlags = new Uint8Array(1024);
   count = 0;
 
   push(chroma: Float32Array, silent: boolean): void {
-    if ((this.count + 1) * CHROMA_BINS > this.data.length) {
+    if ((this.count + 1) * FEATURE_DIM > this.data.length) {
       const grown = new Float32Array(this.data.length * 2);
       grown.set(this.data);
       this.data = grown;
@@ -80,14 +80,14 @@ class FrameBuffer {
       grownFlags.set(this.silentFlags);
       this.silentFlags = grownFlags;
     }
-    this.data.set(chroma, this.count * CHROMA_BINS);
+    this.data.set(chroma, this.count * FEATURE_DIM);
     this.silentFlags[this.count] = silent ? 1 : 0;
     this.count++;
   }
 
   finish(frameRate: number): LiveFrames {
     return {
-      frames: this.data.slice(0, this.count * CHROMA_BINS),
+      frames: this.data.slice(0, this.count * FEATURE_DIM),
       frameCount: this.count,
       silent: this.silentFlags.slice(0, this.count),
       frameRate,
@@ -151,7 +151,7 @@ export async function startCapture(
 
   const mapping: ChromaMapping = createChromaMapping(context.sampleRate, opts.fftSize);
   const spectrum = new Float32Array(analyser.frequencyBinCount);
-  const scratch = new Float32Array(CHROMA_BINS);
+  const scratch = new Float32Array(FEATURE_DIM);
   const buffer = new FrameBuffer();
   const noiseFloor = new NoiseFloor();
 
@@ -164,7 +164,7 @@ export async function startCapture(
     const { chroma, energy } = chromaFromSpectrum(spectrum, mapping, scratch);
     const threshold = noiseFloor.update(energy);
     const silent = energy < threshold * opts.silenceSnr;
-    l2Normalize(chroma);
+    normalizeFeature(chroma);
     buffer.push(chroma, silent);
     onFrame?.({ index: buffer.count - 1, chroma, silent, energy });
   }, 1000 / opts.frameRate);

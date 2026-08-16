@@ -10,7 +10,7 @@
   } from "../lib/manifest";
   import { mountPlayer, type PlayerHandles } from "../lib/player";
   import { referenceFromScore, tickAtFrame } from "../lib/listen/score";
-  import type { Reference } from "../lib/listen/reference";
+  import { estimateAmbiguity, type Reference } from "../lib/listen/reference";
   import {
     OnlineFollower,
     viterbiAlign,
@@ -48,6 +48,10 @@
   // Reactive because the bar count is read in the template; the other
   // engine handles below are not.
   let reference = $state<Reference | null>(null);
+  // How self-similar this piece looks to the follower. Surfaced because
+  // a wandering cursor on repetitive writing is a property of the piece,
+  // not a fault the player should be left guessing about.
+  let ambiguity = $state(0);
   let follower: OnlineFollower | null = null;
   let session: CaptureSession | null = null;
 
@@ -84,6 +88,7 @@
       onScoreLoaded: (loaded) => {
         score = loaded;
         reference = referenceFromScore(loaded);
+        ambiguity = estimateAmbiguity(reference);
         phase = "ready";
       },
       onError: (e) => {
@@ -109,13 +114,17 @@
     try {
       session = await startCapture((frame) => {
         if (!reference || !follower) return;
-        const position = follower.step(frame.chroma, 0, frame.silent);
-        currentBar = reference.barOfFrame[position];
+        follower.step(frame.chroma, 0, frame.silent);
+        // displayPosition, not the raw MAP: on repetitive material the
+        // argmax teleports between passages that look alike, which reads
+        // as "it lost me" even when the estimate is broadly right. The
+        // smoothed value requires a distant jump to persist before the
+        // cursor follows it. Measurements are unaffected — they come
+        // from the offline pass.
+        const shown = follower.displayPosition;
+        currentBar = reference.barOfFrame[shown];
         confidence = follower.confidence;
-        // Drive alphaTab's own cursor as well as our bar strip, so the
-        // player can read position off the notation they are looking at
-        // rather than a number below it.
-        if (handles) handles.api.tickPosition = tickAtFrame(reference, position);
+        if (handles) handles.api.tickPosition = tickAtFrame(reference, shown);
       });
     } catch (e) {
       micError =
@@ -242,6 +251,17 @@
 
     {#if micError}
       <p class="error">{micError}</p>
+    {/if}
+
+    {#if ambiguity > 0.25 && phase !== "loading"}
+      <p class="ambiguity-note">
+        <strong>This piece repeats itself a lot.</strong>
+        {Math.round(ambiguity * 100)}% of its bars look alike to the follower,
+        so the live cursor will drift — an ostinato gives it little to tell
+        one passage from another. The analysis after you stop is more
+        reliable than the cursor during: it can look at the whole take at
+        once. Record anyway, and treat a wandering cursor as expected here.
+      </p>
     {/if}
 
     <div class="transport">
@@ -422,6 +442,15 @@
   .stat .label {
     font-size: 0.8em;
     color: var(--muted);
+  }
+  .ambiguity-note {
+    margin: 0.8rem 0;
+    padding: 0.5rem 0.7rem;
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--muted);
+    border-radius: 4px;
+    background: var(--card-bg);
+    font-size: 0.85em;
   }
   .bound-note {
     margin: 0.8rem 0 0;

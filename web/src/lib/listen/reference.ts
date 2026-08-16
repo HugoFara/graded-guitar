@@ -8,9 +8,10 @@
 // rendering engine. See decisions/0018-microphone-score-following.md.
 
 import {
-  CHROMA_BINS,
+  FEATURE_DIM,
   chromaFromPitches,
-  l2Normalize,
+  cosineDistanceAt,
+  normalizeFeature,
 } from "./chroma";
 import { TempoMap } from "./tempo";
 
@@ -32,7 +33,7 @@ export type BarSpan = {
 export const FRAME_RATE = 20;
 
 export type Reference = {
-  // frameCount * CHROMA_BINS, row-major, each row L2-normalized.
+  // frameCount * FEATURE_DIM, row-major, each row band-normalized.
   frames: Float32Array;
   frameCount: number;
   // Score tick at the start of each frame.
@@ -46,6 +47,40 @@ export type Reference = {
   durationMs: number;
   tempo: TempoMap;
 };
+
+// How much a piece repeats itself, as seen by the feature: the fraction
+// of frame pairs more than half a bar apart that are indistinguishable.
+//
+// This is the number that explains a wandering cursor. An ostinato
+// texture — a static pedal against slow-moving harmony, which is most
+// of Asturias — makes the emission term nearly flat, so the aligner is
+// running on the transition prior alone and has little to correct
+// itself with. Varied writing measures under 5%; an ostinato measures
+// tens of percent.
+//
+// Sampled rather than exhaustive: the exact quantity is O(frames²),
+// which is tens of millions of comparisons on a four-minute piece. A
+// few hundred samples put it within a point or two, which is all the
+// precision a warning needs.
+export function estimateAmbiguity(ref: Reference, samples = 300): number {
+  if (ref.frameCount < 2 || ref.barCount < 2) return 0;
+  const step = Math.max(1, Math.floor(ref.frameCount / samples));
+  const framesPerBar = ref.frameCount / ref.barCount;
+  let confusable = 0;
+  let compared = 0;
+  for (let i = 0; i < ref.frameCount; i += step) {
+    for (let j = 0; j < ref.frameCount; j += step) {
+      if (Math.abs(i - j) < framesPerBar / 2) continue;
+      compared++;
+      if (
+        cosineDistanceAt(ref.frames, i * FEATURE_DIM, ref.frames, j * FEATURE_DIM) < 0.05
+      ) {
+        confusable++;
+      }
+    }
+  }
+  return compared > 0 ? confusable / compared : 0;
+}
 
 function barIndexForTick(bars: BarSpan[], tick: number): number {
   if (!bars.length) return -1;
@@ -97,10 +132,10 @@ export function buildReference(
   // all-silent frame at the end of every piece.
   const frameCount = Math.max(1, Math.ceil(durationMs / msPerFrame - 1e-9));
 
-  const frames = new Float32Array(frameCount * CHROMA_BINS);
+  const frames = new Float32Array(frameCount * FEATURE_DIM);
   const frameTick = new Float64Array(frameCount);
   const barOfFrame = new Int32Array(frameCount);
-  const scratch = new Float32Array(CHROMA_BINS);
+  const scratch = new Float32Array(FEATURE_DIM);
 
   // Sweep rather than re-scan: frames advance monotonically in tick, so
   // notes enter the sounding set once and leave once.
@@ -124,8 +159,8 @@ export function buildReference(
       active.map((n) => n.midi),
       scratch,
     );
-    l2Normalize(scratch);
-    frames.set(scratch, f * CHROMA_BINS);
+    normalizeFeature(scratch);
+    frames.set(scratch, f * FEATURE_DIM);
   }
 
   const barFirstFrame = new Int32Array(bars.length).fill(-1);

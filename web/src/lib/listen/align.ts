@@ -25,11 +25,11 @@
 // stumbled, and it loses its place in exactly the hard passages where
 // the grading signal matters most.
 
-import { CHROMA_BINS, cosineDistanceAt } from "./chroma";
+import { FEATURE_DIM, cosineDistanceAt, normalizeFeature } from "./chroma";
 import type { Reference } from "./reference";
 
 export type LiveFrames = {
-  // frameCount * CHROMA_BINS, row-major, each row L2-normalized.
+  // frameCount * FEATURE_DIM, row-major, each row band-normalized.
   frames: Float32Array;
   frameCount: number;
   // 1 where the frame fell below the capture energy gate. Silent frames
@@ -114,9 +114,9 @@ function fillEmission(
     out.fill(0);
     return;
   }
-  const liveOffset = t * CHROMA_BINS;
+  const liveOffset = t * FEATURE_DIM;
   for (let i = 0; i < ref.frameCount; i++) {
-    out[i] = -cosineDistanceAt(ref.frames, i * CHROMA_BINS, live.frames, liveOffset) / sigma;
+    out[i] = -cosineDistanceAt(ref.frames, i * FEATURE_DIM, live.frames, liveOffset) / sigma;
   }
 }
 
@@ -135,8 +135,23 @@ export class OnlineFollower {
   private emission: Float64Array;
   private started = false;
 
-  // MAP reference frame after the most recent step.
+  // MAP reference frame after the most recent step. Raw argmax — this
+  // is the honest estimate, and it jitters when the posterior is
+  // diffuse.
   position = 0;
+  // Hysteresis-smoothed position, for driving the cursor.
+  //
+  // On repetitive material the posterior spreads over many bars and the
+  // raw argmax teleports frame to frame, which reads to a player as
+  // "it lost me" even when the distribution is broadly right. A distant
+  // jump therefore has to be supported for JUMP_HOLD_FRAMES in a row
+  // before the cursor follows it; until then the cursor keeps advancing
+  // at written tempo. Genuine restarts produce sustained evidence and
+  // still land, about half a second late.
+  //
+  // This smooths the *display* only. Measurements come from the offline
+  // Viterbi pass and never see this value.
+  displayPosition = 0;
   // Posterior mass on the MAP state, in [0, 1]. Low values mean the
   // follower is unsure — the UI dims the cursor rather than lying about
   // a position it does not have.
@@ -158,7 +173,10 @@ export class OnlineFollower {
     this.alpha = buildLogPrior(this.ref.frameCount, this.ref.frameRate);
     this.started = false;
     this.position = 0;
+    this.displayPosition = 0;
     this.confidence = 0;
+    this.pendingJumpTarget = -1;
+    this.pendingJumpFrames = 0;
   }
 
   // Consumes one live frame and returns the MAP reference frame index.
@@ -170,13 +188,13 @@ export class OnlineFollower {
       silent: Uint8Array.of(silent ? 1 : 0),
       frameRate: this.ref.frameRate,
     };
-    // fillEmission indexes live frames by t*CHROMA_BINS; hand it a view
+    // fillEmission indexes live frames by t*FEATURE_DIM; hand it a view
     // starting at the caller's offset so the single-frame case does not
     // need its own code path.
     fillEmission(
       this.emission,
       this.ref,
-      { ...live, frames: chroma.subarray(offset, offset + CHROMA_BINS) },
+      { ...live, frames: chroma.subarray(offset, offset + FEATURE_DIM) },
       0,
       this.opts.sigma,
     );
@@ -217,13 +235,67 @@ export class OnlineFollower {
       }
     }
     let sum = 0;
+    let nearby = 0;
+    // Posterior mass within a bar of the MAP state, not on the MAP state
+    // itself.
+    //
+    // Single-state mass is the wrong quantity here and reads as failure
+    // when nothing has failed: over several thousand reference frames, a
+    // posterior correctly concentrated on a 20-frame neighbourhood still
+    // puts only a few percent on any one frame. Measured on a synthetic
+    // take the follower tracked perfectly for all 640 frames, the old
+    // metric had a median of 0.28 and showed "locked" on under 10% of
+    // them. What the player needs to know is whether the follower knows
+    // the bar, so that is what we report.
+    const window = Math.round(this.ref.frameCount / Math.max(this.ref.barCount, 1));
     for (let i = 0; i < n; i++) {
       this.alpha[i] -= max;
-      sum += Math.exp(this.alpha[i]);
+      const p = Math.exp(this.alpha[i]);
+      sum += p;
+      if (Math.abs(i - argmax) <= window) nearby += p;
     }
     this.position = argmax;
-    this.confidence = sum > 0 ? 1 / sum : 0;
+    this.confidence = sum > 0 ? nearby / sum : 0;
+    this.updateDisplay(argmax, window);
     return argmax;
+  }
+
+  // Frames a distant MAP has to persist before the cursor follows it.
+  // At 20 Hz this is half a second — long enough to reject single-frame
+  // excursions on ambiguous material, short enough that a real restart
+  // does not feel broken.
+  private static readonly JUMP_HOLD_FRAMES = 10;
+  private pendingJumpTarget = -1;
+  private pendingJumpFrames = 0;
+
+  private updateDisplay(argmax: number, window: number): void {
+    const near = Math.abs(argmax - this.displayPosition) <= Math.max(window, 4);
+    if (near) {
+      this.displayPosition = argmax;
+      this.pendingJumpFrames = 0;
+      this.pendingJumpTarget = -1;
+      return;
+    }
+    // Distant MAP: only follow it once it has held roughly still for
+    // long enough to be a real move rather than posterior jitter.
+    if (
+      this.pendingJumpTarget >= 0 &&
+      Math.abs(argmax - this.pendingJumpTarget) <= Math.max(window, 4)
+    ) {
+      this.pendingJumpFrames++;
+    } else {
+      this.pendingJumpTarget = argmax;
+      this.pendingJumpFrames = 1;
+    }
+    if (this.pendingJumpFrames >= OnlineFollower.JUMP_HOLD_FRAMES) {
+      this.displayPosition = argmax;
+      this.pendingJumpFrames = 0;
+      this.pendingJumpTarget = -1;
+    } else if (this.displayPosition < this.ref.frameCount - 1) {
+      // Coast forward at written tempo rather than freezing, so the
+      // cursor keeps moving with the player while the evidence settles.
+      this.displayPosition++;
+    }
   }
 }
 
@@ -365,9 +437,9 @@ export function viterbiAlign(
       ? NaN
       : cosineDistanceAt(
           ref.frames,
-          path[step] * CHROMA_BINS,
+          path[step] * FEATURE_DIM,
           live.frames,
-          step * CHROMA_BINS,
+          step * FEATURE_DIM,
         );
   }
 
@@ -380,22 +452,17 @@ export function viterbiAlign(
 // the mean of two frames is the distribution over the merged window.
 export function decimateFrames(live: LiveFrames): LiveFrames {
   const outCount = Math.ceil(live.frameCount / 2);
-  const frames = new Float32Array(outCount * CHROMA_BINS);
+  const frames = new Float32Array(outCount * FEATURE_DIM);
   const silent = new Uint8Array(outCount);
 
   for (let i = 0; i < outCount; i++) {
     const a = 2 * i;
     const b = Math.min(a + 1, live.frameCount - 1);
-    let ss = 0;
-    for (let c = 0; c < CHROMA_BINS; c++) {
-      const v = (live.frames[a * CHROMA_BINS + c] + live.frames[b * CHROMA_BINS + c]) / 2;
-      frames[i * CHROMA_BINS + c] = v;
-      ss += v * v;
+    for (let c = 0; c < FEATURE_DIM; c++) {
+      frames[i * FEATURE_DIM + c] =
+        (live.frames[a * FEATURE_DIM + c] + live.frames[b * FEATURE_DIM + c]) / 2;
     }
-    if (ss > 0) {
-      const inv = 1 / Math.sqrt(ss);
-      for (let c = 0; c < CHROMA_BINS; c++) frames[i * CHROMA_BINS + c] *= inv;
-    }
+    normalizeFeature(frames.subarray(i * FEATURE_DIM, (i + 1) * FEATURE_DIM));
     // A merged frame counts as silent only if both halves were: a note
     // attack landing in either half is positional evidence.
     silent[i] = live.silent[a] && live.silent[b] ? 1 : 0;
