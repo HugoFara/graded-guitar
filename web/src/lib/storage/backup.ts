@@ -16,14 +16,20 @@ import {
   importVotes,
   type VoteExport,
 } from "./votes";
+import {
+  exportTakes,
+  importTakes,
+  type TakesExport,
+} from "./takes";
 
 // Envelope versions:
 //   v1 — statuses only, no grade snapshot fields
 //   v2 — statuses with optional snapshot fields (ADR 0013)
 //   v3 — adds the grade-disagreement votes sub-payload (ADR 0013 follow-up)
+//   v4 — adds the M8 practice-takes sub-payload (ADR 0018)
 // Older imports are still accepted; missing payloads default to empty.
 export type ProfileBackup = {
-  version: 1 | 2 | 3;
+  version: 1 | 2 | 3 | 4;
   exported_at: string;
   profile: {
     display_name: string;
@@ -32,11 +38,14 @@ export type ProfileBackup = {
   };
   statuses: StatusExport;
   votes?: VoteExport;
+  takes?: TakesExport;
 };
+
+const SUPPORTED_VERSIONS = [1, 2, 3, 4];
 
 export async function exportProfile(p: Profile): Promise<ProfileBackup> {
   return {
-    version: 3,
+    version: 4,
     exported_at: new Date().toISOString(),
     profile: {
       display_name: p.display_name,
@@ -45,6 +54,7 @@ export async function exportProfile(p: Profile): Promise<ProfileBackup> {
     },
     statuses: await exportStatuses(p.id),
     votes: await exportVotes(p.id),
+    takes: await exportTakes(p.id),
   };
 }
 
@@ -54,6 +64,8 @@ export type ImportResult = {
   skipped: number;
   votes_imported: number;
   votes_skipped: number;
+  takes_imported: number;
+  takes_skipped: number;
 };
 
 // Importing creates a NEW profile (never overwrites an existing one)
@@ -62,10 +74,7 @@ export type ImportResult = {
 export async function importProfile(
   payload: ProfileBackup,
 ): Promise<ImportResult> {
-  if (
-    !payload
-    || (payload.version !== 1 && payload.version !== 2 && payload.version !== 3)
-  ) {
+  if (!payload || !SUPPORTED_VERSIONS.includes(payload.version)) {
     throw new Error("unsupported backup version");
   }
   const profile = await createProfile({
@@ -80,12 +89,21 @@ export async function importProfile(
     votesImported = voteResult.imported;
     votesSkipped = voteResult.skipped;
   }
+  let takesImported = 0;
+  let takesSkipped = 0;
+  if (payload.takes) {
+    const takeResult = await importTakes(profile.id, payload.takes);
+    takesImported = takeResult.imported;
+    takesSkipped = takeResult.skipped;
+  }
   return {
     profile,
     imported: statusResult.imported,
     skipped: statusResult.skipped,
     votes_imported: votesImported,
     votes_skipped: votesSkipped,
+    takes_imported: takesImported,
+    takes_skipped: takesSkipped,
   };
 }
 

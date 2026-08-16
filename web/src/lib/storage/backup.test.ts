@@ -35,7 +35,7 @@ describe("profile backup", () => {
 
     const refreshed = (await listProfiles()).find((p) => p.id === original.id)!;
     const dump = await exportProfile(refreshed);
-    expect(dump.version).toBe(3);
+    expect(dump.version).toBe(4);
     expect(dump.profile.display_name).toBe("Hugo");
     expect(dump.profile.level).toBe(6);
     expect(Object.keys(dump.statuses.records)).toHaveLength(2);
@@ -124,12 +124,12 @@ describe("profile backup", () => {
     expect(rec.grade_source_at_record).toBe("dummy-v0");
   });
 
-  it("round-trips grade-disagreement votes through a v3 backup", async () => {
+  it("round-trips grade-disagreement votes", async () => {
     const p = await createProfile({ display_name: "Voter", level: 5 });
     await setVote(p.id, "x", "harder", { grade: "5", source: "dummy-v0" });
     await setVote(p.id, "y", "easier", { grade: "8", source: "dummy-v0" });
     const dump = await exportProfile(p);
-    expect(dump.version).toBe(3);
+    expect(dump.version).toBe(4);
     expect(Object.keys(dump.votes!.records)).toHaveLength(2);
 
     const result = await importProfile(dump);
@@ -166,5 +166,61 @@ describe("profile backup", () => {
     expect(result.votes_imported).toBe(0);
     expect(result.votes_skipped).toBe(0);
     expect(await loadAllVotes(result.profile.id)).toEqual({});
+  });
+
+  it("round-trips M8 practice takes through a v4 backup", async () => {
+    const { addTake, getTakes } = await import("./takes");
+    const p = await createProfile({ display_name: "Player", level: 4 });
+    await addTake(p.id, "piece-a", {
+      recorded_at: "2026-08-16T10:00:00.000Z",
+      duration_ms: 42000,
+      completed: false,
+      completion: 0.55,
+      furthest_bar: 21,
+      bar_count: 40,
+      median_tempo_ratio: 0.72,
+      total_restarts: 2,
+      mean_cost: 0.11,
+      capture_ratio: 0.98,
+      bars: [{ b: 0, a: 1, t: 0.9, h: 0, r: 0 }],
+      grade_at_record: "6",
+      grade_source_at_record: "dummy-v0",
+    });
+
+    const dump = await exportProfile(p);
+    expect(dump.version).toBe(4);
+    expect(dump.takes!.takes["piece-a"]).toHaveLength(1);
+
+    const result = await importProfile(dump);
+    expect(result.takes_imported).toBe(1);
+    expect(result.takes_skipped).toBe(0);
+
+    const restored = await getTakes(result.profile.id, "piece-a");
+    expect(restored).toHaveLength(1);
+    // The censoring flag has to survive the round trip — a take that
+    // reads as completed when it was abandoned would put a point
+    // estimate where a lower bound belongs. See ADR 0018.
+    expect(restored[0].completed).toBe(false);
+    expect(restored[0].completion).toBe(0.55);
+    expect(restored[0].grade_source_at_record).toBe("dummy-v0");
+  });
+
+  it("accepts a v3 backup that has no takes field", async () => {
+    const { loadAllTakes } = await import("./takes");
+    const v3: any = {
+      version: 3,
+      exported_at: "2026-06-01T00:00:00.000Z",
+      profile: {
+        display_name: "PreTakes",
+        level: 5,
+        created_at: "2026-01-01T00:00:00.000Z",
+      },
+      statuses: { version: 2, records: {} },
+      votes: { version: 1, records: {} },
+    };
+    const result = await importProfile(v3);
+    expect(result.takes_imported).toBe(0);
+    expect(result.takes_skipped).toBe(0);
+    expect(await loadAllTakes(result.profile.id)).toEqual({});
   });
 });

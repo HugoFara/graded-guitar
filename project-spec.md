@@ -45,7 +45,6 @@ This is not a notation editor, not a tab repository, not a tutorial site. It is 
 The agent must not build, and must not be asked to build, any of the following before the MVP is shipped and validated:
 
 - Optical Music Recognition (PDF/photo → notation). Long-term goal; not in MVP.
-- Audio listening / pitch detection / "did the user play it correctly" feedback.
 - Fingering suggestion or automated annotation.
 - Genres other than classical guitar (no fingerstyle pop, no VGM, no other instruments).
 - Mobile native apps (iOS/Android). Web only, responsive layout acceptable.
@@ -54,6 +53,14 @@ The agent must not build, and must not be asked to build, any of the following b
 - Monetization, subscriptions, premium tiers. The project is FOSS and free at the point of use.
 - Notation editing. Read-only display.
 - Offline mode / PWA installation.
+
+**Amendment (2026-08-16).** This list previously read *"Audio listening / pitch detection / 'did the user play it correctly' feedback."* That non-goal is withdrawn and replaced by Milestone 8 (§7). Rationale in ADR [0018](./decisions/0018-microphone-score-following.md): the ban was written against mic listening as a *practice-feedback feature*; M8 adopts it as a *measurement instrument* aimed at the project's actual bottleneck — the absence of real difficulty labels (§5, ADR 0010, ADR 0013).
+
+The withdrawal is bounded. Still explicitly out of scope, and still non-goals:
+
+- Assessment of *playing quality* — tone, dynamics, articulation, musicality. M8 measures where a player's timing departs from the score, not whether they played it well.
+- Any scoring, grading, or ranking of the **user**. The output is a difficulty estimate of the **piece**.
+- Pitch-correction, ear-training drills, or gamified accuracy scoring.
 
 Any feature request matching the above is deferred to post-MVP roadmap (§9). Log the request; do not implement.
 
@@ -253,13 +260,47 @@ The pipeline is source-pluggable (`corpus/candidates.*.json` glob; per-source di
 - [ ] Monitoring alerts work (verified by deliberately triggering one).
 - [ ] Database backups exist and have been test-restored once.
 
+### Milestone 8 — Performance capture and stumble mapping
+
+**Ordering exception.** M8 does *not* wait for M7. It is numbered last only so the existing M0–M7 numbering — referenced throughout `/decisions` — stays stable. M8 runs in parallel starting now, because its output feeds M2, which is the milestone currently blocked. See ADR [0018](./decisions/0018-microphone-score-following.md).
+
+**Goal:** the platform can listen to a player through the microphone, follow their position in the score in real time, and produce a per-bar record of where they hesitated, slowed, stopped, or restarted. That record is a difficulty measurement of the piece.
+
+**Why this exists.** §5 makes a musical advisor a hard dependency for M2, and the advisor has not materialized (ADR 0004, 0010, 0013). Meanwhile the only human able to grade today is the product owner, whose playing level does not cover the upper half of the corpus. A stumble map converts "can this person play this piece, and where does it break down" into data, at a resolution no rating form reaches, from any player at any level.
+
+**The confound, and how it is handled.** A stumble map measures the *interaction* of piece and player, not the piece. With a single player, piece difficulty and player ability are not separately identifiable, and every piece above the player's ceiling collapses to the same reading. Three mitigations, all required:
+
+- **Anchor calibration.** The player first records pieces whose community grade is already settled (the anchor table in `corpus/m2_grading_worksheet.md`). Those pin a personal difficulty curve to the public 1–10 scale.
+- **Ceiling as a censored observation.** Pieces above the player's ceiling yield a lower bound ("≥ ceiling"), recorded as such and never as a point estimate.
+- **Multiple players.** M6 beta participants at differing declared levels break the confound properly. M8's data model must therefore be per-`(player, piece)` from the start, never per-piece.
+
+**Deliverables:**
+- Microphone capture in the browser, with explicit opt-in and a clear statement of what is and is not transmitted.
+- Real-time score following: a cursor that tracks the player's position through the notation, tolerant of hesitation, tempo drift, skipped passages, and restarts.
+- Offline re-alignment of a completed take, used for all recorded measurements — the live cursor is a display, not the measurement.
+- Per-bar performance record: local tempo relative to the score, hesitations, stops, restarts, and an alignment-confidence value.
+- Take history per (profile, piece), exported in the same backup as statuses and votes.
+- A difficulty estimate derived from the stumble map, anchor-calibrated, with the censoring rule applied above the player's ceiling.
+
+**Validation checks:**
+- [ ] Microphone access is opt-in, revocable, and never engaged without an explicit user action.
+- [ ] Audio does not leave the browser. Stated in the privacy note (§ M5) and verifiable by inspection.
+- [ ] On a deliberately perturbed synthetic performance with known ground truth, the aligner localizes an injected hesitation, tempo change, and restart to within ±1 bar.
+- [ ] On a real recorded take, the offline alignment agrees with hand-annotated bar positions on at least 90% of bars.
+- [ ] The live cursor stays within ±1 bar of the player's true position for a clean run-through of a piece at their level.
+- [ ] Recorded takes carry the grade context at capture time, matching the ADR 0013 snapshot rule.
+- [ ] Anchor calibration reproduces the known grades of the anchor pieces within ±1.
+- [ ] Pieces above the player's ceiling are recorded as bounds, not point estimates — verified by inspection of the stored records.
+
+**Stop condition:** if the aligner cannot hit the ±1 bar synthetic target, the stumble map is measuring the tracker rather than the player. Do not feed its output into M2 labels; fix alignment first or abandon the milestone.
+
 ---
 
 ## 8. Definition of done for the MVP
 
 The MVP is complete when, and only when, all of the following are true:
 
-- [ ] All seven milestones' validation checks pass.
+- [ ] All of M0–M7's validation checks pass. M8 is deliberately excluded: it is an instrument for producing M2's labels, not a user-facing MVP requirement. The MVP can ship without a microphone feature; it cannot ship without credible grades.
 - [ ] A new user can land on the site, choose a level, find a piece, play it through with loop and tempo controls, mark it "playing," and return the next day to find it in their library.
 - [ ] The musical advisor has signed off in writing on grading quality, notation rendering, and overall pedagogical soundness.
 - [ ] The repository is public, the license is in place, and a contributor guide exists.

@@ -206,6 +206,13 @@
         />
       </label>
       <button onclick={toggleTab}>{showTab ? "Hide tab" : "Show tab"}</button>
+      <a
+        class="practice-link"
+        href="#/practice/{encodeURIComponent(piece.candidate_id)}"
+        title="listen through your microphone and follow along"
+      >
+        Practice with mic
+      </a>
       <span class="loop" class:active={loopActive}>
         Loop bars
         <input
@@ -290,6 +297,14 @@
     align-items: center;
     gap: 0.4rem;
     font-size: 0.85em;
+  }
+  .practice-link {
+    font-size: 0.85em;
+    padding: 0.25rem 0.6rem;
+    border: 1px solid var(--accent);
+    border-radius: 999px;
+    color: var(--accent);
+    text-decoration: none;
   }
   .loop {
     display: flex;

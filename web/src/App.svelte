@@ -9,6 +9,7 @@
   import Profile from "./routes/Profile.svelte";
   import Library from "./routes/Library.svelte";
   import Privacy from "./routes/Privacy.svelte";
+  import Practice from "./routes/Practice.svelte";
   import { getActiveProfileSync } from "./lib/storage/profile";
 
   const routes = {
@@ -20,6 +21,7 @@
     "/profile": Profile,
     "/privacy": Privacy,
     "/piece/:cid": PieceDetail,
+    "/practice/:cid": Practice,
   };
 
   let activeName = $state<string | null>(null);

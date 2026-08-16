@@ -32,11 +32,57 @@
       were reacting to. The vote stays on this browser unless you
       send it yourself (see <em>Sharing signals</em> below).
     </li>
+    <li>
+      <strong>Practice takes</strong> — if you use the microphone
+      feature, we keep a per-bar summary of the take: how many attempts
+      each bar took, how your timing compared to the written tempo,
+      where you paused, and where you started over. See
+      <em>The microphone</em> below.
+    </li>
   </ul>
   <p>
     That data is keyed under the prefix <code>gradedGuitar.</code> in
     your browser's storage. You can inspect or delete it yourself
     using your browser's developer tools.
+  </p>
+
+  <h3>The microphone</h3>
+  <p>
+    The practice feature listens through your microphone to work out
+    where you are in the score. Specifically:
+  </p>
+  <ul>
+    <li>
+      <strong>It is off unless you turn it on.</strong> The microphone is
+      only ever engaged when you click <em>Start listening</em> on a
+      practice page, and your browser will ask permission the first
+      time. Closing or leaving the page releases it.
+    </li>
+    <li>
+      <strong>Your audio never leaves this browser.</strong> There is no
+      server to send it to. All the analysis runs on your machine.
+    </li>
+    <li>
+      <strong>The recording is not kept.</strong> Audio is converted, as
+      it arrives, into twelve numbers per twentieth of a second
+      describing which pitches are sounding. That summary is what the
+      score follower reads, and the audio it came from is discarded
+      immediately. Speech is not recoverable from it, and neither is
+      the music.
+    </li>
+    <li>
+      <strong>What is saved is the per-bar summary</strong> described
+      above — timing, pauses and restarts — not the pitch stream and not
+      the audio.
+    </li>
+  </ul>
+  <p>
+    Why we built this at all: the site's difficulty grades are still
+    placeholders, and where a real player hesitates is a far better
+    measure of how hard a piece is than anyone's guess. The output is a
+    difficulty estimate <em>of the piece</em>. We are not scoring you,
+    and we do not detect wrong notes — see
+    <a href="https://github.com/HugoFara/graded-guitar/blob/main/decisions/0018-microphone-score-following.md" target="_blank" rel="noopener">ADR 0018</a>.
   </p>
 
   <h3>What we do NOT store</h3>
@@ -45,6 +91,7 @@
     <li>No IP addresses or device fingerprints (we don't run an analytics tool).</li>
     <li>No cookies for tracking or advertising.</li>
     <li>No data on any server we operate (today, there is no server).</li>
+    <li>No audio recordings, and no raw microphone data of any kind.</li>
   </ul>
 
   <h3>Hosting</h3>
@@ -86,8 +133,9 @@
     </li>
     <li>
       The file contains everything we store about you: display name,
-      level, every status and grade-vote record. Read it before
-      sending if you'd like to confirm what it contains.
+      level, every status and grade-vote record, and any practice-take
+      summaries. Read it before sending if you'd like to confirm what
+      it contains.
     </li>
   </ul>
   <p>
