@@ -94,7 +94,7 @@ reviewed and edited the body / signature.
 >
 > Best,
 > Hugo Farajallah
-> hugo.farajallah@unige.ch
+> github@hugofara.net
 > github.com/HugoFara/graded-guitar
 
 ## Edit notes (for Hugo before sending)

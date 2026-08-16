@@ -9,7 +9,7 @@ maintainer. Revise once the beta is actually running.
 1. **GitHub issues** with the `m6-beta` label — created via
    `.github/ISSUE_TEMPLATE/beta-feedback.yml`. The structured fields
    make these the easiest to triage.
-2. **Direct email** to `hugo.farajallah@unige.ch` — including
+2. **Direct email** to `github@hugofara.net` — including
    "Share signals" attachments. File a stub issue for the email
    thread so triage notes have one home.
 3. **In-app grade votes** — these don't need triage individually;

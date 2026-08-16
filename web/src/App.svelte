@@ -84,7 +84,7 @@
       target="_blank"
       rel="noopener">File beta feedback ↗</a>
     or email
-    <a href="mailto:hugo.farajallah@unige.ch?subject=graded-guitar%20beta%20feedback">hugo.farajallah@unige.ch</a>.
+    <a href="mailto:github@hugofara.net?subject=graded-guitar%20beta%20feedback">github@hugofara.net</a>.
   </p>
 </footer>
 

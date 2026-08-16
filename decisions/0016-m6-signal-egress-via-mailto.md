@@ -40,7 +40,7 @@ the additional privacy surface.
 
 1. **The "Share signals…" button on `/profile` does a download +
    mailto.** No upload endpoint. The user is the one who clicks
-   Send. The mail goes to `hugo.farajallah@unige.ch`.
+   Send. The mail goes to `github@hugofara.net`.
 
 2. **Strictly opt-in.** The default M6 user never sends anything.
    The privacy note (M5 deliverable §5) is updated to call out the

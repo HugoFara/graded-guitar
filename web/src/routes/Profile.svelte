@@ -126,7 +126,7 @@
   //
   // This is the only outbound channel for user library data. It must
   // stay strictly opt-in. See the privacy note for what's in the file.
-  const SIGNAL_TO = "hugo.farajallah@unige.ch";
+  const SIGNAL_TO = "github@hugofara.net";
 
   async function shareSignals(p: Profile) {
     await downloadBackup(p);

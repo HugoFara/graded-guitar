@@ -65,4 +65,4 @@ body:
     attributes:
       label: "Optional: share your library JSON for grader signal"
       options:
-        - label: "I've sent (or am about to send) my library JSON to <hugo.farajallah@unige.ch> via the **Share signals…** button on the profile page."
+        - label: "I've sent (or am about to send) my library JSON to <github@hugofara.net> via the **Share signals…** button on the profile page."

@@ -158,7 +158,7 @@
   <h3>Contact</h3>
   <p>
     Questions or concerns:
-    <a href="mailto:hugo.farajallah@unige.ch">hugo.farajallah@unige.ch</a>.
+    <a href="mailto:github@hugofara.net">github@hugofara.net</a>.
   </p>
   <p>
     Have classical-guitar MusicXML you've typeset and would be
