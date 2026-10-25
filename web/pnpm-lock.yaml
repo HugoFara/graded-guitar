@@ -12,8 +12,8 @@ importers:
         specifier: ^1.8.4
         version: 1.8.4
       svelte-spa-router:
-        specifier: ^4.0.2
-        version: 4.0.2
+        specifier: ^5.1.1
+        version: 5.1.1(svelte@5.57.2)
     devDependencies:
       '@coderline/alphatab-vite':
         specifier: ^1.8.4
@@ -560,8 +560,10 @@ packages:
       svelte: ^4.0.0 || ^5.0.0-next.0
       typescript: ^5.0.0 || ^6.0.0
 
-  svelte-spa-router@4.0.2:
-    resolution: {integrity: sha512-T1WYYk+ymwCr5m5U+n91k4dRAT6cw5HgmoPaI/TpKgAmuugymFoSBlfzkcKIK83QH4H8gUMn4tdQ0B9enFBM6g==}
+  svelte-spa-router@5.1.1:
+    resolution: {integrity: sha512-/9PiiyS2jQIXlP+NlKRcPl/Bgwm6WTCTmJq8TZw5IShEbozwcfpX2V3YEL4lAVgJJ2Ni+ipAH7aYVEupeNwtHA==}
+    peerDependencies:
+      svelte: ^5.0.0
 
   svelte@5.57.2:
     resolution: {integrity: sha512-1YiPCAXT0Ct6g1vOMmSLa0Nsc3QRMvtDF32ihgglGVrugIuIK38RyDiFNXVDhtQ81TJjSO57NdMw6DyYLqSGDQ==}
@@ -1137,9 +1139,10 @@ snapshots:
     transitivePeerDependencies:
       - picomatch
 
-  svelte-spa-router@4.0.2:
+  svelte-spa-router@5.1.1(svelte@5.57.2):
     dependencies:
       regexparam: 2.0.2
+      svelte: 5.57.2
 
   svelte@5.57.2:
     dependencies:
