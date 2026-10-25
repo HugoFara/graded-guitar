@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@coderline/alphatab": "^1.8.4",
-    "svelte-spa-router": "^4.0.2"
+    "svelte-spa-router": "^5.1.1"
   },
   "devDependencies": {
     "@coderline/alphatab-vite": "^1.8.4",
